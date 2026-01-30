@@ -1,0 +1,183 @@
+{
+  "C02C8NDMA": {
+    "id": "C02C8NDMA",
+    "name": "hellotech",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "After deployments announcements are moved to <#C023TEE4EF7|> this channels is meant for all announcements, e.g., vacant seats for upcoming events, quick reminders, AMA, platform, and data platform announcements.",
+    "purpose": "Work conversations for the DevTeam. Feel free to eavesdrop!",
+    "num_members": 0
+  },
+  "C03DDD4R537": {
+    "id": "C03DDD4R537",
+    "name": "squad-nv-good-chop",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "Our squad is responsible for Good Chop initiatives. Please submit issues via /new_issue and questions via /new_question\n\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s firefighter.",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C044FCN7C6P": {
+    "id": "C044FCN7C6P",
+    "name": "squad-rte-systems",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "Please use the /new_issue Slack command to raise questions &amp; issues for domains owned by the RTE Systems Squad, listed here: <https://hellofresh.atlassian.net/l/cp/U9HR7ypp>",
+    "purpose": "Channel for the RTE System Squad, focusing on powering the infrastructure of Ready-to-Eat (previously Localization Squad)\n\nFull list of owned services: <https://hellofresh.atlassian.net/l/cp/U9HR7ypp>",
+    "num_members": 0
+  },
+  "C046QQ3TVJ5": {
+    "id": "C046QQ3TVJ5",
+    "name": "freshcampus-r16-announcements",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "All about our new building in Berlin-Ritterstraße!",
+    "num_members": 0
+  },
+  "C04BLF3PYKD": {
+    "id": "C04BLF3PYKD",
+    "name": "product-updates-funnel",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "Communication about rollouts in the funnel of International markets, HelloFresh brand will be done through this channel",
+    "num_members": 0
+  },
+  "C04FVDBJZCK": {
+    "id": "C04FVDBJZCK",
+    "name": "squad-nv-pet-food",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "Please submit questions via /new_question, and issues via /new_issue! Tag <!subteam^S05K3MZSD55> for support",
+    "purpose": "A place to host all questions and discussions for launching The Pets’ Table in USA.",
+    "num_members": 0
+  },
+  "C04QG9G93S9": {
+    "id": "C04QG9G93S9",
+    "name": "Unknown (C04QG9G93S9)",
+    "error": "channel_not_found"
+  },
+  "C051JSUAE10": {
+    "id": "C051JSUAE10",
+    "name": "Unknown (C051JSUAE10)",
+    "error": "channel_not_found"
+  },
+  "C05C4G5D3B8": {
+    "id": "C05C4G5D3B8",
+    "name": "new-ventures-crm",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C06CE7FB951": {
+    "id": "C06CE7FB951",
+    "name": "tribe-new-ventures-internal",
+    "is_private": true,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C06CT0185T3": {
+    "id": "C06CT0185T3",
+    "name": "tribe-new-ventures-leads-internal",
+    "is_private": true,
+    "is_archived": false,
+    "topic": "Internal leads channel for New Ventures Tribe",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C07E0P0GW01": {
+    "id": "C07E0P0GW01",
+    "name": "web-repo-announcements",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "This is announcement only channel, for question use <#C0125D6G44U|>",
+    "purpose": "Please do not post anything here unless it's an announcement. For general questions, use <#C0125D6G44U|>",
+    "num_members": 0
+  },
+  "C08KM5T319V": {
+    "id": "C08KM5T319V",
+    "name": "cancellation-funnel-compliance-us",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "PRD: <https://docs.google.com/document/d/1HqQqt4dM4HPdamJlRc0GxxiMGiv5dU4HFt5klSjn4vE/edit?tab=t.0>",
+    "num_members": 0
+  },
+  "C08KU0F8EF4": {
+    "id": "C08KU0F8EF4",
+    "name": "tribe-new-ventures-product",
+    "is_private": true,
+    "is_archived": false,
+    "topic": "",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C087X11S06A": {
+    "id": "C087X11S06A",
+    "name": "consumer-core-dplat-clients",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "<!subteam^S034EJAMMGD> outbound (news) channel; please use <#C047YESJ7GW|> for inbound communication with us.",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C09DP0G2YP9": {
+    "id": "C09DP0G2YP9",
+    "name": "subscribable-addons_nv-crm",
+    "is_private": false,
+    "is_archived": true,
+    "topic": "",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C09NKC5J2GL": {
+    "id": "C09NKC5J2GL",
+    "name": "squad-market-io",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "Use the /new_question Slack command for any questions, issues, or support related to our services. For market launch inquiries, use /launch-ask. Thanks!",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C09PZNHBH9D": {
+    "id": "C09PZNHBH9D",
+    "name": "temp-demo-session-nov-6th",
+    "is_private": false,
+    "is_archived": true,
+    "topic": "",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C09QXQC2C7Q": {
+    "id": "C09QXQC2C7Q",
+    "name": "squad-rte-vms-business-metrics",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "A channel that collects daily LLM-driven business reports",
+    "purpose": "",
+    "num_members": 0
+  },
+  "C0125D6G44U": {
+    "id": "C0125D6G44U",
+    "name": "squad-web-foundation",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "Please use the /new_issue and /new_question command to report issues or ask questions.",
+    "purpose": "Istio Dashboard: <http://grafana.live-k8s.hellofresh.io/d/Tgz6LmJMk/web-infra-istio-dashboard?orgId=1&amp;refresh=1m>\n\nSSR Health Dashboard: <https://grafana.live-k8s.hellofresh.io/d/NmerkI1Gk/web-infra-ssr-monitoring?orgId=1>",
+    "num_members": 0
+  },
+  "CD3KBK63Y": {
+    "id": "CD3KBK63Y",
+    "name": "it-cap",
+    "is_private": false,
+    "is_archived": false,
+    "topic": "All questions about the IT Capitalisation process",
+    "purpose": "",
+    "num_members": 0
+  }
+}

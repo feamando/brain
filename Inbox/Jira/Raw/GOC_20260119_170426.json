@@ -1,0 +1,2028 @@
+{
+  "project_key": "GOC",
+  "squad_name": "Good Chop",
+  "extracted_at": "2026-01-19T17:04:26.193087+00:00Z",
+  "issue_count": 68,
+  "issues": [
+    {
+      "key": "GOC-3468",
+      "summary": "Update OTP prices on CCM",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Alexander Matlin",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3467",
+      "summary": "[Cleanup & Rollout] [Technical Health] Foundational funnel optimization",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Automation for Jira",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3465",
+      "parent_summary": "[Technical Health] Foundational funnel optimization",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3466",
+      "summary": "[QA Plan] [Technical Health] Foundational funnel optimization",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Automation for Jira",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3465",
+      "parent_summary": "[Technical Health] Foundational funnel optimization",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3465",
+      "summary": "[Technical Health] Foundational funnel optimization",
+      "description": "",
+      "issue_type": "Epic",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3424",
+      "summary": "[Reminder]: CRM should create OTP email journeys",
+      "description": "",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Beatrice Dimarucut",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-12-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3410",
+      "summary": "[SubscriptionLoading] useOrderConfirmationData recipe transformation",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nImplement the recipe transformation in the {{useOrderConfirmationData}} hook to prepare order items for UI display, using the data provided by {{useCustomerOneTimeOrder}}.\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n*Goal:* Transform {{order.items}} into a flat {{DisplayRecipe[]}} array for UI.\n\n*Responsibilities:*\n\n# Flatten {{customer_selections}} in {{order.items}}.\n# Extract recipe details from {{menuItem.recipe}}.\n# Populate {{DisplayRecipe[]}} array with:\n#* {{image}}\n#* {{name}}\n#* {{quantity}}\n# Update {{useOrderConfirmationData}} to include {{recipes}}.\n# Update {{isEmpty}} flag based on {{recipes}} array.\n\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria:*\n\n* {{recipes}} array ready for UI.\n* {{isEmpty}} accurately reflects if recipes exist.\n{panel}",
+      "issue_type": "Task",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Nvard Yeritsyan",
+      "created": "2025-12-01",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "XSELL-419",
+          "summary": "[Post Checkout] [Order Summary] Modify fetch menu function in reactivations bff"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3060",
+      "summary": "[QA Plan] One Time Purchase",
+      "description": "",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Automation for Jira",
+      "created": "2025-08-12",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3405",
+      "summary": "[Dashboard] - Test tracking link on live order and tracking page",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThis ticket is to make sure that the tracking page and tracking link are correctly configured for Good Chop\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical information*\n\nIn case tracking link is not working for Good Chop we might need another ticket for adding the brand switch to reactivation-bff\n\nThread: [https://hellofresh.slack.com/archives/C07RG6TURU7/p1763975224199159|https://hellofresh.slack.com/archives/C07RG6TURU7/p1763975224199159|smart-link] \n[~accountid:712020:594d1748-0a49-4a64-bbe1-4cd4f47a8dea] can assist with connecting to the person responsible for TIS pages and in case the brand switch is required \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# Tracking link, when available, works for Good Chop\n# Tracking page displays correct information with Good Chop visuals \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Beatrice Dimarucut",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "Testing tracking link with a live OTP order\n[https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768300344809249?thread_ts=1768299328.519549&cid=C0A3TV1MM5Z|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768300344809249?thread_ts=1768299328.519549&cid=C0A3TV1MM5Z|smart-link] ",
+          "created": "2026-01-13"
+        }
+      ],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3404",
+          "summary": "[Dashboard] - Create tracking button and rendering logic"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3452",
+      "summary": "Logged in customers with OTP should see option to re-order OTP in Plans",
+      "description": "{panel:bgColor=#deebff}\nProspects who already checked out with an OTP order should be able to always see the option to re-order OTP on Plans *if they are logged in*\n\nLogged out, it’s expected that they can still get allocated to either Control or Variation depending on public ID\n\n\n{panel}\n\n{panel:bgColor=#fffae6}\nTo check:\n\n* Can we do this via Statsig? i.e. ensure ‘stickiness’ if users are already logged in (even though the experiment is allocating based on public ID) → if not clear/easy, base it on logic if user is logged in + has OTP SKU (Pame’s idea)\n{panel}\n\n{panel:bgColor=#e3fcef}\n* If user is logged in + already checked out with an OTP SKU → they should always see the OTP variation (option to re-order OTP) in Plans\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-14",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3461",
+      "summary": "Add a voucher code into the \"wl-checkout-submit-otp\" trace",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nWe need to pass a voucher code that a user had on the plans page for subscription. When the user selected the OTP option, we hide the voucher, but we should pass it to the {{wl-checkout-submit-otp}} trace to track performance of the marketing campaigns.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* The {{wl-checkout-submit-otp}} trace contains a {{campaign}}{{.voucherCode}} attribute with the voucher code value that a customer had on the plans page for the subscription plans.\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical details*\n\nFile where the span is created: {{app/spaces/whitelabel/modules/whitelabel-web/packages/pages/checkout/src/pages/Payment.js}}\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-18",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3458",
+      "summary": "[UAT] No OTP Orders yet screen when OTP user checkouts and land on OTP dashboard",
+      "description": "{panel:bgColor=#deebff}\n*Context*:\nGiven that when a new user checkouts from one time order purchase. They should see an OTP order on the dashboard right away\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Current behaviour*:\nIt shows “No one time order yet” \n\n!Screenshot 2026-01-16 at 12.10.44 (1).png|width=302,alt=\"Screenshot 2026-01-16 at 12.10.44 (1).png\"!\n\n\nWhen user reloads the page then it’s show correctly \n\n\n!Screenshot 2026-01-16 at 12.15.33.png|width=302,alt=\"Screenshot 2026-01-16 at 12.15.33.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected Behaviour*:\nWhen the user checkouts and go to dashboard. It should show one time order purchase instantly \n{panel}",
+      "issue_type": "Bug",
+      "status": "In Review",
+      "priority": "High",
+      "assignee": "Madeeha Hasan",
+      "reporter": "Madeeha Hasan",
+      "created": "2026-01-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3460",
+      "summary": "[UAT] Correct %-based discount calculation on Plans",
+      "description": "{panel:bgColor=#deebff}\nWhen somebody has a %-based discount the calculation on the Subscribe & Save component is incorrect\n\nIn example below (Live), discount used is 95% off. Correct calculation is shown on the M/L/XL and order summaries, but the subscribe & save component calculates it as $149-95= $54\n\n!image (11).png|width=931,alt=\"image (11).png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n* Subscribe & save has correct calculation for %-based vouchers on Plans\n* The “headline” in subscribe & saev should also say “X% off your first order”\n\nStaging voucher: *PERCENT-OFF*\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3457",
+      "summary": "Perform substitutions in customer selections for W04 onward",
+      "description": "Clean up customer selections by performing the necessary substitutions for discontinued products starting from week W04 onward. This is to ensure that customers do not see unavailable products on the front end. Refer to the attachment provided by Seb Tron for details on the substitutions needed.\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C03DDD4R537/p1768506971690509?thread_ts=1768506971.690509&cid=C03DDD4R537]_._",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [
+        "KTLO"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "[^selection_replace_MR_2026-W04_MR-%_20260116164851.csv]\n\n",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3455",
+      "summary": "Auto select subscription option in plans page",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIn the plans page, the type of plan (subscription or OTP) is selected automatically after landing in the page. Currently, the auto selection changes depending on the last item selected by the customer. So seems it saves the last selection in the localStorage and then pulls that information on the next session.\n\nThe expected behavior is that it always auto select the subscription option.\n\n!otp-flow-plans.mov|width=640,alt=\"otp-flow-plans.mov\"!\n\n\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\n-\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nCustomer lands on /plans page and they see the option 'Subscription and Save' selected automatically\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Romina Nicastro",
+      "created": "2026-01-15",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6110de8f0b454a00685dd333] Note: I noticed that if somebody is logged in and they go to Plans with a subscription voucher attached already, the discount banners don’t show up because OTP is selected by default\n\nPeople only see the discount when they switch to subscription which is why it’s really important that we always auto-select subscription even if somebody chose OTP in the past\n\nWhen testing for this let’s make sure that test:\n\n* Subscription is selected automatically when click",
+          "created": "2026-01-19"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3370",
+      "summary": "Add trace for discount banner component rendering",
+      "description": "{panel:bgColor=#deebff}\nh2. *Description:*\n\nSince the voucher banner in the Funnel flow is a critical path, we need to add tracing to track when this component is rendered to catch issues of banner not being displayed. This will provide visibility into component lifecycle and help identify rendering issues.\n\nThis aims to cover the following critical path:\n\n{panel}\n\n|Flow|Expected behavior|Wrong behavior|\n|Checkout|Customer with voucher attached sees top discount banner in funnel indicating their discount amount (relevant for box discounts & free add on discounts)|Customer with voucher attached does not see top discount banner|\n\n{panel:bgColor=#e3fcef}\nh2. Acceptance Criteria\n\nTrace is added to component rendering that allows tracking when the banner is displayed (or not displayed) to customers, making it easier to diagnose banner visibility issues.\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Romina Nicastro",
+      "created": "2025-11-18",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3334",
+      "parent_summary": "[P0] Honeycomb Monitoring & Alerting",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "We would like to know if the banner is shown for customers, who have free benefits. If a customer has a free benefit, but the banner is not shown, we should be able to query such cases.",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3401",
+      "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe OTP orders list endpoint ([Reactivation-bff API|https://reactivation-bff.staging-k8s.hellofresh.io/docs/#]) returns all information related to OTP orders. \n\nUsing this endpoint, we need a hook to request and transform otp orders to make it ready for display on the OTP dashboard. \n\n!Screenshot 2025-12-03 at 21.01.41.png|width=312,height=389,alt=\"Screenshot 2025-12-03 at 21.01.41.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\nHook Name {{useOneTimeOrdersView}}\nPath {{app/spaces/whitelabel/modules/whitelabel-web/packages/pages/one-time-deliveries/hooks}}\n\n*Endpoint* : [GET /one-time-orders|https://reactivation-bff.staging-k8s.hellofresh.io/docs/#/OneTimeOrders/one-time-orders], \n*Request payload*  \n\n{noformat}// query-params\n{\n\"locale\": \"en-US\"\n\"country\": \"US\" \n\"brand\": \"goodchop\" \n}{noformat}\n\n[data access|https://github.com/hellofresh/web/blob/4cb83e7b0f366f1302fffb807fc5b5aee3294df4/app/data-access/customer-orders/one-time-orders.ts] \n_TBC - do we need to use pagination_ [_function_|https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts#L53] _from data-access_\n\nADR - [OTP orders list|https://docs.google.com/document/d/1qzdNY_ihbVD53CfF1k0R8DggUeiLITcrPSabQ9-vfTI/edit?tab=t.0#heading=h.cktsice435iz]\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# Hook {{useOneTimeOrdersView}} is created in {{app/spaces/good-chop/modules/one-time-deliveries/OneTimeDeliveriesRoot.tsx}}\n# Information required by [design|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40893&m=dev] is organised and returned by this hook\n## Hook fetches data using {{useCustomerOneTimeOrders}}\n## DeliveryDetails\n### All date strings are formatted correctly\n### Map the correct status i.e Arriving, Delivered\n## Total cuts amount \n## Pricing Info\n## Product/Cut Selection\n### Each cut selection includes: \n#### image, \n#### name, \n#### size information\n#####  Size strings formatted",
+      "issue_type": "Task",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "TBC : how we use status in the order in conjunction with tracking status",
+          "created": "2025-12-04"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "_To check:_\n\nWhat is the current logic in the dashboard? Are we reflecting our ‘internal’ state/definition of whether a box is delivered or are we considering the actual tracking status from logistics of whether something is truly delivered? How do they do it for HF OTP orders?\n\nIn general we should follow same logic as in dashboard and if we want to imporve in the future to actually reflect tracking status of couriers we can do it later",
+          "created": "2025-12-04"
+        }
+      ],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3403",
+          "summary": "[Dashboard] - Keep first order open by default in orders list"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3400",
+          "summary": " [Dashboard] - Fetch OTP orders in the new OTP dashboard page"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3404",
+          "summary": "[Dashboard] - Create tracking button and rendering logic"
+        },
+        {
+          "type": "is blocked by",
+          "key": "XSELL-419",
+          "summary": "[Post Checkout] [Order Summary] Modify fetch menu function in reactivations bff"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3364",
+      "summary": "[SubscriptionLoading] Create OTP Confirmation Component (UI only)",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate a dedicated {{OTPConfirmation}} component to display order confirmation message for OTP (One-Time Purchase) orders. This component will be used instead of the subscription {{Confirmation}} component to show OTP-specific content.\n\n* !Screenshot 2025-12-16 at 14.53.10.png|width=668,height=727,alt=\"Screenshot 2025-12-16 at 14.53.10.png\"!\nNo need to carry over free cut banners, welcome kit, etc.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nLanding on /subscription-loading after successful OTP order creation, i can see a confirmation of my OTP order including the selected cuts and pricing information\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:594d1748-0a49-4a64-bbe1-4cd4f47a8dea] [~accountid:5f453b94fcaf93003bf87481] we cannot use the existing Order Confirmation [component|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=9679-53120&m=dev] for OTP because its built for subscription. \n\nI think it makes sense to make a condensed version acknowledging the order creation, and we should be able to pull in the order details directly from the OTP orders endpoint. This is what's return",
+          "created": "2025-11-17"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:423d4752-7f60-426b-87aa-33be2af37567] can you share the design here once its ready ?",
+          "created": "2025-11-27"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] to fill in with design",
+          "created": "2025-12-02"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "XSELL-419",
+          "summary": "[Post Checkout] [Order Summary] Modify fetch menu function in reactivations bff"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3347",
+      "summary": "UI Revamp Delivery Banner",
+      "description": "{panel:bgColor=#deebff}\nOur Delivery Banner is a legacy component. Besides that, it lacks visual consistency and has a ‘not so appetizing’ background image. See BAU below.\n{panel}\n\n!Screenshot 2025-10-29 at 23.54.43.png|width=100%,alt=\"Screenshot 2025-10-29 at 23.54.43.png\"!\n\n{panel:bgColor=#e3fcef}\n* Migrate legacy component to Zest\n* Update visuals for consistency and enhance visual appeal\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Marina Guthmann",
+      "reporter": "Marina Guthmann",
+      "created": "2025-11-05",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "* Add a feature flag for the new delivery banner",
+          "created": "2025-11-06"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3232",
+      "summary": "[Cypress] Add cypress test for pre-checkout journey",
+      "description": "{panel:bgColor=#e3fcef}\nAcceptance criteria\n\nCreate a new test for OTP users:\n\n* Apply a voucher\n* Validate the entire journey \n* Validate the SKU in the subscription \n* Make sure the user pays full price, and the voucher is not applied\n* Make sure /cancel endpoint is called after check-out \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3213",
+          "summary": "[Subscription loading] Call cancellation endpoint "
+        }
+      ]
+    },
+    {
+      "key": "GOC-3445",
+      "summary": "[Checkout/Delivery] Remove stale address info created for OTP",
+      "description": "{panel:bgColor=#ffebe6}\n*Current Behaviour*\n\nThere’s an occurence of the PUT call being triggered incorrectly as a result of stale address info on local-storage. This blocks from being able to create an OTP order on checkout/payments\n\n!image-20260107-121319.png|width=91.66666666666667%,alt=\"image-20260107-121319.png\"!\n\n\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected Behaviour*\n\nStale address info on local-storage should be cleared, and should not trigger any calls to address save endpoints (POST or PUT)\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Himash Tehan",
+      "reporter": "Himash Tehan",
+      "created": "2026-01-07",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-13",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3437",
+      "summary": "Price-Menu Experiment",
+      "description": "{panel:bgColor=#deebff}\n[PRD|https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/edit-v2/5669912982]\n\nNo design changes - only configuration\n{panel}",
+      "issue_type": "Epic",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-12-29",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3464",
+      "summary": "Ticket breakdown for Price-menu experiment",
+      "description": "{panel:bgColor=#deebff}\n[PRD|https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/edit-v2/5669912982]\n\nNo design changes - only configuration\n{panel}\n\n{panel:bgColor=#e3fcef}\nTicket breakdown for Price-menu experiment\n\nConsider implementation and findings of POC done previously [GOC-3341|https://hellofresh.atlassian.net/browse/GOC-3341]\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3437",
+      "parent_summary": "Price-Menu Experiment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3463",
+      "summary": "Create specs with spec-machine",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3434",
+      "parent_summary": "Extend Value Communication [Spec-machine]",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3434",
+      "summary": "Extend Value Communication [Spec-machine]",
+      "description": "{panel:bgColor=#deebff}\nIn order to lower cancellation rates, our benefits communication in the Dashboard and in Cancellation Deflection should highlight the benefit for future boxes and should support all benefit types (cash credits, add on discounts). Other features can include highlighting benefits in terms of ‘total savings’ as well as directly displaying the value of free add on benefits.\n{panel}",
+      "issue_type": "Epic",
+      "status": "Design",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-12-29",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3442",
+      "summary": "Investigate required guards on OTP dashboard",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nContext : [https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1767603624949229?thread_ts=1766496612.566059&cid=C0A3TV1MM5Z|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1767603624949229?thread_ts=1766496612.566059&cid=C0A3TV1MM5Z]\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Scope and create tickets required to add guards to the /one-time-deliveries page\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Himash Tehan",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-05",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-14",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "*Current Behaviour*\nAs a logged-out customer, when navigating to [https://www-staging.goodchop.com/one-time-deliveries|https://www-staging.goodchop.com/one-time-deliveries], instead of re-directing to [https://www-staging.goodchop.com/login|https://www-staging.goodchop.com/login], the page is mounted and the page content is visible.\n\n!Screenshot 2026-01-06 at 11.07.05.png|width=1159,height=879,alt=\"Screenshot 2026-01-06 at 11.07.05.png\"!",
+          "created": "2026-01-06"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "Did a POC by by adapting the existing implementation of {{LoggedInUserGuard}} from the Seasonal Specials module, and the expected behaviour of getting re-directed when not logged-in works\n\n!Screen Recording 2026-01-06 at 11.31.49.mov|width=2712,height=2054,alt=\"Screen Recording 2026-01-06 at 11.31.49.mov\"!",
+          "created": "2026-01-06"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "Ticket created [https://hellofresh.atlassian.net/browse/GOC-3443|https://hellofresh.atlassian.net/browse/GOC-3443|smart-link] ",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3443",
+      "summary": "Add LoggedInUserGuard to Good Chop One-Time Deliveries Module ",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe {{/one-time deliveries}} page requires users to be authenticated and the scope of this ticket is to implement a {{LoggedInUserGuard}} for this route. This guard will wrap the existing {{OneTimeDeliveriesRoot}} component in [https://github.com/hellofresh/web/blob/master/app/pages/good-chop/one-time-deliveries/index.tsx|https://github.com/hellofresh/web/blob/master/app/pages/good-chop/one-time-deliveries/index.tsx] . \n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\nThe Seasonal Specials module ({{app/spaces/seasonal-specials/modules/main/guards/LoggedInUserGuard.tsx}}) has a similar authentication guard. that can be adapted for Good Chop's needs. \n\nThe guard for /one-time-deliveriesshould redirect to /login, example\n\n{noformat}      const loginUrl = `/login?redirect=${encodeURIComponent(redirectUrl)}`;\n      replace(loginUrl);{noformat}\n\nThe good-chop guard should redirect non-logged-in users to the login page with current path preserved\n\nTesting Considerations\n\n# Verify redirect behavior for non-authenticated users\n# Verify authenticated users can access protected content\n# Verify redirect URL is properly encoded and preserved\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* {{LoggedInUserGuard}} component is created in app/spaces/good-chop/modules/one-time-deliveries\n* Implementation is branched from {{app/spaces/seasonal-specials/modules/main/guards/LoggedInUserGuard.tsx}}\n* Non-logged-in users are redirected to {{/login?redirect={currentPath}}} (adapted from seasonal-specials pattern)\n* Logged-in users can access protected content without interruption\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Himash Tehan",
+      "created": "2026-01-06",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Romina Nicastro",
+          "body": "I think we can add another Guard for a few different scenarios (apart from the login one), depending on what would be the expected flow. For instance:\n\n* OTP customers and no subscription or no active subscription: they can access {{/one-time-deliveries}} page\n* OTP customers and active subscription: redirect to dashboard? Or they can access to OTP dashboard?\n* No OTP orders and subscription (active or cancelled): redirect to dashboard\n* No OTP orders and no subscription: redirect to plans page\n",
+          "created": "2026-01-08"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Note to self: guards impact whether people can access the OTP Dashboard eg if they type the URL manually from their browser\n\nUnlikely that someone who does _not_ have an OTP order would actually know/save the OTP Dashboard URL so not a must; more of an edge case since usually customers who click the good chop header will either stay on the funnel (logged out) or get redirected to My Deliveries with an active subscription",
+          "created": "2026-01-09"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3371",
+      "summary": "[Runbook] Update runbook for Reschedule alert",
+      "description": "{panel:bgColor=#deebff}\nh2. *Description:*\n\nThe runbook for the Reschedule alert ([https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/2yMaApkuoC1|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/2yMaApkuoC1]) contains a query with a span that no longer exists. The runbook needs to be updated with the correct query, and a PR should be created if necessary.\n{panel}\n\n{panel:bgColor=#e3fcef}\nh2. Acceptance Criteria\n\n* Reschedule alert runbook is updated with correct query that uses existing spans\n* PR is created and merged if needed to update the runbook\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Romina Nicastro",
+      "created": "2025-11-18",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3334",
+      "parent_summary": "[P0] Honeycomb Monitoring & Alerting",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-2553",
+      "summary": "SelectMeal_Submit event missing",
+      "description": "\n\n!image-20250117-130611.png|width=1749,height=412,alt=\"image-20250117-130611.png\"!\n\nHi team, it seems that after the GA4 migration the trigger for the [SelectMeals_Submit|https://iris.live-k8s.hellofresh.io/tracking/85361f6f5ff01b6c1e001d3350f85846/] event is missing. Could you please have a look?",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Alexandra Karathanou",
+      "created": "2025-01-17",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-2920",
+      "parent_summary": "Bugs/ UI Improvement",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3462",
+      "summary": "\"Edit your selection\" entrypoint is missing when customers re-order box",
+      "description": "{panel:bgColor=#deebff}\nOn the order summary in the Checkout pages (Delivery and Payment), customers should be able to see an “Edit your selection” entrypoint which would take them back to Select Cuts page\n\nThis seems to be missing for OTP - likely only when somebody re-orders OTP (please double check)\n\n!image-20260119-083434.png|width=326,alt=\"image-20260119-083434.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n* When a customer checks out with OTP,  “Edit your selection” entrypoint should be seen in Order Summary (similar to subscription flow)\n** This entrypoint is available the first time they check out with OTP (may already work)\n** and if they want to re-order OTP again\n* This entrypoint should take them back to Select Cuts page\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3459",
+      "summary": "[Plans Page] - Yellow banner shouldn't show",
+      "description": "{panel:bgColor=#deebff}\n*Description*\nWhen customer comes from graduation component on OTP dashboard to plans page and otp is selected by default the blue banner doesn’t show. \nInstead, when the customer changes to subscribe and save, there’s this yellow banner (the assumption is that this is the same as shown for subscription customers when they’re logged in and apply a voucher) \n\nThis banner doesn’t have discount information and it’s not possible to dismiss. For more information on the flow see video\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nYellow banner doesn’t show for otp customers making a second purchase\nBlue banner shows with the discount communication (this is already the case when the customer lands on plans page and subscribe and save is pre selected)\n\n{panel}\n\n!Screen Recording 2026-01-16 at 16.18.29.mov|width=2822,height=1504,alt=\"Screen Recording 2026-01-16 at 16.18.29.mov\"!\n\n!Blue-banner-should-appear.png|width=1307,height=827,alt=\"Blue-banner-should-appear.png\"!\n\n!yellow_banner_shoulndt_show.png|width=438,height=587,alt=\"yellow_banner_shoulndt_show.png\"!",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2026-01-16",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3454",
+      "summary": "Firefighter W02-03",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Romina Nicastro",
+      "created": "2026-01-14",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3449",
+      "summary": "Header entrypoint to /one-time-deliveries",
+      "description": "{panel:bgColor=#deebff}\nh3. Description\n\nThe task requires adding a new header entry titled \"One-time orders\" which is displayed exclusively for customers who are logged in with an OTP (One-Time Purchase) order. The requirements for this feature are as follows:\n\n* The \"One-time box\" header entry must be visible only when the user is logged in as an OTP customer.\n* The header entry should include a link that navigates the user to the OTP dashboard page when clicked.\n{panel}\n\n{panel:bgColor=#e3fcef}\nh3. Acceptance Criteria\n\n* “One-time box” header entry visible when logged in as an OTP customer only\n* \"One-time box\" link navigates to OTP dashboard page\n\n\n\nDesktop:\n\n!image-20260114-102522.png|width=720,alt=\"image-20260114-102522.png\"!\n\nMobile:\n\n!image-20260114-102603.png|width=337,alt=\"image-20260114-102603.png\"!\n\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2026-01-12",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Contentful entry for Desktop: segment_left-navigation-customer-no-subscriptions\n\n[https://app.contentful.com/spaces/hu5cciq6iak1/environments/master/entries/1pvEfXL3Mvgkg4qc6eHLcQ?focusedField=id|https://app.contentful.com/spaces/hu5cciq6iak1/environments/master/entries/1pvEfXL3Mvgkg4qc6eHLcQ?focusedField=id|smart-link] \n\nContentful entry for Mobile: segment_mobile-navigation-customer-no-subscription\n\n[https://app.contentful.com/spaces/hu5cciq6iak1/environments/master/entries/7u9guWIdbJAgZRosOO9",
+          "created": "2026-01-14"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "As per conversation with Nvard, the new link will be added by code.\n\nThe changes on contentful were reverted, the two segments don’t have any new link now and the new link was archived (/) ",
+          "created": "2026-01-15"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Finally the label with the text for the new header link\n\n[https://app.contentful.com/spaces/hu5cciq6iak1/entries/3SYMh16YCQ7bN3PpXF47Jf?focusedField=id|https://app.contentful.com/spaces/hu5cciq6iak1/entries/3SYMh16YCQ7bN3PpXF47Jf?focusedField=id|smart-link] ",
+          "created": "2026-01-15"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3224",
+      "summary": "[Preparation QA] Create new menu on staging",
+      "description": "{panel:bgColor=#deebff}\nUntil this point, for simplicity. We’ve been using the classic menu for our one-time purchase families. To prepare for our QA sessions and for the roll-out, we’d like to create a new menu for these families on staging and link them.\n{panel}\n\n{panel:bgColor=#e3fcef}\nAcceptance criteria\n\nIf the new menu doesn’t exist, create it on CCM staging for the upcoming two weeks.\n\nUpdate the OTP product families, so they start consuming the new menus.\n\nMake sure the user can select the cuts of the new menu\n{panel}\n\n{panel:bgColor=#fffae6}\nPATCH the product families using [http://products-service.staging-k8s.hellofresh.io//seeder/productFamilies/one-time-purchase-1?country=MR|http://products-service.staging-k8s.hellofresh.io//seeder/productFamilies/one-time-purchase-1?country=MR]\n\n{noformat}{\n    \"recipe_family\": \"name-of-the-family\"\n}{noformat}\n\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] this is now irrelevant since Seb created OTP menus on live right?",
+          "created": "2025-12-16"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Won’t Do since menus are on live",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3440",
+      "summary": "The \"mr_charge_at_checkout\" experiment is unhealthy",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe Statsig dashboard shows the [mr_charge_at_checkout|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_charge_at_checkout/diagnostics?type=relative&offset_days=0&label=Last+14+days&window_size=14] as Unhealthy.\n\n!CleanShot 2025-12-29 at 15.37.23-20251229-143745.png|width=2502,height=934,alt=\"CleanShot 2025-12-29 at 15.37.23-20251229-143745.png\"!\n\nRelated incident: [https://docs.google.com/document/d/1_d0MdpG1YE32pYnSCHeYmQfoHJjVT3Wtz1k3IQ_M5DA/edit?tab=t.0|https://docs.google.com/document/d/1_d0MdpG1YE32pYnSCHeYmQfoHJjVT3Wtz1k3IQ_M5DA/edit?tab=t.0|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* The experiment shouldn’t be marked as Unhealthy.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2025-12-29",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3317",
+      "parent_summary": "Charge at Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "h1. Fix Statsig \"No Values Checks\" Health Issue for mr\\_charge\\_at\\_checkout\nh2. Status: IMPLEMENTED ✓\n*Solution*: Added {{loadingStatus \\!== 'Ready'}} check in {{app/libs/experimentation\\-poc\\-statsig/decide.ts}}\n\nh2. Problem Summary\nThe {{mr\\_charge\\_at\\_checkout}} experiment on Statsig shows a *\"Group Assignment Health\" WARNING*:\n\\- *23.08% of checks return \"NoValues\"* \\- The SDK was initialized but didn't successfully get values\n\\- Exposure stream shows entries with {{Rule: Uninitialized}} a",
+          "created": "2025-12-29"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "Summary from [the thread|https://hellofresh.slack.com/archives/CJ5NL6LEQ/p1768238605167189?thread_ts=1767000918.770079&cid=CJ5NL6LEQ] with the Experimentation Core team:\n\n{quote}The core problem is that the experimentation SDK fails to load its configuration file in about 2% to 4% of initializations across all brands.\n\n* *Cause:* The configuration file is too large, and certain landing pages (like the plans page) are optimized to load it asynchronously via the network, which can time out after 1",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3341",
+      "summary": "POC: Price/menu experiment",
+      "description": "{panel:bgColor=#deebff}\nInitiative doc: [https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5669912982/Initiative+Price+Menu+Experimentation|https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5669912982/Initiative+Price+Menu+Experimentation|smart-link] \n\nThis POC will help validate the complexity of launching a price & menu experiment\n{panel}\n\n{panel:bgColor=#e3fcef}\n# Create an OTP Seamless SKU\n# Add menu items to the OTP menu\n# Validate the following behaviour and recommend if further Spike is needed:\n## does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) pre-checkout?\n## does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) +post+-checkout?\n## does upgrading the OTP Plan size (eg M to L) upgrade it to the BAU SKU or OTP SKU?\n## if you cancel and reactivate, do you reactivate on the BAU SKU or the OTP SKU?\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-11-03",
+      "updated": "2026-01-16",
+      "resolved": "2025-11-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3437",
+      "parent_summary": "Price-Menu Experiment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "# :Done: Create an OTP Seamless SKU - {{MR-OTP1-7-1-0}}\n# :Done: Add menu items to the OTP menu\n# Validate the following behaviour and recommend if further Spike is needed:\n## :Done: does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) pre-checkout?\n## :red_square: does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) +post+-checkout?\n### :Done: But correct OTP menu after seamless\n## :Done: does upgrading the OTP Plan size (e",
+          "created": "2025-11-05"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "!CleanShot 2025-11-06 at 11.51.55.mp4|width=2552,height=1204,alt=\"CleanShot 2025-11-06 at 11.51.55.mp4\"!",
+          "created": "2025-11-06"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3425",
+      "summary": "[Dashboard] - View order drawer and button",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIn the OTP order items list there’s a button that enables customers to see order details and pricing. The button opens a drawer that contains more information. All OTP orders have a view order button\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Designs* \nButton:\n[https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40901&m=dev|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40901&m=dev|smart-link] \nDrawer: \n[https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=11008-83450&m=dev|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=11008-83450&m=dev|smart-link] \n\nThe basic information for the drawer should already come from the OTP orders hook.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* Drawer and button appear on OTP orders list\n* Click on the view order triggers the drawer \n* Click on close, return to orders or outside of the drawer closes it \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-12-17",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Checking changes on [https://hellofresh.atlassian.net/browse/GOC-3414|https://hellofresh.atlassian.net/browse/GOC-3414|smart-link]  there is no need for more integration, as the main component is using the same View Order button \n\nI will keep the ticket on QA, to double check when that ticket is done",
+          "created": "2026-01-14"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Staging Desktp:\n\n!image-20260116-090929.png|width=614,alt=\"image-20260116-090929.png\"!\n\n\n\nStaging Mobile:\n\n!image-20260116-090912.png|width=614,alt=\"image-20260116-090912.png\"!\n\n\n\nStating Tablet:\n\n!image-20260116-090851.png|width=629,alt=\"image-20260116-090851.png\"!",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3448",
+      "summary": "[My-Deliveries] Show OTP Banner",
+      "description": "{panel:bgColor=#deebff}\nh3. Description\n\n* Show banner only if user has an upcoming OTP order on /my-deliveries\n* Handle CTA click navigation to OTP dashboard page\n\n*Related UI Ticket:* GOC-3377 - [Funnel/Plans] Create OTP Banner/Entrypoint component\n\n{panel}\n\n{panel:bgColor=#e3fcef}\nh3. Acceptance Criteria\n\n* Banner displays only when user has confirmed upcoming OTP order (not cancelled/delivered)\n* Banner text dynamically includes relevant order information if needed\n** \"See my order\" link navigates to OTP dashboard page\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Himash Tehan",
+      "created": "2026-01-12",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Live with regular account only subscription: \n\n!image-20260116-090243.png|width=629,alt=\"image-20260116-090243.png\"!\n\n\n\nOn Staging\n\nSubscription + OTP \n\n!image-20260116-090756.png|width=614,alt=\"image-20260116-090756.png\"!",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3456",
+      "summary": "Create SKU and product family for Valentine's Day offer",
+      "description": "Create the SKU and product family for the new Valentine's Day offer, which includes options for a free protein: Thick-Cut Ribeye Steak (2 x 14 oz), All-Natural, 100% Grass-Fed NY Strips (2 x 12 oz), or 100% Grass-Fed Filet Mignon (2 x 5 oz). Details can be found in the spreadsheet at Row 66: https://docs.google.com/spreadsheets/d/14p5tKaGb2v-KVnnj16GhHYVhncEdBeVPOIHvDwBA5TQ/edit?pli=1&gid=0#gid=0\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C08AJFC6A56/p1768494243243979]_._",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3400",
+      "summary": " [Dashboard] - Fetch OTP orders in the new OTP dashboard page",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIn the OTP orders page {{app/pages/whitelabel/one-time-deliveries}} the endpoint from reactivation_bff is called on page render through the {{useOneTimeOrdersView}} hook. \n\nWe will show a Header component containing a Title and Subtitle when data is available. \n\n!Screenshot 2025-12-03 at 20.24.13.png|width=376,height=81,alt=\"Screenshot 2025-12-03 at 20.24.13.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\n\nInstead of directly fetching the orders from the root component {{OneTimeDeliveriesRoot}}, let’s create a new component called {{OneTimeOrdersPage}} that will be called from the root.\n\n{noformat}/app/spaces/whitelabel/modules/whitelabel-web/packages/pages/one-time-deliveries/\n  ├── index.tsx                  # Root component with page guards\n  └── OneTimeOrdersPage.tsx      # Main component with UI logic{noformat}\n\nOn mount in {{OneTimeOrdersPage}}, the request to fetch one-time orders can be triggered\n\nPOC branch[https://github.com/hellofresh/web/tree/feature%2FGOC-3059|https://github.com/hellofresh/web/tree/feature%2FGOC-3059|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# On page load, the OTP orders are fetched in {{OneTimeOrdersPage}} component\n## Error and empty data are gracefully handled on OTP orders page\n### On Error\n### Empty Data\n# When data is present, a Title and Subtitle is shown on OTP orders page\n## *Title* : Your One-Time Orders\n## *Subtitle :* See and track upcoming and past one-time orders\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Madeeha Hasan",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "TBD : Skeleton loading for empty or error state",
+          "created": "2025-12-04"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "Clarifying few things: \nTech details section states new page component to be created within same folder {{OneTimeOrdersPage.tsx}}\n\nI saw Max created a seperate goc otp module [here|https://github.com/hellofresh/web/blob/b2778cb19fb72770d58e8f3f80d6b0e8b37159d1/app/spaces/good-chop/modules/one-time-deliveries/OneTimeDeliveriesRoot.tsx]. Should I continue creating component from here or we stick to folder structure mentioned in the ticket? \n\ncc: [~accountid:6194ece3ef18ca0071be68b2] [~accountid:61",
+          "created": "2026-01-05"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:633d57b3f568615bdc806bb2] thanks for raising this, yes we will use the new OTP module max created. This is right now mainly for the dashboard. \n\nCould you please update the ticket description where necessary?",
+          "created": "2026-01-05"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "Checklist for Localize: \n\n□ Step 1: Create Google Sheet with translations (use \"en\")\n□ Step 2: Submit Google Form (Tool = \"Lokalize\", Priority = Normal)\n□ Step 3: Create PR adding keys to groups-kv.json\n□ Step 4: Get PR approved by your team\n□ Step 5: Merge PR\n□ Step 6: Wait ~1 day for Lokalise sync\n□ Step 7: Verify translations in app/translations/goodchop/en-US/one-time-orders.json\n□ Step 8: Ship your feature!",
+          "created": "2026-01-07"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "[https://hellofresh.slack.com/archives/CTFFZ9JMA/p1766508133603449?thread_ts=1761122722.574619&cid=CTFFZ9JMA|https://hellofresh.slack.com/archives/CTFFZ9JMA/p1766508133603449?thread_ts=1761122722.574619&cid=CTFFZ9JMA]",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3399",
+          "summary": "[Dashboard] - Create new OTP Dashboard page"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3401",
+          "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint"
+        },
+        {
+          "type": "is blocked by",
+          "key": "XSELL-419",
+          "summary": "[Post Checkout] [Order Summary] Modify fetch menu function in reactivations bff"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3402",
+      "summary": "[Dashboard] - Create orders list and order items components",
+      "description": "{panel:bgColor=#deebff}\n*Description* \n\nThis ticket is for creation of UI components for the orders list in the dashboard page. \n\n!Screenshot 2025-12-03 at 16.05.45.png|width=989,height=555,alt=\"Screenshot 2025-12-03 at 16.05.45.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical details*\n\nOrder list is rendered based on the data returned by the {{useOneTimeOrdersView}} hook  [https://hellofresh.atlassian.net/browse/GOC-3401|https://hellofresh.atlassian.net/browse/GOC-3401] \n\nUse Zest Accordion\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nGiven a OTP order: \n\n# The list of orders is displayed \n# Each order is expandable \n# Order item components are ready to be rendered\n## Delivery Info\n## Selected cuts\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3403",
+          "summary": "[Dashboard] - Keep first order open by default in orders list"
+        },
+        {
+          "type": "contains",
+          "key": "GOC-3404",
+          "summary": "[Dashboard] - Create tracking button and rendering logic"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3414",
+      "summary": "[Mobile] Create Recipe Carousel component ",
+      "description": "{panel:bgColor=#deebff}\n*Description*\nInvolves the development of a carousel component for mobile viewport that will showcase recipes linked to OTP orders.\n\n!Screenshot 2026-01-08 at 06.01.35.png|width=424,height=482,alt=\"Screenshot 2026-01-08 at 06.01.35.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Recipe items are shown within a carousel for mobile viewport\n* Able to swipe navigate left and right \n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-02",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3402",
+      "parent_summary": "[Dashboard] - Create orders list and order items components",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:423d4752-7f60-426b-87aa-33be2af37567] this is the ticket for recipe carousel that you can try with FigmaMCP",
+          "created": "2025-12-02"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3451",
+      "summary": "Redirect customers to plans page after clicking on graduation component",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nWhen clicking on graduation component customers should be redirected to plans page with an attached voucher. \nThere will be one voucher for staging and one voucher for live. \n\nStaging voucher: GCSOTG (already created)\n\nLive voucher will also be called +GCSOTG+ (it’s not yet created on Live)\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\nWith the hook {{ const serverEnv = useServerEnv();}} is possible to find out if customer is in live or staging environment\n\nThe vouchers will be stored in the code for live and staging since this is the MVP solution\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nCustomers are redirected to plans page when clicking on graduation component\nRespective voucher is attached (staging or live)\nWhen adding a new voucher on plans page the initial voucher is replaced \n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2026-01-13",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Note: Benefits are not attached to any voucher, benefits are listed on Lokalise",
+          "created": "2026-01-14"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3215",
+          "summary": "[Dashboard] Graduation Component Display"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3403",
+      "summary": "[Dashboard] - Keep first order open by default in orders list",
+      "description": "{panel:bgColor=#deebff}\n*Description* \n\nThe first item of orders list should be open by default and all the other items can be opened if customers click on expand button\n\nAll data is provided by the hook previously developed \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# First item of OTP orders list opens by default \n# All other items are expandable \n# Information provided by the {{useOneTimeOrdersView}} hook is consumed to show orders list\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3401",
+          "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3402",
+          "summary": "[Dashboard] - Create orders list and order items components"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3453",
+      "summary": "Create SKU and product family for Wings FL + Ground Beef FL offer",
+      "description": "Create the SKU and product family for the new offer 'Wings FL + Ground Beef FL' as listed in row 65 of the provided spreadsheet. This is a bundle offer, not a 'choose your own' option. The offer will be used starting in week 5.\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C08AJFC6A56/p1768412913418449?thread_ts=1768412913.418449&cid=C08AJFC6A56]_._",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-14",
+      "updated": "2026-01-14",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3245",
+      "summary": "[Graduation banner] GTM events",
+      "description": "{panel:bgColor=#deebff}\n*Add GTM events to the graduation banner*\n{panel}\n\n{panel:bgColor=#e3fcef}\nAcceptance criteria: [All GTM event details can be found here|https://docs.google.com/document/d/13-9Z765kDSbo1pDMmmdOjQFpinHFit5IwV7gDtTdcrg/edit?tab=t.is75s48wwdnz#heading=h.w75lj42i423f]\n\nActions by user: \n\n* View the “Graduation” component\n* Click on the CTA button to go back to Plans (details on next row)\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Low",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-25",
+      "updated": "2026-01-14",
+      "resolved": "2026-01-14",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:5f453b94fcaf93003bf87481] check if existing ticket on GTM for grad component",
+          "created": "2026-01-05"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Ticket can be picked up - only change will be that the CTA event will have a different event_name",
+          "created": "2026-01-12"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "This event will be triggered only when customer sees or clicks on CTA when \nGraduation component shows meat box and See options CTA (one time purchase variant in code)\n\n!image-20260114-091144.png|width=629,alt=\"image-20260114-091144.png\"!\n\nSlack thread here\n\n[https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768379739172879|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768379739172879|smart-link] ",
+          "created": "2026-01-14"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "There is an open question related to {{gaEventLabel}} [https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768383869707139?thread_ts=1768379739.172879&cid=C0A3TV1MM5Z|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1768383869707139?thread_ts=1768379739.172879&cid=C0A3TV1MM5Z|smart-link] ",
+          "created": "2026-01-14"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "No {{gaEventLabel}} needed for now, moving ticket to Done",
+          "created": "2026-01-14"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3229",
+          "summary": "[Plan settings] Show graduation banner"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3419",
+      "summary": "[Funnel/Plans] Integrate OTP Banner logic and data fetching",
+      "description": "{panel:bgColor=#deebff}\nh3. Description\n\nImplement the business logic and data integration for the One-Time Purchase (OTP) banner component. This includes fetching user's upcoming OTP orders, determining when to show the banner, and handling the navigation to order details.\n\n*Related UI Ticket:* GOC-3377 - [Funnel/Plans] Create OTP Banner/Entrypoint component\n\n*Data Requirements:*\n\n* Fetch user's upcoming one-time purchases using existing {{useCustomerOneTimeOrders}} hook\n* Determine if user has any upcoming OTP deliveries\n* Get order details (order ID, delivery date, order status)\n* Handle loading, error, and empty states\n\n*Business Logic:*\n\n* Show banner only if user has an upcoming OTP order\n* Banner should appear on funnel/plans and checkout pages (Delivery page and Payment page)\n* Handle click navigation to OTP dashboard page\n{panel}\n\n{panel:bgColor=#eae6ff}\nh3. 🔧 Technical Implementation Details\n\n*Existing Hook to Use:*\n\n* *File:* {{app/data-access/customer-orders/one-time-orders.ts}}\n* *Hook:* {{useCustomerOneTimeOrders}}\n* This hook already fetches the user's one-time orders - use this instead of creating new API calls\n\n*Implementation Steps:*\n\n# Import and use {{useCustomerOneTimeOrders}} hook in the funnel/plans page component\n# Pass the relevant order data as props to the OTP Banner UI component (from GOC-3377)\n# Implement conditional rendering - only show banner if upcoming orders exist\n# Ensure proper integration with UI component props from [https://hellofresh.atlassian.net/browse/GOC-3377|https://hellofresh.atlassian.net/browse/GOC-3377|smart-link]\n{panel}\n\n{panel:bgColor=#e3fcef}\nh3. Acceptance Criteria\n\nh3. ✅ AC1: Data Fetching & State Management\n\n* Uses {{useCustomerOneTimeOrders}} hook from {{app/data-access/customer-orders/one-time-orders.ts}} to fetch OTP orders\n* Correctly identifies if user has upcoming one-time purchase\n* Handles loading state while fetching data (shows loading indicator or hides banner)\n* Handles error state if hook returns ",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-08",
+      "updated": "2026-01-14",
+      "resolved": "2026-01-14",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3404",
+      "summary": "[Dashboard] - Create tracking button and rendering logic",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nWhen the tracking link is available it should show in the OTP orders list page. The click should redirect customers to the tracking page\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# Tracking button is created and receive tracking_url information\n# When the order state is SHIPPED and tracking information is available the tracking button should show\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-14",
+      "resolved": "2026-01-14",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3401",
+          "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3405",
+          "summary": "[Dashboard] - Test tracking link on live order and tracking page"
+        },
+        {
+          "type": "is contained in",
+          "key": "GOC-3402",
+          "summary": "[Dashboard] - Create orders list and order items components"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3407",
+      "summary": "Hide the payment banner for the C@C flow",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIf a customer has been allocated to the [C@C experiment|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_one_time_purchase_mvp/setup] variation, we need to hide the payment on the {{checkout/payment}} banner.\n\n!image-20251126-153518.png|width=1246,height=278,alt=\"image-20251126-153518.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* If a customer has been allocated to the [C@C experiment|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_one_time_purchase_mvp/setup] variation, the payment banner is hidden.\n* For BAU the banner is still shown\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2025-11-26",
+      "updated": "2026-01-14",
+      "resolved": "2025-12-03",
+      "labels": [
+        "spec-machine"
+      ],
+      "components": [],
+      "parent_key": "GOC-3317",
+      "parent_summary": "Charge at Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "h2. Clarifying Questions for Implementation Planning\n\nBased on analysis of the codebase and the ticket requirements, I have the following questions:\n\n*1. Which experiment determines banner visibility?*\nThe ticket references the {{mr_one_time_purchase_mvp}} Statsig experiment. I found two related experiments in the codebase:\n\n* {{mr_one_time_purchase_mvp}} (used in plans flow, returns {{isControl}} boolean)\n* {{mr_charge_at_checkout}} (used in payment page, returns {{shouldPerformCharge}})\n\nWhich",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "# {{mr_charge_at_checkout}} (used in payment page, returns {{shouldPerformCharge}})\n# Not sure. Please check which component is used on the Good Chop (MR) {{/checkout/payment}} page\n!CleanShot 2025-12-01 at 11.56.45-20251201-105658.png|width=1119,height=897,alt=\"CleanShot 2025-12-01 at 11.56.45-20251201-105658.png\"!\n# This condition doesn’t control the visibility of the target payment banner. Find a correct way to control it.\n# Use {{useShouldChargeAtCheckout}} hook and check if {{shouldPerformC",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "h1. Implementation Specification: Hide PaymentAnxietyBanner for C@C Flow\n\nh2. Goal\n\nHide the {{PaymentAnxietyBanner}} component on the {{/checkout/payment}} page when a customer is allocated to the Charge at Checkout (C@C) experiment variation. This is a temporary experiment that may need to be rolled back.\n\nh2. User Stories\n\n* As a customer in the C@C experiment variation, I should not see the payment anxiety banner on the checkout payment page\n* As a customer in the control group (BAU), I shou",
+          "created": "2025-12-03"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "[~accountid:557058:d918bd93-27de-427e-8f73-9426e22ecdfb] Feedback for spec-machine:\n\n* AI Agent didn’t sespect module boundaries - {{unified-spaces}} cannot import from {{whitelabel-web}}\n* Not all tests have been updated/fixed during the implementation - had to catch failed tests in  GitHub Actions and ask Claude Code to fix them (2-3 iterations)",
+          "created": "2025-12-03"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3215",
+      "summary": "[Dashboard] Graduation Component Display",
+      "description": "{panel:bgColor=#deebff}\n*Description*\nThe graduation component will be shown on the OTP Dashboard for the following two scenarios,\n\n# *As an OTP only customer* [Design|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40857&m=dev&focus-id=10968-37863]\n# *As an OTP + Subscription customer (graduated customer)* [Design|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=11215-79800&m=dev&focus-id=10968-37863]\n\nThe scope of this ticket is to enhance the static component created in [https://hellofresh.atlassian.net/browse/GOC-3214|https://hellofresh.atlassian.net/browse/GOC-3214|smart-link] to,\n##  contain an error boundary,\n##  dynamic content driven from contentful,\n## CTA redirections,\n### *OTP only customer* → redirects to funnel /plans\n### *OTP + Subscription* → redirects to /my-deliveries\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Adds error boundary\n* The benefits comes from contentful\n* The CTA should,\n** *OTP only customer* → redirects to funnel /plans\n** *OTP + Subscription* → redirects to /my-deliveries\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-15",
+      "updated": "2026-01-13",
+      "resolved": "2026-01-13",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:423d4752-7f60-426b-87aa-33be2af37567] can we try using Figma MCP to create this component ?",
+          "created": "2025-10-02"
+        },
+        {
+          "author": "Marina Guthmann",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] yes! 🙂 ",
+          "created": "2025-10-02"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "why is this flagged?",
+          "created": "2025-10-20"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:5f453b94fcaf93003bf87481] it was flagged because we tried making the Graduation component using Figma. Its already done but not yet reviewed. We can remove the flag once its reviewed.",
+          "created": "2025-10-31"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Ticket needs to be updated with new design [~accountid:6194ece3ef18ca0071be68b2] ",
+          "created": "2025-12-10"
+        }
+      ],
+      "links": [
+        {
+          "type": "clones",
+          "key": "GOC-3214",
+          "summary": "[Dashboard] Create graduation component"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3229",
+          "summary": "[Plan settings] Show graduation banner"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3451",
+          "summary": "Redirect customers to plans page after clicking on graduation component"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3406",
+      "summary": "[Dashboard] - Add contact us/FAQ cta",
+      "description": "{panel:bgColor=#deebff}\n*Description* \n\nCustomers need to see ways of contacting CC in case something is wrong with their order\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# Customer care information or FAQ (depends on design) is displayed \n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Low",
+      "assignee": "Unassigned",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-13",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Note: Not a blocker to release but can be a quick improvement",
+          "created": "2025-12-10"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:5f453b94fcaf93003bf87481] can you verify if the Help and FAQ section shown on the OTP dashboard is sufficient enough? We are just showing the existing Footer shown.\n\n!Screenshot 2026-01-12 at 13.21.20.png|width=908,height=773,alt=\"Screenshot 2026-01-12 at 13.21.20.png\"!\n\n*Test steps:*\n\n# Login with the OTP account {{pame-otp-0501-3@hf.com}} / {{qwerty123}}\n# Go to {{one-time-deliveries}} page\n[https://www-staging.goodchop.com/one-time-deliveries|https://www-staging.goodchop.com/one-t",
+          "created": "2026-01-12"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Confirming that is fine for now, let’s move to Won’t Do\n\nWe can monitor what questions OTP-specific questions customers might have but I don’t actually expect there to be many cc [~accountid:712020:423d4752-7f60-426b-87aa-33be2af37567] ",
+          "created": "2026-01-12"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3399",
+          "summary": "[Dashboard] - Create new OTP Dashboard page"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3450",
+      "summary": "[Runbook] Create runbook for Distinct Users Triggering Menu Cart Endpoint alert",
+      "description": "{panel:bgColor=#deebff}\nh2. *Description:*\n\nThe following alert does not contain a runbook to understand and debug the issue: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/vvTrxniM4KQ?utm_content=edit_trigger&utm_medium=Trigger&utm_source=slack|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/vvTrxniM4KQ?utm_content=edit_trigger&utm_medium=Trigger&utm_source=slack]\n{panel}\n\n{panel:bgColor=#e3fcef}\nh2. Acceptance Criteria\n\n* Alert runbook contains step by step guide of how to investigate the issue\n{panel}\n\n\n\n\n",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Romina Nicastro",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3334",
+      "parent_summary": "[P0] Honeycomb Monitoring & Alerting",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3413",
+      "summary": "Hide My Deliveries Dashboard if no subscription is present",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-02",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] are there any technical details to add here?",
+          "created": "2025-12-16"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:5f453b94fcaf93003bf87481] potentially yes, most likely the scope will be clear one the dashboard page is created",
+          "created": "2025-12-17"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3355",
+      "summary": "[Checkout/Payment] Add Tracing to useCreateOTPCartForCheckout Hook",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nAdd comprehensive tracing to the {{useCreateOTPCartForCheckout}} hook to enable monitoring, debugging, and performance tracking of OTP cart creation during checkout. This will help identify issues in production and provide visibility into the OTP checkout flow.\n\n*Background:*\n\n* OTP cart creation is a new flow that needs observability\n* Spans should capture key attributes, timing, and success/failure states\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n*Create Span in createOTPCart Function:*\n\n* Name span: {{'otp-checkout.create-cart'}} \n\n*Span Attributes to Capture:*\n\n*Before API Call:*\n\n* {{'product-handle'}} - The OTP product SKU\n* {{'delivery-date'}} - Selected delivery date\n* {{'delivery-option-handle'}} - Selected delivery option\n* {{'product-count'}} - Number of unique products selected\n* {{'total-quantity'}} - Total quantity of all products\n\n*After API Call (Success):*\n\n* {{'cart-uuid'}} - The returned cart UUID\n* {{'cart-created'}} - true\n\n*On Error:*\n\n* {{'error-type'}} - Type of error (validation, API, etc.)\n* {{'error-message'}} - Error message\n\n*Span Status:*\n\n* Success: {{SpanStatusCode.OK}} with message {{'OTP cart created successfully'}}\n* Error: {{SpanStatusCode.ERROR}} with error message\n\n*Follow Existing Patterns:*\n\n* Reference {{useSavePreCheckoutProducts.ts}} (lines 56-71) for tracing pattern\n* Reference {{useCreateOTPCart.ts}} in {{app/spaces/one-time-purchase}} for OTP-specific tracing\n* Ensure span is ended even if errors occur (use try/finally)\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria:*\n\n* Span created at start of {{createOTPCart}} function\n* Span named appropriately (e.g., {{'otp-checkout.create-cart'}})\n* All required attributes set before API call\n* Cart UUID captured in span after successful creation\n* Error type and message captured on failure\n* Tracing doesn't impact user experience (non-blocking)\n* Traces are visible in Honeycomb\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Himash Tehan",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "h2. Clarifying Questions for Implementation Planning\n*Questions and Answers:*\n\n# *Q:* Should we trace both POST \\(create new cart\\) and PATCH \\(update existing cart\\) operations with separate span names like 'otp\\-checkout.create\\-cart' and 'otp\\-checkout.update\\-cart', or a single span name with an attribute indicating the operation type?\n*A:* Single span name\n# *Q:* Should we capture the fallback scenario \\(PATCH 404/403 \\-> POST\\) as a special case in tracing with an attribute like 'fallback\\",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3354",
+          "summary": "[Checkout/Payment] Create Hook useCreateOTPCartForCheckout hook"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3386",
+      "summary": "[OTP Statsig Event] [QA] Checkout with new OTP Endpoint and analyze event in Statsig dashboard",
+      "description": "{panel:bgColor=#deebff}\nPlaceholder task to perform together with PA\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Beatrice Dimarucut",
+      "reporter": "Madeeha Hasan",
+      "created": "2025-11-20",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Confirmed by Alexia as working correctly",
+          "created": "2026-01-09"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3214",
+      "summary": "[Dashboard] Create graduation component",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate a component (UI only) to show the graduation component on the OTP dashboard.\n\n# The component should have two variants, \n## Re-order (default)\n## Graduate to subscription\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Component created with UI only supporting two variants\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Marina Guthmann",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-15",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3215",
+      "parent_summary": "[Dashboard] Graduation Component Display",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Need to rediscuss with Yury on if needed considering we have different acquisition vouchers OTP customers can now convert to",
+          "created": "2025-11-17"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Moving to Won’t Do since we no longer will need an experiment for post-checkout\n\nAll users will get same graduation voucher on My Deliveries OTP OR they can convert on any acquisition voucher",
+          "created": "2025-12-01"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3210",
+          "summary": "[Foundation post-checkout] Validate deliveries"
+        },
+        {
+          "type": "is cloned by",
+          "key": "GOC-3215",
+          "summary": "[Dashboard] Graduation Component Display"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3361",
+      "summary": "Implement new attributes in reactivation-bff call",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nClients need to pass two new attributes to the request body of the reactivation-bff call {{reactivation-subscription/reactivate}}:\n\n* {{cadence_start_week}}: should be retrieved from the {{nextModifiableDelvieryWeek}} value from the {{/customer/me/subscriptions}} response.\n* {{cadence_interval}}: should be retrieved from the {{endlessPauseInterval}} value from the {{/customer/me/subscription}} response.\n\nCustomer impact:\n\n* Cadence interval breaks on reactivation, when reactivation happens within a short period of time after cancellation - issue is reprodicible when reactivation happens on the same day, but it could be longer as well\n* Customer is reactivated with a *weekly cadence*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\nEnsure that these fields are correctly passed and handled in the reactivation process.\n{panel}\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C09MNFEH6VC/p1763020804905709?thread_ts=1761234939.380539&cid=C09MNFEH6VC]_._",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Alexander Matlin",
+      "created": "2025-11-17",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Adding thread from previous work from other teams:\n\n[https://hellofresh.slack.com/archives/CTFFZ9JMA/p1761661879992609|https://hellofresh.slack.com/archives/CTFFZ9JMA/p1761661879992609|smart-link] ",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Work already done draft PR - but issue not reproducible (worked before, still works after)\n\nQuestion to Alex Monday if still needed and if so when to merge. Is it just about consistency?\n\nTPT only added interval ",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "DPLAT-2576",
+          "summary": "Populate \"nextModifiableDeliveryWeek\" for deactivated subscriptions to enable cadence retention"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3363",
+      "summary": "[SubscriptionLoading] Create OTP Footer Component (Continue CTA)",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate {{OTPFooter}} component by cloning the existing {{Footer.tsx}} and modifying it for OTP-specific behavior. This maintains consistency in styling and structure while adding OTP-specific redirect logic and reuse the same GTM event fired in the subscription flow ([per the thread|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1767620709913509]).\n\n*Background:*\n\n* OTP footer needs same styling/structure as subscription footer\n* Only differences: redirect destination and button state logic\n* Cloning ensures visual consistency\n* Easier to maintain common styling between both footer\n\n!image-20251202-130556.png|width=1193,height=623,alt=\"image-20251202-130556.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n*File to Create:* {{app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/pages/loading-subscription-content/order-confirmation/OTPFooter.tsx}}\n\n*Cleanup required*\n\n# Add OTP-specific imports\n# Remove subscription-specific logic\n# Update redirectToDashboard function\n# Update button props\n\n{noformat}<Button.Primary\n  onClick={redirectToOTPDashboard}\n  disabled={false} // Changed - always enabled for OTP\n  loading={false}  // Changed - never loading for OTP\n  data-test-id=\"otp-order-confirmation-CTA\" // Changed\n>\n  {label}\n</Button.Primary>{noformat}\n{panel}\n\n\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria:*\n\n* OTPFooter.tsx created by copying Footer.tsx\n* Subscription-specific imports removed (useQueryClient, useMenuRedirection, etc.)\n* Button always enabled (disabled={false})\n* Button never in loading state (loading={false})\n* Redirects to /my-deliveries/otp\n* Clears OTP flag on redirect\n* Visual styling identical to original Footer\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2026-01-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3362",
+          "summary": "[SubscriptionLoading] Integrate OTP Detection and Components in OrderConfirmation"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3399",
+          "summary": "[Dashboard] - Create new OTP Dashboard page"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3427",
+      "summary": "Re-ordering with an existing OTP account on the funnel",
+      "description": "{panel:bgColor=#ffebe6}\n*Current Behaviour*\n\nAs a returning OTP customer in the funnel, When trying to make another one-time purchase, you get redirected to subscription-loading.\n\n!Screen Recording 2025-12-18 at 15.58.36.mov|width=91.66666666666666%,alt=\"Screen Recording 2025-12-18 at 15.58.36.mov\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected Behaviour*\n\nAs a returning OTP customer in the funnel, I should be able to make another one-time-purchase\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-18",
+      "updated": "2026-01-08",
+      "resolved": "2026-01-08",
+      "labels": [
+        "No_defect"
+      ],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "If customer has OTP orders only, how we can enforce OTP experience (current experiment)?",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Some testing [https://hellofresh.slack.com/archives/C02TNH94UR1/p1766418710689899|https://hellofresh.slack.com/archives/C02TNH94UR1/p1766418710689899|smart-link] ",
+          "created": "2025-12-23"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Note: I tried to add {{useCustomerSubscriptions}} hook from {{@/data-access/customer}}, but there's a problem: Root.js is a class component using Redux, and we can't use hooks in class components.",
+          "created": "2025-12-23"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Account example:\n\n{{pame-otp-2212-7@hf.com}}\n\n[https://hellofresh.slack.com/archives/C02TNH94UR1/p1766418710689899|https://hellofresh.slack.com/archives/C02TNH94UR1/p1766418710689899|smart-link] \n\n!image-20251229-150911.png|width=58.333333333333336%,alt=\"image-20251229-150911.png\"!\n\n\n\nand {{pame-otp-2912-1@hf.com}}\n\n!image-20251229-150547.png|width=58.333333333333336%,alt=\"image-20251229-150547.png\"!",
+          "created": "2025-12-29"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Another example with last PR\n\n{{pame-otp-0501-3@hf.com}}\n\n!image-20260105-154312.png|width=1918,height=519,alt=\"image-20260105-154312.png\"!",
+          "created": "2026-01-05"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3447",
+      "summary": "Revisit and add more information to Reschedule Delivery Latency runbook",
+      "description": "{panel:bgColor=#deebff}\n*Description*\nThe runbook for the[ reschedule delivery alert|https://hellofresh.slack.com/archives/C01UK69PSH5/p1767887731182409] alert currently doesn’t have much information: [https://github.com/hellofresh/runbooks/blob/7dca345e712d36668ced59972dbe6b911142d0a1/troubleshooting/new-brands/good-chop/Reschedule-delivery-latency.md|https://github.com/hellofresh/runbooks/blob/7dca345e712d36668ced59972dbe6b911142d0a1/troubleshooting/new-brands/good-chop/Reschedule-delivery-latency.md|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nThe runbook has more information on how to debug the issue \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2026-01-08",
+      "updated": "2026-01-08",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3446",
+      "summary": "Remove menu link for OTP accounts without subscriptions",
+      "description": "Investigate and remove the menu link for OTP accounts that do not have a subscription, as it currently redirects to subscription-loading which may cause confusion. Ensure the menu link is only shown when appropriate.\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C02TNH94UR1/p1767882348819159?thread_ts=1767882348.819159&cid=C02TNH94UR1]_._",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Pamela Elisabeth Plúas Guerra",
+      "created": "2026-01-08",
+      "updated": "2026-01-08",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3431",
+      "summary": "[Payments] Hide \"You won't get charged before...\" message when OTP SKU is selected",
+      "description": "{panel:bgColor=#deebff}\nCurrently, the Payment reassurance banner is hidden when a user is allocated to our C@C experiment\n\nHowever, it is also still present in the OTP variation even though all OTP orders go through Charge at checkout\n\n!image-20251219-202404.png|width=666,height=94,alt=\"image-20251219-202404.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\nWhen a customer is:\n\n# allocated to OTP experiment and selects an OTP SKU\n\nThe payment reassurance banner is hidden\n\nWhen a customer is allocated to OTP experiment and still proceeds to select a subscription, the payment reassurance banner is shown\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-12-19",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3444",
+      "summary": "Migrate Root.js from legacy code to modern React patterns",
+      "description": "h2. Context\nThe {{Root.js}} file in the checkout flow is currently implemented as a class component using legacy Redux patterns. This makes it difficult to:\n* Use modern React hooks\n* Integrate with newer data-access patterns\n* Maintain and test the component\n* Apply modern best practices\n\nh2. Current State\n* *File*: {{app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/store/src/checkout/Root.js}}\n* *Implementation*: Class component with {{mapStateToProps}} and {{mapDispatchToProps}}\n* *Redux*: Uses legacy Redux selectors and actions\n* *Hooks*: Cannot use modern hooks like {{useGetCustomerSubscriptions}}, {{useHasOTPInCart}}, etc.\n\nh2. Proposed Changes\n1. *Convert to Functional Component*: Migrate from class component to functional component\n2. *Modernize Data Fetching*: Replace Redux selectors with {{@/data-access}} hooks where applicable\n3. *Use Modern Hooks*: Leverage React hooks for state management and side effects\n4. *Improve Type Safety*: Add proper TypeScript types (convert from {{.js}} to {{.tsx}})\n5. *Simplify Logic*: Refactor complex lifecycle methods into cleaner {{useEffect}} hooks\n\nh2. Benefits\n* Easier to maintain and extend\n* Better integration with modern patterns used in other guards (e.g., {{FactorFormCheckoutGuard.tsx}})\n* Improved type safety\n* More testable code\n* Consistent with current development standards\n\nh2. Related Work\n* This migration was identified during the implementation of GOC-3427 (OTP checkout fix)\n* The current implementation works but uses patterns that are being phased out\n\nh2. Acceptance Criteria\n* [ ] {{Root.js}} is converted to a functional component ({{Root.tsx}})\n* [ ] All class lifecycle methods are replaced with appropriate hooks\n* [ ] Redux selectors are replaced with modern data-access hooks where possible\n* [ ] Component maintains all existing functionality\n* [ ] All existing tests pass\n* [ ] New tests are added for any refactored logic\n* [ ] No regressions in checkout flow",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Pamela Elisabeth Plúas Guerra",
+      "created": "2026-01-07",
+      "updated": "2026-01-07",
+      "resolved": "",
+      "labels": [
+        "checkout",
+        "good-chop",
+        "refactoring",
+        "technical-debt"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3374",
+      "summary": "Create alerts to monitor the funnel end to end",
+      "description": "{panel:bgColor=#deebff}\nh2. *Description:*\n\nTo proactively monitor the health of the Good Chop funnel, we will setup a GA anomaly detections for each funnel CTA. \n\nThese alerts will provide proactive notification when issues arise in the funnel, enabling faster response times and better customer experience.\n{panel}\n\n{panel:bgColor=#e3fcef}\nh2. Acceptance Criteria\n\n* Alert should be configured in Grafana, which will check every single button CTA event to make sure that the amount of button clicks is not below our threshold. \n* Runbooks are created \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Romina Nicastro",
+      "created": "2025-11-18",
+      "updated": "2026-01-05",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3334",
+      "parent_summary": "[P0] Honeycomb Monitoring & Alerting",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "* [What is Anomaly Detection|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/what-is-anomaly-detection/]\n* [Anomaly Detection on Google Analytics (GA) Events|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/ga-anomaly-detection/]\n* [Good Chop config|https://github.com/hellofresh/metrics-automation/blob/master/victoria-metrics/anomaly-detection/ga-",
+          "created": "2025-12-30"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "POC: [~accountid:712020:e335525f-d4d7-48f7-90d1-03d493dc3a43] ",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3423",
+      "summary": "Firefighter W51-W52 ",
+      "description": "* Stale Statsig configs: [https://hellofresh.slack.com/archives/C03DDD4R537/p1765793980193819|https://hellofresh.slack.com/archives/C03DDD4R537/p1765793980193819|smart-link]. Tickets created / some already removed\n* Trial boxes alerts: [https://hellofresh.slack.com/archives/C01UK69PSH5/p1765816697998529|https://hellofresh.slack.com/archives/C01UK69PSH5/p1765816697998529|smart-link]  ",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Pamela Elisabeth Plúas Guerra",
+      "created": "2025-12-16",
+      "updated": "2026-01-05",
+      "resolved": "2026-01-05",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "GOC-3426",
+      "summary": "Cleanup localStorage keys after successful OTP order creation ",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nWe need to cleanup the following localStorage keys once an OTP order is created to avoid having stale values,\n- wl-shipping-address-id\n- wl-billing-address-id\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nwl-shipping-address-id and wl-billing-address-id keys are cleared on OTP order creation\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Himash Tehan",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-18",
+      "updated": "2026-01-05",
+      "resolved": "2025-12-22",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "  *Clarifying Questions*\n\n# *Cleanup timing: Should the cleanup happen in the onCheckoutSuccessMinimal function (around line 735-777 in Payment.js) right after the order is successfully created and before navigating away? Or should it happen at a different point in the flow?*\nYes, the cleanup happen in the onCheckoutSuccessMinimal function (around line 735-777 in Payment.js) right after the order is successfully created and before navigating away\n\n# *Cleanup method: Should we use the Jotai atoms",
+          "created": "2025-12-18"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "h2. Clarifying Questions for Implementation Planning\nThank you for providing the answers\\! Here's a summary of the clarified requirements:\n\n*1. Cleanup Timing*\n\\- ✅ Cleanup should happen in {{onCheckoutSuccessMinimal}} function \\(lines 735\\-777 in Payment.js\\)\n\\- Timing: Right after order is successfully created and before navigating away\n\n*2. Cleanup Method*\n\\- ✅ Use {{setShippingAddressId\\(null\\)}} and {{setBillingAddressId\\(null\\)}} via Jotai atoms\n\\- This should be sufficient without direct ",
+          "created": "2025-12-18"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "h2. 📋 Implementation Specification\nh1. Specification: Cleanup localStorage Keys After Successful OTP Order\nh2. Goal\nPrevent stale localStorage data from persisting after successful One\\-Time Purchase \\(OTP\\) order creation by clearing the {{wl\\-shipping\\-address\\-id}} and {{wl\\-billing\\-address\\-id}} keys. This ensures that address IDs from previous orders don't cause issues with subsequent orders, particularly when the customer ID changes.\n\nh2. User Stories\n* As a system, I want to clear stored",
+          "created": "2025-12-18"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-2123",
+      "summary": "[Runbook] Create reactivation 4xx and 5xx runbook",
+      "description": "{panel:bgColor=#deebff}\nRunbooks should contain the steps to follow to solve an alert/incident when triggered. It should give the firefighter/on-call person enough context and the tools to investigate a potential issue affecting our journey's critical paths.\n\nWhen writing the runbook, envision a new team member whose responsibility is to investigate and resolve the issue. Provide them with sufficient context and resources. Include details that may seem obvious to you, as they can be invaluable to other team members.\n{panel}\n\n{panel:bgColor=#e3fcef}\nAdd a runbook on [https://github.com/hellofresh/runbooks/blob/master/troubleshooting/new-brands/good-chop|https://github.com/hellofresh/runbooks/blob/master/troubleshooting/new-brands/good-chop] for the alerts:\n\n* [Reactivation 4xx errors|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/DAugQkpW26J]\n* [Reactivation 5xx errors|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/triggers/uoWETXyXqNu]\n\nInclude\n\n* How to save an reactivate on staging and live  \n* HC queries that could help debug the issue on the FE\n* Loki queries that could help debug the issue on the BE \n* How to find the owners of the endpoint\n* How to find a faulty PR on web repo (some HC queries)\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2024-06-27",
+      "updated": "2026-01-05",
+      "resolved": "2025-12-18",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3334",
+      "parent_summary": "[P0] Honeycomb Monitoring & Alerting",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Flagged - potentially for Bolo",
+          "created": "2025-12-01"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "GOC-3229",
+      "summary": "[Plan settings] Show graduation banner",
+      "description": "{panel:bgColor=#deebff}\nThe graduation component is our main entry point to push our OTP customers to subscribe to our service\n{panel}\n\n{panel:bgColor=#e3fcef}\nAcceptance criteria\n\nFor OTP users:\n\n* Hide “Your plan is deactivated“ banner on /settings/plan\n\n!Screenshot 2025-09-19 at 17.05.13.png|width=412,height=604,alt=\"Screenshot 2025-09-19 at 17.05.13.png\"!\n\n* Show the graduation component. \n\n!Screenshot 2025-09-19 at 17.06.52.png|width=465,height=302,alt=\"Screenshot 2025-09-19 at 17.06.52.png\"!\n\n\n{panel}\n\n{panel:bgColor=#fffae6}\nReuse the component created on [https://hellofresh.atlassian.net/browse/GOC-3215|https://hellofresh.atlassian.net/browse/GOC-3215|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-16",
+      "updated": "2026-01-05",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] We wouldn’t have deactivated state anymore \n\nin general I’m thinking if we can actually move this to Won’t Do\n\nCurrently on Live if I log in an account I did an OTP order with, Plan Settings just doesn’t show anyway (which is fine since OTP doesn’t need ability to change Plan/cancel)\n\nI also don’t think it’s necessary to even add the graduation component anywhere in settings because usually what would happen is they are directed to the OTP Dashboard \n\n!image",
+          "created": "2026-01-02"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:5f453b94fcaf93003bf87481] aligned, let's move to Won't Do ",
+          "created": "2026-01-02"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3215",
+          "summary": "[Dashboard] Graduation Component Display"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3245",
+          "summary": "[Graduation banner] GTM events"
+        }
+      ]
+    },
+    {
+      "key": "GOC-3416",
+      "summary": "Plan size does not correctly update in Plan Settings",
+      "description": "{panel:bgColor=#deebff}\nSteps to replicate:\n\n# Log in to existing account\n# Go to plan settings\n# Change plan (eg from M to L) \n# Go back to Dashboard and see that plan size did not upgrade\n\nThe success banner shows up on plan settings even though Dashboard & meal selection still shows the old plan\n\nThe SKU however seems to update correctly since:\n\n* Update email shows new SKU\n* going on Bob/OWL shows new SKU\n{panel}\n\n{panel:bgColor=#e3fcef}\nWhen somebody updates their plan via Plan Settings, dashboard & meal selection should reflect new plan’s cuts\n{panel}",
+      "issue_type": "Bug",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-12-05",
+      "updated": "2026-01-05",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-2920",
+      "parent_summary": "Bugs/ UI Improvement",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Matheus Bolognini",
+          "body": "By doing a quick check, it seems that by changing the plan on settings page, the subscription is modified but the deliveries SKUs stays as they were, which leads to an assumption that this might be related to the [meal-selection-service|https://github.com/hellofresh/meal-selection-service] (the service that we migrated to some weeks ago).\n\nEither something is not correctly working on the service (maybe it should reset the selection) or when changing the subscription we need to also change the me",
+          "created": "2025-12-09"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Recording on Live - findings:\n\n* Dashboard doesn’t change - it keeps old number of cuts and old selection\n* If I change eg from M (6 cuts) to L (12) and then only end up saving 7 cuts, I can still do this and it persists. However if I remove all cuts within meal selection, then the new number of cuts according to the new Plan will be enforced (X of 12 selected)\n\n!Screen Recording 2025-12-23 at 17.11.03.mov|width=2880,height=1800,alt=\"Screen Recording 2025-12-23 at 17.11.03.mov\"!",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": []
+    }
+  ]
+}

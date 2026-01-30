@@ -1,0 +1,1570 @@
+{
+  "batch_id": "meeting_083",
+  "doc_type": "meeting",
+  "doc_count": 8,
+  "results": [
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Review and finalize the 2026 Yearly Plan for Consumer Mega-Alliance Q1, addressing draft feedback and aligning on strategic priorities",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI, self-funded",
+          "who": [
+            "Consumer Mega Alliance"
+          ],
+          "context": "Focus in Q1 is to roll out new personalized core journey including widgets, then layer in upselling components in Q2"
+        },
+        {
+          "what": "Reserve 20% of engineering IC capacity for legacy loyalty program maintenance while evolving new loyalty framework",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Implementing new vendor-based loyalty program launching first in US"
+        },
+        {
+          "what": "Decouple forecasting from personalization models with independent technical interfaces",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration; assess organizational impact in Q1-Q2"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will partner with Commercial and New Programs hire in NA to design better Active Experience and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Defer variable pricing to Q3 in Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but needs long-term ownership definition as pricing ownership moves to growth MA"
+        },
+        {
+          "what": "Prioritize recipe bridge feature in Q4/Q1 for Project 5M",
+          "who": [
+            "Evan Weintraub",
+            "Lisa Trueblood"
+          ],
+          "context": "Addresses behavioral gap where users save recipes but rarely act on them, indicating high inspiration desire but execution friction"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (one-pager in preparation)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2 validation and org impact assessment"
+        },
+        {
+          "task": "Sign off on Factor requirements integration",
+          "owner": "Ed Boyes",
+          "timeline": "Before quarterly planning"
+        },
+        {
+          "task": "Update FAQ 11 for RAF program alignment",
+          "owner": "Evan Weintraub",
+          "timeline": "Completed"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing before initiation",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage in app)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Fast rollout followed by new app features"
+        },
+        {
+          "task": "Prioritize P500 readiness and Penguin for Factor US",
+          "owner": "Annie Meininghaus (Food Systems)",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets",
+          "owner": "Annie Meininghaus (Food Systems)",
+          "timeline": "Q1/Q2 for HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT; H2 for other RTE markets"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan with Commercial and New Programs hire",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Strengthen RAF program and build new in-product sharing loops",
+          "owner": "Evan Weintraub (Share squad)",
+          "timeline": "Ongoing - foundational fixes prioritized"
+        }
+      ],
+      "key_points": [
+        "Menu expansion plans, personalization rollouts, and app features integration clarified with Elysium rollout and menu ranking models",
+        "Project 5M prioritization based on competitor analysis and internal workshop revealing recipe inspiration-to-execution gap",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address growth target gaps",
+        "Factor tech requests collected and integrated into Market Innovation backlog",
+        "Loyalty strategy spans maintaining legacy program while launching new vendor-based program in US",
+        "Variable pricing identified as urgent market need but deferred to address ownership transition"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing ownership transitions to growth MA",
+        "Dependency on expediting Penguin for INTL markets (fallback to Penguin Harp personalization if not possible)"
+      ],
+      "follow_ups": [
+        "Walk through detailed methodology for Project 5M prioritization if requested",
+        "Assess organizational impact of decoupled forecasting after Q1-Q2 validation",
+        "Review Factor backlog selections during quarterly planning",
+        "Alignment on pending topics/ordering mentioned in comments"
+      ],
+      "entities": [
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with fast rollout including merchandising widgets, recommendation widgets, search, and popular/trending features"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative prioritizing recipe bridge feature to address user behavior gap between saving and acting on recipes"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking/personalization model being rolled out for Factor US and INTL markets"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized in Q4/Q1 alongside Penguin rollout"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for menu ranking rollout, personalization models, and technical interface definitions"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad handling Factor requirements, variable pricing, and market-specific features"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Team focusing on RAF program and in-product sharing loops for organic growth"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Market with specific tech requests, Programs transition, and Penguin personalization rollout"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened with foundational fixes for data visibility, customer experience, and operational agility"
+        },
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sign-off authority for Factor requirements integration"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Owner of Elysium rollout and personalization expansion to INTL markets"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Owner of forecasting decoupling from personalization models"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Owner of Factor tech requests, variable pricing, and Factor Programs transition"
+        },
+        {
+          "name": "Evan Weintraub",
+          "type": "person",
+          "context": "Owner of Project 5M prioritization, loyalty strategy, and RAF program alignment"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization framework one-pager"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering on Factor Active Experience and 3rd-party partnerships design"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog merge"
+        },
+        {
+          "name": "Consumer Mega Alliance",
+          "type": "project",
+          "context": "Organization creating best digital product experience, overseeing 2026 yearly plan"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Review and finalize the 2026 Yearly Plan for Consumer Mega-Alliance Q1, addressing draft feedback and aligning on strategic priorities",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI, self-funded",
+          "who": [
+            "Consumer Mega Alliance"
+          ],
+          "context": "Focus in Q1 is to roll out new personalized core journey including widgets, then layer in upselling components in Q2"
+        },
+        {
+          "what": "Reserve 20% of engineering IC capacity for legacy loyalty program maintenance while evolving new loyalty framework",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Implementing new vendor-based loyalty program launching first in US"
+        },
+        {
+          "what": "Decouple forecasting from personalization models with independent technical interfaces",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration; assess org impact in Q1-Q2 once validated"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will partner with Commercial and New Programs hire in NA to design better Active Experience and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Prioritize recipe bridge feature in Q4/Q1 for Project 5M",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Addresses behavioral gap where users save recipes enthusiastically but rarely act on them, indicating high inspiration desire but execution friction"
+        },
+        {
+          "what": "Defer variable pricing to Q3 in Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but needs long-term ownership definition as pricing ownership moves to growth MA"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M with detailed methodology",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (one-pager preparation)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization models",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration into Market Innovation backlog",
+          "owner": "Ed Boyes",
+          "timeline": "Before quarterly planning"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing before initiation",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage in app) with new app features",
+          "owner": "Consumer Mega Alliance",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Roll out menu ranking models prioritizing P500 readiness and Penguin for Factor US",
+          "owner": "Annie Meininghaus (Food Systems)",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2"
+        },
+        {
+          "task": "Strengthen RAF program and build new in-product sharing loops",
+          "owner": "Evan Weintraub (Share squad)",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan with Commercial and New Programs hire",
+          "timeline": "Q2"
+        }
+      ],
+      "key_points": [
+        "Clarification of how menu expansion plans, personalization rollouts, and app features integrate together",
+        "Elysium rollout includes merchandising widgets, recommendation widgets, search functionality, and popular/trending widgets",
+        "Menu ranking rollout prioritizes P500 readiness and Penguin for Factor US, with INTL expansion following",
+        "Project 5M prioritization based on competitor analysis and internal workshop revealing user behavior gap in recipe execution",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address growth target gaps",
+        "Variable pricing identified as urgently requested feature by markets",
+        "Factor tech requests collected and integrated into Market Innovation backlog",
+        "Loyalty strategy involves maintaining legacy program while launching new vendor-based program in US"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing ownership transitions to growth MA",
+        "Technical dependencies making RAF program difficult to optimize"
+      ],
+      "follow_ups": [
+        "Walk through detailed methodology for Project 5M prioritization if requested",
+        "Assess organizational impact of decoupled forecasting models in Q1-Q2",
+        "Review Loyalty Strategy SMT Shareout",
+        "Review Forecasting Domain Boundaries documentation",
+        "Updated FAQ 11 for RAF program alignment",
+        "Alignment pending on some topics/ordering per Tushar's mention"
+      ],
+      "entities": [
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with merchandising widgets, recommendations, search, and trending features"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative prioritizing recipe bridge feature to address user behavior gap"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking/personalization model being rolled out to Factor US and INTL markets"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized in Q4/Q1 for menu ranking rollout"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Market with specific tech requirements and programs transition plan"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Referral program being strengthened with foundational fixes and new in-product sharing loops"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad handling Factor backlog integration and variable pricing"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Squad focusing on RAF program and organic growth through sharing loops"
+        },
+        {
+          "name": "Food Systems",
+          "type": "project",
+          "context": "Team responsible for menu ranking rollout and forecasting model decoupling"
+        },
+        {
+          "name": "Consumer Mega Alliance",
+          "type": "project",
+          "context": "Organization creating best digital product experience, subject of 2026 yearly plan"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog merge"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering on Factor Programs transition and Active Experience design"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing one-pager on Project 5M prioritization framework"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes - AI Bytes Assemble",
+      "doc_id": "1sQcxFMBainqwvCWr7eHtf5_Jkiskht9XhkBzIhBRWX4",
+      "doc_type": "meeting",
+      "meeting_purpose": "AI Bytes team sync to discuss AI-native product development lifecycle, alignment on Q1 2026 planning, and ongoing AI initiatives across teams",
+      "attendees": [
+        "Mario",
+        "AG (Adam Ghanem)",
+        "Sergei",
+        "Nikita (Nikita Gorshkov)",
+        "Pep",
+        "Ebrahim",
+        "Lacey (Lacey Nagel)",
+        "Priscilla",
+        "Brian",
+        "Sherief (Sherief Helaifi-Chadha)",
+        "Leo (Leo Lee)",
+        "NG"
+      ],
+      "date": "Multiple meetings: Dec 15, 2025; Nov 20, 2025; Oct 27, 2025",
+      "decisions": [
+        {
+          "what": "Focus on design-to-code part of the PDLC",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Q1 2026 Planning Alignment - narrowing scope to specific part of product development lifecycle"
+        },
+        {
+          "what": "Focus on well-defined use cases (ReactNative migration) vs. rolling out to all",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Strategic decision to target specific use cases rather than broad deployment"
+        },
+        {
+          "what": "Formal launch of AI Agent Platform",
+          "who": [
+            "Lacey"
+          ],
+          "context": "Scheduled for day after Nov 20, 2025 meeting"
+        },
+        {
+          "what": "Release FreshChat integration in HelloDev",
+          "who": [
+            "Lacey"
+          ],
+          "context": "Scheduled for Nov 20, 2025"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Refine Gemini minutes & action items to align with the group on next steps across key topics",
+          "owner": "Adam Ghanem",
+          "timeline": "Over the next 2 weeks (from Oct 27, 2025)"
+        },
+        {
+          "task": "Provide feedback on /qa-test command - where it falls short",
+          "owner": "Team members",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Introduce AI Bytes Office Hours to wider audience of product managers & designers",
+          "owner": "Adam Ghanem",
+          "timeline": "Next focus area"
+        },
+        {
+          "task": "Claude Code for Product Management Workshop",
+          "owner": "Adam Ghanem with Ebrahim",
+          "timeline": "Upcoming"
+        },
+        {
+          "task": "Video record sessions and create snapshot videos (like Youtube shorts) for channel",
+          "owner": "adam.ghanem@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Schedule a demo",
+          "owner": "Not specified",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Provide access to files",
+          "owner": "ekar@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Consider giving AI lab people to run and scale tool for all teams",
+          "owner": "nikita.gorshkov@hellofresh.com",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Establishing a Golden Path for AI-Native Product Development Lifecycle (PDLC) as foundation for Q1 planning",
+        "AI-First vs. AI-Augmented: Why Focus Wins discussion",
+        "ChatGPT App PoC launched",
+        "Created /qa-test Claude Code command for generating test plan scenarios",
+        "AI Office Hours booked for 50% capacity without re-announcement",
+        "How to enable better QA processes for Marketing teams",
+        "Breaking down what's needed to get to PDLC iteratively",
+        "Shipyard Concept Experiment: PM + Eng + Design taking an idea through to outcome",
+        "Spec-driven development methodology introduction"
+      ],
+      "blockers": [
+        "Need to understand ReactNative use cases better",
+        "Main question: How to assess success quantitatively",
+        "Setting standards would require guidelines",
+        "Need clarity on pilot PDLC program and path forward",
+        "Getting to AI-assisted PDLC faster - packaging has a lot of friction",
+        "Streamlining outbound efforts needs templating"
+      ],
+      "follow_ups": [
+        "RN x GenAI Session with Sergei",
+        "v0 procurement & next steps for prototype first culture for consumer facing experiences",
+        "Methodology of spec-driven development core concepts intro rotation",
+        "Merging viewpoints to see eye to eye on AI-native development approach",
+        "Competitive analysis frequency determination",
+        "AI Wizard Award discussion with Jake Fear",
+        "Production deployment, monitoring, and success metrics planning"
+      ],
+      "entities": [
+        {
+          "name": "AI-Native Product Development Handbook",
+          "type": "project",
+          "context": "Resource document being developed for PDLC guidance"
+        },
+        {
+          "name": "Shipyard Concept Experiment",
+          "type": "project",
+          "context": "Backlog item for PM + Eng + Design collaboration, overlaps with Ebrahim's AI lab concept"
+        },
+        {
+          "name": "ReactNative migration",
+          "type": "project",
+          "context": "Primary use case for focused AI-native development efforts"
+        },
+        {
+          "name": "FreshChat integration",
+          "type": "system",
+          "context": "Integration being released in HelloDev"
+        },
+        {
+          "name": "HelloDev",
+          "type": "system",
+          "context": "Platform receiving FreshChat integration"
+        },
+        {
+          "name": "AI Agent Platform",
+          "type": "system",
+          "context": "Platform being formally launched"
+        },
+        {
+          "name": "/qa-test command",
+          "type": "system",
+          "context": "Claude Code command created for generating test plan scenarios and pricing display error reports"
+        },
+        {
+          "name": "ChatGPT App PoC",
+          "type": "project",
+          "context": "Proof of concept launched by NG and Leo Lee"
+        },
+        {
+          "name": "v0",
+          "type": "system",
+          "context": "Tool being considered for procurement to enable prototype first culture"
+        },
+        {
+          "name": "AI Bytes Office Hours",
+          "type": "project",
+          "context": "Regular sessions being expanded to wider PM and designer audience"
+        },
+        {
+          "name": "web-marketing-campaign-issues-na-mealkits",
+          "type": "system",
+          "context": "Channel for error reporting related to marketing QA processes"
+        },
+        {
+          "name": "MCP / ChatGPT App Integration POC",
+          "type": "project",
+          "context": "HF Discovery integration proof of concept"
+        },
+        {
+          "name": "Strategizer agent",
+          "type": "system",
+          "context": "AI agent mentioned as potential use case"
+        }
+      ]
+    },
+    {
+      "doc_title": "Connect on CA B2B Shopify Integration - 2025/12/15 11:29 EST - Notes by Gemini",
+      "doc_id": "1W0ZtT5wWZPs1LAaG-Kh3IQ35Jc8fFAZgIm0mnUJGhaU",
+      "doc_type": "meeting",
+      "meeting_purpose": "To scope the work required for implementing a B2B Shopify integration for the Canadian market and discuss timeline and resource allocation",
+      "attendees": [
+        "Elysa Viti",
+        "Nikita Gorshkov"
+      ],
+      "date": "2025-12-15",
+      "decisions": [
+        {
+          "what": "Q3 2025 launch timeline for Shopify integration",
+          "who": [
+            "Elysa Viti",
+            "Nikita Gorshkov"
+          ],
+          "context": "Based on June start date for dedicated B2B team and estimated one month development time"
+        },
+        {
+          "what": "Manual testing of B2B streams in first half of year",
+          "who": [
+            "Elysa Viti"
+          ],
+          "context": "Will test sports teams, gyms, and private retail locations (universities) until Shopify integration is ready"
+        },
+        {
+          "what": "Use Shopify as middleware solution",
+          "who": [
+            "Nikita Gorshkov"
+          ],
+          "context": "Current systems except Katana don't support required B2B functionality out of the box"
+        },
+        {
+          "what": "Focus on small business employee orders (Factor only, not HelloFresh)",
+          "who": [
+            "Elysa Viti"
+          ],
+          "context": "Current manual ordering system is error-prone and needs automation"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Discuss business case with Kieran to adapt for Canada and determine integration timeline",
+          "owner": "Elysa Viti",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Forward meeting notes to Kevin and Cole (Director of Growth)",
+          "owner": "Elysa Viti",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Provide timeline update to Kevin (DM for Factor Canada)",
+          "owner": "Elysa Viti",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Set realistic expectations with SLT about resource constraints",
+          "owner": "Elysa Viti",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Canadian B2B site requires more work than initially expected",
+        "None of current systems except Katana support required B2B functionality out of the box",
+        "Shopify needed as middleware for consolidation",
+        "B2B success depends heavily on sales presence and field team, not just technology",
+        "Currently zero people allocated to B2B development within funding",
+        "Dedicated B2B team expected to be pushed for around June by Adam, Factor, and Ed",
+        "Development estimated to take about one month once team is allocated",
+        "Main purpose is to automate small business employee orders to reduce manual errors",
+        "Not planning to use for retail immediately - focusing on unlocking small businesses first",
+        "Integration requires extensive work with retailers/businesses for order placement and inventory management",
+        "Possible transition to HubSpot CRM mentioned"
+      ],
+      "blockers": [
+        {
+          "issue": "Zero people currently allocated to B2B development",
+          "impact": "Cannot start dedicated work until June when B2B team is formed"
+        },
+        {
+          "issue": "Resource constraints - only Elysa and direct report on Canadian B2B initiative",
+          "impact": "Limited capacity for both growth and revenue management"
+        },
+        {
+          "issue": "No current systems support B2B functionality except Katana",
+          "impact": "Requires Shopify middleware solution and extensive integration work"
+        },
+        {
+          "issue": "Manual ordering system currently in place",
+          "impact": "Error-prone process that needs automation"
+        }
+      ],
+      "follow_ups": [
+        "Kevin and Cole to review notes and provide any questions",
+        "Business case discussion with Kieran",
+        "Potential formation of dedicated B2B team around June",
+        "JAMA submission once work begins"
+      ],
+      "entities": [
+        {
+          "name": "Elysa Viti",
+          "type": "person",
+          "context": "Meeting initiator, leading Canadian B2B initiative"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Technical lead discussing B2B implementation requirements"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Middleware solution for B2B integration to consolidate functionality"
+        },
+        {
+          "name": "Katana",
+          "type": "system",
+          "context": "Only current system that supports required B2B functionality out of the box"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Product line for B2B small business employee orders (not HelloFresh)"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "Product line explicitly excluded from initial B2B scope"
+        },
+        {
+          "name": "HubSpot",
+          "type": "system",
+          "context": "Possible CRM system transition mentioned"
+        },
+        {
+          "name": "Kevin",
+          "type": "person",
+          "context": "DM for Factor Canada, supportive of testing until Shopify integration ready"
+        },
+        {
+          "name": "Cole",
+          "type": "person",
+          "context": "Director of Growth, will receive meeting notes"
+        },
+        {
+          "name": "Kieran",
+          "type": "person",
+          "context": "Person to discuss business case adaptation for Canada with"
+        },
+        {
+          "name": "Adam",
+          "type": "person",
+          "context": "Expected to push for dedicated B2B team around June"
+        },
+        {
+          "name": "Ed",
+          "type": "person",
+          "context": "Expected to push for dedicated B2B team around June"
+        },
+        {
+          "name": "SLT",
+          "type": "person",
+          "context": "Senior Leadership Team - needs realistic expectations set about resource constraints"
+        },
+        {
+          "name": "JAMA",
+          "type": "system",
+          "context": "System where work will be submitted once B2B team takes over"
+        }
+      ]
+    },
+    {
+      "doc_title": "Connect on CA B2B Shopify Integration - 2025/12/15 11:29 EST - Notes by Gemini",
+      "doc_id": "1W0ZtT5wWZPs1LAaG-Kh3IQ35Jc8fFAZgIm0mnUJGhaU",
+      "doc_type": "meeting",
+      "meeting_purpose": "To scope the work required for implementing a B2B Shopify integration for the Canadian market and determine timeline and resource allocation",
+      "attendees": [
+        "Elysa Viti",
+        "Nikita Gorshkov"
+      ],
+      "date": "2025-12-15",
+      "decisions": [
+        {
+          "what": "Q3 2025 launch timeline for Shopify integration",
+          "who": [
+            "Elysa Viti",
+            "Nikita Gorshkov"
+          ],
+          "context": "Based on zero current resource allocation, expected June start for dedicated B2B team, and estimated one month development time"
+        },
+        {
+          "what": "Manual testing of B2B streams in first half of year",
+          "who": [
+            "Elysa Viti"
+          ],
+          "context": "Will test sports teams, gyms, and private retail locations (universities) until Shopify integration is ready"
+        },
+        {
+          "what": "Initial focus on small business employee orders (Factor only, not HelloFresh)",
+          "who": [
+            "Elysa Viti"
+          ],
+          "context": "Current manual ordering system is error-prone and needs automation; not targeting retail immediately"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Discuss business case with Kieran to adapt for Canada and determine integration timeline",
+          "owner": "Elysa Viti",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Forward meeting notes to Kevin and Cole (Director of Growth)",
+          "owner": "Elysa Viti",
+          "timeline": "Immediate"
+        },
+        {
+          "task": "Set realistic expectations with SLT about resource constraints and timeline",
+          "owner": "Elysa Viti",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Push for dedicated B2B team allocation",
+          "owner": "Adam, Factor team, Ed",
+          "timeline": "Around June 2025"
+        }
+      ],
+      "key_points": [
+        "B2B implementation requires more work than initially expected",
+        "No current systems except Katana support required B2B functionality out of the box",
+        "Shopify needed as middleware solution for consolidation",
+        "Zero people currently allocated to B2B development within funding",
+        "B2B success for physical goods relies heavily on sales presence and field team, not just tech",
+        "Canadian B2B initiative currently has only Elysa and their direct report, no fieldwork planned",
+        "Main purpose is automating small business employee orders to replace error-prone manual system",
+        "Development estimated at approximately one month once team is allocated",
+        "Extensive integration needed with retailers/businesses for order placement and inventory management",
+        "Possible transition to HubSpot CRM mentioned"
+      ],
+      "blockers": [
+        {
+          "issue": "Zero resource allocation for B2B development",
+          "impact": "Cannot start development until dedicated team is funded around June 2025"
+        },
+        {
+          "issue": "Lack of out-of-box B2B functionality in current systems",
+          "impact": "Requires Shopify middleware solution and extensive custom integration work"
+        },
+        {
+          "issue": "Limited team size for Canadian B2B initiative",
+          "impact": "Only Elysa and one direct report managing both growth and revenue without field support"
+        },
+        {
+          "issue": "Need for separate B2B team",
+          "impact": "Current team structure insufficient for managing B2B alongside other responsibilities"
+        }
+      ],
+      "follow_ups": [
+        "Kevin and Cole to review meeting notes and provide any questions",
+        "Business case discussion with Kieran for Canadian adaptation",
+        "Monitoring of B2B team allocation decision expected around June",
+        "Updates on timeline to be communicated as they develop"
+      ],
+      "entities": [
+        {
+          "name": "Elysa Viti",
+          "type": "person",
+          "context": "Meeting initiator, leading Canadian B2B initiative"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Technical lead discussing B2B implementation requirements and resource allocation"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Middleware solution needed for B2B functionality and integration"
+        },
+        {
+          "name": "Katana",
+          "type": "system",
+          "context": "Only current system that supports required B2B functionality out of the box"
+        },
+        {
+          "name": "HubSpot",
+          "type": "system",
+          "context": "Possible CRM system transition mentioned for B2B operations"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Product line for B2B small business employee orders (not HelloFresh)"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "Product line explicitly excluded from initial Canadian B2B scope"
+        },
+        {
+          "name": "Kevin",
+          "type": "person",
+          "context": "DM for Factor Canada, supportive of testing until Shopify integration ready"
+        },
+        {
+          "name": "Cole",
+          "type": "person",
+          "context": "Director of Growth, will receive meeting notes"
+        },
+        {
+          "name": "Kieran",
+          "type": "person",
+          "context": "Person to discuss business case adaptation for Canada with"
+        },
+        {
+          "name": "Adam",
+          "type": "person",
+          "context": "Expected to push for dedicated B2B team around June"
+        },
+        {
+          "name": "Ed",
+          "type": "person",
+          "context": "Expected to push for dedicated B2B team around June"
+        },
+        {
+          "name": "SLT",
+          "type": "person",
+          "context": "Senior Leadership Team requiring realistic expectation setting on timeline and resources"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes - AI Bytes Assemble",
+      "doc_id": "1sQcxFMBainqwvCWr7eHtf5_Jkiskht9XhkBzIhBRWX4",
+      "doc_type": "meeting",
+      "meeting_purpose": "AI Bytes team sync to discuss AI-native product development lifecycle, align on Q1 2026 planning, and share status updates on various AI initiatives",
+      "attendees": [
+        "Mario",
+        "AG (Adam Ghanem)",
+        "Sergei",
+        "Nikita (Nikita Gorshkov)",
+        "Pep",
+        "Ebrahim",
+        "Lacey (Lacey Nagel)",
+        "Priscilla",
+        "Brian",
+        "Sherief (Sherief Helaifi-Chadha)",
+        "Leo (Leo Lee)",
+        "NG"
+      ],
+      "date": "Multiple meetings: Dec 15, 2025; Nov 20, 2025; Oct 27, 2025",
+      "decisions": [
+        {
+          "what": "Focus on design-to-code part of the PDLC",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Q1 2026 Planning Alignment - narrowing scope to specific part of product development lifecycle"
+        },
+        {
+          "what": "Focus on well-defined use cases (ReactNative migration) vs. rolling out to all",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Strategic decision to target specific use cases rather than broad deployment"
+        },
+        {
+          "what": "Need to establish success metrics (quantitative assessment)",
+          "who": [
+            "MK"
+          ],
+          "context": "Main question raised about how to measure success of initiatives"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Refine Gemini minutes & action items to align with the group on next steps across key topics",
+          "owner": "Adam Ghanem",
+          "timeline": "Over the next 2 weeks"
+        },
+        {
+          "task": "Provide feedback on /qa-test command - where it falls short",
+          "owner": "Team members testing the command",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Introduce AI Bytes Office Hours to wider audience of product managers & designers",
+          "owner": "Adam Ghanem",
+          "timeline": "Next focus period"
+        },
+        {
+          "task": "Claude Code for Product Management Workshop",
+          "owner": "Adam Ghanem with Ebrahim",
+          "timeline": "Upcoming"
+        },
+        {
+          "task": "Video record sessions and create snapshot videos (like Youtube shorts) for channel",
+          "owner": "adam.ghanem@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Schedule a demo",
+          "owner": "Not specified",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Provide access to files",
+          "owner": "ekar@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Consider giving AI lab people to run and scale tool for all teams",
+          "owner": "nikita.gorshkov@hellofresh.com",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Establishing a Golden Path for an AI-Native Product Development Lifecycle (PDLC) as foundation for Q1 planning",
+        "AI-First vs. AI-Augmented: Why Focus Wins discussion",
+        "ChatGPT App PoC launched",
+        "FreshChat integration releasing in HelloDev",
+        "Formal launch of AI Agent Platform",
+        "Created /qa-test Claude Code command for generating test plan scenarios",
+        "AI Office Hours booked for 50% capacity without re-announcement",
+        "Need for better QA processes for Marketing teams",
+        "Shipyard Concept Experiment (PM + Eng + Design) to take idea through to outcome",
+        "Spec-driven development methodology introduction",
+        "v0 procurement and prototype-first culture for consumer experiences"
+      ],
+      "blockers": [
+        "Need feedback from people testing the /qa-test command",
+        "Need to understand ReactNative use cases better",
+        "Lack of clarity on how to assess success quantitatively",
+        "Curation has a lot of friction for packaging AI-assisted PDLC",
+        "Need clarity on pilot PDLC program and path forward",
+        "Streamlining outbound efforts needs templating"
+      ],
+      "follow_ups": [
+        "How might we merge viewpoints to see eye to eye on AI-native development approach",
+        "ReactNative x GenAI Session",
+        "v0 procurement & next steps for prototype-first culture",
+        "Methodology of spec-driven development core concepts intro rotation",
+        "Getting to AI-assisted PDLC faster - splitting effort of packaging",
+        "Competitive analysis frequency and process",
+        "Production deployment, monitoring, and success metrics planning",
+        "AI Wizard Award discussion with Jake Fear"
+      ],
+      "entities": [
+        {
+          "name": "AI-Native Product Development Handbook",
+          "type": "project",
+          "context": "Resource document being developed for the team"
+        },
+        {
+          "name": "Shipyard Concept Experiment",
+          "type": "project",
+          "context": "Backlog item for PM + Eng + Design collaboration, overlaps with Ebrahim's AI lab concept"
+        },
+        {
+          "name": "ReactNative migration",
+          "type": "project",
+          "context": "Well-defined use case being focused on for Q1 2026"
+        },
+        {
+          "name": "HelloDev",
+          "type": "system",
+          "context": "Platform where FreshChat integration is being released"
+        },
+        {
+          "name": "AI Agent Platform",
+          "type": "system",
+          "context": "Formal launch scheduled"
+        },
+        {
+          "name": "/qa-test command",
+          "type": "system",
+          "context": "Claude Code command created to generate test plan scenarios for QA processes"
+        },
+        {
+          "name": "ChatGPT App PoC",
+          "type": "project",
+          "context": "Proof of concept launched by NG and Leo Lee"
+        },
+        {
+          "name": "v0",
+          "type": "system",
+          "context": "Tool being considered for procurement to enable prototype-first culture"
+        },
+        {
+          "name": "AI Bytes Office Hours",
+          "type": "project",
+          "context": "Regular sessions being expanded to wider audience of PMs and designers"
+        },
+        {
+          "name": "FreshChat",
+          "type": "system",
+          "context": "Integration being released in HelloDev"
+        },
+        {
+          "name": "Ebrahim's AI lab",
+          "type": "project",
+          "context": "Concept that overlaps with Shipyard Concept Experiment"
+        },
+        {
+          "name": "Srishti",
+          "type": "person",
+          "context": "Mentioned as connection point for certain initiatives"
+        },
+        {
+          "name": "Harneet",
+          "type": "person",
+          "context": "Mentioned as connection point for certain initiatives"
+        },
+        {
+          "name": "Jake Fear",
+          "type": "person",
+          "context": "Person to discuss AI Wizard Award with"
+        },
+        {
+          "name": "Yarra",
+          "type": "person",
+          "context": "Part of Consumer/taste profile teams"
+        },
+        {
+          "name": "Abdel",
+          "type": "person",
+          "context": "Part of Consumer/taste profile teams"
+        }
+      ]
+    },
+    {
+      "doc_title": "HF CA B2B - 2025/12/17 16:46 CET - Notes by Gemini",
+      "doc_id": "1sCf6DzXMfBZ_Z_f8xfKLEgWabu6QODB-4EasxTPjjhQ",
+      "doc_type": "meeting",
+      "meeting_purpose": "Discuss launching a Shopify B2B store in Canada to block out competition and plan implementation approach",
+      "attendees": [
+        "Ian Brooks",
+        "Nikita Gorshkov"
+      ],
+      "date": "December 17, 2025",
+      "decisions": [
+        {
+          "what": "Proceed with sales pilot regardless of technical implementation status",
+          "who": [
+            "Ian Brooks"
+          ],
+          "context": "Ian confirmed they will run the sales pilot no matter what, but wants it to succeed with proper storefront support"
+        },
+        {
+          "what": "Use minimal integration approach for pilot - storefront only with manual backend processes",
+          "who": [
+            "Ian Brooks",
+            "Nikita Gorshkov"
+          ],
+          "context": "For small volumes (450 meals/week breakeven), only need storefront and simple data output without SCM integrations"
+        },
+        {
+          "what": "Lift and shift US B2B Shopify store setup using Anata for Canada",
+          "who": [
+            "Nikita Gorshkov"
+          ],
+          "context": "Most straightforward approach given resource constraints and existing US setup"
+        },
+        {
+          "what": "Pivot sales model to annual subscriptions instead of weekly subscriptions",
+          "who": [
+            "Ian Brooks",
+            "Sales team"
+          ],
+          "context": "Sales team recommending annual sales with weekly meal selection or monthly menu distribution"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Get back to Ian with feasibility assessment and plan",
+          "owner": "Nikita Gorshkov",
+          "timeline": "By Friday (follow-up meeting scheduled)"
+        },
+        {
+          "task": "Introduce Ian to Nurev (agency chairman) and request pricing quote",
+          "owner": "Nikita Gorshkov",
+          "timeline": "In the meantime (before Friday)"
+        },
+        {
+          "task": "Discuss with Ally and have her start investigating implementation details",
+          "owner": "Nikita Gorshkov",
+          "timeline": "Today"
+        },
+        {
+          "task": "Talk with Samir and get feedback",
+          "owner": "Nikita Gorshkov",
+          "timeline": "Before Friday"
+        },
+        {
+          "task": "Allocate resources (Ian Brooks and Kevin) for sales handling",
+          "owner": "Ian Brooks",
+          "timeline": "March 2026"
+        }
+      ],
+      "key_points": [
+        "Competitor approached, creating urgency to launch Canadian store to block competition",
+        "Break-even point is 450 meals per week - considered achievable",
+        "Resource constraints due to GC Netherlands migration blocking implementation team until February",
+        "Storefront is easiest piece; fulfillment method is the key challenge",
+        "Existing contracts with US entity for Factor cover Shopify and Anata - Canadian business can likely piggyback",
+        "Anata manages storefront setup, CRM, design, and endpoint integration; internal team handles URLs, tracking, and internal integrations",
+        "PM could handle simple storefront with minimal engineering support using knowledge from VMS and Good Shop launches",
+        "Successfully negotiated 25-30% price reduction on Good Shop project by cutting corners",
+        "Sales model shift from weekly to annual subscriptions with weekly meal selection or monthly menus"
+      ],
+      "blockers": [
+        {
+          "issue": "Implementation team blocked until February due to GC Netherlands migration",
+          "impact": "Cannot start full implementation until after January 30th deadline",
+          "context": "GC Netherlands migration must deliver all migrated customers to HelloFresh by the 30th"
+        },
+        {
+          "issue": "Technical complexity of disabling US functionality",
+          "impact": "Need to strip out Katana integrations and confirm fulfillment system compatibility",
+          "context": "US and Canada DC setups and fulfillment systems need verification"
+        },
+        {
+          "issue": "Contracts only exist with US entity",
+          "impact": "Need to confirm Canadian business can piggyback on existing Shopify and Anata contracts",
+          "context": "Current contracts are with US entity for Factor"
+        }
+      ],
+      "follow_ups": [
+        "Friday meeting to review feasibility and pricing",
+        "Confirm fulfillment systems and DC setup compatibility between US and Canada",
+        "Verify contract coverage for Canadian business entity",
+        "Determine if full integrations needed after pilot success and build business case",
+        "Finalize sales model approach (annual vs weekly subscriptions)"
+      ],
+      "entities": [
+        {
+          "name": "Ian Brooks",
+          "type": "person",
+          "context": "Meeting participant, driving Canadian store launch, planning sales resources with Kevin for March"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Meeting participant, technical lead assessing implementation feasibility and resource constraints"
+        },
+        {
+          "name": "Kevin",
+          "type": "person",
+          "context": "Sales resource planned for March to handle Canadian sales alongside Ian"
+        },
+        {
+          "name": "Anata",
+          "type": "system",
+          "context": "Agency that handled US B2B Shopify store for Factor, manages storefront setup, CRM, design, and endpoint integration"
+        },
+        {
+          "name": "Nurev",
+          "type": "person",
+          "context": "Chairman for the agency (Anata), will be contacted for pricing quote"
+        },
+        {
+          "name": "Ally",
+          "type": "person",
+          "context": "Team member who will investigate implementation details"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Person Nikita needs to consult for feedback on implementation"
+        },
+        {
+          "name": "Danielle",
+          "type": "person",
+          "context": "Team lead who could handle manual production plan manipulation for pilot"
+        },
+        {
+          "name": "Jigger",
+          "type": "person",
+          "context": "Alternative resource for manual production plan manipulation"
+        },
+        {
+          "name": "GC Netherlands migration",
+          "type": "project",
+          "context": "Blocking implementation team until February, deadline January 30th to deliver migrated customers to HelloFresh"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform for Canadian B2B store, existing contract with US entity for Factor"
+        },
+        {
+          "name": "Katana",
+          "type": "system",
+          "context": "US integration that needs to be stripped out for Canadian implementation"
+        },
+        {
+          "name": "VMS store",
+          "type": "project",
+          "context": "Previous store launch providing knowledge base for Canadian implementation"
+        },
+        {
+          "name": "Good Shop",
+          "type": "project",
+          "context": "Upcoming store launch in January, price negotiated down 25-30%"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "US B2B business with existing Shopify store and contracts with Anata"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "Recipient of migrated GC customers from Netherlands migration"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes - AI Bytes Assemble",
+      "doc_id": "1sQcxFMBainqwvCWr7eHtf5_Jkiskht9XhkBzIhBRWX4",
+      "doc_type": "meeting",
+      "meeting_purpose": "AI Bytes team sync to discuss AI-Native Product Development Lifecycle (PDLC), align on Q1 2026 planning, and share status updates on various AI initiatives",
+      "attendees": [
+        "Mario",
+        "AG (Adam Ghanem)",
+        "Sergei",
+        "Nikita (Nikita Gorshkov)",
+        "Pep",
+        "Ebrahim",
+        "Lacey (Lacey Nagel)",
+        "Priscilla",
+        "Brian",
+        "Sherief (Sherief Helaifi-Chadha)",
+        "Leo (Leo Lee)",
+        "NG"
+      ],
+      "date": "Multiple meetings: Dec 15, 2025; Nov 20, 2025; Oct 27, 2025",
+      "decisions": [
+        {
+          "what": "Focus on design-to-code part of the PDLC",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Q1 2026 Planning Alignment - narrowing scope to specific phase of product development lifecycle"
+        },
+        {
+          "what": "Focus on well-defined use cases (ReactNative migration) vs. rolling out to all",
+          "who": [
+            "MK",
+            "Team"
+          ],
+          "context": "Strategic decision to target specific use cases rather than broad deployment"
+        },
+        {
+          "what": "Formal launch of AI Agent Platform",
+          "who": [
+            "Lacey"
+          ],
+          "context": "Scheduled for day after Nov 20, 2025 meeting"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Refine Gemini minutes & action items to align with the group on next steps across key topics",
+          "owner": "Adam Ghanem",
+          "timeline": "Over the next 2 weeks (from Oct 27, 2025)"
+        },
+        {
+          "task": "Provide feedback on /qa-test command - where it falls short",
+          "owner": "Team members",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Introduce AI Bytes Office Hours to wider audience of product managers & designers",
+          "owner": "Adam Ghanem",
+          "timeline": "Next focus area"
+        },
+        {
+          "task": "Conduct Claude Code for Product Management Workshop",
+          "owner": "Adam Ghanem with Ebrahim",
+          "timeline": "Upcoming"
+        },
+        {
+          "task": "Video record sessions and create snapshot videos (like Youtube shorts) for channel posting",
+          "owner": "adam.ghanem@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Schedule a demo",
+          "owner": "Not specified",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Provide access to files",
+          "owner": "ekar@hellofresh.com",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Consider giving AI lab people to run and scale certain initiatives",
+          "owner": "nikita.gorshkov@hellofresh.com",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Establishing a Golden Path for AI-Native Product Development Lifecycle (PDLC) as foundation for Q1 planning",
+        "AI-First vs. AI-Augmented: Why Focus Wins discussion",
+        "ChatGPT App PoC launched",
+        "FreshChat integration released in HelloDev",
+        "Created /qa-test Claude Code command for generating test plan scenarios",
+        "AI Office Hours booked for 50% capacity without re-announcement",
+        "How to enable better QA processes for Marketing teams",
+        "Shipyard Concept Experiment - taking an idea through to outcome",
+        "Spec-driven development methodology introduction",
+        "Need to shift to prototype first culture for consumer facing experiences"
+      ],
+      "blockers": [
+        "Need to understand ReactNative use cases better",
+        "Main question: How to assess success quantitatively",
+        "Setting standards would require guidelines",
+        "Curation has a lot of friction for packaging efforts",
+        "Need clarity on pilot PDLC program and path forward",
+        "Need help streamlining outbound efforts and templating"
+      ],
+      "follow_ups": [
+        "RN x GenAI Session with Sergei",
+        "Merge viewpoints to see eye to eye on AI-Native PDLC approach",
+        "v0 procurement & next steps for prototype first culture",
+        "Methodology of spec-driven development core concepts intro rotation",
+        "Getting to AI-assisted PDLC faster - splitting packaging effort",
+        "Competitive analysis frequency determination",
+        "Production planning for deployments: monitoring and success metrics",
+        "AI Wizard Award discussion with Jake Fear"
+      ],
+      "entities": [
+        {
+          "name": "Mario (MK)",
+          "type": "person",
+          "context": "Leading discussion on AI-Native PDLC and Q1 planning alignment"
+        },
+        {
+          "name": "Adam Ghanem (AG)",
+          "type": "person",
+          "context": "Created /qa-test command, running AI Office Hours, leading workshops"
+        },
+        {
+          "name": "Nikita Gorshkov (NG)",
+          "type": "person",
+          "context": "Involved in ChatGPT App PoC launch"
+        },
+        {
+          "name": "Leo Lee",
+          "type": "person",
+          "context": "Involved in ChatGPT App PoC and requesting clarity on pilot PDLC program"
+        },
+        {
+          "name": "Lacey Nagel",
+          "type": "person",
+          "context": "Releasing FreshChat integration and launching AI Agent Platform"
+        },
+        {
+          "name": "Ebrahim",
+          "type": "person",
+          "context": "Collaborating on Claude Code workshop and AI lab concept"
+        },
+        {
+          "name": "Sherief Helaifi-Chadha",
+          "type": "person",
+          "context": "Discussing QA processes for Marketing teams"
+        },
+        {
+          "name": "AI-Native Product Development Handbook",
+          "type": "project",
+          "context": "Resource and foundation document for PDLC work"
+        },
+        {
+          "name": "Shipyard Concept Experiment",
+          "type": "project",
+          "context": "PM + Eng + Design experiment to take idea through to outcome"
+        },
+        {
+          "name": "ReactNative migration",
+          "type": "project",
+          "context": "Primary use case for focused PDLC implementation"
+        },
+        {
+          "name": "/qa-test command",
+          "type": "system",
+          "context": "Claude Code command for generating test plan scenarios"
+        },
+        {
+          "name": "ChatGPT App PoC",
+          "type": "system",
+          "context": "Proof of concept launched for HF Discovery MCP integration"
+        },
+        {
+          "name": "FreshChat integration",
+          "type": "system",
+          "context": "Released in HelloDev product"
+        },
+        {
+          "name": "AI Agent Platform",
+          "type": "system",
+          "context": "Platform being formally launched"
+        },
+        {
+          "name": "HelloDev",
+          "type": "system",
+          "context": "Product receiving FreshChat integration"
+        },
+        {
+          "name": "v0",
+          "type": "system",
+          "context": "Tool being considered for procurement to enable prototype first culture"
+        },
+        {
+          "name": "AI Bytes Office Hours",
+          "type": "project",
+          "context": "Regular sessions for team support, 50% booked without re-announcement"
+        },
+        {
+          "name": "AI lab",
+          "type": "project",
+          "context": "Concept overlapping with Shipyard experiment, potential to run and scale initiatives"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:11:28.625665"
+}

@@ -1,0 +1,3707 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W35",
+  "extracted_at": "2026-01-02T10:47:46.853842Z",
+  "message_count": 13,
+  "messages": [
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U033GJP6SMS>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* Other\n\n\n:mag: *Issue reported:*\nI just came across some experiment code that is 3 years old and seems like it could potentially be pretty removed if it is no longer necessary. [<https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/store/src/products/selectors/products.js#L365|link>]  I just happened to be in the file for other purposes, but it seemed like a it could be a relatively low risk code clean-up so I thought I’d mention it.  I know that I always love deleting code.\n\n\n:footprints: *Steps to reproduce:*\nn/a",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756397612.994959",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756397612.994959",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1756451575.417029",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+nW4A",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033GJP6SMS",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Low "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_green_circle",
+                  "unicode": "1f7e2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Other"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I just came across some experiment code that is 3 years old and seems like it could potentially be pretty removed if it is no longer necessary. ["
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/store/src/products/selectors/products.js#L365",
+                  "text": "link"
+                },
+                {
+                  "type": "text",
+                  "text": "]  I just happened to be in the file for other purposes, but it seemed like a it could be a relatively low risk code clean-up so I thought I’d mention it.  I know that I always love deleting code."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "n/a"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756397616.486269",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756397612.994959",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756451575.417029",
+          "client_msg_id": "e7a94f3c-ac59-43ee-9f60-616d53f799a8",
+          "text": "Thank you for flagging Travis :blobthumbsup:\nI created a ticket so we can cleanup this part of the code but also to check if there’s something else form this experiment still in the codebase",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756397612.994959",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qM6ZW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for flagging Travis "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nI created a ticket so we can cleanup this part of the code but also to check if there’s something else form this experiment still in the codebase"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U01KA1QFFGT",
+      "text": "<@U01KA1QFFGT> has left the channel",
+      "type": "message",
+      "ts": "1756383419.879139"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U01KA1QFFGT>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHey team, please could you review PR. We are working on adding some flags to the delivery_dates_endpoint in the WL space and need your approval. Thanks <https://github.com/hellofresh/web/pull/56756>\n\n\n:footprints: *Steps to reproduce:*\nCode review",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756366866.009079",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756366866.009079",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1756371130.669549",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8",
+        "U01KA1QFFGT"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UPcNu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01KA1QFFGT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "High "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_orange_circle",
+                  "unicode": "1f7e0"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, please could you review PR. We are working on adding some flags to the delivery_dates_endpoint in the WL space and need your approval. Thanks "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/56756"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Code review"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756366870.842989",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756366866.009079",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756370129.353179",
+          "client_msg_id": "cb010cb8-e2a5-4dd1-8c73-53df484b5433",
+          "text": "Hey Chiamaka :cat_wave:\nThis PR needs wl critical review approval, I don’t have these powers so asking <!subteam^SFULAEPF0> if someone could take a look.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756366866.009079",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Pp4J/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Chiamaka "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "cat_wave"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nThis PR needs wl critical review approval, I don’t have these powers so asking "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "SFULAEPF0"
+                    },
+                    {
+                      "type": "text",
+                      "text": " if someone could take a look."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "users": [
+                "UE4HG114J"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01KA1QFFGT",
+          "type": "message",
+          "ts": "1756371130.669549",
+          "client_msg_id": "1701115c-837c-4dd3-8851-3af752705720",
+          "text": "Thanks <@U02BA3VS7H8> and <@UE4HG114J> for checking :proper_bow:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756366866.009079",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0houi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02BA3VS7H8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UE4HG114J"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for checking "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "proper_bow"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "npblob",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U01KA1QFFGT",
+      "text": "<@U01KA1QFFGT> has joined the channel",
+      "type": "message",
+      "ts": "1756366780.912009"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U03HCD899EJ",
+      "text": "<@U03HCD899EJ> has left the channel",
+      "type": "message",
+      "ts": "1756328683.231989"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U02KQF884CT>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHi team! Could you please review the following PR?: <https://github.com/hellofresh/web/pull/56447>\nWe're working on the new cancellation compliance requirements: in this PR we're replacing the statsig feature flag by our new endpoint to render the one-step cancellation funnel.\n\n\n:footprints: *Steps to reproduce:*\n:blob-thx:",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756303189.452569",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756303189.452569",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1756305973.979339",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8",
+        "U02KQF884CT"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "X9T2d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U02KQF884CT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Low "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_green_circle",
+                  "unicode": "1f7e2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team! Could you please review the following PR?: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/56447"
+                },
+                {
+                  "type": "text",
+                  "text": "\nWe're working on the new cancellation compliance requirements: in this PR we're replacing the statsig feature flag by our new endpoint to render the one-step cancellation funnel."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "blob-thx"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756303193.293179",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756303189.452569",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756305039.015549",
+          "client_msg_id": "309f0dcd-3e88-4f32-bcb3-7932460dd66a",
+          "text": "<@U02KQF884CT> :wave:\nDo you also need QA for the PR?\nAnd I think would be good to share it with TPT and vms if you haven’t done it yet",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756303189.452569",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nd0PY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U02KQF884CT"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wave",
+                      "unicode": "1f44b"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nDo you also need QA for the PR?\nAnd I think would be good to share it with TPT and vms if you haven’t done it yet"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02KQF884CT",
+          "type": "message",
+          "ts": "1756305973.979339",
+          "client_msg_id": "efd75e6c-b72f-430a-b233-46d279ca0bb4",
+          "text": "Thanks for checking, Becca!\nWe've tested all brands and it looks good to us, but feel free to check the flow in the vercel link if you have some time.\n\nI have sent it, so I'll wait for everyone to have a look before merging. :blob-thx:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756303189.452569",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RVvYQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for checking, Becca!\nWe've tested all brands and it looks good to us, but feel free to check the flow in the vercel link if you have some time.\n\nI have sent it, so I'll wait for everyone to have a look before merging. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blob-thx"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "hero",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "trophy75",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "awesome_sun",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U03PN0VRC2F>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* E2E Test / Unit Test\n\n\n:mag: *Issue reported:*\ne2e tests failing on master and blocking my PR  <https://github.com/hellofresh/web/actions/runs/17259127756/job/48983651810?pr=56713>\n\nTest: app/e2e-tests/pr/wl-pre-checkout-selection/checkoutWithFreeAddonsPopup.spec.ts\n\n\n:footprints: *Steps to reproduce:*\nrun locally on master app/e2e-tests/pr/wl-pre-checkout-selection/checkoutWithFreeAddonsPopup.spec.ts",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756294502.416719",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756294502.416719",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1756295649.863039",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8",
+        "U03PN0VRC2F"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vNTFD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03PN0VRC2F",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "E2E Test / Unit Test"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "e2e tests failing on master and blocking my PR  "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/actions/runs/17259127756/job/48983651810?pr=56713"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nTest: app/e2e-tests/pr/wl-pre-checkout-selection/checkoutWithFreeAddonsPopup.spec.ts"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "run locally on master app/e2e-tests/pr/wl-pre-checkout-selection/checkoutWithFreeAddonsPopup.spec.ts"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756294505.373449",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756294502.416719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756295296.034459",
+          "client_msg_id": "a40985a4-51df-4156-91b1-67094635ae3e",
+          "text": "Hey <@U03PN0VRC2F> this test was pretty stable until roday. <https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/board-query/bW7afnkRGcf/result/oc9vnuKQ1Vh?tab=overview|Honeycomb query>\nWe know that today there was staging instability on process order. Could you wait a bit and try to rerun?\nIs your PR urgent?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756294502.416719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7rBHW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03PN0VRC2F"
+                    },
+                    {
+                      "type": "text",
+                      "text": " this test was pretty stable until roday. "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/board-query/bW7afnkRGcf/result/oc9vnuKQ1Vh?tab=overview",
+                      "text": "Honeycomb query"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nWe know that today there was staging instability on process order. Could you wait a bit and try to rerun?\nIs your PR urgent?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03PN0VRC2F",
+          "type": "message",
+          "ts": "1756295649.863039",
+          "client_msg_id": "3c89e6b1-44e5-471b-95f3-bcd8294e32e9",
+          "text": "Sure. I also see similar failures with other tests on my PR. I will wait and re-run. Thanks",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756294502.416719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ybN0e",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sure. I also see similar failures with other tests on my PR. I will wait and re-run. Thanks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "nice2",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03PN0VRC2F",
+      "text": "<@U03PN0VRC2F> has joined the channel",
+      "type": "message",
+      "ts": "1756293757.468299"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U06JUCD7S4A>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nWe are moving all program subscriptions to the end of the subscription list, so ideally it should not impact any code spaces. But would love your eyes on it, to confirm nothing in your space is impact.\n The programs team will also be reviewing it tomorrow but due to the time difference, I would appreciate if I could get your feedback/concerns if any,\n\n\n:footprints: *Steps to reproduce:*\nN/A.\nTest videos and steps in the PR.",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756243761.699059",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756243761.699059",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1756396374.454719",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8",
+        "U06JUCD7S4A"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GA8ja",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U06JUCD7S4A",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We are moving all program subscriptions to the end of the subscription list, so ideally it should not impact any code spaces. But would love your eyes on it, to confirm nothing in your space is impact.\n The programs team will also be reviewing it tomorrow but due to the time difference, I would appreciate if I could get your feedback/concerns if any,"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "N/A.\nTest videos and steps in the PR."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756243765.669179",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756243761.699059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756278438.116989",
+          "client_msg_id": "7c18cff3-d3b0-4490-b8cd-6a7fdb1fbdf0",
+          "text": "Hey Philip! What do you mean with “program subscriptions” and “subscription list”?\nCould you give more details on what exactly we should be keeping an eye on?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756243761.699059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gdDhc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Philip! What do you mean with “program subscriptions” and “subscription list”?\nCould you give more details on what exactly we should be keeping an eye on?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1756304200.329959",
+          "client_msg_id": "d992c25c-0f4a-43ed-883e-a5e1d5babe56",
+          "text": "Hi <@U02BA3VS7H8>,\nThanks for looking at this.\n\nPrograms subscription is a new kind of Factor subscription that allows users to choose a meal plan around weight loss. This is determined by any subscription object that has `is_program_weightloss`  tag in the `subscription.productType.family.tags` object\n\nSpecifically, because a user can have multiple subscriptions, we had a scenario where the reactivation banner was being shown for a user with a standard active Factor subscription (because they had a deactivated program subscription). The solution was to move the Programs subscriptions to the end.\n\nIdeally this should not impact users with a single subscription but it would impact users with multiple subscriptions especially for users with 1 active and 1 deactivate subscription. Validate\n1.  the reactivation banner behavior doesn't change\n2. Rewards/ Wallet section\n3. Reactivation banner on the plans page (if any)\n4. Share with Friends / Feed Friends section\n5. Any other section that relies on order of subscriptions - such as banners\nEnsure no side effects.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756243761.699059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eNCDa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02BA3VS7H8"
+                    },
+                    {
+                      "type": "text",
+                      "text": ",\nThanks for looking at this.\n\nPrograms subscription is a new kind of Factor subscription that allows users to choose a meal plan around weight loss. This is determined by any subscription object that has "
+                    },
+                    {
+                      "type": "text",
+                      "text": "is_program_weightloss",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "  tag in the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "subscription.productType.family.tags ",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "object\n\nSpecifically, because a user can have multiple subscriptions, we had a scenario where the reactivation banner was being shown for a user with a standard active Factor subscription (because they had a deactivated program subscription). The solution was to move the Programs subscriptions to the end.\n\nIdeally this should not impact users with a single subscription but it would impact users with multiple subscriptions especially for users with 1 active and 1 deactivate subscription. Validate\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": " the reactivation banner behavior doesn't change"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Rewards/ Wallet section"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Reactivation banner on the plans page (if any)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Share with Friends / Feed Friends section"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Any other section that relies on order of subscriptions - such as banners"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ensure no side effects."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ok_hand",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756304989.439209",
+          "client_msg_id": "674061f3-2786-4868-97e8-75ae05c76aa6",
+          "text": "So I guess it’s not supre relevant for us because we don’t allow double subscriptions.\nBut we will keep an eye.\n\nThanks Philip",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756243761.699059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wX2Db",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So I guess it’s not supre relevant for us because we don’t allow double subscriptions.\nBut we will keep an eye.\n\nThanks Philip"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U06JUCD7S4A"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1756396374.454719",
+          "client_msg_id": "c00620e9-02b9-4934-bbad-9c5af57f69f2",
+          "text": "Merged the PR in will keep an eye out for any issues.\n<@U018UCEFJ65> /resolve.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756243761.699059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JYmqq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Merged the PR in will keep an eye out for any issues.\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U02KQF884CT>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHi team! Could I please get a review in this PR?: <https://github.com/hellofresh/web/pull/56667>\n\nI'm fixing the test you unquarantined this morning because I've merged a PR right after updating this flow, so we could not catch the failure.\n\n\n:footprints: *Steps to reproduce:*\nCheck the test failing on master",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756210293.519389",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756210293.519389",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1756211275.189249",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02P4F23YJ0"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Z3286",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U02KQF884CT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team! Could I please get a review in this PR?: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/56667"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nI'm fixing the test you unquarantined this morning because I've merged a PR right after updating this flow, so we could not catch the failure."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Check the test failing on master"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02P4F23YJ0"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U02P4F23YJ0"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756210296.478009",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756210293.519389",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02P4F23YJ0",
+          "type": "message",
+          "ts": "1756211275.189249",
+          "client_msg_id": "6a2cf084-4739-4a29-9550-df0f807e9d0c",
+          "text": "Hey <@U02KQF884CT> PR is approved, thanks for handling it.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756210293.519389",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MhlLV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02KQF884CT"
+                    },
+                    {
+                      "type": "text",
+                      "text": " PR is approved, thanks for handling it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "thx-thank-you",
+              "users": [
+                "U02KQF884CT"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U02KQF884CT",
+      "text": "<@U02KQF884CT> has joined the channel",
+      "type": "message",
+      "ts": "1756210143.283229"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U03HCD899EJ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nPR review for another redux refactor in Discount Modal of discount communication.\n\n<https://github.com/hellofresh/web/pull/56645>\n\nThis one just moves the redux out of `DiscountModal` and into the parent component invoking it. Also, I fixed some tests and made the redux swappable so that it can eventually be deprecated… if HF ever moves away from it fully.\n\n\n:footprints: *Steps to reproduce:*\n:sanic:",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756163036.954129",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756163036.954129",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1756211409.533599",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U02BA3VS7H8",
+        "U03HCD899EJ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "82bBS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03HCD899EJ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "PR review for another redux refactor in Discount Modal of discount communication.\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/56645"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nThis one just moves the redux out of "
+                },
+                {
+                  "type": "text",
+                  "text": "DiscountModal",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and into the parent component invoking it. Also, I fixed some tests and made the redux swappable so that it can eventually be deprecated… if HF ever moves away from it fully."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "sanic"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756163041.860609",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756163036.954129",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756196715.072689",
+          "edited": {
+            "user": "U02BA3VS7H8",
+            "ts": "1756196725.000000"
+          },
+          "client_msg_id": "a65249c1-566f-4342-956d-c65fc4168ead",
+          "text": "Hey <@U03HCD899EJ> I left two comments regarding some casting that you’re doing. Just because I would like to understand why was it needed.\nQA looks good",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756163036.954129",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7n9wF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03HCD899EJ"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I left two comments regarding some casting that you’re doing. Just because I would like to understand why was it needed.\nQA looks good"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756204850.267499",
+          "edited": {
+            "user": "U03HCD899EJ",
+            "ts": "1756205231.000000"
+          },
+          "client_msg_id": "70CD77B8-3BB2-4CCD-B53A-0643B3A77FD9",
+          "text": "thanks <@U02BA3VS7H8>! I responded to your questions",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756163036.954129",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5954z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02BA3VS7H8"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! I responded to your questions"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756210212.071609",
+          "client_msg_id": "cf3abcc7-19eb-4d2e-bd03-624163bde030",
+          "text": "All right! Thanks for the reply :check:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756163036.954129",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QHO96",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "All right! Thanks for the reply "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "check"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756211409.533599",
+          "client_msg_id": "66864E73-1976-4555-BEE5-088206896304",
+          "text": "thanks! i will still be in this component to now add sub brand functionality so I may revisit your questions and see if things can be improved further/made clearer. appreciate the review!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756163036.954129",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "asnSA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks! i will still be in this component to now add sub brand functionality so I may revisit your questions and see if things can be improved further/made clearer"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " appreciate the review!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "nice2",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U052G15UUS1>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHi team, could I get goodchop review and QA for <https://github.com/hellofresh/web/pull/56622>\n\nThis PR updates the api call for changing the delivery address in plan settings. This is part of the migration work from <https://hellofresh.slack.com/archives/C087X11S06A/p1752761685435389>\n\n\n:footprints: *Steps to reproduce:*\n,",
+      "username": "Good Chop Support",
+      "attachments": [
+        {
+          "from_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752761685435389",
+          "ts": "1752761685.435389",
+          "author_id": "U07UZ2QAM7D",
+          "channel_id": "C087X11S06A",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C087X11S06A",
+              "ts": "1752761685.435389",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "cKqTB",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "emoji",
+                            "name": "memo",
+                            "unicode": "1f4dd",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " APIv2 Delivery endpoints to STOP updating delivery information",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nDear internal clients ("
+                          },
+                          {
+                            "type": "text",
+                            "text": "internal backend ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "services),\n\nAs a part of Consumer Core strategy and "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Alliance KR",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a "
+                          },
+                          {
+                            "type": "text",
+                            "text": "new Deliveries API ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "and taking over all the APIv2 endpoints that modify Delivery information.\n\n"
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "arrow_right",
+                            "unicode": "27a1-fe0f"
+                          },
+                          {
+                            "type": "text",
+                            "text": " To be able to achieve that, we need to take control of the traffic going to APIv2 Deliveries related endpoints. We ask all the clients of "
+                          },
+                          {
+                            "type": "text",
+                            "text": "these endpoints",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ":\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "PATCH /subscriptions/{id}/delivery_dates"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "POST /plans/{id}/changePlanDeliveryDetails"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "\nTo "
+                          },
+                          {
+                            "type": "text",
+                            "text": "move from APIv2 to the (fully compatible) CDPS Proxy until 31-July",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ":\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Staging host: "
+                              },
+                              {
+                                "type": "link",
+                                "url": "http://cdps-deliveries-proxy.staging-k8s.hellofresh.io",
+                                "text": "cdps-deliveries-proxy.staging-k8s.hellofresh.io"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Live host: "
+                              },
+                              {
+                                "type": "link",
+                                "url": "http://cdps-deliveries-proxy.live-k8s.hellofresh.io",
+                                "text": "cdps-deliveries-proxy.live-k8s.hellofresh.io"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "\nThis service is tested, live and handles existing APIv2 traffic coming from other clients successfully.\n\nIt is our only to switch the traffic to point these use-cases eventually to new source of truth. All the API calls that are pointing directly to APIv2 "
+                          },
+                          {
+                            "type": "text",
+                            "text": "will stop to update the Delivery entities ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "warning",
+                            "unicode": "26a0-fe0f",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nWe"
+                          },
+                          {
+                            "type": "text",
+                            "text": " would like to know back from you",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " in the "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "thread",
+                            "unicode": "1f9f5"
+                          },
+                          {
+                            "type": "text",
+                            "text": " the feasibility of such change in your client.\n\nClients that we know about:\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "BFF Reactivation - "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U068Q3LFB40"
+                              },
+                              {
+                                "type": "text",
+                                "text": " "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U0708FBKN30"
+                              },
+                              {
+                                "type": "text",
+                                "text": "."
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752761685435389",
+          "fallback": "[July 17th, 2025 7:14 AM] damian.tylczynski: :memo: *APIv2 Delivery endpoints to STOP updating delivery information*\n\nDear internal clients (*internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\n:arrow_right: To be able to achieve that, we need to take control of the traffic going to APIv2 Deliveries related endpoints. We ask all the clients of *these endpoints*:\n• PATCH /subscriptions/{id}/delivery_dates\n• POST /plans/{id}/changePlanDeliveryDetails\nTo *move from APIv2 to the (fully compatible) CDPS Proxy until 31-July*:\n• Staging host: <http://cdps-deliveries-proxy.staging-k8s.hellofresh.io|cdps-deliveries-proxy.staging-k8s.hellofresh.io>\n• Live host: <http://cdps-deliveries-proxy.live-k8s.hellofresh.io|cdps-deliveries-proxy.live-k8s.hellofresh.io>\nThis service is tested, live and handles existing APIv2 traffic coming from other clients successfully.\n\nIt is our only to switch the traffic to point these use-cases eventually to new source of truth. All the API calls that are pointing directly to APIv2 *will stop to update the Delivery entities* :warning: \n\nWe *would like to know back from you* in the :thread: the feasibility of such change in your client.\n\nClients that we know about:\n• BFF Reactivation - <@U068Q3LFB40> <@U0708FBKN30>.",
+          "text": ":memo: *APIv2 Delivery endpoints to STOP updating delivery information*\n\nDear internal clients (*internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\n:arrow_right: To be able to achieve that, we need to take control of the traffic going to APIv2 Deliveries related endpoints. We ask all the clients of *these endpoints*:\n• PATCH /subscriptions/{id}/delivery_dates\n• POST /plans/{id}/changePlanDeliveryDetails\nTo *move from APIv2 to the (fully compatible) CDPS Proxy until 31-July*:\n• Staging host: <http://cdps-deliveries-proxy.staging-k8s.hellofresh.io|cdps-deliveries-proxy.staging-k8s.hellofresh.io>\n• Live host: <http://cdps-deliveries-proxy.live-k8s.hellofresh.io|cdps-deliveries-proxy.live-k8s.hellofresh.io>\nThis service is tested, live and handles existing APIv2 traffic coming from other clients successfully.\n\nIt is our only to switch the traffic to point these use-cases eventually to new source of truth. All the API calls that are pointing directly to APIv2 *will stop to update the Delivery entities* :warning: \n\nWe *would like to know back from you* in the :thread: the feasibility of such change in your client.\n\nClients that we know about:\n• BFF Reactivation - <@U068Q3LFB40> <@U0708FBKN30>.",
+          "author_name": "Damian Tylczyński",
+          "author_link": "https://hellofresh.slack.com/team/U07UZ2QAM7D",
+          "author_icon": "https://avatars.slack-edge.com/2024-11-15/8048297811009_04e468a891ee69166e5e_48.jpg",
+          "author_subname": "Damian Tylczyński",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack Conversation"
+        }
+      ],
+      "type": "message",
+      "ts": "1756132856.946169",
+      "edited": {
+        "user": "B086MRXMQ0J",
+        "ts": "1756132858.000000"
+      },
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756132856.946169",
+      "reply_count": 10,
+      "reply_users_count": 3,
+      "latest_reply": "1756214323.759959",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U052G15UUS1",
+        "U02BA3VS7H8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aYXMm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U052G15UUS1",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Low "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_green_circle",
+                  "unicode": "1f7e2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team, could I get goodchop review and QA for "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/56622"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nThis PR updates the api call for changing the delivery address in plan settings. This is part of the migration work from "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752761685435389"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756132860.099089",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U052G15UUS1",
+          "type": "message",
+          "ts": "1756132912.111039",
+          "client_msg_id": "9675542e-5b67-4658-83d4-849904e19d26",
+          "text": "Additional context: <https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359",
+              "ts": "1752221071.377359",
+              "author_id": "U07UZ2QAM7D",
+              "channel_id": "C087X11S06A",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "is_thread_root_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C087X11S06A",
+                  "ts": "1752221071.377359",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "8hhNF",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "emoji",
+                                "name": "memo",
+                                "unicode": "1f4dd",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " \"PATCH /subscription\" for Delivery updates End of Life",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "\n\nDear Deliveries clients ("
+                              },
+                              {
+                                "type": "text",
+                                "text": "web, mobile & internal backend ",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "services),\n\nAs a part of Consumer Core strategy and "
+                              },
+                              {
+                                "type": "text",
+                                "text": "Alliance KR",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a "
+                              },
+                              {
+                                "type": "text",
+                                "text": "new Deliveries API ",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “"
+                              },
+                              {
+                                "type": "text",
+                                "text": "PATCH /subscription",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “"
+                              },
+                              {
+                                "type": "text",
+                                "text": "POST /plans/{id}/changePlanDeliveryDetails",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “"
+                              },
+                              {
+                                "type": "text",
+                                "text": "PATCH /subscription",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "” will stop to update the Delivery entities.\n\n"
+                              },
+                              {
+                                "type": "emoji",
+                                "name": "hourglass_flowing_sand",
+                                "unicode": "23f3"
+                              },
+                              {
+                                "type": "text",
+                                "text": " "
+                              },
+                              {
+                                "type": "text",
+                                "text": "Due Date:",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " 31 July.\n\nWe see following clients (cc among others "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "UEZ4PRFKM"
+                              },
+                              {
+                                "type": "text",
+                                "text": " "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U06L36ATUCD"
+                              },
+                              {
+                                "type": "text",
+                                "text": " "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U0708FBKN30"
+                              },
+                              {
+                                "type": "text",
+                                "text": ") updating the delivery option/interval using this endpoint:\n"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_list",
+                            "elements": [
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Android app"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "iPhone app"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "GreenChef Mobile App (Android)"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "whitelabel-mobile/Everyplate"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "whitelable-mobile/Youfoodz"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /account-settings/subscription-settings/delivery-window"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /account-settings/subscription-settings/delivery-address"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /my-account/deliveries/menu"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /settings/plan/delivery-address"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /settings/plan/reactivate"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "rich_text_section",
+                                "elements": [
+                                  {
+                                    "type": "text",
+                                    "text": "Web: /account-settings/subscription-settings/delivery-interval"
+                                  }
+                                ]
+                              }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "\nWe have prepared "
+                              },
+                              {
+                                "type": "link",
+                                "url": "https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life",
+                                "text": "description of the change requested"
+                              },
+                              {
+                                "type": "text",
+                                "text": " and "
+                              },
+                              {
+                                "type": "text",
+                                "text": "we would like to know back from you",
+                                "style": {
+                                  "bold": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " in the "
+                              },
+                              {
+                                "type": "emoji",
+                                "name": "thread",
+                                "unicode": "1f9f5"
+                              },
+                              {
+                                "type": "text",
+                                "text": " the feasibility of such change in your client."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359",
+              "fallback": "[July 11th, 2025 1:04 AM] damian.tylczynski: :memo: *\"PATCH /subscription\" for Delivery updates End of Life*\n\nDear Deliveries clients (*web, mobile &amp; internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “*PATCH /subscription*” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “*POST /plans/{id}/changePlanDeliveryDetails*” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “*PATCH /subscription*” will stop to update the Delivery entities.\n\n:hourglass_flowing_sand: *Due Date:* 31 July.\n\nWe see following clients (cc among others <@UEZ4PRFKM> <@U06L36ATUCD> <@U0708FBKN30>) updating the delivery option/interval using this endpoint:\n• Android app\n• iPhone app\n• GreenChef Mobile App (Android)\n• whitelabel-mobile/Everyplate\n• whitelable-mobile/Youfoodz\n• Web: /account-settings/subscription-settings/delivery-window\n• Web: /account-settings/subscription-settings/delivery-address\n• Web: /my-account/deliveries/menu\n• Web: /settings/plan/delivery-address\n• Web: /settings/plan/reactivate\n• Web: /account-settings/subscription-settings/delivery-interval\nWe have prepared <https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life|description of the change requested> and *we would like to know back from you* in the :thread: the feasibility of such change in your client.",
+              "text": ":memo: *\"PATCH /subscription\" for Delivery updates End of Life*\n\nDear Deliveries clients (*web, mobile &amp; internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “*PATCH /subscription*” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “*POST /plans/{id}/changePlanDeliveryDetails*” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “*PATCH /subscription*” will stop to update the Delivery entities.\n\n:hourglass_flowing_sand: *Due Date:* 31 July.\n\nWe see following clients (cc among others <@UEZ4PRFKM> <@U06L36ATUCD> <@U0708FBKN30>) updating the delivery option/interval using this endpoint:\n• Android app\n• iPhone app\n• GreenChef Mobile App (Android)\n• whitelabel-mobile/Everyplate\n• whitelable-mobile/Youfoodz\n• Web: /account-settings/subscription-settings/delivery-window\n• Web: /account-settings/subscription-settings/delivery-address\n• Web: /my-account/deliveries/menu\n• Web: /settings/plan/delivery-address\n• Web: /settings/plan/reactivate\n• Web: /account-settings/subscription-settings/delivery-interval\nWe have prepared <https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life|description of the change requested> and *we would like to know back from you* in the :thread: the feasibility of such change in your client.",
+              "author_name": "Damian Tylczyński",
+              "author_link": "https://hellofresh.slack.com/team/U07UZ2QAM7D",
+              "author_icon": "https://avatars.slack-edge.com/2024-11-15/8048297811009_04e468a891ee69166e5e_48.jpg",
+              "author_subname": "Damian Tylczyński",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Thread in Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dyiiR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Additional context: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey Lorena! Regarding the QA\nI do see the successful call to `changePlanDeliveryDetails` but without a response from the endpoint (not sure if this is intentional)\nBut the call to subscriptions is being made with `deliveryTime` (check image)\n\nFrom your instructions on how to QA I understood that the call to subscription should be without deliveryTime\n&gt;  and a call to PATCH /subscriptions without `deliveryTime` in the body",
+          "files": [
+            {
+              "id": "F09C0ULUMRQ",
+              "created": 1756193923,
+              "timestamp": 1756193923,
+              "name": "Screenshot 2025-08-26 at 09.36.13.png",
+              "title": "Screenshot 2025-08-26 at 09.36.13.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U02BA3VS7H8",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 207284,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09C0ULUMRQ/screenshot_2025-08-26_at_09.36.13.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09C0ULUMRQ/download/screenshot_2025-08-26_at_09.36.13.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 162,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 216,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 324,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 361,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 433,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09C0ULUMRQ-d218ee0f17/screenshot_2025-08-26_at_09.36.13_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 461,
+              "original_w": 1500,
+              "original_h": 676,
+              "thumb_tiny": "AwAWADC+u8AdCKcenXFNWPIJ3N8wHGen0pSPmHzetADgD6k0Y96TJ4x0p1ACY96X8aKKAEX7o+lBH+c0L90fSloAQA8fMT+VLRRQAUUUUAf/2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09C0ULUMRQ/screenshot_2025-08-26_at_09.36.13.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09C0ULUMRQ-ba0b58c2ff",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U02BA3VS7H8",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uvz71",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Lorena! Regarding the QA\nI do see the successful call to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "changePlanDeliveryDetails",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " but without a response from the endpoint (not sure if this is intentional)\nBut the call to subscriptions is being made with "
+                    },
+                    {
+                      "type": "text",
+                      "text": "deliveryTime",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " (check image)\n\nFrom your instructions on how to QA I understood that the call to subscription should be without deliveryTime\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_quote",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": " and a call to PATCH /subscriptions without "
+                    },
+                    {
+                      "type": "text",
+                      "text": "deliveryTime",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in the body"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1756193970.399039",
+          "client_msg_id": "ab9ac40e-9c14-4561-a9b4-f1416d71a82f",
+          "thread_ts": "1756132856.946169"
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756193989.809589",
+          "client_msg_id": "137f5124-c6c3-4fab-8294-fe8cbfb2f95d",
+          "text": "The account I used is <mailto:rebecca.albers+4@hellofresh.com|rebecca.albers+4@hellofresh.com> // 123456",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1KS7s",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The account I used is "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:rebecca.albers+4@hellofresh.com",
+                      "text": "rebecca.albers+4@hellofresh.com",
+                      "unsafe": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " // 123456"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U052G15UUS1",
+          "type": "message",
+          "ts": "1756207397.924179",
+          "client_msg_id": "7CFAF2CB-4667-4A50-B536-6F346536547C",
+          "text": "Hey <@U02BA3VS7H8> thanks for checking! For the response body it’s okay to be there - but it shouldn’t be in the payload body. I think that call you’re looking at is to GET subscriptions but the one with the id should be the PATCH",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "E54pg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02BA3VS7H8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " thanks for checking! For the response body it’s okay to be there - but it shouldn’t be in the payload body"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " I think that call "
+                    },
+                    {
+                      "type": "text",
+                      "text": "you’re"
+                    },
+                    {
+                      "type": "text",
+                      "text": " looking at is to GET subscriptions but the one with the id should be the PATCH"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756210463.282739",
+          "edited": {
+            "user": "U02BA3VS7H8",
+            "ts": "1756210489.000000"
+          },
+          "client_msg_id": "447ea1cc-c3cb-4131-807c-19f3c87a45d2",
+          "text": "I see. But then in this case I can’t see any calls to PATCH subscription :thinking-2:\nI just tested again and I have the same result as the screenshot.\n\nOr when should I expect this call to PATCH subscriptions?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ui4lG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I see. But then in this case I can’t see any calls to PATCH subscription "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking-2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nI just tested again and I have the same result as the screenshot.\n\nOr when should I expect this call to PATCH subscriptions?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Here's what I see on my end",
+          "files": [
+            {
+              "id": "F09BQ082S4X",
+              "created": 1756213464,
+              "timestamp": 1756213464,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U052G15UUS1",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 154941,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09BQ082S4X/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09BQ082S4X/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 139,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 185,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 278,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 309,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 371,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09BQ082S4X-70a9619f00/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 396,
+              "original_w": 1486,
+              "original_h": 574,
+              "thumb_tiny": "AwATADCmFyOvApzoF6EkD1GKY+MDaSR7jFID82Tzz3pgLkelHHpSU7Ix0H+NIBMj0pRgnGP1ptFAAfuikpT90UlAC0vakpe1ACUUUUAf/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09BQ082S4X/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09BQ082S4X-5f5269c20f",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U052G15UUS1",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xG3at",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here's what I see on my end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1756213472.998199",
+          "client_msg_id": "efc34412-f515-45b2-9b9f-65592a51d213",
+          "thread_ts": "1756132856.946169",
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U052G15UUS1",
+          "type": "message",
+          "ts": "1756213516.674439",
+          "client_msg_id": "82959f25-53af-4c44-8090-43c88d216070",
+          "text": "I believe that is the first request in your screenshot",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1UfzK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I believe that is the first request in your screenshot"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756213928.714469",
+          "client_msg_id": "9052fc82-b6db-4691-818c-343516215515",
+          "text": "Ah I understand now, sorry it was my bad",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VQJSC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ah I understand now, sorry it was my bad"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U052G15UUS1",
+          "type": "message",
+          "ts": "1756214323.759959",
+          "client_msg_id": "0972784a-180e-4180-b5b8-b0c5337fa44c",
+          "text": "Np! Thanks for the review :praycat:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756132856.946169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gXvMX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Np! Thanks for the review "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "praycat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "npblob",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

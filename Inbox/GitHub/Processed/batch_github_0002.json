@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0002",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "6f5d450f",
+      "message": "RTEVMS-2394: Cart drawer pricing fix (#62158)",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-19T20:30:43Z",
+      "url": "https://github.com/hellofresh/web/commit/6f5d450f86d1ecbb04a0ef8d429b3c7e4ff3c42f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "e8092459",
+      "message": "[RTEVMS-2364] Factor Form: Updating Multi-Cadence GTM Events (#62154)\n\n* RTEVMS-2364: Update multi-cadence GTM events\n\n* RTEvMS-2364: updating dismissType options\n\n* RTEVMS-2364: unit test fix",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-19T18:33:35Z",
+      "url": "https://github.com/hellofresh/web/commit/e8092459c7be20aab6a676a0667d6d70d5991fc3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "db3d1c29",
+      "message": "[RTEVMS-2391] Factor Form | OTP: funnel step tracking (#62144)\n\n* align checkoutType to GTM\n\n* signup page tracking\n\n* add funnel step tracking\n\n* add a11y for loading state",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-19T15:57:53Z",
+      "url": "https://github.com/hellofresh/web/commit/db3d1c298db97658815746bc36dbf63b7fcf6af2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f5841a3b",
+      "message": "[GOC-3428] Adds payment step completed gtm evt for OTP (#62142)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-19T14:23:31Z",
+      "url": "https://github.com/hellofresh/web/commit/f5841a3ba57a85fcb9079a5a93c136aa91f6a2d8",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "da967b82",
+      "message": "[MIO-68] Eliminate dead logic for Shopify redirects (#62104)\n\n* refactor: remove Shopify redirect functionality for unregistered VMS users and clean up related code\n\n* refactor: remove unregistered user redirect logic from FactorFormSignupPage and FactorFormTrialBoxSignupPage components\n\n* refactor: remove Two-Step Login functionality and related components from FactorFormLoginContent",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-19T14:19:36Z",
+      "url": "https://github.com/hellofresh/web/commit/da967b82d9e8cbc7a91483ef3a1b256259053b07",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "c0713d20",
+      "message": "[GOC-3399] Group rewrites (#62129)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-19T13:22:27Z",
+      "url": "https://github.com/hellofresh/web/commit/c0713d202271a766749d3b6492588603815fa1eb",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "eed54d64",
+      "message": "[TPT-2344] - [GD] Portion % default when entering change plans (#62087)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-19T11:57:00Z",
+      "url": "https://github.com/hellofresh/web/commit/eed54d6494e3eb3070eec1c32da240bc1cd8aa2b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "703d80d4",
+      "message": "[TPT-2517] Display Portion% options based on FeedingPlanType answer (#62133)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-19T11:33:17Z",
+      "url": "https://github.com/hellofresh/web/commit/703d80d462fa807761d131c87e2f94774417447a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "745417dd",
+      "message": "[TPT-2518] Update adjust calories to use new portion options behind feature flag (#62128)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-19T11:00:45Z",
+      "url": "https://github.com/hellofresh/web/commit/745417dd72ecb0f779830c5ead5c0958b46fff32",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "89009b53",
+      "message": "[GOC-3399] Fix sorting mistake (#62134)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-19T10:56:30Z",
+      "url": "https://github.com/hellofresh/web/commit/89009b53e5c9cbe7889ac5c7d32e54f7b878a499",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "cdd43d67",
+      "message": "[GOC-3399] Grooming rewrites snapshot (#62122)\n\n* Remove duplicated test cases\n\n* Sort rewrites (for snapshot)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-19T09:13:45Z",
+      "url": "https://github.com/hellofresh/web/commit/cdd43d67507e9ecbd03a4cace3d13bd5a7248fc4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "d88a8d31",
+      "message": "[TPT-2506] Change position of breed message card (#62048)\n\n* Change position of breed message card\n\n* Update test\n\n* Update spacing",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-12-19T08:33:02Z",
+      "url": "https://github.com/hellofresh/web/commit/d88a8d317fa516f4d455922962caff245586fc5f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "17d37684",
+      "message": "[RTEVMS-2386] Factor Form | OTP: OTP GTM tracking (#62083)\n\n* add/update all products page OTP tracking\n\n* update error message tracking\n\n* add unit tests\n\n* add selector tracking tests\n\n* fix double fired event",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-18T21:05:53Z",
+      "url": "https://github.com/hellofresh/web/commit/17d37684f714406174f9165ae8170fed6acf6f61",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "bf41ea89",
+      "message": "[RTEVMS-2388] Feature Flag: Bug Fix for Place Order CTA (#62093)\n\n* RTEVMS-2388: Bug fix for place order CTA\n\n* RTEVMS-2388: Bug fix for place order CTA mobile\n\n* updating changes to only apply to OTP orders",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-18T19:13:39Z",
+      "url": "https://github.com/hellofresh/web/commit/bf41ea891bf24e66c68cdabc8e845b0d3305eeb2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "ce36b104",
+      "message": "[MIO-66] Add Learn More Link and scaffold modal implementation (#62014)\n\n* feat: add .claim.json file for premium comparison modal with team information\n\n* feat: add premium comparison modal components including CTA, Header, and TableHeader\n\n* feat: integrate premium comparison feature with modal and trigger components\n\n* refactor: update Header component to use h1 for main title in premium comparison modal\n\n* feat: enhance accessibility and structure of premium comparison modal components\n\n* chore: remove commented code from Header component in premium comparison modal\n\n* feat: conditionally render CTA in premium comparison modal based on viewport size\n\n* refactor: remove unnecessary role attributes and simplify props in premium comparison modal components\n\n* fix: adjust button size in CTA component of premium comparison modal for improved UI\n\n* a11y: update Header component to use h2 for title in premium comparison modal for improved semantics\n\n* refactor: improve layout and accessibility of premium comparison modal components\n\n* refactor: fix failing typecheck\n\n* refactor: remove unused premium switch feature flag from MealPreferencesPanel",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-18T19:05:18Z",
+      "url": "https://github.com/hellofresh/web/commit/ce36b1047e49e9d5ccf42224e119011e35b66489",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "37b0417e",
+      "message": "[MIO-58] [Release] Enable redirect for net new customers to Shopify FactorForm and update Canonical URLs to point to the same (#61921)\n\n* feat: allow eligibilityCheck to enable redirects as default on live\n\n* feat: update shopifyCanonicalOverride logic to work on live alongside staging\n\n* refactor: update comment for Shopify canonical override to remove staging/local reference\n\n* refactor: simplify eligibility check logic by removing environment dependency\n\n* test: refactor HeadMetaTagsFeature tests to remove staging environment checks and ensure correct canonical URLs for live environment\n\n* test: update HeadMetaTagsFeature tests to use live environment for rendering\n\n* fix: correct product URL from 'proteins' to 'protein' in canonical overrides\n\n* fix: update canonical URL for '/factorform/products/protein' to correct singular form\n\n* test: update HeadMetaTagsFeature test to reflect correct canonical URL for singular product\n\n* refactor: remove Shopify redirect functionality for unregistered VMS users and clean up related code\n\n* Revert \"refactor: remove Shopify redirect functionality for unregistered VMS users and clean up related code\"\n\nThis reverts commit 1299888f7d753fb8963b995a3c84370c467d2423.\n\n* refactor: simplify eligibility check for Shopify redirect by removing dynamic config and local storage dependencies\n\n* refactor: remove unused Shopify redirect functionality from tests and clean up related imports\n\n* refactor: streamline eligibility check assertions in Shopify redirect tests\n\n* test: update HeadMetaTagsFeature and canonicalOverrides tests to use correct singular product URL",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-18T18:25:18Z",
+      "url": "https://github.com/hellofresh/web/commit/37b0417ebef11aa9b834c11756544d8f244cfb00",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "264c0dd7",
+      "message": "RTEVMS-2389: Fixing width of bundle dialog CTAs (#62095)",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-18T18:09:27Z",
+      "url": "https://github.com/hellofresh/web/commit/264c0dd7310c78327f2306d8ef976973b912d1dc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "fa50b49e",
+      "message": "[TPT-2406] - [GD] Remove duplicate payment-change-status API calls in payment component (#61848)\n\n* TPT-2406 - add PaymentChangeStatusContext\n\n* TPT-2406 - add stale time for query\n\n* TPT-2406 - fix drawer\n\n* TPT-2406 - delete provider\n\n* TPT-2406 - cleanup\n\n* TPT-2406 - revert changes in hook\n\n* TPT-2406 - pass paymentChangeStatus via props\n\n* TPT-2406 - pass paymentChangeStatus via props, fix tests\n\n* TPT-2406 - revert back changes to drawer",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-18T17:05:11Z",
+      "url": "https://github.com/hellofresh/web/commit/fa50b49ea8a31c56894d3edc02003da8c9dc0c3e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "dd68b1b4",
+      "message": "[MIO-54] Add dropdown for plan switcher (#61883)\n\n* feat: add SelectedPlanDescription component for meal plan type dropdown\n\n* feat: implement PlanTypeSwitcherDropdown component for meal plan type selection\n\n* feat: add utility function to determine premium family plan status\n\n* feat: implement PlanTypeDropdown component for meal plan type selection with configuration constants\n\n* feat: integrate PlanTypeDropdown into MealPreferencesPanel with premium plan switcher feature flag\n\n* refactor: remove legacy constants and integrate dynamic configuration for premium plan switching in PlanTypeDropdown\n\n* test: add mock for premium plan switcher feature flag in MealPreferencesPanel tests\n\n* a11y: adding aria attributes for selected plan description",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-18T16:31:05Z",
+      "url": "https://github.com/hellofresh/web/commit/dd68b1b4f1a11e5d526c6f2549544f62ce1e4b59",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "2ca62272",
+      "message": "[TPT-2358] Box Model Builder: useThePetsTableBoxContent (#61975)\n\n* box model builder - uploadToJsons\n\n* BoxContent jsons\n\n* Add useThePetsTableBoxContent operation",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-18T15:53:31Z",
+      "url": "https://github.com/hellofresh/web/commit/2ca6227280cf3669a008e986a7afcc5efd84423c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-18T15:53:31Z",
+    "newest": "2025-12-19T20:30:43Z"
+  }
+}

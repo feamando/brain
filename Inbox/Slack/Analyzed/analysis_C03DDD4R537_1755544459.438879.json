@@ -1,0 +1,217 @@
+{
+  "batch_id": "C03DDD4R537_1755544459.438879",
+  "channel_name": "squad-nv-good-chop",
+  "channel_id": "C03DDD4R537",
+  "message_count": 12,
+  "analyzed_at": "2026-01-02T12:56:13.424599",
+  "decisions": [
+    {
+      "what": "Skip failing Cypress test checkoutWithTwoWeekCadence.spec.ts on master to unblock PRs",
+      "who": [
+        "U03EN3N4KM4"
+      ],
+      "date": "First thread",
+      "context": "Test was persistently failing on master and blocking multiple PRs from merging",
+      "confidence": "high"
+    },
+    {
+      "what": "Move program subscriptions to end of subscription list",
+      "who": [
+        "U06JUCD7S4A"
+      ],
+      "date": "Sixth thread",
+      "context": "Fix reactivation banner showing incorrectly for users with active Factor subscription but deactivated program subscription",
+      "confidence": "high"
+    },
+    {
+      "what": "Replace Statsig feature flag with new endpoint for one-step cancellation funnel",
+      "who": [
+        "U02KQF884CT"
+      ],
+      "date": "Eighth thread",
+      "context": "Part of new cancellation compliance requirements",
+      "confidence": "high"
+    }
+  ],
+  "entities": [
+    {
+      "name": "squad-nv-good-chop",
+      "type": "squad",
+      "context": "Support channel receiving requests for code reviews, test failures, and QA",
+      "relationships": [
+        "GoodChop",
+        "HelloFresh",
+        "Factor"
+      ]
+    },
+    {
+      "name": "GoodChop",
+      "type": "brand",
+      "context": "Primary brand context for the squad, mentioned in discount communication and sub-brand work",
+      "relationships": [
+        "Factor",
+        "HelloFresh web"
+      ]
+    },
+    {
+      "name": "Discount Communication",
+      "type": "project",
+      "context": "Ongoing refactoring work moving redux state management and adding sub-brand support",
+      "relationships": [
+        "U03HCD899EJ",
+        "DiscountModal",
+        "Contentful"
+      ]
+    },
+    {
+      "name": "Factor",
+      "type": "brand",
+      "context": "Brand with program subscriptions (weight loss) and sub-brand functionality being added",
+      "relationships": [
+        "GoodChop",
+        "program subscriptions"
+      ]
+    },
+    {
+      "name": "U03EN3N4KM4",
+      "type": "person",
+      "context": "Skipped failing Cypress test to unblock PRs",
+      "relationships": [
+        "Cypress tests"
+      ]
+    },
+    {
+      "name": "U03HCD899EJ",
+      "type": "person",
+      "context": "Leading multiple PRs for Discount Communication refactoring and sub-brand work",
+      "relationships": [
+        "Discount Communication",
+        "redux refactoring"
+      ]
+    },
+    {
+      "name": "U02BA3VS7H8",
+      "type": "person",
+      "context": "Providing QA reviews and test stability monitoring across multiple PRs",
+      "relationships": [
+        "QA",
+        "Honeycomb monitoring"
+      ]
+    },
+    {
+      "name": "U052G15UUS1",
+      "type": "person",
+      "context": "Working on delivery address API migration in plan settings",
+      "relationships": [
+        "changePlanDeliveryDetails API"
+      ]
+    },
+    {
+      "name": "U06JUCD7S4A",
+      "type": "person",
+      "context": "Implemented program subscriptions ordering change for Factor",
+      "relationships": [
+        "Factor",
+        "program subscriptions"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Cypress test checkoutWithTwoWeekCadence.spec.ts failing on master",
+      "owner": "U03EN3N4KM4",
+      "status": "resolved",
+      "impact": "Blocked multiple PRs from merging (U03UNDBPVPY, U01V9SX5NG5)"
+    },
+    {
+      "description": "E2E test checkoutWithFreeAddonsPopup.spec.ts failing due to staging instability",
+      "owner": "U03PN0VRC2F",
+      "status": "active",
+      "impact": "Blocking PR #56713, related to process order staging issues"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Review and approve PR #56455 (Discount Communication state management refactor)",
+      "owner": "U02P4F23YJ0",
+      "due": "Second thread",
+      "status": "done"
+    },
+    {
+      "task": "Review and approve PR #56466 (Discount Communication tracking updates)",
+      "owner": "U0184T48L74",
+      "due": "Second thread",
+      "status": "done"
+    },
+    {
+      "task": "QA and review PR #56622 (delivery address API migration)",
+      "owner": "U02BA3VS7H8",
+      "due": "Third thread",
+      "status": "done"
+    },
+    {
+      "task": "Review PR #56645 (redux refactor in DiscountModal)",
+      "owner": "U02BA3VS7H8",
+      "due": "Fourth thread",
+      "status": "done"
+    },
+    {
+      "task": "Review PR #56667 (fix unquarantined test)",
+      "owner": "U02P4F23YJ0",
+      "due": "Fifth thread",
+      "status": "done"
+    },
+    {
+      "task": "Review PR #56756 (delivery_dates_endpoint flags) - needs WL critical review",
+      "owner": "group",
+      "due": "Ninth thread",
+      "status": "done"
+    },
+    {
+      "task": "Create ticket to cleanup 3-year-old experiment code",
+      "owner": "U02BA3VS7H8",
+      "due": "Tenth thread",
+      "status": "done"
+    },
+    {
+      "task": "Review and QA PR #57090 (Contentful translation keys for sub-brands)",
+      "owner": "squad-nv-good-chop",
+      "due": "Eleventh thread",
+      "status": "pending"
+    },
+    {
+      "task": "Wait and rerun failing E2E tests after staging stabilizes",
+      "owner": "U03PN0VRC2F",
+      "due": "Seventh thread",
+      "status": "pending"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "Discount Communication Refactoring",
+      "summary": "Ongoing multi-PR effort to refactor Discount Communication components, moving redux state management out of components, updating tracking, and adding sub-brand support with Contentful translations. Work is being done incrementally with careful review.",
+      "relevance": "Major architectural improvement affecting GoodChop and Factor brands"
+    },
+    {
+      "topic": "API Migration Work",
+      "summary": "Migration from old to new API endpoints for delivery address changes in plan settings, removing deliveryTime from PATCH subscription calls while maintaining it in response bodies.",
+      "relevance": "Part of broader API modernization effort affecting subscription management"
+    },
+    {
+      "topic": "Test Stability Issues",
+      "summary": "Multiple Cypress E2E tests failing on master due to both code changes and staging environment instability, requiring test skipping and monitoring via Honeycomb.",
+      "relevance": "Impacting developer velocity and PR merge capability"
+    },
+    {
+      "topic": "Program Subscriptions",
+      "summary": "New Factor subscription type for weight loss programs requiring special handling in subscription ordering to fix reactivation banner logic for users with multiple subscriptions.",
+      "relevance": "New product feature requiring cross-squad awareness for potential side effects"
+    },
+    {
+      "topic": "Cancellation Compliance",
+      "summary": "Replacing Statsig feature flags with new endpoint to implement one-step cancellation funnel as part of regulatory compliance requirements.",
+      "relevance": "Legal/compliance requirement affecting all brands"
+    }
+  ],
+  "summary": "GoodChop squad handled 11 support requests primarily focused on code reviews for Discount Communication refactoring, API migrations, and test failures. Key work includes redux refactoring, sub-brand support, program subscriptions ordering, and cancellation compliance updates."
+}

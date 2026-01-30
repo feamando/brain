@@ -1,0 +1,23 @@
+{
+  "session_id": "2026-01-30-83f80025",
+  "topic": "Daily Work Session - 2026-01-30",
+  "status": "active",
+  "created_at": "2026-01-30T08:00:42.339979",
+  "last_updated": "2026-01-30T08:00:42.340001",
+  "notes": {
+    "decisions": [],
+    "assumptions": [],
+    "observations": [],
+    "blockers": [],
+    "actions": []
+  },
+  "counters": {
+    "D": 0,
+    "A": 0,
+    "O": 0,
+    "B": 0,
+    "T": 0
+  },
+  "linked_fpf_cycles": [],
+  "linked_documents": []
+}

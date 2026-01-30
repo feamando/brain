@@ -1,0 +1,582 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W42",
+  "extracted_at": "2026-01-02T10:39:32.222835Z",
+  "message_count": 4,
+  "messages": [
+    {
+      "user": "U0MBX09UZ",
+      "type": "message",
+      "ts": "1760943631.670259",
+      "client_msg_id": "c75737dc-0417-4471-8c31-3c5b342761ae",
+      "text": "hi team, I'm back from vacation - Im going to be spending the day catching up with emails and slack threads, and tackling some important things that require  my attention. If there's anything important you need from me please let me know.",
+      "team": "T02AGMUUR",
+      "thread_ts": "1760943631.670259",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1760948319.152419",
+      "reply_users": [
+        "U027201FQSV",
+        "UE4HG114J",
+        "U7SJ525DE",
+        "U0MBX09UZ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2YIfn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hi team, I'm back from vacation - Im going to be spending the day catching up with emails and slack threads, and tackling some important things that require  my attention. If there's anything important you need from me please let me know."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "sun",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1760943836.468369",
+          "client_msg_id": "423b69cf-4e46-40c5-ad5b-ad53e756aed9",
+          "text": "Welcome back, Fede :hugging_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1760943631.670259",
+          "parent_user_id": "U0MBX09UZ",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "g4kXC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome back, Fede "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hugging_face",
+                      "unicode": "1f917"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1760945926.823009",
+          "client_msg_id": "c7540ac8-006d-4878-b1eb-f6e0857e0819",
+          "text": "I need at least one dad joke asap :pray:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1760943631.670259",
+          "parent_user_id": "U0MBX09UZ",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xr4Mr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I need at least one dad joke asap "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U027201FQSV",
+                "U0MBX09UZ",
+                "U2D54V0UV",
+                "U05BNQPJX4K"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1760946157.409609",
+          "client_msg_id": "da70f1ed-2988-4e09-a5c6-28517082c84a",
+          "text": "welcome back!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1760943631.670259",
+          "parent_user_id": "U0MBX09UZ",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tWjyC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "welcome back!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1760948319.152419",
+          "client_msg_id": "4819f7be-54a5-4014-90ba-d3025584d3a5",
+          "text": "thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1760943631.670259",
+          "parent_user_id": "U0MBX09UZ",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OJlya",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: General Tribe &amp; Social Updates: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad Updates: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad Updates: <@U01AKGWGLC8> <@U07VDFEFBQU> <@U027201FQSV> \n• :gear: New Ventures Systems Squad Updates: <@U2D54V0UV> \n• :crossed_swords: Cross-selling &amp; PUMA Squad Updates: <@U01TQGXG9D3> <@U03R6F2AG9K> ",
+      "username": "New Ventures Tribe Weekly Notes Reminder",
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "actions",
+              "block_id": "RZ6md",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "b5fa9f0a-aa2e-4a2a-8460-f5a1bd18e6b7",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Go To Notes",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "third_party_auth": {
+                    "enable_dynamic_auth": true
+                  }
+                }
+              ]
+            }
+          ],
+          "fallback": "[no preview available]"
+        }
+      ],
+      "type": "message",
+      "ts": "1760686207.556759",
+      "bot_id": "B099C38L3GE",
+      "app_id": "A098ZUFML9M",
+      "trigger_id": "Ft099E45M2R3",
+      "workflow_id": "Wf098ZUFPLG7",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SCIBY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya New Ventures leads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This is your weekly reminder to please update the Weekly Team Update ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Notes",
+                  "style": {
+                    "bold": true,
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " before standup on Monday:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    },
+                    {
+                      "type": "text",
+                      "text": " General Tribe & Social Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Pets Table Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "meat"
+                    },
+                    {
+                      "type": "text",
+                      "text": " GoodChop Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "gear",
+                      "unicode": "2699-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " New Ventures Systems Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U2D54V0UV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "crossed_swords",
+                      "unicode": "2694-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Cross-selling & PUMA Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01TQGXG9D3"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03R6F2AG9K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1760557813.449389",
+      "client_msg_id": "9655df09-1831-4347-b748-1ee64190ed61",
+      "text": "Hey folks, potentially really good news on the payments side: Abdel is saying that that the plan is to fix in Q4/Q1 the multiple charges issue.",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2n92C",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks, potentially really good news on the payments side: Abdel is saying that that the plan is to fix in Q4/Q1 the multiple charges issue."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03R6F2AG9K",
+            "U027201FQSV"
+          ],
+          "count": 2
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U03R6F2AG9K",
+            "U027201FQSV"
+          ],
+          "count": 2
+        },
+        {
+          "name": "money",
+          "users": [
+            "UEZ4PRFKM",
+            "U01AKGWGLC8"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U027201FQSV",
+      "type": "message",
+      "ts": "1760362708.224189",
+      "edited": {
+        "user": "U027201FQSV",
+        "ts": "1760362741.000000"
+      },
+      "client_msg_id": "044637bd-3c0e-4f5b-98dd-fd665608885c",
+      "text": "hey team, FYI Deo and I have to skip the Tribe Standup today - having a call with business stakeholders.",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BZA53",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey team, FYI Deo and I have to skip the Tribe Standup today - having a call with business stakeholders."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

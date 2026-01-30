@@ -1,0 +1,504 @@
+{
+  "batch_id": "meeting_079",
+  "doc_type": "meeting",
+  "doc_count": 3,
+  "results": [
+    {
+      "doc_title": "VMS OTP UAT - Part 2 - 2025/12/30 09:27 EST - Notes by Gemini",
+      "doc_id": "1_RSbov08MhGNUh8K-4gJDW8dhb7N7bcdj9zs68G5exI",
+      "doc_type": "meeting",
+      "meeting_purpose": "Re-review One-Time Purchase (OTP) scenarios and test cases, monitor events generated on staging, and address bug findings from previous UAT sessions",
+      "attendees": [
+        "Edwin Torres",
+        "Nikita Gorshkov",
+        "Emily Mendelson",
+        "Michael James Clarke",
+        "Hamed Karimian",
+        "Tavi Scandiff-Pirvu"
+      ],
+      "date": "December 30, 2025",
+      "decisions": [
+        {
+          "what": "Prioritize four high-priority tickets for resolution before deployment",
+          "who": [
+            "Edwin Torres",
+            "Hamed Karimian"
+          ],
+          "context": "Including contradictory price communication, subscription discount communication, dashboard bundles section issue, and shipping fee discrepancy"
+        },
+        {
+          "what": "Katana issue must be solved before deployment to live",
+          "who": [
+            "Edwin Torres",
+            "Hamed Karimian",
+            "Nikita Gorshkov"
+          ],
+          "context": "Event rollout issues preventing live deployment"
+        },
+        {
+          "what": "Extend dashboard bundles logic to show OTP/subscription selection modal similar to credit page",
+          "who": [
+            "Edwin Torres",
+            "Hamed Karimian"
+          ],
+          "context": "Current dashboard bundles section only affects subscription orders, needs to support OTP orders"
+        },
+        {
+          "what": "Test order creation on both live and staging environments to verify event generation",
+          "who": [
+            "Edwin Torres",
+            "Hamed Karimian"
+          ],
+          "context": "Confirming events are triggered and received by Katana and Salesforce"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Open support ticket with Katana group in Slack regarding event rollout issues",
+          "owner": "Edwin Torres and Nikita Gorshkov",
+          "timeline": "Immediate"
+        },
+        {
+          "task": "Find alternative contact for SFMC (Salesforce) issue since Christian hasn't responded",
+          "owner": "Nikita Gorshkov",
+          "timeline": "Immediate - invite Manuel"
+        },
+        {
+          "task": "Create message to Katana support thread, ping Pablo and Brad",
+          "owner": "Nikita Gorshkov",
+          "timeline": "Immediate"
+        },
+        {
+          "task": "Create tickets for identified bugs and share links with team",
+          "owner": "Edwin Torres",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Work with Emily on high and medium priority issues",
+          "owner": "Edwin Torres and Emily Mendelson",
+          "timeline": "Next few days"
+        },
+        {
+          "task": "Provide update on progress for medium and high priority issues",
+          "owner": "Edwin Torres",
+          "timeline": "Tomorrow (December 31, 2025)"
+        },
+        {
+          "task": "Provide update on release timing and Katana issue resolution",
+          "owner": "Edwin Torres",
+          "timeline": "Friday (January 2, 2026)"
+        },
+        {
+          "task": "Fix refund issue with DM",
+          "owner": "Payments team",
+          "timeline": "Next week (delayed due to incident and capacity limitations)"
+        }
+      ],
+      "key_points": [
+        "High-priority bugs from previous findings have been addressed",
+        "Testing events generated on staging using platform that listens to CFKA topics",
+        "Event confirmation process: order completion triggers Kafka topic event, which should be received by Katana and Salesforce",
+        "Shipping fee discrepancy identified for OTP orders",
+        "Dashboard bundles section needs refactoring to support OTP order selection",
+        "Price reflection issues when changing item frequency or quantity",
+        "Team is close to finishing OTP feature and preparing for release"
+      ],
+      "blockers": [
+        {
+          "issue": "Katana event rollout - no message received for first issue",
+          "impact": "Cannot deploy to live until resolved"
+        },
+        {
+          "issue": "SFMC (Salesforce) - no response from Christian",
+          "impact": "Need alternative contact to resolve event-related issues"
+        },
+        {
+          "issue": "Refund issue with DM",
+          "impact": "Payments team working on incident, limited capacity, fix delayed to next week"
+        },
+        {
+          "issue": "Dashboard bundles section breaking - critical priority",
+          "impact": "Users cannot properly add items as OTP or subscription orders from dashboard"
+        },
+        {
+          "issue": "Shipping fee discrepancy for OTP",
+          "impact": "Incorrect fees being charged"
+        },
+        {
+          "issue": "Price not reflecting correctly when changing item frequency or quantity",
+          "impact": "User experience and pricing accuracy"
+        }
+      ],
+      "follow_ups": [
+        "Confirm Katana and other systems receive event data from live orders",
+        "Monitor progress on four high-priority tickets",
+        "Determine release date once Katana issue is resolved",
+        "Continue UAT testing for remaining OTP scenarios"
+      ],
+      "entities": [
+        {
+          "name": "VMS OTP",
+          "type": "project",
+          "context": "One-Time Purchase feature for VMS undergoing UAT testing"
+        },
+        {
+          "name": "Katana",
+          "type": "system",
+          "context": "Service that should receive events from Kafka topics, experiencing rollout issues"
+        },
+        {
+          "name": "SFMC (Salesforce Marketing Cloud)",
+          "type": "system",
+          "context": "Service subscribed to checkout events, contact Christian unresponsive"
+        },
+        {
+          "name": "Kafka",
+          "type": "system",
+          "context": "Event streaming platform with CFKA topics for order/checkout events"
+        },
+        {
+          "name": "Emily Mendelson",
+          "type": "person",
+          "context": "Developer working with Edwin on high and medium priority bug fixes"
+        },
+        {
+          "name": "Christian",
+          "type": "person",
+          "context": "Contact for SFMC issues, not responding"
+        },
+        {
+          "name": "Manuel",
+          "type": "person",
+          "context": "Alternative contact to be invited for SFMC issue"
+        },
+        {
+          "name": "Pablo",
+          "type": "person",
+          "context": "To be pinged in Katana support thread"
+        },
+        {
+          "name": "Brad",
+          "type": "person",
+          "context": "To be pinged in Katana support thread"
+        },
+        {
+          "name": "Payments team",
+          "type": "person",
+          "context": "Working on incident, will fix DM refund issue next week"
+        }
+      ]
+    },
+    {
+      "doc_title": "Spike - Precheckout Meal Selection FJ",
+      "doc_id": "1dOkajM2aIL6beew6m49mS5OQnTyXa0CGRLKfrJemI40",
+      "doc_type": "meeting",
+      "meeting_purpose": "Technical spike to analyze and plan the precheckout meal selection feature for Factor US customers coming from HelloFresh US through the crossbrands passwordless signup experience",
+      "attendees": [
+        "Arbaaz Dossani",
+        "Claire Wang",
+        "Paul Andrews",
+        "Jânio Cássio Leite",
+        "Nikita Gorshkov",
+        "Travis Provick",
+        "Anna Wardell (Trushkina)",
+        "Ahmed Wagdi",
+        "Morteza Pourkazemi",
+        "Tales Padua",
+        "Laura Mneimneh",
+        "Wanderley Teixeira"
+      ],
+      "date": "Jun 25, 2024",
+      "decisions": [
+        {
+          "what": "Backend-based CRS solution is not recommended despite being readily available",
+          "who": [
+            "Mealkit Expansion and Support Squad"
+          ],
+          "context": "The NVB team's solution is temporary and will be sunsetted in favor of Cart Foundation Squad's solution. It was built specifically for Goodchop's static menu and is enmeshed with recurring selection service"
+        },
+        {
+          "what": "Frontend precheckout meal selection will repurpose the Goodchop frontend solution",
+          "who": [
+            "Development team"
+          ],
+          "context": "To reduce development effort and reuse existing functionality"
+        },
+        {
+          "what": "Special routing rules for existing Factor customers",
+          "who": [
+            "Product team"
+          ],
+          "context": "Deactivated Factor customers route to Reactivations page; logged-in Factor customers route to My Deliveries page"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Build crossbrands passwordless signup experience for HelloFresh US customers checking out through Factor US signup funnel",
+          "owner": "Mealkit Expansion and Support Squad",
+          "timeline": "Late Q3 2024"
+        },
+        {
+          "task": "Verify effort estimate with NVB team for CRS solution",
+          "owner": "Arbaaz Dossani",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Investigate Cart Foundation Squad endpoint availability and workarounds",
+          "owner": "Development team",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Account for filterDeliveryMoments/firstDeliveryDate RCS setting for demand steering",
+          "owner": "Development team",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "HelloFresh US customers will use magic link authentication to sign up for Factor US",
+        "Users will select meals in the new Factor signup funnel before subscription creation, which will be patched later",
+        "Two backend solution options exist: Customer Recurring Selection Service (CRS) and Cart Foundation Squad endpoint",
+        "CRS solution was previously implemented for Goodchop brand with static weekly menus",
+        "Cart Foundation Squad has a yearly planning agreement to provide an endpoint for multiple brands",
+        "Effort estimate for CRS solution is approximately 1 sprint with 1 FTE (including Progress Bar changes)",
+        "The solution needs to handle users selecting from public menu only",
+        "Challenge exists with users potentially changing their first delivery week and invalidating selections"
+      ],
+      "blockers": [
+        "Team is blocked until Cart Foundation Squad endpoint becomes available or CRS is updated to handle multiple countries",
+        "CRS needs to be disintegrated as precheckout meal selection and recurring meal selection for Goodchop",
+        "Solution doesn't currently account for filterDeliveryMoments/firstDeliveryDate RCS setting used for demand steering on Factor US",
+        "Users changing first delivery week before checkout would invalidate their meal selections",
+        "Uncertainty about whether existing solution is responsive and impacts Single Question Flow"
+      ],
+      "follow_ups": [
+        "Clarify if workarounds exist for Cart Foundation endpoint or if team is completely blocked",
+        "Determine if demand steering settings will cause potential issues",
+        "Confirm whether Single Question Flow needs updates or if progress bar changes are sufficient",
+        "Validate effort estimate of 1.5 sprints after developer investigation",
+        "Understand why GoodChop team moved away from Cart Foundation solution to use CRS",
+        "Clarify if solution will duplicate or modify existing GoodChop implementation",
+        "Determine if header/progress bar updates are needed for SingleQuestionFlow"
+      ],
+      "entities": [
+        {
+          "name": "Mealkit Expansion and Support Squad",
+          "type": "project",
+          "context": "Team building the crossbrands passwordless signup experience"
+        },
+        {
+          "name": "HelloFresh US",
+          "type": "system",
+          "context": "Source brand for customers entering Factor US signup funnel"
+        },
+        {
+          "name": "Factor US",
+          "type": "system",
+          "context": "Target brand for meal selection and signup"
+        },
+        {
+          "name": "Customer Recurring Selection Service (CRS)",
+          "type": "system",
+          "context": "Backend service option for precheckout meal selection, previously implemented for Goodchop"
+        },
+        {
+          "name": "NVB team (#nv-backend)",
+          "type": "project",
+          "context": "Team that implemented CRS changes for Goodchop brand in H1 2024"
+        },
+        {
+          "name": "Cart Foundation Squad (#squad-cart-foundation)",
+          "type": "project",
+          "context": "Team with yearly planning agreement to provide endpoint for multiple brands"
+        },
+        {
+          "name": "Goodchop",
+          "type": "system",
+          "context": "Brand with existing precheckout meal selection implementation using static weekly menus"
+        },
+        {
+          "name": "Arbaaz Dossani",
+          "type": "person",
+          "context": "Document author and spike lead"
+        },
+        {
+          "name": "Ahmed Wagdi",
+          "type": "person",
+          "context": "Point of contact for NVB team"
+        },
+        {
+          "name": "Morteza Pourkazemi",
+          "type": "person",
+          "context": "Point of contact for NVB team"
+        },
+        {
+          "name": "Tales Padua",
+          "type": "person",
+          "context": "Point of contact for Cart Foundation Squad"
+        },
+        {
+          "name": "Laura Mneimneh",
+          "type": "person",
+          "context": "Point of contact for Cart Foundation Squad"
+        }
+      ]
+    },
+    {
+      "doc_title": "Q1 Planning Workshop - 2025/12/04 14:56 CET - Notes by Gemini",
+      "doc_id": "1EJgKVu-I_U2nEGbP4YHR8fzgDm5Kh5R6decxN6Jda_M",
+      "doc_type": "meeting",
+      "meeting_purpose": "Bottom-up planning exercise at tribe level for Q1 2025 to prioritize initiatives, flag risks, identify cross-team support needs, and assess priority and confidence levels for deliverables",
+      "attendees": [
+        "Travis Provick",
+        "Nikita Gorshkov",
+        "Sergei Kuzmenko",
+        "Leo Lee",
+        "Evan Weintraub",
+        "Holger Hammel",
+        "Annie Meininghaus",
+        "Adam Ghanem",
+        "Daniel Arias",
+        "Gabriel Range",
+        "Mert Bozdag",
+        "Remy Aldasoro",
+        "Stefano Palazzo",
+        "Marc Amey",
+        "Patil Shishir Mishra",
+        "Awn Ali",
+        "Jama Musse",
+        "Jenna O'Shea",
+        "Marlene Rosner",
+        "Edward Day",
+        "Fernando Luiz Valente de Souza Wellney",
+        "Yarra Luiz Cavalcanti",
+        "Hoga",
+        "Talis",
+        "Mark",
+        "Tommaso",
+        "Fiona",
+        "Tessa"
+      ],
+      "date": "December 4, 2025",
+      "decisions": [
+        {
+          "what": "Deliverable deadline extended to Tuesday instead of sharing tomorrow",
+          "who": [
+            "BER - R16-L0-Parterre participant"
+          ],
+          "context": "Original plan was to share by tomorrow, but adjusted because someone will be on a plane"
+        },
+        {
+          "what": "Monthly granularity for deliverables planning instead of quarterly",
+          "who": [
+            "BER - R16-L0-Parterre participant",
+            "Hogan"
+          ],
+          "context": "Discussed during session to provide more detailed planning structure"
+        },
+        {
+          "what": "Need to create standardized template for planning",
+          "who": [
+            "BER - R16-L0-Parterre participant"
+          ],
+          "context": "Granularity was inconsistent across teams, need to standardize format"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Create template for monthly deliverables with standardized granularity",
+          "owner": "BER - R16-L0-Parterre participant and team",
+          "timeline": "After this meeting, before Tuesday"
+        },
+        {
+          "task": "Update yearly plan with top highlighted items and changes from bottom-up exercises",
+          "owner": "Team",
+          "timeline": "By Tuesday for Essential Functions meeting"
+        },
+        {
+          "task": "Share template and instructions with teams",
+          "owner": "Leadership",
+          "timeline": "After template creation"
+        },
+        {
+          "task": "Address KTLO (Keep The Lights On) assumptions confidence for each team",
+          "owner": "Teams",
+          "timeline": "To be determined"
+        }
+      ],
+      "key_points": [
+        "Session is a new bottom-up planning process at tribe level, not for discussing minuscule details",
+        "Shift to React Native is underway",
+        "Appio deprecation is planned",
+        "Multi-region readiness for Project 500 is high priority",
+        "Snowplow implementation for personalization signals needs prioritization",
+        "Scalable food profile architecture requires further scoping",
+        "Seamless downgrade issue is highest priority for merchandising team",
+        "This is an 'exotic quarter' because normally would have started with meta backlog",
+        "Need to sync top-down and bottom-up planning approaches",
+        "Interactive color-coded sheet used to assess priority and confidence levels"
+      ],
+      "blockers": [
+        {
+          "issue": "Snowplow implementation lacks ownership despite being a blocker for meta backlog items",
+          "impact": "Blocking personalization signals"
+        },
+        {
+          "issue": "Seamless downgrade issue needs long-term solution",
+          "impact": "Highest priority for merchandising team"
+        },
+        {
+          "issue": "Scalable food profile architecture needs scoping and dependency management",
+          "impact": "Critical item requiring further definition"
+        },
+        {
+          "issue": "KTLO assumptions confidence not captured in current exercise",
+          "impact": "Missing visibility on operational capacity"
+        }
+      ],
+      "follow_ups": [
+        "Discuss personalization exception with Leo Lee",
+        "Sync top-down and bottom-up planning after meta backlog finalization",
+        "Essential Functions meeting on Tuesday to review updated plan",
+        "Address how to capture KTLO confidence assumptions",
+        "Review and improve planning process for next iteration"
+      ],
+      "entities": [
+        {
+          "name": "React Native",
+          "type": "system",
+          "context": "Technology shift underway as part of Q1 initiatives"
+        },
+        {
+          "name": "Appio",
+          "type": "system",
+          "context": "System being deprecated"
+        },
+        {
+          "name": "Project 500",
+          "type": "project",
+          "context": "Multi-region readiness is high priority deliverable"
+        },
+        {
+          "name": "Snowplow",
+          "type": "system",
+          "context": "Implementation needed for personalization signals, currently lacks ownership"
+        },
+        {
+          "name": "Fernando",
+          "type": "person",
+          "context": "Absent from meeting, Leo Lee covering for foundations material"
+        },
+        {
+          "name": "meta backlog",
+          "type": "project",
+          "context": "Top-down planning artifact that normally would start the process, being synced with bottom-up planning"
+        },
+        {
+          "name": "Hello Tech Essential Functions meeting",
+          "type": "project",
+          "context": "Tuesday meeting where updated plan will be shared"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T12:59:36.129700"
+}

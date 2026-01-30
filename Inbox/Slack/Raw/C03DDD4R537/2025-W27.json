@@ -1,0 +1,1674 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W27",
+  "extracted_at": "2026-01-02T10:46:07.787220Z",
+  "message_count": 8,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "UR4A299NX",
+      "text": "<@UR4A299NX> has left the channel",
+      "type": "message",
+      "ts": "1751562607.993609"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey <@U026DE9AGG3>, <@UJ182DUEN>, there was a new Service Desk ticket reported to Good Chop, could you please take a look: <https://hellofresh.atlassian.net/browse/SE-21306|SE-21306> :blob-thanks:",
+      "type": "message",
+      "ts": "1751558428.218099",
+      "bot_id": "B03JT85TW4B",
+      "thread_ts": "1751558428.218099",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1751626199.389139",
+      "reply_users": [
+        "U0251UW1YUE",
+        "U07VDFEFBQU",
+        "U2D54V0UV",
+        "U0184T48L74"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Qhp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U026DE9AGG3"
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UJ182DUEN"
+                },
+                {
+                  "type": "text",
+                  "text": ", there was a new Service Desk ticket reported to Good Chop, could you please take a look: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.atlassian.net/browse/SE-21306",
+                  "text": "SE-21306"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "blob-thanks"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "endless-pause-vini",
+          "users": [
+            "UJ182DUEN"
+          ],
+          "count": 1
+        },
+        {
+          "name": "giveme-whey-protein-val",
+          "users": [
+            "UJ182DUEN"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1751618761.099309",
+          "client_msg_id": "0c7cbea5-85ea-4b0b-9e27-849ea166ecaa",
+          "text": "<@U027201FQSV> <@U07VDFEFBQU> i cloned the ticket to our board <https://hellofresh.atlassian.net/browse/GOC-2963>\n\ni’ll let the prioritisation for you guys - just remember that yesterday this triggered an incident. it was short and solved itself, but still… we might need have a somewhat nice priority for this one :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "uf:ih:2865106::375b0c6d13774aff8546c79b13de2632",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*<https://hellofresh.atlassian.net/browse/GOC-2963?atlOrigin=eyJpIjoiNDlhNmQ1YTY5Y2FkNGI3MWI2ODliY2YyMWU2MzZiZmYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|GOC-2963 Good Chop Customer Stuck on Loading Subscription Page>*",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "uf:cx:2865106::5a4997adf51e4692907f4a66c6bcb574",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "Status: *Backlog*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "image",
+                      "image_url": "https://product-integrations-cdn.atl-paas.net/jira-issuetype/bug.png",
+                      "alt_text": "Bug"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Type: *Bug*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "image",
+                      "image_url": "https://product-integrations-cdn.atl-paas.net/icons/unknown-user.png",
+                      "alt_text": "Unassigned"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Assignee: *Unassigned*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Priority: *Normal*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "actions",
+                  "block_id": "issueFooterActions:{\"issueId\":\"2865106\",\"instanceId\":\"jira:644873fd-ceb4-4f39-a2aa-320afbd120b8\",\"projectId\":\"16142\",\"issueKey\":\"GOC-2963\",\"messageType\":\"uf\",\"nType\":\"ISSUE_UNFURL\"}",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "assign",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Assign",
+                        "emoji": true
+                      },
+                      "value": "assign"
+                    },
+                    {
+                      "type": "button",
+                      "action_id": "transition",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Change status",
+                        "emoji": true
+                      },
+                      "value": "transition"
+                    },
+                    {
+                      "type": "button",
+                      "action_id": "comment",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Comment",
+                        "emoji": true
+                      },
+                      "value": "comment"
+                    },
+                    {
+                      "type": "static_select",
+                      "action_id": "jiraOverflowActions",
+                      "placeholder": {
+                        "type": "plain_text",
+                        "text": "More actions...",
+                        "emoji": true
+                      },
+                      "options": [
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Watch",
+                            "emoji": true
+                          },
+                          "value": "watch"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Why am I seeing this?",
+                            "emoji": true
+                          },
+                          "value": "why"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Receive updates in channel",
+                            "emoji": true
+                          },
+                          "value": "connect"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "color": "#2684FF",
+              "fallback": "[no preview available]",
+              "bot_id": "B4S36RHS8",
+              "bot_team_id": "T02AGMUUR",
+              "app_unfurl_url": "https://hellofresh.atlassian.net/browse/GOC-2963",
+              "is_app_unfurl": true,
+              "app_id": "A2RPP3NFR"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pBIEB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " i cloned the ticket to our board "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/browse/GOC-2963"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\ni’ll let the prioritisation for you guys - just remember that yesterday this triggered an incident. it was short and solved itself, but still… we might need have a somewhat nice priority for this one "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U027201FQSV",
+                "U07VDFEFBQU"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1751619264.451569",
+          "client_msg_id": "ce4cb07b-bc2b-4dda-ba5d-ae1ec6561758",
+          "text": "btw i was thinking about adding this to the next sprint but we don’t have the next sprint’s group in our jira board… only  the current one\n\ncan we please invest some time to clean and organise that up a little bit? we could:\n\n• always have a next sprint group to quickly add stuff in there (we used to have them)\n• assess if we still need the following groups: Delection ROs and Cancellation S-Box. if they’re irrelevant and/or outdated, we can remove them\n• check the backlog group and assess what we can remove/move from there. there are some old stuff in there, <https://hellofresh.atlassian.net/browse/GOC-748|like this one>\nthanks! :pray:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RplCM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "btw i was thinking about adding this to the next sprint but we don’t have the next sprint’s group in our jira board… only  the current one\n\ncan we please invest some time to clean and organise that up a little bit? we could:\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "always have a next sprint group to quickly add stuff in there (we used to have them)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "assess if we still need the following groups: Delection ROs and Cancellation S-Box. if they’re irrelevant and/or outdated, we can remove them"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "check the backlog group and assess what we can remove/move from there. there are some old stuff in there, "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://hellofresh.atlassian.net/browse/GOC-748",
+                          "text": "like this one"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nthanks! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751619542.300599",
+          "client_msg_id": "5536c21d-b652-4cee-8da9-5215aa55a9e7",
+          "text": "yes we usually have the next sprint board, forgot to create it this time. Just created one",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qFr7n",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes we usually have the next sprint board, forgot to create it this time. Just created one"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751619593.528599",
+          "client_msg_id": "33393b01-d3c8-4f6c-9084-12ae6974a672",
+          "text": "also added the ticket to next sprint",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kBkV4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "also added the ticket to next sprint"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1751623809.348979",
+          "client_msg_id": "e6a10e0b-3f39-496e-ab65-12a9f958b973",
+          "text": "I think we need to update service desk notifications  and removed tags as Val is no longer in the company and Vini is another team.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kPoJW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think we need to update service desk notifications  and removed tags as Val is no longer in the company and Vini is another team."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "vini-ninja",
+              "users": [
+                "U0184T48L74",
+                "U027201FQSV"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1751626199.389139",
+          "client_msg_id": "80203142-77d7-4157-983b-a80ba30c38a1",
+          "text": "Hey! <@U03EN3N4KM4> and I were looking into this problem as part of our chapter day, it sounded interesting, and we learned a lot.\n\nWe think we solved the issue and added a comment to the Service Desk ticket. We will wait for confirmation from the client.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751558428.218099",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iCyqU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey! "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and I were looking into this problem as part of our chapter day, it sounded interesting, and we learned a lot.\n\nWe think we solved the issue and added a comment to the Service Desk ticket. We will wait for confirmation from the client."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "teamwork-highfive",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            },
+            {
+              "name": "celebrate",
+              "users": [
+                "U07VDFEFBQU",
+                "U027201FQSV"
+              ],
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "UB1DL0CAH",
+      "text": "<@UB1DL0CAH> has joined the channel",
+      "type": "message",
+      "ts": "1751555716.604529"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@UR4A299NX>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* E2E Test / Unit Test\n\n\n:mag: *Issue reported:*\ntest is failing: e2e-tests/pr/wl-pre-checkout-selection/checkoutWithTrialBoxWithCutsSelection.spec.ts\n\n\n:footprints: *Steps to reproduce:*\nthe test is consistently failing",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1751555677.601719",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "thread_ts": "1751555677.601719",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1751558888.719769",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "UR4A299NX",
+        "U03UCPY6MHQ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0OTXE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UR4A299NX",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "High "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_orange_circle",
+                  "unicode": "1f7e0"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "E2E Test / Unit Test"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "test is failing: "
+                },
+                {
+                  "type": "text",
+                  "text": "e2e-tests/pr/wl-pre-checkout-selection/checkoutWithTrialBoxWithCutsSelection.spec.ts",
+                  "style": {
+                    "unlink": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "the test is consistently failing"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1751555681.335459",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UR4A299NX",
+          "type": "message",
+          "ts": "1751555712.730659",
+          "client_msg_id": "5ea8cfcd-9ee4-4b68-9c8d-d1687aa720c3",
+          "text": "cc <@UB1DL0CAH>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rgqnK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "cc "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UB1DL0CAH"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UR4A299NX",
+          "type": "message",
+          "ts": "1751556682.822629",
+          "client_msg_id": "8c8df6ca-b5bb-45c9-b48b-746215c9b10f",
+          "text": "i'm going to skip it in my PR so we can unblock",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wr4/2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i'm going to skip it in my PR so we can unblock"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UCPY6MHQ",
+          "type": "message",
+          "ts": "1751556853.050859",
+          "client_msg_id": "b5d856f0-b74d-43a3-863f-5a4709089eb7",
+          "text": "Could you please link your PR",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vaHTE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Could you please link your PR"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UR4A299NX",
+          "type": "message",
+          "ts": "1751556868.472109",
+          "client_msg_id": "fc29d17a-ef5b-4577-96b7-e05099c740f9",
+          "text": "<https://github.com/hellofresh/web/pull/54289>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tzGpB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/web/pull/54289"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "users": [
+                "U03UCPY6MHQ"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03UCPY6MHQ",
+          "type": "message",
+          "ts": "1751557191.314949",
+          "client_msg_id": "8b6a4fce-9aeb-4e3b-903b-7b1352c6a299",
+          "text": "Thank you for reporting this and skipping it!\nI’ll take a look tomorrow and unskip it :blobthumbsup:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mYdMs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for reporting this and skipping it!\nI’ll take a look tomorrow and unskip it "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UCPY6MHQ",
+          "type": "message",
+          "ts": "1751558888.719769",
+          "client_msg_id": "a6001296-ca12-49ce-8a62-d620cbaeeff4",
+          "text": "While testing the trial box flow on staging, I found that the /order/legacy/process endpoint is actually failing for TB users and they’re not able to checkout on staging.\nHave escalated to the relevant team here: <https://hellofresh.slack.com/archives/C01S71LM1L5/p1751558721966299>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751555677.601719",
+          "attachments": [
+            {
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C01S71LM1L5/p1751558721966299",
+              "fallback": "<@U03UCPY6MHQ>: Hi, I want to report a new Plans issue.\n*Issue:* `/order/legacy/process endpoint failing for TB customers on Goodchop staging`\n*Topic:* `Other`\n*Description:* `Hey team, \n\nOn goodchop (MR), a trial box user is not able to complete checkout. The /order/legacy/process endpoint is throwing a 500 internal server error. \nCould you please help us look into the issue? Thank you!`\n*Market:* `MR`\n*Environment:* `Test / Staging`\n*Steps to reproduce issue:* `Go to <https://www-staging.goodchop.com/plans?c=TB1-1MZZCXNJP>. \nContinue through the funnel and reach the payment page. Enter payment details. Observe the endpoint failing.\n\nThis is only happening for the TB users. `\n*Investigation steps already taken:* `Checked the grafana log here: \n<https://stghellofresh.grafana.net/explore?schemaVersion=1&amp;panes=%7B%22uyc%22:%7B%22datasource%22:%22fpy-agdVk%22,%22queries%22:%5B%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22orders-processing-service-api%5C%22%7D%20%7C%3D%20%606f309488-b7fd-48e9-98e8-2eaaf50740e8%60%22,%22queryType%22:%22range%22,%22datasource%22:%7B%22type%22:%22loki%22,%22uid%22:%22fpy-agdVk%22%7D,%22editorMode%22:%22builder%22,%22direction%22:%22backward%22%7D%5D,%22range%22:%7B%22from%22:%22now-15m%22,%22to%22:%22now%22%7D,%22panelsState%22:%7B%22logs%22:%7B%22visualisationType%22:%22logs%22%7D%7D%7D%7D&amp;orgId=1>`\n\n*Owner:* <!subteam^S08J8JDM5FE>\n*Category:* squad-plans\n*Command:* plans-issue",
+              "text": "<@U03UCPY6MHQ>: Hi, I want to report a new Plans issue.\n*Issue:* `/order/legacy/process endpoint failing for TB customers on Goodchop staging`\n*Topic:* `Other`\n*Description:* `Hey team, \n\nOn goodchop (MR), a trial box user is not able to complete checkout. The /order/legacy/process endpoint is throwing a 500 internal server error. \nCould you please help us look into the issue? Thank you!`\n*Market:* `MR`\n*Environment:* `Test / Staging`\n*Steps to reproduce issue:* `Go to <https://www-staging.goodchop.com/plans?c=TB1-1MZZCXNJP>. \nContinue through the funnel and reach the payment page. Enter payment details. Observe the endpoint failing.\n\nThis is only happening for the TB users. `\n*Investigation steps already taken:* `Checked the grafana log here: \n<https://stghellofresh.grafana.net/explore?schemaVersion=1&amp;panes=%7B%22uyc%22:%7B%22datasource%22:%22fpy-agdVk%22,%22queries%22:%5B%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22orders-processing-service-api%5C%22%7D%20%7C%3D%20%606f309488-b7fd-48e9-98e8-2eaaf50740e8%60%22,%22queryType%22:%22range%22,%22datasource%22:%7B%22type%22:%22loki%22,%22uid%22:%22fpy-agdVk%22%7D,%22editorMode%22:%22builder%22,%22direction%22:%22backward%22%7D%5D,%22range%22:%7B%22from%22:%22now-15m%22,%22to%22:%22now%22%7D,%22panelsState%22:%7B%22logs%22:%7B%22visualisationType%22:%22logs%22%7D%7D%7D%7D&amp;orgId=1>`\n\n*Owner:* <!subteam^S08J8JDM5FE>\n*Category:* squad-plans\n*Command:* plans-issue"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "w7LNl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "While testing the trial box flow on staging, I found that the /order/legacy/process endpoint is actually failing for TB users and they’re not able to checkout on staging.\nHave escalated to the relevant team here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C01S71LM1L5/p1751558721966299"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "UR4A299NX",
+      "text": "<@UR4A299NX> has joined the channel",
+      "type": "message",
+      "ts": "1751555598.378719"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U03UN2C25UL",
+      "text": "<@U03UN2C25UL> has left the channel",
+      "type": "message",
+      "ts": "1751549516.691329"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U0381SKQVJ5>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nImages are not loading on staging env\n\n\n:footprints: *Steps to reproduce:*\nOpen the staging env on Vercel and try to load any image over there: <https://staging-vercel.goodchop.com/my-deliveries/2025-W30>\n\n\nas far as I could see it’s missing the image into the path: <https://img.hellofresh.com/w_384,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/>\n\nNot sure if this is related, but I checked this API request here: <https://gw.staging-k8s.hellofresh.io/my-deliveries/menu?delivery-option=MR-3-0800-2000-4WEEKLY&amp;postcode=10713&amp;preference=default&amp;product-sku=MR-CBT1-6-1-0&amp;servings=1&amp;subscription=307548&amp;week=2025-W30&amp;include-future-feedback=true&amp;customerPlanId=982224e0-c0b3-4a64-ad10-8535d3c6357f&amp;country=MR&amp;locale=en-US|https://gw.staging-k8s.hellofresh.io/my-deliveries/menu?delivery-option=MR-3-0800-2000-4WEE[…]e0-c0b3-4a64-ad10-8535d3c6357f&amp;country=MR&amp;locale=en-US> and the image property is empty",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1751548166.064299",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "thread_ts": "1751548166.064299",
+      "reply_count": 10,
+      "reply_users_count": 5,
+      "latest_reply": "1751551459.146559",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U0381SKQVJ5",
+        "U0251UW1YUE",
+        "U0184T48L74",
+        "UEZ4PRFKM"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AhESB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0381SKQVJ5",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Bug Report"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Images are not loading on staging env"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Open the staging env on Vercel and try to load any image over there: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://staging-vercel.goodchop.com/my-deliveries/2025-W30"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\nas far as I could see it’s missing the image into the path: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://img.hellofresh.com/w_384,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nNot sure if this is related, but I checked this API request here: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://gw.staging-k8s.hellofresh.io/my-deliveries/menu?delivery-option=MR-3-0800-2000-4WEEKLY&postcode=10713&preference=default&product-sku=MR-CBT1-6-1-0&servings=1&subscription=307548&week=2025-W30&include-future-feedback=true&customerPlanId=982224e0-c0b3-4a64-ad10-8535d3c6357f&country=MR&locale=en-US",
+                  "text": "https://gw.staging-k8s.hellofresh.io/my-deliveries/menu?delivery-option=MR-3-0800-2000-4WEE[…]e0-c0b3-4a64-ad10-8535d3c6357f&country=MR&locale=en-US"
+                },
+                {
+                  "type": "text",
+                  "text": " and the image property is empty"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02P4F23YJ0"
+          ],
+          "count": 1
+        },
+        {
+          "name": "approve",
+          "users": [
+            "U0381SKQVJ5"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1751548169.690039",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0381SKQVJ5",
+          "type": "message",
+          "ts": "1751548714.181719",
+          "client_msg_id": "467a8ff7-5149-4678-8341-b4fd1eedceec",
+          "text": "cc: <@U0251UW1YUE>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jCZ1/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "cc: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0251UW1YUE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1751548734.591309",
+          "client_msg_id": "9f95059b-1bc6-4ea8-b3d7-3db9ad553f57",
+          "text": "thanks! we are investigating! :blobthumbsup:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qfdRQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks! we are investigating! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U0381SKQVJ5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1751548939.849329",
+          "client_msg_id": "e3ace472-203b-4589-b82f-3cab49032a70",
+          "text": "The menus disappeared on ccm staging :open_mouth:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jEXPn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The menus disappeared on ccm staging "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "open_mouth",
+                      "unicode": "1f62e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1751548986.129279",
+          "client_msg_id": "cc2d4101-7bbc-460d-b24f-573bb0e8870e",
+          "text": "<@UEZ4PRFKM> maybe this could be related to the update you mentioned in retro a few minutes ago. could you tell us the POC that helped you with that so we can ask for a check?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4D1wP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " maybe this could be related to the update you mentioned in retro a few minutes ago. could you tell us the POC that helped you with that so we can ask for a check?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1751549183.417829",
+          "client_msg_id": "0bc8b117-634d-4eef-a122-76255fe729a4",
+          "text": "maybe <https://hellofresh.slack.com/archives/C0947G8PU82|this> is related",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0PUHu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "maybe "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C0947G8PU82",
+                      "text": "this"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is related"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1751549213.561019",
+          "edited": {
+            "user": "UEZ4PRFKM",
+            "ts": "1751549248.000000"
+          },
+          "client_msg_id": "ed34d29a-b484-4ff9-96ed-ea704f1aa022",
+          "text": "Yes this is likely related. This channel <https://hellofresh.slack.com/archives/C0947G8PU82/p1751546625731909|here> is where we are discussing it. They made some changes but this specifically seems to be a related follow-up issue that they are currently working on",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C0947G8PU82/p1751546625731909",
+              "ts": "1751546625.731909",
+              "author_id": "UK9LN3T7G",
+              "channel_id": "C0947G8PU82",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C0947G8PU82",
+                  "ts": "1751546625.731909",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "c87kb",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "apart from the addons not having recipe information, there are also some recipes when requesting directly through "
+                              },
+                              {
+                                "type": "text",
+                                "text": "/gw/recipes/<id>/",
+                                "style": {
+                                  "code": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " they are not returned properly, with some info missing. but when checking on CCM the same recipe, it shows all the details. for example, this one: "
+                              },
+                              {
+                                "type": "text",
+                                "text": "60c379574bbca37fc04c189e?country=MR&locale=en-US",
+                                "style": {
+                                  "code": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": "\n\nit returns an empty "
+                              },
+                              {
+                                "type": "text",
+                                "text": "name",
+                                "style": {
+                                  "code": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " and "
+                              },
+                              {
+                                "type": "text",
+                                "text": "description",
+                                "style": {
+                                  "code": true
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": " along with some other properties, but on "
+                              },
+                              {
+                                "type": "link",
+                                "url": "https://staging-operations.hellofresh.com/ccm/recipes/60c379574bbca37fc04c189e",
+                                "text": "CCM"
+                              },
+                              {
+                                "type": "text",
+                                "text": " it looks complete."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C0947G8PU82/p1751546625731909",
+              "fallback": "[July 3rd, 2025 5:43 AM] lual: apart from the addons not having recipe information, there are also some recipes when requesting directly through `/gw/recipes/&lt;id&gt;/` they are not returned properly, with some info missing. but when checking on CCM the same recipe, it shows all the details. for example, this one: `60c379574bbca37fc04c189e?country=MR&amp;locale=en-US`\n\nit returns an empty `name` and `description` along with some other properties, but on <https://staging-operations.hellofresh.com/ccm/recipes/60c379574bbca37fc04c189e|CCM> it looks complete.",
+              "text": "apart from the addons not having recipe information, there are also some recipes when requesting directly through `/gw/recipes/&lt;id&gt;/` they are not returned properly, with some info missing. but when checking on CCM the same recipe, it shows all the details. for example, this one: `60c379574bbca37fc04c189e?country=MR&amp;locale=en-US`\n\nit returns an empty `name` and `description` along with some other properties, but on <https://staging-operations.hellofresh.com/ccm/recipes/60c379574bbca37fc04c189e|CCM> it looks complete.",
+              "author_name": "Luís Almeida",
+              "author_link": "https://hellofresh.slack.com/team/UK9LN3T7G",
+              "author_icon": "https://avatars.slack-edge.com/2019-06-03/653021240932_54d215ebae9834666bd0_48.jpg",
+              "author_subname": "Luís Almeida",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pTzxv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes this is likely related. This channel "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C0947G8PU82/p1751546625731909",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is where we are discussing it. They made some changes but this specifically seems to be a related follow-up issue that they are currently working on"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1751549278.933469",
+          "client_msg_id": "2d02c9f7-c68c-43db-a4c7-8208e41d46a0",
+          "text": "cool, let’s keep an eye then. maybe it’s just a matter of time. also, live is safe! :big-relief:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qnSFu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "cool, let’s keep an eye then. maybe it’s just a matter of time. also, live is safe! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "big-relief"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "praycat",
+              "users": [
+                "U0381SKQVJ5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1751551323.024309",
+          "client_msg_id": "684a3655-0506-4809-9769-efa1eb70749d",
+          "text": "the recipes are back :tada:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TOHPn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the recipes are back "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "tada",
+                      "unicode": "1f389"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "partying_face",
+              "users": [
+                "U0381SKQVJ5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0381SKQVJ5",
+          "type": "message",
+          "ts": "1751551459.146559",
+          "client_msg_id": "3fcc9301-3173-4654-89f4-5136946392c9",
+          "text": "Thanks folks, for all the context and explanation about the issue!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751548166.064299",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8aGyS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks folks, for all the context and explanation about the issue!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U0184T48L74"
+              ],
+              "count": 1
+            },
+            {
+              "name": "fistbump",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U0381SKQVJ5",
+      "text": "<@U0381SKQVJ5> has joined the channel",
+      "type": "message",
+      "ts": "1751548015.894539"
+    }
+  ]
+}

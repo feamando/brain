@@ -1,0 +1,743 @@
+{
+  "batch_id": "jira_0005",
+  "source": "jira",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 13,
+    "Epic": 1,
+    "Bug": 3,
+    "Sub-task": 5,
+    "Story": 3
+  },
+  "issues": [
+    {
+      "key": "RTEVMS-2166",
+      "summary": "[Technical Debt] Refactor how calculate prices is used to avoid 429 errors",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAfter investigation in [https://hellofresh.atlassian.net/browse/RTEVMS-2113|https://hellofresh.atlassian.net/browse/RTEVMS-2113|smart-link]  , we identified the 429 has been consistent, even though it’s not happening for all the customers, there is evidence that this error can impact the conversion and customer experience.\n\nFor further details, please review the context and evidence on [https://docs.google.com/document/d/1Zjz9iL6NWmPVaVmtW9hZOvSGEJvtNuBbNgX7jVDgJtc/edit?tab=t.0|https://docs.google.com/document/d/1Zjz9iL6NWmPVaVmtW9hZOvSGEJvtNuBbNgX7jVDgJtc/edit?tab=t.0|smart-link] \n\nSome ideas are:\n\n* Migrate /gw/calculate endpoint to /gw/calculate/prospect/batch and optimize calculation calls: (/) \n* Review and optimize caching strategies for price and voucher data ⏲️ \n* Implement robust error handling and user feedback for voucher and price services ⏲️ \n* Establish long-term monitoring and alerting for conversion-critical endpoints and error rates ⏲️ \n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Refactor the codebase to utilize the /gw/calculate/prospect/batch endpoint for grouped calculation calls, similar to other brands like Factor and HelloFresh. This aims to reduce the overall number of API requests to the calculation service.\n* Evaluate existing caching mechanisms, particularly in the context of the /gw/calculate endpoint and the issues observed with \"Disable cache\" during replication. Optimize caching to reduce unnecessary API calls and improve performance without causing stale data issues.\n* Implement comprehensive monitoring in tools like HoneyComb to track error rates (specifically 429s and 403s) for /gw/calculate, /factorform/products, and other critical conversion endpoints over a longer period (e.g., 6 months). Set up alerts for significant increases in error rates.\n\n* *Affected Brands:*\n\nFactor Form VMS\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* According to [HoneyComb|h",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-09-12",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-2165",
+          "summary": "[Conversions downturn] Investigate and address 11 simultaneous requests on /factorform/products"
+        }
+      ],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2318",
+      "summary": "Shopify | Factor Form",
+      "description": "",
+      "issue_type": "Epic",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-11-25",
+      "updated": "2026-01-16",
+      "resolved": "2025-11-25",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2480",
+      "summary": "[OTP] [UAT] Refreshing the /products page breaks price_set service (429 error)",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\n*Steps to Reproduce:*\n\n# Go to /products page\n# Refresh the page 1 or 2 times\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\nPrices should show properly\n\n*Testing Requirements:*\n\nLive\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n\n# $0.00 shows up for all products\n\n\n!image-20260115-202902.png|width=835,alt=\"image-20260115-202902.png\"!\n\n# Clicking Try Now creates an infinite loop\n\n!Screen Recording 2026-01-15 at 15.32.54.mov|width=811,alt=\"Screen Recording 2026-01-15 at 15.32.54.mov\"!\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Hamed Karimian",
+      "created": "2026-01-15",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Added evidences from {{honeycomb}} the issue has been increasing and affecting {{desktop}} and {{mobile}} users.\n\n\n\n[https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/uWao7yeqsdo/result/o4h2rCp8Tpu?cstype_0=tsbar&cstype_1=tsbar&expd_asc=true&expd_col=_hny.ts&expd_id=jpdZ5L2AYwB&expd_page=25&tab=explore&vs=hideCompare|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/uWao7yeqsdo/result/o4h2rCp8Tpu?cstype_0=tsbar&cstype_1=tsbar&expd_asc=true&ex",
+          "created": "2026-01-15"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "TPT-2387",
+      "summary": "Feeding guide header",
+      "description": "{panel:bgColor=#deebff}\nThe feeding guide’s header provides information about the Pet as well as the product the pet is subscribed to.\n{panel}\n\n!image-20251204-103518.png|width=602,height=143,alt=\"image-20251204-103518.png\"!\n\n!image-20251204-103543.png|width=773,height=179,alt=\"image-20251204-103543.png\"!\n\n\n\n{panel:bgColor=#e3fcef}\nAC\n\n* Refer to the provided designs and implement the Feeding Guide header. [[Designs|https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/Fully-Digital-Feeding-Guide?node-id=701-16094&p=f&t=0ZYLCIu1vqJBRngc-0]]\n* All dynamic data should be provided by the FeedingGuide domain\n* The header should display the header message with the pet’s name {{{petName}'s Daily Feeding Guide}}\n* The plan name\n* The percentage badge should be present on portioned plans\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Desiree Mordine de Lima",
+      "reporter": "Oliver Strobel",
+      "created": "2025-11-27",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2578",
+      "summary": "Add E2E tests",
+      "description": "{panel:bgColor=#deebff}\nLet’s add some E2E tests to make sure our feeding guide works properly.\n{panel}\n\n{panel:bgColor=#eae6ff}\nTest cases:\n\n* Navigating from dashboard to the feeding guide\n** Assert the meal selection from the dashboard match the feeding instructions in the feeding guide based on the recipe type (FR, DR, MX)\n* Landing directly on {{/feeding-guide}} logged in with a valid subscription\n** Assert the user is redirected to {{/feeding-guide/{week}}} with the correct next deliverable week\n** Assert the meal selection from that week match the feeding instructions in the feeding guide based on the recipe type (FR, DR, MX)\n* Landing directly on {{/feeding-guide}} NOT logged in with a valid subscription\n** Assert the user is redirected to log-in\n** After logging in, assert the user is redirected back to feeding guide\n** Assert the meal selection from that week match the feeding instructions in the feeding guide based on the recipe type (FR, DR, MX)\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Oliver Strobel",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2577",
+      "summary": "Update Feeding Guide CTA to point to the new route",
+      "description": "{panel:bgColor=#deebff}\nWith the feeding guide in place and working properly, it’s time to allow users to access it. We need to update the {{Feeding Guide}} CTA in the dashboard to point to our new route.\n\n!image-20260116-105513.png|width=1114,alt=\"image-20260116-105513.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n* Update the Link href in the [FeedingGuideLink|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/sections/menu/info/components/FeedingGuideLink.tsx#L55] component to point to {{/feeding-guide/{week}}}\n* Should this be a feature flag? (Check with product)\n* Validate the Feeding Guide is displaying the correct week and feeding instructions\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Oliver Strobel",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2579",
+      "summary": "Add monitoring",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Oliver Strobel",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2388",
+      "summary": "FeedingGuideRoot component + loading skeleton",
+      "description": "{panel:bgColor=#deebff}\nCreate the FeedingGuide root component that is rendered by the route component with proper loading skeleton.\n\n[Designs|https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/Fully-Digital-Feeding-Guide?node-id=701-16094&p=f&t=0ZYLCIu1vqJBRngc-0]\n{panel}\n\n!image-20251127-105251.png|width=965,height=183,alt=\"image-20251127-105251.png\"!\n\n!image-20251204-103345.png|width=264,height=726,alt=\"image-20251204-103345.png\"!\n\n\n\n{panel:bgColor=#eae6ff}\n* Add a Root component in {{app/spaces/whitelabel/modules/whitelabel-web/packages/pages/feeding-guide/FeedingGuide.tsx}}\n** Add {{LoggedInGuard}}\n** Add {{NoSubscriptionGuard}}\n* Include a wrapper with the desktop’s max width (836px)\n* Include the navigation button “Back to dashboard” with the link to the dashboard\n* *The Print button can be ignored*\n* Validate guard redirections:\n** Logged out user => log in\n** No subscription => plans-selection\n* Render the component in the route root {{/app/pages/whitelabel/feeding-guide}}\n* Consume the {{FeedingGuide}} hook and make the data available to child components (context or props)\n* Implement the loading skeleton according to design and use it as fallback while data is loading\n{panel}\n\n{panel:bgColor=#fffae6}\n* Design: [https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/-SBD-2591--Fully-Digital-Feeding-Guide?node-id=8101-42133&t=l4SA5OV8H1LugOik-0|https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/-SBD-2591--Fully-Digital-Feeding-Guide?node-id=8101-42133&t=l4SA5OV8H1LugOik-0|smart-link] \n\n* Consider an error fallback (redirection/error message?)\n* Use {{ErrorBoundary}} with proper scope\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Desiree Mordine de Lima",
+      "reporter": "Oliver Strobel",
+      "created": "2025-11-27",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "MIO-86",
+      "summary": "[cls-dev-tools][draft] Create a module to create customer address in HF NL",
+      "description": "Service: {{Customer Address Service}}\n\nEndpoint: [_/legacy/customers/{id}/addresses_|https://github.com/hellofresh/customer-address-service/blob/master/test/address_api.http#L33]\n\nMethod: {{POST}}\n\nInput: Output of [MIO-87|https://hellofresh.atlassian.net/browse/MIO-87], country=NL\n\nExample payload:\n\n{noformat}{\n  \"address\": {\n    \"address1Street\": \"Lange Voren\",\n    \"address1No\": \"7\",\n    \"address1\": \"\",\n    \"firstName\": \"Test\",\n    \"lastName\": \"Tester\",\n    \"city\": \"Eersel\",\n    \"postcode\": \"5521DC\",\n    \"phone\": \"1232344567\",\n    \"country\": {\n      \"id\": \"166\"\n    },\n    \"isDefaultBilling\": true,\n    \"isDefaultShipping\": true,\n    \"isOffice\": \"false\",\n    \"isBilling\": true\n  }\n}{noformat}\n\nOutput: {{New Address ID}}",
+      "issue_type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Liman Labaran",
+      "reporter": "Elena Pavlova",
+      "created": "2026-01-13",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-82",
+      "parent_summary": "Implement migration CLI for active GQ customers to NL",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Elena Pavlova",
+          "body": "Draft is here [https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-f3371952907631421db4949cefad35a0050c13bae0544fceaedc1a43545055dbR60|https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-f3371952907631421db4949cefad35a0050c13bae0544fceaedc1a43545055dbR60] ",
+          "created": "2026-01-13"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-84",
+      "summary": "[cls-dev-tools][draft] Add method to retrieve a customer with subscriptions data from GC NL",
+      "description": "Service: {{APIv2}}\n\nEndpoint: [GET /customers/{id}/subscriptions?country=gq|https://api-v2-entry.staging-k8s.hellofresh.io/api-docs#!/customers/getCustomerSubscriptions]\n\nMethod: {{GET}}\n\nInput: {{Legacy customer ID}}\n\nOutput: Customer + Subscription data",
+      "issue_type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Liman Labaran",
+      "reporter": "Elena Pavlova",
+      "created": "2026-01-13",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-82",
+      "parent_summary": "Implement migration CLI for active GQ customers to NL",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Elena Pavlova",
+          "body": "Draft is here [https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-2e6463e4f0db706e1ffb989995919fc9784004ec484dc9ed921ed52c4bb11196R33|https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-2e6463e4f0db706e1ffb989995919fc9784004ec484dc9ed921ed52c4bb11196R33] ",
+          "created": "2026-01-13"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-87",
+      "summary": "[cls-dev-tools][draft] Add method to retrieve a customer addresses from GQ NL",
+      "description": "Service: {{APIv2}}\n\nEndpoint: [/customers/{customer_id}/addresses?country={country_code}|https://api-v2-entry.staging-k8s.hellofresh.io/api-docs#!/customers/getCustomerAddresses]\n\nMethod: {{GET}}\n\nInput: {{Customer ID}}, {{country=gq}}\n\nOutput: {{Addresses}}",
+      "issue_type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Liman Labaran",
+      "reporter": "Elena Pavlova",
+      "created": "2026-01-13",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-82",
+      "parent_summary": "Implement migration CLI for active GQ customers to NL",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Elena Pavlova",
+          "body": "Draft is here [https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-f3371952907631421db4949cefad35a0050c13bae0544fceaedc1a43545055dbR33|https://github.com/hellofresh/cls-dev-tools/pull/266/files#diff-f3371952907631421db4949cefad35a0050c13bae0544fceaedc1a43545055dbR33] ",
+          "created": "2026-01-13"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-77",
+      "summary": "[Android][Milestone 0]: Menu Screen: Add banner and closure info on GreenChef",
+      "description": "{panel:bgColor=#e3fcef}\nAcceptance Criteria:\n\n# Implement banner on Menu screen for showing information about GC closure in NL\n# Banner should be sticky and can’t be dismissed\n# Banner should show correct message for migration\n# Navigate to correct weburl when “Learn more” is clicked inside the banner\n\nFigma - [https://www.figma.com/design/tuClYoEJnghcm7maKCDkWH/BNLX-Premium-Tier?node-id=10942-48672&t=1nIxvJprPzADN2Cj-0|https://www.figma.com/design/tuClYoEJnghcm7maKCDkWH/BNLX-Premium-Tier?node-id=10942-48672&t=1nIxvJprPzADN2Cj-0|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Sneha Gupta",
+      "reporter": "Sneha Gupta",
+      "created": "2026-01-08",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "MIO-94",
+          "summary": "CLONE - [Android][Milestone 0]: Menu Screen: Add closure content component on GreenChef"
+        },
+        {
+          "type": "is cloned by",
+          "key": "MIO-95",
+          "summary": "[iOS][Milestone 0]: Menu Screen: Add UI to display missing menus on GreenChef"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-94",
+      "summary": "CLONE - [Android][Milestone 0]: Menu Screen: Add closure content component on GreenChef",
+      "description": "{panel:bgColor=#e3fcef}\nAcceptance Criteria:\n\n# Hide menu and display GreenChef is closing UI component \n# Banner should not be visible when content component is shown\n\nFigma - [https://www.figma.com/design/tuClYoEJnghcm7maKCDkWH/BNLX-Premium-Tier?node-id=10942-48672&t=1nIxvJprPzADN2Cj-0|https://www.figma.com/design/tuClYoEJnghcm7maKCDkWH/BNLX-Premium-Tier?node-id=10942-48672&t=1nIxvJprPzADN2Cj-0|smart-link] \n\n!Screenshot 2026-01-05 at 14.51.03.png|width=882,height=762,alt=\"Screenshot 2026-01-05 at 14.51.03.png\"!\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Sneha Gupta",
+      "reporter": "Sneha Gupta",
+      "created": "2026-01-14",
+      "updated": "2026-01-15",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "MIO-77",
+          "summary": "[Android][Milestone 0]: Menu Screen: Add banner and closure info on GreenChef"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3402",
+      "summary": "[Dashboard] - Create orders list and order items components",
+      "description": "{panel:bgColor=#deebff}\n*Description* \n\nThis ticket is for creation of UI components for the orders list in the dashboard page. \n\n!Screenshot 2025-12-03 at 16.05.45.png|width=989,height=555,alt=\"Screenshot 2025-12-03 at 16.05.45.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical details*\n\nOrder list is rendered based on the data returned by the {{useOneTimeOrdersView}} hook  [https://hellofresh.atlassian.net/browse/GOC-3401|https://hellofresh.atlassian.net/browse/GOC-3401] \n\nUse Zest Accordion\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nGiven a OTP order: \n\n# The list of orders is displayed \n# Each order is expandable \n# Order item components are ready to be rendered\n## Delivery Info\n## Selected cuts\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3403",
+          "summary": "[Dashboard] - Keep first order open by default in orders list"
+        },
+        {
+          "type": "contains",
+          "key": "GOC-3404",
+          "summary": "[Dashboard] - Create tracking button and rendering logic"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3414",
+      "summary": "[Mobile] Create Recipe Carousel component ",
+      "description": "{panel:bgColor=#deebff}\n*Description*\nInvolves the development of a carousel component for mobile viewport that will showcase recipes linked to OTP orders.\n\n!Screenshot 2026-01-08 at 06.01.35.png|width=424,height=482,alt=\"Screenshot 2026-01-08 at 06.01.35.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Recipe items are shown within a carousel for mobile viewport\n* Able to swipe navigate left and right \n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Rebecca Ferreira Albers",
+      "reporter": "Himash Tehan",
+      "created": "2025-12-02",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3402",
+      "parent_summary": "[Dashboard] - Create orders list and order items components",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:423d4752-7f60-426b-87aa-33be2af37567] this is the ticket for recipe carousel that you can try with FigmaMCP",
+          "created": "2025-12-02"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3451",
+      "summary": "Redirect customers to plans page after clicking on graduation component",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nWhen clicking on graduation component customers should be redirected to plans page with an attached voucher. \nThere will be one voucher for staging and one voucher for live. \n\nStaging voucher: GCSOTG (already created)\n\nLive voucher will also be called +GCSOTG+ (it’s not yet created on Live)\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\nWith the hook {{ const serverEnv = useServerEnv();}} is possible to find out if customer is in live or staging environment\n\nThe vouchers will be stored in the code for live and staging since this is the MVP solution\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\nCustomers are redirected to plans page when clicking on graduation component\nRespective voucher is attached (staging or live)\nWhen adding a new voucher on plans page the initial voucher is replaced \n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2026-01-13",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Note: Benefits are not attached to any voucher, benefits are listed on Lokalise",
+          "created": "2026-01-14"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3215",
+          "summary": "[Dashboard] Graduation Component Display"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3403",
+      "summary": "[Dashboard] - Keep first order open by default in orders list",
+      "description": "{panel:bgColor=#deebff}\n*Description* \n\nThe first item of orders list should be open by default and all the other items can be opened if customers click on expand button\n\nAll data is provided by the hook previously developed \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# First item of OTP orders list opens by default \n# All other items are expandable \n# Information provided by the {{useOneTimeOrdersView}} hook is consumed to show orders list\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3401",
+          "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3402",
+          "summary": "[Dashboard] - Create orders list and order items components"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "RTEVMS-2435",
+      "summary": "Update existing and new vouchers with new product SKU",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\n* Review with Amy the best approach on this one.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Define the approach and changes required for new products applying vouchers and discounts\n* Make changes on Staging and test them \n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Review the existing discount settings for Staging and Live\n{panel}",
+      "issue_type": "Story",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2026-01-15",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "blocking ticket is blocked\r\n",
+          "created": "2026-01-15"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2434",
+          "summary": "[Staging] Add price information for new products in price-service"
+        }
+      ],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2387",
+      "summary": "[OTP] Add SFMC events",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAs a CRM expert, I want to receive OTP-related events in SFMC to be able to trigger emails accordingly. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Add SFMC events\n## OTP send_checkout_confirmation\n## other related events [TBD by [~accountid:5c18c32c7d0c1a2f011149c8] ]\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-17",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "flagging until we have event info from Tyler",
+          "created": "2025-12-17"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "waiting on details from Tyler",
+          "created": "2025-12-17"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2479",
+      "summary": "[Bulk Greens] Roll out as BAU, and remove feature flag logic",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nBulk Greens experiment has concluded, in order to simplify code implementation for new products (mealshake/creatine) we can remove the Bulk Greens experiment code\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Bulk Greens is returned as a BAU product\n# remove config value to enable bulk greens\n\n*Testing Requirements:*\n\nupdate unit + e2e tests\n\n*Affected Brands:*\n\nFJ VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n[https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/pages/factorform/feature-flag/bulk-greens/useIsBulkGreensEnabled.ts|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/pages/factorform/feature-flag/bulk-greens/useIsBulkGreensEnabled.ts|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Stanek",
+      "created": "2026-01-15",
+      "updated": "2026-01-15",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2451",
+      "parent_summary": "[Delivery] Quick Wins - Q1 2026",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2441",
+      "summary": "[DEV] Create new entry point and page for /factorform/products/[new-product]",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# new pages are created for /factorform/product/mealshake + /factorform/product/creatine\n# are behind feature gate\n# can navigate (no page guard redirects)\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n[https://github.com/hellofresh/web/blob/master/app/pages/whitelabel/factorform/products/%5BproductType%5D.tsx|https://github.com/hellofresh/web/blob/master/app/pages/whitelabel/factorform/products/%5BproductType%5D.tsx|smart-link] \n{panel}",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2478",
+      "summary": "[Bug] Express Checkout shows Place Order button disabled",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nAs a customer that already has a {{Factor}} account and wants to get a OTP order, the {{Express checkout}} shows the {{Place Order}} button disabled.\n\n*Steps to Reproduce:*\n\n* Login with \n** [jan13factor-rte001@hellotest.com|mailto:jan13factor-rte001@hellotest.com]\n** Clave123\n* Go to {{/factorform/products}}\n* Select an OTP product\n* Go to {{checkout}}\n* Review the {{Place Order}}\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n* As a logged in customer that already has a payment details, we need to enable the Place Order Button\n\n*Testing Requirements:*\n\n* Credentials used\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n* The button is disabled\n{panel}\n\n\n\n!image-20260115-144459.png|width=695,alt=\"image-20260115-144459.png\"!\n\n\n\n!image-20260115-145730.png|width=1171,alt=\"image-20260115-145730.png\"!",
+      "issue_type": "Bug",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2026-01-15",
+      "updated": "2026-01-15",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "I found the issue was related to the {{shippingAddressId}} , because this field is required for {{OTP}} and previously we didn’t need it for {{subscriptions}} on {{express checkout}}",
+          "created": "2026-01-15"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "For the payment method_nonce, I was investigating if we could get the {{method_nonce}} on the {{express checkout}} but we can only get the {{savedMethodId}} , which is incorrect for the value expected in API’s contract.  [https://github.com/hellofresh/orders-processing-service/blob/master/internal/service/checkout/v1/service.go#L44|https://github.com/hellofresh/orders-processing-service/blob/master/internal/service/checkout/v1/service.go#L44]   \n\n!image-20260115-154535.png|width=472,alt=\"image-2",
+          "created": "2026-01-15"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2468",
+      "summary": "[OTP] [UAT] Shipping date inconsistency",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nThe shipping date differs between Success modal (Jan 14) and my dashboard (Jan 16)\n\n*Steps to Reproduce:*\n\n# Place an OTP order\n# Check the success modal\n# compare it with my dashboard\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\nThe same shipping date should show up.\n\n*Testing Requirements:*\n\nLive\n{panel}\n\n\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\nDifferent dates are shown:\n\n\nSuccess modal shows Jan 14\n\n!Screenshot 2026-01-14 at 10.17.16-20260114-151721.png|width=643,height=528,alt=\"Screenshot 2026-01-14 at 10.17.16-20260114-151721.png\"!\n\nDashboard shows Jan 16\n\n!image-20260114-152941.png|width=50%,alt=\"image-20260114-152941.png\"!\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Hamed Karimian",
+      "created": "2026-01-14",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2357",
+      "summary": "[Order History Fallback] Show empty state when there's no orders to show",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a Factor Form and/or Factor customer, I should see a fallback content when order history has no items to show.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Display fallback content as consequence of no order history items to show\n\n*Testing Requirements:*\n\n* Unit tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nDesign: [https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=Gt3k9Q4NbicxV0Od-1|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=Gt3k9Q4NbicxV0Od-1|smart-link] \n\nOTP Orders service: [https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts|https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts] \n\nPS: Should request if only the feature flag is enabled.\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-08",
+      "updated": "2026-01-15",
+      "resolved": "2026-01-15",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2312",
+      "parent_summary": "[OTP] Get and show active customer orders history with OTP",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jan Leite",
+          "body": "Done already",
+          "created": "2026-01-15"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2312",
+      "summary": "[OTP] Get and show active customer orders history with OTP",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a customer I want to see my OTP orders on /factorform/settings/orders \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n* Verify if OTP orders are properly billed\n* Verify if SNS orders are properly billed\n* Verify if both type of orders are billed after I did my first order and order a different type of order.\n\n*Affected Brands:* \n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Endpoint: [http://localhost:3000/gw/api/customers/me/orders?country=FJ&limit=100&locale=en-US|http://localhost:3000/gw/api/customers/me/orders?country=FJ&limit=100&locale=en-US]\n* whitelabel-web/packages/pages/settings/src/components/OrderHistory/OrderHistory.tsx \n{panel}\n\n\n\n*References*:\n\n*Manage Subscriptions:* \n\n* What to show when a customer does not have any subscription?\n\n!image-20251128-212434.png|width=1153,height=1129,alt=\"image-20251128-212434.png\"!\n\n\n\n*Order History*\n\n* Currently OTP orders are not shown\n\n!image-20251128-212532.png|width=1267,height=1015,alt=\"image-20251128-212532.png\"!",
+      "issue_type": "Story",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Edwin Torres",
+      "created": "2025-11-25",
+      "updated": "2026-01-15",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Updating UI with provided designs thanks to [~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] \n\n[https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=2GrW9PBI6Yz1nDWP-0|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=2GrW9PBI6Yz1nDWP-0|smart-link] ",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2328",
+          "summary": "[OTP] Show Checkout Success content after OTP order is placed"
+        },
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2345",
+          "summary": "[OTP] Show pending OTP orders for shipping on My Deliveries"
+        }
+      ],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    }
+  ],
+  "date_range": {
+    "oldest": "2026-01-15",
+    "newest": "2026-01-16"
+  }
+}

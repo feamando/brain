@@ -1,0 +1,18 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W46",
+  "extracted_at": "2026-01-02T10:45:35.819349Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "subtype": "channel_name",
+      "user": "U03TY4YJU4X",
+      "old_name": "new-ventures-product-team",
+      "name": "tribe-new-ventures-product",
+      "text": "has renamed the channel from \"new-ventures-product-team\" to \"tribe-new-ventures-product\"",
+      "type": "message",
+      "ts": "1762784808.489599"
+    }
+  ]
+}

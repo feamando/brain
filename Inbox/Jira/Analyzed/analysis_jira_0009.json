@@ -1,0 +1,355 @@
+{
+  "batch_id": "jira_0009",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 18,
+    "Bug": 3,
+    "Sub-task": 1,
+    "Story": 3
+  },
+  "date_range": {
+    "oldest": "2025-12-17",
+    "newest": "2025-12-18"
+  },
+  "analyzed_at": "2026-01-02T18:10:44.225034",
+  "summary": "This batch represents work across multiple teams focusing on OTP (One-Time Purchase) checkout implementation, payment system improvements, and UI/UX enhancements. Major efforts include cart de-duplication for OTP checkout, fixing duplicate API calls in payment components, and implementing comprehensive OTP checkout flows with proper pricing communication. Several teams are working on funnel improvements, reactivation features, and addressing technical debt through bug fixes and test automation.",
+  "decisions": [
+    {
+      "what": "Implement cart de-duplication for OTP checkout using single cart ID per session with patching instead of creating duplicates",
+      "issue_key": "GOC-3389",
+      "who": [
+        "Himash Tehan",
+        "Beatrice Dimarucut"
+      ],
+      "rationale": "Prevent multiple cart IDs and duplicated orders while not blocking order creation",
+      "date": "2024"
+    },
+    {
+      "what": "Remove duplicate payment-change-status API calls by consolidating hook usage",
+      "issue_key": "TPT-2406",
+      "who": [
+        "Mariia Oleksiuk"
+      ],
+      "rationale": "Fix duplicate API requests caused by both PaymentMethodStatus and PaymentStatus components calling usePaymentChangeStatus() hook",
+      "date": "2024"
+    },
+    {
+      "what": "Send checkoutType parameter in /activations/checkout/price endpoint",
+      "issue_key": "RTEVMS-2380",
+      "who": [
+        "Edwin Torres"
+      ],
+      "rationale": "Required to get correct price-sets for OTP orders",
+      "date": "2024"
+    },
+    {
+      "what": "Make CTAs on modals sticky for OTP experience",
+      "issue_key": "RTEVMS-2373",
+      "who": [
+        "Emily Mendelson"
+      ],
+      "rationale": "Improve user experience by keeping CTAs visible at all times",
+      "date": "2024"
+    },
+    {
+      "what": "Won't implement SNS discount display in OTP checkout",
+      "issue_key": "RTEVMS-2371",
+      "who": [
+        "Emily Mendelson"
+      ],
+      "rationale": "Issue resolved by other VMSU work",
+      "date": "2024"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "OTP (One-Time Purchase) Checkout Implementation",
+      "description": "Complete implementation of one-time purchase checkout flow including cart management, pricing communication, order creation, and SFMC integration",
+      "status": "active",
+      "key_issues": [
+        "GOC-3389",
+        "GOC-3360",
+        "RTEVMS-2380",
+        "RTEVMS-2258",
+        "RTEVMS-2374",
+        "RTEVMS-2373",
+        "RTEVMS-2387",
+        "RTEVMS-2370"
+      ]
+    },
+    {
+      "name": "Payment System Improvements",
+      "description": "Fix duplicate API calls, improve error handling, and enhance payment component architecture",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2406",
+        "GOC-3394"
+      ]
+    },
+    {
+      "name": "Reactivation Dashboard with Vouchers",
+      "description": "Implement reactivation functionality with voucher support including E2E test coverage",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2452",
+        "TPT-1984"
+      ]
+    },
+    {
+      "name": "Funnel Navigation Improvements",
+      "description": "Enhance funnel experience by displaying previous meal selections and improving navigation flow",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2376"
+      ]
+    },
+    {
+      "name": "Premium Upgrade Modal (Milestone 0)",
+      "description": "Create UI for modal comparing Premium and Classic tiers to help customers understand value proposition",
+      "status": "active",
+      "key_issues": [
+        "MIO-55",
+        "MIO-65",
+        "MIO-1"
+      ]
+    },
+    {
+      "name": "Product Family Roll-out",
+      "description": "Add new product families to static configuration and global config",
+      "status": "completed",
+      "key_issues": [
+        "GOC-3236",
+        "GOC-3059"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Cart de-duplication hook blocked due to missing ambassador config",
+      "issue_key": "GOC-3389",
+      "owner": "Himash Tehan",
+      "impact": "OTP cart creation session management delayed until PR merged"
+    },
+    {
+      "description": "SFMC events implementation waiting on event details from Tyler",
+      "issue_key": "RTEVMS-2387",
+      "owner": "Unassigned",
+      "impact": "CRM email triggers for OTP-related events cannot be configured"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Developer implementing OTP cart de-duplication",
+      "issues": [
+        "GOC-3389"
+      ]
+    },
+    {
+      "name": "Beatrice Dimarucut",
+      "type": "person",
+      "context": "Providing context on cart de-duplication requirements",
+      "issues": [
+        "GOC-3389",
+        "GOC-3360"
+      ]
+    },
+    {
+      "name": "Mariia Oleksiuk",
+      "type": "person",
+      "context": "Developer fixing payment API duplicates and price update issues",
+      "issues": [
+        "TPT-2406",
+        "TPT-2513"
+      ]
+    },
+    {
+      "name": "Emily Stanek",
+      "type": "person",
+      "context": "Working on OTP pricing communication and E2E test fixes",
+      "issues": [
+        "RTEVMS-2370",
+        "RTEVMS-2258"
+      ]
+    },
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Handling OTP UAT copy changes and UI improvements",
+      "issues": [
+        "RTEVMS-2374",
+        "RTEVMS-2373",
+        "RTEVMS-2371"
+      ]
+    },
+    {
+      "name": "Jan Leite",
+      "type": "person",
+      "context": "Working on payment anomaly detection and discount communication",
+      "issues": [
+        "RTEVMS-2271",
+        "RTEVMS-2385",
+        "RTEVMS-2383"
+      ]
+    },
+    {
+      "name": "Alexander Matlin",
+      "type": "person",
+      "context": "Implementing product family rollout and payment error handling fixes",
+      "issues": [
+        "GOC-3236",
+        "GOC-3394"
+      ]
+    },
+    {
+      "name": "Romina Nicastro",
+      "type": "person",
+      "context": "Integrating OTP order creation in payment page",
+      "issues": [
+        "GOC-3360"
+      ]
+    },
+    {
+      "name": "Elen Margaryan",
+      "type": "person",
+      "context": "QA engineer adding E2E tests for reactivation with vouchers",
+      "issues": [
+        "TPT-2452",
+        "TPT-2406"
+      ]
+    },
+    {
+      "name": "Suzanna Filipowska",
+      "type": "person",
+      "context": "Handling KTLO tasks for trial box reset and meal selection triggers",
+      "issues": [
+        "TPT-2515",
+        "TPT-2512"
+      ]
+    },
+    {
+      "name": "SFMC",
+      "type": "system",
+      "context": "Salesforce Marketing Cloud - target system for OTP-related events",
+      "issues": [
+        "RTEVMS-2387"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Removing redirection from www.factorform.com",
+      "issues": [
+        "MIO-24"
+      ]
+    },
+    {
+      "name": "Honeycomb",
+      "type": "system",
+      "context": "Monitoring dashboard for payment methods anomaly detection",
+      "issues": [
+        "RTEVMS-2271"
+      ]
+    },
+    {
+      "name": "Ambassador",
+      "type": "system",
+      "context": "Configuration required for cart de-duplication feature",
+      "issues": [
+        "GOC-3389"
+      ]
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Major feature being implemented across checkout flow",
+      "issues": [
+        "GOC-3389",
+        "GOC-3360",
+        "RTEVMS-2380",
+        "RTEVMS-2258",
+        "RTEVMS-2374",
+        "RTEVMS-2373",
+        "RTEVMS-2387",
+        "RTEVMS-2370"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Hook consolidation to prevent duplicate API calls",
+      "context": "Removing duplicate usePaymentChangeStatus() hook calls from multiple components to eliminate redundant API requests"
+    },
+    {
+      "pattern": "Cart patching instead of creation for session management",
+      "context": "OTP checkout uses single cart ID per session with PATCH operations rather than creating new carts for each update"
+    },
+    {
+      "pattern": "Feature flag driven development",
+      "context": "Multiple features using feature flags (tpt_reactivation_page, tpt_price_update_on_portion_change, OTP flags) for controlled rollouts"
+    },
+    {
+      "pattern": "Sticky CTAs in modals",
+      "context": "UI pattern to keep call-to-action buttons visible at all times in modal interfaces"
+    },
+    {
+      "pattern": "CheckoutType parameter for price-set selection",
+      "context": "Sending checkoutType in API payload to ensure correct pricing configuration is retrieved"
+    },
+    {
+      "pattern": "Error structure validation and handling",
+      "context": "Fixing payment error handling by matching error structure from /order/legacy/process endpoint with checkoutErrorDetection logic"
+    },
+    {
+      "pattern": "E2E test maintenance for feature flags",
+      "context": "Updating E2E tests to handle new OTP experience elements when feature flags are enabled"
+    },
+    {
+      "pattern": "Anomaly detection for payment methods",
+      "context": "Using Honeycomb dashboards to identify inconsistencies in payment method checkout submissions"
+    }
+  ],
+  "work_themes": [
+    "OTP checkout implementation and integration",
+    "Payment system optimization and bug fixes",
+    "E2E test coverage and maintenance",
+    "UI/UX improvements for checkout and reactivation flows",
+    "Feature flag management and experimentation",
+    "KTLO (Keep The Lights On) maintenance tasks",
+    "Discount communication and pricing transparency",
+    "Cart management and de-duplication"
+  ],
+  "dependencies": [
+    {
+      "from": "OTP Cart Creation",
+      "to": "Ambassador Config",
+      "context": "Cart de-duplication feature blocked until ambassador configuration PR is merged"
+    },
+    {
+      "from": "OTP SFMC Events",
+      "to": "CRM Team (Tyler)",
+      "context": "Waiting on event specifications from CRM team to implement SFMC integration"
+    },
+    {
+      "from": "OTP Order Creation",
+      "to": "Cart Creation Session",
+      "context": "Order creation depends on successful cart creation and session management"
+    },
+    {
+      "from": "E2E Tests",
+      "to": "OTP Feature Flags",
+      "context": "Test scripts need updates when OTP feature flags are enabled on test environments"
+    },
+    {
+      "from": "Price Update Feature",
+      "to": "Feature Flag Configuration",
+      "context": "Price update on portion change needs to account for feature flag in addition to experiment variations"
+    },
+    {
+      "from": "Discount Communication",
+      "to": "CUI Service",
+      "context": "Product card and PDP offers depend on discount communication service fields"
+    }
+  ]
+}

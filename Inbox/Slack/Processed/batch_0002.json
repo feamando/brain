@@ -1,0 +1,565 @@
+{
+  "batch_id": "C03DDD4R537_1753347739.337839",
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "message_count": 6,
+  "thread_count": 6,
+  "avg_importance": 96.0,
+  "tag_summary": {
+    "action": 5,
+    "discussion": 5,
+    "question": 5,
+    "high_engagement": 2
+  },
+  "time_range": {
+    "start": "1753347739.337839",
+    "end": "1755203710.869449"
+  },
+  "messages": [
+    {
+      "ts": "1753347739.337839",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U047SAC2PPV* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nPCS v2 failure\n\nThere was a failure from PCS v2 that happened yesterday. More info: https://prdhellofresh.grafana.net/goto/iFbubRQNR?orgId=1\n\n\n:footprints: *Steps to reproduce:*\nNA",
+      "raw_text": "Hey team, *<@U047SAC2PPV>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nPCS v2 failure\n\nThere was a failure from PCS v2 that happened yesterday. More info: <https://prdhellofresh.grafana.net/goto/iFbubRQNR?orgId=1>\n\n\n:footprints: *Steps to reproduce:*\nNA",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W30",
+      "tags": [
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 8,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1753347739.337839",
+      "thread_replies": [
+        {
+          "ts": "1753347746.467509",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request."
+        },
+        {
+          "ts": "1753347775.790989",
+          "user": "U047SAC2PPV",
+          "user_name": "U047SAC2PPV",
+          "text": "cc @U0184T48L74 since you mentioned that you're using the v2 :slightly_smiling_face:"
+        },
+        {
+          "ts": "1753347975.934399",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "Thanks Mori for reporting this. Do you know which selections the customer had?"
+        },
+        {
+          "ts": "1753348115.906219",
+          "user": "U047SAC2PPV",
+          "user_name": "U047SAC2PPV",
+          "text": "Here is the selection that we received from the client:\n```{\n    \"meals\": [\n        {\n            \"index\": 232,\n            \"quantity\": 1\n        },\n        {\n            \"index\": 246,\n            \"quantity\": 1\n        },\n        {\n            \"index\": 125,\n            \"quantity\": 1\n        }\n    ],\n    \"extras\": [],\n    \"productSku\": \"MR-CBT1-6-1-0\"\n}```\nWeek: 2025-W31"
+        },
+        {
+          "ts": "1753348129.311259",
+          "user": "U047SAC2PPV",
+          "user_name": "U047SAC2PPV",
+          "text": "seems like meal selection for the trialbox but the sku is a normal box"
+        },
+        {
+          "ts": "1753349503.706099",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "I could replicate the issue :open_mouth: I'll work on a fix"
+        },
+        {
+          "ts": "1753455147.329529",
+          "user": "U044SKGT4R5",
+          "user_name": "U044SKGT4R5",
+          "text": "Hey Mori :cat-wave:\nThis is an existing issue related to trial box users. We’re seeing failing https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/u1uhnirWb5H/result/pQrWocHVGGi for PCS v1 as well. for example, the `pre-checkout.cutSelectionUsingPcs` trace shows failures on https://github.com/hellofresh/web/blob/7da8cfcabb39dce071d2609bd120d528053c5a7c/app/data-access/pre-checkout/cutSelectionUsingPcs.ts#L49 endpoint, with a count of ~4 during the 20% rollout.\n\nSince trial box users, shouldn’t be calling PCS v1 or v2 at all.\nWe’re creating a https://hellofresh.atlassian.net/browse/GOC-3025 on our side to address this separately at a later time.\ncc: @U027201FQSV"
+        },
+        {
+          "ts": "1753693628.466139",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "Good morning, just on top of this, I am about to increase the roll out to 40%"
+        }
+      ]
+    },
+    {
+      "ts": "1754059730.892629",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U0MBX09UZ* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* E2E Test / Unit Test\n\n\n:mag: *Issue reported:*\nMR reactivation e2e tests are failing\n\n\n:footprints: *Steps to reproduce:*\nhttps://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/wiiR6HMiEa4\n\nhttps://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/jaUwnxbSwBp",
+      "raw_text": "Hey team, *<@U0MBX09UZ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* E2E Test / Unit Test\n\n\n:mag: *Issue reported:*\nMR reactivation e2e tests are failing\n\n\n:footprints: *Steps to reproduce:*\n<https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/wiiR6HMiEa4>\n\n<https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/jaUwnxbSwBp>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W31",
+      "tags": [
+        "action",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 9,
+      "reactions": [],
+      "thread_ts": "1754059730.892629",
+      "thread_replies": [
+        {
+          "ts": "1754059734.821389",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request."
+        },
+        {
+          "ts": "1754061646.267459",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "cc @group"
+        },
+        {
+          "ts": "1754073359.499829",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hi Fede, does this test blocks your now? If it’s not urgent, we will tale a look at it on Monday."
+        },
+        {
+          "ts": "1754073428.372189",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "but there are other tests failing, so even if you fix them, I might not be able to merge my PR :stuck_out_tongue:"
+        },
+        {
+          "ts": "1754073841.641409",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Ok! We will check them on Monday :handshake: "
+        },
+        {
+          "ts": "1754288882.172089",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "hey fede, morning! updated them in this PR\n\n~can i get a CR pls? https://github.com/hellofresh/web/pull/55712~\n\nmerged. please rebase with master and these tests hopefully will stop failing now :blobthumbsup:"
+        }
+      ]
+    },
+    {
+      "ts": "1754419311.447269",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U0472SL7NQ4* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Post-Mortem Review\n\n\n:mag: *Issue reported:*\nCan I get a review for my PM?\n*React Error Boundary Spike on Goodchop Plans Page*\nhttps://docs.google.com/document/d/1DjYedbqIyw-QBUAYydOzeULJ94U5IlAuLN2M0DsKUxc/edit?tab=t.0\n\n\n:footprints: *Steps to reproduce:*\nsee the link of the doc",
+      "raw_text": "Hey team, *<@U0472SL7NQ4>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Post-Mortem Review\n\n\n:mag: *Issue reported:*\nCan I get a review for my PM?\n*React Error Boundary Spike on Goodchop Plans Page*\n<https://docs.google.com/document/d/1DjYedbqIyw-QBUAYydOzeULJ94U5IlAuLN2M0DsKUxc/edit?tab=t.0>\n\n\n:footprints: *Steps to reproduce:*\nsee the link of the doc",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W32",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 84,
+      "reply_count": 2,
+      "reactions": [],
+      "thread_ts": "1754419311.447269",
+      "thread_replies": [
+        {
+          "ts": "1754419315.184169",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request."
+        },
+        {
+          "ts": "1754461695.160469",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "hey @U0472SL7NQ4 , left some comments there\n\n@U07VDFEFBQU @U01AKGWGLC8 you guys can better check the business impact"
+        }
+      ]
+    },
+    {
+      "ts": "1754910947.229929",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U0MBX09UZ* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nSince July 8th, GoodChop is tracking an error on the checkout page\nhttps://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/gdeQQ4PLuJ8?vs=hideCompare\n\n\n:footprints: *Steps to reproduce:*\nhttps://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/gdeQQ4PLuJ8?vs=hideCompare",
+      "raw_text": "Hey team, *<@U0MBX09UZ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nSince July 8th, GoodChop is tracking an error on the checkout page\n<https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/gdeQQ4PLuJ8?vs=hideCompare>\n\n\n:footprints: *Steps to reproduce:*\n<https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/gdeQQ4PLuJ8?vs=hideCompare>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W33",
+      "tags": [
+        "high_engagement",
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 17,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0184T48L74"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1754910947.229929",
+      "thread_replies": [
+        {
+          "ts": "1754910951.423759",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request."
+        },
+        {
+          "ts": "1754911471.093869",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "I think the issue was introduced here: https://github.com/hellofresh/web/pull/54504"
+        },
+        {
+          "ts": "1754911486.571989",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "this is the Sentry error: https://hellofresh.sentry.io/issues/6739720759/?environment=live&amp;project=5396938&amp;query=is%3Aunresolved%20errorBoundaryError%3ATrue&amp;referrer=issue-stream"
+        },
+        {
+          "ts": "1754914751.089949",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "Hey Fede, thanks for reporting this. It seems most of the users are coming from /reset-password, and they can't check out :open_mouth:"
+        },
+        {
+          "ts": "1754915064.762699",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "is the data in HC sampled? I would like to know the impact of this bug"
+        },
+        {
+          "ts": "1754915075.866359",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "no, there's no sampling"
+        },
+        {
+          "ts": "1754915149.796119",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "335 unique users affected according to this: https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/bBQQPxy4huX?vs=hideCompare"
+        },
+        {
+          "ts": "1754916600.879999",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Thanks fede, so roughly 60 unique customers weekly\n\n@U0184T48L74\n&gt; most of the users are coming from /reset-password, and they can't check out\ndoesn't that make sense? because if they come from reset-password it means they are already active customers which need to log in, so they wouldn't be able to check out through the activation funnel again anyway"
+        },
+        {
+          "ts": "1754916644.328379",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "you can have an account and not checkout"
+        },
+        {
+          "ts": "1754916741.833809",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "it means you created an account but did not place your order. Probably you came back later and wanted to check out this time but forgot your pass"
+        },
+        {
+          "ts": "1754916975.438429",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "got it\n\nthen what is the alert flagging/counting exactly?\n\nIs it simply counting that there are more customers than usual which land on the reset-password page and then don't end up checking out? or are we actually that saying that resetting their password doesn't work, or even after they do that we block them from checking out?"
+        },
+        {
+          "ts": "1754917010.651579",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "in any case no need to drop current tickets, lets plan this in for next sprint"
+        },
+        {
+          "ts": "1754917073.430499",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "my query shows the number of users that experienced some kind of error on the checkout page - the problem goes from a broken summary to an entire broken page"
+        },
+        {
+          "ts": "1754917385.740239",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "I was wondering if some of these are valid where we block customers from checking out because of duplicate accounts/fraud. In this case we usually we display some kind of error message eg asking them to take off the voucher\n\nbut if the page is actually broken then sounds like a bug indeed"
+        },
+        {
+          "ts": "1754917943.737009",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "let me create a ticket. I'll send it to you @U01AKGWGLC8 :slightly_smiling_face:"
+        }
+      ]
+    },
+    {
+      "ts": "1755091155.120729",
+      "user": "U01V9SX5NG5",
+      "user_name": "U01V9SX5NG5",
+      "text": "Hey gang, qq for you about the change-delivery-cadence feature for active Good Chop customers.\n\nDo you have any email comms that go out when a customer changes their delivery cadence? and, do you reference that cadence anywhere in your set of CRM communications?\n\nOn Factor Form we're planning out the introduction of cadence to our actives experience and want to understand how yourselves have approached the customer experience on the CRM side :email:\n\ncc @U023F53GS21",
+      "raw_text": "Hey gang, qq for you about the change-delivery-cadence feature for active Good Chop customers.\n\nDo you have any email comms that go out when a customer changes their delivery cadence? and, do you reference that cadence anywhere in your set of CRM communications?\n\nOn Factor Form we're planning out the introduction of cadence to our actives experience and want to understand how yourselves have approached the customer experience on the CRM side :email:\n\ncc <@U023F53GS21>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W33",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 92,
+      "reply_count": 6,
+      "reactions": [],
+      "thread_ts": "1755091155.120729",
+      "thread_replies": [
+        {
+          "ts": "1755173000.712859",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "Hey @U01V9SX5NG5, maybe @U07VDFEFBQU can help you with this"
+        },
+        {
+          "ts": "1755181703.726619",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "let me check with Yury and get back"
+        },
+        {
+          "ts": "1755181952.914549",
+          "user": "UAAJRNY8G",
+          "user_name": "UAAJRNY8G",
+          "text": "let me share"
+        },
+        {
+          "ts": "1755182486.927339",
+          "user": "UAAJRNY8G",
+          "user_name": "UAAJRNY8G",
+          "text": "1. we don't send a dedicated \"cadence change\" email\n2. we send \"reschedule\" email where we reference cadence \n3. we reference cadence also in order confirmation T&amp;C"
+        },
+        {
+          "ts": "1755186180.052299",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "Thank you Yury :pray: this is a massive help"
+        }
+      ]
+    },
+    {
+      "ts": "1755203710.869449",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U03HCD899EJ* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHey! :kirby-wave:\nVMS is working on implementing Multi Box Discounts and we are working to leverage the existing https://github.com/hellofresh/web/tree/major/RTEVMS-2003-refactor-discount-communication-inline-banner-for-multi-brand-usage/app/spaces/whitelabel/modules/whitelabel-web/packages/components/discount-communication components that GoodChop owns.\n\nI’ve started refactoring out the redux since we don’t use the store in VMS to avoid conflicts with :factor:. I’ve done my own QA and a thorough code review, and gotten the squad to review as well.\n\nCould I get your eyes on it since you are much more familiar with expected behaviour and could catch anything that could’ve been missed?\n\n:warning: There is no new changes here, everything should be BAU but the `DiscountInlineBanner` has _no direct redux usage_ within it and it’s immediate dependencies. We will be making further changes to the `DiscountModal` as well to do the same, but that’s next week.\n\nThanks!\n:pull-request:: https://github.com/hellofresh/web/pull/56214\n\n\n:footprints: *Steps to reproduce:*\n:no-7:",
+      "raw_text": "Hey team, *<@U03HCD899EJ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* High :large_orange_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nHey! :kirby-wave:\nVMS is working on implementing Multi Box Discounts and we are working to leverage the existing <https://github.com/hellofresh/web/tree/major/RTEVMS-2003-refactor-discount-communication-inline-banner-for-multi-brand-usage/app/spaces/whitelabel/modules/whitelabel-web/packages/components/discount-communication|discount-communication> components that GoodChop owns.\n\nI’ve started refactoring out the redux since we don’t use the store in VMS to avoid conflicts with :factor:. I’ve done my own QA and a thorough code review, and gotten the squad to review as well.\n\nCould I get your eyes on it since you are much more familiar with expected behaviour and could catch anything that could’ve been missed?\n\n:warning: There is no new changes here, everything should be BAU but the `DiscountInlineBanner` has _no direct redux usage_ within it and it’s immediate dependencies. We will be making further changes to the `DiscountModal` as well to do the same, but that’s next week.\n\nThanks!\n:pull-request:: <https://github.com/hellofresh/web/pull/56214>\n\n\n:footprints: *Steps to reproduce:*\n:no-7:",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W33",
+      "tags": [
+        "high_engagement",
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 30,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0184T48L74"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1755203710.869449",
+      "thread_replies": [
+        {
+          "ts": "1755203714.527989",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request."
+        },
+        {
+          "ts": "1755204650.769619",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "Tagging @U08FY485B47 who will support on this while I’m :ooo: to get this over the line and address any comments from the team"
+        },
+        {
+          "ts": "1755248668.841439",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "Hey @U03HCD899EJ, this PR is too large. In general, it looks good, but it's challenging to keep track of all the changes. Would you mind breaking it down into smaller chunks?"
+        },
+        {
+          "ts": "1755250298.723999",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "Hi @U0184T48L74 ! Thanks for the feedback! Respectfully half of this PR is just tests and there are a lot more of them for the component and the hooks used than there were before which is contributing greatly to its size. The actual changes are quite small since it’s just moving the redux selectors to different places.\n\nwhat would you have broken up in this PR since the changes are so intertwined ?\n\nI am off today, so in order to make changes like that, Edwin would have to learn the full context of the PR and the changes just to break it up, which would take most of the day at which point you will be off-line for the weekend"
+        },
+        {
+          "ts": "1755253017.362389",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "There are still ~340 lines of code changes if I don't count the tests.\nI can see that you're doing 4 different things:\n• moving the state selectors up\n• refactoring one of the hooks\n• moving the gtm events\n• adding new logic\nI'm not saying that you have to create 4 PRs, but I think there is a way to split the whole thing"
+        },
+        {
+          "ts": "1755257492.951339",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "Alright. I’ll leave it then to @U08FY485B47 and @U01V9SX5NG5 to decide what to do, as I’m not online today.\n\nFunctionally, can you confirm that the changes are working as expected for the banner?"
+        },
+        {
+          "ts": "1755262807.153689",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "1. Free add-ons :check: \n2. Trial box :check: \n3. % vouchers :check: \n4. Box discount :check: \n5. There are a couple of problems with the GTM events:\n    a. The event DiscountComm_ModalDisplay is being triggered even when the modal is not visible, when the page loads (see image bellow)\n    b. The event DiscountComm_BannerDisplay is fired multiple times when the page loads vs one time on staging (see image bellow)\n    c. When you close the modal, DiscountComm_ModalDisplay is triggered again in your PR\n    d. Loyalty level is now a string, but honestly, I don't know if this is a problem for our PAs"
+        },
+        {
+          "ts": "1755263100.447059",
+          "user": "U08FY485B47",
+          "user_name": "U08FY485B47",
+          "text": ":wave-pika-pika:  Hi @U0184T48L74!\n\nNice to e-meet you. I'm helping Tamir today with this PR. Thanks for the feedback. You are right, reviewing a PR of this size is a big ask, and we want to make it as easy and safe as possible for your team.\n\nSince Tamir is off today and changes are tightly coupled, breaking it up now might be tricky and could introduce risk. To help move this forward, how would you feel about one of these options:\n\na. Continue with the current PR and I can add more detailed documentation.\nb. Moving the `tracking` events to a new PR since these are a new addition and it could have some improvements, as you mentioned.\n\nWe believe this refactor is an important step for the Discount Communication feature, so I'd love to find a path to get this reviewed and merged before the weekend. Please let me know what works best for you. :praycat:"
+        },
+        {
+          "ts": "1755263463.875219",
+          "user": "U08FY485B47",
+          "user_name": "U08FY485B47",
+          "text": "Regarding the `loyalty level` passed as `string` is because the functions\n\n• trackDiscountCommunicationBannerClick\n• trackDiscountCommunicationBannerDisplay\nare receiving a `string` in its signature.\n\nhttps://github.com/hellofresh/web/blob/dc48aadf351ee2df8a9cf216eb19eeae31a518be/app/spaces/whitelabel/modules/whitelabel-web/packages/components/discount-communication/TrackingEvents.ts#L26"
+        },
+        {
+          "ts": "1755266499.396989",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hi @U08FY485B47! Nice to e-meet you!\n\nWe understand the importance of the PR, but we consider it as a high risky to be merged before weekend.\n\nIt impacts the one of the critical business flows for Good Chop and we can't effort any incidents during the weekend as the weekends are high traffic time for us.\n\nWe will be able to continue support you on Monday and carefully validate the changes and merge them after that.\n\nThanks for understanding!"
+        },
+        {
+          "ts": "1755266970.679229",
+          "user": "U08FY485B47",
+          "user_name": "U08FY485B47",
+          "text": "Thanks @U027201FQSV and @U0184T48L74. Thanks for the clear explanation. That makes perfect sense. I completely support the decision to wait until Monday given this is a critical flow.\n\n@U0184T48L74 In order to make the review as efficient as possible, and use the time wisely, please could you confirm if you prefer to continue on the same PR to make the changes for `tracking`  or do you prefer to have them in a separate PR? I'll make sure to work on those changes today. we'll have them ready for your team to review on Monday morning, and, we can continue."
+        },
+        {
+          "ts": "1755270389.943289",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "I still think we should have smaller PRs"
+        },
+        {
+          "ts": "1755271744.822819",
+          "user": "U08FY485B47",
+          "user_name": "U08FY485B47",
+          "text": "Okay team! then we will break down the work in smaller PRs by Monday to make it easier for you and us to follow.  Thanks @U0184T48L74 and @U027201FQSV for the support!\n\nHave a great weekend :sunglasses:"
+        },
+        {
+          "ts": "1755272122.944289",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Thank you for cooperation @U08FY485B47! Enjoy the weekend! :sun:"
+        },
+        {
+          "ts": "1755560104.567049",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "hey everyone, just coming back to this. In an attempt to break up the changes and have less introduced at once, I present to you one of the PRs: tracking.\n\n@U0184T48L74 I had made some more intentional changes without affecting how they are triggered to ensure they are not triggering incorrectly so it’s easier to validate. Could you kindly CR and double check that the events fire when expected?\n\nIf all is well, could you approve? I will merge when I’m online, or if you would like to, that’s fine as well and I will continue on the second one :arrow-down: afterwards\nhttps://github.com/hellofresh/web/pull/56352"
+        },
+        {
+          "ts": "1755561572.617209",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "Following that, this is a smaller PR to move redux selectors out of the `DiscountInlineBanner` and `useDiscountModal` into the parent wrapper component and use new hooks.\n\nThere are some changes that overlap the previous :this: PR, so I will rebase this onto master once the above is merged.\n\nHowever, if you could review &amp; QA with that in mind, that’d be great. I have left comments with some explanations about the changes to hopefully make it easier.\n\nhttps://github.com/hellofresh/web/pull/56341"
+        },
+        {
+          "ts": "1755605353.889189",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "good morning @U0184T48L74 @U027201FQSV ! hope you’ve had a good day so far. I was wondering if you had a chance to look at the PRs?"
+        },
+        {
+          "ts": "1755606306.321519",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "hey Tamir, I approved the first one. We are investigating an issue rn so I didn't have the chance to take a look at the second one, but maybe @U02P4F23YJ0 can help you"
+        },
+        {
+          "ts": "1755606378.098899",
+          "user": "U02P4F23YJ0",
+          "user_name": "U02P4F23YJ0",
+          "text": "Taking a look at https://github.com/hellofresh/web/pull/56341 now"
+        },
+        {
+          "ts": "1755606737.233329",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "thanks both. I’ve merged the first one. @U02P4F23YJ0 I’ll rebase the second so the tracking changes are merged correctly (I noted in the PR where those would be applied, so won’t be much different than what you’re seeing now)"
+        },
+        {
+          "ts": "1755607750.167169",
+          "user": "U02P4F23YJ0",
+          "user_name": "U02P4F23YJ0",
+          "text": "Hey Tamir,\nAlthough i see `$30 off for this box` , it looks the previous Box 1 for August 20th was cancelled and looking at wallet, still the Box 1 $50 is applicable and its also being shown on the order summary pop-up."
+        },
+        {
+          "ts": "1755608920.591899",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "hmm okay. Did the loyalty level change or it’s still set to 0?"
+        },
+        {
+          "ts": "1755610033.912019",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "I was able to reproduce the issue with `mwd@goodchop.ca` / `1234Abcd`. But I am seeing the same on localhost and the last time I pulled was yesterday :thinking_face:"
+        },
+        {
+          "ts": "1755610097.296579",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "yeah, I don’t think I changed that. this is actually still just using the same redux so I think it’s BAU :sus:"
+        },
+        {
+          "ts": "1755610134.214359",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "I can try to help debug if you guys have any ideas as to what it might be?"
+        },
+        {
+          "ts": "1755610673.996409",
+          "user": "U0184T48L74",
+          "user_name": "U0184T48L74",
+          "text": "can you rebase the PR, we could merge it and then take a look at the bug"
+        },
+        {
+          "ts": "1755610720.065309",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "yeah, WIP. just got to the office so gonna try to fix it, there’s a few conflicts and the auto merge editor is a mess :melt: "
+        },
+        {
+          "ts": "1755610725.275739",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "I’ll ping in a bit when I have it"
+        },
+        {
+          "ts": "1755616122.758579",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "hey @U0184T48L74 @U02P4F23YJ0 I’ve updated the PR with master &amp; corrected the tests for the banner itself, it should be good to go!"
+        },
+        {
+          "ts": "1755618920.937769",
+          "user": "U03HCD899EJ",
+          "user_name": "U03HCD899EJ",
+          "text": "thanks Claudia, merging. I’ll have more PRs this week for additional components :slightly_smiling_face:"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W38",
+  "extracted_at": "2026-01-02T10:48:03.846746Z",
+  "message_count": 3,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U01TLRS1W9L",
+      "text": "<@U01TLRS1W9L> has left the channel",
+      "type": "message",
+      "ts": "1758200267.400119"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U06JUCD7S4A>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle:\n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nCould you review this PR - <https://github.com/hellofresh/web/pull/57531> -  which collates the values of the editMenuConfig by brand and country to ease readability and maintainability. I've done a sanity check and it looked fine to me on but could you also confirm the same.\n\n\n:footprints: *Steps to reproduce:*\nN/A",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1757970876.388199",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1757970876.388199",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1758033348.736969",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U06JUCD7S4A",
+        "U0184T48L74"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ecTe7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U06JUCD7S4A",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Could you review this PR - "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/57531"
+                },
+                {
+                  "type": "text",
+                  "text": " -  which collates the values of the editMenuConfig by brand and country to ease readability and maintainability. I've done a sanity check and it looked fine to me on but could you also confirm the same."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "check",
+          "users": [
+            "U0184T48L74"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": ":importanttt: If your request is related to a *failing test*, please *<https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E|check this doc first>* for quick troubleshooting/assessment before raising the actual request.",
+          "username": "Good Chop Support",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "actions",
+                  "block_id": "ubxKk",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "77e9cb64-d97f-4d19-8841-423ec1de05de",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "I still need help",
+                        "emoji": true
+                      },
+                      "style": "primary",
+                      "value": "button",
+                      "third_party_auth": {
+                        "enable_dynamic_auth": true
+                      }
+                    }
+                  ]
+                }
+              ],
+              "fallback": "[no preview available]"
+            }
+          ],
+          "type": "message",
+          "ts": "1757970879.199719",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1757970876.388199",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "10QHg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "importanttt"
+                    },
+                    {
+                      "type": "text",
+                      "text": " If your request is related to a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "failing test",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", please "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E",
+                      "text": "check this doc first",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for quick troubleshooting/assessment before raising the actual request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Test video here.",
+          "files": [
+            {
+              "id": "F09EXLVUZ7H",
+              "created": 1757972100,
+              "timestamp": 1757972100,
+              "name": "Optim-MR-Screen Recording 2025-09-15 at 5.32.04 PM.mov",
+              "title": "Optim-MR-Screen Recording 2025-09-15 at 5.32.04 PM.mov",
+              "mimetype": "video/quicktime",
+              "filetype": "mov",
+              "pretty_type": "QuickTime Movie",
+              "user": "U06JUCD7S4A",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 88243018,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "is_transcription_region_supported": true,
+              "transcription": {
+                "status": "fatal"
+              },
+              "mp4": "https://files.slack.com/files-tmb/T02AGMUUR-F09EXLVUZ7H-b2cbb4c419/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm.mp4",
+              "url_private": "https://files.slack.com/files-tmb/T02AGMUUR-F09EXLVUZ7H-b2cbb4c419/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm.mp4",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09EXLVUZ7H/download/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm.mov",
+              "hls": "https://files.slack.com/files-tmb/T02AGMUUR-F09EXLVUZ7H-b2cbb4c419/file.m3u8?_xcb=07b01",
+              "hls_embed": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9Mjc5MDEzNyxBVkVSQUdFLUJBTkRXSURUSD0xNTc3MDg1LENPREVDUz0iYXZjMS42NDAwMjgsbXA0YS40MC41IixSRVNPTFVUSU9OPTE3NTR4MTA4MCxGUkFNRS1SQVRFPTI5Ljk3MApkYXRhOmFwcGxpY2F0aW9uL3ZuZC5hcHBsZS5tcGVndXJsO2Jhc2U2NCxJMFZZVkUwelZRb2pSVmhVTFZndFZrVlNVMGxQVGpvekNpTkZXRlF0V0MxVVFWSkhSVlJFVlZKQlZFbFBUam8zQ2lORldGUXRXQzFOUlVSSlFTMVRSVkZWUlU1RFJUb3hDaU5GV0ZRdFdDMVFURUZaVEVsVFZDMVVXVkJGT2xaUFJBb2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBeVFVZE5WVlZTTFVZd09VVllURlpWV2pkSUxXSXlZMkppTkdNME1Ua3ZabWxzWlY5SVh6STJORjh4T1RJd2VERXdPREJmTmpVd01FdENVRk5mTjFGV1FsSmZNREF3TURFdWRITUtJMFZZVkVsT1JqbzJMakF3Tml3S2FIUjBjSE02THk5bWFXeGxjeTV6YkdGamF5NWpiMjB2Wm1sc1pYTXRkRzFpTDFRd01rRkhUVlZWVWkxR01EbEZXRXhXVlZvM1NDMWlNbU5pWWpSak5ERTVMMlpwYkdWZlNGOHlOalJmTVRreU1IZ3hNRGd3WHpZMU1EQkxRbEJUWHpkUlZrSlNYekF3TURBeUxuUnpDaU5GV0ZSSlRrWTZOaTR3TURZc0NtaDBkSEJ6T2k4dlptbHNaWE11YzJ4aFkyc3VZMjl0TDJacGJHVnpMWFJ0WWk5VU1ESkJSMDFWVlZJdFJqQTVSVmhNVmxWYU4wZ3RZakpqWW1JMFl6UXhPUzltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd015NTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQXlRVWROVlZWU0xVWXdPVVZZVEZaVldqZElMV0l5WTJKaU5HTTBNVGt2Wm1sc1pWOUlYekkyTkY4eE9USXdlREV3T0RCZk5qVXdNRXRDVUZOZk4xRldRbEpmTURBd01EUXVkSE1LSTBWWVZFbE9Sam8yTGpBd05pd0thSFIwY0hNNkx5OW1hV3hsY3k1emJHRmpheTVqYjIwdlptbHNaWE10ZEcxaUwxUXdNa0ZIVFZWVlVpMUdNRGxGV0V4V1ZWbzNTQzFpTW1OaVlqUmpOREU1TDJacGJHVmZTRjh5TmpSZk1Ua3lNSGd4TURnd1h6WTFNREJMUWxCVFh6ZFJWa0pTWHpBd01EQTFMblJ6Q2lORldGUkpUa1k2Tmk0d01EWXNDbWgwZEhCek9pOHZabWxzWlhNdWMyeGhZMnN1WTI5dEwyWnBiR1Z6TFhSdFlpOVVNREpCUjAxVlZWSXRSakE1UlZoTVZsVmFOMGd0WWpKalltSTBZelF4T1M5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdOaTUwY3dvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREF5UVVkTlZWVlNMVVl3T1VWWVRGWlZXamRJTFdJeVkySmlOR00wTVRrdlptbHNaVjlJWHpJMk5GOHhPVEl3ZURFd09EQmZOalV3TUV0Q1VGTmZOMUZXUWxKZk1EQXdNRGN1ZEhNS0kwVllWRWxPUmpvMkxqQXdOaXdLYUhSMGNITTZMeTltYVd4bGN5NXpiR0ZqYXk1amIyMHZabWxzWlhNdGRHMWlMMVF3TWtGSFRWVlZVaTFHTURsRldFeFdWVm8zU0MxaU1tTmlZalJqTkRFNUwyWnBiR1ZmU0Y4eU5qUmZNVGt5TUhneE1EZ3dYelkxTURCTFFsQlRYemRSVmtKU1h6QXdNREE0TG5SekNpTkZXRlJKVGtZNk5pNHdNRFlzQ21oMGRIQnpPaTh2Wm1sc1pYTXVjMnhoWTJzdVkyOXRMMlpwYkdWekxYUnRZaTlVTURKQlIwMVZWVkl0UmpBNVJWaE1WbFZhTjBndFlqSmpZbUkwWXpReE9TOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3T1M1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBeVFVZE5WVlZTTFVZd09VVllURlpWV2pkSUxXSXlZMkppTkdNME1Ua3ZabWxzWlY5SVh6STJORjh4T1RJd2VERXdPREJmTmpVd01FdENVRk5mTjFGV1FsSmZNREF3TVRBdWRITUtJMFZZVkVsT1JqbzJMakF3Tml3S2FIUjBjSE02THk5bWFXeGxjeTV6YkdGamF5NWpiMjB2Wm1sc1pYTXRkRzFpTDFRd01rRkhUVlZWVWkxR01EbEZXRXhXVlZvM1NDMWlNbU5pWWpSak5ERTVMMlpwYkdWZlNGOHlOalJmTVRreU1IZ3hNRGd3WHpZMU1EQkxRbEJUWHpkUlZrSlNYekF3TURFeExuUnpDaU5GV0ZSSlRrWTZOaTR3TURZc0NtaDBkSEJ6T2k4dlptbHNaWE11YzJ4aFkyc3VZMjl0TDJacGJHVnpMWFJ0WWk5VU1ESkJSMDFWVlZJdFJqQTVSVmhNVmxWYU4wZ3RZakpqWW1JMFl6UXhPUzltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBeE1pNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQXlRVWROVlZWU0xVWXdPVVZZVEZaVldqZElMV0l5WTJKaU5HTTBNVGt2Wm1sc1pWOUlYekkyTkY4eE9USXdlREV3T0RCZk5qVXdNRXRDVUZOZk4xRldRbEpmTURBd01UTXVkSE1LSTBWWVZFbE9Sam8yTGpBd05pd0thSFIwY0hNNkx5OW1hV3hsY3k1emJHRmpheTVqYjIwdlptbHNaWE10ZEcxaUwxUXdNa0ZIVFZWVlVpMUdNRGxGV0V4V1ZWbzNTQzFpTW1OaVlqUmpOREU1TDJacGJHVmZTRjh5TmpSZk1Ua3lNSGd4TURnd1h6WTFNREJMUWxCVFh6ZFJWa0pTWHpBd01ERTBMblJ6Q2lORldGUkpUa1k2TUM0eE5qY3NDbWgwZEhCek9pOHZabWxzWlhNdWMyeGhZMnN1WTI5dEwyWnBiR1Z6TFhSdFlpOVVNREpCUjAxVlZWSXRSakE1UlZoTVZsVmFOMGd0WWpKalltSTBZelF4T1M5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXhOUzUwY3dvalJWaFVMVmd0UlU1RVRFbFRWQW89Cg==",
+              "mp4_low": "https://files.slack.com/files-tmb/T02AGMUUR-F09EXLVUZ7H-b2cbb4c419/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm_trans.mp4",
+              "duration_ms": 84250,
+              "media_display_type": "video",
+              "thumb_video": "https://files.slack.com/files-tmb/T02AGMUUR-F09EXLVUZ7H-b2cbb4c419/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm_thumb_video.jpeg",
+              "thumb_video_w": 1280,
+              "thumb_video_h": 788,
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09EXLVUZ7H/optim-mr-screen_recording_2025-09-15_at_5.32.04___pm.mov",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09EXLVUZ7H-005c36e530",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U06JUCD7S4A",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LfvFk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Test video here."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1757972154.510649",
+          "client_msg_id": "a03b2ec4-c2ef-46c8-9005-bea33b28d7ea",
+          "thread_ts": "1757970876.388199"
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1758011760.968809",
+          "client_msg_id": "d7738d65-c5c4-42cc-b1fe-82d4d4253a67",
+          "text": "Hey Philip, it looks good for MR. Do you mind getting approval from your team first?  I can approve afterwards :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757970876.388199",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NN72I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Philip, it looks good for MR. Do you mind getting approval from your team first?  I can approve afterwards "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U06JUCD7S4A"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1758027597.230709",
+          "client_msg_id": "3a387b10-e472-4410-81a8-bca754ca8b11",
+          "text": "Thanks Claudia. Will follow up with the team for it :slightly_smiling_face: .",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757970876.388199",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qzIkH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Claudia. Will follow up with the team for it "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    },
+                    {
+                      "type": "text",
+                      "text": " ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1758032543.455739",
+          "client_msg_id": "3fa7e35b-a797-42a8-9683-ed23e7723c10",
+          "text": "Hey <@U0184T48L74>, I've gotten the approval from my team mate. Could you also approve it. Thanks",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757970876.388199",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "A5q8k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0184T48L74"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", I've gotten the approval from my team mate. Could you also approve it. Thanks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "check",
+              "users": [
+                "U0184T48L74"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1758033348.736969",
+          "edited": {
+            "user": "U06JUCD7S4A",
+            "ts": "1758033361.000000"
+          },
+          "client_msg_id": "9955aee0-6b3a-4815-b9bb-7854613f7e06",
+          "text": "Thanks Claudia",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757970876.388199",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x60Hm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Claudia"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U0184T48L74"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U03PN0VRC2F",
+      "text": "<@U03PN0VRC2F> has left the channel",
+      "type": "message",
+      "ts": "1757946203.341209"
+    }
+  ]
+}

@@ -1,0 +1,3838 @@
+{
+  "channel_id": "C04FVDBJZCK",
+  "channel_name": "squad-nv-pet-food",
+  "week": "2025-W37",
+  "extracted_at": "2026-01-02T10:56:38.002126Z",
+  "message_count": 36,
+  "messages": [
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757926825.558399",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|329> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "deleted": false,
+        "name": "HF Inspector",
+        "updated": 1584012640,
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yDC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "329",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757926824.369679",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|329> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "L8Y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "329",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757926823.307779",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|329> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9n8In",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "329",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1757693940.861739",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1757693940.861739",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1758032840.319919",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01U67XD681"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to Trial SKU`\n*Topic:* `Other`\n*Description:* `sub_ids found in \"2025_W38\" tab in column A\n<https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1477326398#gid=1477326398>`\n*Expected behaviour:* `trial sku`\n*Actual behaviour:* `payment errors and CC requests`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to Trial SKU`\n*Topic:* `Other`\n*Description:* `sub_ids found in \"2025_W38\" tab in column A\n<https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1477326398#gid=1477326398>`\n*Expected behaviour:* `trial sku`\n*Actual behaviour:* `payment errors and CC requests`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1757693941.295949",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1757693940.861739",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1758032840.319919",
+          "client_msg_id": "99b84cd9-e656-4b19-aeb4-8bf45c407732",
+          "text": "done :white_check_mark:\n<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757693940.861739",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MJWU+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "done "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "white_check_mark",
+                      "unicode": "2705"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            },
+            {
+              "name": "proper_bow",
+              "users": [
+                "UDH40QWLU"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607370.844209",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YszS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607369.734809",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KCe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607368.620709",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SCP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607314.144269",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BCT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607312.842779",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eQG+V",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757607311.285819",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|320> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8lZTh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "320",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606475.062569",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "H=Sr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606473.869829",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "B3EcB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606472.713119",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xz7G1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606240.877169",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jsR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606239.800419",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8TvB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757606238.724489",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|323> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CnFdL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "323",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605485.831389",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|318> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4Wg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "318",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605484.557769",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|318> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aZs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "318",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605483.577289",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|318> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LKkya",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "318",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605061.568409",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "STbx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605060.543839",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eSp3Q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757605059.543629",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ot/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604961.383219",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vdOBv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604960.061309",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jhSyw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604958.951079",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|314> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vTyMz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "314",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604234.523719",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TFE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604233.462599",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zcx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604232.437519",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JDF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604138.971719",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HzS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604137.952189",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Lqs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1757604136.964869",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|315> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YAO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "315",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UB87A2MJ7",
+      "type": "message",
+      "ts": "1757599225.464249",
+      "client_msg_id": "8167a288-2498-4561-873e-4973fe971b24",
+      "text": "Hey hey!\nWe are switching 30% of *live* PCS traffic to FTCP cluster. As always if you see sth wrong please let us know in <#C088GTM8QTF|>",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GPU5h",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey hey!\nWe are switching 30% of "
+                },
+                {
+                  "type": "text",
+                  "text": "live ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "PCS traffic to FTCP cluster. As always if you see sth wrong please let us know in "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C088GTM8QTF"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01PE2S4ZL6",
+            "U8F7ZDAPM",
+            "U01U67XD681"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U047SAC2PPV",
+      "text": "<@U047SAC2PPV> has left the channel",
+      "type": "message",
+      "ts": "1757581084.336099"
+    },
+    {
+      "user": "UB87A2MJ7",
+      "type": "message",
+      "ts": "1757513544.128089",
+      "client_msg_id": "9d6ac901-d990-400d-ae7c-29f2e1fec8ed",
+      "text": "Hi team!\nJust heads up - we switched `pre-checkout-selection-service` *staging* traffic 100% to FTCP cluster. If you notice sth weird please let us know in <#C088GTM8QTF|>",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MrwcX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team!\nJust heads up - we switched "
+                },
+                {
+                  "type": "text",
+                  "text": "pre-checkout-selection-service",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "staging",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " traffic 100% to FTCP cluster. If you notice sth weird please let us know in "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C088GTM8QTF"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01PE2S4ZL6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U0MBX09UZ",
+      "text": "<@U0MBX09UZ> has left the channel",
+      "type": "message",
+      "ts": "1757404905.442189"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1757351278.961459",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1757351278.961459",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1757514238.446389",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01PE2S4ZL6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to Trail Sku`\n*Topic:* `Other`\n*Description:* `hello - please can we reset the subscriptions found in column I of \"2025-W37\" tab <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1191959573#gid=1191959573>`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to Trail Sku`\n*Topic:* `Other`\n*Description:* `hello - please can we reset the subscriptions found in column I of \"2025-W37\" tab <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1191959573#gid=1191959573>`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1757351279.905249",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1757351278.961459",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1757514236.251309",
+          "client_msg_id": "e4614fc3-fbed-47c2-ad05-2df851aca2d1",
+          "text": "all the subscriptions, except for the cancelled ones, have been reset",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757351278.961459",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4/5gQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "all the subscriptions, except for the cancelled ones, have been reset"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "UDH40QWLU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1757514238.446389",
+          "client_msg_id": "efee578b-4224-4c22-8dc3-f13b2f89a1c1",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757351278.961459",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

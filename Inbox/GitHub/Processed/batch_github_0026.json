@@ -1,0 +1,71 @@
+{
+  "batch_id": "github_0026",
+  "source": "github",
+  "commit_count": 6,
+  "commits": [
+    {
+      "sha": "52f6f42b",
+      "message": "[GOC-3299] - adding hook and tests for free cuts popup on checkout pages (#59016)\n\n* first iteration on code\n\n* removing adr\n\n* removing cart unecessary implementation\n\n* remove uncessary comments\n\n* removing not needed callbacks and async",
+      "author": "Rebecca Ferreira Albers",
+      "author_email": "32600739+farebecca@users.noreply.github.com",
+      "date": "2025-10-20T14:28:17Z",
+      "url": "https://github.com/hellofresh/web/commit/52f6f42bc8a05bc7a8f459b9b160e593893e5939",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "bdfff9c7",
+      "message": "[TPT-2200] Adjust calories success/error tracking (#59033)\n\n* Rename tracking functions\n\n* Add tracking to error panel\n\n* Add tracking to success panel\n\n* Get sub id from hook\n\n* Update test\n\n* Add aria-label\n\n* Update subscription values source\n\n* Wait for subscription data to resolve\n\n* Update test",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-10-20T13:41:03Z",
+      "url": "https://github.com/hellofresh/web/commit/bdfff9c765867458bca18b744bebfa54825103ad",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b6724d86",
+      "message": "[GOC-3308] Adds interception logic for free cuts pop up in Reactivation (#59038)\n\n* [GOC-3307] Adds hook to manage local storage key\n\n* [GOC-3307] Adds fundation logic in new hook\n\n* [GOC-3307] Uses free cut pop on Reactivation page\n\n* [GOC-3307] Refactor tests\n\n* [GOC-3307] Clears rejection local storage item when voucher changes\n\n* [GOC-3307] Clears rejection local storage and addon selection when voucher changes\n\n* [GOC-3307] Removes not needed async\n\n* [GOC-3307] Improve cast\n\n* [GOC-3307] Removes not needed await\n\n* [GOC-3308] Adds initial logic to intercept reactivation without free cut selection\n\n* [GOC-3308] Minor refactor\n\n* [GOC-3308] Minor refactor, removes duplicated logic",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-10-20T13:15:04Z",
+      "url": "https://github.com/hellofresh/web/commit/b6724d866b584569116d3ca8acce30b9d2ee1bae",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "7422f80a",
+      "message": "[GOC-3273] Migrate price endpoint in Reactivation banner (#59031)\n\n* replace price endpoint logic\n\n* cleanup logs and fix price\n\n* Add loading state while api responds\n\n* fix pricePerServing value\n\n* fix type\n\n* remove comment\n\n* fix ReactivatePlanContent.spec.js\n\n* clean condition",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-10-20T12:57:25Z",
+      "url": "https://github.com/hellofresh/web/commit/7422f80a1ecccb631def1cf3bbceea74e9a3bf4f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "95e077a8",
+      "message": "[TPT-2117] Move reschedule test to TPT test folder (#59003)\n\n* Move test to TPT folder\n\n* Rename folder to 'wl-pet-food'",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-10-20T11:45:18Z",
+      "url": "https://github.com/hellofresh/web/commit/95e077a8394dda209929a5205c11f267b9b1cb1b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d48bec6f",
+      "message": "[TPT-2169] - [GD] Implement banners section for the deactivated state on the Dashboard and integrate it into the page (#58962)\n\n* TPT-2169 - add contentful keys for benefits banner\n\n* TPT-2169 - add BenefitBanner component and test\n\n* TPT-2169 - add BenefitsCarousel component and test\n\n* TPT-2169 - add BenefitsSection component and test\n\n* TPT-2169 - add feature flag for redesigned reactivation page\n\n* TPT-2169 - add new TPTReactivatePlan component\n\n* TPT-2169 - cleanup\n\n* TPT-2169 - cleanup\n\n* TPT-2169 - fix failing test\n\n* TPT-2169 - add box shadow to benefit banner\n\n* TPT-2169 - use zest carousel instead of old carousel\n\n* TPT-2169 - fix benefit banner to be 326px wide\n\n* TPT-2169 - fix A11Y suggestions\n\n* TPT-2169 - fix A11Y suggestions, fix spacing for title\n\n* TPT-2169 - fix A11Y suggestions\n\n* TPT-2169 - fix last A11Y suggestions on benefits carousel\n\n* TPT-2169 - update benefits title semantic element, remove styleAs\n\n* TPT-2169 - fix spacing\n\n* TPT-2169 - fix border\n\n* TPT-2169 - check if image is available before extracting its url for benefit banner\n\n* TPT-2169 - fix error can not convert undefined to lowercase in benefit banner\n\n* TPT-2169 - fix error can not convert undefined to lowercase in benefit banner\n\n* TPT-2169 - remove regex nad use contentful key as unique id\n\n* TPT-2169 - fix test",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-10-20T10:31:55Z",
+      "url": "https://github.com/hellofresh/web/commit/d48bec6fd3770270122be9b4966d2f74b469dbd0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-10-20T10:31:55Z",
+    "newest": "2025-10-20T14:28:17Z"
+  }
+}

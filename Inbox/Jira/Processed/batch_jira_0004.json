@@ -1,0 +1,771 @@
+{
+  "batch_id": "jira_0004",
+  "source": "jira",
+  "issue_count": 25,
+  "issue_types": {
+    "Bug": 3,
+    "Task": 16,
+    "Epic": 1,
+    "Sub-task": 1,
+    "Story": 4
+  },
+  "issues": [
+    {
+      "key": "TPT-2580",
+      "summary": "Assign correct plan options in the funnel portion % flow",
+      "description": "{panel:bgColor=#ffebe6}\n*Current behavior*\n\nIncorrect plan is assigned in funnel\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected behavior*\n\nUser gets the correct plan assigned\n{panel}\n\n{panel:bgColor=#deebff}\n*Steps to reproduce?*\n\n# select mixed plan option in the quiz,\n# select a plan w 50% portion and continue to checkout\n# go back to quiz and select the full meals plan option\n# select a plan and continue - the 50% portion is still selected (and user is getting assigned to the 50% portion SKU)\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Additional information*\n\n* Voucher codes (staging/live) - if applicable\n* Test/effected user\n* Sentry/Crashlytics/Honeycomb links\n{panel}\n\n{panel:bgColor=#eae6ff}\n*About the feature (optional)*\n{panel}\n\n{panel:bgColor=#fffae6}\n*TAM Operations Review*\n\nIf this bug had a significant effect on the UX on production then pls add it to the slides in the [TAM Operations Review doc|https://docs.google.com/presentation/d/1Zoeshwax28ebJKwzH-oPxCOj-l7dVSfjnqCXnd2thAE/edit?slide=id.g345337018af_1_9#slide=id.g345337018af_1_9]. If unsure whether it should be added or not pls ask on #[squad-pet-food-internal|https://hellofresh.slack.com/archives/G018LQBLWGZ]\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Suzanna Filipowska",
+      "created": "2026-01-16",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [
+        "KTLO"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2563",
+      "summary": "Fix upcomng deliveries for users who's subscribed SKU is not matching the upcoming/future deliveries SKU",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nFix upcomng deliveries for users who's subscribed SKU is not matching the upcoming/future deliveries SKU\n\nBackground:\nWhen user subscribes to a new SKU via \"cadence change\" flow, we patch their subscription, but not meal selection (its cadence change, so meals are the same - no need to patch it). Unfortunately in such scenario BE still holds stale SKU meal selections scheduled.The way we handle this gap in the frontend is, we re-select meals on new SKU on users behalf (regardless if its a cadence change or other reason), so that box content service always gets propagated with the new SKU selections. We patched this partially a ~week after after 10th of December (when this user has been affected). There is still one cadence touchpoint to patch in settings, we will address this asap, and going forward there should be no issue.\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design\n* Assets\n* Content, etc\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* Patch the subscriptions that are identified by the linked Jira ticket [+TPT-2562+|https://hellofresh.atlassian.net/browse/TPT-2562]\n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* Affected user example: [https://hellofresh.slack.com/archives/C04FVDBJZCK/p1767997147105369|https://hellofresh.slack.com/archives/C04FVDBJZCK/p1767997147105369|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Mateusz Borowiak",
+      "created": "2026-01-13",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "Cannot finish until linked issue is finished.",
+          "key": "TPT-2562",
+          "summary": "Identify affected users who subscribed to a new cadence SKU via cadence change flow, but their runni"
+        }
+      ],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2562",
+      "summary": "Identify affected users who subscribed to a new cadence SKU via cadence change flow, but their running delivery points to their original cadence SKU",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nIdentify affected users who subscribed to a new cadence SKU via cadence change flow, but their running delivery points to their original cadence SKU\n\nBackground:\nWhen user subscribes to a new SKU via \"cadence change\" flow, we patch their subscription, but not meal selection (its cadence change, so meals are the same - no need to patch it). Unfortunately in such scenario BE still holds stale SKU meal selections scheduled.The way we handle this gap in the frontend is, we re-select meals on new SKU on users behalf (regardless if its a cadence change or other reason), so that box content service always gets propagated with the new SKU selections. We patched this partially a ~week after after 10th of December (when this user has been affected). There is still one cadence touchpoint to patch in settings, we will address this asap, and going forward there should be no issue.\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design\n* Assets\n* Content, etc\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* Identify the subscribtions with running delivery SKU not matching their subscribed SKU\n* Create a list of affected subscriptions\n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* Affected user example: [https://hellofresh.slack.com/archives/C04FVDBJZCK/p1767997147105369|https://hellofresh.slack.com/archives/C04FVDBJZCK/p1767997147105369|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Won't Fix",
+      "priority": "Normal",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Mateusz Borowiak",
+      "created": "2026-01-13",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "Linked issue cannot finish until this issue finishes.",
+          "key": "TPT-2563",
+          "summary": "Fix upcomng deliveries for users who's subscribed SKU is not matching the upcoming/future deliveries"
+        }
+      ],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2582",
+      "summary": "Dashboard Simplification and Excitement",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe primary goal of the \"Dashboard Simplification and Excitement\" initiative is to streamline the subscription management experience for existing The Pets Table users while enhancing engagement and emotional connection.\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Resources*\n\nPRD: [https://docs.google.com/document/d/1C1YiiwpFc4bWE_dssCpA8Mi-1i_8CypmrKimqZ0h9p8/edit?tab=t.0#heading=h.qygayzlqf6db|https://docs.google.com/document/d/1C1YiiwpFc4bWE_dssCpA8Mi-1i_8CypmrKimqZ0h9p8/edit?tab=t.0#heading=h.qygayzlqf6db|smart-link] \n\nEngineering Doc - Milestone I Navigation: [https://docs.google.com/document/d/1-rxClCKL271OpjuEzu82834a3hODrpy0imxUle-epnE/edit?usp=sharing|https://docs.google.com/document/d/1-rxClCKL271OpjuEzu82834a3hODrpy0imxUle-epnE/edit?usp=sharing|smart-link] \n\nDesign - Milestone I Banner: [https://www.figma.com/design/bQvUxWk1GA5teclbTMmDJ0/-Dashboard-Simplification-and-Excitement--Hero-Image?node-id=0-1&p=f&t=71jn3jOmJpHk2hsf-0|https://www.figma.com/design/bQvUxWk1GA5teclbTMmDJ0/-Dashboard-Simplification-and-Excitement--Hero-Image?node-id=0-1&p=f&t=71jn3jOmJpHk2hsf-0|smart-link] \n{panel}",
+      "issue_type": "Epic",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Andrea Martins Costa L F Nascimento",
+      "reporter": "Andrea Martins Costa L F Nascimento",
+      "created": "2026-01-19",
+      "updated": "2026-01-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2561",
+      "summary": "In settings cadence change flow, patch the meal selections via /carts accordingly",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\n> When user subscribes to a new SKU via \"cadence change\" flow, we patch their subscription, but not meal selection (its cadence change, so meals are the same - no need to patch it). Unfortunately in such scenario BE still holds stale SKU meal selections scheduled.The way we handle this gap in the frontend is, we re-select meals on new SKU on users behalf (regardless if its a cadence change or other reason), so that box content service always gets propagated with the new SKU selections. We patched this partially a ~week after after 10th of December (when this user has been affected). There is still one cadence touchpoint to patch in settings, we will address this asap, and going forward there should be no issue.\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design\n* Assets\n* Content, etc\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* When updating cadence in settings, make additional request to patch meal selection accordingly\n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* Does it require [release log|https://docs.google.com/spreadsheets/d/1Y9ZsoBL6vLG_HwEfAKSleYNHIslCTlEeAaJpU1c0evg/edit?gid=1092559263#gid=1092559263] record? (add ticket label: release-log)\n* Do you recommend mobbing/pairing on this ticket?\n* If applicable, caveats or other known dependencies\n* Code context - examples of implementation\n* ⚠️ If possible, avoid using redux and try to refactor the files you’re touching that depend on redux to use data access hooks. E.g to get subscription data you can use [this hook|https://github.com/hellofresh/web/blob/a5dcf829594c11a7355ad1df3844ca898be17aba/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/data-access/subscription/useCurrentSubscription.ts]  ⚠️\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Mateusz Borowiak",
+      "created": "2026-01-13",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2447",
+      "summary": "Create a doc",
+      "description": "Since we have different dependencies (cadences, box model, npms rounding logic + limits) etc. we need a doc that maps out the dependencies and steps on how to add new skus.\n\nDoc: [https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5999296533/Adding+new+skus|https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5999296533/Adding+new+skus|smart-link]  ",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Suzanna Filipowska",
+      "reporter": "Suzanna Filipowska",
+      "created": "2025-12-11",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2427",
+      "parent_summary": "Sku Expansion",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2567",
+      "summary": "Users who are only able to order 100% plan, should be seeing the simple version of the page",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nWith different portion %s, we are allowing users to select a smaller portion % in the funnel. However, users with 149 or less calculated calories, they can only select 100% because this is the only plan that is available \n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design\n* expected:\n* Current \n\n{panel}\n\n{panel:bgColor=#ffebe6}\n\n\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* If a user is calculated 149 or less kcal, and declare the willingness to mix (mix other foods or I am not sure), they should see the version of the page without any communication about portion sizes \n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* Does it require [release log|https://docs.google.com/spreadsheets/d/1Y9ZsoBL6vLG_HwEfAKSleYNHIslCTlEeAaJpU1c0evg/edit?gid=1092559263#gid=1092559263] record? (add ticket label: release-log)\n* Do you recommend mobbing/pairing on this ticket?\n* If applicable, caveats or other known dependencies\n* Code context - examples of implementation\n* ⚠️ If possible, avoid using redux and try to refactor the files you’re touching that depend on redux to use data access hooks. E.g to get subscription data you can use [this hook|https://github.com/hellofresh/web/blob/a5dcf829594c11a7355ad1df3844ca898be17aba/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/data-access/subscription/useCurrentSubscription.ts]  ⚠️\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Mariia Oleksiuk",
+      "reporter": "Maria Chelminska",
+      "created": "2026-01-13",
+      "updated": "2026-01-19",
+      "resolved": "2026-01-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2175",
+      "parent_summary": "[GD] Different portions Percentages",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Mariia Oleksiuk",
+          "body": "Hi [~accountid:6303a65d4c25135b9720b173] \n\nThis is current version of the page when user has less than 149 kcal. \n\n!image-20260115-101530.png|width=935,alt=\"image-20260115-101530.png\"!\n\nWhat is the expected result here?",
+          "created": "2026-01-15"
+        },
+        {
+          "author": "Mariia Oleksiuk",
+          "body": "✅ Deployed\n\n\n!image-20260119-095521.png|width=935,alt=\"image-20260119-095521.png\"!",
+          "created": "2026-01-19"
+        }
+      ],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2581",
+      "summary": "Quarantine System: reactivation.spec.ts",
+      "description": "Quarantined System\nSpec: reactivation.spec.ts\nhttps://github.com/hellofresh/web/pull/63052\n695 test runs, 536 test failures, 46 test retries, 23.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/63052 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #squad-nv-pet-food or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Urgent",
+      "assignee": "Unassigned",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2026-01-18",
+      "updated": "2026-01-18",
+      "resolved": "",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "MIO-98",
+      "summary": "[cls-dev-tools] Enhance progress tracking with checkpoint",
+      "description": "We will want to enhance the CLI reporting with the following ;\n\nh2. Features\n\n# Automatic checkpoint creation after each customer\n# Resume from interruption (Ctrl+C or crash)\n# Real-time progress with:\n## Progress bar\n## Percentage complete\n## Success/partial/failed counts\n## Processing rate (customers/second)\n## Elapsed time\n## ETA\n# Checkpoint files stored in {{reports/checkpoints/}}\n# Checkpoints archived on successful completion\n\nh2. Benefits\n\n# Automatic recovery — no manual intervention needed after crashes\n\n# Better visibility — real-time metrics show progress and ETA\n\n# Safer resumption — file hash verification prevents errors\n\n# Performance insights — identify slow migrations\n\n# User-friendly — clear progress updates",
+      "issue_type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Liman Labaran",
+      "reporter": "Liman Labaran",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-82",
+      "parent_summary": "Implement migration CLI for active GQ customers to NL",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3224",
+      "summary": "[Preparation QA] Create new menu on staging",
+      "description": "{panel:bgColor=#deebff}\nUntil this point, for simplicity. We’ve been using the classic menu for our one-time purchase families. To prepare for our QA sessions and for the roll-out, we’d like to create a new menu for these families on staging and link them.\n{panel}\n\n{panel:bgColor=#e3fcef}\nAcceptance criteria\n\nIf the new menu doesn’t exist, create it on CCM staging for the upcoming two weeks.\n\nUpdate the OTP product families, so they start consuming the new menus.\n\nMake sure the user can select the cuts of the new menu\n{panel}\n\n{panel:bgColor=#fffae6}\nPATCH the product families using [http://products-service.staging-k8s.hellofresh.io//seeder/productFamilies/one-time-purchase-1?country=MR|http://products-service.staging-k8s.hellofresh.io//seeder/productFamilies/one-time-purchase-1?country=MR]\n\n{noformat}{\n    \"recipe_family\": \"name-of-the-family\"\n}{noformat}\n\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "[~accountid:6194ece3ef18ca0071be68b2] this is now irrelevant since Seb created OTP menus on live right?",
+          "created": "2025-12-16"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Won’t Do since menus are on live",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3440",
+      "summary": "The \"mr_charge_at_checkout\" experiment is unhealthy",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe Statsig dashboard shows the [mr_charge_at_checkout|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_charge_at_checkout/diagnostics?type=relative&offset_days=0&label=Last+14+days&window_size=14] as Unhealthy.\n\n!CleanShot 2025-12-29 at 15.37.23-20251229-143745.png|width=2502,height=934,alt=\"CleanShot 2025-12-29 at 15.37.23-20251229-143745.png\"!\n\nRelated incident: [https://docs.google.com/document/d/1_d0MdpG1YE32pYnSCHeYmQfoHJjVT3Wtz1k3IQ_M5DA/edit?tab=t.0|https://docs.google.com/document/d/1_d0MdpG1YE32pYnSCHeYmQfoHJjVT3Wtz1k3IQ_M5DA/edit?tab=t.0|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* The experiment shouldn’t be marked as Unhealthy.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2025-12-29",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3317",
+      "parent_summary": "Charge at Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "h1. Fix Statsig \"No Values Checks\" Health Issue for mr\\_charge\\_at\\_checkout\nh2. Status: IMPLEMENTED ✓\n*Solution*: Added {{loadingStatus \\!== 'Ready'}} check in {{app/libs/experimentation\\-poc\\-statsig/decide.ts}}\n\nh2. Problem Summary\nThe {{mr\\_charge\\_at\\_checkout}} experiment on Statsig shows a *\"Group Assignment Health\" WARNING*:\n\\- *23.08% of checks return \"NoValues\"* \\- The SDK was initialized but didn't successfully get values\n\\- Exposure stream shows entries with {{Rule: Uninitialized}} a",
+          "created": "2025-12-29"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "Summary from [the thread|https://hellofresh.slack.com/archives/CJ5NL6LEQ/p1768238605167189?thread_ts=1767000918.770079&cid=CJ5NL6LEQ] with the Experimentation Core team:\n\n{quote}The core problem is that the experimentation SDK fails to load its configuration file in about 2% to 4% of initializations across all brands.\n\n* *Cause:* The configuration file is too large, and certain landing pages (like the plans page) are optimized to load it asynchronously via the network, which can time out after 1",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3341",
+      "summary": "POC: Price/menu experiment",
+      "description": "{panel:bgColor=#deebff}\nInitiative doc: [https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5669912982/Initiative+Price+Menu+Experimentation|https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5669912982/Initiative+Price+Menu+Experimentation|smart-link] \n\nThis POC will help validate the complexity of launching a price & menu experiment\n{panel}\n\n{panel:bgColor=#e3fcef}\n# Create an OTP Seamless SKU\n# Add menu items to the OTP menu\n# Validate the following behaviour and recommend if further Spike is needed:\n## does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) pre-checkout?\n## does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) +post+-checkout?\n## does upgrading the OTP Plan size (eg M to L) upgrade it to the BAU SKU or OTP SKU?\n## if you cancel and reactivate, do you reactivate on the BAU SKU or the OTP SKU?\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Beatrice Dimarucut",
+      "created": "2025-11-03",
+      "updated": "2026-01-16",
+      "resolved": "2025-11-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3437",
+      "parent_summary": "Price-Menu Experiment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "# :Done: Create an OTP Seamless SKU - {{MR-OTP1-7-1-0}}\n# :Done: Add menu items to the OTP menu\n# Validate the following behaviour and recommend if further Spike is needed:\n## :Done: does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) pre-checkout?\n## :red_square: does selecting the OTP SKU in the funnel display the correct OTP menu (not classic-menu) +post+-checkout?\n### :Done: But correct OTP menu after seamless\n## :Done: does upgrading the OTP Plan size (e",
+          "created": "2025-11-05"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "!CleanShot 2025-11-06 at 11.51.55.mp4|width=2552,height=1204,alt=\"CleanShot 2025-11-06 at 11.51.55.mp4\"!",
+          "created": "2025-11-06"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3425",
+      "summary": "[Dashboard] - View order drawer and button",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIn the OTP order items list there’s a button that enables customers to see order details and pricing. The button opens a drawer that contains more information. All OTP orders have a view order button\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Designs* \nButton:\n[https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40901&m=dev|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=10968-40901&m=dev|smart-link] \nDrawer: \n[https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=11008-83450&m=dev|https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=11008-83450&m=dev|smart-link] \n\nThe basic information for the drawer should already come from the OTP orders hook.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* Drawer and button appear on OTP orders list\n* Click on the view order triggers the drawer \n* Click on close, return to orders or outside of the drawer closes it \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-12-17",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Checking changes on [https://hellofresh.atlassian.net/browse/GOC-3414|https://hellofresh.atlassian.net/browse/GOC-3414|smart-link]  there is no need for more integration, as the main component is using the same View Order button \n\nI will keep the ticket on QA, to double check when that ticket is done",
+          "created": "2026-01-14"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Staging Desktp:\n\n!image-20260116-090929.png|width=614,alt=\"image-20260116-090929.png\"!\n\n\n\nStaging Mobile:\n\n!image-20260116-090912.png|width=614,alt=\"image-20260116-090912.png\"!\n\n\n\nStating Tablet:\n\n!image-20260116-090851.png|width=629,alt=\"image-20260116-090851.png\"!",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3448",
+      "summary": "[My-Deliveries] Show OTP Banner",
+      "description": "{panel:bgColor=#deebff}\nh3. Description\n\n* Show banner only if user has an upcoming OTP order on /my-deliveries\n* Handle CTA click navigation to OTP dashboard page\n\n*Related UI Ticket:* GOC-3377 - [Funnel/Plans] Create OTP Banner/Entrypoint component\n\n{panel}\n\n{panel:bgColor=#e3fcef}\nh3. Acceptance Criteria\n\n* Banner displays only when user has confirmed upcoming OTP order (not cancelled/delivered)\n* Banner text dynamically includes relevant order information if needed\n** \"See my order\" link navigates to OTP dashboard page\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Himash Tehan",
+      "created": "2026-01-12",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Live with regular account only subscription: \n\n!image-20260116-090243.png|width=629,alt=\"image-20260116-090243.png\"!\n\n\n\nOn Staging\n\nSubscription + OTP \n\n!image-20260116-090756.png|width=614,alt=\"image-20260116-090756.png\"!",
+          "created": "2026-01-16"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3456",
+      "summary": "Create SKU and product family for Valentine's Day offer",
+      "description": "Create the SKU and product family for the new Valentine's Day offer, which includes options for a free protein: Thick-Cut Ribeye Steak (2 x 14 oz), All-Natural, 100% Grass-Fed NY Strips (2 x 12 oz), or 100% Grass-Fed Filet Mignon (2 x 5 oz). Details can be found in the spreadsheet at Row 66: https://docs.google.com/spreadsheets/d/14p5tKaGb2v-KVnnj16GhHYVhncEdBeVPOIHvDwBA5TQ/edit?pli=1&gid=0#gid=0\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C08AJFC6A56/p1768494243243979]_._",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Alexander Matlin",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3400",
+      "summary": " [Dashboard] - Fetch OTP orders in the new OTP dashboard page",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIn the OTP orders page {{app/pages/whitelabel/one-time-deliveries}} the endpoint from reactivation_bff is called on page render through the {{useOneTimeOrdersView}} hook. \n\nWe will show a Header component containing a Title and Subtitle when data is available. \n\n!Screenshot 2025-12-03 at 20.24.13.png|width=376,height=81,alt=\"Screenshot 2025-12-03 at 20.24.13.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Tech details* \n\n\nInstead of directly fetching the orders from the root component {{OneTimeDeliveriesRoot}}, let’s create a new component called {{OneTimeOrdersPage}} that will be called from the root.\n\n{noformat}/app/spaces/whitelabel/modules/whitelabel-web/packages/pages/one-time-deliveries/\n  ├── index.tsx                  # Root component with page guards\n  └── OneTimeOrdersPage.tsx      # Main component with UI logic{noformat}\n\nOn mount in {{OneTimeOrdersPage}}, the request to fetch one-time orders can be triggered\n\nPOC branch[https://github.com/hellofresh/web/tree/feature%2FGOC-3059|https://github.com/hellofresh/web/tree/feature%2FGOC-3059|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n# On page load, the OTP orders are fetched in {{OneTimeOrdersPage}} component\n## Error and empty data are gracefully handled on OTP orders page\n### On Error\n### Empty Data\n# When data is present, a Title and Subtitle is shown on OTP orders page\n## *Title* : Your One-Time Orders\n## *Subtitle :* See and track upcoming and past one-time orders\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Madeeha Hasan",
+      "reporter": "Rebecca Ferreira Albers",
+      "created": "2025-11-26",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3059",
+      "parent_summary": "[MVP] One Time Purchase - Post Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "TBD : Skeleton loading for empty or error state",
+          "created": "2025-12-04"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "Clarifying few things: \nTech details section states new page component to be created within same folder {{OneTimeOrdersPage.tsx}}\n\nI saw Max created a seperate goc otp module [here|https://github.com/hellofresh/web/blob/b2778cb19fb72770d58e8f3f80d6b0e8b37159d1/app/spaces/good-chop/modules/one-time-deliveries/OneTimeDeliveriesRoot.tsx]. Should I continue creating component from here or we stick to folder structure mentioned in the ticket? \n\ncc: [~accountid:6194ece3ef18ca0071be68b2] [~accountid:61",
+          "created": "2026-01-05"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:633d57b3f568615bdc806bb2] thanks for raising this, yes we will use the new OTP module max created. This is right now mainly for the dashboard. \n\nCould you please update the ticket description where necessary?",
+          "created": "2026-01-05"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "Checklist for Localize: \n\n□ Step 1: Create Google Sheet with translations (use \"en\")\n□ Step 2: Submit Google Form (Tool = \"Lokalize\", Priority = Normal)\n□ Step 3: Create PR adding keys to groups-kv.json\n□ Step 4: Get PR approved by your team\n□ Step 5: Merge PR\n□ Step 6: Wait ~1 day for Lokalise sync\n□ Step 7: Verify translations in app/translations/goodchop/en-US/one-time-orders.json\n□ Step 8: Ship your feature!",
+          "created": "2026-01-07"
+        },
+        {
+          "author": "Madeeha Hasan",
+          "body": "[https://hellofresh.slack.com/archives/CTFFZ9JMA/p1766508133603449?thread_ts=1761122722.574619&cid=CTFFZ9JMA|https://hellofresh.slack.com/archives/CTFFZ9JMA/p1766508133603449?thread_ts=1761122722.574619&cid=CTFFZ9JMA]",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3399",
+          "summary": "[Dashboard] - Create new OTP Dashboard page"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3401",
+          "summary": "[Dashboard] - Create a hook to provide interface information based on OTP orders endpoint"
+        },
+        {
+          "type": "is blocked by",
+          "key": "XSELL-419",
+          "summary": "[Post Checkout] [Order Summary] Modify fetch menu function in reactivations bff"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "RTEVMS-2476",
+      "summary": "[KTLO] Move the Immunity bundle up",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nThe winter time is a great time to consume Immunity bundle. As a commercial person, I want to highlight the immunity bundle to encourage users buy more of it in the winter season. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Move the Immunity bundle to be at the top of the bundles list. (Shift the top line to the right.) In other words, the order should be:\n## First row: Immunity, Starter, Greens & Gains\n## Second row: Energy, Vitality, Ultimate\n# Add a static tag (similar to best seller tag) to it which reads “Seasonal“\n## [~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] to provide an icon for it.\n\n!image-20260114-204222.png|width=591,alt=\"image-20260114-204222.png\"!\n\n\n\n*Testing Requirements:*\n\n*Affected Brands:*\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2026-01-14",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2393",
+      "summary": "[KTLO] Add 50% off voucher to all RTE subscribers",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a marketing person, I want to run a campaign to give 50% off for 1 year to all RTE active subscribers. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# All Factor active subscribers (who don’t have a Factor Form subscription) should get a 50% discount with the {{FJ-VMS-50OFF1YR-RTE-ORGANIC}} voucher and {{c0850411-0a43-47c4-88bf-3bbf97d08095}} discount comm ID.\n## All the banners (product cards, checkout page, and top banner on homepage, all products page, PDPs) should reflect the voucher and discount comm ID. \n## Product prices, order summary, and cart details should reflect the discounted prices. \n# Other users (Factor non-active customers, Factor Form subscribers, logged-out users, etc.) should NOT get this discount.\n## In these cases, the voucher should fallback on the default 40% off discount for first order. \n# Add GTM events and trace spans to monitor the activities. \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-19",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2271",
+      "summary": "[PM - Action Item] Setup Payment methods anomaly detection",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a short-term action item for the Apple Pay incident, we should use anomaly detection to identify inconsistencies in payment methods checkout submissions.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* As a stakeholder, I should be notified about anomalies in payment method attempts.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nPM: [https://docs.google.com/document/d/17MNsz8ziB-RKP-pKhRSiKRMV78hFMVavFTsPtjVFdKE/edit?usp=sharing|https://docs.google.com/document/d/17MNsz8ziB-RKP-pKhRSiKRMV78hFMVavFTsPtjVFdKE/edit?usp=sharing|smart-link]\n\n*Anomaly Detection*\n\n* Setup: [https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/custom-metrics-anomaly-detection/|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/custom-metrics-anomaly-detection/]\n* Service: [https://github.com/hellofresh/anomaly-detection-service/tree/master|https://github.com/hellofresh/anomaly-detection-service/tree/master|smart-link] \n* How it works: [https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/what-is-anomaly-detection/|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/what-is-anomaly-detection/] \n\n\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-11-06",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2283",
+      "parent_summary": "[Q4/25] - Factor Form Peak Prep",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jan Leite",
+          "body": "Support HN Dashboard: [https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6|https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6]",
+          "created": "2025-12-04"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2360",
+      "summary": "[Honeycomb] Fix excessive span generated from Place Order handler",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nThere are several trace spans triggered from checkout success and error handlers compared to the actual spans generated from the place order fetch.\n\nInstead, they should match near-same (ideally the same) amount of spans.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Ensure checkout error and success handlers are spamming the correctly trace spans.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nThe root cause might be the {{useCheckoutSuccessHandler}} and {{useCheckoutErrorHandler}}be rendered and re-creating a new span reference.\n\nAnother possibility might be the memoized callback returned from both hooks, be defined with reference types as dependences. This will result in the callback be re-created each time that the hooks above be rendered and re-create the spans again and again.\n\nBoard: [https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6|https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6]\n\nHoneycomb Queries:\n\n* Checkout Order\n** Query: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/tLDrAiePcEs|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/tLDrAiePcEs]\n** Source: [https://github.com/hellofresh/web/blob/master/app/data-access/checkout/checkout.ts|https://github.com/hellofresh/web/blob/master/app/data-access/checkout/checkout.ts] \n* VMS' checkout handlers\n** Success:\n*** Query: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/vGwstVudUA7/result/uReYkpL8cuf?cstype_0=stat|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/vGwstVudUA7/result/uReYkpL8cuf?cstype_0=stat]\n*** Source: [https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-checkout/express-checkout/hooks/useCheckoutSuccessHandler.ts|https://github.com/hell",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jan Leite",
+      "created": "2025-12-09",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2194",
+      "summary": "[StatSig Metrics] Emit add-to-cart event to statsig",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nIn order to populate the {{statsig forward events}} data source we need to emit custom events in the customer experience that match the metric source [https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/metrics/metrics_catalog/VMS%20add%20to%20cart/user_warehouse/setup?unitType=user_id|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/metrics/metrics_catalog/VMS%20add%20to%20cart/user_warehouse/setup?unitType=user_id|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nGiven that a customer adds a product to cart\n\nand an event would be emitted for tracking purposes\n\nthat event should also be emitted to statsig for experimentation purposes\n\n*Testing Requirements:*\n\n* event emit should match the events we already track to GA for add-to-cart\n* verify that the event is actually populating into statsig before marking as done\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-09-23",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] do we still need this ticket? or is it fair to mark it as won’t do?",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] we need it.",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2483",
+      "summary": "[KTLO] Add to cart doesn't work on bundles for VMS subscribers ",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nAs an active VMS subscriber, I want to be able to add bundles to my subscription.\n\n*Steps to Reproduce:*\n\n# Log in as a VMS subscriber\n# Navigate to /products page\n# Try to add any bundle to your subscription\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n# Bundle modal should be closed.\n# The selected bundle should be added to the cart.\n# Sliding cart should open to give the related feedback to the user.\n# User should checkout to update their subscription (To discuss: how does it affect the subscription patch?)\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n“Add to cart” CTA doesn’t do anything.\n\n!Screen Recording 2026-01-16 at 14.56.23.mov|width=835,alt=\"Screen Recording 2026-01-16 at 14.56.23.mov\"!\n\n\n{panel}",
+      "issue_type": "Bug",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2026-01-16",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2424",
+      "summary": "[OTP] Allow VMS subscribers to buy OTP",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a VMS subscriber, I want to be able to buy OTP items. (Currently, VMS subscribers are not allowed to buy OTP items due to checkout restrictions in place.) \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Modify checkout restrictions to allow VMS subscribers to buy OTP items.\n# Modify “View Product” CTA on product tiles on the /product page for active users to read and act like “Try Now”. i.e., active users should be able to click on “Try Now”, choose between SNS & OTP, add items to their cart, and complete the checkout. \n\n*Testing Requirements:*\n\n# VMS subscribers should not be able to create an additional VMS subscription. (They should still be able to modify their subscription.)\n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2481",
+      "summary": "Outdated banner is appearing on the /products page",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nOutdated banner is displayed on /products page reading: {{\"Factor Form is brought to you by HelloFresh - bringing our passion for great food to high-quality, delicious, and nutrient-rich supplements.\"}}. \n\nSee this slack thread for more details: [https://hellofresh.slack.com/archives/C064U9QAS6L/p1768509507963759|https://hellofresh.slack.com/archives/C064U9QAS6L/p1768509507963759|smart-link] \n\n*Steps to Reproduce:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\nBanner should not be displayed.\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\nIf either local storage value {{hf_factorform_broughtToYouByHfDrawer = false}} or {{hf_factorform_lead_capture_dismiss = true}}, the banner appears.\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2026-01-15",
+      "updated": "2026-01-16",
+      "resolved": "2026-01-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2434",
+      "summary": "[Staging] Add price information for new products in price-service",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a developer Using the SKU representation for new products\nI want to add the price information for all new SKUs generated.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* SKU spreadsheet is updated\n* Generate {{csv}} for new products with prices\n* Upload csv to [https://cui-staging.hellofresh.io/price-experimentation/price-set-management|https://cui-staging.hellofresh.io/price-experimentation/price-set-management]\n* Review and confirm values\n* Update those prices on Staging and verify the calculate prices work\n** Price Sets for VMSU Product Family  and OTP Products, adding 4 new products (creatine and meal shake)\n\n*Testing Requirements:*\n\n* Loading products on /factorform web load prices properly\n\n*Affected Brands:*\n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n\n* N/A\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Follow guide on [https://hellofresh.atlassian.net/wiki/spaces/ConsumerCore/pages/5856952466/Price+Rollouts+Self-Serve+Guide|https://hellofresh.atlassian.net/wiki/spaces/ConsumerCore/pages/5856952466/Price+Rollouts+Self-Serve+Guide]\n\n\n{panel}",
+      "issue_type": "Story",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2026-01-16",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Prepared script to generate the migration data from the {{generated.csv}} file",
+          "created": "2026-01-08"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Added documentation here\n\n\n\n[https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/5976817833/Generate+Price+Sets+from+a+Generated+SKU+csv+file|https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/5976817833/Generate+Price+Sets+from+a+Generated+SKU+csv+file]",
+          "created": "2026-01-08"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Uploaded price-sets generated to be added on the price-management platform",
+          "created": "2026-01-09"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "* Price sets for VMSU Product Family and OTP products, adding 4 new products (creatine and meal shake)\n* Price sets for VMSU Product Family and SNS products, adding 4 new products (creatine and meal shake)\n\n\n\n!image-20260109-201757.png|width=1621,height=1076,alt=\"image-20260109-201757.png\"!\n\nAdded support ticket because there is a restriction that we can add max up to {{1000 items}}\n\n\n\n[https://hellofresh.slack.com/archives/C06DQ4CL8AW/p1767990097309389|https://hellofresh.slack.com/archives/C06D",
+          "created": "2026-01-09"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "After asking the support question, Vitor shared the file to be modified.\n\n[https://github.com/hellofresh/food-pricing-service/blob/78d46843cb15692095ceccc680c00f42b0559aa7/api/price_sets_management/v1/api.proto#L177|https://github.com/hellofresh/food-pricing-service/blob/78d46843cb15692095ceccc680c00f42b0559aa7/api/price_sets_management/v1/api.proto#L177] \n\n\n\nHowever, there is a concern related to a {{timeout}} if we increase the input of data. I added context with the total of registers we have",
+          "created": "2026-01-12"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2429",
+          "summary": "Update SKU representation in spreadsheet and generate list for product-service"
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2435",
+          "summary": "Update existing and new vouchers with new product SKU"
+        }
+      ],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    }
+  ],
+  "date_range": {
+    "oldest": "2026-01-16",
+    "newest": "2026-01-19"
+  }
+}

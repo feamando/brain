@@ -1,0 +1,334 @@
+{
+  "batch_id": "jira_0006",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 17,
+    "Spike": 2,
+    "Story": 4,
+    "Bug": 1,
+    "Sub-task": 1
+  },
+  "date_range": {
+    "oldest": "2025-12-22",
+    "newest": "2025-12-23"
+  },
+  "analyzed_at": "2026-01-02T18:08:47.888964",
+  "summary": "This batch represents work across multiple product teams focusing on One-Time Purchase (OTP) implementations, subscription management improvements, and product catalog enhancements. Major efforts include building OTP checkout flows, dashboards, and order confirmation pages for HelloFresh, while parallel work addresses pet food portion filtering, add-on migration, and discount communication improvements for Factor and other brands.",
+  "decisions": [
+    {
+      "what": "Clone existing Footer component for OTP-specific behavior rather than modifying shared component",
+      "issue_key": "GOC-3363",
+      "who": [
+        "Nvard Yeritsyan"
+      ],
+      "rationale": "Maintains consistency in styling and structure while adding OTP-specific redirect logic and GTM tracking without affecting subscription flows",
+      "date": "2024"
+    },
+    {
+      "what": "Use otp_uuid presence in route for OTP detection",
+      "issue_key": "GOC-3362",
+      "who": [
+        "Nvard Yeritsyan"
+      ],
+      "rationale": "Simple, reliable method to distinguish OTP orders from subscription orders",
+      "date": "2024"
+    },
+    {
+      "what": "Filter 75% portion option for calories above 226 on pet food funnels",
+      "issue_key": "TPT-2516",
+      "who": [
+        "Vahe Manukyan"
+      ],
+      "rationale": "Per PRD requirements, only 50% and 100% options should display for higher calorie products",
+      "date": "2024"
+    },
+    {
+      "what": "Exclude specific SKUs (60, 1650, 1850) for 75% portions on dry and fresh plans",
+      "issue_key": "TPT-2507",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "SKU compatibility analysis revealed these don't have equivalent 100% variants",
+      "date": "2024"
+    },
+    {
+      "what": "Track jar vs packet popularity through sold items data rather than implementing new tracking",
+      "issue_key": "RTEVMS-1985",
+      "who": [
+        "Hamed Karimian"
+      ],
+      "rationale": "Existing sales data provides sufficient insight without additional tracking implementation",
+      "date": "2024"
+    },
+    {
+      "what": "Mark FactorForm meal selection relic ticket as Won't Do",
+      "issue_key": "RTEVMS-744",
+      "who": [
+        "Edwin Torres",
+        "Hamed Karimian"
+      ],
+      "rationale": "No longer needed based on current priorities",
+      "date": "2024"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "OTP (One-Time Purchase) in Funnel",
+      "description": "Enable customers to make one-time purchases without subscription commitment, including checkout flow, order confirmation, dashboard, and product menu creation",
+      "status": "active",
+      "key_issues": [
+        "GOC-3059",
+        "GOC-3177",
+        "GOC-3234",
+        "GOC-3399",
+        "GOC-3362",
+        "GOC-3363",
+        "GOC-3410",
+        "GOC-3428",
+        "GOC-3178"
+      ]
+    },
+    {
+      "name": "Pet Food Portion Plan Enhancements",
+      "description": "Introduce new portion percent offerings (50%, 75%, 100%) for dry and fresh pet food with proper SKU compatibility and filtering",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2175",
+        "TPT-2516",
+        "TPT-2507"
+      ]
+    },
+    {
+      "name": "Add-on Selection Migration",
+      "description": "Migrate add-on selection calls from subscribable-addons-bff to normal cart endpoint for unified handling",
+      "status": "active",
+      "key_issues": [
+        "TPT-2448"
+      ]
+    },
+    {
+      "name": "Discount Communication Enhancement",
+      "description": "Integrate voucher discount communication in VMS product cards through new PPS properties",
+      "status": "completed",
+      "key_issues": [
+        "RTEVMS-2376",
+        "RTEVMS-2378"
+      ]
+    },
+    {
+      "name": "OTP Price Migration for VMS",
+      "description": "Calculate and migrate customer pricing for VMS users transitioning to OTP model",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-1323",
+        "RTEVMS-2261",
+        "RTEVMS-2382"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "PR blocked pending approval in Slack threads for discount communication property",
+      "issue_key": "RTEVMS-2378",
+      "owner": "Jan Leite",
+      "impact": "Delays integration of voucher discounts in product cards"
+    },
+    {
+      "description": "Dependency on OTP product families creation on live environment",
+      "issue_key": "GOC-3234",
+      "owner": "Alexander Matlin",
+      "impact": "Cannot create menus for OTP customers until product families exist"
+    },
+    {
+      "description": "Issue not reproducible for reactivation-bff implementation",
+      "issue_key": "GOC-3361",
+      "owner": "Nvard Yeritsyan",
+      "impact": "Uncertainty about whether fix is needed or problem exists"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Seb",
+      "type": "person",
+      "context": "Needs to assign product for OTP menu creation and handle product family setup",
+      "issues": [
+        "GOC-3234"
+      ]
+    },
+    {
+      "name": "Beatrice Dimarucut",
+      "type": "person",
+      "context": "Product owner providing clarifications and flagging issues across multiple tickets",
+      "issues": [
+        "GOC-3234",
+        "GOC-3399",
+        "GOC-2130",
+        "GOC-3362",
+        "GOC-3361"
+      ]
+    },
+    {
+      "name": "CCM",
+      "type": "system",
+      "context": "Customer Communication Management system where OTP menus need to be created",
+      "issues": [
+        "GOC-3234"
+      ]
+    },
+    {
+      "name": "NextJS",
+      "type": "system",
+      "context": "Framework used for creating OTP dashboard page",
+      "issues": [
+        "GOC-3399"
+      ]
+    },
+    {
+      "name": "reactivation-bff",
+      "type": "system",
+      "context": "Backend service requiring new attributes for cadence_start_week and delivery_day",
+      "issues": [
+        "GOC-3361"
+      ]
+    },
+    {
+      "name": "subscribable-addons-bff",
+      "type": "system",
+      "context": "Current endpoint for add-on subscriptions being migrated to cart endpoint",
+      "issues": [
+        "TPT-2448"
+      ]
+    },
+    {
+      "name": "PPS",
+      "type": "system",
+      "context": "Product Pricing Service needing new properties for discount communication",
+      "issues": [
+        "RTEVMS-2378"
+      ]
+    },
+    {
+      "name": "Factor",
+      "type": "brand",
+      "context": "Brand with FactorForm requiring meal selection updates and post-launch support",
+      "issues": [
+        "RTEVMS-744",
+        "RTEVMS-2390"
+      ]
+    },
+    {
+      "name": "Anatta",
+      "type": "squad",
+      "context": "Team providing post-launch support fixes for Factor Form",
+      "issues": [
+        "RTEVMS-2390"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag and analytics platform for tracking checkout events and F4L feature cleanup",
+      "issues": [
+        "GOC-3428",
+        "TPT-2522"
+      ]
+    },
+    {
+      "name": "GTM",
+      "type": "system",
+      "context": "Google Tag Manager for tracking OTP-specific events",
+      "issues": [
+        "GOC-3363"
+      ]
+    },
+    {
+      "name": "Lydia",
+      "type": "person",
+      "context": "Provided tracking definitions for card selector interactions",
+      "issues": [
+        "RTEVMS-1985"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Component cloning for feature-specific variations",
+      "context": "Creating OTPFooter by cloning existing Footer maintains consistency while enabling OTP-specific behavior without affecting shared components"
+    },
+    {
+      "pattern": "Route-based feature detection using UUID parameters",
+      "context": "Using otp_uuid in route for OTP detection provides simple, reliable differentiation between order types"
+    },
+    {
+      "pattern": "Hook-based data transformation",
+      "context": "useOrderConfirmationData and useCustomerOneTimeOrder hooks transform order items for UI display, separating data fetching from presentation logic"
+    },
+    {
+      "pattern": "Conditional polling based on order type",
+      "context": "Skipping subscription polling for OTP orders optimizes performance by avoiding unnecessary API calls"
+    },
+    {
+      "pattern": "BFF consolidation",
+      "context": "Migrating from subscribable-addons-bff to cart endpoint reduces system complexity and unifies add-on handling"
+    },
+    {
+      "pattern": "Feature flag cleanup after rollout",
+      "context": "Removing F4L feature flag after stable rollout reduces technical debt and simplifies codebase"
+    },
+    {
+      "pattern": "SKU compatibility analysis for new offerings",
+      "context": "Analyzing SKU equivalents across portion percentages ensures valid product combinations in change plan flows"
+    },
+    {
+      "pattern": "Observability event parity across flows",
+      "context": "Adding missing Statsig and tracking events to OTP checkout ensures consistent monitoring across subscription and OTP flows"
+    }
+  ],
+  "work_themes": [
+    "OTP (One-Time Purchase) implementation and infrastructure",
+    "Subscription management and reactivation improvements",
+    "Product catalog filtering and SKU compatibility",
+    "Checkout flow optimization and tracking",
+    "Technical debt reduction and feature flag cleanup",
+    "Discount communication and pricing enhancements",
+    "Component architecture and code reusability",
+    "Cross-brand support and customization"
+  ],
+  "dependencies": [
+    {
+      "from": "GOC team (OTP menu creation)",
+      "to": "Product team (Seb)",
+      "context": "OTP menus cannot be created until product families are set up on live environment"
+    },
+    {
+      "from": "Frontend (OTP components)",
+      "to": "Backend (useCustomerOneTimeOrder hook)",
+      "context": "UI components depend on data transformation from backend hooks"
+    },
+    {
+      "from": "Frontend (reactivation flow)",
+      "to": "reactivation-bff API",
+      "context": "New attributes (cadence_start_week, delivery_day) must be passed to backend service"
+    },
+    {
+      "from": "Add-on selection UI",
+      "to": "Cart endpoint migration",
+      "context": "Frontend must migrate from subscribable-addons-bff to unified cart endpoint"
+    },
+    {
+      "from": "VMS product cards",
+      "to": "PPS (Product Pricing Service)",
+      "context": "Discount communication requires new properties from PPS"
+    },
+    {
+      "from": "OTP checkout tracking",
+      "to": "Statsig and GTM",
+      "context": "Analytics and feature flagging depend on proper event instrumentation"
+    },
+    {
+      "from": "Change Plan flow",
+      "to": "SKU compatibility analysis",
+      "context": "UI must respect SKU availability for different portion percentages"
+    }
+  ]
+}

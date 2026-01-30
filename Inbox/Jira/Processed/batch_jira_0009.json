@@ -1,0 +1,742 @@
+{
+  "batch_id": "jira_0009",
+  "source": "jira",
+  "issue_count": 25,
+  "issue_types": {
+    "Sub-task": 3,
+    "Bug": 1,
+    "Task": 21
+  },
+  "issues": [
+    {
+      "key": "RTEVMS-2462",
+      "summary": "[Order History] Additional translation keys",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAdditional translation keys to support and replace Contentful w/ T9n API\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n{noformat}| key                                                 | value                           |\n| --------------------------------------------------- | ------------------------------- |\n| `subBrand.settings.orderHistory.orders.orderNumber` | `Order number: __{{orderNr}}__` |\n| `subBrand.settings.orderHistory.orders.getInvoice`  | `Get Invoice`                   |{noformat}\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2312",
+      "parent_summary": "[OTP] Get and show active customer orders history with OTP",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2461",
+      "summary": "vms-cancellation e2e fix",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\n86% success rate (needs to be 90%)\n\n[https://hellofresh.slack.com/archives/C06AT2BC72R/p1768207101877399|https://hellofresh.slack.com/archives/C06AT2BC72R/p1768207101877399|smart-link] \n\n*Steps to Reproduce:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Mendelson",
+          "body": "This test was failing Jan 5 - Jan 7, but was fixed as part of this thread: [https://hellofresh.slack.com/archives/C06AT2BC72R/p1767792366954039|https://hellofresh.slack.com/archives/C06AT2BC72R/p1767792366954039|smart-link] \n\nSince the test did not fail between Jan 8 - Jan 12, we will re-enable it without any further changes.",
+          "created": "2026-01-12"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2460",
+      "summary": "Quarantine System: vms-cancellation.spec.ts",
+      "description": "Quarantined System\nSpec: vms-cancellation.spec.ts\nhttps://github.com/hellofresh/web/pull/62725\n226 test runs, 32 test failures, 94 test retries, 86.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/62725 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #squad-rte-vms-factor-form or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Urgent",
+      "assignee": "Unassigned",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "TPT-2380",
+      "summary": "Feeding guide domain models",
+      "description": "{panel:bgColor=#deebff}\nIn order to collect all necessary information to display the feeding guide, we’ll determine a model interface (following [DDD model standards|https://github.com/hellofresh/web/blob/c7a7475b516a137aa12abd9e70a648610641db0c/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/services/README.md]).\nThis interface should establish the necessary data to populate the feeding guide with the pet and feeding information. These attributes should be defined based on the info displayed in the feeding guide’s design.\n\nStore this in the services directory under {{feeding-guide}}\n\n!image-20251125-162346 (ae681c08-662f-4415-9da4-fa4325c30334).png|width=359,height=813,alt=\"image-20251125-162346.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\nThis is a recommended interface structure. It splits the necessary information in three groups: Pet info, Product and Feedings:\n\n{noformat}import { Fraction } from 'fraction.js';\n\nexport interface FeedingGuide {\n  pet: Pet;\n  product: Product;\n  feedings: Feeding[];\n  transitions: Transition[];\n}\n\nexport interface Pet {\n  name: string;\n  breed: string;\n  weight: number;\n  activityLevel: string;\n  bodyCondition: string;\n}\n\nexport interface Product {\n  sku: string;\n  family: string;\n  selectionIndex: number;\n  portionPercentage: number;\n  isTrialPlan: boolean;\n}\n\nexport interface Feeding {\n  recipeType: 'dry' | 'fresh';\n  portionShare: Fraction;\n  getUnit(): 'cup' | 'packet' | undefined;\n  // Get the portion share according to amount of times feeding happens per day\n  getMultipleFeedingPerDay: (timesPerDay: number) => Fraction;\n}\n\nexport interface Transition {\n  daysRange: number[];\n  percentagePetsTableFood: number;\n}\n{noformat}\n{panel}\n\n{panel:bgColor=#fffae6}\nDesigns: [https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/Fully-Digital-Feeding-Guides?node-id=701-16094&p=f&t=0ZYLCIu1vqJBRngc-0|https://www.figma.com/design/MmriDVUxyvQoldp2jbwMP7/Fully-Digital-Feeding-Guides?node-id=701-16094&p=f&t=0ZYLCIu1vqJBRngc-0|smart-",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Desiree Mordine de Lima",
+      "reporter": "Oliver Strobel",
+      "created": "2025-11-25",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2379",
+      "parent_summary": "Digital feeding guide",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2213",
+      "summary": "[GD] Implement Scroll to the Top button",
+      "description": "\n\n{panel:bgColor=#eae6ff}\n*Description*\n\nAdd a Scroll to the Top button that appears when the user scrolls down the PDP page.\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design: [Figma|https://www.figma.com/design/iDPrp3Y49FPRsuTPfvAmk9/-SBD-2432--Product-Detail-Page-for-TPT?node-id=26208-120742&t=8u8IJ66UWLxxzckL-0]\n* Assets\n* Content, etc\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* Clicking the button smoothly scrolls the page back to the top.\n* Scroll to the top is static: the button is hidden when the user is at the top of the page. \n* Layout and styling match the design on both desktop and mobile.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Vahe Manukyan",
+      "reporter": "Andrey Lugovtsev",
+      "created": "2025-10-14",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2174",
+      "parent_summary": "[GD] Recipe Product Pages Improvement",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "Cannot start until linked issue finishes.",
+          "key": "TPT-2205",
+          "summary": "[GD] Implement empty PDP page template that opens as a drawer"
+        }
+      ],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2545",
+      "summary": "Fix the size of the bowl asset ",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nthe asset is too big, impacting the UX \n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Current Design\n!image-20260107-110944.png|width=849,height=613,alt=\"image-20260107-110944.png\"!\n* Target design\n* !image-20260107-111110.png|width=700,height=491,alt=\"image-20260107-111110.png\"!\n\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* The full bowl is visible with the correct spacing on desktop view (refer to the designs)\n* Check in other instances of using this image (e.g. mobile view, settings, change plans) if the image is shown correctly \n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* xx\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Low",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Maria Chelminska",
+      "created": "2026-01-07",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2175",
+      "parent_summary": "[GD] Different portions Percentages",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2540",
+      "summary": "Persisting user selected portion option on funnel while navigating back and forth or refreshing the page",
+      "description": "* To persist user selected portion option, when returning back to /plans-selection screen. Currently we persist the selected plan through local storage, we may have to maintain the selected option similarly though local storage or jotaiAtomWithStorage. One thing to confirm the expected behaviour, when the user goes back to quiz and selecting a different answer, as on initial flow, the default option is preselected based on the answer to the feeding plan type. So we  may have to clear the storage in this case",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Guhan Sundararajan",
+      "created": "2026-01-06",
+      "updated": "2026-01-12",
+      "resolved": "2026-01-12",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2175",
+      "parent_summary": "[GD] Different portions Percentages",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2554",
+      "summary": "Quarantine System: allergens.spec.ts",
+      "description": "Quarantined System\nSpec: allergens.spec.ts\nhttps://github.com/hellofresh/web/pull/62743\n103 test runs, 38 test failures, 95 test retries, 63.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/62743 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #squad-nv-pet-food or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Urgent",
+      "assignee": "Unassigned",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2553",
+      "summary": "Quarantine System: plansQuiz.spec.ts",
+      "description": "Quarantined System\nSpec: plansQuiz.spec.ts\nhttps://github.com/hellofresh/web/pull/62741\n108 test runs, 38 test failures, 102 test retries, 65.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/62741 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #squad-nv-pet-food or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Urgent",
+      "assignee": "Unassigned",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2552",
+      "summary": "Quarantine System: plansQuizDifferentPercentage.spec.ts",
+      "description": "Quarantined System\nSpec: plansQuizDifferentPercentage.spec.ts\nhttps://github.com/hellofresh/web/pull/62723\n275 test runs, 46 test failures, 135 test retries, 83.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/62723 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #squad-nv-pet-food or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Urgent",
+      "assignee": "Unassigned",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2026-01-12",
+      "updated": "2026-01-12",
+      "resolved": "",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "MIO-80",
+      "summary": "[Web] [Milestone 0] Update Premium Benefits Modal to show reduced fields",
+      "description": "{panel:bgColor=#deebff}\n*User Story*\nAs a customer viewing my plan settings, I should be shown only the recipes per week count, premium meal count exclusive meals and pricing before switching.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* The modal fetches and displays correct pricing via {{GET /gw/my-deliveries/menu}}.\n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Philip Tauro",
+      "reporter": "Philip Tauro",
+      "created": "2026-01-09",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "MIO-64",
+          "summary": "[Web] [Milestone 0] Dynamic data for  Premium Upgrade Benefits Modal"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3386",
+      "summary": "[OTP Statsig Event] [QA] Checkout with new OTP Endpoint and analyze event in Statsig dashboard",
+      "description": "{panel:bgColor=#deebff}\nPlaceholder task to perform together with PA\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Beatrice Dimarucut",
+      "reporter": "Madeeha Hasan",
+      "created": "2025-11-20",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Confirmed by Alexia as working correctly",
+          "created": "2026-01-09"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3214",
+      "summary": "[Dashboard] Create graduation component",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate a component (UI only) to show the graduation component on the OTP dashboard.\n\n# The component should have two variants, \n## Re-order (default)\n## Graduate to subscription\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* Component created with UI only supporting two variants\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Marina Guthmann",
+      "reporter": "Nathaniel Deo",
+      "created": "2025-09-15",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3215",
+      "parent_summary": "[Dashboard] Graduation Component Display",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Need to rediscuss with Yury on if needed considering we have different acquisition vouchers OTP customers can now convert to",
+          "created": "2025-11-17"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Moving to Won’t Do since we no longer will need an experiment for post-checkout\n\nAll users will get same graduation voucher on My Deliveries OTP OR they can convert on any acquisition voucher",
+          "created": "2025-12-01"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3210",
+          "summary": "[Foundation post-checkout] Validate deliveries"
+        },
+        {
+          "type": "is cloned by",
+          "key": "GOC-3215",
+          "summary": "[Dashboard] Graduation Component Display"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3361",
+      "summary": "Implement new attributes in reactivation-bff call",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nClients need to pass two new attributes to the request body of the reactivation-bff call {{reactivation-subscription/reactivate}}:\n\n* {{cadence_start_week}}: should be retrieved from the {{nextModifiableDelvieryWeek}} value from the {{/customer/me/subscriptions}} response.\n* {{cadence_interval}}: should be retrieved from the {{endlessPauseInterval}} value from the {{/customer/me/subscription}} response.\n\nCustomer impact:\n\n* Cadence interval breaks on reactivation, when reactivation happens within a short period of time after cancellation - issue is reprodicible when reactivation happens on the same day, but it could be longer as well\n* Customer is reactivated with a *weekly cadence*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\nEnsure that these fields are correctly passed and handled in the reactivation process.\n{panel}\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C09MNFEH6VC/p1763020804905709?thread_ts=1761234939.380539&cid=C09MNFEH6VC]_._",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Alexander Matlin",
+      "created": "2025-11-17",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Adding thread from previous work from other teams:\n\n[https://hellofresh.slack.com/archives/CTFFZ9JMA/p1761661879992609|https://hellofresh.slack.com/archives/CTFFZ9JMA/p1761661879992609|smart-link] ",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Work already done draft PR - but issue not reproducible (worked before, still works after)\n\nQuestion to Alex Monday if still needed and if so when to merge. Is it just about consistency?\n\nTPT only added interval ",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "DPLAT-2576",
+          "summary": "Populate \"nextModifiableDeliveryWeek\" for deactivated subscriptions to enable cadence retention"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3363",
+      "summary": "[SubscriptionLoading] Create OTP Footer Component (Continue CTA)",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate {{OTPFooter}} component by cloning the existing {{Footer.tsx}} and modifying it for OTP-specific behavior. This maintains consistency in styling and structure while adding OTP-specific redirect logic and reuse the same GTM event fired in the subscription flow ([per the thread|https://hellofresh.slack.com/archives/C0A3TV1MM5Z/p1767620709913509]).\n\n*Background:*\n\n* OTP footer needs same styling/structure as subscription footer\n* Only differences: redirect destination and button state logic\n* Cloning ensures visual consistency\n* Easier to maintain common styling between both footer\n\n!image-20251202-130556.png|width=1193,height=623,alt=\"image-20251202-130556.png\"!\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n*File to Create:* {{app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/pages/loading-subscription-content/order-confirmation/OTPFooter.tsx}}\n\n*Cleanup required*\n\n# Add OTP-specific imports\n# Remove subscription-specific logic\n# Update redirectToDashboard function\n# Update button props\n\n{noformat}<Button.Primary\n  onClick={redirectToOTPDashboard}\n  disabled={false} // Changed - always enabled for OTP\n  loading={false}  // Changed - never loading for OTP\n  data-test-id=\"otp-order-confirmation-CTA\" // Changed\n>\n  {label}\n</Button.Primary>{noformat}\n{panel}\n\n\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria:*\n\n* OTPFooter.tsx created by copying Footer.tsx\n* Subscription-specific imports removed (useQueryClient, useMenuRedirection, etc.)\n* Button always enabled (disabled={false})\n* Button never in loading state (loading={false})\n* Redirects to /my-deliveries/otp\n* Clears OTP flag on redirect\n* Visual styling identical to original Footer\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2026-01-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3362",
+          "summary": "[SubscriptionLoading] Integrate OTP Detection and Components in OrderConfirmation"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3399",
+          "summary": "[Dashboard] - Create new OTP Dashboard page"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "RTEVMS-2349",
+      "summary": "[After Peak] Remove Black Friday fallback logic",
+      "description": "{panel:bgColor=#fffae6}\n*Attention*\n\nThis ticket should be done after the 2025/2026 Peak Period (targeted to be done in *2026/01/19*)\n{panel}\n\n{panel:bgColor=#deebff}\n*User Story / Description:*\n\nThis is a follow up task of [https://hellofresh.atlassian.net/browse/RTEVMS-2307|https://hellofresh.atlassian.net/browse/RTEVMS-2307|smart-link] \n\nWhich targets to remove the blackfriday fallback voucher after the 2025/2026 Peak Period\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Revert the black friday voucher fallback introduced during the 2025 Black Friday peak.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nIt might be solve by reverting the following PRs:\n\n[https://github.com/hellofresh/web/pull/60959|https://github.com/hellofresh/web/pull/60959|smart-link] \n\n[https://github.com/hellofresh/web/pull/61811|https://github.com/hellofresh/web/pull/61811|smart-link] \n\nPlease double-check and test it ❤️ \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jan Leite",
+      "created": "2025-12-04",
+      "updated": "2026-01-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2001",
+      "summary": "Multi Box Discount A/B Experiment",
+      "description": "{panel:bgColor=#deebff}\nh1. Description\n\nThis task is to establish the experiment for the *Multi Week Discount* voucher attribution variant.\n\nThe experiment should:\n\n* Allocate eligible users between the Control & Variant, defined below\n* Prevent allocation of ineligible users\n\nh2. The Experiment\n\nThe experiment will include *users with no* *_pre-existing or provided_* *attribution code*. This is described as:\n\n* *Provided*: A user that lands on Factor Form with an {{attrCode}} query parameter\n* *Pre-existing*: A user that has an existing voucher value in their browser session’s {{localStorage}} ({{hf_factorform_voucher}})\n\nh3. Allocation\n\nEligible users will be allocated between two groups:\n\n* *Control*: BAU Single Box Discount of *40% off* first order (BAU voucher: {{FJ-VMS-40OFF-ONSITE}})\n* *Variant*: New Multi Week Discount of *30% off W01, 20% off W02* (new voucher: {{TBD}})\n{panel}\n\n{panel:bgColor=#e3fcef}\nh1. Acceptance Criteria\n\nh2. Dev Setup / Prerequisites\n\n* CUI discount setting created on staging for a {{box1:30%,box2:20%}} discount, on orders above $65\n** for staging setup we will only set the discount to apply to our existing bundle SKUS (other skus won’t be discounted, just for testing purposes)\n* Sample voucher(s) created and attached to this epic for dev usage\n\nh2. Statsig Setup / Requirements\n\n* The A/B test is set up to measure the *uplift* in 5W, 10W, and 52W *retention* (AOR).\n* The A/B test is set up to measure the *reduction in monthly cancellation rates*, particularly after the first box.\n* The A/B test is set up to measure the *uplift in Customer Campaign Value* (CCV) for cohorts starting with the multi-box discount\n\nh2. Attribution Handler (Dev)\n\n* Eligible users requesting a fallback (onsite/default) voucher application are *allocated*\n* Users with a *_pre-existing or provided_* voucher are *not allocated*\n\n*Experience:*\n\n* Control: BAU discount ({{box1:40%}})\n* Variant: {{box1:30%,box2:20%}} discount\n{panel}\n\n{panel:bgColor=#eae6ff}\nh1. C",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Tamir Arnesty",
+      "reporter": "Jordon Smith",
+      "created": "2025-07-15",
+      "updated": "2026-01-09",
+      "resolved": "2025-08-05",
+      "labels": [
+        "KR:TAM-A-47",
+        "dev&implementation"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2000",
+      "parent_summary": "[TAM-A-47] Multi-Box-Discounts",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jordon Smith",
+          "body": "[~accountid:629558af563d380068b112b0] I was in CUI making a test voucher and created [https://cui-staging.hellofresh.io/vouchers/discount-settings-draft/836a7b83-177f-413e-86f2-aca24ff74063|https://cui-staging.hellofresh.io/vouchers/discount-settings-draft/836a7b83-177f-413e-86f2-aca24ff74063] to model the discount behaviour but wasn’t able to approve it yet",
+          "created": "2025-07-18"
+        },
+        {
+          "author": "Tamir Arnesty",
+          "body": "[~accountid:6085dabd5426330072a8e0a8] It seems I can’t approve… or don’t see where the option is now in the new CUI?",
+          "created": "2025-07-18"
+        },
+        {
+          "author": "Jordon Smith",
+          "body": "[~accountid:629558af563d380068b112b0] I’ll drop squad-vouchers a message to try and get approval permissions for next week 👍  ",
+          "created": "2025-07-18"
+        },
+        {
+          "author": "Jordon Smith",
+          "body": "[~accountid:629558af563d380068b112b0] confirming I was able to grant myself approval permissions and get the linked discount setting approved on staging\n\n\n\nI also granted you approvals permissions, lmk if it’s working for you",
+          "created": "2025-07-21"
+        },
+        {
+          "author": "Jordon Smith",
+          "body": "adding a campaign and test voucher for this initiative:\n\n[https://cui-staging.hellofresh.io/vouchers/campaigns/edit/9019c576-a13f-4d32-89a1-884ac651bbd7|https://cui-staging.hellofresh.io/vouchers/campaigns/edit/9019c576-a13f-4d32-89a1-884ac651bbd7]\n\n\n\ntest voucher: FJ-VMS-MWD-3020",
+          "created": "2025-07-21"
+        }
+      ],
+      "links": [
+        {
+          "type": "relates to",
+          "key": "RTEVMS-2032",
+          "summary": "Refactor HandleAttributionVoucher for Experiment Allocation"
+        },
+        {
+          "type": "causes",
+          "key": "RTEVMS-2050",
+          "summary": "Create local metrics in subpop_baseline experiment and copy over"
+        },
+        {
+          "type": "relates to",
+          "key": "RTEVMS-2050",
+          "summary": "Create local metrics in subpop_baseline experiment and copy over"
+        }
+      ],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2459",
+      "summary": "migrate legacy ValidProductType",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# migrate to libs implementation of ValidProductType ( + const, to avoid updating deprecated file) \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Stanek",
+      "created": "2026-01-09",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2431",
+      "parent_summary": "Add hardcoded product_items IDs to productNameToIdMap",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2417",
+      "summary": "[OTP][UAT] Discount comms copy update for SNS orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDiscount comms say 40% off first order, but it only applies to SNS orders. It should read “40% off first subscription order.”\n\n[~accountid:5c069c3db5881d1b2e50d167] to update the discount comms.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Discount comms read “40% off first subscription order.”\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* We need to change this specifically on [+discount comms+|https://cui-staging.hellofresh.io/discount-communications/7e6a6f43-0db8-46ae-8aa9-b4aa320ead87] (cui)\n* No code required\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Amy Cheong",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "work to be done in [https://hellofresh.atlassian.net/browse/RTEVMS-2458?atlOrigin=eyJpIjoiMzNiNzE0NDMzZjViNDU3ZDlkYTA5MDVmMmJhNzBmNjYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|https://hellofresh.atlassian.net/browse/RTEVMS-2458?atlOrigin=eyJpIjoiMzNiNzE0NDMzZjViNDU3ZDlkYTA5MDVmMmJhNzBmNjYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|smart-link] ",
+          "created": "2026-01-09"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "TPT-2548",
+      "summary": "Monitor displayed products",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nThe existing [+“product-offers” tracing+|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/mNwq21sFkVy/result/dyKYhC6oYc4] used on the legacy flow can be replicated/extended to cover the new flow as well.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* Add to the board [Portion Percentages|https://ui.honeycomb.io/hellofresh/board/yFLNFHm3Bxx]: \n*# A query to validate the products shown on select-plan and change-plan. Add a span similar to {{product-offers}} for the new portion percentage experience, include the flag {{is-started}} to differentiate the products on the quiz and change plan.\n*# Make sure we send the span only once\n*# A short description to the new query. \n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer information*\n\n{{product-offers}} was created to monitor tapper migration ([useProductOffers|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/plans-selection/data/useProductOffers.ts#L60-L70]). The hook that we use to get the offers is different in the new portion percentage experience (see [usePlansOffers|https://github.com/hellofresh/web/blob/b96722287dd2400048fefdc1b3877b6333a71917/app/spaces/whitelabel/modules/whitelabel-web/packages/components/plans-selection/utils/usePlansOffers.ts]) we would like to add a similar span to {{useStarterAllPortionedProductOffers}} and {{useSubscriptionAllPortionedProductOffers}}.\n\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Claudia Lorena Lagos Ruiz",
+      "reporter": "Claudia Lorena Lagos Ruiz",
+      "created": "2026-01-08",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2175",
+      "parent_summary": "[GD] Different portions Percentages",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2547",
+      "summary": "Monitoring for the new portion options",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nWe would like to have a HC board where we can group all the necessary queries to monitor the new experience. We can take advantage of the existing queries but we need to extend or create new spans.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* Modify the board [Portion Percentages|https://ui.honeycomb.io/hellofresh/board/yFLNFHm3Bxx], and add: \n*# A query to verify that the new question is displayed to users who are allocated to one of the experiment’s variations. Add a new span to validate this behaviour.\n*# The queries to monitor adjust daily calories: [https://ui.honeycomb.io/hellofresh/board/GPXtb9LXZji|https://ui.honeycomb.io/hellofresh/board/GPXtb9LXZji]\n*# The query to monitor change plan submission: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/7PdYBhuFC1i/result/Jav7f4mvjnx|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board-query/7PdYBhuFC1i/result/Jav7f4mvjnx]\n*# A short description to all the queries in the board. \n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer information*\n\n* (a) Consider adding the span [useQuizPagesWithFeedingPlanType|https://github.com/hellofresh/web/blob/72333d7a1e17e046c3c2d81be637d5b224fa2b6d/app/spaces/whitelabel/modules/whitelabel-web/packages/components/plans-quiz/plans-quiz-steps/useQuizPagesWithFeedingPlanType.ts]. Add it for users allocated to control and variation with a flag to differentiate them.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Claudia Lorena Lagos Ruiz",
+      "reporter": "Guhan Sundararajan",
+      "created": "2026-01-07",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "TPT-2175",
+      "parent_summary": "[GD] Different portions Percentages",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2549",
+      "summary": "Trigger meal selection - W02",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Desiree Mordine de Lima",
+      "reporter": "Desiree Mordine de Lima",
+      "created": "2026-01-08",
+      "updated": "2026-01-09",
+      "resolved": "2026-01-09",
+      "labels": [
+        "KTLO"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "MIO-62",
+      "summary": "[Web] [Milestone 0] Add dynamic pricing to plan switch dropdown",
+      "description": "{panel:bgColor=#deebff}\n*User Story*\n\nAs a HelloFresh or migrated Green Chef customer, when I am switching between “Classic” and “Premium”, I want to see the correct prices reflected for either plan type.\n\n\n!Screenshot 2025-12-16 at 2.48.05 PM.png|width=406,height=996,alt=\"Screenshot 2025-12-16 at 2.48.05 PM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n* A dropdown menu is added to the \"Plan Settings\" / \"Manage Subscription\" page.\n* The dropdown displays two options: \"Classic Plan\" and \"Premium Plan.\"\n* Selecting \"Premium Plan\" shows the pricing for the premium plan\n** Selecting “Classic Plan” shows pricing for the classic plan\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev Notes:*\n\n# *Context:* This component is shared across Web and Native Apps (via Webview). Testing must include changing the browser user agent to iOS/Android to verify the view within the app container\n*Reference:* See specific PR linked in PRD for similar logic: [https://github.com/hellofresh/web/pull/58257|https://github.com/hellofresh/web/pull/58257|smart-link]  \n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Ameek Singh",
+      "created": "2025-12-16",
+      "updated": "2026-01-08",
+      "resolved": "2026-01-08",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "MIO-54",
+          "summary": "[Web][Milestone 0] UI for Dropdown to switch plan type"
+        },
+        {
+          "type": "blocks",
+          "key": "MIO-63",
+          "summary": "[Web][Milestone 0] Persist plan type switch to the backend"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-25",
+      "summary": "Add Shopify DNS records to factorform.com",
+      "description": "Add DNS records:\n\n*  {{A @ -> 23.227.38.65}} \n* {{CNAME www -> shops.myshopify.com.}}\n\nAC:\n\n* {{dig +short CNAME factorform.com}} should return {{shops.myshopify.com.}}\n* {{dig +short A factorform.com}} should return {{23.227.38.65}} ",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Elena Pavlova",
+      "reporter": "Elena Pavlova",
+      "created": "2025-12-01",
+      "updated": "2026-01-08",
+      "resolved": "2026-01-08",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-79",
+      "summary": "[Android][Milestone 0]: Add Analytics",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Sneha Gupta",
+      "created": "2026-01-08",
+      "updated": "2026-01-08",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    }
+  ],
+  "date_range": {
+    "oldest": "2026-01-08",
+    "newest": "2026-01-12"
+  }
+}

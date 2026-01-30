@@ -1,0 +1,104 @@
+{
+  "description": "A typed relationship between two entities.\n\nRelationships are stored on entities and support temporal tracking\nto know when relationships started/ended.",
+  "examples": [
+    {
+      "since": "2024-06-01",
+      "target": "entity/person/holger-hammel",
+      "type": "reports_to"
+    },
+    {
+      "role": "product_lead",
+      "since": "2024-01-01",
+      "target": "entity/project/good-chop",
+      "type": "owns"
+    }
+  ],
+  "properties": {
+    "type": {
+      "description": "Relationship type (can be RelationshipType enum or freeform string)",
+      "examples": [
+        "reports_to",
+        "owns",
+        "member_of",
+        "custom_relationship"
+      ],
+      "title": "Type",
+      "type": "string"
+    },
+    "target": {
+      "description": "Target entity $id (e.g., 'entity/person/john-doe')",
+      "examples": [
+        "entity/person/holger-hammel",
+        "entity/team/new-ventures"
+      ],
+      "title": "Target",
+      "type": "string"
+    },
+    "since": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When this relationship started",
+      "title": "Since"
+    },
+    "until": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When this relationship ended (null = current)",
+      "title": "Until"
+    },
+    "role": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional role context (e.g., 'product_lead', 'tech_lead')",
+      "examples": [
+        "product_lead",
+        "contributor",
+        "stakeholder"
+      ],
+      "title": "Role"
+    },
+    "metadata": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Additional relationship metadata",
+      "title": "Metadata"
+    }
+  },
+  "required": [
+    "type",
+    "target"
+  ],
+  "title": "Relationship",
+  "type": "object"
+}

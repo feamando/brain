@@ -1,0 +1,1364 @@
+{
+  "batch_id": "one_on_one_004",
+  "doc_type": "one_on_one",
+  "doc_count": 8,
+  "results": [
+    {
+      "doc_title": "Notes: Hamed <> Nikita 1:1",
+      "doc_id": "1HWhfmd_VP-8REbk3u9nEybAJ4-sfeoXegVHuQcc0INM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Hamed Karimian"
+      ],
+      "action_items": [
+        {
+          "task": "Work on Q1 roadmap details once Pants is back",
+          "owner": "Nikita Gorshkov, Hamed Karimian",
+          "due": "After Pants returns from sick leave"
+        },
+        {
+          "task": "Break down roadmap items into deliverables",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Provide distribution data of Mobile web vs. Desktop",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Update product tiles for Creatine/Meal shake to go to Amazon with CTA 'Buy on Amazon'",
+          "owner": "Laura (designs to be confirmed)",
+          "due": "Not specified"
+        },
+        {
+          "task": "Update Weekly Notes on Fridays for the same week",
+          "owner": "Team",
+          "due": "Every Friday"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "OTP Launch to have FF turn on in W02, everything ready by EOY",
+          "context": "Evaluated multiple launch options (W50, W51 at 90%, W51 at 10%, W02). Chose W02 launch to 90% of users as less risky with devs available for support, still before peak, won't break Factor/FF. Rejected earlier launches due to developer availability during holidays and risk factors."
+        },
+        {
+          "what": "Go with separate OTP/SNS checkout flows",
+          "context": "Decision made for OTP project with analysis provided"
+        },
+        {
+          "what": "Went live with multicadence project",
+          "context": "Update provided on Dec 2, 2025"
+        }
+      ],
+      "feedback": [
+        "Discussion about life with a newborn",
+        "Discussion about Jordon's transition",
+        "Positive feedback on AHM structure: 'Nice and structured AHM, the new org makes a ton of sense to me'"
+      ],
+      "blockers": [
+        {
+          "issue": "Pants is out sick this week - blocking Q1 roadmap details work",
+          "owner": "Pants",
+          "status": "active"
+        },
+        {
+          "issue": "Most devs out during W51/52 (Jordon, Jan, Edwin, Emily, Daniel, Travis) - risk for launch",
+          "owner": "Development team",
+          "status": "resolved (decision to launch W02 instead)"
+        }
+      ],
+      "key_topics": [
+        "OTP Launch timing and strategy",
+        "Shopify experiment impact on VMS dev team",
+        "Q1 roadmap planning",
+        "Mobile app prototype development",
+        "Multicadence project launch",
+        "Factor App ownership",
+        "Shopify redirects strategy",
+        "Product development (PDP design, Meal shake, Creatine)",
+        "PA data backlog",
+        "Penetration dashboard",
+        "Ecommerce website improvements"
+      ],
+      "entities": [
+        {
+          "name": "Pants",
+          "type": "person",
+          "context": "Out sick, blocking Q1 roadmap work"
+        },
+        {
+          "name": "Jordon",
+          "type": "person",
+          "context": "Going through transition, unavailable during W51/52"
+        },
+        {
+          "name": "Emily Stanek",
+          "type": "person",
+          "context": "On-call W50"
+        },
+        {
+          "name": "Paul Andrews",
+          "type": "person",
+          "context": "On-call W51/52"
+        },
+        {
+          "name": "Elisa Marku",
+          "type": "person",
+          "context": "Merchandizing owner for Factor App"
+        },
+        {
+          "name": "Laura Mneimneh",
+          "type": "person",
+          "context": "Shopping experience owner for Factor App, needs to confirm designs for Creatine/Meal shake"
+        },
+        {
+          "name": "Jan",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Edwin",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Emily",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Daniel",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Travis",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "OTP Launch",
+          "type": "project",
+          "context": "Major launch decision for W02, involves FF turn on, checkout flows, estimated $15k revenue impact"
+        },
+        {
+          "name": "Shopify experiment",
+          "type": "project",
+          "context": "Will evolve VMS dev team, involves redirects for net new and RTE users"
+        },
+        {
+          "name": "Mobile app prototype",
+          "type": "project",
+          "context": "In progress with Figma designs and prototype"
+        },
+        {
+          "name": "Multicadence project",
+          "type": "project",
+          "context": "Went live on Dec 2, 2025"
+        },
+        {
+          "name": "Factor App",
+          "type": "system",
+          "context": "Owned by Shopping experience and Merchandizing teams"
+        },
+        {
+          "name": "Factor",
+          "type": "system",
+          "context": "Main system that could be impacted by OTP launch"
+        },
+        {
+          "name": "VMS dev team",
+          "type": "system",
+          "context": "Team that will be impacted by Shopify experiment"
+        },
+        {
+          "name": "Q1 roadmap",
+          "type": "project",
+          "context": "Planning blocked until Pants returns"
+        },
+        {
+          "name": "Penetration dashboard",
+          "type": "project",
+          "context": "Work in progress"
+        }
+      ]
+    },
+    {
+      "doc_title": "Prateek:Nikita 1:1 - 2025/12/11 10:44 CET - Notes by Gemini",
+      "doc_id": "12hRORVFqPqJIUwenam_kj2xGYzhOIBG6ZOuVK2IWXtI",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Prateek Jajoo"
+      ],
+      "action_items": [
+        {
+          "task": "Send draft markdown document for TPT app to Prateek, Maria, Ahmed, and DA for estimation of V0 and V1 features",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Onboard on app initiative and learn domains alongside Maria without worrying about project division",
+          "owner": "Prateek Jajoo",
+          "due": "December 2025"
+        },
+        {
+          "task": "Get back to Nikita with recommendations on project focus after onboarding",
+          "owner": "Prateek Jajoo and Maria",
+          "due": "January 2026"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Active participation meetings should occur in private spaces (phone booths/meeting rooms), while passive listening is acceptable at desk",
+          "context": "Discussion of in-office meeting etiquette and shift from pre-remote work practices"
+        },
+        {
+          "what": "App initiative is a broad onboarding opportunity for Prateek to understand multiple domains before narrowing focus",
+          "context": "Prateek asked about focus area (growth vs retention); Nikita clarified the intent is cross-domain knowledge to avoid siloing"
+        },
+        {
+          "what": "Both Prateek and Maria need to know each other's domains to provide backup support",
+          "context": "Avoiding situation where someone is too focused on their domain to help if something happens on the other side"
+        }
+      ],
+      "feedback": [
+        "Nikita explained product management hierarchy: Principal is director-level IC, working on HelloFresh group-wide initiatives (example: Leo working on cross-selling)",
+        "Prateek assigned to app initiative due to extra capacity and as good opportunity to get into multiple topics"
+      ],
+      "blockers": [
+        {
+          "issue": "Short experimentation windows impractical due to customer volume concerns",
+          "owner": "Product/Engineering teams",
+          "status": "active"
+        },
+        {
+          "issue": "Difficulty accelerating experimentation without synthetic traffic; experimentation teams resistant to synthetic traffic idea",
+          "owner": "Experimentation teams",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "In-office meeting etiquette",
+        "Context-driven product management document and transition strategy",
+        "AI in product development workflows",
+        "Shortening discovery and scoping work using AI",
+        "TPT app initiative and team onboarding",
+        "Product management hierarchy and career levels",
+        "Cross-domain knowledge and team flexibility"
+      ],
+      "entities": [
+        {
+          "name": "Tabby",
+          "type": "person",
+          "context": "Working with Nikita to plan transition to context-driven product management vision"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Working alongside Prateek on app initiative; both need to onboard and learn each other's domains"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Will receive draft markdown document for TPT app estimation"
+        },
+        {
+          "name": "DA",
+          "type": "person",
+          "context": "Will receive draft markdown document for TPT app estimation"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Posting cloud code skills in active clan genen AI channel"
+        },
+        {
+          "name": "Beatatric and Dio",
+          "type": "person",
+          "context": "Previously given similar onboarding approach by Nikita"
+        },
+        {
+          "name": "Reena",
+          "type": "person",
+          "context": "Focusing on retention; asked Prateek about his focus area in one-on-one"
+        },
+        {
+          "name": "Leo",
+          "type": "person",
+          "context": "Example of Principal PM working on HelloFresh group-wide initiatives like cross-selling"
+        },
+        {
+          "name": "PMO (PM automation system)",
+          "type": "system",
+          "context": "CLI-managed system posted by Nikita that generated pre-read and recaps for the meeting"
+        },
+        {
+          "name": "TPT app",
+          "type": "project",
+          "context": "App initiative for which Nikita will send draft markdown for V0 and V1 feature estimation"
+        },
+        {
+          "name": "Context-driven product management document",
+          "type": "project",
+          "context": "Represents ideal state requiring 'quantum like jump' transition across product, engineering, and design teams"
+        },
+        {
+          "name": "CPT",
+          "type": "system",
+          "context": "Area where AI will be leveraged for guidance in building roadmaps and investigations"
+        },
+        {
+          "name": "Registration page",
+          "type": "project",
+          "context": "Example provided by Prateek of engineering contribution on page usage providing pre-insights for AI guidance"
+        }
+      ]
+    },
+    {
+      "doc_title": "Jenna:Nikita 1:1 - 2025/12/15 17:00 CET - Notes by Gemini",
+      "doc_id": "17Mjwki8h_lnrawneCZnVpmsX7DtYHNp8ONlYcZQnpk4",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Jenna O'Shea",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Open mid-level designer position for Good Chop replacement",
+          "owner": "Jenna O'Shea",
+          "due": "January 2026"
+        },
+        {
+          "task": "Coach Mega on stakeholder management",
+          "owner": "Jenna O'Shea",
+          "due": "August (when Mega returns)"
+        },
+        {
+          "task": "Bundle design critiques for New Ventures and Shopping together",
+          "owner": "Jenna O'Shea",
+          "due": "Not specified"
+        },
+        {
+          "task": "Involve Nikita Gorshkov or Daniel in hiring interviews for mid-level role",
+          "owner": "Jenna O'Shea",
+          "due": "During hiring process"
+        },
+        {
+          "task": "Ping Shay to demo and address Factor Form UX issues",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Complete UX audit for Factor Form",
+          "owner": "Michael",
+          "due": "Not specified"
+        },
+        {
+          "task": "Connect Yumi and Michael in conversation about Factor Form UX",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Hire mid-level designer instead of senior for Good Chop position",
+          "context": "Allows for long-term growth and avoids cycle of quickly hiring and losing momentum with senior roles; team already has strong seniority"
+        },
+        {
+          "what": "Bundle design critiques for New Ventures and Shopping",
+          "context": "To promote knowledge transfer between system-focused HelloFresh side and explorative New Ventures side, creating healthy friction"
+        },
+        {
+          "what": "Factor Form strategy: integrate into Factor if Shopify store fails",
+          "context": "Concerns over VMS Shopify store's templated design and lack of ownership"
+        },
+        {
+          "what": "Leverage Michael's experience for Factor Form UX strategy",
+          "context": "Michael has appetite to be key voice in experience strategy and has prior UX audit experience"
+        }
+      ],
+      "feedback": [
+        {
+          "recipient": "Design team (general)",
+          "feedback": "Team is really solid and demonstrated strong community; example of Marina onboarding Shay shows good collaboration"
+        },
+        {
+          "recipient": "Katrina",
+          "feedback": "Nikita is very happy with Katrina's work on TPT so far"
+        },
+        {
+          "recipient": "Mega",
+          "feedback": "Needs coaching on stakeholder management"
+        }
+      ],
+      "blockers": [
+        {
+          "issue": "VMS Shopify store has templated design and lack of ownership",
+          "owner": "Nikita Gorshkov",
+          "status": "active"
+        },
+        {
+          "issue": "Factor Form has UX issues that need to be fixed",
+          "owner": "Michael/Yumi",
+          "status": "active"
+        },
+        {
+          "issue": "Previous designer constantly designed new components instead of reusing existing ones",
+          "owner": "Hiring team",
+          "status": "resolved - addressed in hiring criteria"
+        },
+        {
+          "issue": "Yuri level frustrations with team management",
+          "owner": "Jenna O'Shea",
+          "status": "active - being addressed with more hands-on approach"
+        }
+      ],
+      "key_topics": [
+        "Hiring strategy for Good Chop designer replacement",
+        "Team management and leadership approach",
+        "Design system consistency and systematic work approach",
+        "Factor Form UX issues and strategy",
+        "VMS Shopify store concerns",
+        "Design collaboration and knowledge transfer",
+        "Personal update on work-life balance (baby sleep)"
+      ],
+      "entities": [
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Previous designer being replaced for Good Chop position"
+        },
+        {
+          "name": "Marina",
+          "type": "person",
+          "context": "Designer who demonstrated leadership by onboarding Shay"
+        },
+        {
+          "name": "Shay",
+          "type": "person",
+          "context": "Designer being onboarded by Marina; will demo Factor Form issues"
+        },
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Working on TPT; Nikita is very happy with her work"
+        },
+        {
+          "name": "Pedro",
+          "type": "person",
+          "context": "Designer who was out during Marina's onboarding of Shay"
+        },
+        {
+          "name": "Mega",
+          "type": "person",
+          "context": "Team member needing coaching on stakeholder management; returning in August"
+        },
+        {
+          "name": "Daniel",
+          "type": "person",
+          "context": "Potential participant in hiring interviews"
+        },
+        {
+          "name": "Michael",
+          "type": "person",
+          "context": "Point of contact on Factor Form; conducting UX audit; experienced in experience strategy"
+        },
+        {
+          "name": "Yumi",
+          "type": "person",
+          "context": "To be connected with Michael regarding Factor Form UX"
+        },
+        {
+          "name": "Hamemed",
+          "type": "person",
+          "context": "Agrees with Nikita about Factor Form UX issues"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Referenced in context of team frustrations that need addressing"
+        },
+        {
+          "name": "Good Chop",
+          "type": "project",
+          "context": "Team/project needing mid-level designer replacement"
+        },
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Has UX issues; strategy to integrate into Factor if Shopify store fails"
+        },
+        {
+          "name": "VMS Shopify store",
+          "type": "system",
+          "context": "Has templated design and lack of ownership concerns"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "More explorative design approach; to have bundled design critiques with Shopping"
+        },
+        {
+          "name": "Shopping",
+          "type": "project",
+          "context": "To have bundled design critiques with New Ventures"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "System-focused side of design work"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Project Katrina is working on successfully"
+        }
+      ]
+    },
+    {
+      "doc_title": "Jenna:Nikita 1:1 - 2025/12/15 17:00 CET - Notes by Gemini",
+      "doc_id": "17Mjwki8h_lnrawneCZnVpmsX7DtYHNp8ONlYcZQnpk4",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Jenna O'Shea",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Open mid-level designer position for Good Chop replacement",
+          "owner": "Jenna O'Shea",
+          "due": "January 2026"
+        },
+        {
+          "task": "Coach Mega on stakeholder management",
+          "owner": "Jenna O'Shea",
+          "due": "August (when Mega returns)"
+        },
+        {
+          "task": "Bundle design critiques for New Ventures and Shopping together",
+          "owner": "Jenna O'Shea",
+          "due": "Not specified"
+        },
+        {
+          "task": "Involve Nikita Gorshkov or Daniel in hiring interviews for mid-level role",
+          "owner": "Jenna O'Shea",
+          "due": "During hiring process"
+        },
+        {
+          "task": "Ping Shay to demo and address Factor Form UX issues",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Complete UX audit for Factor Form",
+          "owner": "Michael",
+          "due": "Not specified"
+        },
+        {
+          "task": "Connect Yumi and Michael in conversation about Factor Form UX",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Hire mid-level designer instead of senior for Good Chop position",
+          "context": "Allows for long-term growth and avoids cycle of quickly hiring and losing momentum with senior roles; team already has strong seniority"
+        },
+        {
+          "what": "Bundle design critiques for New Ventures and Shopping",
+          "context": "To promote knowledge transfer between system-focused HelloFresh side and explorative New Ventures side, creating healthy friction"
+        },
+        {
+          "what": "Factor Form strategy: integrate into Factor if Shopify store fails",
+          "context": "Concerns over VMS Shopify store's templated design and lack of ownership"
+        },
+        {
+          "what": "Leverage Michael's experience for Factor Form UX strategy",
+          "context": "Michael has appetite to be key voice in experience strategy and has prior UX audit experience"
+        }
+      ],
+      "feedback": [
+        {
+          "recipient": "Design team (general)",
+          "feedback": "Team is really solid and demonstrated strong community; example of Marina onboarding Shay shows good collaboration"
+        },
+        {
+          "recipient": "Katrina",
+          "feedback": "Nikita is very happy with Katrina's work on TPT so far"
+        },
+        {
+          "recipient": "Mega",
+          "feedback": "Needs coaching on stakeholder management"
+        }
+      ],
+      "blockers": [
+        {
+          "issue": "VMS Shopify store has templated design and lack of ownership",
+          "owner": "Nikita Gorshkov",
+          "status": "active"
+        },
+        {
+          "issue": "Factor Form has UX issues that need to be fixed",
+          "owner": "Michael/Yumi",
+          "status": "active"
+        },
+        {
+          "issue": "Previous designer constantly designed new components instead of reusing existing ones",
+          "owner": "Hiring team",
+          "status": "resolved - addressed in hiring criteria"
+        },
+        {
+          "issue": "Yuri level frustrations with team management",
+          "owner": "Jenna O'Shea",
+          "status": "active - being addressed with more hands-on approach"
+        }
+      ],
+      "key_topics": [
+        "Hiring strategy for Good Chop designer replacement",
+        "Team management and leadership approach",
+        "Design system consistency and systematic work approach",
+        "Factor Form UX issues and strategy",
+        "VMS Shopify store concerns",
+        "Design collaboration and knowledge transfer",
+        "Personal update on baby sleep schedule"
+      ],
+      "entities": [
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Previous designer being replaced for Good Chop position"
+        },
+        {
+          "name": "Good Chop",
+          "type": "project",
+          "context": "Team/project needing mid-level designer replacement"
+        },
+        {
+          "name": "Marina",
+          "type": "person",
+          "context": "Designer who onboarded Shay, demonstrating team leadership"
+        },
+        {
+          "name": "Shay",
+          "type": "person",
+          "context": "Designer being onboarded by Marina; will demo Factor Form issues"
+        },
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Working on TPT; Nikita is very happy with her work"
+        },
+        {
+          "name": "Pedro",
+          "type": "person",
+          "context": "Designer who was out during Marina's onboarding of Shay"
+        },
+        {
+          "name": "Mega",
+          "type": "person",
+          "context": "Team member needing coaching on stakeholder management; returning in August"
+        },
+        {
+          "name": "Daniel",
+          "type": "person",
+          "context": "Potential participant in hiring interviews for mid-level role"
+        },
+        {
+          "name": "Michael",
+          "type": "person",
+          "context": "Point of contact on Factor Form; conducting UX audit; experienced in experience strategy"
+        },
+        {
+          "name": "Yumi",
+          "type": "person",
+          "context": "To be connected with Michael regarding Factor Form UX"
+        },
+        {
+          "name": "Hamemed",
+          "type": "person",
+          "context": "Agrees with Nikita about Factor Form UX issues"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Referenced in context of team frustrations that need addressing"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "More explorative design team to be bundled with Shopping for design critiques"
+        },
+        {
+          "name": "Shopping",
+          "type": "project",
+          "context": "Team to be bundled with New Ventures for design critiques"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "System-focused side of design work"
+        },
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Product with UX issues needing fixes; strategy to integrate into Factor if Shopify store fails"
+        },
+        {
+          "name": "VMS Shopify store",
+          "type": "system",
+          "context": "Has templated design and lack of ownership concerns"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Project Katrina is working on successfully"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes: Hamed <> Nikita 1:1",
+      "doc_id": "1HWhfmd_VP-8REbk3u9nEybAJ4-sfeoXegVHuQcc0INM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Hamed Karimian"
+      ],
+      "action_items": [
+        {
+          "task": "Send update email about OTP status to stakeholders",
+          "owner": "Nikita Gorshkov",
+          "due": "Dec 19, 2025"
+        },
+        {
+          "task": "Update FAQ documentation",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Work on Q1 roadmap details once Pants returns",
+          "owner": "Nikita Gorshkov",
+          "due": "After Dec 10, 2025"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "OTP Launch delayed to W02 with feature flag turn on, but everything ready by EOY",
+          "context": "Risk mitigation due to most devs being out during W51/52, close to EOY, and potential to break Factor. Launch W02 to 90% of users chosen over earlier launch options despite opportunity cost."
+        },
+        {
+          "what": "Go with separate OTP/SNS checkout flows",
+          "context": "Decision made after analysis for OTP implementation approach"
+        },
+        {
+          "what": "Multicadence project went live",
+          "context": "Update provided on Dec 2, 2025"
+        }
+      ],
+      "feedback": [
+        {
+          "topic": "End of year feedback discussion",
+          "areas": [
+            "Vision of the roadmap",
+            "Product strategy",
+            "Take on VMS development"
+          ],
+          "date": "Dec 23, 2025"
+        },
+        {
+          "topic": "Career development discussion",
+          "timeframes": [
+            "6 months outlook",
+            "One year outlook"
+          ],
+          "date": "Dec 23, 2025"
+        }
+      ],
+      "blockers": [
+        {
+          "issue": "Pants out sick - Q1 roadmap details on hold",
+          "owner": "Pants",
+          "status": "resolved"
+        },
+        {
+          "issue": "Most devs unavailable during W51/52 (Jordon, Jan, Edwin, Emily, Daniel, Travis) - risk for OTP launch",
+          "owner": "Development team",
+          "status": "resolved"
+        }
+      ],
+      "key_topics": [
+        "OTP (One-Time Purchase) Launch",
+        "Q1 OKR planning",
+        "Mobile app development",
+        "New Product Development",
+        "Shopify website experiment",
+        "VMS development",
+        "Career development",
+        "End of year feedback"
+      ],
+      "entities": [
+        {
+          "name": "OTP",
+          "type": "project",
+          "context": "One-Time Purchase feature being tested and launched, ready for production testing, UAT completed, launch delayed to W02"
+        },
+        {
+          "name": "VMS",
+          "type": "system",
+          "context": "Development team and system discussed in context of Shopify experiment impact and general feedback"
+        },
+        {
+          "name": "Factor",
+          "type": "system",
+          "context": "Main platform that could be affected by OTP launch, risk of breaking mentioned"
+        },
+        {
+          "name": "Factor App",
+          "type": "system",
+          "context": "Mobile app owned by Shopping experience and Merchandizing teams"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Website experiment with redirects for net new users and RTE users"
+        },
+        {
+          "name": "Laura Mneimneh",
+          "type": "person",
+          "context": "Stakeholder for OTP updates, owner of Merchandizing for Factor App"
+        },
+        {
+          "name": "Jama",
+          "type": "person",
+          "context": "Stakeholder for OTP updates"
+        },
+        {
+          "name": "Daniel",
+          "type": "person",
+          "context": "Stakeholder for OTP updates, unavailable during W51/52"
+        },
+        {
+          "name": "Pants",
+          "type": "person",
+          "context": "Out sick week of Dec 10, needed for Q1 roadmap planning"
+        },
+        {
+          "name": "Allysa",
+          "type": "person",
+          "context": "Met regarding mobile app, aligned with prototype"
+        },
+        {
+          "name": "Deo",
+          "type": "person",
+          "context": "Met regarding mobile app, aligned with prototype"
+        },
+        {
+          "name": "Mert Bozdag",
+          "type": "person",
+          "context": "Directed to discuss mobile app prototype"
+        },
+        {
+          "name": "Elisa Marku",
+          "type": "person",
+          "context": "Owner of Merchandizing for Factor App, directed to discuss mobile app prototype"
+        },
+        {
+          "name": "Emily Stanek",
+          "type": "person",
+          "context": "On-call W50, unavailable during W51/52"
+        },
+        {
+          "name": "Paul Andrews",
+          "type": "person",
+          "context": "On-call W51/52"
+        },
+        {
+          "name": "Jordon",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Jan",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Edwin",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "Travis",
+          "type": "person",
+          "context": "Developer unavailable during W51/52"
+        },
+        {
+          "name": "New Product Development",
+          "type": "project",
+          "context": "Exploring interactive photos/experience, new product page, SKU adjustments with examples from Nothing and Google Pixel"
+        },
+        {
+          "name": "Q1 OKR",
+          "type": "project",
+          "context": "Planning topic for Q1 objectives and key results"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes: Hamed <> Nikita 1:1",
+      "doc_id": "1HWhfmd_VP-8REbk3u9nEybAJ4-sfeoXegVHuQcc0INM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Hamed Karimian"
+      ],
+      "action_items": [
+        {
+          "task": "Work on Q1 roadmap details once Pants returns",
+          "owner": "Nikita Gorshkov, Hamed Karimian",
+          "due": "After Pants returns from sick leave"
+        },
+        {
+          "task": "Break down roadmap items into deliverables",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Provide distribution data of Mobile web vs. Desktop",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Update product tiles for Creatine/Meal shake to redirect to Amazon with CTA 'Buy on Amazon'",
+          "owner": "Not specified",
+          "due": "Pending design confirmation by Laura"
+        },
+        {
+          "task": "Update Weekly Notes on Fridays for the same week",
+          "owner": "Nikita Gorshkov",
+          "due": "Every Friday"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "OTP Launch to be feature-flagged and turned on in W02 (Week 2), with everything ready by end of year",
+          "context": "Evaluated multiple launch options (W50, W51 at 90%, W51 at 10%, W02). Chose W02 launch to 90% of users as less risky with dev support available, still before peak season, and won't break Factor/FF. Rejected earlier launches due to lack of dev support during holidays and risk to Factor."
+        },
+        {
+          "what": "Go with separate OTP/SNS checkout flows",
+          "context": "Decision made for OTP project with supporting analysis provided"
+        },
+        {
+          "what": "Multicadence project went live",
+          "context": "Update provided on Dec 2, 2025"
+        }
+      ],
+      "feedback": [
+        "Discussion about life with a newborn (Nov 14, 2025)",
+        "Positive feedback on AHM structure and new org making sense (Oct 31, 2025)"
+      ],
+      "blockers": [
+        {
+          "issue": "Pants is out sick this week, delaying Q1 roadmap work",
+          "owner": "Pants",
+          "status": "active"
+        },
+        {
+          "issue": "Most devs unavailable during W50-W52 (Jordon, Jan, Edwin, Emily, Daniel, Travis) creating risk for earlier OTP launch",
+          "owner": "Development team",
+          "status": "resolved"
+        }
+      ],
+      "key_topics": [
+        "OTP Launch timing and strategy",
+        "Q1 roadmap planning",
+        "Mobile app prototype development",
+        "Shopify redirects and user flows",
+        "Multicadence project launch",
+        "Product design updates (PDP)",
+        "Meal shake and Creatine products",
+        "Factor app ownership",
+        "Ecommerce website improvements",
+        "Penetration dashboard"
+      ],
+      "entities": [
+        {
+          "name": "Pants",
+          "type": "person",
+          "context": "Out sick, blocking Q1 roadmap work"
+        },
+        {
+          "name": "OTP Launch",
+          "type": "project",
+          "context": "Major launch decision for W02 with feature flag, expected $15k revenue impact"
+        },
+        {
+          "name": "Factor",
+          "type": "system",
+          "context": "System that could be impacted by OTP launch, concern about breaking it"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Redirect strategy being evaluated, potential future changes based on redirect volume"
+        },
+        {
+          "name": "Emily Stanek",
+          "type": "person",
+          "context": "On-call W50"
+        },
+        {
+          "name": "Paul Andrews",
+          "type": "person",
+          "context": "On-call W51/52"
+        },
+        {
+          "name": "Elisa Marku",
+          "type": "person",
+          "context": "Merchandizing owner for Factor App"
+        },
+        {
+          "name": "Laura Mneimneh",
+          "type": "person",
+          "context": "Merchandizing owner for Factor App, needs to confirm designs"
+        },
+        {
+          "name": "Jordon",
+          "type": "person",
+          "context": "In transition, unavailable during holiday weeks"
+        },
+        {
+          "name": "Multicadence project",
+          "type": "project",
+          "context": "Went live as of Dec 2, 2025"
+        },
+        {
+          "name": "Mobile app",
+          "type": "project",
+          "context": "Prototype in development with Figma designs"
+        },
+        {
+          "name": "Early & Often",
+          "type": "project",
+          "context": "Slides being worked on"
+        },
+        {
+          "name": "Penetration dashboard",
+          "type": "project",
+          "context": "Being worked on"
+        }
+      ]
+    },
+    {
+      "doc_title": "Ali:Nikita 1:1 - 2025/12/16 17:45 CET - Notes by Gemini",
+      "doc_id": "1CWyej803hYHQDtwmENDgGbs87Ga3NHFSc7UxNw2IXB4",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Alison Ryan"
+      ],
+      "action_items": [
+        {
+          "task": "Align on documents with Samir and refine them",
+          "owner": "Alison Ryan",
+          "due": "this week and next week"
+        },
+        {
+          "task": "Share branding guidelines with Anetta for good shop proposal",
+          "owner": "Alison Ryan",
+          "due": "this week (before Anetta's two-week absence)"
+        },
+        {
+          "task": "Follow up with Yuri on Shopify contract status for Goodchop",
+          "owner": "Nikita Gorshkov",
+          "due": "not specified"
+        },
+        {
+          "task": "Complete work on redirections for site launch",
+          "owner": "Alison Ryan",
+          "due": "December 18th"
+        },
+        {
+          "task": "Collaborate with Anetta and Marina on unique Goodchop design",
+          "owner": "Alison Ryan",
+          "due": "January (after vacation)"
+        },
+        {
+          "task": "Work with Maria for template recommendations and approvals",
+          "owner": "Alison Ryan",
+          "due": "not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "December 24th granted as extra day off",
+          "context": "Christmas holiday schedule - in addition to standard December 25th and 26th days off in Canada"
+        },
+        {
+          "what": "Proceed to site launch for Shopify factor form project",
+          "context": "Project received approval, pending redirection work scheduled for December 18th"
+        },
+        {
+          "what": "Build development storefront under factor domain, migrate later to Goodchop domain",
+          "context": "Shopify representative unresponsive; Goodchop contract negotiations differ from Factor's 2024 contract"
+        },
+        {
+          "what": "Goodchop design must be unique and not mirror VMS templates",
+          "context": "Need to avoid simply replacing colors from existing brands like Butcher Box; requires heavy collaboration with design team"
+        }
+      ],
+      "feedback": [
+        "Nikita Gorshkov gave huge praise to Alison Ryan and team (including Samir) for quick turnaround on VMS Shopify work after loss of Yara, completing with one day to spare - described as 'very untamike'"
+      ],
+      "blockers": [
+        {
+          "issue": "Shopify representative unresponsive regarding Goodchop storefront contract",
+          "owner": "Yuri (following up)",
+          "status": "active"
+        },
+        {
+          "issue": "Anetta offline for two weeks, delaying Goodchop design work",
+          "owner": "Anetta",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Holiday schedule",
+        "Shopify factor form project success",
+        "Goodchop project planning and timeline",
+        "Design strategy and branding for Goodchop",
+        "Shopify contract negotiations"
+      ],
+      "entities": [
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Meeting participant, manager providing feedback and follow-up on contracts"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Meeting participant, project lead for Shopify implementations"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Team member who worked on VMS Shopify project, will align on Goodchop documents"
+        },
+        {
+          "name": "Yara",
+          "type": "person",
+          "context": "Former team member whose loss created challenges for VMS project"
+        },
+        {
+          "name": "Anetta",
+          "type": "person",
+          "context": "Design team member going offline for two weeks, will work on Goodchop design proposal"
+        },
+        {
+          "name": "Marina",
+          "type": "person",
+          "context": "Design team member to collaborate on Goodchop design in January"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Team member to provide template recommendations and approvals"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Following up with Shopify representative on contract negotiations"
+        },
+        {
+          "name": "Shopify factor form",
+          "type": "project",
+          "context": "Successfully completed project approved for site launch, pending redirections"
+        },
+        {
+          "name": "VMS Shopify",
+          "type": "project",
+          "context": "Recently completed project with quick turnaround, praised for completion despite challenges"
+        },
+        {
+          "name": "Goodchop",
+          "type": "project",
+          "context": "Upcoming project with strategy, design, and contract considerations; target launch early March"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Existing brand/domain with current Shopify contract from 2024"
+        },
+        {
+          "name": "VMS",
+          "type": "system",
+          "context": "Existing templates that Goodchop design should not mirror"
+        },
+        {
+          "name": "Butcher Box",
+          "type": "system",
+          "context": "Example of existing brand that Goodchop should differentiate from"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform for storefront development and contracts"
+        }
+      ]
+    },
+    {
+      "doc_title": "Sameer:Nikita 1:1 - 2025/12/16 17:32 CET - Notes by Gemini",
+      "doc_id": "1C8NOeGbSPpzPY0WErttclhyXrdQN3OyXl8-l94cp33g",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Sameer Doda",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Document every conversation with Lineia to prevent future misrepresentation",
+          "owner": "Sameer Doda",
+          "due": "ongoing"
+        },
+        {
+          "task": "Review unit economics breakdown for minimum box size",
+          "owner": "Nikita Gorshkov",
+          "due": "not specified"
+        },
+        {
+          "task": "Working session to review all content on the Shopify store and update required pieces",
+          "owner": "Sameer Doda, Laura, Allison",
+          "due": "Dec 16, 2025"
+        },
+        {
+          "task": "Call with Elvar",
+          "owner": "Sameer Doda",
+          "due": "Dec 16, 2025 afternoon"
+        },
+        {
+          "task": "Complete strategy document for Good Chop Shopify store",
+          "owner": "Sameer Doda",
+          "due": "not specified"
+        },
+        {
+          "task": "Share VMS Shopify store with Yuri",
+          "owner": "Sameer Doda",
+          "due": "not specified"
+        },
+        {
+          "task": "Work with Allison to create and send launch announcement for Factor Form Shopify launch",
+          "owner": "Sameer Doda, Allison",
+          "due": "after Dec 18, 2025"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Delay Creator Facing Portal development until closer to end of January",
+          "context": "Strategic decision to move faster to market, not due to resource constraints"
+        },
+        {
+          "what": "Do not prioritize allowing customers to switch between influencers",
+          "context": "Based on customer research signals, broad assortment is not an explicit customer request at this time"
+        },
+        {
+          "what": "Prioritize making customer journey as quick and close to one-click process as possible",
+          "context": "Optimize conversion by removing operational friction like email/address input through express checkout and autofill"
+        },
+        {
+          "what": "Factor Form Shopify launch scheduled for Dec 18th",
+          "context": "All development complete, content review in progress, one day buffer for testing"
+        }
+      ],
+      "feedback": [
+        {
+          "recipient": "Allison",
+          "feedback": "Successfully completed VMS Shopify development independently, handling multiple complex items. Sameer plans to have her send the launch announcement to recognize her effort",
+          "sentiment": "positive"
+        }
+      ],
+      "blockers": [
+        {
+          "issue": "Cannot provide access to Good Chop team because SOW is not signed",
+          "owner": "Not specified (legal/contracts)",
+          "status": "active"
+        },
+        {
+          "issue": "Limited influencer assortment could prevent customers from meeting minimum box size requirements",
+          "owner": "Nikita Gorshkov",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Creator Facing Portal resource allocation disagreement",
+        "Customer journey optimization",
+        "Influencer assortment strategy",
+        "Minimum box size and unit economics",
+        "Factor Form Shopify launch progress",
+        "Good Chop Shopify store strategy",
+        "Green Chef migration"
+      ],
+      "entities": [
+        {
+          "name": "Lineia",
+          "type": "person",
+          "context": "Had disagreement with Sameer about Creator Portal resource allocation and allegedly misrepresented the situation"
+        },
+        {
+          "name": "Allison",
+          "type": "person",
+          "context": "Successfully developed VMS Shopify store independently, will be recognized with launch announcement responsibility"
+        },
+        {
+          "name": "Laura",
+          "type": "person",
+          "context": "Participating in content review working session for Factor Form Shopify store"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Expecting more details and inputs for Good Chop project, team awaiting signed SOW for access"
+        },
+        {
+          "name": "Creator Facing Portal",
+          "type": "project",
+          "context": "Development delayed until end of January as strategic decision for faster market entry"
+        },
+        {
+          "name": "Factor Form Shopify",
+          "type": "project",
+          "context": "Launch scheduled for Dec 18th, content review in progress, on track"
+        },
+        {
+          "name": "Good Chop Shopify store",
+          "type": "project",
+          "context": "Strategy document in progress, kickoff call completed, awaiting signed SOW for team access"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Shopify store developed by Allison, to be shared with Yuri as reference"
+        },
+        {
+          "name": "Green Chef",
+          "type": "project",
+          "context": "Migration in progress, reported as making progress"
+        },
+        {
+          "name": "Elvar",
+          "type": "system",
+          "context": "Call scheduled for afternoon of Dec 16th"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Platform being used for multiple store launches including Factor Form, VMS, and Good Chop"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:24:12.774736"
+}

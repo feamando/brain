@@ -1,0 +1,337 @@
+{
+  "batch_id": "jira_0007",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 19,
+    "Spike": 1,
+    "Bug": 1,
+    "Story": 1,
+    "Sub-task": 3
+  },
+  "date_range": {
+    "oldest": "2025-12-19",
+    "newest": "2025-12-22"
+  },
+  "analyzed_at": "2026-01-02T18:09:26.698028",
+  "summary": "This batch represents work across multiple product teams focusing on OTP (One-Time Purchase) checkout implementation, test infrastructure improvements, and pet food funnel enhancements. Major efforts include GTM event tracking standardization, localStorage cleanup, quarantine system for flaky tests, and portion percentage customization features for pet food plans.",
+  "decisions": [
+    {
+      "what": "Remove cadence value from One-time purchase option",
+      "issue_key": "GOC-3379",
+      "who": [
+        "Rebecca Ferreira Albers",
+        "Beatrice Dimarucut"
+      ],
+      "rationale": "Change in requirements - one-time purchases should not have cadence set in localStorage",
+      "date": "2025"
+    },
+    {
+      "what": "Display portion % options based on FeedingPlanType answer rather than statsig allocation",
+      "issue_key": "TPT-2517",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "Checking statsig variation triggers unwanted allocation events; checking answer existence is more appropriate",
+      "date": "2025"
+    },
+    {
+      "what": "Cart drawer should display subTotal (without tax) instead of grandTotal",
+      "issue_key": "RTEVMS-2394",
+      "who": [
+        "Emily Mendelson"
+      ],
+      "rationale": "Pre-checkout does not have post-code to determine tax amount",
+      "date": "2025"
+    },
+    {
+      "what": "Won't complete PCSv1 cleanup task",
+      "issue_key": "RTEVMS-2070",
+      "who": [
+        "Pantelis Chatzinikolis"
+      ],
+      "rationale": "This was already completed in previous work",
+      "date": "2025"
+    },
+    {
+      "what": "Won't add tracing to useCreateOTPOrderForCheckout hook separately",
+      "issue_key": "GOC-3359",
+      "who": [
+        "Romina Nicastro",
+        "Himash Tehan"
+      ],
+      "rationale": "Traces were already added as part of GOC-3360",
+      "date": "2025"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "OTP (One-Time Purchase) Checkout Implementation",
+      "description": "Complete implementation of one-time purchase flow including checkout, payment, tracking, analytics, and cleanup logic to enable non-subscription purchases",
+      "status": "active",
+      "key_issues": [
+        "GOC-3426",
+        "GOC-3201",
+        "GOC-3397",
+        "GOC-3359",
+        "GOC-3379"
+      ]
+    },
+    {
+      "name": "Pet Food Portion Percentage Customization",
+      "description": "Enable users to select custom portion percentages (75% Fresh, 50% Dry, 75% Dry) for pet food plans with proper defaults and calorie adjustments",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2344",
+        "TPT-2517",
+        "TPT-2518"
+      ]
+    },
+    {
+      "name": "Test Infrastructure - Quarantine System",
+      "description": "Implement quarantine system to prevent flaky tests from blocking CI/CD pipeline",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2521",
+        "TPT-2520"
+      ]
+    },
+    {
+      "name": "VMS OTP GTM Event Tracking",
+      "description": "Add comprehensive GTM event tracking for VMS OTP flow to enable product metrics and analytics",
+      "status": "completed",
+      "key_issues": [
+        "RTEVMS-2386",
+        "RTEVMS-2391",
+        "RTEVMS-2392"
+      ]
+    },
+    {
+      "name": "Multi-Cadence Flow GTM Updates",
+      "description": "Update and enhance GTM events for multi-cadence subscription flow with proper event labels",
+      "status": "completed",
+      "key_issues": [
+        "RTEVMS-2364"
+      ]
+    },
+    {
+      "name": "RTE Active Voucher Management for Peak",
+      "description": "Create voucher filtering and management for RTE active customers during peak season to prevent leakage to new customers",
+      "status": "completed",
+      "key_issues": [
+        "RTEVMS-2379",
+        "RTEVMS-2366"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Bug blocking QA validation of portion % default selection",
+      "issue_key": "TPT-2344",
+      "owner": "Mariia Oleksiuk",
+      "impact": "Ticket remains in QA column until bug is resolved"
+    },
+    {
+      "description": "iAdvize chatbot causing infinite loop and website freeze",
+      "issue_key": "TPT-2510",
+      "owner": "Claudia Lorena Lagos Ruiz",
+      "impact": "Users cannot interact with chatbot; requires coordination with digital-tracking team"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Developer working on OTP checkout, localStorage cleanup, and tracking implementation",
+      "issues": [
+        "GOC-3426",
+        "GOC-3397",
+        "GOC-3359"
+      ]
+    },
+    {
+      "name": "Emily Stanek",
+      "type": "person",
+      "context": "Developer implementing GTM events for VMS OTP flow",
+      "issues": [
+        "RTEVMS-2392",
+        "RTEVMS-2386",
+        "RTEVMS-2391"
+      ]
+    },
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Developer working on OTP cart drawer pricing and multi-cadence GTM events",
+      "issues": [
+        "RTEVMS-2394",
+        "RTEVMS-2364"
+      ]
+    },
+    {
+      "name": "Guhan Sundararajan",
+      "type": "person",
+      "context": "Developer implementing portion % features for pet food funnel",
+      "issues": [
+        "TPT-2517",
+        "TPT-2518"
+      ]
+    },
+    {
+      "name": "Andrea Martins Costa L F Nascimento",
+      "type": "person",
+      "context": "Developer working on quarantine system for flaky tests",
+      "issues": [
+        "TPT-2521",
+        "TPT-2520"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Brand receiving RTE active customer vouchers and OTP functionality",
+      "issues": [
+        "RTEVMS-2379",
+        "RTEVMS-2393",
+        "MIO-68"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Experimentation platform used for feature flags and event tracking",
+      "issues": [
+        "TPT-2517",
+        "GOC-3397"
+      ]
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "type": "system",
+      "context": "Analytics platform for tracking user events across checkout and funnel flows",
+      "issues": [
+        "GOC-3201",
+        "RTEVMS-2386",
+        "RTEVMS-2364"
+      ]
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "CMS system with display issue for Payment Fraud entry",
+      "issues": [
+        "GOC-3430"
+      ]
+    },
+    {
+      "name": "iAdvize",
+      "type": "system",
+      "context": "Chatbot system causing infinite loop issues",
+      "issues": [
+        "TPT-2510"
+      ]
+    },
+    {
+      "name": "digital-tracking team",
+      "type": "squad",
+      "context": "Team being consulted for iAdvize chatbot issue resolution",
+      "issues": [
+        "TPT-2510"
+      ]
+    },
+    {
+      "name": "PA team",
+      "type": "squad",
+      "context": "Product Analytics team consulted for OTP tracking events",
+      "issues": [
+        "GOC-3397"
+      ]
+    },
+    {
+      "name": "Quarantine System",
+      "type": "system",
+      "context": "System to prevent flaky tests from blocking CI/CD pipeline",
+      "issues": [
+        "TPT-2521",
+        "TPT-2520"
+      ]
+    },
+    {
+      "name": "PCSv2",
+      "type": "system",
+      "context": "Pre-checkout system version 2, migration completed from v1",
+      "issues": [
+        "RTEVMS-2070"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "localStorage cleanup after successful operations",
+      "context": "Prevents stale values from affecting subsequent user sessions; implemented for shipping/billing address IDs after OTP order creation"
+    },
+    {
+      "pattern": "Feature flag-based conditional rendering",
+      "context": "Used to control display of new portion % options and adjust calories feature based on experiment allocation"
+    },
+    {
+      "pattern": "Separation of concerns in GTM events using box_type parameter",
+      "context": "Enables differentiation between OTP funnel and regular subscription box funnel in analytics"
+    },
+    {
+      "pattern": "Quarantine system for flaky tests",
+      "context": "Prevents unreliable tests from blocking CI/CD while maintaining test coverage visibility"
+    },
+    {
+      "pattern": "Avoiding statsig allocation checks for display logic",
+      "context": "Checking variation allocation triggers unwanted events; better to check for answer existence"
+    },
+    {
+      "pattern": "Tracing and observability for checkout flows",
+      "context": "Comprehensive monitoring of OTP order creation for debugging and performance tracking"
+    },
+    {
+      "pattern": "Dead code elimination",
+      "context": "Removing unused Shopify redirection logic and PCSv1 dependencies to maintain clean codebase"
+    },
+    {
+      "pattern": "Pre-checkout pricing without tax calculation",
+      "context": "Display subTotal instead of grandTotal when postal code is not available for tax determination"
+    }
+  ],
+  "work_themes": [
+    "OTP checkout implementation and refinement",
+    "Analytics and tracking standardization",
+    "Test infrastructure and reliability",
+    "Pet food funnel customization features",
+    "Technical debt cleanup",
+    "Peak season voucher management",
+    "Bug fixes and performance optimization"
+  ],
+  "dependencies": [
+    {
+      "from": "Claudia Lorena Lagos Ruiz",
+      "to": "digital-tracking team",
+      "context": "Coordination needed to resolve iAdvize infinite loop issue"
+    },
+    {
+      "from": "OTP checkout team",
+      "to": "PA team",
+      "context": "Consultation on tracking events specification and implementation"
+    },
+    {
+      "from": "TPT-2344 (QA)",
+      "to": "Bug fix team",
+      "context": "QA validation blocked by bug that needs resolution"
+    },
+    {
+      "from": "Portion % feature",
+      "to": "Statsig experiment platform",
+      "context": "Feature display logic depends on experiment configuration and answer data"
+    },
+    {
+      "from": "Multi-cadence GTM events",
+      "to": "Simon (stakeholder)",
+      "context": "Awaiting specification clarification for event_label and new event requirements"
+    }
+  ]
+}

@@ -1,0 +1,1376 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W36",
+  "extracted_at": "2026-01-02T10:44:57.001753Z",
+  "message_count": 6,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1757074851.969559",
+      "client_msg_id": "95693ce3-8caf-494f-ab8f-e3a54853efd0",
+      "text": "Let add all of the documents relevant for 2026 here: <https://notebooklm.google.com/notebook/28391408-40b4-4cca-b0c4-91fd85b83402>",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "A44LL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Let add all of the documents relevant for 2026 here: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://notebooklm.google.com/notebook/28391408-40b4-4cca-b0c4-91fd85b83402"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1757074221.627099",
+      "client_msg_id": "ec852939-6b00-4100-aec1-9f968829d55c",
+      "text": ":alert2: IMPORTANT: Big Rocks for TAM confirmed: Good Chop, The Pets Table, Factor Form, Cross-Selling, Programs :alert2:\n\nBudgeting for Big Rocks: Assumed ~70% of FTE allocation\nBudgeting for KTLO (including Special Projects) ~30% (assume Marketplace experimentation/launch)",
+      "team": "T02AGMUUR",
+      "thread_ts": "1757074221.627099",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1757075515.920619",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U07VDFEFBQU",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AlSyb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " IMPORTANT: Big Rocks for TAM confirmed: Good Chop, The Pets Table, Factor Form, Cross-Selling, Programs "
+                },
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nBudgeting for Big Rocks: Assumed ~70% of FTE allocation\nBudgeting for KTLO (including Special Projects) ~30% (assume Marketplace experimentation/launch)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01AKGWGLC8",
+            "U07VDFEFBQU"
+          ],
+          "count": 2
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757075355.450999",
+          "client_msg_id": "622fac7e-c645-400a-bd59-180d30423d80",
+          "text": "is this not just the whole TAM team :smile:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qr/9w",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "is this not just the whole TAM team "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smile",
+                      "unicode": "1f604"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "woo",
+              "users": [
+                "U07VDFEFBQU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1757075447.853739",
+          "client_msg_id": "88a30c3f-9efe-465c-867a-5532ca0c40bd",
+          "text": "Does OTP includes in one of the special projects? I'll need that priority to push other teams next year",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GPGRK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Does OTP includes in one of the special projects? I'll need that priority to push other teams next year"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757075450.920229",
+          "client_msg_id": "138ed5b2-5fb1-4bbe-8383-70f9c0b630c3",
+          "text": "It's to confirm funding for the stuff we had outside of the brands, and provide a view on the allocation",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oj0oz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It's to confirm funding for the stuff we had outside of the brands, and provide a view on the allocation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757075477.430339",
+          "client_msg_id": "ec43fcd6-99ef-4ef6-a1ae-743a35946639",
+          "text": "OTP and other special projects go into the newly redefined \"KTLO\" bucket",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K8pkN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OTP and other special projects go into the newly redefined \"KTLO\" bucket"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U07VDFEFBQU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1757075492.478659",
+          "client_msg_id": "667b1f38-f638-4548-8149-4dd0bc56847c",
+          "text": "OK lets talk more next week",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PhZ71",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK lets talk more next week"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757075515.920619",
+          "client_msg_id": "847e49a3-e967-4558-9d8d-dd4863f4a7e0",
+          "text": "we will have some thing like a SpecOps team or something",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757074221.627099",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "J0wkg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "we will have some thing like a SpecOps team or something"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1757070982.476459",
+      "client_msg_id": "8e2d7586-a76c-486d-a70f-acf0b95b96c0",
+      "text": "<@U03UMPD2NNS> <@U01AKGWGLC8> - do you folks ha e a link to the venmo experiement overview?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1757070982.476459",
+      "reply_count": 13,
+      "reply_users_count": 2,
+      "latest_reply": "1757073246.990859",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1JHUz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " - do you folks ha e a link to the venmo experiement overview?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757071479.292109",
+          "client_msg_id": "224559d3-f6a2-4927-9f22-27d49d9eae0b",
+          "text": "<https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results|Statsig link>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "from_url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results",
+              "image_url": "https://console.statsig.com/img/console_og_image.png",
+              "image_width": 1200,
+              "image_height": 630,
+              "image_bytes": 267121,
+              "service_icon": "https://console.statsig.com/favicons/Statsig_Favicon_Light.png",
+              "id": 1,
+              "original_url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results",
+              "fallback": "pcon_3625_enable_venmo_for_upm_us_brands | Statsig",
+              "text": "Create an Account or Sign In | Statsig Product Experimentation Console",
+              "title": "pcon_3625_enable_venmo_for_upm_us_brands | Statsig",
+              "title_link": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results",
+              "service_name": "console.statsig.com"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6EHyu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results",
+                      "text": "Statsig link"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757071501.450309",
+          "client_msg_id": "9daccec2-1247-48ce-b8f9-c8cab60b660e",
+          "text": "<https://docs.google.com/document/d/1qick2Xk2Ur6ahKxV2B4VBWF1s0pbjpuSy9hCmCFNbA0/edit?tab=t.0#heading=h.mryunuq1uk7y|Previous experiment results> the very first time they tested it (HF &amp; ER only)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TnA1H",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1qick2Xk2Ur6ahKxV2B4VBWF1s0pbjpuSy9hCmCFNbA0/edit?tab=t.0#heading=h.mryunuq1uk7y",
+                      "text": "Previous experiment results"
+                    },
+                    {
+                      "type": "text",
+                      "text": " the very first time they tested it (HF & ER only)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757071539.374199",
+          "client_msg_id": "605222b8-36a9-4288-bc54-0b73d39965f1",
+          "text": "and then <https://hellofresh.slack.com/archives/C066YCULXE0/p1757002034689139?thread_ts=1755526055.963189&amp;cid=C066YCULXE0|here> is where they said we had 107 people trying to checkout with venmo, none of which were successful",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C066YCULXE0/p1757002034689139?thread_ts=1755526055.963189&amp;cid=C066YCULXE0",
+              "ts": "1757002034.689139",
+              "author_id": "UDH40QWLU",
+              "channel_id": "C066YCULXE0",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "is_reply_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C066YCULXE0",
+                  "ts": "1757002034.689139",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "ZWby1",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "we did a quick check on honeycomb and it shows 107 unique customers tried venmo without any success"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "files": [
+                {
+                  "id": "F09ECNJND4Y",
+                  "created": 1757002003,
+                  "timestamp": 1757002003,
+                  "name": "image (13).png",
+                  "title": "image (13).png",
+                  "mimetype": "image/png",
+                  "filetype": "png",
+                  "pretty_type": "PNG",
+                  "user": "UDH40QWLU",
+                  "user_team": "T02AGMUUR",
+                  "editable": false,
+                  "size": 182710,
+                  "mode": "hosted",
+                  "is_external": false,
+                  "external_type": "",
+                  "is_public": true,
+                  "public_url_shared": false,
+                  "display_as_bot": false,
+                  "username": "",
+                  "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09ECNJND4Y/image__13_.png",
+                  "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09ECNJND4Y/download/image__13_.png",
+                  "media_display_type": "unknown",
+                  "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__64.png",
+                  "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__80.png",
+                  "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__360.png",
+                  "thumb_360_w": 360,
+                  "thumb_360_h": 172,
+                  "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__480.png",
+                  "thumb_480_w": 480,
+                  "thumb_480_h": 230,
+                  "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__160.png",
+                  "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__720.png",
+                  "thumb_720_w": 720,
+                  "thumb_720_h": 345,
+                  "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__800.png",
+                  "thumb_800_w": 800,
+                  "thumb_800_h": 383,
+                  "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__960.png",
+                  "thumb_960_w": 960,
+                  "thumb_960_h": 459,
+                  "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09ECNJND4Y-37bbe8760c/image__13__1024.png",
+                  "thumb_1024_w": 1024,
+                  "thumb_1024_h": 490,
+                  "original_w": 1914,
+                  "original_h": 916,
+                  "thumb_tiny": "AwAXADDSIPPzEflQOM5bOfXtSmmNvDAjJHdeKAH5ozUeXJ5Vh27fnSEybwwDbe4OM/5/xp2AlzSDr1pm5852Nj04/wA//roVnLfdbBPfHFFgJM9eKKKKQBRRRQAgzgZxnvQM45wT7UtFAH//2Q==",
+                  "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09ECNJND4Y/image__13_.png",
+                  "permalink_public": "https://slack-files.com/T02AGMUUR-F09ECNJND4Y-92ed6b00db",
+                  "comments_count": 0,
+                  "is_starred": false,
+                  "skipped_shares": true,
+                  "has_rich_preview": false,
+                  "file_access": "visible"
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C066YCULXE0/p1757002034689139?thread_ts=1755526055.963189&amp;cid=C066YCULXE0",
+              "fallback": "[September 4th, 2025 9:07 AM] rachael.vuong: we did a quick check on honeycomb and it shows 107 unique customers tried venmo without any success",
+              "text": "we did a quick check on honeycomb and it shows 107 unique customers tried venmo without any success",
+              "author_name": "Rachael Vuong",
+              "author_link": "https://hellofresh.slack.com/team/UDH40QWLU",
+              "author_icon": "https://avatars.slack-edge.com/2018-10-20/459828712400_54c57f87f1ebfe3ca9c7_48.png",
+              "author_subname": "Rachael Vuong",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Thread in Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aRnPf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and then "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C066YCULXE0/p1757002034689139?thread_ts=1755526055.963189&cid=C066YCULXE0",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is where they said we had 107 people trying to checkout with venmo, none of which were successful"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757071814.575709",
+          "client_msg_id": "51dc5830-ae2f-4fb2-9ddd-35d9793a96f8",
+          "text": "ah",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "y3ebB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ah"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757071823.865689",
+          "client_msg_id": "2e09e373-29d9-4ec8-af57-ed734db9ea89",
+          "text": "thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OJlya",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757072371.736509",
+          "client_msg_id": "41622a6f-f1e6-478c-b262-02d9daf346f9",
+          "text": "<@U03TY4YJU4X> when is the MAR meeting and with which group?\n\ncc'ing you <@U07VDFEFBQU> potentially we could include it as a hotly debated topic depending when it is and if further escalation is required beyond Daniel about 0weekly for OTP MVP",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wD3Xv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " when is the MAR meeting and with which group?\n\ncc'ing you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " potentially we could include it as a hotly debated topic depending when it is and if further escalation is required beyond Daniel about 0weekly for OTP MVP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U07VDFEFBQU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757072629.137939",
+          "client_msg_id": "487100f5-4782-40ce-8e99-d73c5d0f0c17",
+          "text": "the meeting is on the15th",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jpmbU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the meeting is on the15th"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757072638.924929",
+          "client_msg_id": "fa208ad8-0c3f-465b-9227-e59500f3b625",
+          "text": "what do you mean with the 0 weekly?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Gbsfs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "what do you mean with the 0 weekly?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757072644.306379",
+          "client_msg_id": "d580fe77-d96e-4a34-b663-4f35cf49e362",
+          "text": "ah, endloess pause?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rczpa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ah, endloess pause?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757072649.422349",
+          "client_msg_id": "b7e78759-128d-49de-975f-03cd79d58f8b",
+          "text": "I'll add it together with Leo",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0m2HH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'll add it together with Leo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757073171.759849",
+          "client_msg_id": "b5cbb943-0ed0-42f7-8b99-4da13406dae1",
+          "text": "<@U03TY4YJU4X> just quickly aligned with Daniel he said we should first just try to escalate with Cho directly, so we'll do that",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GcOzI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " just quickly aligned with Daniel he said we should first just try to escalate with Cho directly, so we'll do that"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757073207.308799",
+          "client_msg_id": "99ce8cf3-7cb6-4de9-b053-e64d024b5519",
+          "text": "but also still discussing if the way xsell plans to do it should work for us",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JNFlj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but also still discussing if the way xsell plans to do it should work for us"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757073246.990859",
+          "client_msg_id": "09d76a7b-f69c-412f-91b5-965f12016877",
+          "text": "it should (and the current solution also works - you just set it to 12 or 16 week cadence for the experiment)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757070982.476459",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xqNVo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it should (and the current solution also works - you just set it to 12 or 16 week cadence for the experiment)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1756826556.838529",
+      "text": "",
+      "team": "T02AGMUUR",
+      "attachments": [
+        {
+          "ts": "1756825814.400469",
+          "author_id": "U03PK4Y1WSZ",
+          "channel_id": "C01U3RF0KCP",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C01U3RF0KCP",
+              "ts": "1756825814.400469",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "DEu9T",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "AI Bytes (",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "channel",
+                            "channel_id": "C08S9HTTYCB",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ") Office Hours Pilot Launch!",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nHello awesome product leaders "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "wave",
+                            "unicode": "1f44b-1f3fc",
+                            "skin_tone": 3
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nExciting news! We're officially kicking off the "
+                          },
+                          {
+                            "type": "text",
+                            "text": "AI Bytes Office Hours",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ", and I invite you to join the first sessions.\n\n"
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "link",
+                            "unicode": "1f517"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://calendar.app.google/8FQxDfSUaYvffpHC6",
+                            "text": "You can find the booking link here",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "calendar1"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nThis initiative is still fresh off the press and in these initial stages, I (Adam) will be leading the sessions. The rest of the AI Bytes council is currently focused on various activities to maximize value across the organization. You can read more about that here in the overview that "
+                          },
+                          {
+                            "type": "user",
+                            "user_id": "U01DZ1QG1UL"
+                          },
+                          {
+                            "type": "text",
+                            "text": " is helping keep glued together beyond our borders "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://docs.google.com/document/d/1FNJX26laee0O1kzwYEjxhBJwxuGengVKa8QJpnaDM7M/edit?tab=t.0#bookmark=id.t0f6sdliyxya",
+                            "text": "here",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " and share your feedback on the AI Bytes specific vision "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://docs.google.com/document/d/1glvfwK4E2xUDdk8pxZFGR8JSiMtoyjKqsIZaU1duOgU/edit?tab=t.wzoif9pr422c",
+                            "text": "here"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "text",
+                            "text": "(you can also view v0.1 but that's just talk, now v0.2 is all about action)",
+                            "style": {
+                              "italic": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ".\n\nMy goal with these office hours is to be your partner in navigating and leveraging AI.\n\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Please come with your problems and challenges",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ", and we will pair together to explore how AI can provide solutions. By no means do I consider myself an expert, but I do love learning new things and I've personally haven't been excited about anything in tech for almost over a decade - this much joy last time I had it was almost over a decade ago when Rails 2.0 came out.\n\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "To give you an idea of what I'm already working on with others:",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Today, in a session with "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "UBDB3FVGS"
+                              },
+                              {
+                                "type": "text",
+                                "text": ", we decided to experiment with Playwright and Claude Code on Monday. The aim is to see if we can automate the review of specific user journeys and understand how this can aid in accelerating monolith deprecation."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "user",
+                                "user_id": "U05NT0X7HLK"
+                              },
+                              {
+                                "type": "text",
+                                "text": " also reached out to brainstorm how we might leverage our AI tooling to build prototypes to showcase ideas instead of relying on people to read dozens of WBDs (Working Backwards Documents)."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "I'm also developing an "
+                              },
+                              {
+                                "type": "link",
+                                "url": "https://hellofresh.slack.com/archives/C08S9HTTYCB/p1756382735169859",
+                                "text": "\"AI Bytes Daily Tips\" bot"
+                              },
+                              {
+                                "type": "text",
+                                "text": ". This bot will help with micro-steps to encourage everyone to use AI more effectively in their day-to-day work. Once it's ready, I plan to host a showcase demonstrating how I built it and how you could build or \"hire\" AI agents for your own team."
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "\nI look forward to seeing you there and working together on your AI challenges!\n\nPlease feel free to share this with PMs on your team as well directly of course but I will have to be picky with problem requests that maximise the most value as we also head into YP 2026. So I also expect you as leaders to do a bit of filtering to help me out here as time is the scarcest of resources.\n\nLooking forward team "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "slightly_smiling_face",
+                            "unicode": "1f642"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "private_channel_prompt": true,
+          "color": "D0D0D0",
+          "from_url": "https://hellofresh.slack.com/archives/C01U3RF0KCP/p1756825814400469",
+          "is_share": true,
+          "fallback": "[September 2nd, 2025 5:10 PM] adam.ghanem: *AI Bytes (<#C08S9HTTYCB|>) Office Hours Pilot Launch!*\n\nHello awesome product leaders :wave::skin-tone-3:\n\nExciting news! We're officially kicking off the *AI Bytes Office Hours*, and I invite you to join the first sessions.\n\n:link: *<https://calendar.app.google/8FQxDfSUaYvffpHC6|You can find the booking link here>* :calendar1:\n\nThis initiative is still fresh off the press and in these initial stages, I (Adam) will be leading the sessions. The rest of the AI Bytes council is currently focused on various activities to maximize value across the organization. You can read more about that here in the overview that <@U01DZ1QG1UL> is helping keep glued together beyond our borders *<https://docs.google.com/document/d/1FNJX26laee0O1kzwYEjxhBJwxuGengVKa8QJpnaDM7M/edit?tab=t.0#bookmark=id.t0f6sdliyxya|here>* and share your feedback on the AI Bytes specific vision <https://docs.google.com/document/d/1glvfwK4E2xUDdk8pxZFGR8JSiMtoyjKqsIZaU1duOgU/edit?tab=t.wzoif9pr422c|here> _(you can also view v0.1 but that's just talk, now v0.2 is all about action)_.\n\nMy goal with these office hours is to be your partner in navigating and leveraging AI.\n\n*Please come with your problems and challenges*, and we will pair together to explore how AI can provide solutions. By no means do I consider myself an expert, but I do love learning new things and I've personally haven't been excited about anything in tech for almost over a decade - this much joy last time I had it was almost over a decade ago when Rails 2.0 came out.\n\n*To give you an idea of what I'm already working on with others:*\n• Today, in a session with <@UBDB3FVGS>, we decided to experiment with Playwright and Claude Code on Monday. The aim is to see if we can automate the review of specific user journeys and understand how this can aid in accelerating monolith deprecation.\n• <@U05NT0X7HLK> also reached out to brainstorm how we might leverage our AI tooling to build prototypes to showcase ideas instead of relying on people to read dozens of WBDs (Working Backwards Documents).\n• I'm also developing an <https://hellofresh.slack.com/archives/C08S9HTTYCB/p1756382735169859|\"AI Bytes Daily Tips\" bot>. This bot will help with micro-steps to encourage everyone to use AI more effectively in their day-to-day work. Once it's ready, I plan to host a showcase demonstrating how I built it and how you could build or \"hire\" AI agents for your own team.\nI look forward to seeing you there and working together on your AI challenges!\n\nPlease feel free to share this with PMs on your team as well directly of course but I will have to be picky with problem requests that maximise the most value as we also head into YP 2026. So I also expect you as leaders to do a bit of filtering to help me out here as time is the scarcest of resources.\n\nLooking forward team :slightly_smiling_face:",
+          "text": "*AI Bytes (<#C08S9HTTYCB|>) Office Hours Pilot Launch!*\n\nHello awesome product leaders :wave::skin-tone-3:\n\nExciting news! We're officially kicking off the *AI Bytes Office Hours*, and I invite you to join the first sessions.\n\n:link: *<https://calendar.app.google/8FQxDfSUaYvffpHC6|You can find the booking link here>* :calendar1:\n\nThis initiative is still fresh off the press and in these initial stages, I (Adam) will be leading the sessions. The rest of the AI Bytes council is currently focused on various activities to maximize value across the organization. You can read more about that here in the overview that <@U01DZ1QG1UL> is helping keep glued together beyond our borders *<https://docs.google.com/document/d/1FNJX26laee0O1kzwYEjxhBJwxuGengVKa8QJpnaDM7M/edit?tab=t.0#bookmark=id.t0f6sdliyxya|here>* and share your feedback on the AI Bytes specific vision <https://docs.google.com/document/d/1glvfwK4E2xUDdk8pxZFGR8JSiMtoyjKqsIZaU1duOgU/edit?tab=t.wzoif9pr422c|here> _(you can also view v0.1 but that's just talk, now v0.2 is all about action)_.\n\nMy goal with these office hours is to be your partner in navigating and leveraging AI.\n\n*Please come with your problems and challenges*, and we will pair together to explore how AI can provide solutions. By no means do I consider myself an expert, but I do love learning new things and I've personally haven't been excited about anything in tech for almost over a decade - this much joy last time I had it was almost over a decade ago when Rails 2.0 came out.\n\n*To give you an idea of what I'm already working on with others:*\n• Today, in a session with <@UBDB3FVGS>, we decided to experiment with Playwright and Claude Code on Monday. The aim is to see if we can automate the review of specific user journeys and understand how this can aid in accelerating monolith deprecation.\n• <@U05NT0X7HLK> also reached out to brainstorm how we might leverage our AI tooling to build prototypes to showcase ideas instead of relying on people to read dozens of WBDs (Working Backwards Documents).\n• I'm also developing an <https://hellofresh.slack.com/archives/C08S9HTTYCB/p1756382735169859|\"AI Bytes Daily Tips\" bot>. This bot will help with micro-steps to encourage everyone to use AI more effectively in their day-to-day work. Once it's ready, I plan to host a showcase demonstrating how I built it and how you could build or \"hire\" AI agents for your own team.\nI look forward to seeing you there and working together on your AI challenges!\n\nPlease feel free to share this with PMs on your team as well directly of course but I will have to be picky with problem requests that maximise the most value as we also head into YP 2026. So I also expect you as leaders to do a bit of filtering to help me out here as time is the scarcest of resources.\n\nLooking forward team :slightly_smiling_face:",
+          "author_name": "Adam Ghanem",
+          "author_link": "https://hellofresh.slack.com/team/U03PK4Y1WSZ",
+          "author_icon": "https://avatars.slack-edge.com/2022-07-15/3805240516946_ba3e7a4869b77417513a_48.jpg",
+          "author_subname": "Adam Ghanem",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack Conversation"
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1756741950.896429",
+      "client_msg_id": "b1c914c4-7f90-4297-a9b0-13b3c3889613",
+      "text": "Hey folks IT cap is upon us! :alert2: Let's get the <https://docs.google.com/spreadsheets/d/1uoKdPXeIqjh5l2MhUMfzb-Yd67CQFmQyFCkYRQTeRAw/edit?gid=1125151938#gid=1125151938|report> done! :woo:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qPU9d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks IT cap is upon us! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " Let's get the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1uoKdPXeIqjh5l2MhUMfzb-Yd67CQFmQyFCkYRQTeRAw/edit?gid=1125151938#gid=1125151938",
+                  "text": "report"
+                },
+                {
+                  "type": "text",
+                  "text": " done! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "woo"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U07VDFEFBQU"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1756731575.096479",
+      "client_msg_id": "78126980-57cd-4f98-9c83-02d0cf3cd608",
+      "text": "<@U07VDFEFBQU> <@U01AKGWGLC8> FYI: We had a significant drop in CVR after launching the checkbox on checkout. After Laurent aligned with Thomas, we implemented a state-based logic and the checkbox is required only for California.",
+      "team": "T02AGMUUR",
+      "thread_ts": "1756731575.096479",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1756732591.706249",
+      "reply_users": [
+        "U03UMPD2NNS",
+        "U01AKGWGLC8",
+        "U07VDFEFBQU"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZHkg2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U07VDFEFBQU"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " FYI: We had a significant drop in CVR after launching the checkbox on checkout. After Laurent aligned with Thomas, we implemented a state-based logic and the checkbox is required only for California."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01AKGWGLC8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1756731600.261869",
+          "client_msg_id": "f759419f-ede8-49cd-ac11-bf8afd91c551",
+          "text": "FYI, maybe you can apply the same rule in GoC",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756731575.096479",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FMhIZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "FYI, maybe you can apply the same rule in GoC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756731626.700139",
+          "client_msg_id": "d9b007a0-20ad-409a-9e7f-df25a72b3e29",
+          "text": "We will roll out 100% to California and do 50/50 split for other states to check the impact",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756731575.096479",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IsKnq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We will roll out 100% to California and do 50/50 split for other states to check the impact"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U07VDFEFBQU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756731634.885579",
+          "client_msg_id": "94bc4186-131a-4378-b6ad-e31039a01631",
+          "text": "Then Yury will decide how to proceed",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756731575.096479",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "II1e0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Then Yury will decide how to proceed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1756732512.565419",
+          "client_msg_id": "66814816-f15c-4f16-ba0f-d8d7450d046b",
+          "text": "<@U03UMPD2NNS> did you do pre-post?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756731575.096479",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RBPqs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " did you do pre-post?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1756732591.706249",
+          "client_msg_id": "7f9c6647-7995-463d-a041-c251f3d85be6",
+          "text": "This is the number from GA from Marketing, I didnt have the chance to run the numbers myself yet",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756731575.096479",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eg1NE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is the number from GA from Marketing, I didnt have the chance to run the numbers myself yet"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U07VDFEFBQU"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

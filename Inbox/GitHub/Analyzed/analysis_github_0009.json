@@ -1,0 +1,194 @@
+{
+  "batch_id": "github_0009",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-12-04T08:22:44Z",
+    "newest": "2025-12-05T21:20:24Z"
+  },
+  "analyzed_at": "2026-01-02T15:36:14.460721",
+  "changes_summary": "These commits primarily focus on Factor Form OTP (One-Time Purchase) checkout implementation with feature gating, cart creation, and checkout flow improvements. Additional work includes toolbox GSheet API extensions, box model builder distribution updates, and various bug fixes for deactivation tests, payment methods, and user redirects across multiple brands.",
+  "features": [
+    {
+      "name": "Factor Form OTP Checkout",
+      "description": "Complete one-time purchase checkout flow including feature gate integration, cart creation with correct index/quantity, checkout success handling, and checkoutType parameter support",
+      "commits": [
+        "d4f56555",
+        "b25014f4",
+        "e8b3b29a",
+        "9365bab4",
+        "b5d84d3c",
+        "809125be"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Factor Form Invalid Product Type Redirects",
+      "description": "Redirects users when encountering invalid product types in Factor Form",
+      "commits": [
+        "061a8f8c"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "GSheet APIs Extension",
+      "description": "Extended Google Sheets API capabilities in Toolbox",
+      "commits": [
+        "27f8ecff"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Box Model Builder Distribution",
+      "description": "Updates to both fresh and dry distribution models in Box Model Builder",
+      "commits": [
+        "c9622a4d",
+        "ca040893"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Order Confirmation Data Hook",
+      "description": "Created useOrderConfirmationData hook for order confirmation functionality",
+      "commits": [
+        "90490b0e"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Multi-brand OTP Orders Support",
+      "description": "Added brand and country parameters to retrieve OTP orders for other brands",
+      "commits": [
+        "b32cda6a"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Nutritional and AAFCO Sections",
+      "description": "Added nutritional information and AAFCO compliance sections",
+      "commits": [
+        "92c7f295"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Mixed Breed/Size Messaging",
+      "description": "Display message for mixed breed or size scenarios",
+      "commits": [
+        "c81a6b22"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Implement Statsig feature gate for OTP functionality",
+      "rationale": "Control rollout and enable/disable OTP features dynamically",
+      "ticket": "RTEVMS-2305"
+    },
+    {
+      "what": "Remove storage values for Factor Form OTP",
+      "rationale": "Clean up storage implementation for OTP checkout flow",
+      "ticket": "RTEVMS-2291"
+    },
+    {
+      "what": "Add checkoutType parameter to OTP flow",
+      "rationale": "Distinguish between different checkout types and fix related errors",
+      "ticket": "RTEVMS-2332"
+    },
+    {
+      "what": "Redirect unregistered legacy users to Shopify Factor Form",
+      "rationale": "Migrate unregistered users from legacy system to Shopify-based Factor Form",
+      "ticket": "MIO-20"
+    },
+    {
+      "what": "Redirect active subscription users from reactivation page",
+      "rationale": "Prevent users with active subscriptions from accessing plan reactivation flow",
+      "ticket": "TPT-2413"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Factor Form OTP storage management",
+      "reason": "Simplify state management by removing unnecessary storage values",
+      "impact": "OTP checkout flow and data persistence"
+    },
+    {
+      "area": "Box Model Builder distribution logic",
+      "reason": "Update distribution calculations for both fresh and dry food models",
+      "impact": "Box composition and product distribution algorithms"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "checkoutType error in Factor Form OTP",
+      "ticket": "RTEVMS-2347"
+    },
+    {
+      "issue": "Incorrect index and quantity on OTP cart creation",
+      "ticket": "RTEVMS-2314"
+    },
+    {
+      "issue": "Deactivation test failures",
+      "ticket": "TPT-2425"
+    },
+    {
+      "issue": "URL not updating after reactivation",
+      "ticket": "TPT-2255"
+    },
+    {
+      "issue": "Invalid payment method handling",
+      "ticket": "TPT-2393"
+    },
+    {
+      "issue": "Deactivation tests from settings page",
+      "ticket": "TPT-2371"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor Form",
+      "type": "feature",
+      "context": "Major updates for OTP checkout implementation, feature gating, and invalid product type handling"
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag management system integrated for OTP rollout control"
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "Target platform for redirecting unregistered legacy Factor Form users"
+    },
+    {
+      "name": "Toolbox",
+      "type": "component",
+      "context": "Extended with additional GSheet API capabilities"
+    },
+    {
+      "name": "Box Model Builder",
+      "type": "component",
+      "context": "Distribution logic updated for fresh and dry food models"
+    },
+    {
+      "name": "AAFCO",
+      "type": "system",
+      "context": "Compliance sections added for nutritional standards"
+    },
+    {
+      "name": "Multiple brands",
+      "type": "feature",
+      "context": "OTP orders now support brand and country parameters for cross-brand functionality"
+    }
+  ],
+  "key_patterns": [
+    "Feature flag driven development using Statsig for gradual rollout control",
+    "Separation of checkout types (OTP vs subscription) with explicit parameters",
+    "Multi-brand architecture supporting country and brand-specific order handling",
+    "Migration pattern from legacy systems to Shopify-based implementations",
+    "Hook-based architecture for data fetching (useOrderConfirmationData)",
+    "Redirect-based flow control for invalid states and user types",
+    "Test-driven development with dedicated commits for test fixes",
+    "Ticket-driven development with clear Jira references in all commits"
+  ]
+}

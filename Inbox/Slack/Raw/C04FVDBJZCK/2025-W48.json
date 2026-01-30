@@ -1,0 +1,3702 @@
+{
+  "channel_id": "C04FVDBJZCK",
+  "channel_name": "squad-nv-pet-food",
+  "week": "2025-W48",
+  "extracted_at": "2026-01-02T10:57:57.471907Z",
+  "message_count": 15,
+  "messages": [
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1764583224.998859",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|506> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "deleted": false,
+        "name": "HF Inspector",
+        "updated": 1584012640,
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hyGKI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "506",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1764583224.096279",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|506> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cvJNr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "506",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1764583222.970829",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|506> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lde=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "506",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764360479.090589",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764360479.090589",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1764663750.039849",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01U67XD681",
+        "U072677PFJ9"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U072677PFJ9>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to trial`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `subscription_ids found in column K of this spreadsheet <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?pli=1&amp;gid=1807399513#gid=1807399513>`\n*Expected behaviour:* `Reset trial to subscription`\n*Actual behaviour:* `Payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U072677PFJ9>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to trial`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `subscription_ids found in column K of this spreadsheet <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?pli=1&amp;gid=1807399513#gid=1807399513>`\n*Expected behaviour:* `Reset trial to subscription`\n*Actual behaviour:* `Payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01U67XD681"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764360479.371099",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764596367.651249",
+          "client_msg_id": "e3e9d2ab-60eb-4dc1-b126-fd03b04acefc",
+          "text": "<@U072677PFJ9> can you confirm that it's column K in week 49 tab?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4/xsn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U072677PFJ9"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can you confirm that it's column K in week 49 tab?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U072677PFJ9",
+          "type": "message",
+          "ts": "1764625035.515299",
+          "client_msg_id": "330883b3-e292-4779-af1d-966d1250e07d",
+          "text": "hi Suzanna, yes, that would be Column K of Wk 49 Tab",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rHR+j",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hi Suzanna, yes, that would be Column K of Wk 49 Tab"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U072677PFJ9",
+          "type": "message",
+          "ts": "1764625071.740469",
+          "client_msg_id": "b7755f25-45aa-44b7-849a-6f572484ac2b",
+          "text": "sorry about the super delayed response, quite a busy Day as it turns out",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nsjBw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sorry about the super delayed response, quite a busy Day as it turns out"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764663739.106579",
+          "client_msg_id": "0c76685d-dbec-4f44-b86a-463c3044d499",
+          "text": "no worries. I reset all but two from the list; 5959431 and 31464319 due to not found (31464319 has one nr too much)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cP1NG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no worries. I reset all but two from the list; 5959431 and 31464319 due to not found (31464319 has one nr too much)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764663750.039849",
+          "client_msg_id": "d6723b13-df4a-4cbb-b9d9-0430f821f785",
+          "text": "<@U072677PFJ9> can you please double check?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764360479.090589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "F+81C",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U072677PFJ9"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can you please double check?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764354162.115469",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764354162.115469",
+      "reply_count": 29,
+      "reply_users_count": 6,
+      "latest_reply": "1764796927.138929",
+      "reply_users": [
+        "U018UCEFJ65",
+        "UFC7CRXMZ",
+        "U0177S413PC",
+        "U01U67XD681",
+        "U8F7ZDAPM",
+        "U0139TY5FDF"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@UFC7CRXMZ>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Recipe Substitutions - Lamb`\n*Topic:* `Menu &amp; Recipes`\n*Priority:* `Critical! 🔥`\n*Description:* `Anisha shared this issue that was flagged to her - this is urgent to look into.\n\nCC flagged that existing customers are getting substituted chicken instead of the lamb they had in their dashboard. I thought this should have only impacted new customers not being able to select lamb. Can we please look into this asap?\n\nFrom CC\nI wanted to bring up a concern raised by an agent today about the Lamb &amp; Beef recipe under the Air-Dried Plan. A customer reached out letting us know that their Lamb &amp; Beef meal was replaced with a chicken recipe. We also noticed that the Lamb &amp; Beef recipe appears to have been removed from the website's product section.`\n*Expected behaviour:* `na`\n*Actual behaviour:* `na`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@UFC7CRXMZ>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Recipe Substitutions - Lamb`\n*Topic:* `Menu &amp; Recipes`\n*Priority:* `Critical! 🔥`\n*Description:* `Anisha shared this issue that was flagged to her - this is urgent to look into.\n\nCC flagged that existing customers are getting substituted chicken instead of the lamb they had in their dashboard. I thought this should have only impacted new customers not being able to select lamb. Can we please look into this asap?\n\nFrom CC\nI wanted to bring up a concern raised by an agent today about the Lamb &amp; Beef recipe under the Air-Dried Plan. A customer reached out letting us know that their Lamb &amp; Beef meal was replaced with a chicken recipe. We also noticed that the Lamb &amp; Beef recipe appears to have been removed from the website's product section.`\n*Expected behaviour:* `na`\n*Actual behaviour:* `na`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764354162.411859",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Menu &amp; Recipes. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Menu &amp; Recipes Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Menu &amp; Recipes. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Menu &amp; Recipes Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Menu+%26+Recipes+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UFC7CRXMZ",
+          "type": "message",
+          "ts": "1764354181.904089",
+          "edited": {
+            "user": "UFC7CRXMZ",
+            "ts": "1764354202.000000"
+          },
+          "client_msg_id": "7b42a850-c10e-44ef-bdd9-2d783f8fc669",
+          "text": "<@U8F7ZDAPM> <@U03UMPD2NNS> tagging you in this.\n\nIs someone able to investigate asap please?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Rouax",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " tagging you in this.\n\nIs someone able to investigate asap please?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UFC7CRXMZ",
+          "type": "message",
+          "ts": "1764354228.496559",
+          "client_msg_id": "5530bd4c-a88e-4a0c-9917-c12df40c86f7",
+          "text": "<@U0177S413PC> FYI",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "W1UJh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " FYI"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I took a look at the ODL/PDL today and yesterday and it looks like customers are still getting lamb meal swap options. I asked CC for the customer ID of the customer that had that issue above to look into why that customer got swapped. Here is also a screenshot from that customer",
+          "files": [
+            {
+              "id": "F0A0D472U6A",
+              "created": 1764355174,
+              "timestamp": 1764355174,
+              "name": "image (51).png",
+              "title": "image (51).png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U0177S413PC",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 253914,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A0D472U6A/image__51_.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A0D472U6A/download/image__51_.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 137,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 183,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 274,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 305,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 366,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A0D472U6A-0be28c7987/image__51__1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 390,
+              "original_w": 1281,
+              "original_h": 488,
+              "thumb_tiny": "AwATADDSwfWkyA23cM4zj2p1RS7hnYoJx6UASDnoaR1cgbX2nPpmo9rbvu+gHA9//rUiGQ5LoQcZAODjn1pXCxKyuRhX2++M0FW5+Ye2R0qFDIzDK7Ru/u1Yo3G1YKQnApaRulMQmTtB96QEtCCTyRSj7o+tIv8AqV+goAcOBiloFFAH/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A0D472U6A/image__51_.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A0D472U6A-38d4f1af78",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0177S413PC",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qooEo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I took a look at the ODL/PDL today and yesterday and it looks like customers are still getting lamb meal swap options. I asked CC for the customer ID of the customer that had that issue above to look into why that customer got swapped. Here is also a screenshot from that customer"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764355180.796829",
+          "client_msg_id": "8ab68abc-94f9-4347-8ad3-15b786773191",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UFC7CRXMZ",
+          "type": "message",
+          "ts": "1764355228.908509",
+          "client_msg_id": "d9215b93-8978-4f21-bece-0ee92510583f",
+          "text": "Ok good.\n\nDo you have their customer ID <@U0177S413PC>?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ST3I/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ok good.\n\nDo you have their customer ID "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": "?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764355290.872049",
+          "client_msg_id": "78410934-caf4-418a-ba20-cae2f6842f46",
+          "text": "not yet, still waiting for a response from CC",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "M5op3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "not yet, still waiting for a response from CC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764580397.800319",
+          "client_msg_id": "5d12ddc1-51f0-4f93-a34c-218fa87ab5c6",
+          "text": "I'll look into this once we get the subscription id! Just an FYI that the screenshot is from `/our-products` where the recipe is intentionally hidden (after aligning w Anisha). Do we want to change this and display the recipe there after all?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "R6HHJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'll look into this once we get the subscription id! Just an FYI that the screenshot is from "
+                    },
+                    {
+                      "type": "text",
+                      "text": "/our-products",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " where the recipe is intentionally hidden (after aligning w Anisha). Do we want to change this and display the recipe there after all?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03UMPD2NNS"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764583153.100539",
+          "client_msg_id": "600ea2fe-9195-4f90-a314-3866ddbaba70",
+          "text": "<@U01U67XD681> I'm testing now and it does seem like there's something wrong with how our meals are displayed on the dashboard",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1/M7a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01U67XD681"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I'm testing now and it does seem like there's something wrong with how our meals are displayed on the dashboard"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "text": "This user has only lamb selected",
+          "files": [
+            {
+              "id": "F0A146WAAE5",
+              "created": 1764583164,
+              "timestamp": 1764583164,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U8F7ZDAPM",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 836987,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A146WAAE5/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A146WAAE5/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 202,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 270,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 405,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 450,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 540,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A146WAAE5-9bf00c4a32/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 576,
+              "original_w": 1640,
+              "original_h": 922,
+              "thumb_tiny": "AwAbADC/JKEYAqxz3AzSmQA42t9cUxgN7dVPrx1xVeCB4SxZxtIxxUtjRaaYKQMMcjPFDTBWwUbHrxionZYgHJ+XGBUEMDDexdXRgcdefrTuIvbhjvSLKrHAz+VRxAiFARghcEelV7DcGYOMHjGDTBE095FDJsYOSOeKjN/AWztlz9f/AK9XaKAKa3sMkgXEoLfL1wP51cAxRRQA1lVyQd34Ej/PX/OKXHbBx1zmlooA/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A146WAAE5/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A146WAAE5-e9788d6af7",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U8F7ZDAPM",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2S+kw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This user has only lamb selected"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764583171.575629",
+          "client_msg_id": "606bb33f-e2b1-4d1d-afd2-24abef544d8a",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764583242.519649",
+          "client_msg_id": "db11df41-f870-4db1-89de-bda823c02898",
+          "text": "interesting :eyes: if you check the response from the menu can you see the tag `hide-from-funnel`?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ox98t",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "interesting "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    },
+                    {
+                      "type": "text",
+                      "text": " if you check the response from the menu can you see the tag "
+                    },
+                    {
+                      "type": "text",
+                      "text": "hide-from-funnel",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764583288.125119",
+          "client_msg_id": "84d288c1-abd2-4799-bf95-bba37f1dc2d5",
+          "text": "yes",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IB8ze",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "no issues for me",
+          "files": [
+            {
+              "id": "F0A1KK81GDN",
+              "created": 1764583323,
+              "timestamp": 1764583323,
+              "name": "Screenshot 2025-12-01 at 11.01.51.png",
+              "title": "Screenshot 2025-12-01 at 11.01.51.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01U67XD681",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 790657,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A1KK81GDN/screenshot_2025-12-01_at_11.01.51.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A1KK81GDN/download/screenshot_2025-12-01_at_11.01.51.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 199,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 265,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 397,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 441,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 530,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1KK81GDN-8a6dc8974c/screenshot_2025-12-01_at_11.01.51_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 565,
+              "original_w": 2026,
+              "original_h": 1118,
+              "thumb_tiny": "AwAbADDToqpcl0LFGYseAu7ge9KS+whmZcOMEHtigCwA4diWBU9BjkfjRhvlyw4POB14qrE8rEl8gjPAPtUZeVcAMxBHUt0+tK5XKXwCCcnIJ49qWmxnMSE9SBTqZJXlMgkO233js28CmOZZFw1pxnPEoFWiik5Kgn1IoVVUYUAD2FAFVEfzMm1K7uC3m9qseTHx8oGOmKfRQAgAUAAYA4FLRRQB/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A1KK81GDN/screenshot_2025-12-01_at_11.01.51.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A1KK81GDN-52754fdd4e",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U01U67XD681",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ni65d",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no issues for me"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764583330.001579",
+          "client_msg_id": "0f8638b7-3e3d-4cef-89a1-e6db85f305d2",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764583341.898289",
+          "client_msg_id": "faadb294-e5d4-4547-bb5f-6df1a2d75f51",
+          "text": "Interestingly this doesn't happen on staging :thinking:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vp2Nc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Interestingly this doesn't happen on staging "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764583342.157129",
+          "client_msg_id": "eaac5aa6-d469-4663-8f69-84c75371ee0e",
+          "text": "are you on live or staging?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "awtF/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "are you on live or staging?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764583347.964689",
+          "client_msg_id": "825e081c-8f65-4bd9-b2b1-08e45b9db330",
+          "text": "I'm on live",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ivndX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm on live"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764583356.011429",
+          "client_msg_id": "af509a74-338c-4d85-8243-d2f12ef8cafd",
+          "text": "and couldnt reproduce",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Xwc+b",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and couldnt reproduce"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764583359.937199",
+          "client_msg_id": "7b15bc08-bc99-480b-b617-2b02447dfa1d",
+          "text": "call?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "68wZU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "call?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764583362.363489",
+          "client_msg_id": "29cc19f8-22ad-49e7-ac94-0fbd0301a570",
+          "text": "yes",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IB8ze",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764583874.687219",
+          "client_msg_id": "30afe85b-89af-4ad9-91cc-9cc1bea82626",
+          "text": "ok quick clarification, what I came across was a bug relating to change plans where we're not correctly refreshing the dashboard after the user changes their plan, the change was applied correctly but is not visible unless the user refreshes the page. I will create a ticket to resolve that right away.\n\nAside from that <@U0177S413PC> we don't see any issues with the lamb recipe specifically and it seems to be working as expected, if you have more info you could share let us know",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MH0BU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok quick clarification, what I came across was a bug relating to change plans where we're not correctly refreshing the dashboard after the user changes their plan, the change was applied correctly but is not visible unless the user refreshes the page. I will create a ticket to resolve that right away.\n\nAside from that "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " we don't see any issues with the lamb recipe specifically and it seems to be working as expected, if you have more info you could share let us know"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764597479.606429",
+          "client_msg_id": "9109D577-602C-4BAD-A74C-4134FC189903",
+          "text": "Thanks, so far it was just this instance and other use cases as working. Please review and let us know if this is isolated or an issue for other customers",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8kGe4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks, so far it was just this instance and other use cases as working. Please review and let us know if this is isolated or an issue for other customers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764597551.875749",
+          "client_msg_id": "7f81c28f-a02a-45e8-b65b-82f1c375eb22",
+          "text": "<@U0177S413PC> do you have the sub/customer id so we can investigate what could've happened?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fu2Mw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " do you have the sub/customer id so we can investigate what could've happened?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764600370.315059",
+          "client_msg_id": "a0ee5d5d-669b-4415-8db5-b3943bb323ae",
+          "text": "still waiting from CC",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dpGuh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "still waiting from CC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01U67XD681"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764684451.885249",
+          "client_msg_id": "925e6aeb-24f0-498d-8cd8-5d79112448ee",
+          "text": "got the customer ID! 6444848",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CNXrI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "got the customer ID! 6444848"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764684479.869199",
+          "client_msg_id": "bfac88f6-035d-4521-8fb9-9bdf96a1e709",
+          "text": "Received:\n1 large bag of chicken\n2 × 16oz bags of beef\n1 bag of treats\n\nMissing:\nLamb (no bags received)\n\nTranscript:\n<https://apps.mypurecloud.com/directory/#/analytics/interactions/5fe9944a-1f36-4224-b0ba-282d32a5b092/admin/transcript>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "z8EFt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Received:\n1 large bag of chicken\n2 × 16oz bags of beef\n1 bag of treats\n\nMissing:\nLamb (no bags received)\n\nTranscript:\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://apps.mypurecloud.com/directory/#/analytics/interactions/5fe9944a-1f36-4224-b0ba-282d32a5b092/admin/transcript"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01U67XD681"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "text": "<@U0177S413PC> I can see that the user did indeed select dry recipe index 13 (Dry Beef Lamb, Dry Chicken, Dry Beef*)* and OWL is also showing the correct recipe for their delivery on Nov 26th so everything seems to be correct on the tech side as far as meal selection. Do you have access to the scm export so we can cross-check that the correct info is stated there as well?",
+          "files": [
+            {
+              "id": "F0A1ACU1742",
+              "created": 1764771936,
+              "timestamp": 1764771936,
+              "name": "Screenshot 2025-12-03 at 15.18.54.png",
+              "title": "Screenshot 2025-12-03 at 15.18.54.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01U67XD681",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 70343,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A1ACU1742/screenshot_2025-12-03_at_15.18.54.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A1ACU1742/download/screenshot_2025-12-03_at_15.18.54.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 199,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 265,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 397,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 441,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 530,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1ACU1742-000088eea8/screenshot_2025-12-03_at_15.18.54_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 565,
+              "original_w": 1276,
+              "original_h": 704,
+              "thumb_tiny": "AwAbADC7IZA2EaPJ6Bs9KeHAQMzLjHXtTiQOpApaAEBBAIOQe9FLRQAlFLRQAySJZdu7PyncMetL5a5yQCcYzinUUANEUakEIoI6HFOoooAKKKKAP//Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A1ACU1742/screenshot_2025-12-03_at_15.18.54.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A1ACU1742-9c55829973",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            },
+            {
+              "id": "F0A18BQS6MU",
+              "created": 1764771940,
+              "timestamp": 1764771940,
+              "name": "Screenshot 2025-12-03 at 15.21.41.png",
+              "title": "Screenshot 2025-12-03 at 15.21.41.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01U67XD681",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 86008,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A18BQS6MU/screenshot_2025-12-03_at_15.21.41.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A18BQS6MU/download/screenshot_2025-12-03_at_15.21.41.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 174,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 232,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 347,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 386,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 463,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A18BQS6MU-10bd2c5677/screenshot_2025-12-03_at_15.21.41_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 494,
+              "original_w": 1418,
+              "original_h": 684,
+              "thumb_tiny": "AwAYADDTPIxzRRRQA0NgDO49s4pTg468Gmgn1NOoAXPOKKSigBaKKKAGqOMFf0p1FFABRRRQB//Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A18BQS6MU/screenshot_2025-12-03_at_15.21.41.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A18BQS6MU-6fc56f4d79",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U01U67XD681",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YccKB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I can see that the user did indeed select dry recipe index 13 (Dry Beef Lamb, Dry Chicken, Dry Beef"
+                    },
+                    {
+                      "type": "text",
+                      "text": ") ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "and OWL is also showing the correct recipe for their delivery on Nov 26th so everything seems to be correct on the tech side as far as meal selection. Do you have access to the scm export so we can cross-check that the correct info is stated there as well?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764774239.614539",
+          "client_msg_id": "e512d982-ec77-4149-a6cd-b075896e837b",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01U67XD681",
+          "type": "message",
+          "ts": "1764774412.640019",
+          "edited": {
+            "user": "U01U67XD681",
+            "ts": "1764777200.000000"
+          },
+          "client_msg_id": "46180747-4898-4c12-b3a5-dea9d5986179",
+          "text": "What's odd is that I do not see that they selected a bag of treats for the delivery on 26th of Nov. I can see through our traces that they've been ~might selecting/deselecting addons only from the 23rd of Nov so their delivery on the 26th of November would've been post cutoff (and unaffected by any changes made)~ actually when investigating deeper I see that there have been no requests for addon selections",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6s7Mf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What's odd is that I do not see that they selected a bag of treats for the delivery on 26th of Nov. I can see through our traces that they've been "
+                    },
+                    {
+                      "type": "text",
+                      "text": "might selecting/deselecting addons only from the 23rd of Nov so their delivery on the 26th of November would've been post cutoff (and unaffected by any changes made)",
+                      "style": {
+                        "strike": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " actually when investigating deeper I see that there have been no requests for addon selections"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764784209.066899",
+          "client_msg_id": "6B02AF11-E83F-46C2-876E-D55BBA32DE7F",
+          "text": "<@U0139TY5FDF> can you take a look at the SDL for that order? It might have just been a p&amp;p error",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "asYGa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0139TY5FDF"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can you take a look at the SDL for that order? It might have just been a p&p error"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0139TY5FDF",
+          "type": "message",
+          "ts": "1764796473.656159",
+          "client_msg_id": "248ac3e9-5acd-4a51-b9ca-565203dc0a79",
+          "text": "looks like it was a p&amp;p order - I see 2 dry lamb bags in the SDL",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HJxDq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "looks like it was a p&p order - I see 2 dry lamb bags in the SDL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764796927.138929",
+          "client_msg_id": "e2a47771-b710-4c76-b18e-24ad31ea3cc9",
+          "text": "ok, glad to see it was a P&amp;P error but that doesn't explain why their dashboard swapped lamb for chicken",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764354162.115469",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kC/UQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok, glad to see it was a P&P error but that doesn't explain why their dashboard swapped lamb for chicken"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764159242.294619",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764159242.294619",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1764162292.507659",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01PE2S4ZL6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U01PE2S4ZL6>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `SCM Export needed for cutoff day: 20 Nov 2025 `\n*Topic:* `OC and SCM export`\n*Priority:* `Medium priority 🟡`\n*Description:* `I need an SCM export to inspect exact box contains for this order - cutoff day was 20 Nov 2025 (W47?)\n\n<https://operations.hellofresh.com/customer-care/orders/details/6308359?country=KN&amp;subscription_id=3098907&amp;week=2025-W48&amp;date=11-26&amp;category=ingredient_item&amp;box_id=KN16034479&amp;from=orders&amp;tab=meals>\n\nYou can see here that user is subscribed to two free add-ons instead of one. We need to confirm the exact user box contains to act accordingly. `\n*Expected behaviour:* `SCM Export`\n*Actual behaviour:* `-`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U01PE2S4ZL6>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `SCM Export needed for cutoff day: 20 Nov 2025 `\n*Topic:* `OC and SCM export`\n*Priority:* `Medium priority 🟡`\n*Description:* `I need an SCM export to inspect exact box contains for this order - cutoff day was 20 Nov 2025 (W47?)\n\n<https://operations.hellofresh.com/customer-care/orders/details/6308359?country=KN&amp;subscription_id=3098907&amp;week=2025-W48&amp;date=11-26&amp;category=ingredient_item&amp;box_id=KN16034479&amp;from=orders&amp;tab=meals>\n\nYou can see here that user is subscribed to two free add-ons instead of one. We need to confirm the exact user box contains to act accordingly. `\n*Expected behaviour:* `SCM Export`\n*Actual behaviour:* `-`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764159243.080239",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to OC and SCM export. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n OC and SCM export Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to OC and SCM export. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "OC and SCM export Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=OC+and+SCM+export+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764159497.592529",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Thank you for your checking out the <https://github.com/hellofresh/slack-commander/discussions|Questions and Answers space> :sparkles: \n\nIf you did not find an answer, please reply in this thread.\n",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "O+JER",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your checking out the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/slack-commander/discussions",
+                      "text": "Questions and Answers space"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sparkles",
+                      "unicode": "2728"
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n\nIf you did not find an answer, please reply in this thread."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764159510.250849",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Thank you for your checking out the <https://github.com/hellofresh/slack-commander/discussions|Questions and Answers space> :sparkles: \n\nIf you did not find an answer, please reply in this thread.\n",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RCS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your checking out the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/slack-commander/discussions",
+                      "text": "Questions and Answers space"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sparkles",
+                      "unicode": "2728"
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n\nIf you did not find an answer, please reply in this thread."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764161175.667569",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Thank you for your checking out the <https://github.com/hellofresh/slack-commander/discussions|Questions and Answers space> :sparkles: \n\nIf you did not find an answer, please reply in this thread.\n",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "z8oz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your checking out the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/slack-commander/discussions",
+                      "text": "Questions and Answers space"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sparkles",
+                      "unicode": "2728"
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n\nIf you did not find an answer, please reply in this thread."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1764162258.162199",
+          "client_msg_id": "bd3ca93a-eea1-4c04-aa51-13c8fc88adab",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1764162292.507659",
+          "client_msg_id": "a6696c6e-54ee-4519-a7cf-741bc35f659f",
+          "text": "Someone already gave us insight into the box contains. No action needed",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764159242.294619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JhIGF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Someone already gave us insight into the box contains. No action needed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764106469.013909",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764106469.013909",
+      "reply_count": 7,
+      "reply_users_count": 5,
+      "latest_reply": "1764165200.865869",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U0177S413PC",
+        "UFC7CRXMZ",
+        "U7SJ525DE",
+        "U03UMPD2NNS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U0177S413PC>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reschedule Function Change Delivery Day`\n*Topic:* `Delivery Date and Cadence`\n*Priority:* `Medium priority 🟡`\n*Description:* `I was working through an issue with a customer who said that he was receiving less food than expected after he rescheduled a box but future week didn't adjust the delivery day so he was getting his next box 5.5 weeks after vs 5 weeks. I had to walk him through how to change his delivery day in his settings but it is not clear on the dashboard and rescheduling function that he his next box would not reschedule to exactly 5 weeks from that box. Is this an expected behavior? If so, we should look into the rescheduling function language and/or make the reschedule trigger a delivery day change. `\n*Expected behaviour:* `Delivery day to autmoatically adjust for future delivery weeks when rescheduling a box`\n*Actual behaviour:* `Delivery day didn't adjust, only delivery week. Customer still needed to go to account settings to adjust delivery day`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U0177S413PC>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reschedule Function Change Delivery Day`\n*Topic:* `Delivery Date and Cadence`\n*Priority:* `Medium priority 🟡`\n*Description:* `I was working through an issue with a customer who said that he was receiving less food than expected after he rescheduled a box but future week didn't adjust the delivery day so he was getting his next box 5.5 weeks after vs 5 weeks. I had to walk him through how to change his delivery day in his settings but it is not clear on the dashboard and rescheduling function that he his next box would not reschedule to exactly 5 weeks from that box. Is this an expected behavior? If so, we should look into the rescheduling function language and/or make the reschedule trigger a delivery day change. `\n*Expected behaviour:* `Delivery day to autmoatically adjust for future delivery weeks when rescheduling a box`\n*Actual behaviour:* `Delivery day didn't adjust, only delivery week. Customer still needed to go to account settings to adjust delivery day`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764106469.425509",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Delivery Date and Cadence. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Delivery Date and Cadence Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Delivery Date and Cadence. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Delivery Date and Cadence Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Delivery+Date+and+Cadence+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764106479.329059",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Thank you for your checking out the <https://github.com/hellofresh/slack-commander/discussions|Questions and Answers space> :sparkles: \n\nIf you did not find an answer, please reply in this thread.\n",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sDHF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your checking out the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/slack-commander/discussions",
+                      "text": "Questions and Answers space"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sparkles",
+                      "unicode": "2728"
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n\nIf you did not find an answer, please reply in this thread."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0177S413PC",
+          "type": "message",
+          "ts": "1764106495.790879",
+          "client_msg_id": "f7750d2f-768f-48fe-b447-dd3504ea418e",
+          "text": "still need an answer",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "O3JHZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "still need an answer"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UFC7CRXMZ",
+          "type": "message",
+          "ts": "1764106597.648109",
+          "client_msg_id": "06ec1c2f-00a3-4bcf-a977-800164a8fedb",
+          "text": "tagging myself into the thread as am interested",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qEq/O",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "tagging myself into the thread as am interested"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764156915.404479",
+          "client_msg_id": "93a8c4bf-2637-4058-93ed-d63e49d5f777",
+          "text": "<@U0177S413PC> do you know if they changed it using the calendar in the reschedule modal?\ncc <@U03UMPD2NNS>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9PxSw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0177S413PC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " do you know if they changed it using the calendar in the reschedule modal?\ncc "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764162384.019189",
+          "client_msg_id": "59dd132f-9d47-4c63-a7fa-6bc3d2ac465c",
+          "text": "Hi all,\nWe had a discussion about it some time ago.\nCurrent state:\n• Changing the delivery window (weekday of the delivery) is only possible from settings\n• If rescheduling results a change of a delivery week, we are pushing out the following delivery by the preset cadence (eg 6 weeks from the newly selected delivery week), but we keep the original delivery window weekday the user had before\nWe can change this behavior in 2 ways:\n• make default delivery window aligned with the newest weekday the user selected\n• offer a choice after the user reschedules, asking them if they want to change their their default delivery window. \n\nThis will be a separate request though",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "punIW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi all,\nWe had a discussion about it some time ago.\nCurrent state:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Changing the delivery window (weekday of the delivery) is only possible from settings"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "If rescheduling results a change of a delivery week, we are pushing out the following delivery by the preset cadence (eg 6 weeks from the newly selected delivery week), but we keep the original delivery window weekday the user had before"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nWe can change this behavior in 2 ways:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "make default delivery window aligned with the newest weekday the user selected"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "offer a choice after the user reschedules, asking them if they want to change their their default delivery window. "
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\n\nThis will be a separate request though"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UFC7CRXMZ",
+          "type": "message",
+          "ts": "1764165200.865869",
+          "client_msg_id": "09767a79-241a-48bd-87a1-f5b17bf24d73",
+          "text": "I'm confused. Can we discuss in our tech call later this morning pls",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764106469.013909",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "W+CkB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm confused. Can we discuss in our tech call later this morning pls"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1::skin-tone-3",
+              "users": [
+                "U03UMPD2NNS"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764102536.071839",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764102536.071839",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1764246458.156689",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U0139TY5FDF",
+        "U7SJ525DE"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U0139TY5FDF>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reactivation screen is off`\n*Topic:* `Homepage`\n*Priority:* `Medium priority 🟡`\n*Description:* `I cannot reactivate my plan. I deactivate &amp; reactivate all the time to test things and this is the first time I have seen this. My only option seems to be starting a new account. Any change this is related to the recent changes w dog death? (that was not the cancellation reason I used - I always do price)`\n*Expected behaviour:* `ability to reactivate `\n*Actual behaviour:* `unable to reactivate`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U0139TY5FDF>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reactivation screen is off`\n*Topic:* `Homepage`\n*Priority:* `Medium priority 🟡`\n*Description:* `I cannot reactivate my plan. I deactivate &amp; reactivate all the time to test things and this is the first time I have seen this. My only option seems to be starting a new account. Any change this is related to the recent changes w dog death? (that was not the cancellation reason I used - I always do price)`\n*Expected behaviour:* `ability to reactivate `\n*Actual behaviour:* `unable to reactivate`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764102536.380939",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Homepage. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Homepage Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Homepage. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Homepage Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Homepage+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "text": "<!subteam^S05K3MZSD55>",
+          "files": [
+            {
+              "id": "F0A078NAT7T",
+              "created": 1764102540,
+              "timestamp": 1764102540,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U0139TY5FDF",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 221083,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A078NAT7T/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A078NAT7T/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 187,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 249,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 373,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 415,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 498,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A078NAT7T-d98f337bc6/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 531,
+              "original_w": 1917,
+              "original_h": 994,
+              "thumb_tiny": "AwAZADDQbd2yQB2xk0JuIBZSvXIJH9Kd1GKQIobIUA+w60ALjp29aMfWox8mSsLfQEdvTmlQCM7EiKqO/GDQA/pSEfMOBjvzUclrDI5d0yx6nJp6IsaBEGFHQUABKM20sMg9M80hWNXDHaCTgduef8akooAaUDAgjOeDSLEisWA+Y8Ek5NPooAbsHv0x1p1FFAH/2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A078NAT7T/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A078NAT7T-c1748f39c1",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0139TY5FDF",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jNe4c",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S05K3MZSD55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764102545.769529",
+          "client_msg_id": "e6eb69a1-ba1f-4b84-a689-949759fe0979",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764156677.814399",
+          "client_msg_id": "c863d8fd-1783-4e9a-8d70-cfd8486986e6",
+          "text": "hey Jordan, this is indeed due to the dog death changes. if at any point the subscription was cancelled due to dog death we display this",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nm6y3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey Jordan, this is indeed due to the dog death changes. if at any point the subscription was cancelled due to dog death we display this"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0139TY5FDF",
+          "type": "message",
+          "ts": "1764171529.770769",
+          "client_msg_id": "DEFA07F9-7DF9-4C35-86B0-F7C01614B847",
+          "text": "Hey <@U7SJ525DE> ooh I think I cancelled once due to dog death but I’ve since reactivated and the last cancellation reason wasn’t dog death - is that also expected ? I guess a weird use case ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/VrLz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U7SJ525DE"
+                    },
+                    {
+                      "type": "text",
+                      "text": " ooh I think I cancelled once due to dog death but "
+                    },
+                    {
+                      "type": "text",
+                      "text": "I’ve"
+                    },
+                    {
+                      "type": "text",
+                      "text": " since reactivated and the last cancellation reason "
+                    },
+                    {
+                      "type": "text",
+                      "text": "wasn’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " dog death - is that also expected ? I guess a weird use case "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764171614.714009",
+          "client_msg_id": "a6abe2cd-a85c-4fde-9e3d-ecf369a1857f",
+          "text": "yeah it's a weird case, unfortunately the cancellation reasons are not saved chronologically in the history so we don't have a way of knowing what the last one was :disappointed:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1jViZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yeah it's a weird case, unfortunately the cancellation reasons are not saved chronologically in the history so we don't have a way of knowing what the last one was "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "disappointed",
+                      "unicode": "1f61e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0139TY5FDF",
+          "type": "message",
+          "ts": "1764171751.076879",
+          "client_msg_id": "71E29D0C-D18C-49E6-9708-61724A610E8A",
+          "text": "Okay got it - tbh I forgot it was ever cancelled due to dog death hahah but makes sense ! ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "O6T/G",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Okay got it - tbh I forgot it was ever cancelled due to dog death hahah but makes sense ! "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "smile",
+              "users": [
+                "U7SJ525DE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764246458.156689",
+          "client_msg_id": "b4cd0821-319c-4dc1-8fc3-30426dad0f98",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764102536.071839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764094812.626199",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764094812.626199",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1764159208.557879",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U7SJ525DE"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U072677PFJ9>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `reset subscription for trial`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `subscription_ids found in column A of this spreadsheet  <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1807399513#gid=1807399513>`\n*Expected behaviour:* `Reset trial to subscription`\n*Actual behaviour:* `Payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U072677PFJ9>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `reset subscription for trial`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `subscription_ids found in column A of this spreadsheet  <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=1807399513#gid=1807399513>`\n*Expected behaviour:* `Reset trial to subscription`\n*Actual behaviour:* `Payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "pray-intensifies",
+          "users": [
+            "UDH40QWLU"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764094812.923439",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764094812.626199",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764159201.668639",
+          "client_msg_id": "b21f0834-f9d9-488d-bb35-7831ab35c957",
+          "text": "subscriptions were reset",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764094812.626199",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/j3wW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "subscriptions were reset"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "UDH40QWLU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1764159208.557879",
+          "client_msg_id": "0e4d4fe9-8dbd-4fb4-9f08-e78fc16bcb9e",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764094812.626199",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U072677PFJ9",
+      "text": "<@U072677PFJ9> has joined the channel",
+      "type": "message",
+      "ts": "1764089240.195889"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764059223.363039",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764059223.363039",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1764068306.173419",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U03EN3N4KM4"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U03EN3N4KM4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR Review related to prices`\n*Topic:* `Checkout`\n*Priority:* `High priority 🔴`\n*Description:* `Hey TPT team, can I have a review and a QA on this PR?\n<https://github.com/hellofresh/web/pull/60975>\n\nWe're planning to merge another PR for reactivation prices, and this PR is a blocker for this. Thanks for your help `\n*Expected behaviour:* `N/A`\n*Actual behaviour:* `N/A`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U03EN3N4KM4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR Review related to prices`\n*Topic:* `Checkout`\n*Priority:* `High priority 🔴`\n*Description:* `Hey TPT team, can I have a review and a QA on this PR?\n<https://github.com/hellofresh/web/pull/60975>\n\nWe're planning to merge another PR for reactivation prices, and this PR is a blocker for this. Thanks for your help `\n*Expected behaviour:* `N/A`\n*Actual behaviour:* `N/A`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764059223.983819",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Checkout. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Checkout Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764059223.363039",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Checkout. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Checkout Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Checkout+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1764068306.173419",
+          "client_msg_id": "c7ddbb20-7bd7-4290-ac15-5f2860e04d26",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764059223.363039",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03EN3N4KM4",
+      "text": "<@U03EN3N4KM4> has joined the channel",
+      "type": "message",
+      "ts": "1764058960.636049"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1763987896.164839",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1763987896.164839",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1763988396.610799",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U7SJ525DE",
+        "U03TG3L054Y"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U03TG3L054Y>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Homepage`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey team! Please review this PR with update of a validation schema <https://github.com/hellofresh/web/pull/60852>`\n*Expected behaviour:* `✅`\n*Actual behaviour:* `👀`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U03TG3L054Y>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Homepage`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey team! Please review this PR with update of a validation schema <https://github.com/hellofresh/web/pull/60852>`\n*Expected behaviour:* `✅`\n*Actual behaviour:* `👀`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1763987896.529789",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Homepage. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Homepage Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1763987896.164839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Homepage. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Homepage Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Homepage+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1763988309.049279",
+          "client_msg_id": "a6ff2d7d-c316-49f6-bc1b-e3c942857896",
+          "text": "approved!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763987896.164839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MFcEf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "approved!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1763988319.262769",
+          "client_msg_id": "3549075d-6d97-49f8-8efb-93b1811286b1",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763987896.164839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TG3L054Y",
+          "type": "message",
+          "ts": "1763988396.610799",
+          "client_msg_id": "8a948bed-eeec-4495-b6e4-9f5064d94327",
+          "text": "Thank you :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763987896.164839",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CbPHF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03TG3L054Y",
+      "text": "<@U03TG3L054Y> has joined the channel",
+      "type": "message",
+      "ts": "1763987799.827159"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U03025HTN2X",
+      "text": "<@U03025HTN2X> has left the channel",
+      "type": "message",
+      "ts": "1763987427.879939"
+    }
+  ]
+}

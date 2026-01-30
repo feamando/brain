@@ -1,0 +1,11 @@
+{
+  "extracted_at": "2026-01-02T14:27:27.587087Z",
+  "repos": [
+    "hellofresh/web"
+  ],
+  "total_commits": 506,
+  "total_batches": 26,
+  "commits_per_repo": {
+    "hellofresh/web": 506
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "batch_id": "jira_0002",
+  "issue_count": 25,
+  "issue_types": {
+    "Story": 17,
+    "Task": 6,
+    "Bug": 1,
+    "Epic": 1
+  },
+  "date_range": {
+    "oldest": "2025-12-30",
+    "newest": "2025-12-30"
+  },
+  "analyzed_at": "2026-01-02T18:06:03.613490",
+  "summary": "The work focuses on three main initiatives: introducing new VMS products (Meal Shake and Creatine) requiring extensive setup across multiple services, fixing One-Time Purchase (OTP) UAT issues related to UI/UX and messaging, and implementing quick wins like modifying 'Add to cart' behavior. The new product introduction involves coordinated work across product catalogs, pricing services, content management, and feature flags.",
+  "decisions": [
+    {
+      "what": "Add to cart button should open sliding cart instead of taking users to checkout page",
+      "issue_key": "RTEVMS-2450",
+      "who": [
+        "Product team"
+      ],
+      "rationale": "Improve user experience by allowing shoppers to review cart before proceeding to checkout",
+      "date": "Unknown"
+    },
+    {
+      "what": "Use feature flags (Statsig) to control rendering of new products",
+      "issue_key": "RTEVMS-2432",
+      "who": [
+        "Development team"
+      ],
+      "rationale": "Enable controlled rollout and ability to enable/disable new products without deployment",
+      "date": "Unknown"
+    },
+    {
+      "what": "Allow VMS subscribers to purchase OTP items by modifying checkout restrictions",
+      "issue_key": "RTEVMS-2424",
+      "who": [
+        "Product team"
+      ],
+      "rationale": "Remove artificial limitation preventing VMS subscribers from buying one-time purchase items",
+      "date": "Unknown"
+    },
+    {
+      "what": "Add California Prop 65 disclaimers for products with ingredients exceeding regulatory limits",
+      "issue_key": "RTEVMS-2409",
+      "who": [
+        "Legal/Compliance",
+        "Product team"
+      ],
+      "rationale": "Comply with California regulations requiring warnings for certain ingredient levels",
+      "date": "Unknown"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Introduce Meal Shake & Creatine to VMS assortment",
+      "description": "Add two new product lines (Meal Shake and Creatine) to the VMS offerings, requiring comprehensive setup across all systems including product catalogs, pricing, content management, images, and product detail pages",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2412",
+        "RTEVMS-2449",
+        "RTEVMS-2436",
+        "RTEVMS-2425",
+        "RTEVMS-2426",
+        "RTEVMS-2427",
+        "RTEVMS-2428",
+        "RTEVMS-2429",
+        "RTEVMS-2430",
+        "RTEVMS-2431",
+        "RTEVMS-2432",
+        "RTEVMS-2433",
+        "RTEVMS-2434",
+        "RTEVMS-2435"
+      ]
+    },
+    {
+      "name": "One-Time Purchase (OTP) UAT Fixes",
+      "description": "Address multiple UAT issues discovered during OTP testing, including UI bugs, copy updates, and functionality issues related to subscription vs one-time purchase distinctions",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-1323",
+        "RTEVMS-2413",
+        "RTEVMS-2416",
+        "RTEVMS-2417",
+        "RTEVMS-2418",
+        "RTEVMS-2419",
+        "RTEVMS-2421",
+        "RTEVMS-2423",
+        "RTEVMS-2424"
+      ]
+    },
+    {
+      "name": "KTLO (Keep The Lights On) Maintenance",
+      "description": "Ongoing maintenance tasks including updating product images and adding regulatory compliance disclaimers",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2252",
+        "RTEVMS-2410",
+        "RTEVMS-2409"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Copy sections for new products cannot be created until designs are finalized",
+      "issue_key": "RTEVMS-2428",
+      "owner": "Unassigned",
+      "impact": "Blocks content creation in Lokalise for new Meal Shake and Creatine products"
+    },
+    {
+      "description": "Greens PDP image update flagged until assets are available",
+      "issue_key": "RTEVMS-2410",
+      "owner": "Unassigned",
+      "impact": "Cannot update Greens product images on product detail page"
+    },
+    {
+      "description": "Updated copy needed for Welcome Kit SNS orders",
+      "issue_key": "RTEVMS-2418",
+      "owner": "Unassigned",
+      "impact": "Cannot update Welcome Kit messaging to clarify SNS-only applicability"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Mentioned in comments requesting updated copy for Welcome Kit",
+      "issues": [
+        "RTEVMS-2418"
+      ]
+    },
+    {
+      "name": "Edwin Torres",
+      "type": "person",
+      "context": "Assigned to OTP UAT dashboard shipping status bug",
+      "issues": [
+        "RTEVMS-2423"
+      ]
+    },
+    {
+      "name": "products-service",
+      "type": "system",
+      "context": "Service where new product SKUs need to be created with required schema",
+      "issues": [
+        "RTEVMS-2430",
+        "RTEVMS-2429"
+      ]
+    },
+    {
+      "name": "price-service",
+      "type": "system",
+      "context": "Service where pricing information for new products needs to be added",
+      "issues": [
+        "RTEVMS-2434"
+      ]
+    },
+    {
+      "name": "CCM",
+      "type": "system",
+      "context": "Content management system where recipes, menus, and menu slot selections need to be created for new products",
+      "issues": [
+        "RTEVMS-2433"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "type": "system",
+      "context": "Database catalog where new SKUs with specs and image links need to be created",
+      "issues": [
+        "RTEVMS-2431"
+      ]
+    },
+    {
+      "name": "Lokalise",
+      "type": "system",
+      "context": "Localization platform where copy sections for new products need to be created",
+      "issues": [
+        "RTEVMS-2428"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag management system for controlling new product rendering",
+      "issues": [
+        "RTEVMS-2432"
+      ]
+    },
+    {
+      "name": "AWS S3",
+      "type": "system",
+      "context": "Storage bucket for product images to be served through CDN",
+      "issues": [
+        "RTEVMS-2427"
+      ]
+    },
+    {
+      "name": "Google Drive",
+      "type": "system",
+      "context": "Storage location for new product images before AWS upload",
+      "issues": [
+        "RTEVMS-2426"
+      ]
+    },
+    {
+      "name": "Daily Greens",
+      "type": "product",
+      "context": "Product requiring image updates and Prop 65 disclaimers",
+      "issues": [
+        "RTEVMS-2410",
+        "RTEVMS-2409",
+        "RTEVMS-2418"
+      ]
+    },
+    {
+      "name": "Meal Shake",
+      "type": "product",
+      "context": "New product being introduced to VMS assortment",
+      "issues": [
+        "RTEVMS-2412",
+        "RTEVMS-2449",
+        "RTEVMS-2425"
+      ]
+    },
+    {
+      "name": "Creatine",
+      "type": "product",
+      "context": "New product being introduced to VMS assortment",
+      "issues": [
+        "RTEVMS-2412",
+        "RTEVMS-2436",
+        "RTEVMS-2425"
+      ]
+    },
+    {
+      "name": "California Prop 65",
+      "type": "feature",
+      "context": "Regulatory compliance requirement for ingredient warnings",
+      "issues": [
+        "RTEVMS-2409"
+      ]
+    },
+    {
+      "name": "VMS",
+      "type": "project",
+      "context": "Vitamin and supplement subscription service",
+      "issues": [
+        "RTEVMS-2412",
+        "RTEVMS-2424"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Multi-service product setup workflow",
+      "context": "New products require coordinated updates across products-service, price-service, MongoDB catalog, CCM, Lokalise, and AWS S3 - indicating a distributed product data architecture"
+    },
+    {
+      "pattern": "Feature flag driven releases",
+      "context": "Using Statsig for feature flags to control new product visibility, enabling gradual rollout and quick rollback capability"
+    },
+    {
+      "pattern": "SKU-based product management",
+      "context": "Products are managed through SKUs with spreadsheet-based generation using macros, then distributed to various services via CSV files"
+    },
+    {
+      "pattern": "CDN-based image delivery",
+      "context": "Images stored in AWS S3 and served through CDN for performance optimization"
+    },
+    {
+      "pattern": "Sliding cart pattern",
+      "context": "Moving from direct checkout navigation to sliding cart overlay for better user experience and cart review"
+    },
+    {
+      "pattern": "Subscription vs OTP separation",
+      "context": "System distinguishes between subscription (SNS) and one-time purchase (OTP) orders with different messaging, restrictions, and user flows"
+    }
+  ],
+  "work_themes": [
+    "New Product Development (NPD)",
+    "E-commerce UX improvements",
+    "OTP/Subscription functionality refinement",
+    "Regulatory compliance",
+    "Content and asset management",
+    "Multi-service data synchronization",
+    "UAT bug fixes",
+    "Feature flag implementation"
+  ],
+  "dependencies": [
+    {
+      "from": "Development team",
+      "to": "Design team",
+      "context": "Copy creation for new products blocked until designs are finalized"
+    },
+    {
+      "from": "Development team",
+      "to": "Commercial team",
+      "context": "Greens image updates waiting on asset delivery from commercial team"
+    },
+    {
+      "from": "Development team",
+      "to": "Content team",
+      "context": "Welcome Kit and discount messaging updates require copy from content team"
+    },
+    {
+      "from": "products-service",
+      "to": "SKU spreadsheet generation",
+      "context": "Product service depends on CSV files generated from SKU spreadsheet macros"
+    },
+    {
+      "from": "Catalog (MongoDB)",
+      "to": "AWS S3/CDN",
+      "context": "Product catalog references images stored in S3 and served via CDN"
+    },
+    {
+      "from": "Frontend",
+      "to": "Statsig",
+      "context": "UI rendering of new products controlled by feature flags in Statsig"
+    },
+    {
+      "from": "Checkout flow",
+      "to": "price-service",
+      "context": "Checkout depends on pricing information from price-service"
+    }
+  ]
+}

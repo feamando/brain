@@ -1,0 +1,1451 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W36",
+  "extracted_at": "2026-01-02T10:47:52.072174Z",
+  "message_count": 5,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U03PN0VRC2F",
+      "text": "<@U03PN0VRC2F> has left the channel",
+      "type": "message",
+      "ts": "1757321122.441569"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U0251UW1YUE>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* CCM / Menu / AddOns / Menu Replacement\n\n\n:mag: *Issue reported:*\nRequest from another channel: Hi team, can we swap index `293` for index `5` in all upcoming weeks (W37 onward). Thanks\n\n\n:footprints: *Steps to reproduce:*\nN/A",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756979804.394789",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756979804.394789",
+      "reply_count": 13,
+      "reply_users_count": 4,
+      "latest_reply": "1756997585.407689",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U0251UW1YUE",
+        "U01B2LBUPND",
+        "U01AKGWGLC8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1TmmA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0251UW1YUE",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "CCM / Menu / AddOns / Menu Replacement"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Request from another channel: Hi team, can we swap index "
+                },
+                {
+                  "type": "text",
+                  "text": "293",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " for index "
+                },
+                {
+                  "type": "text",
+                  "text": "5",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " in all upcoming weeks (W37 onward). Thanks"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U0251UW1YUE"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756979808.848809",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756979888.099589",
+          "client_msg_id": "d0730814-0418-41d0-979e-b1042389866a",
+          "text": "hey <@U01B2LBUPND> we got your request to swap index `293` for index `5` in all upcoming weeks (W37 onward) but we need up to which week you need this change\n\ncan you share this info please so i can generate it timely for you? thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "091Lh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": " we got your request to swap index "
+                    },
+                    {
+                      "type": "text",
+                      "text": "293",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for index "
+                    },
+                    {
+                      "type": "text",
+                      "text": "5",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in all upcoming weeks (W37 onward) but we need up to which week you need this change\n\ncan you share this info please so i can generate it timely for you? thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756979980.910679",
+          "edited": {
+            "user": "U0251UW1YUE",
+            "ts": "1756980031.000000"
+          },
+          "client_msg_id": "b989b2e8-6aea-4c33-8662-bef6fde40f26",
+          "text": "also feel free to raise these menu replacement requests here on our public channel so if we need to follow up with the request we can reach out easily in the thread :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pTazg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "also feel free to raise these menu replacement requests here on our public channel so if we need to follow up with the request we can reach out easily in the thread "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "+1",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756979985.432549",
+          "client_msg_id": "0e27d235-5cb2-47c0-b640-2b48f3de58ec",
+          "text": "cc <@U01AKGWGLC8>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NEyeB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "cc "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01B2LBUPND",
+          "type": "message",
+          "ts": "1756980753.152309",
+          "client_msg_id": "472223B9-73CB-40F8-A60E-21C3AC1637B5",
+          "text": "Thanks Bolo",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "j76xm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Bolo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756982896.292119",
+          "client_msg_id": "c71215e4-0129-491c-9a00-1f6d35fb6c11",
+          "text": "no worries! but let me know from W37 to which week i need to do these changes <@U01B2LBUPND> :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HYRaP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no worries! but let me know from W37 to which week i need to do these changes "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756985105.406409",
+          "client_msg_id": "d2407389-4b23-4992-8960-62d56015504d",
+          "text": "<@U01B2LBUPND> we have menus right now til W49 on CCM I see, should we do this W37 - W49 then?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iRbLq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": " we have menus right now til W49 on CCM I see, should we do this W37 - W49 then?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01B2LBUPND",
+          "type": "message",
+          "ts": "1756985182.544219",
+          "client_msg_id": "27418801-DD6E-4E91-A8DE-D4C96B648E53",
+          "text": "Correct. 12 weeks out ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GO1+z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Correct. 12 weeks out "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01AKGWGLC8",
+                "U0251UW1YUE"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756985371.943809",
+          "client_msg_id": "76375073-430c-4559-ad83-6492c0cec499",
+          "text": "in this particular case you mentioned we're doing the swap so that we can permanently discontinue the `293` SKU\n\ndoes it mean after W49 we'd have to do the same swaps or when you create the next set of menus, can you directly replace it to index `5` yourself?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QAxwL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "in this particular case you mentioned we're doing the swap so that we can permanently discontinue the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "293",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " SKU\n\ndoes it mean after W49 we'd have to do the same swaps or when you create the next set of menus, can you directly replace it to index "
+                    },
+                    {
+                      "type": "text",
+                      "text": "5",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " yourself?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01B2LBUPND",
+          "type": "message",
+          "ts": "1756989932.674069",
+          "client_msg_id": "455b5f1d-43ff-4bff-ad3b-d9caac3fba1c",
+          "text": "Because we're making the change on a relatively large time range (12 weeks), nearly all active customers are updated and we dont need to do it again.\n\nThat being said, reactivations can still see the discontinued product. That's usually a very very small number of orders and we monitor it so if it grows we'll do another swap.\n\nIf we wanted to fix this, we'd need to have a way to make the substitution in customers selections directly rather than in boxes",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gnTVU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Because we're making the change on a relatively large time range (12 weeks), nearly all active customers are updated and we dont need to do it again.\n\nThat being said, reactivations can still see the discontinued product. That's usually a very very small number of orders and we monitor it so if it grows we'll do another swap.\n\nIf we wanted to fix this, we'd need to have a way to make the substitution in customers selections directly rather than in boxes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756990327.491739",
+          "client_msg_id": "363dcd31-3759-4d4d-912e-82e56cef8e13",
+          "text": "understood thanks for the context",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0gMxs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "understood thanks for the context"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "okay it took a while but here you go all the replacements CVs <@U01B2LBUPND> :saluting-face:",
+          "files": [
+            {
+              "id": "F09D437RLP9",
+              "created": 1756994041,
+              "timestamp": 1756994041,
+              "name": "Menu Replacement W37 - W49.zip",
+              "title": "Menu Replacement W37 - W49.zip",
+              "mimetype": "application/zip",
+              "filetype": "zip",
+              "pretty_type": "Zip",
+              "user": "U0251UW1YUE",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 709442,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09D437RLP9/menu_replacement_w37_-_w49.zip",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09D437RLP9/download/menu_replacement_w37_-_w49.zip",
+              "media_display_type": "unknown",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09D437RLP9/menu_replacement_w37_-_w49.zip",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09D437RLP9-cc623e4278",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0251UW1YUE",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "k4ipr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "okay it took a while but here you go all the replacements CVs "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "saluting-face"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1756994084.956779",
+          "client_msg_id": "2e3a598a-f8c9-4aad-a119-f1ace5236b05",
+          "thread_ts": "1756979804.394789"
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756997585.407689",
+          "client_msg_id": "472668e6-a875-4946-9c34-2fc7f4062f9e",
+          "text": "Thank you bolo!!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756979804.394789",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Y4qZ5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you bolo!!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U03HCD899EJ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\nPR with mostly tests to add additional Contentful translation keys in the Discount Communication components for sub-brands. This is not active in Factor Form yet (PR to follow) so all should be BAU for GoodChop.\n\nEverything sub-branded is optional and defaults to false, so there is not functional change to GoC banner.\n\nCan I please get a review and QA of this?\n<https://github.com/hellofresh/web/pull/57090>\n\n\n:footprints: *Steps to reproduce:*\nN/A",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1756954927.799499",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1756954927.799499",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1756991324.199339",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U044SKGT4R5",
+        "U03HCD899EJ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GY/O4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03HCD899EJ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "PR with mostly tests to add additional Contentful translation keys in the Discount Communication components for sub-brands. This is not active in Factor Form yet (PR to follow) so all should be BAU for GoodChop.\n\nEverything sub-branded is optional and defaults to false, so there is not functional change to GoC banner.\n\nCan I please get a review and QA of this?\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/hellofresh/web/pull/57090"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U044SKGT4R5"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1756954932.096209",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi Tamir, thanks for your query\nI have a question related to QA\nWith MWD account, I am able to test the modal (refer screenshot) :white_check_mark:\n\nFor BAU (refer screenshot 2), I can't the banner on which I can click :yellow-square:\ncreds: `<mailto:bau+2@gc.com|bau+2@gc.com>` pass:123456\ncould you check or let me know where i can test this?",
+          "files": [
+            {
+              "id": "F09DY33700Z",
+              "created": 1756986794,
+              "timestamp": 1756986794,
+              "name": "Screenshot 2025-09-04 at 13.46.17.png",
+              "title": "Screenshot 2025-09-04 at 13.46.17.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U044SKGT4R5",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 857457,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09DY33700Z/screenshot_2025-09-04_at_13.46.17.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09DY33700Z/download/screenshot_2025-09-04_at_13.46.17.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 234,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 312,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 468,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 520,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 624,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09DY33700Z-6304a329b2/screenshot_2025-09-04_at_13.46.17_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 666,
+              "original_w": 2532,
+              "original_h": 1646,
+              "thumb_tiny": "AwAgADCwJXDdRtx0pfNf1/SmUUAP81/X9KTzX5+br7DinrbpIgZs559KVLVR8xLbvfH+FAEfmvu68Y6UFyRggU2igBrqGA3DIzRx1JPHOM0NuwNuOvel7cc0AWoP9Uv40/PzY56Z6VWimKoAVyR7077T833Mf8CoAhLBSAe9NaJGbLLkn3pWzkYxjvSjOOetAH//2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09DY33700Z/screenshot_2025-09-04_at_13.46.17.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09DY33700Z-a08750a5d1",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            },
+            {
+              "id": "F09DDKANEJX",
+              "created": 1756986833,
+              "timestamp": 1756986833,
+              "name": "Screenshot 2025-09-04 at 13.53.50.png",
+              "title": "Screenshot 2025-09-04 at 13.53.50.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U044SKGT4R5",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 689800,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09DDKANEJX/screenshot_2025-09-04_at_13.53.50.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09DDKANEJX/download/screenshot_2025-09-04_at_13.53.50.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 238,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 317,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 476,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 529,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 635,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09DDKANEJX-d4c29a4bd9/screenshot_2025-09-04_at_13.53.50_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 677,
+              "original_w": 2532,
+              "original_h": 1674,
+              "thumb_tiny": "AwAgADDR2Y7mjb7mnE4BOM+woByAcY9jQA3Z/tNRt9zSOm51JCHb0yuSPpRHEsZyEQHHVVxQAuz3NJ5adMe/Sn1E8+xyvlStjuq5FAEjAHBJwR0NGPelP0zQelACAd85zQPTNKOnTFGBnOKAEpcUY5ooA//Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09DDKANEJX/screenshot_2025-09-04_at_13.53.50.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09DDKANEJX-ebd616ae48",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U044SKGT4R5",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0TDge",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Tamir, thanks for your query\nI have a question related to QA\nWith MWD account, I am able to test the modal (refer screenshot) "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "white_check_mark",
+                      "unicode": "2705"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nFor BAU (refer screenshot 2), I can't the banner on which I can click "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "yellow-square"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\ncreds: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:bau+2@gc.com",
+                      "text": "bau+2@gc.com",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " pass:123456\ncould you check or let me know where i can test this?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1756986979.011579",
+          "client_msg_id": "32878475-4edc-44c8-aa08-5f21ddabefda",
+          "thread_ts": "1756954927.799499"
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756987580.113149",
+          "client_msg_id": "247A49B7-0AF5-43DD-9D3E-2A94A0892405",
+          "text": "thanks for testing <@U044SKGT4R5>. I don’t think I understand the issue. I am happy to check, but could you elaborate a bit about the expectation?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Lo10B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks for testing "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U044SKGT4R5"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". I don’t think I understand the issue"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " I am happy to check, but could you elaborate a bit about the expectation?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1756988255.479869",
+          "client_msg_id": "f4cf2606-08a2-4220-9cbf-2b7cdb7258aa",
+          "text": "So I created a fresh account without any MWD voucher...\nSo as per PR description, I'm trying to test following points:\n\n*BAU\n• Should show the discount inline banner\n• Should show the modal when clicked\n• Modal should show 1 in progress, 2 left\nI can't see any banner (refer second screenshot)... how can I test this?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tWuLf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So I created a fresh account without any MWD voucher...\nSo as per PR description, I'm trying to test following points:\n\n*BAU\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Should show the discount inline banner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Should show the modal when clicked"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Modal should show 1 in progress, 2 left"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nI can't see any banner (refer second screenshot)... how can I test this?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756988680.806019",
+          "client_msg_id": "99159E93-1711-4CEB-88CE-A4D8A41C4BB5",
+          "text": "sorry, I guess how I wrote it isn’t great. BAU for the banner is what I meant vs. any changed behaviour for it.\n\nIf you created an account without any multi week voucher and you don’t see the banner, that’s correct behaviour. it should only show if there are multiple discounts as I understand it, which you were able to confirm already",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RO7SS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sorry, I guess how I wrote it "
+                    },
+                    {
+                      "type": "text",
+                      "text": "isn’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " great"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " BAU for the banner is what I meant vs"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " any changed behaviour for it"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nIf you created an account without any multi week voucher and you "
+                    },
+                    {
+                      "type": "text",
+                      "text": "don’t see"
+                    },
+                    {
+                      "type": "text",
+                      "text": " the banner, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "that’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " correct behaviour"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " it should only show if there are multiple discounts as I understand it, which you were able to confirm already"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob-ooh",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756990743.945499",
+          "client_msg_id": "4571D7C2-90E3-46DF-A760-1D670A13ADC5",
+          "text": "does that help or can I provide additional info?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6wf3T",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "does that help or can I provide additional info?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1756991237.193449",
+          "client_msg_id": "be731d16-ea8c-4d29-9a3d-4624881cf919",
+          "text": "Yeeep was in a meeting, that works :blob-ok: I'm just gonna approve :white_check_mark:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cqQ25",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yeeep was in a meeting, that works "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blob-ok"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I'm just gonna approve "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "white_check_mark",
+                      "unicode": "2705"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03HCD899EJ",
+          "type": "message",
+          "ts": "1756991324.199339",
+          "client_msg_id": "70B0563F-BB96-4BC4-9784-7EAE4066DF47",
+          "text": "no worries, thanks for the review! I’ll make sure to have clear testing instructions on future PRs",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756954927.799499",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "j836W",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no worries, thanks for the review! I’ll"
+                    },
+                    {
+                      "type": "text",
+                      "text": " make sure to have clear testing instructions on future PRs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobthumbsup",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03HCD899EJ",
+      "text": "<@U03HCD899EJ> has joined the channel",
+      "type": "message",
+      "ts": "1756954786.799549"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "UNFGMLDLP",
+      "text": "<@UNFGMLDLP> has left the channel",
+      "type": "message",
+      "ts": "1756731285.248279"
+    }
+  ]
+}

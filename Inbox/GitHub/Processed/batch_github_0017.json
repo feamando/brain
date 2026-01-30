@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0017",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "a06c06e4",
+      "message": "feat(RTEVMS-2264): Added usePersistShippingAddress when OTP is enabled (#60409)",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-11-13T19:44:38Z",
+      "url": "https://github.com/hellofresh/web/commit/a06c06e420b5ae18c9c9693dd7ed8576a0304a8f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "916d6482",
+      "message": "[GOC-3293] Removing additional tax inclusion (#60449)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-13T16:37:32Z",
+      "url": "https://github.com/hellofresh/web/commit/916d64823fbd4050fbfb4c8ed1b89f669a851a38",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9b2e8a69",
+      "message": "[RTEVMS-2279] Factor Form | VMS spans fix (#60436)\n\n* remove sku trace, remove tracer from dependency array for cart data\n\n* remove span since migration is complete",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-13T16:37:01Z",
+      "url": "https://github.com/hellofresh/web/commit/9b2e8a69a459965722d60f162bbbb7eb8ab7a127",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "998b376c",
+      "message": "[GOC-3293] Use voucher for active prices (#60272)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-13T14:31:56Z",
+      "url": "https://github.com/hellofresh/web/commit/998b376c3511d0b4eba6efa2381ea5a37728320a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "3da3c6f0",
+      "message": "[RTEVMS-2269] Factor Form: Adding in lokalise keys for Multi-Cadence feature (#60327)\n\n* feature/RTEVMS-2269: Adding in lokalise keys\n\n* feature/RTEVMS-2269: updating lokalise values\n\n* feature/RTEVMS: empty commit to retrigger workflows",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-13T14:21:03Z",
+      "url": "https://github.com/hellofresh/web/commit/3da3c6f0b29acd5b09aa6b9f855ed5c20826f9b0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f3d909f9",
+      "message": "[TPT-2111]: refactor simplified reschedule (#60415)",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-13T10:19:43Z",
+      "url": "https://github.com/hellofresh/web/commit/f3d909f921170110a81e85e09c92efddc7acefdb",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "bf5c1155",
+      "message": "[GOC-3294] Uses reactivations/checkout/price endpoint in YourPlanSection component (#60275)\n\n* [GOC-3294] Uses useReactivationPricing in YourPlanSection\n\n* [GOC-3294] Minor refactor\n\n* [GOC-3294] Removes subscription selector\n\n* [GOC-3294] Removes screen\n\n* [GOC-3294] Does not count shipping discount in plan price\n\n* [GOC-3294] Updates prices based on new Price interface\n\n* [GOC-3294] Renders spinner instead of price when prices are not available",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-13T09:20:27Z",
+      "url": "https://github.com/hellofresh/web/commit/bf5c1155160460650bf9a322ce19d26a933b04e6",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "d05b2b21",
+      "message": "[GOC-3293] useCustomerTypeBasedSkuPricing (#60269)\n\n* useStateBasedSkuPricing\n\n* Rename to useCustomerTypeBasedSkuPricing",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-13T07:48:56Z",
+      "url": "https://github.com/hellofresh/web/commit/d05b2b21d84b119ea1894c49ed6f0409d4e76d9e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "ba2ebf5f",
+      "message": "[GOC-3293] Change Price interface (#60342)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-12T13:43:38Z",
+      "url": "https://github.com/hellofresh/web/commit/ba2ebf5f55563cda787ed0f8301a5b9cde6722c5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "b2369e8f",
+      "message": "[TPT-2328]Fix multi-pet checkout redirection issues (#60354)\n\n* fix multi-pet checkout redirection issues\n\n* Fixing test and adding comment",
+      "author": "Ahmed Wagdi",
+      "author_email": "aw@hellofresh.com",
+      "date": "2025-11-12T13:29:09Z",
+      "url": "https://github.com/hellofresh/web/commit/b2369e8fb8f27f1affcf1a59c70095c6c1bf1045",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2d55f6da",
+      "message": "[TPT-2321] Clean up tpt-reactivation-refactor flag usage (#60299)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-12T13:12:11Z",
+      "url": "https://github.com/hellofresh/web/commit/2d55f6daf7fd36c6f5ea4a8f10213a0c656078d4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "3b59bad6",
+      "message": "[TPT-2315] Remove tpt_air_dried_cadence feature flag (#60282)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-12T12:37:27Z",
+      "url": "https://github.com/hellofresh/web/commit/3b59bad67314a39fd0fd7936240380e38a11efa3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ffc79941",
+      "message": "[GOC-3199] Hide voucher input on Collapsible Order Summary (#60285)\n\n* remove voucher code form from order summary in OTP case\n\n* Improve OTP test cases\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-11-12T11:44:27Z",
+      "url": "https://github.com/hellofresh/web/commit/ffc799412a58256fbafaa7b9e2bcee1bea194c9e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "f74ee88d",
+      "message": "[TPT-2151] delivery details component (#59962)\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component\n\n* [TPT-2151] delivery details component",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-11-12T10:04:05Z",
+      "url": "https://github.com/hellofresh/web/commit/f74ee88dce893fa47db2195a8068b7babc2a799b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "6c34b2f2",
+      "message": "[TPT-2247]: refactor interceptors (#60335)",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-12T09:47:25Z",
+      "url": "https://github.com/hellofresh/web/commit/6c34b2f2fd2d0eb8e1014d6eafc33fc027dcafe5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8fb05a36",
+      "message": "[GOC-3201] Update OTP attributes in Detail product change gtm event (#59846)\n\n* implement productDetail change event in otp\n\n* push tests\n\n* update ts lint and test errs\n\n* adjust tests with updated master",
+      "author": "Madeeha Hasan",
+      "author_email": "33419910+madeeha96@users.noreply.github.com",
+      "date": "2025-11-12T08:59:44Z",
+      "url": "https://github.com/hellofresh/web/commit/8fb05a3696d248b509a24497e8a1b98cf34128fd",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "2c02e524",
+      "message": "[TPT-2235] Use PlansPriceForActiveUsers component in change-plan screen (#60114)\n\n* [TPT-2235] Use PlansPriceForActiveUsers component in change-plan screen\n\n* [TPT-2235] Fix PlanCardV2 to handle undefined asPath in tests\n\n* [TPT-2235] Create usePathName hook to handle asPath.split logic for Whitelabel",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-11T15:54:47Z",
+      "url": "https://github.com/hellofresh/web/commit/2c02e52481a52e33572814990a14d7d790a00ec2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "917b13d9",
+      "message": "[GOC-3322] Send addons metadata when placing order  (#60196)\n\n* [GOC-3312] Un-quarantined checkoutWithTwoWeekCadence e2e\n\n* [GOC-3322] Updates schema\n\n* [GOC-3322] Adds addons metadata builder\n\n* [GOC-3322] Adds early return\n\n* [GOC-3322] Send addons metadata when placing order\n\n* Revert \"[GOC-3312] Un-quarantined checkoutWithTwoWeekCadence e2e\"\n\nThis reverts commit 87261d7a3bb831e68d4832dc6857dabc20271985.\n\n* [GOC-3322] Export type and fixes tests\n\n* [GOC-3322] Make metadata all required\n\n* [GOC-3322] Moves error after loading\n\n* [GOC-3322] Updates comment\n\n* [GOC-3322] Removes selector for week in place order\n\n* [GOC-3322] Removes useSelector",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-11T14:32:08Z",
+      "url": "https://github.com/hellofresh/web/commit/917b13d92708a737910086d8800ffce21d4da41d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "5e184e47",
+      "message": "[TPT-2125] Refactor settings test (#60273)\n\n* [TPT-2125]: refactor settings test\n\n* code review fixes",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-11T13:34:49Z",
+      "url": "https://github.com/hellofresh/web/commit/5e184e472c51af3184af3c4255335492f535a975",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ffed5f3a",
+      "message": "[TPT-2273] Add remaining credits message to change plan confirmation screen (#60208)\n\n* [TPT-2273] Create RemainingCreditsMessage component\n\n* [TPT-2273] Implement cash credits in confirm plan changes screen\n\n* [TPT-2273] Remove optional chaining from balance\n\n* [TPT-2273] Address accessibility comments\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-11T13:16:09Z",
+      "url": "https://github.com/hellofresh/web/commit/ffed5f3a826ada59499472a7b583910849c8e57d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-11T13:16:09Z",
+    "newest": "2025-11-13T19:44:38Z"
+  }
+}

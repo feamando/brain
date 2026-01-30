@@ -1,0 +1,1077 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W48",
+  "extracted_at": "2026-01-02T10:45:43.837561Z",
+  "message_count": 6,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1764584380.826179",
+      "client_msg_id": "6fa555f5-9bee-445f-a77d-c2bf0863de3c",
+      "text": "Hey folks,\n*Context:* The CMA is beginning to create the Q1 Plan for 2026. To kick off the process, we're asked to come up with a high level overview of our Q1 plans this week. On Thursday there will be a Workshop that will go through the proposed plan.\n*Ask:* Could you share any roadmaps/drafts etc. for Q1 2026 that you might have?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1764584380.826179",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1764605629.300099",
+      "reply_users": [
+        "U03UMPD2NNS",
+        "U09D8BZ9891",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "722nz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks,\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Context: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "The CMA is beginning to create the Q1 Plan for 2026. To kick off the process, we're asked to come up with a high level overview of our Q1 plans this week. On Thursday there will be a Workshop that will go through the proposed plan.\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Ask: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Could you share any roadmaps/drafts etc. for Q1 2026 that you might have?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "text": "TPT's 2026 roadmap <https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0|here>",
+          "files": [
+            {
+              "id": "F09QB7FBRPF",
+              "created": 1762184534,
+              "timestamp": 1762184534,
+              "name": "Draft 2026 Roadmap",
+              "title": "Draft 2026 Roadmap",
+              "mimetype": "application/vnd.google-apps.spreadsheet",
+              "filetype": "gsheet",
+              "pretty_type": "Google Sheets",
+              "user": "U03UMPD2NNS",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 0,
+              "mode": "external",
+              "is_external": true,
+              "external_type": "gdrive",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "external_id": "1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0",
+              "external_url": "https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0",
+              "url_private": "https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_360.png",
+              "thumb_360_w": 254,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_480.png",
+              "thumb_480_w": 339,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_720.png",
+              "thumb_720_w": 509,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 1132,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_960.png",
+              "thumb_960_w": 678,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09QB7FBRPF-7608e7cf14/draft_2026_roadmap_1024.png",
+              "thumb_1024_w": 724,
+              "thumb_1024_h": 1024,
+              "original_w": 1024,
+              "original_h": 1449,
+              "thumb_tiny": "AwAwACLRZwrBT370K4YZoZeQwGSKMnGNjY/CgB1IDmlH0oHFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09QB7FBRPF/draft_2026_roadmap",
+              "is_starred": false,
+              "skipped_shares": true,
+              "app_id": "A6NL8MJ6Q",
+              "has_rich_preview": true,
+              "file_access": "visible",
+              "entity_id": "W:A6NL8MJ6Q:1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0",
+              "full_size_preview_supported": true
+            }
+          ],
+          "upload": false,
+          "user": "U03UMPD2NNS",
+          "display_as_bot": false,
+          "x_files": [
+            "F09QB7FBRPF"
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kIq2h",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TPT's 2026 roadmap "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0",
+                      "text": "here"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764585777.999299",
+          "client_msg_id": "72763a62-524f-4ffb-a95d-b267d148bbf3",
+          "thread_ts": "1764584380.826179",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "from_url": "https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0",
+              "id": 579406648,
+              "bot_id": "B79TAGCE4",
+              "is_app_unfurl": true,
+              "app_unfurl_url": "https://docs.google.com/spreadsheets/d/1mgI8Yds08gO2mbTBMCo6R4rPus3-p6mXqDRnPd1R-T0/edit?gid=0#gid=0"
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764601974.579909",
+          "client_msg_id": "b0cccce2-a649-4024-a929-d799c4b7db48",
+          "text": "Here's the one for VMS:\n<https://docs.google.com/spreadsheets/d/1fPjiJ1rN6_x6a247xv0klrxXNUpwTi5d0lEac0fBUVM/edit?gid=277229789#gid=277229789>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764584380.826179",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uktiG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here's the one for VMS:\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1fPjiJ1rN6_x6a247xv0klrxXNUpwTi5d0lEac0fBUVM/edit?gid=277229789#gid=277229789"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1764605629.300099",
+          "client_msg_id": "624c60f4-ea82-4cba-b634-432c1b07fba6",
+          "text": "thank you!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764584380.826179",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "afEI5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "pray",
+              "users": [
+                "U09D8BZ9891"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09UKDH3AA0",
+      "text": "<@U09UKDH3AA0> has joined the channel",
+      "inviter": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1764583020.291489"
+    },
+    {
+      "user": "U1GA9435H",
+      "type": "message",
+      "ts": "1764336887.758559",
+      "client_msg_id": "0909EB55-91C6-4572-B8DA-C9E0319C9209",
+      "text": "Into that! I’d love to hear more about all the plans. :rocket:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+kojG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Into that! "
+                },
+                {
+                  "type": "text",
+                  "text": "I’d"
+                },
+                {
+                  "type": "text",
+                  "text": " love to hear more about all the plans. "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "unicode": "1f680"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1764326164.997189",
+      "client_msg_id": "3C620D8B-6F31-4DBE-80B8-E7F35E6DFA42",
+      "text": "Yes, great idea! ",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OzK0C",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Yes, great idea! "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U01AKGWGLC8",
+      "type": "message",
+      "ts": "1764323957.988479",
+      "client_msg_id": "41d19d48-6d36-43b0-b35e-d3d3c23c6306",
+      "text": "I think it would be helpful if we have a 1-2hr workshop where we share each other's 2026 roadmaps in more detail to see where we could join forces. I'll find some time maybe in W51 cc <@U03UMPD2NNS> <@U1GA9435H> <@U09D8BZ9891> <@U03TY4YJU4X>",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MSChz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I think it would be helpful if we have a 1-2hr workshop where we share each other's 2026 roadmaps in more detail to see where we could join forces. I'll find some time maybe in W51 cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U1GA9435H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09D8BZ9891"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03TY4YJU4X"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U03TY4YJU4X",
+            "U1GA9435H",
+            "U09D8BZ9891"
+          ],
+          "count": 3
+        },
+        {
+          "name": "+1::skin-tone-3",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        },
+        {
+          "name": "100",
+          "users": [
+            "U09D8BZ9891"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1764074670.971129",
+      "client_msg_id": "99db7659-f0e2-4fbc-9fe5-c5590601fb95",
+      "text": "Hey folks!\n<@U01AKGWGLC8> <@U09D8BZ9891> did the Customer Care team reach out to you regarding the unification of the \"contact us\" page across all brands?\nThey are planning some changes, one of which is the requirement to place the terms and conditions at the top of the page. Are you fine with the designs? Have you added any changes?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1764074670.971129",
+      "reply_count": 15,
+      "reply_users_count": 3,
+      "latest_reply": "1764168656.021549",
+      "reply_users": [
+        "U03UMPD2NNS",
+        "U09D8BZ9891",
+        "U01AKGWGLC8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CHjsc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks!\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09D8BZ9891"
+                },
+                {
+                  "type": "text",
+                  "text": " did the Customer Care team reach out to you regarding the unification of the \"contact us\" page across all brands?\nThey are planning some changes, one of which is the requirement to place the terms and conditions at the top of the page. Are you fine with the designs? Have you added any changes?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "text": "Here some screenshots of what they are planning:",
+          "files": [
+            {
+              "id": "F09V2SK3RCN",
+              "created": 1764074710,
+              "timestamp": 1764074710,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U03UMPD2NNS",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 92249,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V2SK3RCN/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V2SK3RCN/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 253,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 338,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 506,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 563,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 675,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09V2SK3RCN-dfea0366a4/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 720,
+              "original_w": 1213,
+              "original_h": 853,
+              "thumb_tiny": "AwAiADDRAw2cnP1NLmjd7Um72oAGLY+UAn3OKFLY+YAH0BzSGQjohP0IpFkLZyjL9SP6UAPzRSbval3e1ABt96Tb706igBoUHOCPejaO5604AemKRiQMhS3sMUAJt96Xb70tFABRRRQAUUUUAFFFFAH/2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V2SK3RCN/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09V2SK3RCN-2392319776",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03UMPD2NNS",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+JuKS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here some screenshots of what they are planning:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764074715.965219",
+          "client_msg_id": "7add04c5-08eb-4644-80e4-4e2abce09d73",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS"
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764074791.954469",
+          "client_msg_id": "0F6BBF10-55C6-45EB-9336-8E654198CC9D",
+          "text": "Hey Maria, they haven't reached out to me (yet), but having t&amp;c at the top doesn't sound like a good idea",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "X9/iN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Maria, they haven't reached out to me (yet), but having t&c at the top doesn't sound like a good idea"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764074809.653069",
+          "client_msg_id": "972C7808-6535-41CB-A98B-CF947A507605",
+          "text": "What's their rationale",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "66zn0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What's their rationale"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764074861.724169",
+          "client_msg_id": "8d3c749c-e675-453d-b389-258753a6a38c",
+          "text": "Legal, apparently this is a requirement.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "v5sVA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Legal, apparently this is a requirement."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "For HF the page has an additional component for reporting missing ingredients, which changes the perception of this page, as you get the chance to \"do something\" before you are faced with T&amp;Cs",
+          "files": [
+            {
+              "id": "F09V8FS0XFW",
+              "created": 1764074883,
+              "timestamp": 1764074883,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U03UMPD2NNS",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 163993,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V8FS0XFW/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V8FS0XFW/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_360.png",
+              "thumb_360_w": 71,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_480.png",
+              "thumb_480_w": 94,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_720.png",
+              "thumb_720_w": 141,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_800.png",
+              "thumb_800_w": 157,
+              "thumb_800_h": 800,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_960.png",
+              "thumb_960_w": 188,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09V8FS0XFW-ebace9c4d1/image_1024.png",
+              "thumb_1024_w": 201,
+              "thumb_1024_h": 1024,
+              "original_w": 328,
+              "original_h": 1671,
+              "thumb_tiny": "AwAwAArQ8z5iMHA/iyMUGKMnJjQk98Ck2LnOE565XrTxgDAwAKQDGJ348wD24zUgzgZ6004BJx/47TqYEboTIpGcDqd5H6d6koGe9FAH/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V8FS0XFW/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09V8FS0XFW-2881c2597e",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03UMPD2NNS",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3YcdA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For HF the page has an additional component for reporting missing ingredients, which changes the perception of this page, as you get the chance to \"do something\" before you are faced with T&Cs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1764074953.847609",
+          "client_msg_id": "4fa69a36-9e8e-4472-abc4-2b6f49541af9",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764074966.344959",
+          "client_msg_id": "923FB1E6-34DC-45BC-833D-F18C9942C6E7",
+          "text": "Other websites don't have it like that on the contact us page, so I'm wondering how they comply to legal requirements. There should be other options",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OwSlM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Other websites don't have it like that on the contact us page, so I'm wondering how they comply to legal requirements. There should be other options"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764075236.437859",
+          "client_msg_id": "2174daef-a78e-4d85-bc01-b085cfd435db",
+          "text": "<@U09D8BZ9891> actually, <https://www.factor75.com/factorform/contact|your page> is already updated with the new layout",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FigeE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": " actually, "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.factor75.com/factorform/contact",
+                      "text": "your page"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is already updated with the new layout"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764075354.352649",
+          "client_msg_id": "01472AD8-D74F-45D5-8119-8CF203B3969F",
+          "text": "Hhmm, I noticed it just now",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zPnT9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hhmm, I noticed it just now"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1764147765.717149",
+          "client_msg_id": "b5494d02-6799-46ed-b6dd-a7ad8ad33a67",
+          "text": "No I wasn't aware and see we also already have it Live",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ddp4l",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No I wasn't aware and see we also already have it Live"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1764147833.674679",
+          "edited": {
+            "user": "U01AKGWGLC8",
+            "ts": "1764147858.000000"
+          },
+          "client_msg_id": "e761f7e3-62d3-4d67-98c6-831c652fa5e0",
+          "text": "If it's a legal requirement to show the T&Cs then we can't really argue much but I think the wording and placement could be better\n\nI also think this part should be more distinct since it has nothing to do with the actual T&Cs\n> You can reach us by phone or chat Monday–Friday between 7:00am and 9:00pm EST, and on weekends between 7:00am and 7:00pm EST.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rI4jw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If it's a legal requirement to show the T&Cs then we can't really argue much but I think the wording and placement could be better\n\nI also think this part should be more distinct since it has nothing to do with the actual T&Cs\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_quote",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can reach us by phone or chat Monday–Friday between 7:00am and 9:00pm EST, and on weekends between 7:00am and 7:00pm EST."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1764147838.627299",
+          "client_msg_id": "cf3724fd-c94b-4e52-87ca-50a09c5913db",
+          "text": "do you know who the PM is?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8XLIv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "do you know who the PM is?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764152354.577259",
+          "client_msg_id": "cef6c8a2-b0ca-4912-a363-c57039249523",
+          "text": "<@U018RJT2FF0>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Oz0+z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018RJT2FF0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764152493.287239",
+          "client_msg_id": "30b9700f-c767-4d4e-9d24-d204e3a8ca87",
+          "text": "Okay, we all agree this should be improved, right?\nThey own this page now, so I believe we could ask them to do some changes, based on what we all agree to. Ideally we would share with them our proposal.\n\nWe are currently not having much design capacity, any chances that your designers could help <@U01AKGWGLC8> <@U09D8BZ9891>?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ib2wq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Okay, we all agree this should be improved, right?\nThey own this page now, so I believe we could ask them to do some changes, based on what we all agree to. Ideally we would share with them our proposal.\n\nWe are currently not having much design capacity, any chances that your designers could help "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": "?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764152654.836419",
+          "client_msg_id": "87732d6a-3bd1-4581-96d0-4a2cfcd8e996",
+          "text": "and I will start a conversation between us 4",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Vdina",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and I will start a conversation between us 4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1764168656.021549",
+          "client_msg_id": "0c0435e6-e046-4f97-a85f-8152da2adefd",
+          "text": "let me see if we can free up some designer time and get back to you",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764074670.971129",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LA/X+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "let me see if we can free up some designer time and get back to you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03UMPD2NNS"
+              ],
+              "count": 1
+            },
+            {
+              "name": "pray",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

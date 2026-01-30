@@ -1,0 +1,1898 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W47",
+  "extracted_at": "2026-01-02T10:48:49.891039Z",
+  "message_count": 6,
+  "messages": [
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1763751464.298619",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1763751464.298619",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1763993078.663289",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U03EN3N4KM4",
+        "U034ZF8M56X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U034ZF8M56X>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Voucher Error Notification Banner`\n*Topic:* `E2E Test / Unit Test`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team, I'm updating some E2E tests and need your help to understand the expected behaviour. \n\nThe voucher error notification banner only displays when either:\nIt's NOT in a reactivation route, OR\nIt's in a reactivation route AND both conditions are met:\nreactivationVoucherCode exists\nisReactivationVoucherReplacementEnabled is true\n\nRecent changes have removed the voucher replacement flow for GoodChop by setting reactivationvoucherreplacement RCS flag to false, causing PR tests to fail that expect the voucher error notification to appear when an invalid voucher is used during reactivation.\n\nIs it intentional that GoodChop no longer shows voucher error notifications when reactivationvoucherreplacement is disabled?`\n*Expected behaviour:* `Voucher notifiation banner to appear`\n*Actual behaviour:* `Voucher notification banner does not appear`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U034ZF8M56X>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Voucher Error Notification Banner`\n*Topic:* `E2E Test / Unit Test`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team, I'm updating some E2E tests and need your help to understand the expected behaviour. \n\nThe voucher error notification banner only displays when either:\nIt's NOT in a reactivation route, OR\nIt's in a reactivation route AND both conditions are met:\nreactivationVoucherCode exists\nisReactivationVoucherReplacementEnabled is true\n\nRecent changes have removed the voucher replacement flow for GoodChop by setting reactivationvoucherreplacement RCS flag to false, causing PR tests to fail that expect the voucher error notification to appear when an invalid voucher is used during reactivation.\n\nIs it intentional that GoodChop no longer shows voucher error notifications when reactivationvoucherreplacement is disabled?`\n*Expected behaviour:* `Voucher notifiation banner to appear`\n*Actual behaviour:* `Voucher notification banner does not appear`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1763751464.616989",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to E2E Test / Unit Test. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n E2E Test / Unit Test Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1763751464.298619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to E2E Test / Unit Test. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "E2E Test / Unit Test Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=E2E+Test+%2F+Unit+Test+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763972333.634369",
+          "edited": {
+            "user": "U03EN3N4KM4",
+            "ts": "1763972456.000000"
+          },
+          "client_msg_id": "be43a5fa-f0e3-4f6f-8dd7-23983ff0466d",
+          "text": "Hi <@U034ZF8M56X>, few weeks ago when we were testing something on Reactivation page (on Staging) we decided to turned this off to keep consistency with what we have on live environment where we don't have this voucher error notification, so yes it is intentional that we don't have it on Staging now either",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763751464.298619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kSDzG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U034ZF8M56X"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", few weeks ago when we were testing something on Reactivation page (on Staging) we decided to turned this off to keep consistency with what we have on live environment where we don't have this voucher error notification, so yes it is intentional that we don't have it on Staging now either"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U034ZF8M56X",
+          "type": "message",
+          "ts": "1763993071.062579",
+          "client_msg_id": "62E6E665-87AD-4106-ACBF-6CF3EDCA6227",
+          "text": "Thanks for confirming, I’ll update our tests.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763751464.298619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rNBy0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for confirming, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "I’ll"
+                    },
+                    {
+                      "type": "text",
+                      "text": " update our tests."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "partying_face",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            },
+            {
+              "name": "blob-thanks",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U034ZF8M56X",
+          "type": "message",
+          "ts": "1763993078.663289",
+          "edited": {
+            "user": "U034ZF8M56X",
+            "ts": "1763993142.000000"
+          },
+          "client_msg_id": "B14F0A3E-7997-4A18-96A4-432911604BB2",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763751464.298619",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YZDOx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "/"
+                    },
+                    {
+                      "type": "text",
+                      "text": "resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U034ZF8M56X",
+      "text": "<@U034ZF8M56X> has joined the channel",
+      "type": "message",
+      "ts": "1763748041.519979"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U09JSMTMA5A>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle:\n*Topic:* Other\n\n\n:mag: *Issue reported:*\nI need redirects for our 2026 Direct Mail landing pages:\n• <http://get.goodchop.com/mymove|get.goodchop.com/mymove> → <http://goodchop.com/mymove|goodchop.com/mymove>\n• <http://get.goodchop.com/jan26|get.goodchop.com/jan26> → <http://goodchop.com/jan26|goodchop.com/jan26>\n• <http://get.goodchop.com/feb26|get.goodchop.com/feb26> → <http://goodchop.com/feb26|goodchop.com/feb26>\n• <http://get.goodchop.com/mar26|get.goodchop.com/mar26> → <http://goodchop.com/mar26|goodchop.com/mar26>\n• <http://get.goodchop.com/apr26|get.goodchop.com/apr26> → <http://goodchop.com/apr26|goodchop.com/apr26>\n• <http://get.goodchop.com/may26|get.goodchop.com/may26> → <http://goodchop.com/may26|goodchop.com/may26>\n• <http://get.goodchop.com/jun26|get.goodchop.com/jun26> → <http://goodchop.com/jun26|goodchop.com/jun26>\n• <http://get.goodchop.com/jul26|get.goodchop.com/jul26> → <http://goodchop.com/jul26|goodchop.com/jul26>\n• <http://get.goodchop.com/aug26|get.goodchop.com/aug26> → <http://goodchop.com/aug26|goodchop.com/aug26>\n• <http://get.goodchop.com/sep26|get.goodchop.com/sep26> → <http://goodchop.com/sep26|goodchop.com/sep26>\n• <http://get.goodchop.com/oct26|get.goodchop.com/oct26> → <http://goodchop.com/oct26|goodchop.com/oct26>\n• <http://get.goodchop.com/nov26|get.goodchop.com/nov26> → <http://goodchop.com/nov26|goodchop.com/nov26>\n• <http://get.goodchop.com/dec26|get.goodchop.com/dec26> → <http://goodchop.com/dec26|goodchop.com/dec26>\n\n\n:footprints: *Steps to reproduce:*\nPlease redirect the above links",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1763681323.270059",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1763681323.270059",
+      "reply_count": 15,
+      "reply_users_count": 3,
+      "latest_reply": "1764686797.953679",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U03EN3N4KM4",
+        "U09JSMTMA5A"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3QFM8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09JSMTMA5A",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Other"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I need redirects for our 2026 Direct Mail landing pages:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/mymove",
+                      "text": "get.goodchop.com/mymove",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/mymove",
+                      "text": "goodchop.com/mymove"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jan26",
+                      "text": "get.goodchop.com/jan26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jan26",
+                      "text": "goodchop.com/jan26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/feb26",
+                      "text": "get.goodchop.com/feb26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/feb26",
+                      "text": "goodchop.com/feb26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/mar26",
+                      "text": "get.goodchop.com/mar26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/mar26",
+                      "text": "goodchop.com/mar26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/apr26",
+                      "text": "get.goodchop.com/apr26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/apr26",
+                      "text": "goodchop.com/apr26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/may26",
+                      "text": "get.goodchop.com/may26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/may26",
+                      "text": "goodchop.com/may26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jun26",
+                      "text": "get.goodchop.com/jun26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jun26",
+                      "text": "goodchop.com/jun26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jul26",
+                      "text": "get.goodchop.com/jul26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jul26",
+                      "text": "goodchop.com/jul26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/aug26",
+                      "text": "get.goodchop.com/aug26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/aug26",
+                      "text": "goodchop.com/aug26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/sep26",
+                      "text": "get.goodchop.com/sep26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/sep26",
+                      "text": "goodchop.com/sep26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/oct26",
+                      "text": "get.goodchop.com/oct26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/oct26",
+                      "text": "goodchop.com/oct26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/nov26",
+                      "text": "get.goodchop.com/nov26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/nov26",
+                      "text": "goodchop.com/nov26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/dec26",
+                      "text": "get.goodchop.com/dec26",
+                      "style": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/dec26",
+                      "text": "goodchop.com/dec26",
+                      "style": {
+                        "underline": true
+                      }
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Please redirect the above links"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": ":alert: PLEASE CHECK THE MESSAGE BELOW! :alert:\n\n\n:arrow_right: If your request is related to a *failing test*, please *<https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E|check this doc first>* for quick troubleshooting/assessment before raising the actual request.\n\n\n:alert: *PLEASE* FOLLOW THE DOC ABOVE *BEFORE* RAISING THE REQUEST :alert:",
+          "username": "Good Chop Support",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "actions",
+                  "block_id": "ubxKk",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "77e9cb64-d97f-4d19-8841-423ec1de05de",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "I still need help",
+                        "emoji": true
+                      },
+                      "style": "primary",
+                      "value": "button",
+                      "third_party_auth": {
+                        "enable_dynamic_auth": true
+                      }
+                    }
+                  ]
+                }
+              ],
+              "fallback": "[no preview available]"
+            }
+          ],
+          "type": "message",
+          "ts": "1763681326.639389",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "isJ2D",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    },
+                    {
+                      "type": "text",
+                      "text": " PLEASE CHECK THE MESSAGE BELOW! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n\n"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "arrow_right",
+                      "unicode": "27a1-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " If your request is related to a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "failing test",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", please "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E",
+                      "text": "check this doc first",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for quick troubleshooting/assessment before raising the actual request.\n\n\n"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " PLEASE",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " FOLLOW THE DOC ABOVE "
+                    },
+                    {
+                      "type": "text",
+                      "text": "BEFORE",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " RAISING THE REQUEST "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.\n\ncc: <!subteam^S06KVDQ9HND>",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1763681382.952879",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oKaT8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request.\n\ncc: "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S06KVDQ9HND"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.\n\ncc: <!subteam^S06KVDQ9HND>",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1763681385.628279",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oKaT8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request.\n\ncc: "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S06KVDQ9HND"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763711706.906169",
+          "client_msg_id": "87505eba-01e1-4b59-8dff-463292d9b45e",
+          "text": "Hey <@U09JSMTMA5A>, sure, I will take a look today, is there any deadline for this?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0qSpg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09JSMTMA5A"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", sure, I will take a look today, is there any deadline for this?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763723657.782769",
+          "client_msg_id": "6F724761-9943-4352-875C-805475FCD834",
+          "text": "<@U03EN3N4KM4> Hi Pamela, just need these by January! ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+MR7c",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Hi Pamela, just need these by January! "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob-noted",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763723946.015889",
+          "client_msg_id": "b29a50c3-eb22-422d-86f7-fb8d69225bb4",
+          "text": "oh perfect, I will spend some time EOD today and I will keep you updated when it's done, probably Monday",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7w2T0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "oh perfect, I will spend some time EOD today and I will keep you updated when it's done, probably Monday"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763732587.074389",
+          "client_msg_id": "3B52D696-5AFB-4FCB-82B3-F81BB31AC266",
+          "text": "Thank you so much! ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iwc8C",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you so much! "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763739793.002159",
+          "client_msg_id": "f3b518ae-ca97-4510-a131-d9e2953db683",
+          "text": "<@U09JSMTMA5A>, just out of curiosity, is there any benefit to keep the redirections from previous years?\nI noticed we have some like this: `/jan24*` or `/jan25`",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PO5/Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U09JSMTMA5A"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", just out of curiosity, is there any benefit to keep the redirections from previous years?\nI noticed we have some like this: "
+                    },
+                    {
+                      "type": "text",
+                      "text": "/jan24*",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " or "
+                    },
+                    {
+                      "type": "text",
+                      "text": "/jan25",
+                      "style": {
+                        "code": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763739827.881869",
+          "client_msg_id": "4B64335F-E0B0-41E1-A1D8-A453BAF2A4AE",
+          "text": "For tracking purposes ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JXkIR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For tracking purposes "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763748615.605059",
+          "client_msg_id": "b7ccc881-c54c-4122-99c0-0956cb6df46b",
+          "text": "<@U03EN3N4KM4> Hi! The re-directs were wrong in the first comment.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "04WPb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Hi! The re-directs were wrong in the first comment."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763748712.539179",
+          "client_msg_id": "7d71b646-3b08-4547-8d5b-d419c9161e12",
+          "text": "<@U03EN3N4KM4> It should be like this:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9BnVA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " It should be like this:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1763748721.890979",
+          "client_msg_id": "fde82cd9-432f-4de0-b224-3e244fe8b695",
+          "text": "<http://goodchop.com/mymove|goodchop.com/mymove> → <http://get.goodchop.com/mymove|get.goodchop.com/mymove>\n<http://goodchop.com/jan26|goodchop.com/jan26> → <http://get.goodchop.com/jan26|get.goodchop.com/jan26>\n<http://goodchop.com/feb26|goodchop.com/feb26> → <http://get.goodchop.com/feb26|get.goodchop.com/feb26>\n<http://goodchop.com/mar26|goodchop.com/mar26> → <http://get.goodchop.com/mar26|get.goodchop.com/mar26>\n<http://goodchop.com/apr26|goodchop.com/apr26> → <http://get.goodchop.com/apr26|get.goodchop.com/apr26>\n<http://goodchop.com/may26|goodchop.com/may26> → <http://get.goodchop.com/may26|get.goodchop.com/may26>\n<http://goodchop.com/jun26|goodchop.com/jun26> → <http://get.goodchop.com/jun26|get.goodchop.com/jun26>\n<http://goodchop.com/jul26|goodchop.com/jul26> → <http://get.goodchop.com/jul26|get.goodchop.com/jul26>\n<http://goodchop.com/aug26|goodchop.com/aug26> → <http://get.goodchop.com/aug26|get.goodchop.com/aug26>\n<http://goodchop.com/sep26|goodchop.com/sep26> → <http://get.goodchop.com/sep26|get.goodchop.com/sep26>\n<http://goodchop.com/oct26|goodchop.com/oct26> → <http://get.goodchop.com/oct26|get.goodchop.com/oct26>\n<http://goodchop.com/nov26|goodchop.com/nov26> → <http://get.goodchop.com/nov26|get.goodchop.com/nov26>\n<http://goodchop.com/dec26|goodchop.com/dec26> → <http://get.goodchop.com/dec26|get.goodchop.com/dec26>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dvu+y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/mymove",
+                      "text": "goodchop.com/mymove"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/mymove",
+                      "text": "get.goodchop.com/mymove"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jan26",
+                      "text": "goodchop.com/jan26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jan26",
+                      "text": "get.goodchop.com/jan26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/feb26",
+                      "text": "goodchop.com/feb26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/feb26",
+                      "text": "get.goodchop.com/feb26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/mar26",
+                      "text": "goodchop.com/mar26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/mar26",
+                      "text": "get.goodchop.com/mar26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/apr26",
+                      "text": "goodchop.com/apr26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/apr26",
+                      "text": "get.goodchop.com/apr26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/may26",
+                      "text": "goodchop.com/may26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/may26",
+                      "text": "get.goodchop.com/may26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jun26",
+                      "text": "goodchop.com/jun26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jun26",
+                      "text": "get.goodchop.com/jun26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/jul26",
+                      "text": "goodchop.com/jul26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/jul26",
+                      "text": "get.goodchop.com/jul26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/aug26",
+                      "text": "goodchop.com/aug26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/aug26",
+                      "text": "get.goodchop.com/aug26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/sep26",
+                      "text": "goodchop.com/sep26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/sep26",
+                      "text": "get.goodchop.com/sep26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/oct26",
+                      "text": "goodchop.com/oct26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/oct26",
+                      "text": "get.goodchop.com/oct26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/nov26",
+                      "text": "goodchop.com/nov26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/nov26",
+                      "text": "get.goodchop.com/nov26"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://goodchop.com/dec26",
+                      "text": "goodchop.com/dec26"
+                    },
+                    {
+                      "type": "text",
+                      "text": " → "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://get.goodchop.com/dec26",
+                      "text": "get.goodchop.com/dec26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1::skin-tone-4",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763975843.386889",
+          "client_msg_id": "a25b3c5f-4213-43bc-afec-7ec7998bb0d4",
+          "text": "Hey <@U09JSMTMA5A>, the PR for this is merged, could you please take a look and confirm it is working as expected?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sZU61",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09JSMTMA5A"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the PR for this is merged, could you please take a look and confirm it is working as expected?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09JSMTMA5A",
+          "type": "message",
+          "ts": "1764686688.057559",
+          "client_msg_id": "47dedc35-350e-4a71-8871-f5f1db168abe",
+          "text": "<@U03EN3N4KM4> Confirming that they are all working as expected. Thank you so much!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EO6SK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Confirming that they are all working as expected. Thank you so much!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1::skin-tone-4",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1764686797.953679",
+          "client_msg_id": "072457b7-83f8-48a6-936d-98e643d78db4",
+          "text": "nice, thanks for confirming",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763681323.270059",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8eH1H",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "nice, thanks for confirming"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09JSMTMA5A",
+      "text": "<@U09JSMTMA5A> has joined the channel",
+      "type": "message",
+      "ts": "1763681210.304299"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1763646186.306479",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1763646186.306479",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1763653586.202429",
+      "reply_users": [
+        "U01PE2S4ZL6",
+        "U03EN3N4KM4"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U01PE2S4ZL6>: Hi, I'd like to ask a question! Please check the details.\n*Question title:* `Refinement of a code post CDPS migration in reschedule delivery flow (calendar)`\n*Topic:* `Code Review`\n*Details:* `<https://github.com/hellofresh/web/pull/60749>\n\nHey, we have discovered a gap that needs to be addressed when rescheduling delivery. CDPS will change delivery option globally for all the weeks, not just the week that is being rescheduled. For that reason we want to maintain the delivery option in CDPS payload, and there is a follow-up one-off request that will overwrite delivery option for a specific week that is being rescheduled.\n\nThis code is shared between KN and MR, please let us know if you see any issues with that change.`\n\n*Category:* squad-nv-good-chop\n*Command:* goodchop-question",
+          "text": "<@U01PE2S4ZL6>: Hi, I'd like to ask a question! Please check the details.\n*Question title:* `Refinement of a code post CDPS migration in reschedule delivery flow (calendar)`\n*Topic:* `Code Review`\n*Details:* `<https://github.com/hellofresh/web/pull/60749>\n\nHey, we have discovered a gap that needs to be addressed when rescheduling delivery. CDPS will change delivery option globally for all the weeks, not just the week that is being rescheduled. For that reason we want to maintain the delivery option in CDPS payload, and there is a follow-up one-off request that will overwrite delivery option for a specific week that is being rescheduled.\n\nThis code is shared between KN and MR, please let us know if you see any issues with that change.`\n\n*Category:* squad-nv-good-chop\n*Command:* goodchop-question"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1763646284.445389",
+          "client_msg_id": "b73dca0d-3d9d-44c1-a4b1-1d000e977581",
+          "text": "There is a bit of extra explanation on the PR and QA steps may make this issue clearer, but let me know if you need extra explanation",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763646186.306479",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OAbLP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is a bit of extra explanation on the PR and QA steps may make this issue clearer, but let me know if you need extra explanation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763647480.836099",
+          "client_msg_id": "76cba80a-e5d7-433d-a667-d154b8fbe735",
+          "text": "thanks for sharing <@U01PE2S4ZL6>, I will review the PR later today",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763646186.306479",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CIkml",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks for sharing "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01PE2S4ZL6"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", I will review the PR later today"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763653404.916929",
+          "client_msg_id": "1eb1b605-2968-4578-b9b6-d8d96a101496",
+          "text": "the PR is approved <@U01PE2S4ZL6>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763646186.306479",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tNwoR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the PR is approved "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01PE2S4ZL6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1763653586.202429",
+          "client_msg_id": "deb883a0-2904-43ec-98df-cb98742bcfba",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763646186.306479",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U058NK32J7M",
+      "text": "<@U058NK32J7M> has left the channel",
+      "type": "message",
+      "ts": "1763458258.172899"
+    }
+  ]
+}

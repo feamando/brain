@@ -1,0 +1,449 @@
+{
+  "batch_id": "spreadsheet_053",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for KN (Kenya) customers who experienced payment failures, and cancel subscriptions with 5+ failed payment attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Trial box SKU pattern: KN-T%",
+        "Cancellation threshold: 5+ canceled orders",
+        "Current tracking week: 2025-W48",
+        "Delivery date cutoff: 2025-11-25",
+        "Reset window: 4 weeks maximum before cancellation",
+        "Order statuses tracked: 'canceled', 'clarify_payment_error'",
+        "Product type: mealbox",
+        "Customer loyalty: 0 (new customers)"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "New customers signing up for trial boxes"
+        },
+        {
+          "name": "New Ventures Tech team",
+          "type": "system",
+          "context": "Team responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "system",
+          "context": "Slack channel for submitting reset requests to engineering team"
+        },
+        {
+          "name": "BOB",
+          "type": "system",
+          "context": "Platform used for bulk subscription cancellations"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        },
+        {
+          "name": "CC (Customer Care)",
+          "type": "system",
+          "context": "Team that identifies subscriptions needing resets in 'CC KN Reset' tab"
+        }
+      ],
+      "insights": [
+        "Two-tier process: subscriptions with 5+ failed payments are canceled immediately, while those with fewer failures are reset to trial status",
+        "Schedule-based workflow: Tuesday processes Saturday-Tuesday deliveries, Friday processes Wednesday-Friday deliveries",
+        "Manual intervention required: Engineering team must manually reset trial SKUs through Slack ticket system",
+        "Payment failure prevention: 4-week maximum window prevents indefinite failed order creation",
+        "Trial box pricing protection: Process ensures customers receive promised trial pricing on second box attempt",
+        "Automated query filters for unshipped boxes, trial products, non-canceled subscriptions, and customers with zero loyalty (new customers)",
+        "Cancellation reason standardized as 'CC-Failed-Payments' for tracking purposes"
+      ]
+    },
+    {
+      "doc_title": "Good Chop: Tests Control Center (TCC)",
+      "doc_id": "14sn_hOcxcYDSqIyPnf37UUAqXWQVxzgY24Mu4SqFBzs",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing test campaigns and A/B tests for Good Chop across different channels (SEM, Facebook, CRM, Direct Mail) with various promotional offers and pricing structures",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Campaign naming convention: Quarter [Channel] Offer Description",
+        "Common pricing structures: $100, $120, $140, $150 with various discount splits (50-30-20, 50-30-20-20, etc.)",
+        "Promotional offers: Free Ground Beef, Free Ribeyes, Welcome Kits, Choose Your Offer/Meat/Protein",
+        "Test periods spanning 2023 Q1-Q2 through 2025 Q2-Q3",
+        "FL (First-time/Limited) and FY (For You/Forever) offer types"
+      ],
+      "entities": [
+        {
+          "name": "kelly.abrams@goodchop.com",
+          "type": "person",
+          "context": "Owner of SEM (Search Engine Marketing) campaign tests for both New Business (NB), Competitor (Comp), and Brand channels"
+        },
+        {
+          "name": "yukie.yamamoto@goodchop.com",
+          "type": "person",
+          "context": "Owner of Facebook (FB) campaign tests across multiple quarters"
+        },
+        {
+          "name": "yt@hellofresh.com",
+          "type": "person",
+          "context": "Owner of CRM, CRM-CA (Canada), and Direct Mail (DM) campaign tests, primarily for 2023 campaigns"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Meat delivery/subscription service running promotional test campaigns"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company or partner organization (based on email domain of one owner)"
+        }
+      ],
+      "insights": [
+        "Heavy focus on Q2 and Q3 2025 testing, indicating active campaign planning and optimization",
+        "Facebook is the most tested channel with 9 tests listed, followed by SEM with 6 tests",
+        "Pricing strategy centers around $100-$150 total discounts split across multiple orders (typically 3-5 orders)",
+        "Common A/B test structure compares different offer types (e.g., Welcome Kit vs Free Product, different protein options)",
+        "Geographic expansion evident with separate CRM-CA (Canada) tests",
+        "Ownership transition visible: older tests (2023) owned by HelloFresh email, newer tests (2025) owned by Good Chop domain emails",
+        "Product focus on premium items: Ribeyes, Ground Beef, Ground Sirloin, and curated Welcome Kits",
+        "One unique test references 'Tariff-Proof Copy' suggesting response to economic/trade conditions",
+        "Most recent modifications cluster in June-July 2025, indicating active campaign management"
+      ]
+    },
+    {
+      "doc_title": "Good Chop Marketing Vouchers",
+      "doc_id": "13VRpw2nqq8rj2gL5AVh7dU35-La0EDoCfMPLFMnUxO8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing voucher codes for free product promotions at Good Chop, a meat/food delivery service",
+      "data_type": "tracker",
+      "key_data_points": [
+        "14 different voucher code types (BCN, BFY, WNG, WFY, GFY, GFL, SFY, RFY, RFL, RGY, MFY, MFL, NFY, NFL, CFY)",
+        "Two duration types: 'For Life' and 'For Year' promotions",
+        "SKU indexes ranging from 1-147",
+        "Multiple promotional campaigns: TURKEY, TRK, GBL, TRKXA series",
+        "Over 100 customer IDs listed",
+        "Products include: Bacon, Chicken Wings, Ground Beef, Salmon, Ribeyes, Filet Mignon, NY Strip, Cheesecake"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company offering meat and food subscription service with promotional vouchers"
+        },
+        {
+          "name": "ODL",
+          "type": "system",
+          "context": "Referenced as source system for customer IDs and data integration"
+        },
+        {
+          "name": "Turkey Campaign",
+          "type": "project",
+          "context": "Major promotional campaign with multiple variants (TURKEY ACTIVATION NAE, TURKEY REACTIVATION NAE, TURKEY CODE 2023)"
+        }
+      ],
+      "insights": [
+        "Premium products (Ribeyes, Filet Mignon, NY Strip) are offered as both lifetime and yearly promotions, suggesting high-value customer acquisition strategy",
+        "Turkey promotions appear to be a major campaign with multiple customer segments and activation types",
+        "Email banners are active for most voucher types (TRUE flag), except for some lifetime promotions (MFL, NFL)",
+        "The spreadsheet contains extensive customer ID lists (100+ IDs) suggesting large-scale promotional campaigns",
+        "Product offerings span multiple protein categories (beef, chicken, pork, seafood) plus dessert, indicating diverse product portfolio",
+        "Voucher codes use systematic prefixes based on product type and duration (e.g., BFY = Bacon For Year, BCN = Bacon)",
+        "Multiple promotional code series (TRKXA1A, TRKXA1B, etc.) suggest segmented or sequential campaign rollouts"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "WoW (Week-over-Week) comparison metrics starting from 22-W36",
+        "Revenue/spend data: $25,929 and $6,482 visible in early entries",
+        "Self-Improvement category tracked with 1 unit and $1,053",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - appears to be a food/meal delivery service based on name"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 150+ weeks of data across multiple years",
+        "Structure includes week-over-week performance analysis starting in 2022",
+        "Multiple columns per week suggest tracking of different metrics (likely spend, conversions, revenue)",
+        "Sparse data visible suggests this is a large spreadsheet with most cells empty or containing data not shown in extract",
+        "Self-Improvement category mentioned suggests potential content marketing or customer engagement tracking",
+        "The iTracker designation indicates this is an internal tool, not client-facing"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, ratings, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs from $2.54 to $4.85",
+        "Customer ratings (L3 Run Ratings) between 3.40-3.53",
+        "Swap out percentages (0.91%-1.75%)",
+        "Calorie counts (450-540 calories)",
+        "Protein content (27-44g per meal)",
+        "1,901 total ratings for Chicken & Mushroom Marsala",
+        "Last run date: 2023-W49 for graveyard items"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Multiple recipe variants (F00002A-F) marked as 'Graveyard' status"
+        },
+        {
+          "name": "Greek Isle Caper Salmon",
+          "type": "product",
+          "context": "New recipe with highest max cost at $4.85"
+        },
+        {
+          "name": "Greek-Style Market Chicken Bowl",
+          "type": "product",
+          "context": "New recipe with highest protein content at 44g"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal with slight cost and nutritional differences",
+        "Chicken & Mushroom Marsala has been discontinued ('Graveyard' status) despite having 1,901 ratings",
+        "New recipes (F01905-F01908) are pending approval with 10/21/2025 approval date",
+        "All meals are marked as 'Calorie Smart', 'Chef's Choice', 'High Protein', 'Pork Free', and 'Low Carb'",
+        "European/Italian cuisine dominates the recipe selection",
+        "Salmon-based meals have significantly higher max costs ($4.85) compared to chicken ($2.54-$2.96)",
+        "GLP-1 dietary support is tracked, indicating focus on weight management meal options",
+        "Recipes use color-coded sleeves (Yellow, Blue, Red) likely for operational sorting",
+        "All new recipes feature shredded proteins or salmon, suggesting operational efficiency focus"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project containing multiple teams being tracked"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for tracking KTLO work"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated daily updates via cron job ensure data freshness without manual intervention",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to attribute tickets to specific months for temporal tracking",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "November Xsell Feedback",
+      "doc_id": "1-8vREqpPhBQq6mB5n1F1RBXqwIzaFvtmlvtMU5-s8JE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks customer service interactions and feedback related to cross-selling Factor meals to HelloFresh customers",
+      "data_type": "tracker",
+      "key_data_points": [
+        "7 customer interactions recorded between October 26 - November 24, 2025",
+        "All interactions from US customers",
+        "Multiple cases of unauthorized/unexpected Factor orders",
+        "Issues span weeks 2025-W44 and 2025-W48",
+        "Mix of Message (6) and Voice (1) communication channels",
+        "No compensation amounts recorded in any cases"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary meal kit subscription service experiencing cross-sell issues"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "Ready-to-eat meal service being cross-sold to HelloFresh customers, causing confusion and complaints"
+        }
+      ],
+      "insights": [
+        "Significant customer confusion about Factor cross-sell program - customers receiving Factor orders they don't recall placing",
+        "Multiple customers unaware that Factor and HelloFresh are separate accounts/subscriptions",
+        "Pattern of customers discovering unwanted Factor orders after cut-off period, preventing cancellation",
+        "Cross-sell acceptance process appears unclear, leading to accidental opt-ins",
+        "Customer dissatisfaction leading to account cancellations and disputes",
+        "Lack of clarity about Factor meals coming in separate boxes vs same delivery",
+        "Website glitches mentioned affecting order totals and pricing",
+        "Self-managing account model causing friction when customers don't actively customize orders"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and workstream responsibilities for the 2025 ANZ (Australia/New Zealand) Christmas Offering business initiative across XMB+XMO brands",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams already in progress (Ideation done, Project set up, Recipes created, NID onboarding started)",
+        "Cross-functional team spanning Product, Engineering, Operations, Marketing, Finance, FSQA, and more"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead AU for ANZ Product Strategy"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "ANZ Project Manager Lead"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Stakeholder for multiple workstreams (Culinary Innovation, CIO Dev, Editorial, Digital Ops)"
+        },
+        {
+          "name": "Francois Lubrano",
+          "type": "person",
+          "context": "Stakeholder for Project Management, Procurement Ops, Menu Planning"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "brand",
+          "context": "Target brands for 2025 Christmas Offering"
+        },
+        {
+          "name": "2025 Christmas Offering",
+          "type": "project",
+          "context": "Main project being tracked across ANZ markets"
+        }
+      ],
+      "insights": [
+        "Project shows clear regional separation with dedicated AU and NZ leads for most operational functions (Logistics, Procurement, Production, FSQA)",
+        "Early-stage progress evident: ideation and recipe development completed, onboarding processes initiated",
+        "Heavy cross-functional coordination required with Hannah Gilbert as common stakeholder across 5 workstreams",
+        "Strategic Procurement lists multiple personnel with specific category codes (PTN, PHF, PCK, GRO) indicating specialized supplier management",
+        "Duplication work identified for Marketing campaigns, recipe booklets, and website content suggesting parallel market launches",
+        "Some workstreams still have TBD (To Be Determined) secondary leads, indicating team structure still being finalized",
+        "FSQA (Food Safety & Quality Assurance) explicitly noted as needing to onboard SKUs for both markets, highlighting compliance requirements"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project being tracked for operational overhead"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for KTLO tracking"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to identify Keep The Lights On operational work in tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to categorize tickets into specific months",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "WoW (Week-over-Week) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, negative return indicated",
+        "Tracking spans approximately 3+ years of marketing data"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign with documented spend of $1,053 and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 3+ years (2021-2024) with consistent weekly monitoring",
+        "WoW analysis capability added midway through tracking period (Week 36 of 2022)",
+        "Sparse data visible in extract suggests either incomplete data or filtered view",
+        "Self-Improvement campaign shows negative ROI (indicated by '$-' in return column)",
+        "Structure suggests multiple marketing channels/campaigns tracked in parallel columns",
+        "Weekly granularity indicates active performance monitoring and optimization focus"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:57:35.208819"
+}

@@ -1,0 +1,336 @@
+{
+  "batch_id": "jira_0005",
+  "issue_count": 25,
+  "issue_types": {
+    "Epic": 7,
+    "Task": 15,
+    "Sub-task": 1,
+    "Spike": 1,
+    "Bug": 1
+  },
+  "date_range": {
+    "oldest": "2025-12-23",
+    "newest": "2025-12-29"
+  },
+  "analyzed_at": "2026-01-02T18:08:05.932676",
+  "summary": "This batch represents work across multiple e-commerce initiatives including price deprecation from products service, one-time purchase (OTP) implementation, checkout improvements, and various technical maintenance tasks. Major themes include payment flow optimization (Charge at Checkout), customer reactivation improvements, and test infrastructure cleanup. Several teams are coordinating on OTP functionality with dependencies between funnel and post-checkout work.",
+  "decisions": [
+    {
+      "what": "Deprecate prices from products service, moving to new price domain",
+      "issue_key": "GOC-2068",
+      "who": [
+        "Consumer core team"
+      ],
+      "rationale": "Consumer core is planning changes to the price domain that require stopping consumption of prices from products service",
+      "date": "2024-06-12"
+    },
+    {
+      "what": "Shift to Charge at Checkout model for first subscription order",
+      "issue_key": "GOC-3317",
+      "who": [
+        "Unassigned"
+      ],
+      "rationale": "Improve customer activation experience by providing immediate, transparent payment feedback instead of charging 4 days prior",
+      "date": null
+    },
+    {
+      "what": "Separate OTP work into Funnel and post-checkout epics",
+      "issue_key": "GOC-3177",
+      "who": [
+        "Unassigned"
+      ],
+      "rationale": "Divide concerns between funnel experience and post-checkout functionality for One-Time Purchase feature",
+      "date": null
+    },
+    {
+      "what": "Use OTP-specific confirmation component instead of subscription component",
+      "issue_key": "GOC-3364",
+      "who": [
+        "Himash Tehan"
+      ],
+      "rationale": "Display OTP-specific content for one-time purchase orders",
+      "date": "2025-12-16"
+    },
+    {
+      "what": "Unify plan content mapping sources into single source of truth",
+      "issue_key": "TPT-2511",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "Plan content was scattered across multiple hooks causing confusion and breaking staging",
+      "date": null
+    },
+    {
+      "what": "Highlight Christmas 2025 shipping delays instead of full holiday adjustment",
+      "issue_key": "RTEVMS-2407",
+      "who": [
+        "Emily Stanek"
+      ],
+      "rationale": "ProPac closure on 2025-12-24/25 causes ship date delays for customers with cutoff on 2025-12-22/23",
+      "date": "2025-12-22"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Price Deprecation from products-service",
+      "description": "Remove pricing information consumption from products service across Good Chop website components",
+      "status": "completed",
+      "key_issues": [
+        "GOC-2068",
+        "GOC-3270"
+      ]
+    },
+    {
+      "name": "One Time Purchase (OTP) - MVP",
+      "description": "Implement one-time purchase functionality for Good Chop, split between funnel and post-checkout work",
+      "status": "active",
+      "key_issues": [
+        "GOC-3177",
+        "GOC-3364",
+        "RTEVMS-2315"
+      ]
+    },
+    {
+      "name": "Charge at Checkout",
+      "description": "Shift payment model to charge customers immediately at checkout for first subscription order instead of 4 days prior to delivery",
+      "status": "completed",
+      "key_issues": [
+        "GOC-3317"
+      ]
+    },
+    {
+      "name": "Improve Reactivations page",
+      "description": "Address Good Chop's lowest-in-US-brands net reactivation rate of 8.7% in 2025 YTD",
+      "status": "completed",
+      "key_issues": [
+        "GOC-2998"
+      ]
+    },
+    {
+      "name": "Add-on vouchers as RAF reward",
+      "description": "Offer $10 deals voucher as reward for customers with Multi-Week Discount who refer friends",
+      "status": "active",
+      "key_issues": [
+        "GOC-1957"
+      ]
+    },
+    {
+      "name": "Active Experience Updates (Q4/24 Post Launch)",
+      "description": "Updates to FactorForm active customer experience after initial launch, including holiday shipping notifications",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-1168",
+        "RTEVMS-1186",
+        "RTEVMS-2407"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "OTP order traceability review blocked - orders not being identified on Katana/BOB/Owl",
+      "issue_key": "RTEVMS-2315",
+      "owner": "Edwin Torres",
+      "impact": "Customer Care Ops cannot trace and check OTP orders and deliveries"
+    },
+    {
+      "description": "E2E tests for different portions percentage blocked due to functionality not merged and feature flags not enabled",
+      "issue_key": "TPT-2291",
+      "owner": "Unassigned",
+      "impact": "Cannot validate quiz flows for portion percentage selection"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Primary brand for multiple initiatives including OTP, price deprecation, and reactivations",
+      "issues": [
+        "GOC-2068",
+        "GOC-3270",
+        "GOC-1957",
+        "GOC-2998",
+        "GOC-3177"
+      ]
+    },
+    {
+      "name": "Consumer core",
+      "type": "squad",
+      "context": "Planning price domain changes requiring deprecation from products service",
+      "issues": [
+        "GOC-2068"
+      ]
+    },
+    {
+      "name": "Pamela Elisabeth Plúas Guerra",
+      "type": "person",
+      "context": "Completed work on making menu-addons-freecategory-gcs subscribable and quarantine system test",
+      "issues": [
+        "GOC-3432",
+        "GOC-3433"
+      ]
+    },
+    {
+      "name": "Emily Stanek",
+      "type": "person",
+      "context": "Working on FactorForm shipping delay notifications and order total bug fixes",
+      "issues": [
+        "RTEVMS-2407",
+        "RTEVMS-2277",
+        "RTEVMS-1186"
+      ]
+    },
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Coordinating OTP confirmation component design and implementation",
+      "issues": [
+        "GOC-3364"
+      ]
+    },
+    {
+      "name": "Guhan Sundararajan",
+      "type": "person",
+      "context": "Completed spike to unify plan content mapping sources",
+      "issues": [
+        "TPT-2511"
+      ]
+    },
+    {
+      "name": "ProPac",
+      "type": "system",
+      "context": "Fulfillment center with holiday closures affecting shipping schedules",
+      "issues": [
+        "RTEVMS-2407",
+        "RTEVMS-1186"
+      ]
+    },
+    {
+      "name": "products-service",
+      "type": "system",
+      "context": "Service being deprecated for price information consumption",
+      "issues": [
+        "GOC-2068",
+        "GOC-3270"
+      ]
+    },
+    {
+      "name": "Katana",
+      "type": "system",
+      "context": "Order management system with OTP traceability issues",
+      "issues": [
+        "RTEVMS-2315"
+      ]
+    },
+    {
+      "name": "BOB / Owl",
+      "type": "system",
+      "context": "Systems for meal selection and order review with OTP identification issues",
+      "issues": [
+        "RTEVMS-2315"
+      ]
+    },
+    {
+      "name": "FactorForm",
+      "type": "brand",
+      "context": "Brand receiving active customer experience updates and holiday shipping notifications",
+      "issues": [
+        "RTEVMS-1168",
+        "RTEVMS-1186",
+        "RTEVMS-2407"
+      ]
+    },
+    {
+      "name": "Quarantine System",
+      "type": "system",
+      "context": "System used to prevent flaky tests from being executed",
+      "issues": [
+        "GOC-3433",
+        "TPT-2527"
+      ]
+    },
+    {
+      "name": "StatSig",
+      "type": "system",
+      "context": "Metrics platform requiring custom event emissions for add-to-cart tracking",
+      "issues": [
+        "RTEVMS-2194"
+      ]
+    },
+    {
+      "name": "Customer Care Ops",
+      "type": "squad",
+      "context": "Team needing OTP order traceability in Katana and meal selection systems",
+      "issues": [
+        "RTEVMS-2315"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Component separation by use case (OTPConfirmation vs Subscription Confirmation)",
+      "context": "Creating dedicated components for different order types to display appropriate content"
+    },
+    {
+      "pattern": "Hook consolidation and separation of concerns",
+      "context": "Unifying scattered plan content mapping hooks and separating checkout vs non-checkout order summary hooks"
+    },
+    {
+      "pattern": "Quarantine system for flaky test management",
+      "context": "Preventing flaky tests from executing while maintaining test coverage and tracking success rates"
+    },
+    {
+      "pattern": "Feature flag gating for gradual rollout",
+      "context": "Using feature flags to control availability of new features like portion percentage selection"
+    },
+    {
+      "pattern": "Custom event emission for analytics",
+      "context": "Emitting StatSig forward events to populate metrics data sources for add-to-cart tracking"
+    },
+    {
+      "pattern": "Service deprecation with exception handling",
+      "context": "Removing pricing from products service while maintaining oneOff price as exception"
+    }
+  ],
+  "work_themes": [
+    "Price domain migration and service deprecation",
+    "One-time purchase (OTP) implementation",
+    "Payment flow optimization",
+    "Customer reactivation improvements",
+    "Test infrastructure and flaky test cleanup",
+    "Holiday shipping communication",
+    "Component refactoring and code cleanup",
+    "Cross-system traceability and observability"
+  ],
+  "dependencies": [
+    {
+      "from": "OTP Funnel team",
+      "to": "OTP Post-checkout team",
+      "context": "Funnel work (GOC-3177) separated from post-checkout work (GOC-3059) for OTP feature"
+    },
+    {
+      "from": "Good Chop website",
+      "to": "Consumer core price domain",
+      "context": "Website must stop consuming prices from products service due to Consumer core changes"
+    },
+    {
+      "from": "Customer Care Ops",
+      "to": "Katana/BOB/Owl systems",
+      "context": "Need OTP order identification and traceability in order management systems"
+    },
+    {
+      "from": "Frontend team",
+      "to": "Seb (menu creator)",
+      "context": "Menu creation required before making menu-addons-freecategory-gcs subscribable"
+    },
+    {
+      "from": "E2E test team",
+      "to": "Feature development team",
+      "context": "Tests blocked until portion percentage functionality merged and feature flags enabled"
+    },
+    {
+      "from": "FactorForm customer experience",
+      "to": "ProPac fulfillment",
+      "context": "Shipping delay notifications dependent on ProPac holiday closure schedule"
+    }
+  ]
+}

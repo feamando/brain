@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0005",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "31265c8e",
+      "message": "[TPT-2428] Rename useHandleSavePreset to useSaveMealSelection and fixing multiPetCheckout test (#61892)\n\n* [TPT-2428] Rename useHandleSavePreset to useSaveMealSelection\n\n* [TPT-2428] Fix multiPetCheckout Cypress test mocks\n\n* [TPT-2428] Update cart mock index to 1",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-16T12:07:11Z",
+      "url": "https://github.com/hellofresh/web/commit/31265c8edf7cf683fc5b1c4f015e1b054c08fe7b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "1e553d47",
+      "message": "[GOC-3397] Includes statsig event in OTP success track hook (#61886)\n\n* [GOC-3397] Moves statsig event tracking\n\n* [GOC-3397] Minor clean up\n\n* [GOC-3397] Minor clean up\n\n* [GOC-3397] Fixes test\n\n* [GOC-3397] Fixes type",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-16T11:22:47Z",
+      "url": "https://github.com/hellofresh/web/commit/1e553d47d79810c8f2c49a252f7389dbeb106f11",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9e2a2b22",
+      "message": "[TPT-2433] Refactor showPortions as prop in BasePlansGrid (#61860)\n\n* [TPT-2433] Refactor showPortions as prop in BasePlansGrid\n\n* [TPT-2433] Pass isFunnel to useQuizPagesWithFeedingPlanType to prevent experiment allocation for non-funnel users",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-16T10:01:44Z",
+      "url": "https://github.com/hellofresh/web/commit/9e2a2b221f7d118bac818f110b07c365e2e9a357",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "12aaadcf",
+      "message": "[TPT-2428] Clean up tpt_meals_selection_migration feature flag (#61556)\n\n* [TPT-2428] Clean up tpt_meals_selection_migration feature flag\n\n* [TPT-2428] Remove dead code from meal selection migration cleanup\n\n* [TPT-2428] Additional cleanup for meal selection migration\n\n* [TPT-2428] Remove unused productFamily param from useHandleSavePreset\n\n* [TPT-2428] Removing tpt_pre_checkout_meal_selection flag",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-16T09:44:44Z",
+      "url": "https://github.com/hellofresh/web/commit/12aaadcf2e57d423cbb190b3b44577c74d83ea87",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "3dabc237",
+      "message": "[TPT-2358] Box Model Builder: GSheet upload (#61791)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-16T08:56:42Z",
+      "url": "https://github.com/hellofresh/web/commit/3dabc2374218917814447a3dc856a9c865133e7a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d004ee38",
+      "message": "[GOC-3418] Adds logic to retrieve data for checkoutSuccess tracking event (#61851)\n\n* [GOC-3418] Adds initial logic tracking for otp\n\n* [GOC-3418] Cleans up gtm logic\n\n* [GOC-3418] Uses data-access to get info\n\n* [GOC-3418] Renames and add tests\n\n* [GOC-3418] Adds placeholder for tracking\n\n* [GOC-3418] Removes comments\n\n* [GOC-3418] Adds TODO\n\n* [GOC-3418] Removes voucher info",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-16T07:43:19Z",
+      "url": "https://github.com/hellofresh/web/commit/d004ee38f6b76436cf1ab826380bcb93a30301db",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "e7133b4c",
+      "message": "[MIO-60] Add Statsig flag and local storage override for HFNL plan type switcher in account settings (#61873)\n\n* feat: add hook to check premium plan switching feature flag in account settings\n\n* feat: add .claim.json file for meal plan type dropdown configuration",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-15T21:10:31Z",
+      "url": "https://github.com/hellofresh/web/commit/e7133b4cdb1b30b9219a832c8f7a5aceb0b4344b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "7fd8b9d9",
+      "message": "feat(RTEVMS-2256): added changes to normalized vms to vmsu in flows (#61554)\n\nfeat(RTEVMS-2256): used vmsu instead of vms with feature gate\n\nfeat(RTEVMS-2256): Fixed broken unit tests\n\nfeat(RTEVMS-2256): Added fix for normalize on calculate prospect batch\n\ni# feat(RTEVMS-2256): fixed validation that adds normalized sku into cart\n\nfeat(RTEVMS-2256): Updated missing normalize on update cart\n\nfeat(RTEVMS-2256): removed no needed logic",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-15T17:01:00Z",
+      "url": "https://github.com/hellofresh/web/commit/7fd8b9d98082b3dc3a667182c4a44b6d4f5bb8c9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f459443f",
+      "message": "[TPT-2288] plan selection card images update (#61747)\n\n* [TPT-2282] portion percentage components\n\n* [TPT-2282] change revert\n\n* [TPT-2282] minor update\n\n* [TPT-2282] change revert\n\n* [TPT-2282] Portion Percentage intial PlanSelectionGridWithPortions component created\n\n* [TPT-2282] useRouter mock added for tests\n\n* [TPT-2282] tabIndex added\n\n* [TPT-2282] old components removed\n\n* [TPT-2282] Plans mappings updated to support 75% and 50% for dry and fresh\n\n* [TPT-2282] PortionPercentageControl integrated\n\n* [TPT-2282] PortionPercentageControl removed\n\n* [TPT-2282] usePortionPercentageLabels hook created\n\n* [TPT-2282] tests added/fixed\n\n* [TPT-2282] empty commit\n\n* [TPT-2282] prettier issue fix\n\n* [TPT-2282] additional fixes\n\n* [TPT-2282] usePortionPercentageLabels extended\n\n* [TPT-2282] tests added/fixed\n\n* [TPT-2282] minor update\n\n* [TPT-2287] portion percentage selectors based on NMPS call\n\n* [TPT-2287] usePlanSelection hook updated\n\n* [TPT-2287] portion selector order and style updates\n\n* [TPT-2287] minor update\n\n* [TPT-2287] fixed tests\n\n* [TPT-2287] useAllProductOffers test suite added\n\n* [TPT-2287] useGetProductOffersForFamily optimized\n\n* [TPT-2287] portion percentage selector added for change plan flow\n\n* [TPT-2287] tests fixed/added\n\n* [TPT-2282] additional adjustments\n\n* [TPT-2282] empty commit\n\n* [TPT-2287] test fix\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] isRetakeQuiz props removed\n\n* [TPT-2287] only 100% shown for 89-149 calorie range\n\n* [TPT-2288] plan selection card images update\n\n* [TPT-2287] same portion percent for all the cards\n\n* [TPT-2288] separate mapping created for portioned card images\n\n* [TPT-2288] change revert\n\n* [TPT-2288] test cases added",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-15T15:19:42Z",
+      "url": "https://github.com/hellofresh/web/commit/f459443f07fbd0752ac3c7af1a24b6bd890762db",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "0bebfad5",
+      "message": "[TPT-2295] tests for reactivation page (#61630)\n\n* [TPT-2295]: tests for reactivation page\n\n* [TPT-2295]: reactivation page tests\n\n* review comments\n\n* review fixes\n\n* review fixes\n\n* review fixes",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-12-15T14:20:12Z",
+      "url": "https://github.com/hellofresh/web/commit/0bebfad56397eaa3dcd246e238fcf64337310e9c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "cb05f258",
+      "message": "[RTEVMS-2379] Conditionally change discount comm based on VMS peak voucher for RTE actives (#61811)\n\n* add peak period rte actives only voucher\n\n* conditonal discount comm based on peak voucher and RTE active sub",
+      "author": "Jan Cássio",
+      "author_email": "110180472+jancassiohf@users.noreply.github.com",
+      "date": "2025-12-15T14:04:42Z",
+      "url": "https://github.com/hellofresh/web/commit/cb05f2580c620cb3bfab7b3b28ab5672a50ceae8",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "95447773",
+      "message": "[TPT-2358] Box Model Builder: feeding guide code (#61788)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-15T12:38:30Z",
+      "url": "https://github.com/hellofresh/web/commit/95447773799ba74cb75db4bd41ed8e429fde3413",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "e2686c86",
+      "message": "[TPT-2358] Box Model Builder: logic and values fixes (#61787)\n\n* Add missed SKUs\n\n* Add \"_R\" in some Ops sku names\n\n* Adjust rounding logic\n\n* Sort fresh by pack sizes to give priority to bigger packs\n\n* Fix TS issue",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-15T12:38:09Z",
+      "url": "https://github.com/hellofresh/web/commit/e2686c8613f0f52e3da14c753cfb521da5f26e01",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2b487c6d",
+      "message": "[TPT-2287] portion percentage selectors based on NMPS call (#61324)\n\n* [TPT-2282] portion percentage components\n\n* [TPT-2282] change revert\n\n* [TPT-2282] minor update\n\n* [TPT-2282] change revert\n\n* [TPT-2282] Portion Percentage intial PlanSelectionGridWithPortions component created\n\n* [TPT-2282] useRouter mock added for tests\n\n* [TPT-2282] tabIndex added\n\n* [TPT-2282] old components removed\n\n* [TPT-2282] Plans mappings updated to support 75% and 50% for dry and fresh\n\n* [TPT-2282] PortionPercentageControl integrated\n\n* [TPT-2282] PortionPercentageControl removed\n\n* [TPT-2282] usePortionPercentageLabels hook created\n\n* [TPT-2282] tests added/fixed\n\n* [TPT-2282] empty commit\n\n* [TPT-2282] prettier issue fix\n\n* [TPT-2282] additional fixes\n\n* [TPT-2282] usePortionPercentageLabels extended\n\n* [TPT-2282] tests added/fixed\n\n* [TPT-2282] minor update\n\n* [TPT-2287] portion percentage selectors based on NMPS call\n\n* [TPT-2287] usePlanSelection hook updated\n\n* [TPT-2287] portion selector order and style updates\n\n* [TPT-2287] minor update\n\n* [TPT-2287] fixed tests\n\n* [TPT-2287] useAllProductOffers test suite added\n\n* [TPT-2287] useGetProductOffersForFamily optimized\n\n* [TPT-2287] portion percentage selector added for change plan flow\n\n* [TPT-2287] tests fixed/added\n\n* [TPT-2287] test fix\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] change revert\n\n* [TPT-2287] isRetakeQuiz props removed\n\n* [TPT-2287] only 100% shown for 89-149 calorie range\n\n* [TPT-2287] same portion percent for all the cards\n\n* [TPT-2287] empty commit",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-15T12:37:41Z",
+      "url": "https://github.com/hellofresh/web/commit/2b487c6d447e1de31399eaa743633f8327b0d6a0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "6930bc69",
+      "message": "[TPT-2451] Add E2E tests for Dashboard Reactivation (#61769)",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-12-15T12:35:19Z",
+      "url": "https://github.com/hellofresh/web/commit/6930bc69ae989ac02de9783695f0307d7555b14d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "6535c137",
+      "message": "[GOC-3358] Create useCreateOtpOrder hook for OTP checkout (#61784)\n\n* add useCreateOTPOrderForCheckout hook\n\n* simplify logic\n\n* simplify payment parsing\n\n* fix payment-old.spec test\n\n* separate payload logic to be used for tracking data",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-12-15T11:09:09Z",
+      "url": "https://github.com/hellofresh/web/commit/6535c137ec3cf683e48b6f15bbd831f3f13d7541",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "955af6a5",
+      "message": "[TPT-2428] Cleaning up meal selection flags on Regular Funnel (#61779)\n\n* [TPT-2428] Cleaning up meal selection flag on Regular Funnel\n\n* [TPT-2428] Removing tpt_pre_checkout_meal_selection flag\n\n* [TPT-2428] Removed feature flag from e2e",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-15T10:32:04Z",
+      "url": "https://github.com/hellofresh/web/commit/955af6a5300c8adea0cd40eabf090d342394b0c0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "1c411c92",
+      "message": "[TPT-2365] Update cadence integrity monitoring (#61781)\n\n* Update source of cadence to use endlessPauseInterval\n\n* Remove cadence monitoring trace for other brands",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-12-15T10:18:34Z",
+      "url": "https://github.com/hellofresh/web/commit/1c411c92261569fb8bff1ae495b784af94eb0346",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "6ac41a7f",
+      "message": "RTEVMS-2363: Adding OTP orders popover on my-deliveries page + unit tests (#61815)",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-12T20:52:38Z",
+      "url": "https://github.com/hellofresh/web/commit/6ac41a7f953fafd6cee0655491cf719d154b2982",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "a60a10bd",
+      "message": "[TPT-2442] reading wkd cookie to pre-fill signup email input (#61717)\n\n* [TPT-2442] reading wkd cookie to pre-fill signup email input\n\n* Update cookie handling in CreateAccountForm to use new key for email retrieval",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-12-12T13:39:20Z",
+      "url": "https://github.com/hellofresh/web/commit/a60a10bd72a4049c74922deebaf7fcc6d8867dce",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-12T13:39:20Z",
+    "newest": "2025-12-16T12:07:11Z"
+  }
+}

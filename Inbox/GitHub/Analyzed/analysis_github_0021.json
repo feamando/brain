@@ -1,0 +1,166 @@
+{
+  "batch_id": "github_0021",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-10-30T20:11:52Z",
+    "newest": "2025-11-04T13:46:06Z"
+  },
+  "analyzed_at": "2026-01-02T15:41:14.872482",
+  "changes_summary": "These commits primarily focus on bug fixes and UI enhancements across multiple product areas including pet food subscriptions, gift redemption, and checkout flows. Major work includes reactivation flow improvements, discount banner fixes, and Factor Form migration for price calculations. Several refactoring efforts moved helper functions and reorganized components for better reusability.",
+  "features": [
+    {
+      "name": "Plans Info Component on Reactivation Page",
+      "description": "Built and integrated plans information component for the reactivation page with Contentful keys",
+      "commits": [
+        "c7af892e",
+        "1461517c"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Food Quantity Disclaimer",
+      "description": "Adds disclaimer for food quantity information",
+      "commits": [
+        "7c70596f"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Frequency Voucher Info in Subscription Card",
+      "description": "Displays frequency voucher information within subscription card component",
+      "commits": [
+        "935f6709"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "GoodChop Gift Redemption Link",
+      "description": "Renders redeem gift link for GoodChop brand in public header using MSS instead of MAS",
+      "commits": [
+        "1ceab136",
+        "f2d2b382"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Factor Form Price Migration",
+      "description": "Migrated calculate prices functionality to cart and checkout with disabled CTA state and OTP order summary UI updates",
+      "commits": [
+        "3ebf960b",
+        "f3dcd6b5",
+        "6a00dcb7"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Pet Name in Success Modal",
+      "description": "Uses pet name in the success modal title for personalization",
+      "commits": [
+        "db8fc981"
+      ],
+      "status": "modified"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Remove Suspense to disable skeleton display",
+      "rationale": "Skeleton display was causing undesired UX behavior",
+      "ticket": "TPT-2283"
+    },
+    {
+      "what": "Use MSS instead of MAS for GoodChop",
+      "rationale": "Service architecture decision for gift redemption functionality",
+      "ticket": "GOC-3316"
+    },
+    {
+      "what": "Reorganize PlansPrice component for reusability",
+      "rationale": "Improve component architecture and enable reuse across different contexts",
+      "ticket": "TPT-2235"
+    },
+    {
+      "what": "Move free treats for life helper functions to test folder",
+      "rationale": "Better code organization and separation of test utilities",
+      "ticket": "TPT-2245"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Free Treats For Life (FTFL) helper functions",
+      "reason": "Improve code organization and maintainability",
+      "impact": "Helper functions moved back to test folder, then refactored"
+    },
+    {
+      "area": "PlansPrice component",
+      "reason": "Enable component reusability across different features",
+      "impact": "Component structure reorganized, affecting plan pricing displays"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Statsig track functionality not working correctly",
+      "ticket": "TPT-2300"
+    },
+    {
+      "issue": "Cadence breaking on reactivation",
+      "ticket": "TPT-2272"
+    },
+    {
+      "issue": "Loading page scroll issue",
+      "ticket": "TPT-2284"
+    },
+    {
+      "issue": "Discount banner display issue",
+      "ticket": "TPT-2278"
+    },
+    {
+      "issue": "Failing e2e tests skipped",
+      "ticket": "GOC-3322"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Analytics tracking system that required fixes"
+    },
+    {
+      "name": "GoodChop",
+      "type": "brand",
+      "context": "Brand-specific gift redemption and reactivation e2e configuration"
+    },
+    {
+      "name": "Factor Form",
+      "type": "feature",
+      "context": "Undergoing price calculation migration across cart, checkout, and leads capture"
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "CMS used for managing content keys for reactivation page"
+    },
+    {
+      "name": "MSS/MAS",
+      "type": "api",
+      "context": "Backend services for subscription management, switched from MAS to MSS for GoodChop"
+    },
+    {
+      "name": "Reactivation Flow",
+      "type": "feature",
+      "context": "Multiple improvements including plans info component, cadence fixes, and e2e configuration"
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Order summary UI updates as part of Factor Form work"
+    }
+  ],
+  "key_patterns": [
+    "Progressive migration pattern: Factor Form changes rolled out incrementally across cart, checkout, and leads capture",
+    "Component reusability focus: Multiple refactors aimed at making components more reusable (PlansPrice, helper functions)",
+    "Brand-specific configuration: Separate handling for different brands (GoodChop) with dedicated config files",
+    "Test maintenance: Active management of failing tests through skipping and e2e configuration",
+    "Suspense/loading state management: Removal of Suspense components to control skeleton display behavior",
+    "Personalization enhancements: Using dynamic data like pet names in UI elements",
+    "Service layer abstraction: Switching between backend services (MSS/MAS) without frontend disruption"
+  ]
+}

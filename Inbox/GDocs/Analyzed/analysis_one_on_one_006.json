@@ -1,0 +1,1342 @@
+{
+  "batch_id": "one_on_one_006",
+  "doc_type": "one_on_one",
+  "doc_count": 8,
+  "results": [
+    {
+      "doc_title": "Beatrice:Nikita 1:1 - 2025/12/09 10:01 CET - Notes by Gemini",
+      "doc_id": "1miytgRj_nag608K_j0drdP8EtnupQxpfpBqQTVD2_Rw",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Ask Kag if refunds and cancellations are tracked individually in the AL system for paid orders",
+          "owner": "Beatrice Dimarucut and Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Implement mechanism to check for paid 'charge at checkout' orders in 'canceled' status to ensure refunds are processed",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Attend Spur call introduction with Spur founders",
+          "owner": "Beatrice Dimarucut",
+          "due": "Not specified"
+        },
+        {
+          "task": "Open CS5 role for Beatrice to mentor",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Procure Spur as a supplier for competitive analysis tool",
+          "context": "Financial approval has been received to use Spur's external service for internal workflows to track and compare different flows to an ideal state"
+        },
+        {
+          "what": "Add CS5 headcount for Beatrice to mentor",
+          "context": "To support career development and shore up work with Yuri following Dio's departure, with alignment across multiple VPs"
+        },
+        {
+          "what": "No need to force touchpoints with Annie",
+          "context": "Beatrice's work reports to Dominic outside Annie's structure, headcount is defined outside her structure, and there are no big dependencies for Q1"
+        }
+      ],
+      "feedback": [
+        "Nikita previously gave Beatrice feedback on areas to work on, specifically how to shore up work with Yuri in a more long-term thinking perspective",
+        "Career development discussion about Beatrice mentoring more junior team members (CS5 role)",
+        "Beatrice hasn't had a career development call recently"
+      ],
+      "blockers": [
+        {
+          "issue": "Refund process for 'charge at checkout' customers takes too long (a week)",
+          "owner": "Not specified",
+          "status": "active"
+        },
+        {
+          "issue": "Unclear if refunds and cancellations are tracked individually in AL system for paid orders",
+          "owner": "Need to consult with Kag",
+          "status": "active"
+        },
+        {
+          "issue": "Potential resistance from Annie regarding new initiatives",
+          "owner": "Beatrice Dimarucut (concern raised)",
+          "status": "resolved - determined to be minimal risk due to defined structure and no natural dependencies"
+        }
+      ],
+      "key_topics": [
+        "Charge at checkout refund process issues",
+        "AL system refund and cancellation tracking",
+        "Spur competitive analysis tool introduction",
+        "Career development and mentoring opportunities",
+        "Team structure and headcount planning",
+        "Cross-functional dependencies and stakeholder management"
+      ],
+      "entities": [
+        {
+          "name": "AL",
+          "type": "system",
+          "context": "System used for processing refunds for charged at checkout customers and tracking order statuses"
+        },
+        {
+          "name": "Kag",
+          "type": "person",
+          "context": "Person to consult about how refunds and cancellations are tracked individually in AL system"
+        },
+        {
+          "name": "Spur",
+          "type": "project",
+          "context": "External supplier developing competitive analysis tool to track and compare flows to ideal state, financially approved for procurement"
+        },
+        {
+          "name": "Dio",
+          "type": "person",
+          "context": "Team member who is leaving, creating need to shore up work with Yuri"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Team member Beatrice needs to work with in more long-term thinking perspective; will be involved in approval discussions"
+        },
+        {
+          "name": "Annie",
+          "type": "person",
+          "context": "Potential stakeholder with no natural touchpoints to Beatrice; concern about resistance but determined to be minimal risk"
+        },
+        {
+          "name": "John",
+          "type": "person",
+          "context": "Will be involved in approval/discussion process"
+        },
+        {
+          "name": "Seb",
+          "type": "person",
+          "context": "Will be involved in approval/discussion process"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Will be involved in approval/discussion process"
+        },
+        {
+          "name": "DA",
+          "type": "person",
+          "context": "Will be involved in approval/discussion process"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Beatrice reports main objective document to Dominic, outside of Annie's structure"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Organizational structure under which Beatrice's headcount is defined"
+        },
+        {
+          "name": "CS5 role",
+          "type": "project",
+          "context": "Junior role being opened for Beatrice to mentor as part of career development"
+        }
+      ]
+    },
+    {
+      "doc_title": "Beatrice:Nikita 1:1 - 2025/12/09 10:01 CET - Notes by Gemini",
+      "doc_id": "1miytgRj_nag608K_j0drdP8EtnupQxpfpBqQTVD2_Rw",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Ask Kag if refunds and cancellations are tracked individually in the AL system for paid orders",
+          "owner": "Beatrice Dimarucut and Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Implement mechanism to check for paid 'charge at checkout' orders in 'canceled' status to ensure refunds are processed",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Attend Spur call introduction with Spur founders",
+          "owner": "Beatrice Dimarucut",
+          "due": "Not specified"
+        },
+        {
+          "task": "Open CS5 role for Beatrice to mentor",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Procure Spur as a supplier for competitive analysis tool",
+          "context": "Financial approval has been received to use Spur's external service for internal workflows to track and compare different flows to an ideal state"
+        },
+        {
+          "what": "Add CS5 headcount for Beatrice to mentor",
+          "context": "To support career development and shore up work with Yuri following Dio's departure, with alignment across multiple VPs"
+        },
+        {
+          "what": "No need to force touchpoints with Annie",
+          "context": "Beatrice's work reports to Dominic outside Annie's structure, headcount is defined outside her structure, and there are no big dependencies for Q1"
+        }
+      ],
+      "feedback": [
+        "Nikita previously gave Beatrice feedback on areas to work on, specifically how to shore up work with Yuri in a more long-term thinking perspective",
+        "Career development discussion about Beatrice mentoring more junior team members (CS5 role) going forward"
+      ],
+      "blockers": [
+        {
+          "issue": "Refund process for 'charge at checkout' customers takes too long (a week)",
+          "owner": "Not specified",
+          "status": "active"
+        },
+        {
+          "issue": "Unclear if paid orders via charge at checkout should ever have 'canceled' status in AL system without 'refunded' designation",
+          "owner": "Need clarification from Kag",
+          "status": "active"
+        },
+        {
+          "issue": "Potential resistance from Annie regarding new initiatives",
+          "owner": "Beatrice Dimarucut (concern)",
+          "status": "resolved - determined to be minimal risk due to defined structure and no natural dependencies"
+        }
+      ],
+      "key_topics": [
+        "Charge at checkout refund process issues",
+        "AL system refund and cancellation tracking",
+        "Spur competitive analysis tool introduction",
+        "Career development and mentoring opportunities",
+        "Team structure and headcount planning",
+        "Cross-functional stakeholder management"
+      ],
+      "entities": [
+        {
+          "name": "AL",
+          "type": "system",
+          "context": "System used for processing refunds for charged at checkout customers and tracking order statuses"
+        },
+        {
+          "name": "Kag",
+          "type": "person",
+          "context": "Person who needs to be consulted about how refunds and cancellations are tracked individually in AL"
+        },
+        {
+          "name": "Spur",
+          "type": "project",
+          "context": "External supplier developing competitive analysis tool for tracking and comparing flows to ideal state, with financial approval obtained"
+        },
+        {
+          "name": "Dio",
+          "type": "person",
+          "context": "Team member who is leaving, creating need to shore up work with Yuri"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Team member Beatrice needs to work with in more long-term thinking perspective; will be involved in approval discussions"
+        },
+        {
+          "name": "Annie",
+          "type": "person",
+          "context": "Person Beatrice was concerned might provide resistance, but determined to have no natural touchpoints or dependencies"
+        },
+        {
+          "name": "John",
+          "type": "person",
+          "context": "Stakeholder who will be involved in approval discussions"
+        },
+        {
+          "name": "Seb",
+          "type": "person",
+          "context": "Stakeholder who will be involved in approval discussions"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Stakeholder who will be involved in approval discussions"
+        },
+        {
+          "name": "DA",
+          "type": "person",
+          "context": "Stakeholder who will be involved in approval discussions"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Person to whom Beatrice's main objective document reports, outside of Annie's structure"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Organization structure under which Beatrice's headcount is defined"
+        },
+        {
+          "name": "CS5 role",
+          "type": "project",
+          "context": "Junior position being opened for Beatrice to mentor as part of career development"
+        }
+      ]
+    },
+    {
+      "doc_title": "Prateek:Nikita 1:1 - 2025/12/09 10:45 CET - Notes by Gemini",
+      "doc_id": "1cIVE2-Q7g2G28iQYEWZsJvnCa4gfFEeqwWeSyomyOf8",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Prateek Jajoo",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Manage ETAs for login page work and app documentation/plan",
+          "owner": "Prateek Jajoo",
+          "due": "ongoing"
+        },
+        {
+          "task": "Secure reviews from Nikita Gorshkov and Laura Doas on login page designs before Katrina's departure",
+          "owner": "Prateek Jajoo",
+          "due": "this week"
+        },
+        {
+          "task": "Create one-pager detailing rationale for deprioritizing social logins with data analysis",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Investigate cost and feasibility of adding recipe selection display on checkout/payment page",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Check with Maria regarding TPT experience preview for design review",
+          "owner": "Prateek Jajoo",
+          "due": "before Katrina leaves"
+        },
+        {
+          "task": "Get feedback from Laura Doas and socialize design with broader team",
+          "owner": "Prateek Jajoo",
+          "due": "this week"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Deprioritize social logins feature",
+          "context": "Based on data from other brands and older demographic of customer base"
+        },
+        {
+          "what": "Prioritize login page features: improve text box visibility/action-orientation and enhance language with emotional appeal and social proof",
+          "context": "Focus on conversion rate improvements for one sprint's work, frontloaded due to Katrina's upcoming absence"
+        },
+        {
+          "what": "Test recipe selection display on checkout page if inexpensive",
+          "context": "Lack of transparency may reduce completion rates; displaying recipes could build customer confidence at point of highest commitment"
+        },
+        {
+          "what": "Design review can be done async or live; live preferred for relationship building",
+          "context": "Need to get feedback from Laura Doas before Katrina's departure"
+        }
+      ],
+      "feedback": [
+        "Meeting purpose clarified as focusing on Prateek Jajoo's personal development, unblocking, and issue escalation",
+        "Nikita Gorshkov encouraged Prateek to establish relationships with team members through live design reviews"
+      ],
+      "blockers": [
+        {
+          "issue": "Difficulty accessing new tribe in Slide page on Confluence",
+          "owner": "Nikita Gorshkov",
+          "status": "resolved"
+        },
+        {
+          "issue": "Katrina's upcoming absence - need to finalize designs and get reviews before departure",
+          "owner": "Prateek Jajoo",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Confluence access issues",
+        "Personal development and project management",
+        "Login page feature prioritization",
+        "Social login deprioritization",
+        "Recipe selection transparency on checkout page",
+        "Design review process"
+      ],
+      "entities": [
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Meeting participant working on login page and app documentation"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Meeting participant, manager providing guidance and unblocking support"
+        },
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Team member going on absence, creating urgency for design reviews"
+        },
+        {
+          "name": "Laura Doas",
+          "type": "person",
+          "context": "Stakeholder whose feedback is needed on login page designs"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Contact for TPT experience preview coordination"
+        },
+        {
+          "name": "Confluence",
+          "type": "system",
+          "context": "Platform where access issues occurred with tribe slide page"
+        },
+        {
+          "name": "Login page",
+          "type": "project",
+          "context": "Primary project focus with conversion rate optimization features"
+        },
+        {
+          "name": "Checkout/payment page",
+          "type": "project",
+          "context": "Area of concern regarding recipe selection display transparency"
+        },
+        {
+          "name": "TPT experience preview",
+          "type": "project",
+          "context": "Potential venue for design review process"
+        }
+      ]
+    },
+    {
+      "doc_title": "1:1s: Jama-Nikita - 2025/12/09 17:02 CET - Notes by Gemini",
+      "doc_id": "1HdOw9rINeOtx0sRUXorhqP9PwW5siAcGepbfK7k2C7U",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Jama Musse",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Close the loop with Alexia regarding the contract role inquiry",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Sit down with B2B team to understand HIPPA compliance requirements for factor food as medicine",
+          "owner": "Jama Musse/Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Monitor Anata consultancy to ensure they don't offload subscription setup work onto Samir",
+          "owner": "Nikita Gorshkov",
+          "due": "Ongoing"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Approved 18-month analytics support contract role (similar to Yara's)",
+          "context": "Budget approvals secured from Lauron and Yuri for Tishia; separate from permanent product role"
+        },
+        {
+          "what": "OTP plus subscribe and save feature for factor 4 launch date set",
+          "context": "Scheduled for January 5th (calendar week two) to align with peak traffic"
+        },
+        {
+          "what": "Sharief terminated following manager mistake",
+          "context": "Assaf (Sharief's manager) was unhappy with Sharief and made a mistake that created organizational issues"
+        }
+      ],
+      "feedback": [
+        "David has slowed down over the last year, particularly after having a baby, but still expected top performer treatment during reorg; after 5.5 years, may be time to part ways",
+        "Allison performing well on Shopify project",
+        "Warning about Katrina aggressively pursuing VP promotion and causing 'spin' for the team by trying to reinstitute Dominic reviews for more FaceTime"
+      ],
+      "blockers": [
+        {
+          "issue": "HIPPA compliance issues with B2B products - not listing right information for factor food as medicine and old age homes sales",
+          "owner": "B2B team (Adam Park and Kieran)",
+          "status": "active"
+        },
+        {
+          "issue": "Anata consultancy ($400k vendor) attempting to offload subscription setup work onto Samir",
+          "owner": "Nikita Gorshkov to manage",
+          "status": "active"
+        },
+        {
+          "issue": "Katrina causing problems with Marlene by seeking VP promotion and creating team disruption",
+          "owner": "Nikita Gorshkov to monitor",
+          "status": "active"
+        },
+        {
+          "issue": "Ed escalating pressure to meet market demands on Ed roadmap prioritization",
+          "owner": "Jama Musse",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Staffing and contract roles",
+        "Budget approvals",
+        "Employee departures and terminations",
+        "Reorganization impacts",
+        "Product launch timelines",
+        "Vendor management",
+        "HIPPA compliance for B2B",
+        "Promotion politics",
+        "Roadmap prioritization"
+      ],
+      "entities": [
+        {
+          "name": "Tishia",
+          "type": "person",
+          "context": "Secured budget approval"
+        },
+        {
+          "name": "Yara",
+          "type": "person",
+          "context": "Reference for similar 18-month contract structure"
+        },
+        {
+          "name": "Lauron",
+          "type": "person",
+          "context": "Provided budget approval"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Provided budget approval"
+        },
+        {
+          "name": "Alexia",
+          "type": "person",
+          "context": "Sent inquiry about contract role while Jama was on vacation"
+        },
+        {
+          "name": "Sharief",
+          "type": "person",
+          "context": "Terminated after manager Assaf made a mistake"
+        },
+        {
+          "name": "Assaf",
+          "type": "person",
+          "context": "Sharief's manager who was unhappy with him and made mistake leading to termination"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "5.5 year employee, slowed down after having baby, expected top performer treatment in reorg"
+        },
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Aggressively pursuing VP promotion, causing problems with Marlene, trying to reinstitute Dominic reviews"
+        },
+        {
+          "name": "Marlene",
+          "type": "person",
+          "context": "Subject of problems Katrina is causing"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Senior leader Katrina wants more FaceTime with through reviews"
+        },
+        {
+          "name": "Allison",
+          "type": "person",
+          "context": "Performing well on Shopify project"
+        },
+        {
+          "name": "Anata",
+          "type": "person",
+          "context": "$400k consultancy attempting to offload work onto Samir"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Being asked to take on subscription setup work from Anata"
+        },
+        {
+          "name": "Ed",
+          "type": "person",
+          "context": "Escalating pressure on roadmap prioritization to meet market demands"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "B2B team member dealing with HIPPA compliance issues"
+        },
+        {
+          "name": "Kieran",
+          "type": "person",
+          "context": "B2B team member dealing with HIPPA compliance issues"
+        },
+        {
+          "name": "Elena",
+          "type": "person",
+          "context": "Mentioned in relation to different issue than HIPPA compliance"
+        },
+        {
+          "name": "Factor 4",
+          "type": "project",
+          "context": "OTP plus subscribe and save feature launching January 5th"
+        },
+        {
+          "name": "Shopify project",
+          "type": "project",
+          "context": "Allison performing well, Anata consultancy involved"
+        },
+        {
+          "name": "Factor food as medicine",
+          "type": "project",
+          "context": "B2B initiative selling to old age homes with HIPPA compliance issues"
+        },
+        {
+          "name": "Ed roadmap",
+          "type": "project",
+          "context": "Under pressure for prioritization to meet market demands"
+        },
+        {
+          "name": "HIPPA compliance",
+          "type": "system",
+          "context": "Regulatory requirement for B2B products not currently met"
+        }
+      ]
+    },
+    {
+      "doc_title": "1:1s: Jama-Nikita - 2025/12/09 17:02 CET - Notes by Gemini",
+      "doc_id": "1HdOw9rINeOtx0sRUXorhqP9PwW5siAcGepbfK7k2C7U",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Jama Musse",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Close the loop with Alexia regarding the contract role inquiry",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Sit down with B2B team to understand HIPPA compliance requirements for factor food as medicine",
+          "owner": "Jama Musse/Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Monitor Anata consultancy to ensure they don't offload subscription setup work onto Samir",
+          "owner": "Nikita Gorshkov",
+          "due": "Ongoing"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Approved 18-month analytics support contract role (similar to Yara's)",
+          "context": "Budget approvals secured from Lauron and Yuri for Tishia; separate from permanent product role"
+        },
+        {
+          "what": "OTP plus subscribe and save feature for factor 4 launch date set",
+          "context": "Scheduled for January 5th (calendar week two) to align with peak traffic"
+        },
+        {
+          "what": "Sharief terminated following manager mistake",
+          "context": "Assaf (Sharief's manager) was unhappy with Sharief and made a mistake that created organizational issues, leading to termination"
+        }
+      ],
+      "feedback": [
+        "David has slowed down over the last year, particularly after having a baby, but still expected top performer treatment during reorg; after 5.5 years, may be time to part ways",
+        "Allison performing well on Shopify project",
+        "Warning about Katrina aggressively pursuing VP promotion and causing 'spin' for the team by trying to reinstitute Dominic reviews for more FaceTime"
+      ],
+      "blockers": [
+        {
+          "issue": "Anata consultancy ($400k contract) attempting to offload subscription setup work onto Samir instead of doing it themselves",
+          "owner": "Nikita Gorshkov",
+          "status": "active"
+        },
+        {
+          "issue": "HIPPA compliance issues for B2B factor food as medicine - products don't list right information to meet compliance",
+          "owner": "B2B team (Adam Park and Kieran)",
+          "status": "active"
+        },
+        {
+          "issue": "Katrina causing problems with Marlene by aggressively seeking VP promotion",
+          "owner": "Jama Musse/Nikita Gorshkov to monitor",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Staffing and contract roles",
+        "Budget approvals",
+        "Employee departures and terminations",
+        "Reorganization impacts",
+        "Product launch timeline (Factor 4 OTP)",
+        "Vendor management",
+        "Ed roadmap prioritization",
+        "B2B HIPPA compliance requirements",
+        "Shopify project progress"
+      ],
+      "entities": [
+        {
+          "name": "Tishia",
+          "type": "person",
+          "context": "Secured budget approval"
+        },
+        {
+          "name": "Yara",
+          "type": "person",
+          "context": "Reference for similar 18-month contract structure"
+        },
+        {
+          "name": "Alexia",
+          "type": "person",
+          "context": "Sent inquiry about contract role while Jama was on vacation"
+        },
+        {
+          "name": "Sharief",
+          "type": "person",
+          "context": "Terminated after manager Assaf made a mistake"
+        },
+        {
+          "name": "Assaf",
+          "type": "person",
+          "context": "Sharief's manager who was unhappy with him and made organizational mistake"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Employee of 5.5 years, slowed down after having baby, expected departure during reorg"
+        },
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Aggressively pursuing VP promotion, causing team issues, trying to reinstitute Dominic reviews"
+        },
+        {
+          "name": "Marlene",
+          "type": "person",
+          "context": "Problem being caused by Katrina's actions"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Senior leader Katrina is trying to get more FaceTime with"
+        },
+        {
+          "name": "Lauron",
+          "type": "person",
+          "context": "Approved budget for Tishia"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Approved budget for Tishia"
+        },
+        {
+          "name": "Ed",
+          "type": "person",
+          "context": "Escalating pressure on roadmap to meet market demands"
+        },
+        {
+          "name": "Allison",
+          "type": "person",
+          "context": "Performing well on Shopify project"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Anata trying to offload subscription setup work onto him"
+        },
+        {
+          "name": "Anata",
+          "type": "person",
+          "context": "Consultancy vendor being paid $400k, attempting to offload work"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "B2B team member dealing with HIPPA compliance issues"
+        },
+        {
+          "name": "Kieran",
+          "type": "person",
+          "context": "B2B team member dealing with HIPPA compliance issues"
+        },
+        {
+          "name": "Elena",
+          "type": "person",
+          "context": "Mentioned in relation to different issue"
+        },
+        {
+          "name": "Factor 4",
+          "type": "project",
+          "context": "OTP plus subscribe and save feature launching January 5th"
+        },
+        {
+          "name": "Shopify project",
+          "type": "project",
+          "context": "In progress with Allison performing well, vendor management issues"
+        },
+        {
+          "name": "Ed roadmap",
+          "type": "project",
+          "context": "Being prioritized due to market pressure"
+        },
+        {
+          "name": "B2B food as medicine",
+          "type": "project",
+          "context": "Selling food into old age homes, facing HIPPA compliance issues"
+        },
+        {
+          "name": "HIPPA compliance",
+          "type": "system",
+          "context": "Regulatory requirement for B2B products not currently being met"
+        }
+      ]
+    },
+    {
+      "doc_title": "Eva:Nikita 1:1 - 2025/12/09 15:02 CET - Notes by Gemini",
+      "doc_id": "1dIYA2ZM1iGCIjJ4fgQfAwn4SPGAOUoA4Fdbvgi0cu6k",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Eva Martínez Romero",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Meet with Tisha at 9:30 AM to discuss role expectations and collect salary expectations",
+          "owner": "Eva Martínez Romero",
+          "due": "Next morning (Dec 10, 2025)"
+        },
+        {
+          "task": "Mention 12-month contract option to Tisha during meeting",
+          "owner": "Eva Martínez Romero",
+          "due": "Dec 10, 2025"
+        },
+        {
+          "task": "Write summary of team assignments and Simon's scope expansion in Slack thread",
+          "owner": "Eva Martínez Romero",
+          "due": "After meeting"
+        },
+        {
+          "task": "Reach out to Lauron to update on team assignments and progress",
+          "owner": "Eva Martínez Romero",
+          "due": "Soon"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Contract length for Tisha's role set at 12 months (18 months would require Jamba's support)",
+          "context": "Budget constraints affecting Lauran and Yuri's ability to commit for 18 months"
+        },
+        {
+          "what": "Salary range of approximately 100k for contract role (100% base pay, no equity)",
+          "context": "Similar to Yara's arrangement as contract employee"
+        },
+        {
+          "what": "Headcount for Tisha's role assigned directly to Eva's team",
+          "context": "Team structure and budget allocation"
+        },
+        {
+          "what": "Simon's scope expansion to include: standardizing across brands, driving long-term strategy for new ventures, consolidating data from different domains (Shopify, non-HelloFresh products)",
+          "context": "Simon as staff analyst transitioning from onboarding/VMS focus to broader responsibilities"
+        },
+        {
+          "what": "Eva serves as team lead, allowing Alexia to focus on market innovations",
+          "context": "Team restructuring and role clarification"
+        },
+        {
+          "what": "Simon designated as new ventures contact",
+          "context": "Clear ownership and responsibility assignment"
+        }
+      ],
+      "feedback": [],
+      "blockers": [
+        {
+          "issue": "18-month contract would require Jamba's support due to budget constraints",
+          "owner": "Jamba",
+          "status": "active"
+        },
+        {
+          "issue": "Nikita cannot join 9:30 AM meeting due to night shift schedule (starts 10-10:30 AM)",
+          "owner": "Nikita Gorshkov",
+          "status": "resolved"
+        }
+      ],
+      "key_topics": [
+        "AI-generated documentation system",
+        "Tisha's role expectations and contract terms",
+        "Budget and salary negotiations",
+        "Team assignments and scope expansion",
+        "Simon's role transition and responsibilities",
+        "New ventures strategy and data consolidation"
+      ],
+      "entities": [
+        {
+          "name": "Tisha",
+          "type": "person",
+          "context": "Candidate for contract role, meeting scheduled to discuss expectations and salary"
+        },
+        {
+          "name": "Simon",
+          "type": "person",
+          "context": "Staff analyst expanding scope to standardize across brands, drive new ventures strategy, and consolidate data; taking over perfect order rate"
+        },
+        {
+          "name": "Alexia",
+          "type": "person",
+          "context": "Team member focusing on market innovations, including future pricing experiments"
+        },
+        {
+          "name": "Jamba",
+          "type": "person",
+          "context": "Support needed for 18-month contract approval due to budget considerations"
+        },
+        {
+          "name": "Lauran",
+          "type": "person",
+          "context": "Affected by budget constraints; needs update on team assignments and progress"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Affected by budget constraints for 18-month contract commitment"
+        },
+        {
+          "name": "Yara",
+          "type": "person",
+          "context": "Reference point for contract employee arrangement (100% base, no equity)"
+        },
+        {
+          "name": "Addy",
+          "type": "person",
+          "context": "Has been receiving questions from Lauron about team progress"
+        },
+        {
+          "name": "AI-generated documentation system",
+          "type": "system",
+          "context": "Automatically updates documentation and sets next agenda; Eva granted access"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Data source being consolidated as part of new ventures work"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Simon's initial onboarding focus before scope expansion"
+        },
+        {
+          "name": "New ventures",
+          "type": "project",
+          "context": "Simon designated as contact; includes data consolidation from different domains and non-HelloFresh products"
+        },
+        {
+          "name": "Market innovations",
+          "type": "project",
+          "context": "Alexia's focus area; includes future pricing experiments and content for content creators"
+        },
+        {
+          "name": "Perfect order rate",
+          "type": "project",
+          "context": "Being transitioned from Eva to Simon as part of scope expansion"
+        }
+      ]
+    },
+    {
+      "doc_title": "Prateek:Nikita 1:1 - 2025/12/16 15:41 CET - Notes by Gemini",
+      "doc_id": "1iLk0McQ23AHcVDLH0u1FhWSlJFOD-SzgcasejNL9xXE",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Nikita Gorshkov",
+        "Prateek Jajoo"
+      ],
+      "action_items": [
+        {
+          "task": "Talk to Maria to discuss bandwidth regarding the CV program and provide an answer",
+          "owner": "Prateek Jajoo",
+          "due": "pet staple weekly tomorrow"
+        },
+        {
+          "task": "Chase the web view idea with Emma to discuss required customizations",
+          "owner": "Prateek Jajoo",
+          "due": "start of the new year"
+        },
+        {
+          "task": "Formalize discussions and create a decision tree outlining three options for app development (Web View first, Mixed approach, React Native from start) including costs and risks to present to Laurel",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Create reasonable assumptions around the AI-calculated impact numbers to come up with a revenue estimate",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Ask about a time box around the CV program initiative",
+          "owner": "Nikita Gorshkov",
+          "due": "not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Three app development options to be formalized: Option 1 (Web View first), Option 2 (Mixed approach with React Native for select features), Option 3 (React Native from start)",
+          "context": "Need to evaluate costs and risks for each approach. Web View estimated at 2-4 weeks for one engineer, Mixed approach at 4 months for one engineer. If Web View exceeds 2 months, will move directly to React Native."
+        },
+        {
+          "what": "CV program will be structured as a time-boxed initiative with Prateek Jajoo taking ownership",
+          "context": "Prateek will work with Maria and a team to drive outcomes. Decision on acceptance pending bandwidth discussion with Maria."
+        },
+        {
+          "what": "Prioritized features for React Native development: dashboard, digital guide, managing/selecting meals",
+          "context": "These are frequently used by retained customers. High-usage quick actions like reschedule and pause are more important than dashboard for improving estimations."
+        }
+      ],
+      "feedback": [
+        "Nikita is angling towards Prateek taking ownership of the CV program initiative, viewing it as a good opportunity for Prateek to understand customer experience and funnel"
+      ],
+      "blockers": [
+        {
+          "issue": "Apple App Store approval risks for web view approach",
+          "owner": "Prateek Jajoo",
+          "status": "active"
+        },
+        {
+          "issue": "Variable effort estimation for web view due to shared code with HelloFresh",
+          "owner": "Prateek Jajoo",
+          "status": "active"
+        },
+        {
+          "issue": "Bandwidth constraints for taking on CV program ownership",
+          "owner": "Prateek Jajoo",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "App development strategy and technology options",
+        "Web view vs React Native implementation",
+        "CV program structure and ownership",
+        "Cost and risk analysis for app development approaches",
+        "Feature prioritization for customer retention",
+        "Resource allocation and bandwidth planning"
+      ],
+      "entities": [
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Had deep dive conversation with Prateek about app features and development options"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Discussed CV program with Prateek; will discuss bandwidth for CV program ownership"
+        },
+        {
+          "name": "Emma",
+          "type": "person",
+          "context": "To be contacted about web view customizations at start of new year"
+        },
+        {
+          "name": "Laurel",
+          "type": "person",
+          "context": "Decision tree with app development options to be presented to them"
+        },
+        {
+          "name": "Anessa",
+          "type": "person",
+          "context": "Mentioned as someone who manages children and work"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Mentioned as someone who manages children and work"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "system",
+          "context": "Shares code with the app being developed; full React Native implementation expected in Q2"
+        },
+        {
+          "name": "CV program",
+          "type": "project",
+          "context": "Time-boxed initiative for conversion/growth/retention; Prateek being considered for ownership"
+        },
+        {
+          "name": "React Native",
+          "type": "system",
+          "context": "Technology option for app development; infrastructure possibly ready before Q2"
+        },
+        {
+          "name": "Apple App Store",
+          "type": "system",
+          "context": "Potential approval risk for web view approach"
+        }
+      ]
+    },
+    {
+      "doc_title": "Sameer:Nikita 1:1 - 2025/12/22 15:31 CET - Notes by Gemini",
+      "doc_id": "19OHKfUxQa7FqqAvHDU5pD_MptZK9reL6edv6U89KIYM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Sameer Doda",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Set up Canadian B2B store with technical inputs and menu/product/catalog management",
+          "owner": "Ian's team / Leman / Ellie",
+          "due": "Not specified"
+        },
+        {
+          "task": "Upload approximately 200 recipes to Canadian store (via code or Hello Connect)",
+          "owner": "Leman or engineering team member",
+          "due": "~1 week estimated"
+        },
+        {
+          "task": "Review Canadian store setup after product upload",
+          "owner": "Sameer Doda or Allison",
+          "due": "After upload completion"
+        },
+        {
+          "task": "Resolve daily GCNL issues to ensure week three production testing",
+          "owner": "Sameer Doda",
+          "due": "Before week three"
+        },
+        {
+          "task": "Manual menu creation with Catherine for GCNL",
+          "owner": "Sameer Doda and Catherine",
+          "due": "Ongoing"
+        },
+        {
+          "task": "Manage account migration/plan migration and payments for GCNL",
+          "owner": "Leman (with help from Mori and Ryan)",
+          "due": "Future blocker to address"
+        },
+        {
+          "task": "Work on influencer marketplace customer journey",
+          "owner": "Sameer Doda with Lineia, Alice Kanty, and Jordan Stennison",
+          "due": "Before presentation with Ed"
+        },
+        {
+          "task": "Work on influencer marketplace designs",
+          "owner": "Shay",
+          "due": "Before presentation with Ed"
+        },
+        {
+          "task": "Create document on possible approaches and costs for influencer marketplace launch options",
+          "owner": "Sameer Doda",
+          "due": "For discussion with Ed, Ian, and Jamba"
+        },
+        {
+          "task": "Develop strategy doc and work requirements with Anara for influencer marketplace",
+          "owner": "Sameer Doda",
+          "due": "Initial phase"
+        },
+        {
+          "task": "Transition implementation work to Alli after initial setup",
+          "owner": "Alli",
+          "due": "After strategy phase complete"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Make B2B setup as simple, 'dumb,' and cheap as possible",
+          "context": "Canadian store B2B strategy to minimize complexity and cost"
+        },
+        {
+          "what": "Recommended replicating US automation for Canadian B2B",
+          "context": "US B2B uses automation that builds menus off CCM and uses tags to pull classic box menu recipes, automatically writing menus and catalogs weekly"
+        },
+        {
+          "what": "Key decision pending: whether to launch customer-facing and creator portals together for influencer marketplace",
+          "context": "Will create document with approaches and costs for discussion with Ed, Ian, and Jamba"
+        },
+        {
+          "what": "Sameer will be heavily involved in initial strategy and setup, then hand off implementation to Alli",
+          "context": "Sameer will be managing multiple projects (cream chef, premium subscription, influencer marketplace) and needs to delegate"
+        }
+      ],
+      "feedback": [
+        "Sameer congratulated Nikita on promotion to Senior Director, calling it 'incredible news and well-deserved'",
+        "Nikita noted many promotions from director to senior director were within TAM organization, viewing this as positive reflection of team's ability to deliver results",
+        "Nikita confirmed promotion made Christmas 'really special'"
+      ],
+      "blockers": [
+        {
+          "issue": "Manual menu creation required for GCNL due to technical difficulties",
+          "owner": "Sameer Doda and Catherine",
+          "status": "active"
+        },
+        {
+          "issue": "Account migration/plan migration and payments for GCNL",
+          "owner": "Leman (with Mori and Ryan support)",
+          "status": "active"
+        },
+        {
+          "issue": "Manually uploading 200 recipes would be major task on Shopify front end",
+          "owner": "Engineering team / Leman",
+          "status": "active"
+        },
+        {
+          "issue": "Orders placed through Shopify won't automatically tie into downstream services, requiring manual generation and fulfillment",
+          "owner": "To be determined",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Nikita's promotion to Senior Director",
+        "Canadian B2B store setup and strategy",
+        "Product upload and catalog maintenance approaches",
+        "GCNL production testing and technical issues",
+        "Influencer marketplace presentation preparation",
+        "Work delegation and resource management"
+      ],
+      "entities": [
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Recently promoted to Senior Director, meeting participant"
+        },
+        {
+          "name": "Sameer Doda",
+          "type": "person",
+          "context": "Meeting participant, managing multiple projects including B2B, GCNL, and influencer marketplace"
+        },
+        {
+          "name": "Ian",
+          "type": "person",
+          "context": "Team lead for B2B setup support, requires spreadsheet of orders"
+        },
+        {
+          "name": "Leman",
+          "type": "person",
+          "context": "Potential resource for product upload via code, managing GCNL migrations with Mori and Ryan"
+        },
+        {
+          "name": "Ellie",
+          "type": "person",
+          "context": "Suggested for B2B support alongside Ian"
+        },
+        {
+          "name": "Allison/Alli",
+          "type": "person",
+          "context": "Will review Canadian store setup and take over implementation work after initial phase"
+        },
+        {
+          "name": "Catherine",
+          "type": "person",
+          "context": "Working with Sameer on manual menu creation for GCNL"
+        },
+        {
+          "name": "Mori",
+          "type": "person",
+          "context": "Supporting Leman with GCNL account/plan migration"
+        },
+        {
+          "name": "Ryan",
+          "type": "person",
+          "context": "Supporting Leman with GCNL account/plan migration"
+        },
+        {
+          "name": "Ed",
+          "type": "person",
+          "context": "Stakeholder for influencer marketplace presentation"
+        },
+        {
+          "name": "Lineia",
+          "type": "person",
+          "context": "Working on influencer marketplace customer journey"
+        },
+        {
+          "name": "Alice Kanty",
+          "type": "person",
+          "context": "Working on influencer marketplace customer journey"
+        },
+        {
+          "name": "Jordan Stennison",
+          "type": "person",
+          "context": "Working on influencer marketplace customer journey"
+        },
+        {
+          "name": "Shay",
+          "type": "person",
+          "context": "Working on influencer marketplace designs"
+        },
+        {
+          "name": "Jamba",
+          "type": "person",
+          "context": "Stakeholder for influencer marketplace discussion"
+        },
+        {
+          "name": "Laura",
+          "type": "person",
+          "context": "Previous business stakeholder with different working style, handled tasks independently"
+        },
+        {
+          "name": "Yuri",
+          "type": "person",
+          "context": "Current business stakeholder with different personality from Laura, has team members (PCs) who can support"
+        },
+        {
+          "name": "Anara",
+          "type": "person",
+          "context": "Involved in work requirements for influencer marketplace strategy"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "Platform for Canadian B2B store setup, completed project"
+        },
+        {
+          "name": "Hello Connect",
+          "type": "system",
+          "context": "Alternative tool for uploading products to Shopify, estimated ~1 week"
+        },
+        {
+          "name": "CCM",
+          "type": "system",
+          "context": "System used in US B2B automation for building menus"
+        },
+        {
+          "name": "GCNL",
+          "type": "project",
+          "context": "Project with daily issues being resolved for week three production testing"
+        },
+        {
+          "name": "Canadian B2B Store",
+          "type": "project",
+          "context": "New store setup requiring product upload, catalog maintenance, and technical configuration"
+        },
+        {
+          "name": "Influencer Marketplace",
+          "type": "project",
+          "context": "Upcoming presentation with Ed, involves customer journey and creator portals"
+        },
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Previous project referenced as comparison for involvement level"
+        },
+        {
+          "name": "TAM organization",
+          "type": "project",
+          "context": "Organization where multiple director to senior director promotions occurred"
+        },
+        {
+          "name": "MIOS score",
+          "type": "system",
+          "context": "Metric that could potentially be tied to Leman's work on product upload"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:29:50.299697"
+}

@@ -1,0 +1,660 @@
+{
+  "batch_id": "spreadsheet_051",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "Demo Session Sign-Up Sheet",
+      "doc_id": "1KNq8OJm2YC8NSgDee2NY5Sdz3EtOI89AfIjM3EmrgZY",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks demo sessions for product/feature presentations scheduled for December 2025 and January 2026, including project details, presenters, and production status",
+      "data_type": "tracker",
+      "key_data_points": [
+        "11 demo sessions scheduled",
+        "9 projects already in production",
+        "1 project in UAT phase",
+        "1 project in experimental phase",
+        "Sessions scheduled for 12/2/2025 (10 sessions) and 1/13/2026 (1 session)",
+        "Preliminary meeting order ranges from 1-6",
+        "Follow-up status tracked with 'x' and 'o' markers"
+      ],
+      "entities": [
+        {
+          "name": "Thomas Gamper Feitoza",
+          "type": "person",
+          "context": "Presenter for Merchandising Widgets"
+        },
+        {
+          "name": "Shruti Patil",
+          "type": "person",
+          "context": "Co-presenter for Merchandising Widgets"
+        },
+        {
+          "name": "Lobna Naguib",
+          "type": "person",
+          "context": "Presenter for multi-variant pipeline deployment"
+        },
+        {
+          "name": "Richard Palm",
+          "type": "person",
+          "context": "Co-presenter for multi-variant pipeline deployment"
+        },
+        {
+          "name": "Karunai Ragavan S",
+          "type": "person",
+          "context": "Presenter for Databricks & Unity Catalog automation"
+        },
+        {
+          "name": "Harneet Singh",
+          "type": "person",
+          "context": "Presenter for Ad progression customized funnels"
+        },
+        {
+          "name": "Alvaro Magalhaes",
+          "type": "person",
+          "context": "Co-presenter for Ad progression"
+        },
+        {
+          "name": "Priyank Khanna",
+          "type": "person",
+          "context": "Presenter for CCM Bulk Upload feature"
+        },
+        {
+          "name": "Wladimir Gaus",
+          "type": "person",
+          "context": "Presenter for New Cooking Experience"
+        },
+        {
+          "name": "Srishti Shah",
+          "type": "person",
+          "context": "Co-presenter for New Cooking Experience"
+        },
+        {
+          "name": "Alex Goodwin",
+          "type": "person",
+          "context": "Presenter for Automated Cluster Physical Box Business Marts"
+        },
+        {
+          "name": "Benjamin Bertincourt",
+          "type": "person",
+          "context": "Presenter for Olympus Image RAG"
+        },
+        {
+          "name": "Louis Lippmann",
+          "type": "person",
+          "context": "Co-presenter for Olympus Image RAG"
+        },
+        {
+          "name": "Marie Crumpton",
+          "type": "person",
+          "context": "Presenter for P500 Funnel & Menu Personalization"
+        },
+        {
+          "name": "Stefano Palazzo",
+          "type": "person",
+          "context": "Presenter for Menu Search feature"
+        },
+        {
+          "name": "Tushar Raina",
+          "type": "person",
+          "context": "Co-presenter for Menu Search"
+        },
+        {
+          "name": "Customer Mega Alliance",
+          "type": "system",
+          "context": "Alliance responsible for Shopping Journey and Merchandising Widgets"
+        },
+        {
+          "name": "Release Engineering - Foundations Alliance",
+          "type": "system",
+          "context": "Alliance for multi-variant deployment pipeline"
+        },
+        {
+          "name": "Data Streaming and Operations - Foundations Alliance",
+          "type": "system",
+          "context": "Alliance for Databricks platform automation"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Alliance involved in ad progression and cooking experience"
+        },
+        {
+          "name": "Active Journey Alliance",
+          "type": "system",
+          "context": "Alliance for shopping platform and cooking experience"
+        },
+        {
+          "name": "Operations Mega Alliance",
+          "type": "system",
+          "context": "Alliance for Olympus Image RAG project"
+        },
+        {
+          "name": "Consumer Mega Alliance",
+          "type": "system",
+          "context": "Alliance for Menu Search feature"
+        },
+        {
+          "name": "Elysium",
+          "type": "system",
+          "context": "New store platform with merchandising widgets"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Platform being automated with Unity Catalog"
+        },
+        {
+          "name": "CCM",
+          "type": "system",
+          "context": "System with bulk upload recipe feature"
+        },
+        {
+          "name": "FreshChat",
+          "type": "system",
+          "context": "ChatGPT integration for HelloFresh on Hellodev"
+        },
+        {
+          "name": "Hellodev",
+          "type": "system",
+          "context": "Platform integrating FreshChat"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary company brand"
+        },
+        {
+          "name": "Chefs Plate",
+          "type": "brand",
+          "context": "Brand where menu search MVP was launched"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Project involving funnel personalization and menu search"
+        }
+      ],
+      "insights": [
+        "Most projects (9 out of 11) are already in production, indicating mature development cycle",
+        "Strong focus on personalization features (menu personalization, ad progression, merchandising widgets)",
+        "Multiple infrastructure and platform automation initiatives (Databricks, multi-region deployment, FreshChat integration)",
+        "Cross-functional collaboration is common with multiple alliances/tribes working together on projects",
+        "GitHub repositories are primary documentation source for technical projects",
+        "Menu Search feature shows phased rollout strategy (MVP in Chefs Plate, then CK/CA/US markets)",
+        "Data and analytics capabilities being enhanced (Business Marts, Databricks automation)",
+        "Consumer experience improvements span multiple touchpoints (ads, funnels, menus, cooking experience)",
+        "Follow-up tracking shows mixed completion status with both 'x' and 'o' markers",
+        "Projects span multiple mega alliances: Customer, Growth, Operations, Consumer, and Foundations"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions with 5+ failed payment attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Trial box SKU pattern: KN-T%",
+        "Cancellation threshold: 5+ canceled orders",
+        "Current tracking week: 2025-W48",
+        "Delivery date cutoff: 2025-11-25",
+        "Customer loyalty filter: 0 (new customers)",
+        "Cancellation reason code: CC-Failed-Payments"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT (The Pets Table)",
+          "type": "brand",
+          "context": "Pet food subscription service offering trial boxes to new customers"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "System used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "team",
+          "context": "Slack channel for requesting engineer support for subscription resets"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Data platform where queries are executed"
+        }
+      ],
+      "insights": [
+        "Process runs on a bi-weekly schedule: Tuesdays (covering Sat-Tue deliveries) and Fridays (covering Wed-Fri deliveries)",
+        "Two-tier approach: subscriptions with 5+ failed payments are canceled, while those with fewer failures are reset to trial status",
+        "4-week grace period: trial boxes reset for over 4 weeks with continued payment failures trigger subscription cancellation",
+        "Query filters for trial boxes only (is_trialbox = TRUE) with dunning_decision = 'cancel' and excludes already shipped/paid orders",
+        "Manual coordination required between operations team and engineering team via Slack for subscription resets",
+        "Process prevents accumulation of failed weekly order creations while honoring trial pricing for legitimate customers"
+      ]
+    },
+    {
+      "doc_title": "Research Roadmap & Project Tracking (GCI + IXI + USCI + GCX)",
+      "doc_id": "1QAxLwMFAAeMbVev8ZWgcQCCJyJJaZsy3Zlvmk974YXA",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks research projects and initiatives across multiple brands (HelloFresh, Factor_, Green Chef) and regions, managing project status, ownership, timelines, and strategic alignment",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "4 project statuses tracked: Requested, Planned, In Flight, Complete",
+        "3 primary team flags: GCI-led, IXI-led, USCI-led, Prod Analytics-led",
+        "Multiple brands: HelloFresh, Factor_, Green Chef, Internal tools",
+        "Geographic coverage: US, Canada, Sweden, Global",
+        "6 strategic anchors: Foundational Insights, Cultural Relevance, Consumer Closeness, Value Perception, Efficiency, Creative & Campaign Evaluation, Menu Expansion",
+        "Project timeline spans from 2025 Q1 through 2026 Q2"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary brand with most projects across multiple markets"
+        },
+        {
+          "name": "Factor_",
+          "type": "brand",
+          "context": "Health-focused meal brand with menu expansion and customer research initiatives"
+        },
+        {
+          "name": "Green Chef",
+          "type": "brand",
+          "context": "Brand with completed loyalty deep dive study"
+        },
+        {
+          "name": "Bassem Elhelaly",
+          "type": "person",
+          "context": "Primary driver for GCI-led projects including Consumer Closeness campaigns and GCS reporting"
+        },
+        {
+          "name": "Anne Laesecke",
+          "type": "person",
+          "context": "Driver for USCI-led projects focused on Factor_ menu expansion and customer preferences"
+        },
+        {
+          "name": "Patrick Roney",
+          "type": "person",
+          "context": "Approver for multiple USCI-led projects"
+        },
+        {
+          "name": "Dan-Octavian Balica",
+          "type": "person",
+          "context": "Approver for GCI-led projects"
+        },
+        {
+          "name": "Joanna Lindenberg",
+          "type": "person",
+          "context": "Approver and consultant on multiple projects"
+        },
+        {
+          "name": "GCS (Global Customer Survey)",
+          "type": "system",
+          "context": "Quarterly tracking survey being revamped for 2026"
+        },
+        {
+          "name": "Influencer Marketplace",
+          "type": "project",
+          "context": "Strategic initiative to create 'Shopify for Food' platform"
+        }
+      ],
+      "insights": [
+        "GCI-led projects dominate the roadmap, indicating centralized research operations",
+        "Consumer Closeness is a major focus with parallel campaigns for Factor_ and HelloFresh running weekly drop-in sessions",
+        "Factor_ has significant planned research in Q1-Q2 2026 focused on menu expansion (oven-heated meals, gluten formats, longevity/food-as-medicine)",
+        "Most completed projects (Status 4) are GCI-led, suggesting strong execution from this team",
+        "Strategic focus areas include: #2 Menu Expansion, #3 Cultural Relevance, #1 Value Perception, #5 Efficiency",
+        "Customer loyalty and retention are emerging concerns with multiple planned studies on 'super loyal customers' and cancellation reasons",
+        "GCS survey system is undergoing major revamp to become omnibus-type survey",
+        "Cross-functional collaboration is evident with multiple stakeholders (Consulted/Informed) on most projects",
+        "Geographic expansion focus on US market with some global and international (Sweden, Canada) initiatives"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions with 5+ failed payment attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Trial box SKU pattern: KN-T%",
+        "Cancellation threshold: 5+ canceled orders",
+        "Current tracking week: 2025-W48",
+        "Delivery date cutoff: 2025-11-25",
+        "Customer loyalty status: 0 (new customers)",
+        "Cancellation reason code: CC-Failed-Payments",
+        "Reset timeframe: 4 weeks before final cancellation"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT (The Pet Table)",
+          "type": "brand",
+          "context": "Pet food subscription service offering trial boxes to new customers"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "system",
+          "context": "Slack channel for submitting engineering requests for subscription resets"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "Tool used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        },
+        {
+          "name": "CC KN Reset tab",
+          "type": "system",
+          "context": "Spreadsheet tab tracking customer care reset requests"
+        }
+      ],
+      "insights": [
+        "Two-tier process: subscriptions with 5+ failed payments are canceled immediately, while those with fewer failures are reset to trial status",
+        "Bi-weekly schedule: Tuesday runs cover Saturday-Tuesday deliveries, Friday runs cover Wednesday-Friday deliveries",
+        "Trial boxes are smaller and lower-priced than regular boxes, requiring special handling to honor promotional pricing",
+        "Process prevents indefinite order creation for non-paying customers while giving legitimate customers a second chance",
+        "Automated query identifies candidates, but manual intervention required for both cancellations (via BOB) and resets (via engineering team)",
+        "Filters ensure only active, unshipped trial subscriptions with payment errors are processed",
+        "4-week grace period before final cancellation allows multiple retry attempts for payment resolution"
+      ]
+    },
+    {
+      "doc_title": "Good Chop: Tests Control Center (TCC)",
+      "doc_id": "14sn_hOcxcYDSqIyPnf37UUAqXWQVxzgY24Mu4SqFBzs",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing test campaigns and A/B tests for Good Chop across different channels (SEM, Facebook, CRM, Direct Mail) with various promotional offers and pricing structures",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Campaign naming convention: Quarter [Channel] Offer Description",
+        "Pricing structures: $30, $100, $110, $120, $140, $150 with various discount splits",
+        "Common discount patterns: (50-30-20), (50-30-20-20), (50-30-30), (50-40-20-10)",
+        "Promotional offers: Free Ground Beef, Free Ribeyes, Welcome Kits (A & B), Choose Your Offer/Meat/Protein",
+        "Time period: Q1 2023 through Q3 2025",
+        "Geographic variants: Standard US and Canada (CA) specific tests"
+      ],
+      "entities": [
+        {
+          "name": "kelly.abrams@goodchop.com",
+          "type": "person",
+          "context": "Owner of SEM (Search Engine Marketing) campaign tests for both New Business (NB), Competitor (Comp), and Brand channels"
+        },
+        {
+          "name": "yukie.yamamoto@goodchop.com",
+          "type": "person",
+          "context": "Owner of Facebook (FB) advertising campaign tests"
+        },
+        {
+          "name": "yt@hellofresh.com",
+          "type": "person",
+          "context": "Owner of CRM (Customer Relationship Management) and Direct Mail (DM) campaign tests; appears to be from parent company HelloFresh"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Meat subscription service conducting marketing tests, appears to be owned by or affiliated with HelloFresh"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent or partner company, email domain for CRM/DM campaign owner"
+        }
+      ],
+      "insights": [
+        "Good Chop runs systematic A/B tests comparing different promotional offers (free products vs. dollar discounts vs. welcome kits)",
+        "Marketing channels are clearly segmented: SEM (subdivided into New Business, Competitor, Brand), Facebook, CRM, and Direct Mail",
+        "Discount structures follow a pattern of multi-order incentives (e.g., 50-30-20 means $50 off order 1, $30 off order 2, $20 off order 3)",
+        "Q3 2025 campaigns focus heavily on $100-$120 offers with ground beef promotions, while Q2 2025 emphasized ribeye steak offers",
+        "There's a shift in ownership: older campaigns (2023-early 2024) owned by HelloFresh email, newer campaigns (2025) owned by Good Chop domain emails",
+        "Facebook channel shows the most test variations (often 3-way tests indicated by [3] suffix)",
+        "Canada market receives separate, tailored test campaigns (indicated by -CA suffix)",
+        "Most recent activity concentrated in Q2-Q3 2025 with last modified dates in June-July 2025",
+        "Welcome Kit variations (A and B) are frequently tested elements across multiple channels"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions with 5+ failed payment attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Trial box SKU pattern: KN-T%",
+        "Cancellation threshold: 5+ canceled orders",
+        "Current tracking week: 2025-W48",
+        "Delivery date cutoff: 2025-11-25",
+        "Cancellation reason code: CC-Failed-Payments",
+        "Customer loyalty filter: 0 (new customers only)",
+        "Trial box qualification: is_trialbox = TRUE"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT customers",
+          "type": "brand",
+          "context": "New pet food customers entitled to trial boxes"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "System used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "team",
+          "context": "Slack channel for requesting engineer support for subscription resets"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        }
+      ],
+      "insights": [
+        "Process runs on a bi-weekly schedule: Tuesdays (covering Sat-Tue deliveries) and Fridays (covering Wed-Fri deliveries)",
+        "Two-tier approach: subscriptions with 5+ failed payments are canceled, while those with fewer failures are reset to trial status",
+        "4-week grace period: trial boxes reset for over 4 weeks with continued payment failures should be canceled",
+        "Only unshipped boxes with payment errors are considered (box_shipped = 0, dunning_decision = 'cancel')",
+        "Process requires manual coordination between operations team and engineering team via Slack",
+        "Focuses exclusively on new customers (customer_loyalty = 0) to honor trial pricing commitments",
+        "Uses specific status filters to exclude successfully processed orders ('shipped', 'money_received')"
+      ]
+    },
+    {
+      "doc_title": "Pricing OTP vs. SNS",
+      "doc_id": "1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg",
+      "doc_type": "spreadsheet",
+      "purpose": "Pricing comparison for VMS (meal) products between OTP (One-Time Purchase) and SNS (Subscribe and Save) models, showing different discount tiers based on order value thresholds",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Original prices range from $24.99 to $315.96",
+        "Shipping cost threshold changed from $50 (before OTP) to $65 (after OTP)",
+        "SNS first box discount: 40% off above MOV (Minimum Order Value), 10% off below MOV",
+        "SNS second box onward discount: 20% off above MOV, 10% off below MOV",
+        "Shipping cost for orders below threshold: $5.99 (single items) or $0 (multi-packs)",
+        "Product sizes range from 1 to 4 boxes per order",
+        "Greens flavor products priced higher ($78.99 base) than chocolate/vanilla ($34.99 base)",
+        "Bulk products start at $69.00 per box"
+      ],
+      "entities": [
+        {
+          "name": "VMS",
+          "type": "product",
+          "context": "Main product line with multiple flavors (chocolate, vanilla, greens, lemonlime, bloodorangeyuzu, passionfruitguava, variety, bulk)"
+        },
+        {
+          "name": "OTP",
+          "type": "system",
+          "context": "One-Time Purchase pricing model introduced as new purchasing option"
+        },
+        {
+          "name": "SNS",
+          "type": "system",
+          "context": "Subscribe and Save model with tiered discounts for first and subsequent boxes"
+        },
+        {
+          "name": "FJ",
+          "type": "brand",
+          "context": "Brand prefix in product handles (e.g., FJ-VMS-1-1-0)"
+        }
+      ],
+      "insights": [
+        "Two-tiered subscription pricing strategy: aggressive 40% discount for first box to acquire customers, then 20% for retention",
+        "Premium pricing for greens flavor (~2.25x base chocolate/vanilla price)",
+        "Bulk products (8-box size) offered at discounted per-unit pricing",
+        "Free shipping incentive at $50+ (before) and $65+ (after) encourages larger orders",
+        "Product variety increases with order size (1-4 boxes) with mix-and-match options",
+        "Consistent pricing structure: OTP price equals original price, with SNS providing the only discounts",
+        "MOV threshold creates clear pricing tiers to drive higher order values",
+        "Single-item orders incur $5.99 shipping, creating strong incentive for multi-box purchases"
+      ]
+    },
+    {
+      "doc_title": "The Pets Table - 2026 BP v1 (Internal)",
+      "doc_id": "1338-4j5sMaG0A90gX-aeM_nsY8QSIgR4zAtP2E1in_s",
+      "doc_type": "spreadsheet",
+      "purpose": "Business planning document for The Pets Table brand for fiscal year 2026",
+      "data_type": "planning",
+      "key_data_points": [
+        "2026 fiscal year budget/plan (version 1)",
+        "Internal document - confidential business planning"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "Primary subject of the business plan document"
+        }
+      ],
+      "insights": [
+        "This is an early version (v1) of a business plan, suggesting it may be subject to revisions",
+        "Marked as 'Internal' indicating confidential strategic planning information",
+        "The 2026 timeframe suggests forward-looking financial and operational planning",
+        "Document title uses 'BP' abbreviation, likely meaning 'Business Plan' or 'Budget Plan'"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions after 5+ failed attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Cancellation threshold: 5+ canceled orders",
+        "Reset timeframe: 4 weeks maximum",
+        "Current tracking week: 2025-W48",
+        "Delivery date cutoff: 2025-11-25",
+        "Order statuses tracked: 'canceled', 'clarify_payment_error'",
+        "Product type: mealbox (trial boxes)",
+        "SKU pattern: KN-T% (trial SKUs)",
+        "Customer loyalty filter: 0 (new customers only)"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT customers",
+          "type": "brand",
+          "context": "New pet food customers entitled to trial boxes"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "System used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "team",
+          "context": "Slack channel for requesting engineer support for subscription resets"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        }
+      ],
+      "insights": [
+        "Two-tier process: subscriptions with 5+ failed payments are canceled immediately, while those with fewer failures are reset to trial status",
+        "Bi-weekly schedule: Tuesday runs cover Saturday-Tuesday deliveries, Friday runs cover Wednesday-Friday deliveries",
+        "Payment failures are the primary issue causing trial box cancellations (CC/logistics issues)",
+        "4-week grace period before final cancellation to honor trial pricing",
+        "Process involves cross-team coordination between operations and engineering teams",
+        "Automated query identifies candidates, but manual intervention required for actual resets",
+        "Cancellation reason standardized as 'CC-Failed-Payments' for tracking purposes"
+      ]
+    },
+    {
+      "doc_title": "Pricing OTP vs. SNS",
+      "doc_id": "1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg",
+      "doc_type": "spreadsheet",
+      "purpose": "Pricing comparison for VMS (meal) products between OTP (One-Time Purchase) and SNS (Subscribe and Save) models, showing different discount tiers based on order value and subscription status",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Original prices range from $24.99 to $315.96",
+        "Shipping cost threshold: $50 (before OTP), $65 (after OTP)",
+        "SNS First Box discount: 40% off above MOV (Minimum Order Value), 10% off below MOV",
+        "SNS Second Box onward discount: 20% off above MOV, 10% off below MOV",
+        "Shipping costs: $5.99 for orders below threshold, $0 for orders above",
+        "Product flavors: chocolate, vanilla, greens, lemonlime, bloodorangeyuzu, passionfruitguava, bulk, variety"
+      ],
+      "entities": [
+        {
+          "name": "VMS",
+          "type": "product",
+          "context": "Main product line with various flavor combinations and box quantities (1-4 boxes)"
+        },
+        {
+          "name": "OTP",
+          "type": "system",
+          "context": "One-Time Purchase pricing model with $65 minimum for free shipping"
+        },
+        {
+          "name": "SNS",
+          "type": "system",
+          "context": "Subscribe and Save model offering tiered discounts (40%/20% above MOV, 10% below MOV)"
+        },
+        {
+          "name": "FJ",
+          "type": "brand",
+          "context": "Brand prefix in all product handles (e.g., FJ-VMS-1-1-0)"
+        }
+      ],
+      "insights": [
+        "SNS first box offers aggressive 40% discount above MOV to incentivize subscription adoption",
+        "Discount drops to 20% for subsequent boxes, maintaining customer retention while improving margins",
+        "Greens flavor products are premium priced ($78.99 for 1 box vs $34.99 for chocolate/vanilla)",
+        "Bulk products introduced at competitive pricing ($68.99 per box)",
+        "Free shipping threshold increased from $50 to $65 after OTP introduction",
+        "All multi-box orders (2+) qualify for free shipping under original pricing",
+        "Product variety increases significantly with 4-box combinations, offering extensive customization",
+        "Below MOV pricing maintains consistent 10% discount across both first and subsequent SNS boxes"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:48:42.530005"
+}

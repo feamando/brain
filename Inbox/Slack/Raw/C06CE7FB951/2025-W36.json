@@ -1,0 +1,556 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W36",
+  "extracted_at": "2026-01-02T10:43:08.408396Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "U027201FQSV",
+      "type": "message",
+      "ts": "1757086061.810139",
+      "client_msg_id": "23909901-8140-4f4b-bd80-46cd66b1dda7",
+      "text": "Happy Friday team,\n\nGoing on vacations now and see you all on September 22nd :wave: Have a great two weeks ahead :rocket:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xeNSy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Happy Friday team,\n\nGoing on vacations now and see you all on September 22nd "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": " Have a great two weeks ahead "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "unicode": "1f680"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "wave",
+          "users": [
+            "U01PE2S4ZL6",
+            "U05BNQPJX4K",
+            "U08AXBW1CAZ",
+            "U0MBX09UZ"
+          ],
+          "count": 4
+        },
+        {
+          "name": "wave::skin-tone-3",
+          "users": [
+            "U044SKGT4R5"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U027201FQSV",
+      "type": "message",
+      "ts": "1756787332.363619",
+      "edited": {
+        "user": "U027201FQSV",
+        "ts": "1756807209.000000"
+      },
+      "client_msg_id": "58F9253B-1A59-441B-A66E-F073A103230D",
+      "text": "Team, I have a strong pain this night. I will go to the hospital for checks and take a day off today",
+      "team": "T02AGMUUR",
+      "thread_ts": "1756787332.363619",
+      "reply_count": 9,
+      "reply_users_count": 8,
+      "latest_reply": "1756823469.768369",
+      "reply_users": [
+        "U02BA3VS7H8",
+        "U0251UW1YUE",
+        "U0MBX09UZ",
+        "U044SKGT4R5",
+        "U03TY4YJU4X",
+        "U2D54V0UV",
+        "U027201FQSV",
+        "U02P4F23YJ0"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FN++f",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Team, I "
+                },
+                {
+                  "type": "text",
+                  "text": "have"
+                },
+                {
+                  "type": "text",
+                  "text": " a strong pain this night. I will go to the hospital for checks and take a day off today"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "take-care",
+          "users": [
+            "UE4HG114J",
+            "U02BA3VS7H8",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U0MBX09UZ",
+            "U0184T48L74",
+            "U7SJ525DE",
+            "U01U67XD681",
+            "U044SKGT4R5",
+            "U08AXBW1CAZ",
+            "U01PE2S4ZL6",
+            "U2D54V0UV",
+            "U01DE9ENHG9",
+            "U0958HM93B3",
+            "U01TQGXG9D3",
+            "U03UMPD2NNS"
+          ],
+          "count": 16
+        },
+        {
+          "name": "crossed_fingers",
+          "users": [
+            "UE4HG114J",
+            "U08AXBW1CAZ"
+          ],
+          "count": 2
+        },
+        {
+          "name": "get_well_soon",
+          "users": [
+            "U02BA3VS7H8",
+            "U03UMPD2NNS"
+          ],
+          "count": 2
+        },
+        {
+          "name": "heal",
+          "users": [
+            "U01KKT2P7FY"
+          ],
+          "count": 1
+        },
+        {
+          "name": "crossed_fingers::skin-tone-3",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756793294.211339",
+          "client_msg_id": "61581C14-B61C-4AA4-BE48-C3779A301C5F",
+          "text": "Take care Alex. Hope you recover soon",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NC8sc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Take care Alex. Hope you recover soon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756793863.717169",
+          "client_msg_id": "AA7664D4-4EC9-4DEF-ADB6-97AE78A93F01",
+          "text": "damn, hope is nothing serious. take it easy alex!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WySU+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "damn, hope is nothing serious"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " take it easy alex!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1756796709.984289",
+          "client_msg_id": "a3dcc9b0-3252-4ff1-88ce-775769081db4",
+          "text": "take car Alex, wish you a speedy recovery",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2GRmV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "take car Alex, wish you a speedy recovery"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1756801757.662359",
+          "client_msg_id": "4146F64F-ABA9-4B90-97F0-F4C222CB303D",
+          "text": "Take care Alex, hope you feel better soon :four_leaf_clover: ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Oq8Pw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Take care Alex, hope you feel better soon "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "four_leaf_clover",
+                      "unicode": "1f340"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756805936.849539",
+          "client_msg_id": "faf8ef00-e05c-42ac-a9ea-2b380f2bf452",
+          "text": "yeech, feel better soon!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zcC+D",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yeech, feel better soon!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1756815895.400299",
+          "client_msg_id": "ddfe394b-13c3-426b-86bf-e9e76457a398",
+          "text": "Get well soon Alex :four_leaf_clover:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OZduM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Get well soon Alex "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "four_leaf_clover",
+                      "unicode": "1f340"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1756821401.570169",
+          "client_msg_id": "E88EE30A-9E53-425B-8AFC-E4A873B1D728",
+          "text": "Thank you all :pray: I have just come back home - there is a worry that it’s a appendicitis…\n\nI will need to keep an eye on the symptoms this week.\n\nHave to be off! Hoping I will recover before my vacations next week :pray: ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Irxqt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you all "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I have just come back home - there is a worry that "
+                    },
+                    {
+                      "type": "text",
+                      "text": "it’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " a appendicitis"
+                    },
+                    {
+                      "type": "text",
+                      "text": "…"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nI will need to keep an eye on the symptoms this week.\n\nHave to be off! Hoping I will recover before my vacations next week "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "disappointed_relieved",
+              "users": [
+                "U02BA3VS7H8",
+                "U01TQGXG9D3"
+              ],
+              "count": 2
+            },
+            {
+              "name": "pray",
+              "users": [
+                "U02BA3VS7H8",
+                "U2D54V0UV"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756821596.981429",
+          "client_msg_id": "2c78ce90-08c4-405a-97b3-5449f8d454d7",
+          "text": "Feel better soon Alex!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "043gf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Feel better soon Alex!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U02P4F23YJ0",
+          "type": "message",
+          "ts": "1756823469.768369",
+          "client_msg_id": "5E1DF636-2DCC-409C-81F2-0B2F2530CE8A",
+          "text": "Wishing you well Alex, take care",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756787332.363619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rylP6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Wishing you well Alex, take care"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobheart",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

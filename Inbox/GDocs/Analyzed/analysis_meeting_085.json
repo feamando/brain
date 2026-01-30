@@ -1,0 +1,212 @@
+{
+  "batch_id": "meeting_085",
+  "doc_type": "meeting",
+  "doc_count": 2,
+  "results": [
+    {
+      "doc_title": "Nikita Gorshkov - Appt Booking (Gabriel Gregório (Senior Product Analyst)) - 2025/12/18 15:29 CET - Notes by Gemini",
+      "doc_id": "1ruiVNPGRySWPNP73Nr2oQRcWUpQBVEuywNgWEHAvBAc",
+      "doc_type": "meeting",
+      "meeting_purpose": "Job interview/screening call for an analytics role at Nikita Gorshkov's company",
+      "attendees": [
+        "Nikita Gorshkov",
+        "Gabriel Gregório (Senior Product Analyst)"
+      ],
+      "date": "December 18, 2025",
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "Review Gabriel Gregório's candidacy for the analytics position",
+          "owner": "Nikita Gorshkov",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Gabriel Gregório shared experience in data visualization for a wellness company, providing insights on user activity around gyms with localized metrics",
+        "Created dashboards showing subscribers within radius of gyms, nearby gym types, and new users from subscription changes, which enhanced sales team negotiations",
+        "Discussed strategies for shortening time to market including parallel experiments using social media surveys and third-party small-group testing alongside A/B testing",
+        "Provided example of two-way messaging for payment reminders at a bank as faster alternative to website changes",
+        "Suggested Brazil-specific qualitative methods: in-app surveys with discounts, pop-ups for ratings (Brazilians responsive to in-app interactions)",
+        "Recommended quantitative validation methods focusing on measurable goals like potential new users and order frequency through campaigns",
+        "Discussed Brazilian market characteristics: meal prep culture exists with small local businesses, premium users who go to gyms and focus on healthy eating",
+        "Company (HelloFresh/similar) has not expanded to Brazil due to requirements around meat culture, pricing, and infrastructure considerations",
+        "Company is globally hiring for analytics role"
+      ],
+      "blockers": [
+        "Standard A/B testing takes significant time, limiting ability to run multiple experiments in parallel",
+        "Brazil market expansion blocked by pricing profitability concerns, meat culture requirements, and infrastructure needs"
+      ],
+      "follow_ups": [
+        "Hiring decision for the analytics role"
+      ],
+      "entities": [
+        {
+          "name": "Gabriel Gregório",
+          "type": "person",
+          "context": "Senior Product Analyst candidate being interviewed, previously worked in wellness company and bank"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Interviewer representing company hiring for analytics role"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "Referenced as example of meal delivery service when discussing Brazilian market potential"
+        },
+        {
+          "name": "Wellness company",
+          "type": "project",
+          "context": "Gabriel's previous employer where he worked on gym-related data visualization and insights"
+        },
+        {
+          "name": "Bank",
+          "type": "project",
+          "context": "Gabriel's previous employer where he implemented two-way messaging for payment reminders"
+        },
+        {
+          "name": "Brazil",
+          "type": "project",
+          "context": "Discussed as potential market with existing meal prep culture and premium user base, but not yet entered due to business constraints"
+        }
+      ]
+    },
+    {
+      "doc_title": "AI Bytes Assemble - 2025/12/18 12:55 CET - Notes by Gemini",
+      "doc_id": "1MKFySkvuZIVilf9aAtVTXG6KDoabcm-aoYAPzIc9UDE",
+      "doc_type": "meeting",
+      "meeting_purpose": "Align on expectations, group boundaries, and core focus for integrating GenAI into the end-to-end software development lifecycle, specifically for acceleration and platform team initiatives",
+      "attendees": [
+        "Adam Ghanem",
+        "Nikita Gorshkov",
+        "Pepijn Senders",
+        "Meggie Bouchard",
+        "Mario Konschake",
+        "Luiz Cavalcanti",
+        "Sergei Kuzmenko",
+        "Lobo Olsson",
+        "Ebrahim Kargar",
+        "Leo Lee",
+        "Priscila Koeck Machado",
+        "Lacey Nagel",
+        "Someone in BER - P89-L4-Dim Sum (Berlin Campus - Prinzenstraße, L4)"
+      ],
+      "date": "2025-12-18",
+      "decisions": [
+        {
+          "what": "Immediate focus should be on small, high-value automatable pieces",
+          "who": [
+            "Someone in BER - P89-L4-Dim Sum",
+            "Pepijn Senders"
+          ],
+          "context": "Agreed to prioritize improving the design system check to ensure Figma files are 'Zestifiable' and packaging solutions for handover stage within Spec Machine"
+        },
+        {
+          "what": "Conduct a pilot with customer-facing teams",
+          "who": [
+            "Participants"
+          ],
+          "context": "Treat the onboarding process as a scientific experiment"
+        },
+        {
+          "what": "Need to sit together to review list of teams and defined quality parameters",
+          "who": [
+            "Participants"
+          ],
+          "context": "Alignment on quality standards and team selection for pilot"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Define quality parameters for AI adoption",
+          "owner": "Mario Konschake",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Potentially hand over tasks to Kudlo",
+          "owner": "Someone in BER - P89-L4-Dim Sum",
+          "timeline": "Following week (during vacation)"
+        },
+        {
+          "task": "Review list of teams for pilot program",
+          "owner": "Team (collective)",
+          "timeline": "Next meeting"
+        },
+        {
+          "task": "Define target goal for AI adoption and quality parameters",
+          "owner": "Team (collective)",
+          "timeline": "Not specified"
+        }
+      ],
+      "key_points": [
+        "Focus on integrating GenAI into end-to-end software development lifecycle",
+        "Platform team initiatives include React Native migration and accessibility efforts",
+        "Improving design system check to ensure Figma files are 'Zestifiable'",
+        "Packaging solutions for handover stage within Spec Machine",
+        "Treating pilot onboarding as a scientific experiment",
+        "Concerns about AI adoption creating tech debt and quality issues based on experiences from other companies",
+        "Need for foundational layers (Spec Machine) to create effective flywheel",
+        "Concerns about cost implications of parallel agent operations",
+        "Importance of defining quality parameters before proceeding"
+      ],
+      "blockers": [
+        "Risk of AI pilot being shut down or creating more tech debt and quality issues (based on other companies' experiences)",
+        "Potential cost concerns - risk of 'bankrupting' the company with uncontrolled AI agent operations",
+        "Compatibility concerns with German workforce and works council regulations",
+        "Missing defined quality parameters and target goals for AI adoption",
+        "Team member on vacation the following week with limited availability"
+      ],
+      "follow_ups": [
+        "Define quality parameters for measuring AI adoption success",
+        "Review and finalize list of customer-facing teams for pilot",
+        "Establish metrics for the pilot experiment",
+        "Address cost management for AI agent operations",
+        "Ensure foundational Spec Machine layers are in place for all teams"
+      ],
+      "entities": [
+        {
+          "name": "Spec Machine",
+          "type": "system",
+          "context": "Platform/tool for packaging solutions for handover stage; foundational layer needed for AI adoption flywheel"
+        },
+        {
+          "name": "Figma",
+          "type": "system",
+          "context": "Design tool; files need to be 'Zestifiable' as part of design system check improvements"
+        },
+        {
+          "name": "React Native",
+          "type": "project",
+          "context": "Migration project mentioned as part of platform team initiatives"
+        },
+        {
+          "name": "Kudlo",
+          "type": "person",
+          "context": "Potential recipient of task handover during vacation period"
+        },
+        {
+          "name": "Olga",
+          "type": "person",
+          "context": "Leadership figure who doesn't need to be sold on AI adoption"
+        },
+        {
+          "name": "Assaf",
+          "type": "person",
+          "context": "Leadership figure who expressed concerns about AI compatibility with German workforce and works council"
+        },
+        {
+          "name": "GenAI",
+          "type": "system",
+          "context": "Core technology being integrated into software development lifecycle"
+        },
+        {
+          "name": "SDLC (Software Development Lifecycle)",
+          "type": "project",
+          "context": "End-to-end golden platinum software development lifecycle - main focus area for GenAI integration"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:15:23.860180"
+}

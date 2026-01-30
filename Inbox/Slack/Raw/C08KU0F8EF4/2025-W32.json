@@ -1,0 +1,38 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W32",
+  "extracted_at": "2026-01-02T10:44:40.781693Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1754304147.195979",
+      "client_msg_id": "addbd49f-4969-456a-b395-dc3c7d3b68e2",
+      "text": "Any updates on the :upvote:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xiEoe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Any updates on the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "upvote"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

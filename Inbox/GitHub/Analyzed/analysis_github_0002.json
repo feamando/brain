@@ -1,0 +1,195 @@
+{
+  "batch_id": "github_0002",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-12-18T15:53:31Z",
+    "newest": "2025-12-19T20:30:43Z"
+  },
+  "analyzed_at": "2026-01-02T15:33:17.514177",
+  "changes_summary": "These commits primarily focus on GTM (Google Tag Manager) tracking improvements across Factor Form and OTP (One-Time Purchase) flows, along with several bug fixes for cart pricing and UI elements. Additional work includes Shopify redirect logic cleanup, portion percentage calculations for pet feeding plans, and various refactoring efforts around group/grooming rewrites and payment API optimization.",
+  "features": [
+    {
+      "name": "Factor Form Multi-Cadence GTM Events",
+      "description": "Updated GTM event tracking for multi-cadence options in Factor Form",
+      "commits": [
+        "e8092459"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "OTP Funnel Step Tracking",
+      "description": "Added funnel step tracking for One-Time Purchase flow in Factor Form",
+      "commits": [
+        "db3d1c29",
+        "17d37684"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Payment Step Completed GTM Event",
+      "description": "Adds GTM event tracking when payment step is completed for OTP",
+      "commits": [
+        "f5841a3b"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Shopify Redirect for Net New Customers",
+      "description": "Enables redirect for new customers to Shopify FactorForm and updates canonical URLs",
+      "commits": [
+        "37b0417e"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Learn More Link and Modal",
+      "description": "Added Learn More link with scaffolded modal implementation",
+      "commits": [
+        "ce36b104"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Plan Switcher Dropdown",
+      "description": "Added dropdown component for plan switching functionality",
+      "commits": [
+        "dd68b1b4"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Dynamic Portion % Options",
+      "description": "Display portion percentage options based on FeedingPlanType answer",
+      "commits": [
+        "703d80d4",
+        "745417dd"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Box Model Builder",
+      "description": "Implemented useThePetsTableBoxContent for Box Model Builder",
+      "commits": [
+        "2ca62272"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Eliminate dead logic for Shopify redirects",
+      "rationale": "Remove unused/obsolete redirect code to clean up codebase",
+      "ticket": "MIO-68"
+    },
+    {
+      "what": "Update adjust calories to use new portion options behind feature flag",
+      "rationale": "Gradual rollout of new portion calculation logic with feature flag control",
+      "ticket": "TPT-2518"
+    },
+    {
+      "what": "Change position of breed message card",
+      "rationale": "UI/UX improvement for better user flow",
+      "ticket": "TPT-2506"
+    },
+    {
+      "what": "Remove duplicate payment-change-status API calls",
+      "rationale": "Performance optimization to eliminate redundant API requests",
+      "ticket": "TPT-2406"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Group rewrites",
+      "reason": "Code organization and maintainability improvements",
+      "impact": "Group-related functionality"
+    },
+    {
+      "area": "Grooming rewrites snapshot",
+      "reason": "Update test snapshots after grooming code refactoring",
+      "impact": "Grooming feature tests and implementation"
+    },
+    {
+      "area": "Shopify redirect logic",
+      "reason": "Remove dead code and simplify redirect handling",
+      "impact": "Customer onboarding flow for Shopify integration"
+    },
+    {
+      "area": "Payment component API calls",
+      "reason": "Eliminate duplicate payment-change-status API calls",
+      "impact": "Payment processing performance and reliability"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Cart drawer pricing display incorrect",
+      "ticket": "RTEVMS-2394"
+    },
+    {
+      "issue": "Place Order CTA bug related to feature flag",
+      "ticket": "RTEVMS-2388"
+    },
+    {
+      "issue": "Bundle dialog CTA width incorrect",
+      "ticket": "RTEVMS-2389"
+    },
+    {
+      "issue": "Sorting mistake in group rewrites",
+      "ticket": "GOC-3399"
+    },
+    {
+      "issue": "Portion % default value when entering change plans",
+      "ticket": "TPT-2344"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor Form",
+      "type": "component",
+      "context": "Multiple GTM tracking updates and OTP flow enhancements"
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "New funnel tracking and payment completion events added"
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "Redirect logic cleanup and net new customer routing enabled"
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "type": "system",
+      "context": "Extensive tracking improvements across multiple flows"
+    },
+    {
+      "name": "Cart Drawer",
+      "type": "component",
+      "context": "Pricing display bug fixed"
+    },
+    {
+      "name": "Payment Component",
+      "type": "component",
+      "context": "Duplicate API calls removed for performance"
+    },
+    {
+      "name": "Feeding Plan",
+      "type": "feature",
+      "context": "Portion percentage calculations updated with dynamic options"
+    },
+    {
+      "name": "Box Model Builder",
+      "type": "component",
+      "context": "New hook implementation for pets table box content"
+    }
+  ],
+  "key_patterns": [
+    "Feature flag driven development for gradual rollout of new functionality",
+    "Extensive GTM event tracking implementation across user flows for analytics",
+    "Performance optimization through elimination of duplicate API calls",
+    "Component-based refactoring with snapshot testing",
+    "Ticket-driven development with clear Jira references (RTEVMS, MIO, GOC, TPT prefixes)",
+    "Separation of concerns between OTP and subscription flows",
+    "Progressive enhancement with feature flags for portion calculation logic"
+  ]
+}

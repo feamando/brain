@@ -1,0 +1,1667 @@
+{
+  "batch_id": "meeting_082",
+  "doc_type": "meeting",
+  "doc_count": 9,
+  "results": [
+    {
+      "doc_title": "[Please Prio] Charge@Checkout OWL: Refund & Cancellation FLow - 2025/12/17 17:18 CET - Notes by Gemini",
+      "doc_id": "1kaJSTD9NVd68smkm8X5MfPaZgifySU6PpnOw6cBul3w",
+      "doc_type": "meeting",
+      "meeting_purpose": "Discuss and resolve issues with the refund and cancellation flow for Charge@Checkout orders in the OWL system",
+      "attendees": [
+        "Nikita Gorshkov",
+        "Beatrice Dimarucut",
+        "Rachael Vuong",
+        "Michael Lucero",
+        "Shishir Mishra",
+        "Leny Jane Barbaza",
+        "Hagag",
+        "Alexander Matlin",
+        "Candace Charles",
+        "Gangadharan Khoteeswarun",
+        "Lower Feast Side (United States-NYCHQ, 7)"
+      ],
+      "date": "December 17, 2025",
+      "decisions": [
+        {
+          "what": "Target process for pre-cutoff cancellations is to mark order as 'not shipped' and cancel payment",
+          "who": [
+            "Shishir Mishra",
+            "Team"
+          ],
+          "context": "This replicates Bob's behavior and is already known by agents. Moving away from Bob system to AL system."
+        },
+        {
+          "what": "Accept known limitation that refunds will only occur after cutoff even with bug fix",
+          "who": [
+            "Lower Feast Side",
+            "Nikita Gorshkov"
+          ],
+          "context": "Maximum 3 weeks wait time. This is manageable and won't affect too many customers."
+        },
+        {
+          "what": "Cancellations do not happen via ART (Error Reporting Tool)",
+          "who": [
+            "Shishir Mishra"
+          ],
+          "context": "Clarification on agent processes for handling cancellations"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Deploy bug fix for automatic refund reconciliation to production",
+          "owner": "Gangadharan Khoteeswarun",
+          "timeline": "Tomorrow (after staging testing is complete)"
+        },
+        {
+          "task": "Adapt OWL to call endpoint and expose transaction information in proper form",
+          "owner": "Not specified",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Notify team once bug fix is deployed to production",
+          "owner": "Gangadharan Khoteeswarun",
+          "timeline": "After production deployment"
+        },
+        {
+          "task": "Double check with live order to verify the fix works properly",
+          "owner": "Lower Feast Side/Team",
+          "timeline": "After production deployment notification"
+        }
+      ],
+      "key_points": [
+        "Target state involves marking orders as 'not shipped' and canceling payment via AL system",
+        "Bug identified in payments domain affecting automatic refund reconciliation for process out payment provider",
+        "Bug affects CNC (Charge at Checkout) orders and partially paid orders requiring automatic refunds",
+        "Without fix, refunds only occur after cutoff even if delivery is canceled",
+        "Fix is being tested in staging and expected to move to production despite delivery freeze",
+        "Agents are already trained on the target process from Bob system",
+        "Payment status and refund visibility for CNC orders before and after cutoff needs clarification"
+      ],
+      "blockers": [
+        {
+          "issue": "Bug in payments domain - missing automatic refund reconciliation configuration for process out",
+          "impact": "Refunds only received after cutoff, even if delivery is canceled pre-cutoff",
+          "status": "Fix in staging, deployment expected tomorrow"
+        },
+        {
+          "issue": "Delivery freeze potentially blocking production deployment",
+          "impact": "May delay bug fix deployment",
+          "status": "Team expects to deploy despite freeze"
+        },
+        {
+          "issue": "Transaction visibility in OWL needs additional work",
+          "impact": "Agents may not have clear visibility of refund status",
+          "status": "Identified as second action point, not yet addressed"
+        }
+      ],
+      "follow_ups": [
+        "Verify bug fix works with live orders after production deployment",
+        "Address transaction visibility in OWL for better agent experience",
+        "Monitor impact on customers during the 3-week maximum refund delay period"
+      ],
+      "entities": [
+        {
+          "name": "OWL",
+          "type": "system",
+          "context": "System being used for order cancellation and refund flow, needs adaptation to call endpoint for transaction information"
+        },
+        {
+          "name": "AL system",
+          "type": "system",
+          "context": "Target system for handling pre-cutoff order cancellations and refunds, replacing Bob"
+        },
+        {
+          "name": "Bob",
+          "type": "system",
+          "context": "Previous system whose behavior is being replicated; agents already trained on its processes"
+        },
+        {
+          "name": "process out",
+          "type": "system",
+          "context": "New payment service provider with missing automatic refund reconciliation configuration causing the bug"
+        },
+        {
+          "name": "ART (Error Reporting Tool)",
+          "type": "system",
+          "context": "Tool that is NOT used for cancellations, clarified during meeting"
+        },
+        {
+          "name": "CNC (Charge at Checkout)",
+          "type": "project",
+          "context": "Order type primarily affected by the refund reconciliation bug"
+        },
+        {
+          "name": "Shishir Mishra",
+          "type": "person",
+          "context": "Confirmed target process for cancellations and clarified agent procedures"
+        },
+        {
+          "name": "Gangadharan Khoteeswarun (Ganga)",
+          "type": "person",
+          "context": "Identified the bug, responsible for testing and deploying the fix to production"
+        },
+        {
+          "name": "Michael Lucero",
+          "type": "person",
+          "context": "Noted earlier confusion about marking orders as 'shipped' vs 'not shipped'"
+        },
+        {
+          "name": "Hagag",
+          "type": "person",
+          "context": "Explained difference between canceling an order and canceling a payment operation"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Participated in decisions about addressing issues and managing customer impact"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes - New Ventures: PA Resource Alignment",
+      "doc_id": "1irRq_cPUc7eU6WXBHtBFiKh53SfPf7H8M7nDeVzn_yE",
+      "doc_type": "meeting",
+      "meeting_purpose": "PA Resource Alignment for New Ventures",
+      "attendees": [
+        "Annie Meininghaus",
+        "Eva Martínez Romero",
+        "Jama Musse",
+        "Laurent Guillemain",
+        "Matthew Stone",
+        "Nikita Gorshkov"
+      ],
+      "date": "Dec 22, 2025",
+      "decisions": [],
+      "action_items": [],
+      "key_points": [],
+      "blockers": [],
+      "follow_ups": [],
+      "entities": [
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "Eva Martínez Romero",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "Laurent Guillemain",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "Matthew Stone",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Meeting attendee"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Project requiring PA resource alignment"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Final review of the 2026 Q1 Yearly Plan for the Consumer Mega-Alliance, including discussion of strategic priorities, resource allocation, and cross-functional alignment",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI",
+          "who": [
+            "Annie Meininghaus"
+          ],
+          "context": "Self-funded squad to drive average order value growth after rolling out personalized core journey in Q1"
+        },
+        {
+          "what": "Prioritize menu ranking rollout: P500 readiness Q4/Q1, Penguin for Factor US, then INTL markets",
+          "who": [
+            "Annie Meininghaus",
+            "Food Systems"
+          ],
+          "context": "Menu ranking models prioritized alongside Elysium app features, with fallback to Penguin Harp personalization for INTL if needed"
+        },
+        {
+          "what": "Decouple forecasting from personalization models",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration through technical interfaces, assess organizational impact in Q1-Q2"
+        },
+        {
+          "what": "Reserve 20% engineering IC capacity for legacy loyalty program maintenance",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Maintain existing program while implementing new vendor-based loyalty program launching first in US"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will partner with Commercial and New Programs hire to design better Active Experience and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Prioritize recipe bridge feature for Q4/Q1 in Project 5M",
+          "who": [
+            "Evan Weintraub",
+            "Lisa Trueblood"
+          ],
+          "context": "Addresses behavioral gap where users save recipes but rarely act on them, indicating friction in execution"
+        },
+        {
+          "what": "Defer variable pricing to Q3, add to Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but ownership needs definition as pricing moves to growth MA"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Roll out Elysium (new store and homepage) with merchandising widgets, recommendation widgets, search, and popular/trending features",
+          "owner": "Jama Musse",
+          "timeline": "Q1"
+        },
+        {
+          "task": "Share prioritization framework for Project 5M with detailed methodology",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (one-pager in preparation)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration into Market Innovation backlog",
+          "owner": "Ed Boyes",
+          "timeline": "Before quarterly planning"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing before initiation",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3"
+        },
+        {
+          "task": "Strengthen RAF program with foundational fixes (data visibility, customer experience, operational agility)",
+          "owner": "Evan Weintraub",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan (with Commercial and New Programs hire)",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2"
+        },
+        {
+          "task": "Merge Factor backlog with Market Innovation squad list",
+          "owner": "Jama Musse and Annie Meininghaus (with Adam Park)",
+          "timeline": "Completed - ready for quarterly planning"
+        }
+      ],
+      "key_points": [
+        "Integration of menu expansion plans, personalization rollouts, and app features through Elysium and menu ranking models",
+        "Project 5M prioritization based on behavioral gap analysis showing users save recipes but don't act on them",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address growth target gaps",
+        "Variable pricing as urgently requested feature by markets",
+        "Factor requirements integration and transition planning",
+        "Loyalty strategy evolution from legacy to new vendor-based program",
+        "AOV growth strategy through dedicated squad formation",
+        "Personalization model rollout prioritization across markets"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing moves to growth MA",
+        "Technical dependencies making RAF program difficult to optimize"
+      ],
+      "follow_ups": [
+        "Detailed methodology walkthrough for Project 5M prioritization framework if requested",
+        "Organizational impact assessment after forecasting/personalization decoupling validation",
+        "AOV-focused squad establishment post-Q2",
+        "Factor Programs transition plan execution in Q2",
+        "Loyalty Strategy SMT Shareout review"
+      ],
+      "entities": [
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sign-off authority for Factor requirements integration"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Owner of AOV-Focused Squad and Personalization Model Rollout initiatives"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Owner of Elysium rollout, Factor Tech Requests, Variable Pricing, and Factor Programs Transition"
+        },
+        {
+          "name": "Evan Weintraub",
+          "type": "person",
+          "context": "Owner of Project 5M, Loyalty Strategy, and RAF Program Alignment"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Owner of Forecasting/Personalization decoupling initiative"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization framework one-pager"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partner for Factor Programs Active Experience redesign"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with on Factor backlog merge"
+        },
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with merchandising and recommendation widgets"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative prioritizing recipe bridge feature based on user behavior analysis"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking personalization model being rolled out to Factor US and INTL markets"
+        },
+        {
+          "name": "Harp",
+          "type": "system",
+          "context": "Fallback personalization system for INTL markets if Penguin cannot be expedited"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized for Q4/Q1 in menu ranking rollout"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Brand with specific tech requirements and programs transition planning"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for defining technical interfaces for forecasting/personalization decoupling"
+        },
+        {
+          "name": "Consumer Mega-Alliance",
+          "type": "project",
+          "context": "Organization creating best digital product experience, subject of 2026 Yearly Plan"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened with foundational fixes to improve self-sufficiency"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad managing Factor backlog and variable pricing initiatives"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Squad focusing on RAF program and in-product sharing loops"
+        }
+      ]
+    },
+    {
+      "doc_title": "Influencer MP Sprint Review - 2025/12/04 16:24 CET - Notes by Gemini",
+      "doc_id": "13B4nLGPHNDKiKoAoEWfmOpkEZ5GMMzozNYhzFijHDYE",
+      "doc_type": "meeting",
+      "meeting_purpose": "Sprint review for Influencer MP project focusing on creator research status, customer validation planning, and prototype critique",
+      "attendees": [
+        "Annette MvdE",
+        "Sameer Doda",
+        "Shay Obaidullah",
+        "Linnea Siersma",
+        "Alison McMenemy",
+        "Ian Brooks",
+        "Melanie Schwindt",
+        "Katheryn Eckles",
+        "Cole Banning",
+        "Jama Musse",
+        "Marc Wanderley Teixeira",
+        "Marina Kramer"
+      ],
+      "date": "2025-12-04",
+      "decisions": [
+        {
+          "what": "Concept validation prototype will use a pitch deck to guide conversation and feature critique",
+          "who": [
+            "Annette MvdE"
+          ],
+          "context": "Decided during discussion of validation approach"
+        },
+        {
+          "what": "Research transitioning to focus on cookbook authors and higher-level influencers",
+          "who": [
+            "Katheryn Eckles"
+          ],
+          "context": "Based on insights from initial five creator interviews"
+        },
+        {
+          "what": "Next phase will focus on customer interviews with HelloFresh prospects actively engaging with food content on social media",
+          "who": [
+            "Katheryn Eckles"
+          ],
+          "context": "Building on signals from unmoderated tests and survey showing inspiration execution gap"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Move creator interviews into concept validation phase",
+          "owner": "Katheryn Eckles",
+          "timeline": "Next week"
+        },
+        {
+          "task": "Continue recruitment focusing on larger influencers",
+          "owner": "Katheryn Eckles",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Conduct customer interviews to understand service usage, perceived value, and trust barriers",
+          "owner": "Katheryn Eckles",
+          "timeline": "Upcoming phase"
+        },
+        {
+          "task": "Communicate strategy decisions and research needs to Marc and Andrea",
+          "owner": "Annette MvdE",
+          "timeline": "After strategy clarity"
+        }
+      ],
+      "key_points": [
+        "Five creator interviews completed covering creators up to 1.2 million followers with consistent insights",
+        "Cookbook author showed no conflict using cookbook recipes on platform for exposure and aligned with commission-based compensation",
+        "Creators interested in data points: user interests, popular ingredients, cooking time, and site traffic",
+        "Customers might not understand if HelloFresh is not vetting recipes and may blame platform or creator for bad recipes",
+        "Survey showed significant inspiration execution gap among customers",
+        "Pricing model discussion: creators setting own margin vs. tiered cost-plus approach",
+        "Research prioritization decisions based on amount of work needed and clarity required in specific areas"
+      ],
+      "blockers": [
+        "Uncertainty about customer understanding of recipe vetting in Amazon-style marketplace approach",
+        "Need for clarity on trust and quality barriers from customer perspective",
+        "Unclear strategy direction affecting research planning and resource allocation"
+      ],
+      "follow_ups": [
+        "Deeper probing into creator use of trends and vetting expectations",
+        "Understanding how customers would use service (special occasions vs. daily purchases)",
+        "Feature prioritization based on concept validation results",
+        "Potential for Katheryn to continue research support beyond initial timeline depending on needs",
+        "Testing requirements to be identified once strategy decisions are finalized"
+      ],
+      "entities": [
+        {
+          "name": "Annette MvdE",
+          "type": "person",
+          "context": "Meeting leader, project owner making strategy decisions"
+        },
+        {
+          "name": "Katheryn Eckles",
+          "type": "person",
+          "context": "Lead researcher conducting creator and customer interviews"
+        },
+        {
+          "name": "Ian Brooks",
+          "type": "person",
+          "context": "Participant favoring pricing model where creators set their own margin, limited to 45 minutes participation"
+        },
+        {
+          "name": "Sameer Doda",
+          "type": "person",
+          "context": "Proposed tiered, cost-plus pricing approach"
+        },
+        {
+          "name": "Linnea Siersma",
+          "type": "person",
+          "context": "Favoring pricing model where creators set their own margin"
+        },
+        {
+          "name": "Marc",
+          "type": "person",
+          "context": "Decision maker for research resource allocation and project continuation"
+        },
+        {
+          "name": "Andrea",
+          "type": "person",
+          "context": "Decision maker for research resource allocation and project continuation"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "system",
+          "context": "Platform being developed for influencer marketplace, target for customer prospect interviews"
+        },
+        {
+          "name": "Influencer MP",
+          "type": "project",
+          "context": "Main project being reviewed in sprint, focused on creator-customer marketplace"
+        },
+        {
+          "name": "Berlin",
+          "type": "system",
+          "context": "Referenced as location with different approach of rolling out features weekly without testing"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Final review of the 2026 Q1 Yearly Plan for the Consumer Mega-Alliance, addressing key strategic initiatives, resource allocation, and cross-functional alignment",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI",
+          "who": [
+            "Annie Meininghaus"
+          ],
+          "context": "Self-funded squad to drive average order value growth after rolling out personalized core journey in Q1"
+        },
+        {
+          "what": "Menu ranking rollout prioritization: P500 readiness Q4/Q1, Penguin for Factor US, then INTL markets",
+          "who": [
+            "Annie Meininghaus",
+            "Food Systems"
+          ],
+          "context": "Coordinated with Elysium app features and personalization rollout across markets"
+        },
+        {
+          "what": "Decouple forecasting from personalization models",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration with technical interfaces; assess org impact in Q1-Q2"
+        },
+        {
+          "what": "Loyalty strategy: maintain legacy program (20% engineering capacity) while implementing new vendor-based program in US",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Dual approach to support existing customers while launching new framework"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will redesign 'Active Experience' and 3rd-party partnerships with Commercial and New Programs hire"
+        },
+        {
+          "what": "Variable pricing deferred to Q3 in Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but ownership needs definition as pricing moves to growth MA"
+        },
+        {
+          "what": "RAF program strengthening with foundational fixes prioritized",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Address gap between Marketing and Consumer growth targets; make program self-sufficient with less tech dependency"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M with detailed methodology",
+          "owner": "Lisa Trueblood",
+          "timeline": "Prepare one-pager for follow-up discussion"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration",
+          "owner": "Ed Boyes",
+          "timeline": "Before quarterly planning"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3 initiation"
+        },
+        {
+          "task": "Design better 'Active Experience' and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan (with Commercial and New Programs hire)",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage) with app features",
+          "owner": "Jama Musse",
+          "timeline": "Q1 (fast rollout)"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2, RTE markets in H2"
+        },
+        {
+          "task": "Launch new vendor-based loyalty program in US",
+          "owner": "Evan Weintraub",
+          "timeline": "Per Loyalty Strategy SMT Shareout timeline"
+        }
+      ],
+      "key_points": [
+        "Integration of menu expansion, personalization rollouts, and app features through Elysium and menu ranking models",
+        "Project 5M prioritization based on behavioral gap: users save recipes but rarely act on them, leading to recipe bridge prioritization",
+        "Reconciliation of marketing RAF plan with tech yearly plan to align growth targets",
+        "Factor requirements fully integrated into Market Innovation backlog",
+        "AOV growth strategy separated from shopping guidance with potential dedicated squad",
+        "Loyalty program dual approach: maintain legacy while building new framework",
+        "Variable pricing as urgent market request but deferred for ownership clarity"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Ownership uncertainty for variable pricing as pricing moves to growth MA",
+        "Need to expedite Penguin for INTL markets (currently prioritized after P500)"
+      ],
+      "follow_ups": [
+        "Detailed methodology walkthrough for Project 5M prioritization framework if requested",
+        "Organizational impact assessment after forecasting/personalization decoupling validation (Q1-Q2)",
+        "AOV-focused squad creation revisit post-Q2",
+        "Long-term ownership definition for variable pricing before Q3",
+        "Factor Programs transition plan execution in Q2"
+      ],
+      "entities": [
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with merchandising widgets, recommendation widgets, search functionality"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative focused on recipe bridge to address user behavior gap between saving and acting on recipes"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Personalization model being rolled out to Factor US and INTL markets"
+        },
+        {
+          "name": "Harp",
+          "type": "system",
+          "context": "Personalization model, fallback option for INTL markets if Penguin cannot be expedited"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized for Q4/Q1 in menu ranking rollout"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for menu ranking rollout and technical interface definition for forecasting decoupling"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Market with specific tech requirements, Programs transition plan, and Penguin personalization priority"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad handling Factor backlog integration and variable pricing"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Squad focusing on RAF program and in-product sharing loops"
+        },
+        {
+          "name": "AOV-Focused Squad",
+          "type": "project",
+          "context": "Proposed dedicated squad for Q2 to drive average order value growth"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened with foundational fixes for data visibility, customer experience, and operational agility"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog merge"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering on Factor Programs transition and Active Experience redesign"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization framework one-pager"
+        },
+        {
+          "name": "Consumer Mega-Alliance",
+          "type": "project",
+          "context": "Organization focused on creating best digital product experience"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Final review of the 2026 Q1 Yearly Plan for the Consumer Mega-Alliance, including discussion of strategic priorities, resource allocation, and alignment across teams",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI",
+          "who": [
+            "Annie Meininghaus"
+          ],
+          "context": "Self-funded squad to drive average order value growth after rolling out personalized core journey in Q1"
+        },
+        {
+          "what": "Decouple forecasting from personalization models",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration by defining technical interfaces, with org impact assessment in Q1-Q2"
+        },
+        {
+          "what": "Reserve 20% engineering IC capacity for legacy loyalty program maintenance",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Maintain existing program while implementing new vendor-based loyalty program launching first in US"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak period",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Results are negative; will redesign 'Active Experience' and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Defer variable pricing to Q3",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Added to Market Innovation squad backlog; long-term ownership to be defined before initiation as pricing ownership moves to growth MA"
+        },
+        {
+          "what": "Prioritize menu ranking rollout: P500 readiness Q4/Q1, Penguin for Factor US, then INTL markets",
+          "who": [
+            "Annie Meininghaus",
+            "Food Systems"
+          ],
+          "context": "Fallback is Penguin Harp personalization for INTL markets expanding in Q1, other RTE markets in H2"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M with detailed methodology",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (post-meeting)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Assess organizational impact of forecasting/personalization decoupling",
+          "owner": "Holger Hammel",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration",
+          "owner": "Ed Boyes",
+          "timeline": "Before final YP approval"
+        },
+        {
+          "task": "Partner with Commercial and New Programs hire to design Factor Active Experience",
+          "owner": "Alison Ryan",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Strengthen RAF program and build in-product sharing loops",
+          "owner": "Evan Weintraub (Share squad)",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage) followed by new app features",
+          "owner": "Jama Musse",
+          "timeline": "Q1"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2 (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3 initiation"
+        },
+        {
+          "task": "Prepare Project 5M prioritization one-pager",
+          "owner": "Lisa Trueblood",
+          "timeline": "Post-meeting"
+        }
+      ],
+      "key_points": [
+        "Integration of menu expansion plans, personalization rollouts, and app features through Elysium and menu ranking models",
+        "Project 5M prioritization based on behavioral gap: users save recipes but rarely act on them, leading to recipe bridge prioritization",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address growth target gaps",
+        "Variable pricing identified as urgently requested feature by markets",
+        "Factor requirements collection and integration into Market Innovation backlog",
+        "Loyalty strategy spanning legacy program maintenance and new vendor-based program launch",
+        "Personalization rollout prioritizing P500 readiness and Factor US, followed by international expansion"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing ownership transitions to growth MA",
+        "Technical dependencies making RAF program difficult to optimize"
+      ],
+      "follow_ups": [
+        "Detailed methodology walkthrough for Project 5M prioritization framework if requested",
+        "Quarterly planning to select from integrated Factor backlog requests",
+        "Assessment of organizational impact after forecasting/personalization decoupling validation",
+        "Review of AOV-focused squad creation post-Q2"
+      ],
+      "entities": [
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sign-off authority for Factor requirements integration"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Owner of personalization model rollout and AOV-focused squad initiative"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Owner of forecasting/personalization decoupling initiative"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Owner of Market Innovation squad, Factor tech requests, variable pricing, and Elysium rollout"
+        },
+        {
+          "name": "Evan Weintraub",
+          "type": "person",
+          "context": "Owner of loyalty strategy and RAF program alignment"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization framework documentation"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering on Factor Programs transition and Active Experience design"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog integration"
+        },
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app, rolling out in Q1 with merchandising and recommendation widgets"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative focused on recipe bridge to address user behavior gap between saving and acting on recipes"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking personalization model being rolled out to Factor US and INTL markets"
+        },
+        {
+          "name": "Harp",
+          "type": "system",
+          "context": "Personalization system, fallback option for INTL markets if Penguin cannot be expedited"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Prioritized for readiness in Q4/Q1 as part of menu ranking rollout"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Market with specific tech requirements integrated into Market Innovation backlog; Programs paused due to negative results"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for defining technical interfaces for forecasting/personalization decoupling and expediting Penguin for INTL"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened by Share squad to address growth target gaps and reduce tech dependencies"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad managing Factor backlog integration and variable pricing feature"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Squad focused on RAF program and in-product sharing loops"
+        },
+        {
+          "name": "Consumer Mega-Alliance",
+          "type": "project",
+          "context": "Organization conducting 2026 Q1 yearly planning review"
+        }
+      ]
+    },
+    {
+      "doc_title": "Refund from Owl for C@C - 2025/12/08 13:15 CET - Notes by Gemini",
+      "doc_id": "1Q0tdP68WC_LQob4soblJOmC6MuIV7CYKW0doD5CusWg",
+      "doc_type": "meeting",
+      "meeting_purpose": "To investigate and resolve refund failures for customers in the 'charge at checkout' (CSC) experiment when processing initial orders through the Owl system",
+      "attendees": [
+        "Beatrice Dimarucut",
+        "Shishir Mishra",
+        "Hagag",
+        "Nikita Gorshkov"
+      ],
+      "date": "December 8, 2025",
+      "decisions": [
+        {
+          "what": "Use the Orders tab refund button instead of error reporting tab for refunds",
+          "who": [
+            "Shishir Mishra",
+            "Beatrice Dimarucut"
+          ],
+          "context": "The Orders tab uses the updated refund service endpoint like Bob, while error reporting may use an older RabbitMQ topic method"
+        },
+        {
+          "what": "Train customer care agents to use Orders tab for refunds and avoid error reporting tab",
+          "who": [
+            "Shishir Mishra",
+            "Beatrice Dimarucut"
+          ],
+          "context": "To ensure consistent refund processing using the correct endpoint"
+        },
+        {
+          "what": "Not to reopen Bob for all customer care agents on a market basis",
+          "who": [
+            "Shishir Mishra"
+          ],
+          "context": "Switching Bob access on/off affects 1500 agents at once and cannot be easily done on a market-specific basis without significant effort"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Create a new live order and attempt refund via Orders tab with screen recording",
+          "owner": "Beatrice Dimarucut",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Issue refund and then cancel the order, documenting all steps",
+          "owner": "Beatrice Dimarucut",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Update team on results via channel",
+          "owner": "Beatrice Dimarucut",
+          "timeline": "After testing"
+        },
+        {
+          "task": "Investigate with team responsible for error reporting to ensure it works the same as new refund button",
+          "owner": "Shishir Mishra",
+          "timeline": "After meeting"
+        },
+        {
+          "task": "Consider involving Ganga or Diana from payment operations team to confirm Bob and Owl use same refund endpoint",
+          "owner": "Shishir Mishra",
+          "timeline": "To be determined"
+        },
+        {
+          "task": "Communicate refund process (use Orders tab, not error reporting) to CC team via good job channel",
+          "owner": "Beatrice Dimarucut",
+          "timeline": "After meeting"
+        }
+      ],
+      "key_points": [
+        "Refunds failing for customers in 'charge at checkout' (CSC) experiment for initial orders, but working for BAU customers charged at cutoff",
+        "CSC allocation happens on payments page and is not visible in Owl system",
+        "Only 10% of customers allocated to experiment, with 5% getting CSC, making it difficult to identify affected cases",
+        "Bob and Owl supposedly use same refund service endpoint, but behavior differs",
+        "Orders tab in Owl uses updated refund service (like Bob), while error reporting tab may use older RabbitMQ topic method",
+        "Owl does not display customer experiment allocation, making it hard for agents to identify CSC customers",
+        "Customer care structure: L1 agents are first responders who escalate to L2 payment teams for resolution",
+        "Bob access affects 1500 agents at once and cannot be easily toggled per market"
+      ],
+      "blockers": [
+        "CSC allocation not visible in Owl, making it difficult for customer care agents to identify affected customers",
+        "Only 5% of 10% of customers are in CSC experiment, making it hard to find examples to test",
+        "Lack of UIDs or CIDs from Star being passed to customer agents",
+        "Inconsistency between refund mechanisms in different Owl tabs (Orders vs error reporting)",
+        "Cannot easily enable Bob access on a market-specific basis due to system limitations"
+      ],
+      "follow_ups": [
+        "Verify whether Bob and Owl actually use the exact same refund endpoint",
+        "Investigate why error reporting tab may be using different refund method than Orders tab",
+        "Consider making experiment allocation visible in Owl for customer care agents",
+        "Explore passing UIDs or CIDs from Star to customer agents for better tracking",
+        "Test if issue is systemic or isolated by attempting refund on new live order",
+        "Confirm training approach for L1 and L2 customer care agents on proper refund process"
+      ],
+      "entities": [
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Reported the refund issue and will test live order refund"
+        },
+        {
+          "name": "Shishir Mishra",
+          "type": "person",
+          "context": "Discussed technical aspects and agent access decisions"
+        },
+        {
+          "name": "Hagag",
+          "type": "person",
+          "context": "Explained technical differences between Orders tab and error reporting tab refund mechanisms"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Listed as meeting invitee"
+        },
+        {
+          "name": "Ganga",
+          "type": "person",
+          "context": "Payment operations team member who could confirm endpoint usage"
+        },
+        {
+          "name": "Diana",
+          "type": "person",
+          "context": "Payment operations team member who could confirm endpoint usage"
+        },
+        {
+          "name": "Owl",
+          "type": "system",
+          "context": "System where refunds are failing for CSC customers; has Orders tab and error reporting tab with different refund mechanisms"
+        },
+        {
+          "name": "Bob",
+          "type": "system",
+          "context": "System where refunds work correctly; uses same refund service endpoint as Owl Orders tab"
+        },
+        {
+          "name": "CSC (Charge at Checkout)",
+          "type": "project",
+          "context": "Experiment where customers are charged at checkout instead of cutoff; experiencing refund failures"
+        },
+        {
+          "name": "BAU (Business As Usual)",
+          "type": "project",
+          "context": "Standard process where customers are charged at cutoff; refunds working normally"
+        },
+        {
+          "name": "Star",
+          "type": "system",
+          "context": "System that could potentially pass UIDs or CIDs to customer agents"
+        },
+        {
+          "name": "RabbitMQ",
+          "type": "system",
+          "context": "Message queue system potentially used by error reporting tab for older refund method"
+        },
+        {
+          "name": "C@C",
+          "type": "project",
+          "context": "Abbreviation for Charge at Checkout experiment mentioned in meeting title"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Review and finalize the 2026 Yearly Plan for the Consumer Mega-Alliance, focusing on Q1 priorities and strategic initiatives",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI, self-funded",
+          "who": [
+            "Consumer Mega Alliance"
+          ],
+          "context": "Focus in Q1 is to roll out new personalized core journey including widgets, then layer in upselling components"
+        },
+        {
+          "what": "Reserve 20% of engineering IC capacity for legacy loyalty program maintenance while evolving new loyalty framework",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Implementing new vendor-based loyalty program launching first in US"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will partner with Commercial and New Programs hire in NA to design better Active Experience and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Decouple forecasting from personalization models",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Define technical interfaces enabling independent iteration, assess org impact in Q1-Q2"
+        },
+        {
+          "what": "Defer Variable Pricing to Q3, added to Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but will define long-term ownership before initiation as pricing ownership moves to growth MA"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Clarify integration of menu expansion plans, personalization rollouts, and app features",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage in app) followed by new app features",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Prioritize P500 readiness and Penguin for Factor US menu ranking rollout",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2"
+        },
+        {
+          "task": "Share prioritization framework for Project 5M",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization models",
+          "owner": "Holger Hammel",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Reconcile marketing RAF plan with tech YP and strengthen Refer-a-Friend program",
+          "owner": "Evan Weintraub",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Sign off on Factor requirements integration into Market Innovation backlog",
+          "owner": "Ed Boyes",
+          "timeline": "Before final submission"
+        },
+        {
+          "task": "Merge Factor backlog with Market Innovation squad list",
+          "owner": "Jama Musse",
+          "timeline": "Completed - for quarterly planning selection"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Prepare one-pager summarizing Project 5M prioritization framework",
+          "owner": "Lisa Trueblood",
+          "timeline": "For follow-up discussion"
+        }
+      ],
+      "key_points": [
+        "Elysium rollout includes new store/homepage in app with merchandising widgets, recommendation widgets, search functionality, and trending/popular widgets",
+        "Menu ranking rollout prioritizes P500 readiness and Penguin for Factor US, with INTL expansion following",
+        "Project 5M prioritization revealed behavioral gap: users save recipes enthusiastically but rarely act on them, leading to recipe bridge prioritization",
+        "Share squad focusing on RAF program improvements and new in-product sharing loops for organic growth",
+        "Loyalty strategy involves maintaining legacy program while implementing new vendor-based program starting in US",
+        "Factor tech requests have been collected and integrated into Market Innovation backlog",
+        "Variable pricing is urgently requested by markets but deferred to H2/Q3"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Factor Programs showing negative results during peak",
+        "Need to define long-term ownership for Variable Pricing before initiation",
+        "Pricing ownership currently moving to growth MA creating uncertainty"
+      ],
+      "follow_ups": [
+        "Walk through detailed methodology for Project 5M prioritization if requested",
+        "Assess organizational impact of decoupled forecasting in Q1-Q2",
+        "Define long-term ownership for Variable Pricing before Q3 initiation",
+        "Update FAQ 11 regarding RAF program alignment",
+        "Further alignment on topics/ordering pending with Tushar and Holger"
+      ],
+      "entities": [
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with merchandising and recommendation widgets"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking personalization model being rolled out to Factor US and INTL markets"
+        },
+        {
+          "name": "Harp",
+          "type": "system",
+          "context": "Personalization model, fallback option for INTL markets if Penguin cannot be expedited"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative focused on recipe bridge to address user behavior gap"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized in Q4/Q1 for menu ranking rollout"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "US market requiring Penguin personalization and tech requirements integration"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for defining technical interfaces for forecasting decoupling"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad handling Factor requirements and Variable Pricing backlog"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Team focusing on RAF program and in-product sharing loops"
+        },
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sign-off required for Factor requirements integration"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Owner of personalization model rollout and menu expansion plans"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Owner of forecasting decoupling initiative"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Owner of Factor tech requests, Variable Pricing, and Factor Programs transition"
+        },
+        {
+          "name": "Evan Weintraub",
+          "type": "person",
+          "context": "Owner of loyalty strategy and RAF program alignment"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization framework one-pager"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering on Factor Programs transition and Active Experience design"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog merge"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened with foundational fixes for data visibility, customer experience, and operational agility"
+        },
+        {
+          "name": "AOV squad",
+          "type": "project",
+          "context": "New self-funded squad to be created in Q2 with dedicated KPI focused on average order value"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Review and finalize the 2026 Yearly Plan for Consumer Mega-Alliance Q1, addressing draft feedback and aligning on strategic priorities",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI, self-funded",
+          "who": [
+            "Consumer Mega Alliance"
+          ],
+          "context": "Focus in Q1 is to roll out new personalized core journey including widgets, then layer in upselling components"
+        },
+        {
+          "what": "Reserve 20% of engineering IC capacity for legacy loyalty program maintenance while implementing new vendor-based loyalty program",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "New loyalty program to launch first in the US"
+        },
+        {
+          "what": "Decouple forecasting from personalization models with independent technical interfaces",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Once validated, assess organizational impact in Q1-Q2"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Will partner with Commercial and New Programs hire in NA to design better Active Experience and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Defer variable pricing to Q3, added to Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Will define long-term ownership before initiation as pricing ownership is moving to growth MA"
+        },
+        {
+          "what": "Prioritize recipe bridge feature in Q4/Q1 for Project 5M",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Based on behavioral gap: users save recipes enthusiastically but rarely act on them, indicating high desire for inspiration but friction in execution"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (one-pager to be prepared)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization models",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration",
+          "owner": "Ed Boyes",
+          "timeline": "Before quarterly planning"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage in app)",
+          "owner": "Consumer Mega Alliance",
+          "timeline": "Fast rollout with new app features"
+        },
+        {
+          "task": "Roll out menu ranking models prioritizing P500 readiness",
+          "owner": "Food Systems",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Expedite Penguin for INTL markets after P500",
+          "owner": "Food Systems",
+          "timeline": "Q1 (fallback: launch Penguin Harp personalization)"
+        },
+        {
+          "task": "Strengthen RAF program and build new in-product sharing loops",
+          "owner": "Evan Weintraub (Share squad)",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan with Commercial and New Programs hire",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3 initiation"
+        }
+      ],
+      "key_points": [
+        "Integration of menu expansion plans, personalization rollouts, and app features through Elysium and menu ranking models",
+        "Project 5M prioritization based on user behavior analysis showing gap between recipe saving and execution",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address growth target gaps",
+        "Factor requirements fully integrated into Market Innovation backlog",
+        "Variable pricing identified as urgently requested feature by markets",
+        "Loyalty strategy differentiation between legacy program maintenance and new vendor-based program",
+        "Menu ranking rollout prioritizes P500 readiness and Penguin for Factor US, with INTL markets following"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing ownership transitions to growth MA",
+        "Technical dependencies making RAF program difficult to optimize"
+      ],
+      "follow_ups": [
+        "Detailed methodology walkthrough for Project 5M prioritization framework if requested",
+        "Organizational impact assessment after forecasting/personalization decoupling validation in Q1-Q2",
+        "Loyalty Strategy SMT Shareout review",
+        "Forecasting Domain Boundaries documentation review",
+        "Updated FAQ 11 for RAF program alignment"
+      ],
+      "entities": [
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with merchandising widgets, recommendation widgets, search functionality, and trending/popular item widgets"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative focused on recipe bridge feature to address user behavior gap between saving and executing recipes"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Menu ranking model being rolled out for Factor US and INTL markets"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Priority initiative for menu ranking model readiness in Q4/Q1"
+        },
+        {
+          "name": "Food Systems",
+          "type": "system",
+          "context": "Team responsible for menu ranking rollout and technical interface definitions for forecasting decoupling"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad managing Factor requirements backlog and variable pricing feature"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Team focusing on RAF program strengthening and in-product sharing loops"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Product line with specific tech requirements and programs transition plan"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Referral program being strengthened with foundational fixes for data visibility, customer experience, and operational agility"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie to merge Factor backlog with Market Innovation squad"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partnering with Commercial and New Programs hire to design Active Experience for Factor"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing one-pager on Project 5M prioritization framework"
+        },
+        {
+          "name": "Penguin Harp",
+          "type": "system",
+          "context": "Fallback personalization system for INTL markets if Penguin expediting is not possible"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:07:38.684028"
+}

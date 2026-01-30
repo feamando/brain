@@ -1,0 +1,1011 @@
+{
+  "batch_id": "C06CE7FB951_1751874475.142579",
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "message_count": 11,
+  "thread_count": 11,
+  "avg_importance": 90.18181818181819,
+  "tag_summary": {
+    "discussion": 6,
+    "notable": 9,
+    "question": 1,
+    "high_engagement": 1,
+    "action": 3,
+    "decision": 1,
+    "deadline": 1
+  },
+  "time_range": {
+    "start": "1751874475.142579",
+    "end": "1757395833.007579"
+  },
+  "messages": [
+    {
+      "ts": "1751874475.142579",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "Morning all :blob-wave:\n\nHappy to be back :kim-cry: and missed you guys! Will be spending the day (or the week) catching up and trying to remember what my job is, but if there’s anything important that needs my attention pls do reach out",
+      "raw_text": "Morning all :blob-wave:\n\nHappy to be back :kim-cry: and missed you guys! Will be spending the day (or the week) catching up and trying to remember what my job is, but if there’s anything important that needs my attention pls do reach out",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W27",
+      "tags": [
+        "discussion",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 9,
+      "reactions": [
+        {
+          "name": "blob-wave",
+          "users": [
+            "U7SJ525DE",
+            "U047SAC2PPV",
+            "U2D54V0UV",
+            "U027201FQSV",
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U03EN3N4KM4",
+            "UJ182DUEN",
+            "U03UN2C25UL",
+            "U079VE0A4UR",
+            "U03UCPY6MHQ",
+            "U02DM3WK0NL",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3",
+            "U01PE2S4ZL6",
+            "U044SKGT4R5",
+            "U03QCR5AT6U"
+          ],
+          "count": 17
+        },
+        {
+          "name": "welcome-back",
+          "users": [
+            "U2D54V0UV",
+            "U027201FQSV",
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U0251UW1YUE",
+            "U0184T48L74",
+            "UJ182DUEN",
+            "U03UCPY6MHQ",
+            "U02P4F23YJ0",
+            "U079VE0A4UR"
+          ],
+          "count": 10
+        },
+        {
+          "name": "kim-cry",
+          "users": [
+            "U03UN2C25UL"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ahmedangel",
+          "users": [
+            "U079VE0A4UR",
+            "U01PE2S4ZL6",
+            "U03TY4YJU4X"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": "1751874475.142579",
+      "thread_replies": [
+        {
+          "ts": "1751874768.964139",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Welcome back Ahmed! :tada-confetti:"
+        },
+        {
+          "ts": "1751874807.441239",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Welcome back, Ahmed! Nice to have you back :hugging_face:"
+        },
+        {
+          "ts": "1751874888.608249",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "I was going to say it's hard to believe you are happy to be back, but then I remembered you were studying German, which is definitely worse than a job"
+        },
+        {
+          "ts": "1751874948.901389",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Yes, it might be hard to switch back to English :slightly_smiling_face:"
+        },
+        {
+          "ts": "1751875345.024679",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Entschuldigung, ich spreche kein Englisch"
+        },
+        {
+          "ts": "1751892972.338089",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Welcome back, Ahmed! :german_heart:"
+        },
+        {
+          "ts": "1751894642.765579",
+          "user": "U01PE2S4ZL6",
+          "user_name": "U01PE2S4ZL6",
+          "text": "Oh studying German, thats a smart move :smart:"
+        }
+      ]
+    },
+    {
+      "ts": "1752593454.491599",
+      "user": "UJ182DUEN",
+      "user_name": "UJ182DUEN",
+      "text": "Shout out to @U047SAC2PPV for stepping outside of his comfort zone and presenting in today’s demo\nHe is still alive and looking for unlocked laptops around the office",
+      "raw_text": "Shout out to <@U047SAC2PPV> for stepping outside of his comfort zone and presenting in today’s demo\nHe is still alive and looking for unlocked laptops around the office",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W29",
+      "tags": [
+        "notable"
+      ],
+      "importance": 83,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "cat_clap",
+          "users": [
+            "U02BA3VS7H8",
+            "U0MBX09UZ",
+            "U7SJ525DE",
+            "U03UN2C25UL",
+            "U03EN3N4KM4",
+            "U03UCPY6MHQ",
+            "U079VE0A4UR",
+            "U01KNE98YLR",
+            "U02P4F23YJ0",
+            "U02DM3WK0NL",
+            "U01PE2S4ZL6",
+            "U2D54V0UV",
+            "U08AXBW1CAZ",
+            "U03QCR5AT6U"
+          ],
+          "count": 14
+        },
+        {
+          "name": "clapping2",
+          "users": [
+            "U02BA3VS7H8",
+            "U0MBX09UZ",
+            "U7SJ525DE",
+            "U03UN2C25UL",
+            "U03EN3N4KM4",
+            "U03UCPY6MHQ",
+            "U079VE0A4UR",
+            "U01KNE98YLR",
+            "U02P4F23YJ0",
+            "U027201FQSV",
+            "U01PE2S4ZL6",
+            "U2D54V0UV",
+            "U08AXBW1CAZ"
+          ],
+          "count": 13
+        },
+        {
+          "name": "mori-intensifies",
+          "users": [
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U03UN2C25UL",
+            "U0184T48L74",
+            "U079VE0A4UR",
+            "U01KNE98YLR",
+            "U01TQGXG9D3",
+            "U02P4F23YJ0",
+            "U027201FQSV",
+            "U01PE2S4ZL6",
+            "U2D54V0UV",
+            "U08AXBW1CAZ"
+          ],
+          "count": 13
+        },
+        {
+          "name": "neinn",
+          "users": [
+            "U047SAC2PPV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "crazy-mori",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1752593454.491599",
+      "thread_replies": [
+        {
+          "ts": "1752593891.505009",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "can’t believe i missed it :sob:"
+        },
+        {
+          "ts": "1752593927.932859",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "There will be more opportunities"
+        },
+        {
+          "ts": "1752655093.308989",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Mori will become regular presenter from NVS side :smile: He already volunteered for next sprint demos :joy: :homer-simpson-hide-in-shrubs:"
+        },
+        {
+          "ts": "1752655351.982279",
+          "user": "U047SAC2PPV",
+          "user_name": "U047SAC2PPV",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ts": "1753099750.090079",
+      "user": "UJ182DUEN",
+      "user_name": "UJ182DUEN",
+      "text": "FYI there’s an ongoing critical with HF’s Kafka infrastructure where some of our NVS services might get impacted: https://hellofresh.slack.com/archives/C023RDEC65R/p1753096453713749\nFor now there’s nothing on our end except keeping an eye in our alerts",
+      "raw_text": "FYI there’s an ongoing critical with HF’s Kafka infrastructure where some of our NVS services might get impacted: <https://hellofresh.slack.com/archives/C023RDEC65R/p1753096453713749>\nFor now there’s nothing on our end except keeping an eye in our alerts",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W30",
+      "tags": [
+        "discussion"
+      ],
+      "importance": 91,
+      "reply_count": 7,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U079VE0A4UR"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1753099750.090079",
+      "thread_replies": [
+        {
+          "ts": "1753101601.088829",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "do you know in what way it’s affecting us yet?"
+        },
+        {
+          "ts": "1753101704.793579",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "Right now we have delays when processing events, which means that PCS and Order confirmation email aren’t working properly \nAs it’s intermittent and come in waves, it’s hard to quantify "
+        },
+        {
+          "ts": "1753109669.747519",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Just FYI the incident is mitigated."
+        },
+        {
+          "ts": "1753179972.975489",
+          "user": "U01U67XD681",
+          "user_name": "U01U67XD681",
+          "text": "@UJ182DUEN what does not working properly mean? is there a way that we would've been able to catch it on our side with monitoring? we've set it up for pcs but can't see any signs of anything going wrong yesterday on HC"
+        },
+        {
+          "ts": "1753262734.938129",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "&gt; what does not working properly mean?\nSome selections might have taken longer to be propagated, but as the whole kafka cluster was intermittent, it’s hard to tell exactly. But in the end of the day all the selection was done\n\n&gt; is there a way that we would’ve been able to catch it on our side with monitoring?\nYou have seem a spike of your fallback meal selection request, but there’s nothing much to be done. As PCS works async, this shouldn’t be a big deal for customers"
+        },
+        {
+          "ts": "1753262926.210129",
+          "user": "U01U67XD681",
+          "user_name": "U01U67XD681",
+          "text": "I see, thanks Vini :praycat:\n\n&gt; You have seem a spike of your fallback meal selection request\nwhere do you see the spike?"
+        },
+        {
+          "ts": "1753262972.400219",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "I wrote it wrong, it should be “you might see a spike”"
+        }
+      ]
+    },
+    {
+      "ts": "1753168320.193609",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "Hey team, woke up with early signs of a cold so will WFH today to stay on the safe side",
+      "raw_text": "Hey team, woke up with early signs of a cold so will WFH today to stay on the safe side",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W30",
+      "tags": [
+        "notable"
+      ],
+      "importance": 79,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "pray",
+          "users": [
+            "U027201FQSV",
+            "U02BA3VS7H8",
+            "U01PE2S4ZL6",
+            "U08AXBW1CAZ",
+            "U0251UW1YUE",
+            "U01KNE98YLR",
+            "U2D54V0UV"
+          ],
+          "count": 7
+        },
+        {
+          "name": "take-care",
+          "users": [
+            "U03EN3N4KM4",
+            "U02BA3VS7H8",
+            "U01TQGXG9D3",
+            "U01PE2S4ZL6",
+            "U08AXBW1CAZ",
+            "U0251UW1YUE",
+            "U01KNE98YLR",
+            "U044SKGT4R5",
+            "U03UCPY6MHQ",
+            "U079VE0A4UR",
+            "U2D54V0UV",
+            "U02P4F23YJ0",
+            "U0MBX09UZ",
+            "UUECT4S3S"
+          ],
+          "count": 14
+        }
+      ],
+      "thread_ts": "1753168320.193609",
+      "thread_replies": [
+        {
+          "ts": "1753168452.931619",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Get well soon, Ahmed! :getwellsoon:"
+        }
+      ]
+    },
+    {
+      "ts": "1753429224.133839",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Hey team, I have an emergency with my wife and we are in the hospital now. After that I will be working from home today.",
+      "raw_text": "Hey team, I have an emergency with my wife and we are in the hospital now. After that I will be working from home today.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W30",
+      "tags": [
+        "notable"
+      ],
+      "importance": 83,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "take-care",
+          "users": [
+            "U03EN3N4KM4",
+            "U03UN2C25UL",
+            "U02BA3VS7H8",
+            "U01PE2S4ZL6",
+            "U0251UW1YUE",
+            "U03UMPD2NNS",
+            "U0MBX09UZ",
+            "U01U67XD681",
+            "U08AXBW1CAZ",
+            "U023F53GS21",
+            "U02U39Z9XA9",
+            "U047SAC2PPV",
+            "U044SKGT4R5",
+            "U05BNQPJX4K",
+            "U079VE0A4UR",
+            "U2D54V0UV",
+            "UUECT4S3S",
+            "U01TQGXG9D3"
+          ],
+          "count": 18
+        },
+        {
+          "name": "back",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1753429224.133839",
+      "thread_replies": [
+        {
+          "ts": "1753429375.576439",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Sorry to hear that Alex, hope you’re all ok :pray:"
+        },
+        {
+          "ts": "1753430057.854509",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "sorry to hear, hope everything is ok!"
+        },
+        {
+          "ts": "1753432151.233609",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "very sorry to hear Alex, I hope she has a speedy recovery"
+        },
+        {
+          "ts": "1753433513.454449",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Thank you all! :blobheart: We are back home now. So far so good. We will have a check appointment on Monday morning."
+        }
+      ]
+    },
+    {
+      "ts": "1753717395.736969",
+      "user": "UJ182DUEN",
+      "user_name": "UJ182DUEN",
+      "text": "Hi team\nI am leaving for a three months sabbatical and will be back on November 3rd\nHave a good time and do some crazy :gambiarra:",
+      "raw_text": "Hi team\nI am leaving for a three months sabbatical and will be back on November 3rd\nHave a good time and do some crazy :gambiarra:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W31",
+      "tags": [
+        "discussion",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 6,
+      "reactions": [
+        {
+          "name": "gambiarra",
+          "users": [
+            "U03EN3N4KM4",
+            "U01PE2S4ZL6",
+            "U027201FQSV",
+            "U047SAC2PPV",
+            "U02DM3WK0NL",
+            "U0251UW1YUE",
+            "U02U39Z9XA9",
+            "U03UN2C25UL",
+            "U02BA3VS7H8",
+            "U01TQGXG9D3",
+            "U08AXBW1CAZ",
+            "U02P4F23YJ0",
+            "U03UMPD2NNS",
+            "U044SKGT4R5"
+          ],
+          "count": 14
+        },
+        {
+          "name": "dancing-dog",
+          "users": [
+            "U08AXBW1CAZ"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1753717395.736969",
+      "thread_replies": [
+        {
+          "ts": "1753717420.046119",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "enjoy Vini! :yellow_heart:"
+        },
+        {
+          "ts": "1753717449.459099",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "disfruta Vini! :blob-wave:"
+        },
+        {
+          "ts": "1753717454.641819",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Enjoy your time off Vini!"
+        },
+        {
+          "ts": "1753717562.660589",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "We will miss you, Vini! :wave: Enjoy your time off and travel safe!"
+        },
+        {
+          "ts": "1753717653.747479",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "boas férias vini! aproveita!! :dance:"
+        },
+        {
+          "ts": "1753718509.794959",
+          "user": "U02U39Z9XA9",
+          "user_name": "U02U39Z9XA9",
+          "text": "Enjoy vini! :blob-enjoy:"
+        }
+      ]
+    },
+    {
+      "ts": "1755101802.888629",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if *I could get anyone who is on a 16GB RAM Macbook* to please emoji :me: or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n@U8F7ZDAPM @U027201FQSV @U01TQGXG9D3 @U2D54V0UV if you could iterate to your teams in standup please",
+      "raw_text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if *I could get anyone who is on a 16GB RAM Macbook* to please emoji :me: or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n<@U8F7ZDAPM> <@U027201FQSV> <@U01TQGXG9D3> <@U2D54V0UV> if you could iterate to your teams in standup please",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W33",
+      "tags": [
+        "question",
+        "high_engagement",
+        "discussion",
+        "notable",
+        "action"
+      ],
+      "importance": 100,
+      "reply_count": 14,
+      "reactions": [
+        {
+          "name": "clapping",
+          "users": [
+            "U2D54V0UV",
+            "U01PE2S4ZL6",
+            "U03EN3N4KM4",
+            "U01DE9ENHG9"
+          ],
+          "count": 4
+        },
+        {
+          "name": "panic-kermit",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "blob-pray-pensive",
+          "users": [
+            "U01TQGXG9D3"
+          ],
+          "count": 1
+        },
+        {
+          "name": "nice",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "jgm-hackerbongocat",
+          "users": [
+            "U027201FQSV",
+            "U03EN3N4KM4"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1755101802.888629",
+      "thread_replies": [
+        {
+          "ts": "1755101913.357009",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "does 18GB count as 16GB? and I got this computer a couple of months ago, as top of the line :hide-the-pain:"
+        },
+        {
+          "ts": "1755101968.002569",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "it is way faster than my 2019 macbook pro though, so I can't complain :stuck_out_tongue:"
+        },
+        {
+          "ts": "1755102255.026119",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Actually, to speed things up for IT, can I get folks to add your names with some details about your Macbook to this https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0 please? You can find these details by going to *About this Mac* on the top left"
+        },
+        {
+          "ts": "1755102338.001229",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yea @U0MBX09UZ add yourself and we will see what they say, they gave me the same one as you and I got it less than 3 months ago"
+        },
+        {
+          "ts": "1755105095.528569",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Cc: @U01DE9ENHG9 @U02M8QB04HE for when you are back"
+        },
+        {
+          "ts": "1755109600.470939",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "I have 32GB with M1 Pro Chip. I guess I'm not applicable for the replacement :hide_the_pain:"
+        },
+        {
+          "ts": "1755116535.755559",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "@U01TQGXG9D3 the ABBA team is on another list as well and their exchange lined up already but I added them to this list as well"
+        },
+        {
+          "ts": "1755116704.498899",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "If folks are having general performance issues or their machine is 2022 or older, add yourself to the list and we will try to get these swapped as well, I just know we are prioritizing 16 GB hardware first"
+        },
+        {
+          "ts": "1755155536.506569",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "HI @UEZ4PRFKM I already got emailed by IT to schedule an appointment for a replacement. Should I still add my name to the list for tracking purposes? Thanks!"
+        },
+        {
+          "ts": "1755156482.841779",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "i'm going to wait a bit before I ask for a new computer, even though mine is not very powerful, it's still much better than everyone that signed up in that list"
+        },
+        {
+          "ts": "1755156492.169479",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "maybe next time I go to Berlin"
+        },
+        {
+          "ts": "1755158343.231369",
+          "user": "U0958HM93B3",
+          "user_name": "U0958HM93B3",
+          "text": "Should I put my name on the list? I'm using a 16GB M1 Pro, but since I'll only be here 1 more month, I don't want to get in the way of others who may need it more than me."
+        },
+        {
+          "ts": "1755160104.655919",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yea sorry troy for you it likely wouldnt make too much sense - for when you come back next summer though :wink:"
+        }
+      ]
+    },
+    {
+      "ts": "1756189442.148189",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "@here hi folks please go ahead and book for yourself in the Archibus system. Please book for your colleagues as well.\n\nExample: I have done so so far for: DA, Yarra, Max, Cho, Deo, Bea, Becca, Bolo but I have reached max capacity :-)",
+      "raw_text": "<!here> hi folks please go ahead and book for yourself in the Archibus system. Please book for your colleagues as well.\n\nExample: I have done so so far for: DA, Yarra, Max, Cho, Deo, Bea, Becca, Bolo but I have reached max capacity :-)",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W35",
+      "tags": [
+        "action",
+        "decision",
+        "notable",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 9,
+      "reactions": [
+        {
+          "name": "ty",
+          "users": [
+            "UE4HG114J",
+            "U02BA3VS7H8",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U2D54V0UV",
+            "U01TQGXG9D3"
+          ],
+          "count": 6
+        },
+        {
+          "name": "blobheart",
+          "users": [
+            "U02BA3VS7H8",
+            "U023F53GS21",
+            "U0251UW1YUE"
+          ],
+          "count": 3
+        },
+        {
+          "name": "on-it",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1756189442.148189",
+      "thread_replies": [
+        {
+          "ts": "1756189591.100839",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "Do you have the Archibus URL? "
+        },
+        {
+          "ts": "1756189664.159969",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "https://hellofresh.archibus.cloud/archibus"
+        },
+        {
+          "ts": "1756190439.864049",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "I was able to book for Guhan, Pedro, Ahmed, Alex, Mateusz, Oliver, Desi, Maria, Davor and Marina.\nNow I can’t book anymore"
+        },
+        {
+          "ts": "1756193193.546279",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "@U03TY4YJU4X do we need to do this every time we are in the office? Or only today?"
+        },
+        {
+          "ts": "1756193464.598269",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Only today because there is a risk"
+        },
+        {
+          "ts": "1756197192.349689",
+          "user": "U023F53GS21",
+          "user_name": "U023F53GS21",
+          "text": "i was like \"what is this email? who is archibus?\" :joy:\n\nthank you nikita :hugging_face:"
+        },
+        {
+          "ts": "1756197591.026009",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "oh sweet! thanks nikita! :heart:"
+        },
+        {
+          "ts": "1756198928.523729",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Thank you all :thank_you:, looks like we are full. Do we know why some of the desks are not available for booking?"
+        }
+      ]
+    },
+    {
+      "ts": "1756566993.061539",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "FYI, there is a critical alert based on an automated trigger - `[Good-chop] - Availability will violate SLO in 4h0m0s`\nIncident channel - <#C09CSJB184A|>",
+      "raw_text": "FYI, there is a critical alert based on an automated trigger - `[Good-chop] - Availability will violate SLO in 4h0m0s`\nIncident channel - <#C09CSJB184A|>",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W35",
+      "tags": [],
+      "importance": 56,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "solved",
+          "users": [
+            "UE4HG114J"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1756566993.061539",
+      "thread_replies": [
+        {
+          "ts": "1756568700.073009",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Closed as not an incident."
+        }
+      ]
+    },
+    {
+      "ts": "1756787332.363619",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Team, I have a strong pain this night. I will go to the hospital for checks and take a day off today",
+      "raw_text": "Team, I have a strong pain this night. I will go to the hospital for checks and take a day off today",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W36",
+      "tags": [
+        "discussion",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 9,
+      "reactions": [
+        {
+          "name": "take-care",
+          "users": [
+            "UE4HG114J",
+            "U02BA3VS7H8",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U0MBX09UZ",
+            "U0184T48L74",
+            "U7SJ525DE",
+            "U01U67XD681",
+            "U044SKGT4R5",
+            "U08AXBW1CAZ",
+            "U01PE2S4ZL6",
+            "U2D54V0UV",
+            "U01DE9ENHG9",
+            "U0958HM93B3",
+            "U01TQGXG9D3",
+            "U03UMPD2NNS"
+          ],
+          "count": 16
+        },
+        {
+          "name": "crossed_fingers",
+          "users": [
+            "UE4HG114J",
+            "U08AXBW1CAZ"
+          ],
+          "count": 2
+        },
+        {
+          "name": "get_well_soon",
+          "users": [
+            "U02BA3VS7H8",
+            "U03UMPD2NNS"
+          ],
+          "count": 2
+        },
+        {
+          "name": "heal",
+          "users": [
+            "U01KKT2P7FY"
+          ],
+          "count": 1
+        },
+        {
+          "name": "crossed_fingers::skin-tone-3",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1756787332.363619",
+      "thread_replies": [
+        {
+          "ts": "1756793294.211339",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "Take care Alex. Hope you recover soon"
+        },
+        {
+          "ts": "1756793863.717169",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "damn, hope is nothing serious. take it easy alex!"
+        },
+        {
+          "ts": "1756796709.984289",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "take car Alex, wish you a speedy recovery"
+        },
+        {
+          "ts": "1756801757.662359",
+          "user": "U044SKGT4R5",
+          "user_name": "U044SKGT4R5",
+          "text": "Take care Alex, hope you feel better soon :four_leaf_clover: "
+        },
+        {
+          "ts": "1756805936.849539",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "yeech, feel better soon!"
+        },
+        {
+          "ts": "1756815895.400299",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Get well soon Alex :four_leaf_clover:"
+        },
+        {
+          "ts": "1756821401.570169",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Thank you all :pray: I have just come back home - there is a worry that it’s a appendicitis…\n\nI will need to keep an eye on the symptoms this week.\n\nHave to be off! Hoping I will recover before my vacations next week :pray: "
+        },
+        {
+          "ts": "1756821596.981429",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Feel better soon Alex!"
+        },
+        {
+          "ts": "1756823469.768369",
+          "user": "U02P4F23YJ0",
+          "user_name": "U02P4F23YJ0",
+          "text": "Wishing you well Alex, take care"
+        }
+      ]
+    },
+    {
+      "ts": "1757395833.007579",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Morning, team. Feeling crapy today, so taking a day off. I'll be checking messages from time to time, in case you need me urgently.",
+      "raw_text": "Morning, team. Feeling crapy today, so taking a day off. I'll be checking messages from time to time, in case you need me urgently.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "deadline",
+        "action",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "getwellsoon",
+          "users": [
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U02P4F23YJ0",
+            "U7SJ525DE",
+            "U044SKGT4R5",
+            "U01KNE98YLR",
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3",
+            "U01U67XD681",
+            "U2D54V0UV",
+            "U0MBX09UZ",
+            "U01PE2S4ZL6"
+          ],
+          "count": 13
+        },
+        {
+          "name": "take-care",
+          "users": [
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U2D54V0UV"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": "1757395833.007579",
+      "thread_replies": [
+        {
+          "ts": "1757404999.839129",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "Hope you feel better soon Max. Take care "
+        },
+        {
+          "ts": "1757407490.602669",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Feel better soon, @UE4HG114J!"
+        }
+      ]
+    }
+  ]
+}

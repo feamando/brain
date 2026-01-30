@@ -1,0 +1,16 @@
+{
+  "channel_id": "C09NKC5J2GL",
+  "channel_name": "squad-market-io",
+  "week": "2025-W43",
+  "extracted_at": "2026-01-02T11:00:54.956691Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "subtype": "channel_join",
+      "user": "U01BT6RE4JG",
+      "text": "<@U01BT6RE4JG> has joined the channel",
+      "type": "message",
+      "ts": "1761314509.956189"
+    }
+  ]
+}

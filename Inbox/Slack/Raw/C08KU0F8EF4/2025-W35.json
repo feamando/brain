@@ -1,0 +1,463 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W35",
+  "extracted_at": "2026-01-02T10:44:51.990333Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1756376065.138339",
+      "edited": {
+        "user": "U03TY4YJU4X",
+        "ts": "1756376173.000000"
+      },
+      "client_msg_id": "b1148840-0c3d-4eaf-98c6-db72dc93e228",
+      "text": ":alert2: hey folks, small reminder - we have the product review next week, let's get up and show up, otherwise we've been a bit absent again there. Let's think on what products we want to present from our side and sign up!",
+      "team": "T02AGMUUR",
+      "thread_ts": "1756376065.138339",
+      "reply_count": 11,
+      "reply_users_count": 5,
+      "latest_reply": "1756997069.287819",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03R6F2AG9K",
+        "U07VDFEFBQU",
+        "U03UMPD2NNS",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RiFt7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " hey folks, small reminder - we have the product review next week, let's get up and show up, otherwise we've been a bit absent again there. Let's think on what products we want to present from our side and sign up!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U07VDFEFBQU"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756399953.210579",
+          "client_msg_id": "e91c1552-dae6-49f3-a43b-9b0a8558a580",
+          "text": "<@U07VDFEFBQU> we can do OTP MVP and/or new Reactivations experience wdyt",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1OqCG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " we can do OTP MVP and/or new Reactivations experience wdyt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03R6F2AG9K",
+          "type": "message",
+          "ts": "1756418613.193849",
+          "client_msg_id": "737429E6-7FA6-4979-95D5-8831354DC576",
+          "text": "do the OTP cause I selfishly want to see too haha ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "P/AVK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "do the OTP cause I selfishly want to see too haha "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1756459391.519709",
+          "client_msg_id": "7280ad94-2f87-425f-9c58-3d842d65d7a1",
+          "text": "Yes we can do OTP next week and reactivations after",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KFDWr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes we can do OTP next week and reactivations after"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1756731495.332479",
+          "client_msg_id": "41fbba88-e67b-4d8f-9d3b-261bd769b7f5",
+          "text": "hmm I could do a review of the revamp of <https://lovable.dev/projects/dc03e62f-2d5c-4101-bfce-bae31cf68a9d|the plans selection> (but aybe it is to early?)\n\nor mixing in the funnel, which we already onboarded the Contractors to.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "image_url": "https://lovable.dev/opengraph-image.png?e7ae4aa2faea9aea",
+              "image_width": 1200,
+              "image_height": 629,
+              "image_bytes": 993206,
+              "from_url": "https://lovable.dev/projects/dc03e62f-2d5c-4101-bfce-bae31cf68a9d",
+              "service_icon": "https://lovable.dev/apple-icon.png?59950bbf4c03032c",
+              "id": 1,
+              "original_url": "https://lovable.dev/projects/dc03e62f-2d5c-4101-bfce-bae31cf68a9d",
+              "fallback": "Lovable - Build for the web 20x faster",
+              "text": "Build software products, using only a chat interface.",
+              "title": "Lovable - Build for the web 20x faster",
+              "title_link": "https://lovable.dev/projects/dc03e62f-2d5c-4101-bfce-bae31cf68a9d",
+              "service_name": "lovable.dev"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/uboe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hmm I could do a review of the revamp of "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://lovable.dev/projects/dc03e62f-2d5c-4101-bfce-bae31cf68a9d",
+                      "text": "the plans selection"
+                    },
+                    {
+                      "type": "text",
+                      "text": " (but aybe it is to early?)\n\nor mixing in the funnel, which we already onboarded the Contractors to."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1756731507.475339",
+          "client_msg_id": "88f7eceb-2411-43c1-b4c3-70e75b1cfd21",
+          "text": "<@U03TY4YJU4X> WDYT?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1AYJF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " WDYT?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756731626.931679",
+          "client_msg_id": "23b47658-14f4-4213-808f-76c5d15b379b",
+          "text": "Both work, I think having something from Lovable would be interesting!\n\nDon't forget to add you feedback here: <https://docs.google.com/forms/d/e/1FAIpQLSdQ_ClRBq2lILxuEC9jNioKwkfdVhHrVkzcvENNur6mJv_NJw/viewform?usp=dialog>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+AIer",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Both work, I think having something from Lovable would be interesting!\n\nDon't forget to add you feedback here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdQ_ClRBq2lILxuEC9jNioKwkfdVhHrVkzcvENNur6mJv_NJw/viewform?usp=dialog"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03R6F2AG9K",
+          "type": "message",
+          "ts": "1756947484.355379",
+          "client_msg_id": "1ab49c86-6f44-412c-a6d3-233d42bb3c69",
+          "text": "Sorry <@U07VDFEFBQU> I really wanted to attend but 2 mini fires crept up and I need to sort out tomorrow - can you please do a video record and I'll watch after :pray:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "saN/a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sorry "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I really wanted to attend but 2 mini fires crept up and I need to sort out tomorrow - can you please do a video record and I'll watch after "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1756972903.446099",
+          "client_msg_id": "c45ef561-4968-4038-9faf-c9b388d156e6",
+          "text": "yes no worries!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7TM6Y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes no worries!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1756973076.688249",
+          "client_msg_id": "129ca5c4-a679-48d2-9eaf-04318ad5d7c4",
+          "text": "+1 here\n\nWe have a meeting at 15:30 today which I will need to attend. <@U07VDFEFBQU> could you go first? TPT will join at 4pm x",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "siltM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "+1 here\n\nWe have a meeting at 15:30 today which I will need to attend. "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " could you go first? TPT will join at 4pm x"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1756975486.988499",
+          "client_msg_id": "5bb19a4a-d1de-47cc-a351-65aeea03f561",
+          "text": "yup!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BTaHW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yup!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1756997069.287819",
+          "client_msg_id": "31574853-52cc-484b-8852-4f8563e0ebe3",
+          "text": "We didn't get through the first page of OTP loll but here's the figma if you want to review it yourself, feel free to comment also!\n<https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=4302-8&amp;p=f&amp;t=Y2caCmAbYLms1628-0>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756376065.138339",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "divider",
+                  "block_id": "38waC"
+                },
+                {
+                  "type": "section",
+                  "block_id": "ujPL8",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=4302-8&amp;p=f&amp;t=Y2caCmAbYLms1628-0|*GoC [SBD‒2302] ‒ GoC OTP v2*>",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "image",
+                  "block_id": "hgL7S",
+                  "image_url": "https://api-cdn.figma.com/resize/thumbnails/15e4f7bf-9ad3-485b-9e17-9a9e385c8d5a?height=100&bucket=figma-alpha",
+                  "alt_text": "Figma File Image",
+                  "image_width": 200,
+                  "image_height": 100,
+                  "image_bytes": 11407,
+                  "is_animated": true,
+                  "fallback": "200x100px image"
+                }
+              ],
+              "fallback": "[no preview available]",
+              "bot_id": "B01Q0F1QSAF",
+              "bot_team_id": "T02AGMUUR",
+              "app_unfurl_url": "https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=4302-8&amp;p=f&amp;t=Y2caCmAbYLms1628-0",
+              "is_app_unfurl": true,
+              "app_id": "A01N2QYSA81"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "P+Yof",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We didn't get through the first page of OTP loll but here's the figma if you want to review it yourself, feel free to comment also!\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.figma.com/design/c8UzNBNmx0cG7DVkJPhNal/GoC--SBD-2302----GoC-OTP-v2?node-id=4302-8&p=f&t=Y2caCmAbYLms1628-0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

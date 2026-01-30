@@ -1,0 +1,260 @@
+{
+  "batch_id": "spreadsheet_038",
+  "doc_type": "spreadsheet",
+  "doc_count": 3,
+  "results": [
+    {
+      "doc_title": "Open roles EPD New ventures - 2026",
+      "doc_id": "1MkZ4TBkzraSt_RPPSV07pAXLIF52IuRWYsMFzLs_wdw",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks open and planned hiring roles for EPD (Engineering, Product, Design) New Ventures division for 2026, including backfills and new positions",
+      "data_type": "planning",
+      "key_data_points": [
+        "10 total roles tracked",
+        "Multiple roles in Toronto (CA) and Berlin (DE) locations",
+        "Career steps range from CS4 (Mid Level) to CS7 (Associate Director)",
+        "3 roles already filled",
+        "3 roles currently live/interviewing",
+        "4 roles pending/planned for future",
+        "Cost center code: 8191 for most roles"
+      ],
+      "entities": [
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Squad with 2 open engineering roles (CS4 FE, CS6 Staff FE) in Toronto, experiencing hiring challenges"
+        },
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "context": "New product requiring 3 roles (1 filled Staff PM, 2 pending App/RN engineers for Q2 2026), app launch planned Q3 2026"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Squad needing 3 roles (1 filled FE transfer, 2 pending: Senior PM and Senior Designer) due to team expansion to 10 people"
+        },
+        {
+          "name": "Market Innovation & Optimization (MIO)",
+          "type": "project",
+          "context": "Squad with 2 backend roles (1 live CS4, 1 filled CS5)"
+        },
+        {
+          "name": "Tamir Arnesty",
+          "type": "person",
+          "context": "Left Factor Form squad in Oct, CS4 FE backfill role open"
+        },
+        {
+          "name": "Brian Leach",
+          "type": "person",
+          "context": "Left Factor Form in Aug due to US RTO policy, CS6 Staff FE backfill struggling to find candidate"
+        },
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Filled Staff PM role for TPT, starts December"
+        },
+        {
+          "name": "Chiamaka Glory Nwolisa",
+          "type": "person",
+          "context": "Internal transfer from Growth Alliance filling Good Chop FE role, starts Dec"
+        },
+        {
+          "name": "Laurent Guillemain",
+          "type": "person",
+          "context": "CEO of TPT brand, aligned on 2 pending App/RN roles"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Verbally approved TPT roles"
+        },
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Good Chop PO needing support as team expands"
+        }
+      ],
+      "insights": [
+        "Hiring challenges evident: Factor Form has had 2 candidates reject offers at final stage, and struggling to find Staff Engineer with web/Shopify/RN experience",
+        "Strategic location consolidation: Factor Form squad entirely in Canada (Toronto), while most other roles are in Berlin",
+        "Flexible role repurposing: Multiple instances of using backfill positions/PIDs for different roles than originally planned",
+        "US RTO policy impact: At least one departure (Brian Leach) attributed to return-to-office policy",
+        "Team growth driving hiring: Good Chop expanding to 10 people, TPT scaling for app launch",
+        "Internal mobility preferred: 2 roles filled via internal transfers rather than external hiring",
+        "Timeline dependencies: TPT App/RN roles pending until Q2 2026 based on app launch visibility",
+        "Contractor strategy abandoned: MIO squad tried contractor route for 2 months before switching to permanent hire",
+        "Career progression planning: Chiamaka expected to be promoted to SE within 12 months"
+      ]
+    },
+    {
+      "doc_title": "Open roles EPD New ventures - 2026",
+      "doc_id": "1MkZ4TBkzraSt_RPPSV07pAXLIF52IuRWYsMFzLs_wdw",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks open and planned hiring roles for EPD (Engineering, Product, Design) New Ventures division for 2026, including backfills and new positions across different squads",
+      "data_type": "planning",
+      "key_data_points": [
+        "10 total roles tracked",
+        "5 roles currently Live (actively recruiting)",
+        "3 roles Filled",
+        "2 roles Pending (planned for future)",
+        "Career steps range from CS4 (Mid Level) to CS7 (Associate Director)",
+        "Primary locations: Toronto (CA) and Berlin (DE)",
+        "Cost Center: 8191 for most roles"
+      ],
+      "entities": [
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Squad with 2 open engineering roles (CS4 and CS6) in Toronto, facing recruitment challenges"
+        },
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "context": "New product with 1 filled Staff PM role and 2 pending app/RN engineering roles planned for Q2 2026"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Squad expanding to 10 people, needs Product Owner and Designer backfills"
+        },
+        {
+          "name": "Market Innovation & Optimization (MIO)",
+          "type": "project",
+          "context": "Squad with 1 live backend role and 1 filled backend role"
+        },
+        {
+          "name": "Tamir Arnesty",
+          "type": "person",
+          "context": "Left Factor Form squad in Oct, CS4 FE developer backfill in progress"
+        },
+        {
+          "name": "Brian Leach",
+          "type": "person",
+          "context": "Left Factor Form in Aug due to US RTO policy, CS6 Staff Engineer backfill struggling to find candidate"
+        },
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Filled Staff PM role for TPT, starts December"
+        },
+        {
+          "name": "Chiamaka Glory Nwolisa",
+          "type": "person",
+          "context": "Internal transfer from Growth Alliance to Good Chop, starts December"
+        },
+        {
+          "name": "Laurent Guillemain",
+          "type": "person",
+          "context": "CEO of TPT brand, aligned on new app/RN roles"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Verbally approved TPT roles"
+        },
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Good Chop PO needing support as team expands"
+        }
+      ],
+      "insights": [
+        "Recruitment challenges: Factor Form squad has had 2 candidates reject offers at final stage, and struggling to find CS6 Staff Engineer with cross-platform experience (web, Shopify, RN)",
+        "Geographic concentration: Factor Form squad entirely based in Canada (Toronto), while most other roles are in Berlin",
+        "US RTO policy impact: At least one departure (Brian Leach) attributed to US return-to-office policy",
+        "Internal mobility: 2 roles being filled through internal transfers rather than external hiring",
+        "Budget optimization: Repurposing backfill positions and PIDs (e.g., intern position repurposed for TPT Staff PM, CS7 role downgraded to CS5)",
+        "Timing strategy: TPT app roles intentionally delayed until Q2 2026 pending better visibility on app launch timelines (Q3 2026 target)",
+        "Team expansion: Good Chop squad growing to 10 people, requiring additional PO and design support",
+        "Contractor strategy failed: MIO squad attempted to use contractor from Gri Dynamics for 2 months before pivoting to permanent hire",
+        "High priority roles: Importance ratings of 3-5 (out of 5) indicate all tracked roles are medium to critical priority"
+      ]
+    },
+    {
+      "doc_title": "Open roles EPD New ventures - 2026",
+      "doc_id": "1MkZ4TBkzraSt_RPPSV07pAXLIF52IuRWYsMFzLs_wdw",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks open and planned hiring roles for EPD (Engineering, Product, Design) New Ventures division for 2026, including backfills and new positions across various product squads",
+      "data_type": "planning",
+      "key_data_points": [
+        "10 total roles tracked",
+        "3 roles already filled (Prateek Jajoo, Chiamaka Glory Nwolisa, Vini)",
+        "4 roles currently live/actively recruiting",
+        "3 roles pending/planned for future opening",
+        "Primary locations: Toronto (CA) and Berlin (DE)",
+        "Career steps range from CS4 (Mid Level) to CS7 (Associate Director)",
+        "Cost Center Code: 8191 for all roles"
+      ],
+      "entities": [
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Squad with 2 open engineering roles (CS4 FE, CS6 Staff FE) in Toronto, experiencing offer rejections"
+        },
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "context": "New product requiring 3 roles: 1 filled Staff PM (CS7), 2 pending App/RN engineers (CS4, CS5) planned for Q2 2025 opening"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Squad expanding to 10 people, needs 3 roles: 1 filled FE transfer, 1 pending PO, 1 pending designer to replace Marina Guthmann"
+        },
+        {
+          "name": "Market Innovation & Optimization (MIO)",
+          "type": "project",
+          "context": "Squad with 2 backend roles: 1 live CS4 BE (delayed due to failed contractor search), 1 filled CS5 BE"
+        },
+        {
+          "name": "Tamir Arnesty",
+          "type": "person",
+          "context": "Left Factor Form squad in Oct, CS4 FE backfill in progress"
+        },
+        {
+          "name": "Brian Leach",
+          "type": "person",
+          "context": "Left Factor Form in Aug due to US RTO policy, CS6 Staff FE backfill struggling to find candidate with web/Shopify/RN experience"
+        },
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Filled Staff PM role for TPT, starts December"
+        },
+        {
+          "name": "Chiamaka Glory Nwolisa",
+          "type": "person",
+          "context": "Internal transfer from Growth Alliance to Good Chop, starts Dec, expected SE promotion within 12 months"
+        },
+        {
+          "name": "Laurent Guillemain",
+          "type": "person",
+          "context": "CEO of TPT brand, aligned on 2 pending App/RN roles"
+        },
+        {
+          "name": "Dominic",
+          "type": "person",
+          "context": "Verbally approved TPT roles"
+        },
+        {
+          "name": "Marina Guthmann",
+          "type": "person",
+          "context": "Exiting company, CS6 Senior Product Designer backfill needed for Good Chop"
+        }
+      ],
+      "insights": [
+        "Recruitment challenges: Factor Form squad has had 2 candidates reject offers at final stage, and struggling to find Staff Engineer with specific tech stack (web, Shopify, React Native)",
+        "Geographic concentration: Factor Form squad entirely based in Canada (Toronto), while most other roles are in Berlin",
+        "Strategic workforce planning: Using backfill position IDs creatively to fund net new roles (e.g., intern PID repurposed for TPT Staff PM)",
+        "Internal mobility: At least 2 roles being filled through internal transfers rather than external hiring",
+        "US RTO policy impact: At least one departure (Brian Leach) attributed to return-to-office policy",
+        "Timing dependencies: TPT app roles (2 pending) contingent on Q3 2026 app launch timeline, planned to open Q2 2025",
+        "Team scaling: Good Chop expanding to 10 people with product-intensive content and lifestyle strategy requiring additional PO support",
+        "Contractor strategy failure: MIO squad attempted 2-month contractor search through Gri Dynamics before pivoting to permanent hire",
+        "Career progression planning: Chiamaka identified for promotion to SE within 12 months of starting"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:20:59.175834"
+}

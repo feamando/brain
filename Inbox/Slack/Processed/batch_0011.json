@@ -1,0 +1,1448 @@
+{
+  "batch_id": "C06CE7FB951_1764553726.533319",
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "message_count": 34,
+  "thread_count": 6,
+  "avg_importance": 73.67647058823529,
+  "tag_summary": {
+    "action": 12,
+    "notable": 17,
+    "high_engagement": 1,
+    "discussion": 1,
+    "question": 4,
+    "announcement": 1,
+    "update": 2
+  },
+  "time_range": {
+    "start": "1764553726.533319",
+    "end": "1767017047.912029"
+  },
+  "messages": [
+    {
+      "ts": "1764553726.533319",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Good morning folks, \n\nI would like to welcome @U09UKDH3AA0 to the team as he would be joining us as a Staff Product Manager supporting The Pets Table. Prateek will be working together with the existing tech and commercial team, further growing our pet food service offering to customers across the US.\n\nPlease feel free to reach out to Prateek and give a warm welcome to HelloFresh!",
+      "raw_text": "Good morning folks, \n\nI would like to welcome <@U09UKDH3AA0> to the team as he would be joining us as a Staff Product Manager supporting The Pets Table. Prateek will be working together with the existing tech and commercial team, further growing our pet food service offering to customers across the US.\n\nPlease feel free to reach out to Prateek and give a warm welcome to HelloFresh!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W48",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 5,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U09UKDH3AA0",
+            "U2D54V0UV",
+            "U06JUCD7S4A"
+          ],
+          "count": 3
+        },
+        {
+          "name": "frogyay",
+          "users": [
+            "U8F7ZDAPM",
+            "U06JUCD7S4A",
+            "U027201FQSV"
+          ],
+          "count": 3
+        },
+        {
+          "name": "tada-confetti",
+          "users": [
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U01TQGXG9D3",
+            "U044SKGT4R5",
+            "U06JUCD7S4A",
+            "U027201FQSV",
+            "U09D8BZ9891"
+          ],
+          "count": 7
+        },
+        {
+          "name": "welcome-carpet",
+          "users": [
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "UEZ4PRFKM",
+            "U06JUCD7S4A",
+            "U027201FQSV",
+            "U09D8BZ9891"
+          ],
+          "count": 8
+        }
+      ],
+      "thread_ts": "1764553726.533319",
+      "thread_replies": [
+        {
+          "ts": "1764582537.422729",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Welcome to the team @U09UKDH3AA0 :dogdance:"
+        },
+        {
+          "ts": "1764582751.185869",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "@U09UKDH3AA0 welcome!!!! :yayfrog:"
+        },
+        {
+          "ts": "1764597430.397909",
+          "user": "U1GA9435H",
+          "user_name": "U1GA9435H",
+          "text": "Welcome welcome @U09UKDH3AA0!! :dog::cat-wave:"
+        },
+        {
+          "ts": "1764597487.553759",
+          "user": "U06JUCD7S4A",
+          "user_name": "U06JUCD7S4A",
+          "text": "Welcome to the team @U09UKDH3AA0"
+        },
+        {
+          "ts": "1764599402.373349",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Welcome to the team @U09UKDH3AA0! :welcome-carpet:"
+        }
+      ]
+    },
+    {
+      "ts": "1764775620.130159",
+      "user": "U01AKGWGLC8",
+      "user_name": "U01AKGWGLC8",
+      "text": "in honour of Spotify Wrapped release, sharing our https://miro.com/app/board/uXjVJscMPh0=/ :spotify::wink: (pw: goodchop)",
+      "raw_text": "in honour of Spotify Wrapped release, sharing our <https://miro.com/app/board/uXjVJscMPh0=/|Good Chop 2025 Wrapped> :spotify::wink: (pw: goodchop)",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W49",
+      "tags": [
+        "notable"
+      ],
+      "importance": 77,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "spotify",
+          "users": [
+            "U027201FQSV",
+            "U02BYQ8CHT7",
+            "U08AXBW1CAZ",
+            "U02KQF884CT",
+            "U044SKGT4R5",
+            "U03UMPD2NNS",
+            "UEZ4PRFKM"
+          ],
+          "count": 7
+        },
+        {
+          "name": "goodchop_fan",
+          "users": [
+            "U027201FQSV",
+            "U02BYQ8CHT7",
+            "U08AXBW1CAZ",
+            "U02KQF884CT",
+            "U044SKGT4R5",
+            "U03UMPD2NNS"
+          ],
+          "count": 6
+        },
+        {
+          "name": "fire",
+          "users": [
+            "U02BYQ8CHT7",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "U03UMPD2NNS",
+            "U01PE2S4ZL6"
+          ],
+          "count": 5
+        },
+        {
+          "name": "cheerleader-bea",
+          "users": [
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "U03UMPD2NNS"
+          ],
+          "count": 3
+        },
+        {
+          "name": "heart",
+          "users": [
+            "U0184T48L74",
+            "U03UMPD2NNS",
+            "U0251UW1YUE"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": "1764775620.130159",
+      "thread_replies": []
+    },
+    {
+      "ts": "1765384345.685909",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Hey team,\n\nA little late but I was finally able to figure out our issues with our tribe-nv@hellofresh.com group alias not receiving external emails and was able to set a password for us to access Lokalise according to this https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers. Linking the credentials here https://whisper.hellofresh.com/#/s/eb7a310f-8542-40ba-a846-7b0898f00af5/IcXUtnqovO80bAP7IUwwpx, which expire in a week but feel free to reach out to me in the future if you need them again :writing_hand:",
+      "raw_text": "Hey team,\n\nA little late but I was finally able to figure out our issues with our <mailto:tribe-nv@hellofresh.com|tribe-nv@hellofresh.com> group alias not receiving external emails and was able to set a password for us to access Lokalise according to this <https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers|guide>. Linking the credentials here <https://whisper.hellofresh.com/#/s/eb7a310f-8542-40ba-a846-7b0898f00af5/IcXUtnqovO80bAP7IUwwpx>, which expire in a week but feel free to reach out to me in the future if you need them again :writing_hand:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W50",
+      "tags": [
+        "notable"
+      ],
+      "importance": 86,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "smiling_imp",
+          "users": [
+            "UE4HG114J"
+          ],
+          "count": 1
+        },
+        {
+          "name": "thank_you",
+          "users": [
+            "U02KQF884CT",
+            "U02BYQ8CHT7"
+          ],
+          "count": 2
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U0184T48L74",
+            "U08E2S3V5D1"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1765384345.685909",
+      "thread_replies": [
+        {
+          "ts": "1765445940.325919",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "@U0184T48L74 FYI:up-arrow:"
+        },
+        {
+          "ts": "1765446299.819609",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "@UEZ4PRFKM So we should always use the tribe email to login?\nAnd what happens if the password expires??"
+        },
+        {
+          "ts": "1765447426.676789",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yes always use our tribe email to log in pls. The password won't expire, only the Whisper link I shared it via will. Teams can reach out to me again if they need it in the future"
+        }
+      ]
+    },
+    {
+      "ts": "1765808926.304309",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Both GoodChop and ThePetsTable recently noticed that there is a funky case. I'll put an example from GoodChop, but the same is observed for TPT.\n• Customer goes to \"plan change\" flow (any flow that is related to changing subscription SKU). For example,  changing from \"6 cuts\" to \"8 cuts\".\n• We patch the subscription SKU, but all the upcoming deliveries stay the same (\"6 cuts\") because of customer recurring selection that ensures the same selection (including the seamless size change) for all the upcoming boxes.\n• In theory, we should submit a new meal selection (also with a new SKU) to set a new source of truth for recurring selection, but we only have 6 out of 8 cuts selected.\nThe question to product folks - how this should work from customer perspective?",
+      "raw_text": "Both GoodChop and ThePetsTable recently noticed that there is a funky case. I'll put an example from GoodChop, but the same is observed for TPT.\n• Customer goes to \"plan change\" flow (any flow that is related to changing subscription SKU). For example,  changing from \"6 cuts\" to \"8 cuts\".\n• We patch the subscription SKU, but all the upcoming deliveries stay the same (\"6 cuts\") because of customer recurring selection that ensures the same selection (including the seamless size change) for all the upcoming boxes.\n• In theory, we should submit a new meal selection (also with a new SKU) to set a new source of truth for recurring selection, but we only have 6 out of 8 cuts selected.\nThe question to product folks - how this should work from customer perspective?",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W51",
+      "tags": [
+        "high_engagement",
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 15,
+      "reactions": [],
+      "thread_ts": "1765808926.304309",
+      "thread_replies": [
+        {
+          "ts": "1765809075.633459",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "As I was in Good Chop when this feature was designed, I say what product thought back then:\n\nWhenever a customer is changing a both size, we want to ask them to do a meal selection. So we would always redirect them somehow to a new meal selection"
+        },
+        {
+          "ts": "1765809905.240679",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "In TPT's case this is when user's change cadence (for TPT cadence also includes box size) and I'm not sure it would make lot of sense UX wise to make users reselect their meals when updating cadence. We'll likely just have to make another meal swap request whenever users update cadence :confused:"
+        },
+        {
+          "ts": "1765810123.382749",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "&gt; We’ll likely just have to make another meal swap request whenever users update cadence\nThis was our suggestion when TPT was onboarded in KRS this year. I could be wrong, but I think this was already implemented"
+        },
+        {
+          "ts": "1765810788.173499",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "No we don't currently make a meal swap request after changing the cadence"
+        },
+        {
+          "ts": "1765814748.791039",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "For TPT:\n• we direct the user to meal selection if they change their plan \n• For changing cadence the recipe selection is still valid\nWhy would we need to make it?"
+        },
+        {
+          "ts": "1765815914.752369",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "&gt; • we direct the user to meal selection if they change their plan\nThat’s perfect\n\n&gt; • For changing cadence the recipe selection is still valid\nWhen changing the cadence, the sku also changes, correct? Then unfortunately the selection needs to be redone as well, as in the HF systems a selection is connected with an SKU.\nHowever this can happen behind the scenes, so no need to redirect a customer to do a new selection, all you need to do is a call to `/carts` once again with the new sku"
+        },
+        {
+          "ts": "1766418565.813079",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Confirming that we noticed this behaviour on MR lately where it doesn't correctly update customers to the correct number of cuts  (https://hellofresh.atlassian.net/browse/GOC-3416)\n\nWe haven't picked up the ticket properly yet so it's unclear if this incorrect behaviour was always there\n\nI agree that ideally if someone changes Plan, we give confirmation that this worked and direct them to meal selection. For cadence no direction to meal selection is necessary - it should just persist the previous selection and this works as expected today"
+        },
+        {
+          "ts": "1766418578.613599",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@UE4HG114J are you investigating this bug?"
+        },
+        {
+          "ts": "1766418841.929769",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Well, let's say I investigated it, and the summary is above - it is claimed to be an expected behavior and not a bug :dunno:"
+        },
+        {
+          "ts": "1766419040.508929",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "So to \"fix\" it, we need to implement a different customer experience (eg. direct to meal selection)"
+        },
+        {
+          "ts": "1766419258.863259",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "I thought previously what would happen is that it wouldn't lead someone to meal selection but if they go back to Dashboard it would update to the correct number of cuts but set the recipes to default recipes until somebody enters meal selection"
+        },
+        {
+          "ts": "1766419296.883079",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "But before Bolo left he mentioned it didn't look like any potentially related files were changed recently -- did you find the same?"
+        },
+        {
+          "ts": "1766420328.982149",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Yes, I was assisting Bolo on that investigation, and we figured out that the deliveries' SKUs are not changed when subscription one is.\nI tried to understand why, and it led me to customer recurring selection. As per Vini, the service always worked like that, so either we changed customer experience recently (and as per Bolo, we didn't), or it was always like that."
+        },
+        {
+          "ts": "1766421417.304509",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "ok clear - thanks for confirming"
+        },
+        {
+          "ts": "1766421433.086439",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "will treat this as a separate initiative then"
+        }
+      ]
+    },
+    {
+      "ts": "1766413536.181439",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Oh wow, we have our big bosses become even bigger bosses!\nCongrats @U03TY4YJU4X and @UEZ4PRFKM on your promotions! :tada:",
+      "raw_text": "Oh wow, we have our big bosses become even bigger bosses!\nCongrats <@U03TY4YJU4X> and <@UEZ4PRFKM> on your promotions! :tada:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W52",
+      "tags": [
+        "announcement",
+        "notable"
+      ],
+      "importance": 93,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "congrats1",
+          "users": [
+            "U02BYQ8CHT7",
+            "U03EPTA66RK",
+            "U0184T48L74",
+            "U02KQF884CT",
+            "U01KKT2P7FY",
+            "U09D8BZ9891",
+            "U01KNE98YLR",
+            "U09JYRUPBFC",
+            "U08E2S3V5D1",
+            "U09UKDH3AA0",
+            "U03TY4YJU4X",
+            "U01AKGWGLC8",
+            "U03UMPD2NNS",
+            "U1GA9435H",
+            "U02CRDYF2NL",
+            "UAAJRNY8G",
+            "U01V673T9F0"
+          ],
+          "count": 17
+        }
+      ],
+      "thread_ts": "1766413536.181439",
+      "thread_replies": [
+        {
+          "ts": "1766417795.098259",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Thank you Maks!! :hugs:"
+        },
+        {
+          "ts": "1766417818.919029",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "would not have been possible without having the most astounding team; so huge thank you all! :bow:"
+        },
+        {
+          "ts": "1766419870.372589",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Thank you everyone. Truly humbled to be working with such a great team which I learn from daily :heart_hands:"
+        },
+        {
+          "ts": "1767085816.823089",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Congrats @U03TY4YJU4X and @UEZ4PRFKM! :tada-confetti: Fully deserved promotions! :clap:"
+        }
+      ]
+    },
+    {
+      "ts": "1766630479.920059",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "hey folks; qq, who's available on Monday next week?",
+      "raw_text": "hey folks; qq, who's available on Monday next week?",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W52",
+      "tags": [
+        "notable",
+        "question"
+      ],
+      "importance": 79,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "wave",
+          "users": [
+            "U027201FQSV",
+            "U09D8BZ9891",
+            "U08FY485B47",
+            "U09UKDH3AA0"
+          ],
+          "count": 4
+        }
+      ],
+      "thread_ts": "1766630479.920059",
+      "thread_replies": [
+        {
+          "ts": "1766670454.699929",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Let's connect @U027201FQSV with our friends on vms @U08E2S3V5D1 and @U09D8BZ9891 to see if we can further support @U08FY485B47 work on the OTP topic."
+        },
+        {
+          "ts": "1766670479.780189",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "https://hellofresh.slack.com/archives/C07RG6TURU7/p1766518535040739?thread_ts=1766518535.040739&amp;cid=C07RG6TURU7 - here is the thread"
+        },
+        {
+          "ts": "1766671639.028379",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "Thanks for the support, Nikita! Really appreciate it!"
+        }
+      ]
+    },
+    {
+      "ts": "1751295075.701749",
+      "user": "U01AKGWGLC8",
+      "user_name": "U01AKGWGLC8",
+      "text": "As mentioned in tribe standup, this upcoming Sprint we'll investigate how to optimize our https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/dDJT8riV4Xc on the https://www.goodchop.com/first-box/MR-CBT1-12-1-0 from 300-500 ms closer to 600-700 ms currently. Select Cuts is where customers perform pre-checkout cut selection\n\nLikely it's related to the rollout of the new product cards, however we don't wish to roll this back so we will need to find other ways to optimize. If anyone can share any ideas that would be helpful!",
+      "raw_text": "As mentioned in tribe standup, this upcoming Sprint we'll investigate how to optimize our <https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/dDJT8riV4Xc|increasing INP> on the <https://www.goodchop.com/first-box/MR-CBT1-12-1-0|Select Cuts page> from 300-500 ms closer to 600-700 ms currently. Select Cuts is where customers perform pre-checkout cut selection\n\nLikely it's related to the rollout of the new product cards, however we don't wish to roll this back so we will need to find other ways to optimize. If anyone can share any ideas that would be helpful!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W27",
+      "tags": [],
+      "importance": 60,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1752245673.105229",
+      "user": "U08AXBW1CAZ",
+      "user_name": "U08AXBW1CAZ",
+      "text": "MMMEEEWAAAWWOOOO",
+      "raw_text": "MMMEEEWAAAWWOOOO",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W28",
+      "tags": [
+        "notable"
+      ],
+      "importance": 75,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "cat-screaming",
+          "users": [
+            "U0184T48L74",
+            "U08AXBW1CAZ",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U01PE2S4ZL6",
+            "U01TQGXG9D3",
+            "U079VE0A4UR",
+            "U02DM3WK0NL",
+            "U03EN3N4KM4"
+          ],
+          "count": 9
+        },
+        {
+          "name": "see_no_evil",
+          "users": [
+            "U08AXBW1CAZ",
+            "U03TY4YJU4X",
+            "U079VE0A4UR"
+          ],
+          "count": 3
+        },
+        {
+          "name": "mori-intensifies",
+          "users": [
+            "U08AXBW1CAZ",
+            "U027201FQSV",
+            "U0251UW1YUE",
+            "U01PE2S4ZL6",
+            "U079VE0A4UR"
+          ],
+          "count": 5
+        },
+        {
+          "name": "happy-marina",
+          "users": [
+            "U027201FQSV",
+            "U0251UW1YUE",
+            "U0MBX09UZ",
+            "U079VE0A4UR"
+          ],
+          "count": 4
+        },
+        {
+          "name": "typingcat",
+          "users": [
+            "U03QCR5AT6U",
+            "U079VE0A4UR",
+            "U02DM3WK0NL"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1752657685.779869",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Hey team,\n\nI think this was announced in the tribe standup I missed on Monday but want to give a quick warm welcome to @U0958HM93B3 who will be joining the New Ventures tribe as an intern from now until Sept 19 :tada: :welcome-carpet:\n\nTroy will be reporting to me on paper, but you might see him shadowing some teams' sprint ceremonies and helping us with some AI initiatives. Please say hi if you see him in office or our boat party later today!",
+      "raw_text": "Hey team,\n\nI think this was announced in the tribe standup I missed on Monday but want to give a quick warm welcome to <@U0958HM93B3> who will be joining the New Ventures tribe as an intern from now until Sept 19 :tada: :welcome-carpet:\n\nTroy will be reporting to me on paper, but you might see him shadowing some teams' sprint ceremonies and helping us with some AI initiatives. Please say hi if you see him in office or our boat party later today!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W29",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "welcome-carpet",
+          "users": [
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U0251UW1YUE",
+            "U027201FQSV",
+            "U02P4F23YJ0",
+            "U01KNE98YLR",
+            "U2D54V0UV",
+            "U08AXBW1CAZ",
+            "UJ182DUEN",
+            "U03QCR5AT6U",
+            "U01TQGXG9D3",
+            "U03UN2C25UL",
+            "U01PE2S4ZL6",
+            "U044SKGT4R5",
+            "U0MBX09UZ",
+            "U03EN3N4KM4"
+          ],
+          "count": 16
+        },
+        {
+          "name": "hello-catwave",
+          "users": [
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U0251UW1YUE",
+            "U027201FQSV",
+            "U08AXBW1CAZ",
+            "UJ182DUEN",
+            "U03UN2C25UL"
+          ],
+          "count": 7
+        },
+        {
+          "name": "welcomeclap",
+          "users": [
+            "U2D54V0UV",
+            "U08AXBW1CAZ",
+            "UJ182DUEN",
+            "U03UN2C25UL"
+          ],
+          "count": 4
+        },
+        {
+          "name": "bear_wave",
+          "users": [
+            "U01KKT2P7FY",
+            "UJ182DUEN"
+          ],
+          "count": 2
+        },
+        {
+          "name": "troybolton",
+          "users": [
+            "U03UN2C25UL"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1753365577.439209",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey hey, the tech AHM is gonna start soon! :violently-celebrating: Come in person or join the Livestream!",
+      "raw_text": "Hey hey, the tech AHM is gonna start soon! :violently-celebrating: Come in person or join the Livestream!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W30",
+      "tags": [
+        "notable"
+      ],
+      "importance": 75,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "ai",
+          "users": [
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "U03UMPD2NNS"
+          ],
+          "count": 4
+        },
+        {
+          "name": "cursor",
+          "users": [
+            "U03EN3N4KM4",
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5"
+          ],
+          "count": 4
+        },
+        {
+          "name": "party-alex",
+          "users": [
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "U2D54V0UV",
+            "U03UMPD2NNS",
+            "U03EN3N4KM4"
+          ],
+          "count": 5
+        },
+        {
+          "name": "macklemore-nikita",
+          "users": [
+            "U2D54V0UV",
+            "U027201FQSV"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1753802100.375449",
+      "user": "U02U39Z9XA9",
+      "user_name": "U02U39Z9XA9",
+      "text": "Hey Team,\nIt was a pleasure working with everyone in the tribe for more than 3.5 years. Let's count this as a longer vacation, I would love to connect and work with you all in the future. Feel free to ping me if you want to grab coffee/lunch/dinner or even play football with me in Berlin on Sundays, or maybe Fifa (we can make some arrangements :P). Until then, Auf Wiedersehen und bis später  (not sure if I used that right, entschuldigung then)\nContact/WhatsApp No: +49 17615681402\nHit me up on https://linkedin.com/in/shujathkhan and would be great if you could drop me a recommendation (i can do the same. Also, let's connect on instagram as well @shujath_khan.",
+      "raw_text": "Hey Team,\nIt was a pleasure working with everyone in the tribe for more than 3.5 years. Let's count this as a longer vacation, I would love to connect and work with you all in the future. Feel free to ping me if you want to grab coffee/lunch/dinner or even play football with me in Berlin on Sundays, or maybe Fifa (we can make some arrangements :P). Until then, Auf Wiedersehen und bis später  (not sure if I used that right, entschuldigung then)\nContact/WhatsApp No: +49 17615681402\nHit me up on <https://linkedin.com/in/shujathkhan|linkedIn> and would be great if you could drop me a recommendation (i can do the same. Also, let's connect on instagram as well @shujath_khan.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W31",
+      "tags": [
+        "notable"
+      ],
+      "importance": 85,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "blob-cat-heart-squeeze",
+          "users": [
+            "U08AXBW1CAZ",
+            "U8F7ZDAPM",
+            "U03UMPD2NNS",
+            "U03UN2C25UL",
+            "U03TY4YJU4X",
+            "U01TQGXG9D3",
+            "U02DM3WK0NL",
+            "U044SKGT4R5",
+            "U01AKGWGLC8"
+          ],
+          "count": 9
+        },
+        {
+          "name": "love-parrot",
+          "users": [
+            "U01KKT2P7FY",
+            "U03UMPD2NNS",
+            "U03TY4YJU4X",
+            "U01TQGXG9D3",
+            "U044SKGT4R5",
+            "U03QCR5AT6U"
+          ],
+          "count": 6
+        },
+        {
+          "name": "shujath",
+          "users": [
+            "U02DM3WK0NL",
+            "U03EN3N4KM4"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1754305327.100419",
+      "user": "U01AKGWGLC8",
+      "user_name": "U01AKGWGLC8",
+      "text": "hi everyone,\n\nI asked the _Fresh Chat_ owner to index the new ventures confluence space. I use it sometimes just to do a quick check of any old documentation of previous initiatives\n\nNot sure how many teams actually actively update their Confluence pages but could be a good use case just for quick screening of what's been explored in the past",
+      "raw_text": "hi everyone,\n\nI asked the _Fresh Chat_ owner to index the new ventures confluence space. I use it sometimes just to do a quick check of any old documentation of previous initiatives\n\nNot sure how many teams actually actively update their Confluence pages but could be a good use case just for quick screening of what's been explored in the past",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W32",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 93,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "meow_wow",
+          "users": [
+            "U08AXBW1CAZ",
+            "U02BA3VS7H8",
+            "U023F53GS21",
+            "U044SKGT4R5"
+          ],
+          "count": 4
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1755077117.068089",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Hey team, we have noticed that some team members didn't see \"TAM Quarterly All Hands Meeting\" at 16:00-17:15 CET today. Please let us know if someone still can't see it in your calendars.",
+      "raw_text": "Hey team, we have noticed that some team members didn't see \"TAM Quarterly All Hands Meeting\" at 16:00-17:15 CET today. Please let us know if someone still can't see it in your calendars.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W33",
+      "tags": [
+        "action"
+      ],
+      "importance": 69,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U01PE2S4ZL6",
+            "U02BA3VS7H8"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1757086061.810139",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Happy Friday team,\n\nGoing on vacations now and see you all on September 22nd :wave: Have a great two weeks ahead :rocket:",
+      "raw_text": "Happy Friday team,\n\nGoing on vacations now and see you all on September 22nd :wave: Have a great two weeks ahead :rocket:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W36",
+      "tags": [
+        "notable"
+      ],
+      "importance": 70,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "wave",
+          "users": [
+            "U01PE2S4ZL6",
+            "U05BNQPJX4K",
+            "U08AXBW1CAZ",
+            "U0MBX09UZ"
+          ],
+          "count": 4
+        },
+        {
+          "name": "wave::skin-tone-3",
+          "users": [
+            "U044SKGT4R5"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1757686908.039369",
+      "user": "U0958HM93B3",
+      "user_name": "U0958HM93B3",
+      "text": "While I still have access I'll put this here: https://www.linkedin.com/in/troy-edwards-034042317?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app",
+      "raw_text": "While I still have access I'll put this here: <https://www.linkedin.com/in/troy-edwards-034042317?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app|https://www.linkedin.com/in/troy-edwards-034042317?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app>",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 82,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "following",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1758022757.662219",
+      "user": "U023F53GS21",
+      "user_name": "U023F53GS21",
+      "text": "hey team, friendly reminder to free up the meeting rooms and cancel your meetings when OOO so others can book them pls :praycat:",
+      "raw_text": "hey team, friendly reminder to free up the meeting rooms and cancel your meetings when OOO so others can book them pls :praycat:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [],
+      "importance": 52,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "please-please-please",
+          "users": [
+            "U03UN2C25UL"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1758093349.988609",
+      "user": "U01TQGXG9D3",
+      "user_name": "U01TQGXG9D3",
+      "text": "Hey folks, the little one didn’t let me get much sleep last night :yawning_face:.\nI’ll be taking the day off today to catch up on rest. See you all tomorrow!",
+      "raw_text": "Hey folks, the little one didn’t let me get much sleep last night :yawning_face:.\nI’ll be taking the day off today to catch up on rest. See you all tomorrow!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 90,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "get-well-soon",
+          "users": [
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U044SKGT4R5",
+            "U08AXBW1CAZ",
+            "UEZ4PRFKM",
+            "U01DE9ENHG9",
+            "U01KNE98YLR",
+            "U02M8QB04HE",
+            "U03TY4YJU4X"
+          ],
+          "count": 9
+        },
+        {
+          "name": "areeba",
+          "users": [
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ"
+          ],
+          "count": 3
+        },
+        {
+          "name": "take-care",
+          "users": [
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U08AXBW1CAZ",
+            "UEZ4PRFKM",
+            "U02P4F23YJ0",
+            "U01PE2S4ZL6"
+          ],
+          "count": 6
+        },
+        {
+          "name": "sleep-parrot",
+          "users": [
+            "U01KKT2P7FY"
+          ],
+          "count": 1
+        },
+        {
+          "name": "heal",
+          "users": [
+            "U05BNQPJX4K"
+          ],
+          "count": 1
+        },
+        {
+          "name": "sleep_cozynap",
+          "users": [
+            "U05BNQPJX4K"
+          ],
+          "count": 1
+        },
+        {
+          "name": "sleep_kirby",
+          "users": [
+            "U05BNQPJX4K"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1758278190.116199",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Happy Friday NV team!\n\nJust an FYI that we will be having an AMA next Thursday to answer any questions and go over some specifics around how the \"Mega Alliances\" and Ways of Working changes might affect our team specifically, and how we are already doing some of this.\n\nPlease submit any questions in the Slido here: https://app.sli.do/event/2cKFHSTyAf48fi2DvZn8V7",
+      "raw_text": "Happy Friday NV team!\n\nJust an FYI that we will be having an AMA next Thursday to answer any questions and go over some specifics around how the \"Mega Alliances\" and Ways of Working changes might affect our team specifically, and how we are already doing some of this.\n\nPlease submit any questions in the Slido here: <https://app.sli.do/event/2cKFHSTyAf48fi2DvZn8V7>",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [
+        "action"
+      ],
+      "importance": 79,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "blobthumbsup",
+          "users": [
+            "U01TQGXG9D3",
+            "U02BA3VS7H8"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1758524510.134399",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Good morning team, I'm back from vacations and catching up now :cattype:",
+      "raw_text": "Good morning team, I'm back from vacations and catching up now :cattype:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [],
+      "importance": 54,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "welcome-back",
+          "users": [
+            "U01TQGXG9D3",
+            "U02BA3VS7H8"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1758609179.048399",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Another follow-up from standup, please https://hellofresh.slack.com/archives/C041WMSDZME/p1757930136036869 if you are available for `L2 New Ventures` on-call :pepe-money:\n\nAlso a quick update that in the next couple of weeks - the <#C044FCN7C6P|> L2 rotation will be combining with <#C088GTM8QTF|> to support all TAM-owned backend services - so in Q4, escalating and mitigating criticals for new ventures dependent services should be more streamlined and available. @U2D54V0UV or I will be sharing an update soon on when this will support will kickoff",
+      "raw_text": "Another follow-up from standup, please <https://hellofresh.slack.com/archives/C041WMSDZME/p1757930136036869|volunteer> if you are available for `L2 New Ventures` on-call :pepe-money:\n\nAlso a quick update that in the next couple of weeks - the <#C044FCN7C6P|> L2 rotation will be combining with <#C088GTM8QTF|> to support all TAM-owned backend services - so in Q4, escalating and mitigating criticals for new ventures dependent services should be more streamlined and available. <@U2D54V0UV> or I will be sharing an update soon on when this will support will kickoff",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W39",
+      "tags": [
+        "update",
+        "action"
+      ],
+      "importance": 82,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "this",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759160687.537099",
+      "user": "U01TQGXG9D3",
+      "user_name": "U01TQGXG9D3",
+      "text": "Hey team, one update I missed in the standup:\nWe (@U01KKT2P7FY, @U03R6F2AG9K and myself) will be demoing `ABBA` and (if time permits) `Cross Selling` on the company-wide HelloTech Demo Session tomorrow (17:00-18:00). We would really appreciate your in-townhall presence and support! :rocket: :new-ventures:",
+      "raw_text": "Hey team, one update I missed in the standup:\nWe (<@U01KKT2P7FY>, <@U03R6F2AG9K> and myself) will be demoing `ABBA` and (if time permits) `Cross Selling` on the company-wide HelloTech Demo Session tomorrow (17:00-18:00). We would really appreciate your in-townhall presence and support! :rocket: :new-ventures:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W40",
+      "tags": [
+        "notable"
+      ],
+      "importance": 85,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "green_heart",
+          "users": [
+            "U01DE9ENHG9",
+            "U027201FQSV",
+            "U01KPB90WQM",
+            "U03EN3N4KM4",
+            "U02P4F23YJ0",
+            "U05BNQPJX4K",
+            "U03QCR5AT6U",
+            "U2D54V0UV",
+            "U044SKGT4R5",
+            "U0184T48L74"
+          ],
+          "count": 10
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759237803.294799",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Welcome to the New Ventures and Ecosystems tribe @U02KQF884CT! We are happy to have you with us joining tomorrow! :hugging_face:",
+      "raw_text": "Welcome to the New Ventures and Ecosystems tribe <@U02KQF884CT>! We are happy to have you with us joining tomorrow! :hugging_face:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W40",
+      "tags": [],
+      "importance": 52,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "thx-thank-you",
+          "users": [
+            "U02KQF884CT"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759240336.446499",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "Welcome @U02KQF884CT :yes-jack-nicholson:",
+      "raw_text": "Welcome <@U02KQF884CT> :yes-jack-nicholson:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W40",
+      "tags": [],
+      "importance": 52,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "blob-thx",
+          "users": [
+            "U02KQF884CT"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759342735.090299",
+      "user": "U01TQGXG9D3",
+      "user_name": "U01TQGXG9D3",
+      "text": "Let's go!! :rocket: :rocket:",
+      "raw_text": "Let's go!! :rocket: :rocket:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W40",
+      "tags": [
+        "notable"
+      ],
+      "importance": 75,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "letsgo1",
+          "users": [
+            "U01DE9ENHG9",
+            "U0MBX09UZ",
+            "U03QCR5AT6U"
+          ],
+          "count": 3
+        },
+        {
+          "name": "muscle-rocket",
+          "users": [
+            "U01DE9ENHG9",
+            "U01KPB90WQM",
+            "U02BA3VS7H8",
+            "U0MBX09UZ",
+            "U02P4F23YJ0",
+            "U2D54V0UV",
+            "U0184T48L74",
+            "U01PE2S4ZL6"
+          ],
+          "count": 8
+        },
+        {
+          "name": "shipitparrot",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "fingerscrossed",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "lets-f-goooo",
+          "users": [
+            "U03QCR5AT6U"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759745471.869319",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "&gt; Invitation: [HOLD] Spooky TAM Night!\nOh no! I have flashbacks from the last year, and this time I'm gonna be on-call again :try-not-to-cry:",
+      "raw_text": "&gt; Invitation: [HOLD] Spooky TAM Night!\nOh no! I have flashbacks from the last year, and this time I'm gonna be on-call again :try-not-to-cry:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W41",
+      "tags": [],
+      "importance": 56,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "good-luck",
+          "users": [
+            "U03EN3N4KM4",
+            "U03TY4YJU4X",
+            "U03UMPD2NNS"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1760949868.899259",
+      "user": "U01TQGXG9D3",
+      "user_name": "U01TQGXG9D3",
+      "text": ":fyi:\nSlack messaging and canvas is having issues: https://slack-status.com/",
+      "raw_text": ":fyi:\nSlack messaging and canvas is having issues: <https://slack-status.com/>",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W42",
+      "tags": [
+        "update"
+      ],
+      "importance": 55,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1761833187.248579",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks the CMA all hands is in the loft! Please come on up!",
+      "raw_text": "Hey folks the CMA all hands is in the loft! Please come on up!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W44",
+      "tags": [
+        "action"
+      ],
+      "importance": 65,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1761833487.177349",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Especially the Berlin team @here :upvote:",
+      "raw_text": "Especially the Berlin team <!here> :upvote:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W44",
+      "tags": [],
+      "importance": 50,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1762380482.813009",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "has renamed the channel from \"tribe-nve-internal\" to \"tribe-new-ventures-internal\"",
+      "raw_text": "has renamed the channel from \"tribe-nve-internal\" to \"tribe-new-ventures-internal\"",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W45",
+      "tags": [],
+      "importance": 50,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1762789259.938119",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":new-ventures: Hey folks, don't forget to fill out the form for the merch! *https://docs.google.com/forms/d/e/1FAIpQLScymKnvG9NYtAcjqwjJKmCi8U7hl6qUn6mUQ2vLXtiaJk_5bw/viewform?usp=dialog* :alert2:",
+      "raw_text": ":new-ventures: Hey folks, don't forget to fill out the form for the merch! *<https://docs.google.com/forms/d/e/1FAIpQLScymKnvG9NYtAcjqwjJKmCi8U7hl6qUn6mUQ2vLXtiaJk_5bw/viewform?usp=dialog>* :alert2:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W46",
+      "tags": [
+        "question"
+      ],
+      "importance": 57,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U01TQGXG9D3"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1764614824.301739",
+      "user": "U02M8QB04HE",
+      "user_name": "U02M8QB04HE",
+      "text": "I'll be leaving this channel since I was moved to Shopping Foundation. Thanks for all folks! If you need to reach out you can DM me or drop a message in <#C06BDP9160J|> :pray::skin-tone-2:",
+      "raw_text": "I'll be leaving this channel since I was moved to Shopping Foundation. Thanks for all folks! If you need to reach out you can DM me or drop a message in <#C06BDP9160J|> :pray::skin-tone-2:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W49",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 83,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "wave",
+          "users": [
+            "U027201FQSV",
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U01DE9ENHG9"
+          ],
+          "count": 4
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1764839871.698689",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "https://hellofresh.slack.com/archives/G010PU090GN/p1764839783301969 for DE Lunches &amp; Munches today :food-2:",
+      "raw_text": "<https://hellofresh.slack.com/archives/G010PU090GN/p1764839783301969|Cross-posting> for DE Lunches &amp; Munches today :food-2:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W49",
+      "tags": [],
+      "importance": 52,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "mexico-flag",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1765554735.929599",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "In case you missed it, here is the most important:\n&gt; ...from December 19 through January 1.\n&gt; ...accessible office space...\n&gt; • Prinzenstr on the 4th and 5th floors\n&gt; • Reuchlinstr  Haus P\n&gt; All other areas/floors cannot be accessed during this time.\n(for full text read \"Berlin Offices holiday closures\" e-mail)",
+      "raw_text": "In case you missed it, here is the most important:\n&gt; ...from December 19 through January 1.\n&gt; ...accessible office space...\n&gt; • Prinzenstr on the 4th and 5th floors\n&gt; • Reuchlinstr  Haus P\n&gt; All other areas/floors cannot be accessed during this time.\n(for full text read \"Berlin Offices holiday closures\" e-mail)",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W50",
+      "tags": [
+        "notable"
+      ],
+      "importance": 82,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "wfh1",
+          "users": [
+            "U7SJ525DE",
+            "U03TY4YJU4X"
+          ],
+          "count": 2
+        },
+        {
+          "name": "announcement",
+          "users": [
+            "U0184T48L74",
+            "U02KQF884CT",
+            "U03EN3N4KM4",
+            "U03TY4YJU4X"
+          ],
+          "count": 4
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1767017047.912029",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "hey folks @here - please note that that there will be no standup today :+1:",
+      "raw_text": "hey folks <!here> - please note that that there will be no standup today :+1:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W01",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 90,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U03UN2C25UL",
+            "U09UKDH3AA0",
+            "U09JYRUPBFC",
+            "U027201FQSV",
+            "U09D8BZ9891",
+            "U08FY485B47",
+            "U1GA9435H",
+            "U05BNQPJX4K"
+          ],
+          "count": 8
+        },
+        {
+          "name": "+1::skin-tone-4",
+          "users": [
+            "U03EN3N4KM4",
+            "U0184T48L74"
+          ],
+          "count": 2
+        },
+        {
+          "name": "pray",
+          "users": [
+            "U08FY485B47"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    }
+  ]
+}

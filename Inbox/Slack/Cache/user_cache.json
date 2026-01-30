@@ -1,0 +1,462 @@
+{
+  "U01AKGWGLC8": {
+    "id": "U01AKGWGLC8",
+    "name": "Beatrice Dimarucut",
+    "username": "bdim",
+    "display_name": "Beatrice Dimarucut",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Product @ Good Chop"
+  },
+  "U01BT6RE4JG": {
+    "id": "U01BT6RE4JG",
+    "name": "Wanderley Teixeira",
+    "username": "wanderley.teixeira",
+    "display_name": "Wanderley Teixeira",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Assoc. Director of Engineering"
+  },
+  "U01KNE98YLR": {
+    "id": "U01KNE98YLR",
+    "name": "Guhan Sundararajan",
+    "username": "gsun",
+    "display_name": "Guhan Sundararajan",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Frontend Engineer - Pet Food"
+  },
+  "U01TLRS1W9L": {
+    "id": "U01TLRS1W9L",
+    "name": "Vitalii Ivanin",
+    "username": "vitalli.ivanin",
+    "display_name": "Vitalii Ivanin",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Engineer @ Customer Benefits"
+  },
+  "U01TQGXG9D3": {
+    "id": "U01TQGXG9D3",
+    "name": "Arbaaz Dossani",
+    "username": "arbaaz.dossani",
+    "display_name": "A-Dos",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Engineering Manager - Cross-Selling, Project Unified Mobile App | Chair, Muslim ERG"
+  },
+  "U018UCEFJ65": {
+    "id": "U018UCEFJ65",
+    "name": "Slack Commander",
+    "username": "slack_commander",
+    "display_name": "",
+    "email": "",
+    "is_bot": true,
+    "deleted": false,
+    "title": ""
+  },
+  "U0251UW1YUE": {
+    "id": "U0251UW1YUE",
+    "name": "Matheus Bolognini",
+    "username": "matheus",
+    "display_name": "bolo",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Frontend Engineer - Good Chop 🍖"
+  },
+  "U027201FQSV": {
+    "id": "U027201FQSV",
+    "name": "Alexander Matlin",
+    "username": "alexander.matlin",
+    "display_name": "Alex Matlin",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Associate Director of Engineering 🥩 Good Chop"
+  },
+  "U02BA3VS7H8": {
+    "id": "U02BA3VS7H8",
+    "name": "Rebecca Ferreira Albers",
+    "username": "101bb642-249c-4a8f-b1",
+    "display_name": "Becca",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Frontend Engineer | New Ventures & Ecosystems | Good Chop"
+  },
+  "U02CRDYF2NL": {
+    "id": "U02CRDYF2NL",
+    "name": "Sameer Doda",
+    "username": "sameer.doda",
+    "display_name": "Sameer Doda",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Associate Director of Product"
+  },
+  "U02DM3WK0NL": {
+    "id": "U02DM3WK0NL",
+    "name": "Pedro Paulo Teixeira Ávila",
+    "username": "pedro.avila",
+    "display_name": "Pedro Ávila",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Sr. Pawduct Designer @ThePetsTable | New Ventures & Ecosystems"
+  },
+  "U02P4F23YJ0": {
+    "id": "U02P4F23YJ0",
+    "name": "Himash Tehan",
+    "username": "himash.tehan",
+    "display_name": "Himash Tehan",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Frontend Engineer | New Ventures & Ecosystems | Good Chop"
+  },
+  "U02U7EGQEGH": {
+    "id": "U02U7EGQEGH",
+    "name": "Elio Esteves Duarte",
+    "username": "elio.duarte",
+    "display_name": "Elio Esteves Duarte",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Backend Engineer @ Frontend Infrastructure"
+  },
+  "U03EN3N4KM4": {
+    "id": "U03EN3N4KM4",
+    "name": "Pamela Plúas Guerra",
+    "username": "pamela.pluas",
+    "display_name": "Pame",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Frontend Engineer @ Good Chop | New Ventures"
+  },
+  "U03R6F2AG9K": {
+    "id": "U03R6F2AG9K",
+    "name": "Leo Lee",
+    "username": "leo.lee",
+    "display_name": "Leo Lee",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Principal Product Manager, Shopping Foundations"
+  },
+  "U03TY4YJU4X": {
+    "id": "U03TY4YJU4X",
+    "name": "Nikita Gorshkov",
+    "username": "nikita.gorshkov",
+    "display_name": "Nikita Gorshkov",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Director of Product, New Ventures, CMA"
+  },
+  "U03UMPD2NNS": {
+    "id": "U03UMPD2NNS",
+    "name": "Maria Chelminska",
+    "username": "maria.chelminska",
+    "display_name": "Maria Chelminska",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Product @ The Pets Table 🐕"
+  },
+  "U03UN2C25UL": {
+    "id": "U03UN2C25UL",
+    "name": "Andrea Martins",
+    "username": "andrea.costa",
+    "display_name": "Andrea Martins",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Frontend Engineer | New Ventures & Ecosystems | The Pets Table 🐕"
+  },
+  "U044SKGT4R5": {
+    "id": "U044SKGT4R5",
+    "name": "Madeeha Hasan",
+    "username": "madeeha.hasan",
+    "display_name": "Madeeha",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Frontend Engineer @ Good Chop 🥩"
+  },
+  "U047SAC2PPV": {
+    "id": "U047SAC2PPV",
+    "name": "Morteza Pourkazemi",
+    "username": "morteza.pourkazemi",
+    "display_name": "Mori",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Backend ENG | NVS"
+  },
+  "U04TN3RCT8A": {
+    "id": "U04TN3RCT8A",
+    "name": "Sazal Kanti Kundu",
+    "username": "sazal.kundu",
+    "display_name": "Sazal",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Backend Engineer | Cart Foundation"
+  },
+  "U05BNQPJX4K": {
+    "id": "U05BNQPJX4K",
+    "name": "Alexander Harvey",
+    "username": "alexander.harvey",
+    "display_name": "Harv",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Engineer [New Ventures]"
+  },
+  "U05CUKZCGNT": {
+    "id": "U05CUKZCGNT",
+    "name": "Jon de los Santos",
+    "username": "jonathan.delossantos",
+    "display_name": "Jon",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": ""
+  },
+  "U05FFC9Q84R": {
+    "id": "U05FFC9Q84R",
+    "name": "Patty San Diego",
+    "username": "patricia.sandiego",
+    "display_name": "Patty",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Sr. IT Support Engineer | L2 App Support"
+  },
+  "U06L36ATUCD": {
+    "id": "U06L36ATUCD",
+    "name": "sandy.genedy",
+    "username": "sandy.genedy",
+    "display_name": "Sandy Genedy",
+    "email": "",
+    "is_bot": false,
+    "deleted": true,
+    "title": "Engineering Manager | Customer Order Management (Delivery Satisfaction) | Active Journey"
+  },
+  "U0708FBKN30": {
+    "id": "U0708FBKN30",
+    "name": "Steve Costa",
+    "username": "steve.costa",
+    "display_name": "steve.costa (OOO Dec 22-Jan 4)",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": ""
+  },
+  "U07JV68BQ79": {
+    "id": "U07JV68BQ79",
+    "name": "Polina Shnaider",
+    "username": "polina.shnaider",
+    "display_name": "polina.shnaider",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Frontend Engineer @ Pricing Experience"
+  },
+  "U07UZ2QAM7D": {
+    "id": "U07UZ2QAM7D",
+    "name": "Damian Tylczyński",
+    "username": "damian.tylczynski",
+    "display_name": "Damian Tylczyński",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Associate Director of Engineering"
+  },
+  "U07VDFEFBQU": {
+    "id": "U07VDFEFBQU",
+    "name": "Deo Nathaniel",
+    "username": "nathaniel.deo",
+    "display_name": "Deo Nathaniel",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Product Manager - New Ventures (Good Chop)"
+  },
+  "U08MATAG2TW": {
+    "id": "U08MATAG2TW",
+    "name": "WebBot",
+    "username": "webbot",
+    "display_name": "",
+    "email": "",
+    "is_bot": true,
+    "deleted": false,
+    "title": ""
+  },
+  "U0958HM93B3": {
+    "id": "U0958HM93B3",
+    "name": "troy.edwards",
+    "username": "troy.edwards",
+    "display_name": "Troy Edwards",
+    "email": "",
+    "is_bot": false,
+    "deleted": true,
+    "title": ""
+  },
+  "U09D8BZ9891": {
+    "id": "U09D8BZ9891",
+    "name": "Hamed Karimian",
+    "username": "hamed.karimian",
+    "display_name": "Hamed Karimian",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": ""
+  },
+  "U09NE5H2Q81": {
+    "id": "U09NE5H2Q81",
+    "name": "Nvard Yeritsyan",
+    "username": "nvard.yeritsyan",
+    "display_name": "Nvard Yeritsyan",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Frontend Engineer @ Good Chop"
+  },
+  "U0A6YEJ4MR6": {
+    "id": "U0A6YEJ4MR6",
+    "name": "ngo-slack-connect",
+    "username": "ngoslackconnect",
+    "display_name": "",
+    "email": "",
+    "is_bot": true,
+    "deleted": false,
+    "title": ""
+  },
+  "U0MBX09UZ": {
+    "id": "U0MBX09UZ",
+    "name": "Federico Bertolini",
+    "username": "fb",
+    "display_name": "fede",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Staff Engineer - TAM Expansion"
+  },
+  "U2D54V0UV": {
+    "id": "U2D54V0UV",
+    "name": "Davor Juric",
+    "username": "davor.juric",
+    "display_name": "Davor Juric",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Engineering Manager"
+  },
+  "U4SN2R8LW": {
+    "id": "U4SN2R8LW",
+    "name": "Jira",
+    "username": "jirabot",
+    "display_name": "jirabot",
+    "email": "",
+    "is_bot": true,
+    "deleted": false,
+    "title": ""
+  },
+  "U7SJ525DE": {
+    "id": "U7SJ525DE",
+    "name": "Désirée Lima",
+    "username": "dmo",
+    "display_name": "desi",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Engineer - New Ventures & Ecosystems"
+  },
+  "U8F7ZDAPM": {
+    "id": "U8F7ZDAPM",
+    "name": "Ahmed Wagdi",
+    "username": "aw",
+    "display_name": "Ahmed Wagdi",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Associate Director of Engineering - New Ventures & Ecosystems"
+  },
+  "UA17RNTHC": {
+    "id": "UA17RNTHC",
+    "name": "Felix Klar",
+    "username": "felix.klar",
+    "display_name": "Felix Klar",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Senior Director Portfolio Management"
+  },
+  "UB87A2MJ7": {
+    "id": "UB87A2MJ7",
+    "name": "Elena Pavlova",
+    "username": "epa",
+    "display_name": "forester",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "New Ventures Systems squad | Sr. DevOps"
+  },
+  "UE4HG114J": {
+    "id": "UE4HG114J",
+    "name": "Maksim Burov",
+    "username": "mabu",
+    "display_name": "Max",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Engineer - New Ventures"
+  },
+  "UEZ4PRFKM": {
+    "id": "UEZ4PRFKM",
+    "name": "Daniel Arias",
+    "username": "daniel.arias",
+    "display_name": "Daniel Arias",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Director of Engineering - New Ventures Tribe"
+  },
+  "UFE79GKFC": {
+    "id": "UFE79GKFC",
+    "name": "Oliver Strobel",
+    "username": "ost",
+    "display_name": "Oliver Strobel",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Staff Engineer | TAM"
+  },
+  "UJ182DUEN": {
+    "id": "UJ182DUEN",
+    "name": "Vinicius Fernandes de Jesus",
+    "username": "vfdj",
+    "display_name": "vini",
+    "email": "",
+    "is_bot": false,
+    "deleted": false,
+    "title": "Backend | New Ventures"
+  },
+  "UUGGQ5UPL": {
+    "id": "UUGGQ5UPL",
+    "name": "HF Inspector",
+    "username": "hf_inspector",
+    "display_name": "",
+    "email": "",
+    "is_bot": true,
+    "deleted": false,
+    "title": ""
+  }
+}

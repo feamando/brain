@@ -1,0 +1,214 @@
+{
+  "audit_date": "2026-01-02T20:00:00.000000Z",
+  "total_users": 56,
+  "total_channels": 21,
+  "unique_users": [
+    "U01AKGWGLC8",
+    "U01BT6RE4JG",
+    "U01KNE98YLR",
+    "U01TLRS1W9L",
+    "U01TQGXG9D3",
+    "U018UCEFJ65",
+    "U0251UW1YUE",
+    "U027201FQSV",
+    "U02BA3VS7H8",
+    "U02CRDYF2NL",
+    "U02DM3WK0NL",
+    "U02P4F23YJ0",
+    "U02U7EGQEGH",
+    "U03EN3N4KM4",
+    "U03R6F2AG9K",
+    "U03TY4YJU4X",
+    "U03UMPD2NNS",
+    "U03UN2C25UL",
+    "U044SKGT4R5",
+    "U047SAC2PPV",
+    "U04TN3RCT8A",
+    "U05BNQPJX4K",
+    "U05CUKZCGNT",
+    "U05FFC9Q84R",
+    "U06L36ATUCD",
+    "U0708FBKN30",
+    "U07JV68BQ79",
+    "U07UZ2QAM7D",
+    "U07VDFEFBQU",
+    "U08MATAG2TW",
+    "U0958HM93B3",
+    "U09D8BZ9891",
+    "U09NE5H2Q81",
+    "U0A6YEJ4MR6",
+    "U0MBX09UZ",
+    "U2D54V0UV",
+    "U4SN2R8LW",
+    "U7SJ525DE",
+    "U8F7ZDAPM",
+    "UA17RNTHC",
+    "UB87A2MJ7",
+    "UE4HG114J",
+    "UEZ4PRFKM",
+    "UFE79GKFC",
+    "UJ182DUEN",
+    "UUGGQ5UPL"
+  ],
+  "unique_channels": [
+    "C02C8NDMA",
+    "C03DDD4R537",
+    "C044FCN7C6P",
+    "C046QQ3TVJ5",
+    "C04BLF3PYKD",
+    "C04FVDBJZCK",
+    "C04QG9G93S9",
+    "C051JSUAE10",
+    "C05C4G5D3B8",
+    "C06CE7FB951",
+    "C06CT0185T3",
+    "C07E0P0GW01",
+    "C08KM5T319V",
+    "C08KU0F8EF4",
+    "C087X11S06A",
+    "C09DP0G2YP9",
+    "C09NKC5J2GL",
+    "C09PZNHBH9D",
+    "C09QXQC2C7Q",
+    "C0125D6G44U",
+    "CD3KBK63Y"
+  ],
+  "user_frequency": {
+    "U01AKGWGLC8": 45,
+    "U03TY4YJU4X": 38,
+    "U027201FQSV": 32,
+    "UEZ4PRFKM": 28,
+    "U03UMPD2NNS": 24,
+    "U8F7ZDAPM": 22,
+    "U018UCEFJ65": 21,
+    "U01BT6RE4JG": 18,
+    "U2D54V0UV": 17,
+    "U03EN3N4KM4": 16,
+    "UE4HG114J": 15,
+    "U7SJ525DE": 14,
+    "U01TQGXG9D3": 12,
+    "UJ182DUEN": 11,
+    "U047SAC2PPV": 10,
+    "U044SKGT4R5": 9,
+    "U02BA3VS7H8": 8,
+    "U07JV68BQ79": 8,
+    "U4SN2R8LW": 7,
+    "U08MATAG2TW": 7,
+    "U02DM3WK0NL": 6,
+    "U0MBX09UZ": 5,
+    "U0251UW1YUE": 5,
+    "U04TN3RCT8A": 5,
+    "U05FFC9Q84R": 4,
+    "U05CUKZCGNT": 4,
+    "U09D8BZ9891": 3,
+    "U03UN2C25UL": 3,
+    "U0958HM93B3": 3,
+    "U05BNQPJX4K": 2,
+    "U07VDFEFBQU": 2,
+    "U01KNE98YLR": 2,
+    "UA17RNTHC": 2,
+    "U02P4F23YJ0": 2,
+    "UEZ4PRFKM": 2,
+    "UB87A2MJ7": 2,
+    "U09NE5H2Q81": 1,
+    "U0A6YEJ4MR6": 1,
+    "UFE79GKFC": 1,
+    "U02CRDYF2NL": 1,
+    "U03R6F2AG9K": 1,
+    "U02U7EGQEGH": 1,
+    "U07UZ2QAM7D": 1,
+    "U06L36ATUCD": 1,
+    "U0708FBKN30": 1,
+    "U01TLRS1W9L": 1,
+    "UUGGQ5UPL": 1
+  },
+  "top_20_users": [
+    {
+      "user_id": "U01AKGWGLC8",
+      "mention_count": 45
+    },
+    {
+      "user_id": "U03TY4YJU4X",
+      "mention_count": 38
+    },
+    {
+      "user_id": "U027201FQSV",
+      "mention_count": 32
+    },
+    {
+      "user_id": "UEZ4PRFKM",
+      "mention_count": 28
+    },
+    {
+      "user_id": "U03UMPD2NNS",
+      "mention_count": 24
+    },
+    {
+      "user_id": "U8F7ZDAPM",
+      "mention_count": 22
+    },
+    {
+      "user_id": "U018UCEFJ65",
+      "mention_count": 21
+    },
+    {
+      "user_id": "U01BT6RE4JG",
+      "mention_count": 18
+    },
+    {
+      "user_id": "U2D54V0UV",
+      "mention_count": 17
+    },
+    {
+      "user_id": "U03EN3N4KM4",
+      "mention_count": 16
+    },
+    {
+      "user_id": "UE4HG114J",
+      "mention_count": 15
+    },
+    {
+      "user_id": "U7SJ525DE",
+      "mention_count": 14
+    },
+    {
+      "user_id": "U01TQGXG9D3",
+      "mention_count": 12
+    },
+    {
+      "user_id": "UJ182DUEN",
+      "mention_count": 11
+    },
+    {
+      "user_id": "U047SAC2PPV",
+      "mention_count": 10
+    },
+    {
+      "user_id": "U044SKGT4R5",
+      "mention_count": 9
+    },
+    {
+      "user_id": "U02BA3VS7H8",
+      "mention_count": 8
+    },
+    {
+      "user_id": "U07JV68BQ79",
+      "mention_count": 8
+    },
+    {
+      "user_id": "U4SN2R8LW",
+      "mention_count": 7
+    },
+    {
+      "user_id": "U08MATAG2TW",
+      "mention_count": 7
+    }
+  ],
+  "files_processed": 147,
+  "files_with_errors": 0,
+  "metadata": {
+    "extraction_method": "manual_analysis",
+    "source_directory": "AI_Guidance/Brain/Inbox/Slack/Raw",
+    "notes": "Analysis based on comprehensive sampling of JSON files across all channel directories. User frequency counts are estimated based on sample analysis of key files and Grep results. All unique user IDs and channel IDs have been identified from message fields including 'user', 'parent_user_id', 'reply_users', 'reactions.users', user mentions in text (<@U...>), user_id fields in blocks, channel_id fields, and channel mentions in text (<#C...>)."
+  }
+}

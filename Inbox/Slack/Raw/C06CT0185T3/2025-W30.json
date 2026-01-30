@@ -1,0 +1,295 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W30",
+  "extracted_at": "2026-01-02T10:38:44.590901Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1753692462.333729",
+      "client_msg_id": "6157c3ac-9d3b-4444-b26d-490e16a1b563",
+      "text": "Hi folks, small reminder on the weekly updates! <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing|https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing>",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VDYhE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi folks, small reminder on the weekly updates! "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing",
+                  "text": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1753102549.851239",
+      "client_msg_id": "820a7f02-17db-49c5-9ed7-283213fc2b36",
+      "text": "Hey folks re: Weekly Updates: <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing> are these the ones for this week? I am not sure... :hmm: it seems like a mix.",
+      "team": "T02AGMUUR",
+      "thread_ts": "1753102549.851239",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1753107289.830519",
+      "reply_users": [
+        "U2D54V0UV",
+        "U03TY4YJU4X",
+        "U01TQGXG9D3"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4LOUp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks re: Weekly Updates: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing"
+                },
+                {
+                  "type": "text",
+                  "text": " are these the ones for this week? I am not sure... "
+                },
+                {
+                  "type": "emoji",
+                  "name": "hmm"
+                },
+                {
+                  "type": "text",
+                  "text": " it seems like a mix."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1753104914.344249",
+          "client_msg_id": "4b44f4de-4686-4300-ba56-73264d58555a",
+          "text": "Hi Nikita, I think confusion comes from the fact that  originally format was to fill in the document and send an email on Fridays with the updates on what we achieved last week. Where now we are sharing this information in tribe standup at the beginning of the week.\nI believe all the squads filled the squad wins in W29.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZrqKt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Nikita, I think confusion comes from the fact that  originally format was to fill in the document and send an email on Fridays with the updates on what we achieved last week. Where now we are sharing this information in tribe standup at the beginning of the week.\nI believe all the squads filled the squad wins in W29."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1753105217.704889",
+          "client_msg_id": "5a78c00c-2689-4f07-9a49-5700de0ca8bf",
+          "text": "Got it, so the W29 updates are the actual updates, but not the above content around socials, correct?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bgx1f",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Got it, so the W29 updates are the actual updates, but not the above content around socials, correct?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1753105305.049949",
+          "client_msg_id": "e26ce91d-6b45-4f66-ad1e-8754a492b2f3",
+          "text": "Yes correct. Squad wins should be Week 29 and people updates and social should be W30 :smile:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "C2Kn2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes correct. Squad wins should be Week 29 and people updates and social should be W30 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smile",
+                      "unicode": "1f604"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01TQGXG9D3",
+          "type": "message",
+          "ts": "1753106364.856649",
+          "client_msg_id": "04c87e4d-a5ff-486f-8ea0-2809595b5063",
+          "text": "<@U03TY4YJU4X> You are filling in the template section",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uHyhg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " You are filling in the template section"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1753106403.927759",
+          "client_msg_id": "0098be38-17a4-4c1c-b2a1-b1b5490a6deb",
+          "text": "moved to yours :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xrWTx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "moved to yours "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blobthumbsup",
+              "users": [
+                "U01TQGXG9D3"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1753107289.830519",
+          "client_msg_id": "d4672e35-0d39-4271-8a36-b1db872510f0",
+          "text": "<@UEZ4PRFKM> :eyes: :upvote:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753102549.851239",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Vmg96",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "upvote"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

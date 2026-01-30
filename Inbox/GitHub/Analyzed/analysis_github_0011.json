@@ -1,0 +1,184 @@
+{
+  "batch_id": "github_0011",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-11-25T17:31:40Z",
+    "newest": "2025-12-02T13:08:29Z"
+  },
+  "analyzed_at": "2026-01-02T15:37:06.292166",
+  "changes_summary": "These commits primarily focus on OTP (One-Time Purchase) functionality enhancements, payment system improvements, and UI/UX refinements across multiple product lines (Factor, Good Chop, TPT). Major work includes multi-cadence support, payment method updates, price migration to whitelabel libraries, and TypeScript migrations.",
+  "features": [
+    {
+      "name": "OTP Address Persistence",
+      "description": "Added hook to persist OTP addresses for one-time purchase users",
+      "commits": [
+        "f75d9af3"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "VMS OTP Order Placement",
+      "description": "Implemented hooks for placing VMS one-time purchase orders with systemCountry support in cart and order",
+      "commits": [
+        "8f623485",
+        "1226989a"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Payment Method Update Drawer",
+      "description": "Created new drawer interface for updating payment methods",
+      "commits": [
+        "66077f53"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Multi-Cadence Support",
+      "description": "Added observability traces, UI fixes, and GTM events for multi-cadence functionality",
+      "commits": [
+        "cb8afcde",
+        "9bc3e8f2"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Recipe Product Pages Improvement",
+      "description": "Enhanced recipe product pages for TPT",
+      "commits": [
+        "7737b71a"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Free Addon Banner and Dropdown",
+      "description": "Updated styling for free-addon banner and dropdown components",
+      "commits": [
+        "7d6b3ded"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Breed-Specific Messaging",
+      "description": "Display custom messages for top breeds and default message for other breeds",
+      "commits": [
+        "2d9ab911"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Future Weeks Override for Cart Pricing",
+      "description": "Enabled future weeks override for /cart price request in TPT",
+      "commits": [
+        "0ff3026a"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Skip PCS call for OTP users",
+      "rationale": "Optimization for one-time purchase users who don't need subscription-related PCS calls",
+      "ticket": "GOC-3357"
+    },
+    {
+      "what": "Remove unified payments feature flag for Good Chop",
+      "rationale": "Feature is stable and ready for full rollout without flag",
+      "ticket": "GOC-2140"
+    },
+    {
+      "what": "Migrate prices to whitelabel library",
+      "rationale": "Standardize price handling across brands in reactivation plan summary and premium shipping",
+      "ticket": "GOC-3295, GOC-3390"
+    },
+    {
+      "what": "Block alternative flow for OTP in Factor Form",
+      "rationale": "Prevent OTP users from accessing subscription-specific flows",
+      "ticket": "RTEVMS-2320"
+    },
+    {
+      "what": "Migrate notifications to TypeScript",
+      "rationale": "Improve type safety and code maintainability",
+      "ticket": "TPT-2327"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Notifications module",
+      "reason": "TypeScript migration for better type safety",
+      "impact": "TPT notifications codebase"
+    },
+    {
+      "area": "Price handling in whitelabel library",
+      "reason": "Centralize price logic across brands",
+      "impact": "Reactivation plan summary and premium shipping components"
+    },
+    {
+      "area": "RAF tests",
+      "reason": "Update tests to reflect current functionality",
+      "impact": "Refer-a-friend testing suite"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Checkout with order confirmation test failure",
+      "ticket": "GOC-3292"
+    },
+    {
+      "issue": "Missing reschedule order tooltip on cancellation page",
+      "ticket": "RTEVMS-2309"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Unified payments feature flag removal, free-addon styling, checkout test fixes"
+    },
+    {
+      "name": "Factor",
+      "type": "brand",
+      "context": "OTP flow blocking, reschedule tooltip fix, multi-cadence support"
+    },
+    {
+      "name": "TPT (The Pet Table)",
+      "type": "brand",
+      "context": "Recipe pages improvement, breed messaging, notifications TypeScript migration, future weeks pricing"
+    },
+    {
+      "name": "VMS (Variety Meal Service)",
+      "type": "system",
+      "context": "OTP order placement hooks, systemCountry parameter support"
+    },
+    {
+      "name": "PCS",
+      "type": "api",
+      "context": "Skipped for OTP users to optimize performance"
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "Added key for storage and preps title"
+    },
+    {
+      "name": "Whitelabel Library",
+      "type": "system",
+      "context": "Price migration for premium shipping and reactivation plans"
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "type": "system",
+      "context": "Multi-cadence event tracking implementation"
+    }
+  ],
+  "key_patterns": [
+    "OTP (One-Time Purchase) vs Subscription flow separation pattern across multiple features",
+    "Progressive TypeScript migration strategy for legacy JavaScript modules",
+    "Feature flag removal pattern for graduated features (unified payments)",
+    "Whitelabel library pattern for cross-brand code sharing and standardization",
+    "Hook-based architecture for reusable functionality (usePersistOTPAddresses, VMS OTP hooks)",
+    "Observability-first approach with traces and GTM events for new features",
+    "Brand-specific customization while maintaining shared infrastructure",
+    "Test-driven development with dedicated test updates and fixes"
+  ]
+}

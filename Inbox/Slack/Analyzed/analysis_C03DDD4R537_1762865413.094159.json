@@ -1,0 +1,227 @@
+{
+  "batch_id": "C03DDD4R537_1762865413.094159",
+  "channel_name": "squad-nv-good-chop",
+  "channel_id": "C03DDD4R537",
+  "message_count": 11,
+  "analyzed_at": "2026-01-02T12:57:18.833555",
+  "decisions": [
+    {
+      "what": "Disabled initial order deprecation for MR and KN brands to unblock Charge at Checkout",
+      "who": [
+        "U027201FQSV",
+        "Plans Squad"
+      ],
+      "date": "Recent (thread discussion)",
+      "context": "Initial order deprecation was blocking Charge at Checkout because Payments wasn't receiving required Description field from intfood",
+      "confidence": "high"
+    },
+    {
+      "what": "Switched support workflow from green button to Slack Commander using /new_issue and /new_question commands",
+      "who": [
+        "U0251UW1YUE"
+      ],
+      "date": "Recent announcement",
+      "context": "Moving to a more powerful and well-known tool for Good Chop squad support requests",
+      "confidence": "high"
+    },
+    {
+      "what": "Disabled KRS (recurring selection) on staging due to issues",
+      "who": [
+        "U047SAC2PPV"
+      ],
+      "date": "Recent",
+      "context": "Issue detected related to recurring selection functionality",
+      "confidence": "high"
+    },
+    {
+      "what": "Corrected redirect direction for 2026 Direct Mail landing pages",
+      "who": [
+        "U09JSMTMA5A"
+      ],
+      "date": "During thread discussion",
+      "context": "Initial request had redirects backwards - should go from goodchop.com to get.goodchop.com, not the reverse",
+      "confidence": "high"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Good Chop (GoC)",
+      "type": "brand",
+      "context": "Primary brand managed by squad-nv-good-chop",
+      "relationships": [
+        "HelloFresh",
+        "squad-nv-good-chop",
+        "CCM"
+      ]
+    },
+    {
+      "name": "MR and KN",
+      "type": "brand",
+      "context": "Brands affected by initial order deprecation blocking Charge at Checkout",
+      "relationships": [
+        "Plans Squad",
+        "Payments",
+        "intfood"
+      ]
+    },
+    {
+      "name": "Plans Squad",
+      "type": "squad",
+      "context": "Squad that enabled initial orders and will fix Description field issue",
+      "relationships": [
+        "MR",
+        "KN",
+        "Payments",
+        "intfood"
+      ]
+    },
+    {
+      "name": "U03EN3N4KM4 (Pamela)",
+      "type": "person",
+      "context": "Handled redirect implementation for 2026 Direct Mail landing pages",
+      "relationships": [
+        "U09JSMTMA5A"
+      ]
+    },
+    {
+      "name": "U09JSMTMA5A",
+      "type": "person",
+      "context": "Requested redirects for Direct Mail landing pages and Slack channel creation",
+      "relationships": [
+        "U03EN3N4KM4",
+        "Milemarker Agency"
+      ]
+    },
+    {
+      "name": "U01B2LBUPND",
+      "type": "person",
+      "context": "Fixed trial-box menu configuration in CCM and performed bulk migration of 11k subscriptions",
+      "relationships": [
+        "CCM",
+        "Good Chop"
+      ]
+    },
+    {
+      "name": "CCM",
+      "type": "system",
+      "context": "System for configuring trial-box menus",
+      "relationships": [
+        "Good Chop",
+        "U01B2LBUPND"
+      ]
+    },
+    {
+      "name": "Milemarker Agency",
+      "type": "project",
+      "context": "External agency partners for Slack channel collaboration",
+      "relationships": [
+        "U09JSMTMA5A",
+        "Good Chop"
+      ]
+    },
+    {
+      "name": "FTCP cluster",
+      "type": "system",
+      "context": "30% of live PCS traffic being switched to this cluster",
+      "relationships": [
+        "PCS",
+        "UB87A2MJ7"
+      ]
+    },
+    {
+      "name": "Payments",
+      "type": "system",
+      "context": "System that requires Description field from intfood for Charge at Checkout",
+      "relationships": [
+        "intfood",
+        "Plans Squad"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Initial order deprecation blocking Charge at Checkout for MR and KN due to missing Description field from intfood to Payments",
+      "owner": "Plans Squad",
+      "status": "resolved",
+      "impact": "Charge at Checkout functionality for MR and KN brands"
+    },
+    {
+      "description": "Trial-box menus not configured in CCM for weeks 2026-W01 and 2026-W02",
+      "owner": "U01B2LBUPND",
+      "status": "resolved",
+      "impact": "Customers unable to select trial box menus for those weeks"
+    },
+    {
+      "description": "Issue with recurring selection (KRS) on staging",
+      "owner": "U047SAC2PPV",
+      "status": "active",
+      "impact": "KRS disabled on staging environment"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Validate that first order creation on cut-off works as expected on staging for newly created GoC subscriptions",
+      "owner": "Team (U8F7ZDAPM requested)",
+      "due": "Not specified",
+      "status": "pending"
+    },
+    {
+      "task": "Plans Squad to fix Description field issue for Charge at Checkout compatibility",
+      "owner": "Plans Squad",
+      "due": "Not specified",
+      "status": "pending"
+    },
+    {
+      "task": "Implement redirects for 2026 Direct Mail landing pages",
+      "owner": "U03EN3N4KM4",
+      "due": "January 2026",
+      "status": "done"
+    },
+    {
+      "task": "Create Slack channel with external agency partners",
+      "owner": "U046DDU7UG7",
+      "due": "Friday",
+      "status": "pending"
+    },
+    {
+      "task": "Bulk migration of 11k Good Chop subscriptions",
+      "owner": "U01B2LBUPND",
+      "due": "Started",
+      "status": "done"
+    },
+    {
+      "task": "Monitor 30% PCS traffic switch to FTCP cluster",
+      "owner": "UB87A2MJ7 and team",
+      "due": "Ongoing",
+      "status": "pending"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "Initial Order Deprecation Impact",
+      "summary": "Enabling initial order deprecation on staging for GoC revealed incompatibility with Charge at Checkout for MR and KN brands due to missing Description field. Plans Squad temporarily re-enabled initial orders and will fix the underlying issue.",
+      "relevance": "Critical for checkout functionality across multiple brands and affects staging validation"
+    },
+    {
+      "topic": "2026 Direct Mail Campaign Setup",
+      "summary": "Redirects configured for 13 monthly landing pages (mymove, jan26-dec26) from goodchop.com to get.goodchop.com for tracking purposes. Previous years' redirects maintained for historical tracking.",
+      "relevance": "Supports year-long marketing campaign with proper URL tracking infrastructure"
+    },
+    {
+      "topic": "Trial Box Menu Configuration Gap",
+      "summary": "CCM was missing trial-box menu configurations for weeks 2026-W01 and 2026-W02, causing customer selection issues and alerts. Issue was identified and fixed.",
+      "relevance": "Affects customer experience and subscription onboarding for trial customers"
+    },
+    {
+      "topic": "Support Workflow Migration",
+      "summary": "Good Chop squad transitioned from custom Slack workflow button to Slack Commander using /new_issue and /new_question commands for support requests.",
+      "relevance": "Changes how team receives and processes support requests, affects all stakeholders"
+    },
+    {
+      "topic": "Infrastructure Changes",
+      "summary": "30% of live PCS traffic being migrated to FTCP cluster, and 11k Good Chop subscriptions undergoing bulk migration.",
+      "relevance": "Significant infrastructure changes that could impact service stability and require monitoring"
+    }
+  ],
+  "summary": "Good Chop squad addressed multiple technical issues including initial order deprecation blocking Charge at Checkout, missing trial-box menus in CCM, and implemented 2026 Direct Mail redirects. The team also transitioned support workflows to Slack Commander and is managing infrastructure migrations."
+}

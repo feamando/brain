@@ -1,0 +1,60 @@
+---
+$schema: brain://entity/person/v1
+$id: entity/person/brian-leach
+$type: person
+$version: 4
+$created: '2026-01-22T08:31:01.371902Z'
+$updated: '2026-01-30T14:48:16.074338+00:00'
+$confidence: 0.36
+$source: unknown
+$status: active
+$relationships: []
+$tags: []
+$aliases: []
+$events:
+- event_id: evt-migration-20260122
+  timestamp: '2026-01-22T08:31:01.371902Z'
+  type: entity_create
+  actor: system/schema_migrator
+  changes:
+  - field: $schema
+    operation: set
+    value: brain://entity/person/v1
+  message: Migrated from v1 to v2 schema
+name: Brian Leach
+---
+
+# Brian_Leach
+
+**Type:** person
+**Created:** 2026-01-02
+**Source:** gdocs extraction
+
+## Overview
+
+[Auto-generated - needs manual review]
+
+## Context
+
+- [2026-01-02] Left Factor Form in Aug due to US RTO policy, CS6 Staff FE backfill struggling to find candidate (from: Open roles EPD New ventures - 2026)
+
+## Related Entities
+
+[To be filled]
+
+## Notes
+
+- Created automatically from gdocs analysis
+- Review and enrich manually
+
+---
+*Last updated: 2026-01-02 16:51*
+
+## Gdocs Context
+
+- [2026-01-02] Left Factor Form in Aug due to US RTO policy, CS6 Staff Engineer backfill struggling to find candidate (from: Open roles EPD New ventures - 2026)
+
+
+- [2026-01-02] Left Factor Form in Aug due to US RTO policy, CS6 Staff FE backfill struggling to find candidate with web/Shopify/RN experience (from: Open roles EPD New ventures - 2026)
+
+- [2026-01-02] Left Factor Form in August due to US RTO policy, CS6 Staff Engineer backfill ongoing (from: Open roles EPD New ventures - 2026)

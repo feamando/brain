@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0010",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "e417d047",
+      "message": "TPT-2210: add nutrition contentful keys (#61361)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-12-04T08:05:57Z",
+      "url": "https://github.com/hellofresh/web/commit/e417d04788dc150149b0c943e7742422c544e322",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b5ddb43d",
+      "message": "[RTEVMS-2332] Factor Form | OTP: Add checkoutType param (#61337)\n\n* update useCalculatedProspectPricesBatch to include checkoutType\n\n* update to remove checkoutType from params for legacy API\n\n* use storedSku as source of truth to prevent need for subbrand context\n\n* fix test\n\n* fix tests\n\n* fix tests\n\n* fix unit test",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-03T20:01:07Z",
+      "url": "https://github.com/hellofresh/web/commit/b5ddb43d6de1765c0fb5046104a79ca79bd54385",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "0d7ff601",
+      "message": "[MIO-20] Add components for a two step login to FactorForm (#61300)\n\n* feat: add eligibility check and dynamic URL handling for Shopify redirection of unregistered VMS users\n\n* refactor: streamline Shopify redirection logic for unregistered VMS users by removing local storage dependencies and introducing eligibility checks\n\n* feat: add LoadingOverlay component for TwoStepLoginForm to enhance user experience during loading states\n\n* feat: implement TwoStepLoginForm hook with email validation and step management for enhanced user login experience\n\n* feat: add TwoStepLoginForm component for enhanced user login experience with email and password handling\n\n* feat: integrate TwoStepLoginForm into LoginForm for conditional rendering based on two-step mode\n\n* test: enhance unit tests for useShopifyRedirectForUnregisteredVMSUsers hook by adding eligibility checks and refining redirection logic\n\n* a11y: enhance LoadingOverlay in TwoStepLoginForm with ARIA label for improved accessibility\n\n* feat: add change email and continue button text constants to enhance TwoStepLoginForm functionality",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-03T18:52:22Z",
+      "url": "https://github.com/hellofresh/web/commit/0d7ff601ae271a2db520f9b0d1f18dfa92b6acf9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "80582217",
+      "message": "[GOC-3408] Returns FREE when actual shipping price is zero (#61342)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-03T16:29:16Z",
+      "url": "https://github.com/hellofresh/web/commit/805822171fc3b2885c983b21e0991d99d4d470d2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "aba1a1e1",
+      "message": "[TPT-2153] price logic, voucherCode autoapply fix (#60858)\n\n* [TPT-2153] voucher initial autoapply fix, price logic update\n\n* [TPT-2153] PR comments fixed\n\n* [TPT-2153] useEffect added to VoucherInput to sync the state\n\n* [TPT-2153] deprecated currency replaced\n\n* [TPT-2153] resolved conflicts with master\n\n* [TPT-2153] empty commit\n\n* [TPT-2153] change revert",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-03T16:09:02Z",
+      "url": "https://github.com/hellofresh/web/commit/aba1a1e10fd8f8d9d0028cf43861d349c8331cd4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "5fa85d43",
+      "message": "[TPT-2343] - [GD] Update small padding between quick actions and divider (#61309)\n\n* TPT-2343 - fix padding for quick actions\n\n* TPT-2343 - fix padding for quick actions\n\n* TPT-2343 - fix padding for quick actions",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-03T15:41:15Z",
+      "url": "https://github.com/hellofresh/web/commit/5fa85d43edd4e2206b4f2ffb46523be154f18ad1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "fff5f3ab",
+      "message": "[GOC-3408] Introduce Shipping interface into Price model (#61253)\n\n* [GOC-3390] Creates Shipping interface\n\n* [GOC-3390] Applies new shipping into Summary\n\n* [GOC-3390] Applies new shipping into Order Breakdown\n\n* [GOC-3390] Applies new shipping into pet price breakdown\n\n* [GOC-3390] Applies new shipping into Order Summary reactivation\n\n* [GOC-3390] Applies new shipping into Pet Product Price Summary\n\n* [GOC-3390] Applies new shipping into Reactivation prices\n\n* [GOC-3390] Fixes test\n\n* [GOC-3390] Fixes test\n\n* [GOC-3390] Fixes tests/types\n\n* [GOC-3390] Fixes tests/types\n\n* [GOC-3390] Applies new premium shipping in reactivation prices\n\n* [GOC-3390] Removes non needed optional\n\n* [GOC-3390] Removes shipping from mock, not needed",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-03T13:45:06Z",
+      "url": "https://github.com/hellofresh/web/commit/fff5f3ab3003104d0454a7ac4119258d626163f2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "bf976c2e",
+      "message": "[GOC-3354] Good chop - OTP - Add cart creation hook (#61188)",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-12-03T10:32:52Z",
+      "url": "https://github.com/hellofresh/web/commit/bf976c2e186f9324007de7f4036962b78c976f18",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "273fca8c",
+      "message": "[TPT-2114] Refactor funnel vouchers test (#61183)",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-12-03T09:30:23Z",
+      "url": "https://github.com/hellofresh/web/commit/273fca8ced2846429fdf7dba9e1c5cf376619b18",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d2e97a3e",
+      "message": "[GOC-3407] Hide payment anxiety banner for C@C flow (#61243)\n\n* [GOC-3407] Hide payment anxiety banner for C@C experiment\n\nHide the PaymentAnxietyBanner component when customers are in the\nCharge at Checkout (C@C) experiment variation on Good Chop.\n\n- Add useShouldChargeAtCheckout hook to PaymentAnxietyBanner\n- Return null when shouldPerformCharge is true\n- Add unit tests for C@C experiment visibility logic\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* [GOC-3407] Implement logic to conditionally hide payment anxiety banner for Charge at Checkout variation\n\n* Fix a unit test.\n\n* Fix unit tests.\n\n---------\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "author": "Alexander Matlin",
+      "author_email": "alexander.matlin@hellofresh.com",
+      "date": "2025-12-03T09:01:50Z",
+      "url": "https://github.com/hellofresh/web/commit/d2e97a3e2e072720158d6f612efd48fb3f6c8c29",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "30fa85ea",
+      "message": "[GOC-3391] Unquarantined cypress tests  (#61177)\n\n* unquarantined cypress tests\n\n* Update checkoutWithAddOnForLife.spec.ts\n\nfix test failure due to change in price endpoint\n\n---------\n\nCo-authored-by: Himash Tehan <himash.tehan@hellofresh.com>",
+      "author": "Madeeha Hasan",
+      "author_email": "33419910+madeeha96@users.noreply.github.com",
+      "date": "2025-12-03T08:27:20Z",
+      "url": "https://github.com/hellofresh/web/commit/30fa85eaf9cf7db050cc7b566225c1e88329da9c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9b7a9d67",
+      "message": "[RTEVMS-2319] Factor Form | OTP: Create checkout type dialog (#61213)\n\n* create checkout type dialog\n\n* add checkoutCTA to dialogs\n\n* Remove addtocart handler (redundant)\n\n* a11y compliance fixes\n\n* refactoring to use an atom for checkout type dialog visibility\n\n* add aria label\n\n* fix unit tedt\n\n* update checkout selectors\n\n* fix dialogs\n\n* fix checkoutCTA ts erroer\n\n* fix checkoutCTA tests and add new ones\n\n* fix tests",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-02T22:14:50Z",
+      "url": "https://github.com/hellofresh/web/commit/9b7a9d6793fed4ff1d16070437435641a091af5b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "701cb399",
+      "message": "[RTEVMS-2230] Factor Form | Integrate OTP Place Order Logic (#61065)\n\n* feat(RTEVMS-2230): added hooks for placing VMS OTP order\n\nfeat(RTEVMS-2230): updated unit tests\n\nfeat(RTEVMS-2230): integrating OTP Place Order Logic for VMS\n\nfeat(RTEVMS-2230): fixed broken unit tests\n\nfeat(RTEVMS-2230): fixed lint errors\n\nfeat(RTEVMS-2230): fixed lint errors\n\nfeat(RTEVMS-2230): fixed error with async address created for OTP\n\n* feat(RTEVMS-2230): updated honeycomb attributes for consistent queries on OTP",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-02T21:36:40Z",
+      "url": "https://github.com/hellofresh/web/commit/701cb3991a8da71bf7fe0178b6aca75a3dfc3bb3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "3b19e788",
+      "message": "[MIO-20] [Staging] Redirect unregistered users trying to sign up on FactorForm legacy to Shopify FactorForm  (#61202)\n\n* feat: add hook and tests for Shopify redirection of unregistered VMS users\n\n* refactor: introduce dynamic configuration and different user journeys for Shopify redirect URLs\n\n* test: enhance tests for Shopify redirection hook with dynamic configuration scenarios\n\n* feat: implement email input handling and redirection for unregistered users in FactorFormSignupPage\n\n* feat: integrate email input handling and loading state for unregistered user redirection in FactorFormTrialBoxSignupPage\n\n* feat: enhance signup flow by adding loading state checks and ensuring password field visibility for unregistered users\n\n* feat: refactor Shopify redirection hook for unregistered VMS users with local storage overrides and enhanced testing\n\n* feat: enable legacy signup flow for unregistered VMS users in E2E tests by disabling Shopify redirect\n\n* test: add local storage mock setup for Shopify redirect tests for unregistered VMS users\n\n* refactor:  make the logic for enabling/disabling the redirect depend on local storage only\n\n* refactor: remove outdated comment for e2e test\n\n* fix: streamline password input handling in signup flow for E2E tests",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-02T20:40:23Z",
+      "url": "https://github.com/hellofresh/web/commit/3b19e788bbe56e82121e5e95457fd8966ba442a7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "151d0903",
+      "message": "hotfix(RTEVMS-2342): added validation to make sure that otp is not added by default (#61290)",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-02T17:14:03Z",
+      "url": "https://github.com/hellofresh/web/commit/151d090344c4ef6bc6dcea7a55abc79b0f1f1a81",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "16b159c0",
+      "message": "[TPT-2409] - [GD] Fixes for Reactivation page (#61287)\n\n* TPT-2409 - fix buttons order on mobile in address update modal\n\n* TPT-2409 - fix spacings for reactivation page",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-02T16:55:25Z",
+      "url": "https://github.com/hellofresh/web/commit/16b159c04b5434beaf3315fe845e2eca1961706b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "e3e7ef4d",
+      "message": "[GOC-3195] add new copies in banners for otp variation users (#60805)\n\n* add new copies for otp variation users\n\n* Revert unintended changes to YAML and README\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-12-02T15:21:36Z",
+      "url": "https://github.com/hellofresh/web/commit/e3e7ef4d46750a0bb728adc437ba6c500ba2649b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "75f9d331",
+      "message": "[GOC-3390] Migrates premium shipping in Reactivation/Plan Summary (#61242)\n\n* [GOC-3390] Uses premium shipping from reactivations endpoint\n\n* [GOC-3390] Fixes test\n\n* [GOC-3390] Removes condition",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-02T15:13:23Z",
+      "url": "https://github.com/hellofresh/web/commit/75f9d331f5f9937db1788b471c1423c41ba7ddef",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "906d8417",
+      "message": "[TPT-2211] - [GD] Implement Storage and prep steps section (#61261)\n\n* TPT-2211 - add StorageAndPrepSteps and Step components\n\n* TPT-2211 - integrate StorageAndPreps into RecipeContent\n\n* TPT-2211 - add test for step, update props in the component\n\n* TPT-2211 - add test for StorageAndPrepSteps\n\n* TPT-2211 - add contentful key",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-02T13:50:32Z",
+      "url": "https://github.com/hellofresh/web/commit/906d8417fa5b1b235c7a41b5db7b706ac5f6faa7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "1ac7c84c",
+      "message": "TPT-2393: add new contentful keys (#61269)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-12-02T13:14:51Z",
+      "url": "https://github.com/hellofresh/web/commit/1ac7c84ccdd0f99cd343ee4f25b94fffcb407662",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-02T13:14:51Z",
+    "newest": "2025-12-04T08:05:57Z"
+  }
+}

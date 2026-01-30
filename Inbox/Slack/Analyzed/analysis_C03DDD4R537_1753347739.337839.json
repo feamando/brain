@@ -1,0 +1,239 @@
+{
+  "batch_id": "C03DDD4R537_1753347739.337839",
+  "channel_name": "squad-nv-good-chop",
+  "channel_id": "C03DDD4R537",
+  "message_count": 6,
+  "analyzed_at": "2026-01-02T12:55:41.733167",
+  "decisions": [
+    {
+      "what": "Delay VMS Multi Box Discounts PR merge until Monday due to high risk on critical business flow",
+      "who": [
+        "U027201FQSV",
+        "U0184T48L74",
+        "U08FY485B47"
+      ],
+      "date": "Weekend before Monday review",
+      "context": "PR impacts critical Good Chop business flow and weekends are high traffic time; team cannot afford incidents during weekend",
+      "confidence": "high"
+    },
+    {
+      "what": "Break down large VMS PR into smaller PRs for easier review",
+      "who": [
+        "U0184T48L74",
+        "U08FY485B47"
+      ],
+      "date": "To be completed by Monday",
+      "context": "Original PR too large (~340 lines of code changes) with multiple concerns mixed together, making review difficult",
+      "confidence": "high"
+    },
+    {
+      "what": "Defer trial box PCS v1/v2 issue fix to later time",
+      "who": [
+        "U044SKGT4R5",
+        "U027201FQSV"
+      ],
+      "date": "Not immediate",
+      "context": "Trial box users shouldn't be calling PCS v1 or v2 at all; creating ticket GOC-3025 to address separately",
+      "confidence": "high"
+    },
+    {
+      "what": "Plan checkout error bug fix for next sprint",
+      "who": [
+        "U01AKGWGLC8",
+        "U0184T48L74"
+      ],
+      "date": "Next sprint",
+      "context": "Bug affecting ~60 unique customers weekly since July 8th, but not urgent enough to drop current tickets",
+      "confidence": "medium"
+    }
+  ],
+  "entities": [
+    {
+      "name": "PCS v2",
+      "type": "system",
+      "context": "Payment/checkout system experiencing failures with trial box meal selections",
+      "relationships": [
+        "PCS v1",
+        "trial box",
+        "GOC-3025"
+      ]
+    },
+    {
+      "name": "VMS",
+      "type": "squad",
+      "context": "Working on Multi Box Discounts implementation, refactoring GoodChop's discount communication components",
+      "relationships": [
+        "Factor",
+        "GoodChop",
+        "U03HCD899EJ",
+        "U08FY485B47"
+      ]
+    },
+    {
+      "name": "squad-nv-good-chop",
+      "type": "squad",
+      "context": "Team handling GoodChop support requests, bug fixes, and code reviews",
+      "relationships": [
+        "GoodChop",
+        "Factor Form",
+        "VMS"
+      ]
+    },
+    {
+      "name": "U0184T48L74",
+      "type": "person",
+      "context": "Primary reviewer and investigator for multiple issues including PCS v2 failure and checkout errors",
+      "relationships": [
+        "U047SAC2PPV",
+        "U0MBX09UZ",
+        "U03HCD899EJ"
+      ]
+    },
+    {
+      "name": "U03HCD899EJ",
+      "type": "person",
+      "context": "VMS team member who created large PR for Multi Box Discounts refactoring",
+      "relationships": [
+        "U08FY485B47",
+        "VMS",
+        "DiscountInlineBanner"
+      ]
+    },
+    {
+      "name": "U08FY485B47",
+      "type": "person",
+      "context": "Supporting VMS PR review while U03HCD899EJ is out of office",
+      "relationships": [
+        "U03HCD899EJ",
+        "VMS",
+        "U0184T48L74"
+      ]
+    },
+    {
+      "name": "GOC-3025",
+      "type": "project",
+      "context": "Jira ticket to address trial box users incorrectly calling PCS v1/v2",
+      "relationships": [
+        "PCS v2",
+        "trial box"
+      ]
+    },
+    {
+      "name": "DiscountInlineBanner",
+      "type": "system",
+      "context": "GoodChop component being refactored to remove redux for VMS usage",
+      "relationships": [
+        "VMS",
+        "DiscountModal",
+        "Multi Box Discounts"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Planning introduction of delivery cadence to actives experience, learning from GoodChop approach",
+      "relationships": [
+        "GoodChop",
+        "U01V9SX5NG5"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "VMS Multi Box Discounts PR (#56214) blocked from merging until Monday",
+      "owner": "U08FY485B47",
+      "status": "active",
+      "impact": "VMS Multi Box Discounts implementation delayed; needs to be broken into smaller PRs and GTM tracking issues fixed"
+    },
+    {
+      "description": "MR reactivation e2e tests failing",
+      "owner": "U0251UW1YUE",
+      "status": "resolved",
+      "impact": "Was blocking PR merges; resolved with PR #55712"
+    },
+    {
+      "description": "PCS v2 failure with trial box meal selections",
+      "owner": "U0184T48L74",
+      "status": "active",
+      "impact": "Issue replicated, working on fix; affects trial box users with mismatched SKUs"
+    },
+    {
+      "description": "Checkout page errors since July 8th affecting users from reset-password flow",
+      "owner": "U0184T48L74",
+      "status": "active",
+      "impact": "335 unique users affected (~60 weekly), broken summary or entire page; planned for next sprint"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Break down VMS PR #56214 into smaller PRs with separate tracking changes",
+      "owner": "U08FY485B47",
+      "due": "Monday",
+      "status": "pending"
+    },
+    {
+      "task": "Fix GTM tracking issues: DiscountComm_ModalDisplay firing incorrectly, DiscountComm_BannerDisplay firing multiple times",
+      "owner": "U08FY485B47",
+      "due": "Monday",
+      "status": "pending"
+    },
+    {
+      "task": "Review post-mortem for React Error Boundary Spike on Goodchop Plans Page",
+      "owner": "U07VDFEFBQU, U01AKGWGLC8",
+      "due": "Not specified",
+      "status": "pending"
+    },
+    {
+      "task": "Create ticket for checkout error bug affecting reset-password users",
+      "owner": "U0184T48L74",
+      "due": "Next sprint",
+      "status": "pending"
+    },
+    {
+      "task": "Work on fix for PCS v2 trial box issue",
+      "owner": "U0184T48L74",
+      "due": "Not specified",
+      "status": "pending"
+    },
+    {
+      "task": "Check MR reactivation e2e tests after rebasing with master",
+      "owner": "U0MBX09UZ",
+      "due": "After PR #55712 merge",
+      "status": "done"
+    },
+    {
+      "task": "Check with Yury about cadence change email communications for Factor Form",
+      "owner": "U07VDFEFBQU",
+      "due": "Not specified",
+      "status": "done"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "PCS v2 trial box failure",
+      "summary": "PCS v2 failing when trial box meal selections are submitted with normal box SKU. Issue replicated and being fixed, but broader problem exists where trial box users shouldn't call PCS v1/v2 at all.",
+      "relevance": "Affects checkout flow integrity and customer experience; separate ticket GOC-3025 created for systemic fix"
+    },
+    {
+      "topic": "VMS Multi Box Discounts refactoring",
+      "summary": "VMS team refactoring GoodChop's DiscountInlineBanner component to remove redux dependencies for cross-brand usage with Factor. Large PR (~340 lines) with GTM tracking issues needs to be broken down.",
+      "relevance": "Critical business flow for GoodChop that cannot risk incidents during high-traffic weekend; demonstrates cross-squad collaboration and code reuse"
+    },
+    {
+      "topic": "Checkout error affecting reset-password users",
+      "summary": "Since July 8th, ~60 unique customers weekly experiencing errors on checkout page after resetting password, ranging from broken summary to entire broken page. Introduced in PR #54504.",
+      "relevance": "Impacts customer acquisition and revenue; affects users who created accounts but didn't complete checkout and are returning"
+    },
+    {
+      "topic": "Cross-brand CRM learning",
+      "summary": "Factor Form learning from GoodChop's delivery cadence implementation for active customers. GoodChop doesn't send dedicated cadence change emails but references it in reschedule emails and order confirmation T&Cs.",
+      "relevance": "Shows knowledge sharing between brands and consistent customer experience patterns across HelloFresh products"
+    },
+    {
+      "topic": "PR size and review standards",
+      "summary": "Team enforcing standards for manageable PR sizes to ensure thorough review and reduce risk, especially for critical business flows. Weekend merges avoided for high-risk changes.",
+      "relevance": "Demonstrates engineering discipline and risk management practices to maintain system stability during high-traffic periods"
+    }
+  ],
+  "summary": "GoodChop squad handling multiple issues including PCS v2 trial box failures, checkout errors affecting ~60 weekly users, and coordinating with VMS on Multi Box Discounts refactoring that was blocked until Monday due to risk concerns and PR size."
+}

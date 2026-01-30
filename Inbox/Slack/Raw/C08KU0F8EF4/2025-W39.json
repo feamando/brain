@@ -1,0 +1,1297 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W39",
+  "extracted_at": "2026-01-02T10:45:10.530086Z",
+  "message_count": 5,
+  "messages": [
+    {
+      "subtype": "thread_broadcast",
+      "user": "U01AKGWGLC8",
+      "thread_ts": "1758529956.869479",
+      "root": {
+        "user": "U03TY4YJU4X",
+        "type": "message",
+        "ts": "1758529956.869479",
+        "client_msg_id": "5b699d52-bfab-4206-855c-bcdd43725d01",
+        "text": "Hey folks, please add the respective OKRs that you had been working on here: <https://docs.google.com/spreadsheets/d/1fBWqb6Dl7dzuqV_IHYwmPEJc4TEdOSJmfWgWfhXw2Cs/edit?usp=sharing>\n\nI've added the draft Objectives from the YP that I am drafting right now, feel free to comment/add/change and add your measurable KRs.",
+        "team": "T02AGMUUR",
+        "thread_ts": "1758529956.869479",
+        "reply_count": 9,
+        "reply_users_count": 4,
+        "latest_reply": "1758807905.475449",
+        "reply_users": [
+          "U01AKGWGLC8",
+          "U03TY4YJU4X",
+          "U07VDFEFBQU",
+          "U03UMPD2NNS"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "Ft2q0",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Hey folks, please add the respective OKRs that you had been working on here: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/spreadsheets/d/1fBWqb6Dl7dzuqV_IHYwmPEJc4TEdOSJmfWgWfhXw2Cs/edit?usp=sharing"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n\nI've added the draft Objectives from the YP that I am drafting right now, feel free to comment/add/change and add your measurable KRs."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "type": "message",
+      "ts": "1758730479.516449",
+      "client_msg_id": "289e05ae-63b5-4224-b2a2-6130f8ed3841",
+      "text": "<@U03TY4YJU4X>\nyou can find our draft <https://docs.google.com/document/d/1RM1wyjNVN-FOSZnlPZwQOLZhvaqWaiGxbL0LKPhmnac/edit?tab=t.0|here>\n\nnotes:\n• the listed initiatives are not Q1-specific but all the potential future initiatives which can also fall under the same OKR\n• we are least sure on KRs for OKR 3",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+yboA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03TY4YJU4X"
+                },
+                {
+                  "type": "text",
+                  "text": "\nyou can find our draft "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1RM1wyjNVN-FOSZnlPZwQOLZhvaqWaiGxbL0LKPhmnac/edit?tab=t.0",
+                  "text": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nnotes:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the listed initiatives are not Q1-specific but all the potential future initiatives which can also fall under the same OKR"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "we are least sure on KRs for OKR 3"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1758722431.198229",
+      "edited": {
+        "user": "U03TY4YJU4X",
+        "ts": "1758722440.000000"
+      },
+      "client_msg_id": "7e13ed15-82a9-48fc-8849-78803f6776f2",
+      "text": ":alert2: Hey folks, we have ~$*4000 in L&D* that we need to spend before the end of the year*!*\n\nGot a cool course? Books? *TOOLS!* Submit here: <https://docs.google.com/spreadsheets/d/1Pw1Lem2YMIQzvRRqHbVmXSm_Ma1yhTnQ7W64L3nGDPE/edit?usp=sharing> ",
+      "team": "T02AGMUUR",
+      "thread_ts": "1758722431.198229",
+      "reply_count": 16,
+      "reply_users_count": 4,
+      "latest_reply": "1760954903.829639",
+      "reply_users": [
+        "U03TY4YJU4X",
+        "U07VDFEFBQU",
+        "U01AKGWGLC8",
+        "U03UMPD2NNS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aGiy1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " Hey folks, we have ~$"
+                },
+                {
+                  "type": "text",
+                  "text": "4000 in L&D ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "that we need to spend before the end of the year"
+                },
+                {
+                  "type": "text",
+                  "text": "!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nGot a cool course? Books? "
+                },
+                {
+                  "type": "text",
+                  "text": "TOOLS! ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Submit here: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1Pw1Lem2YMIQzvRRqHbVmXSm_Ma1yhTnQ7W64L3nGDPE/edit?usp=sharing"
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1758722484.676569",
+          "client_msg_id": "2e8d4cf5-c2f5-4276-9e72-ec2629eafe51",
+          "text": "<@U07VDFEFBQU> <@U03R6F2AG9K> <@U03UMPD2NNS> <@U01AKGWGLC8> <@U023F53GS21>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aivZC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03R6F2AG9K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U023F53GS21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1758793178.188329",
+          "client_msg_id": "a0ed070d-c81b-4e62-92e2-0675568d7dca",
+          "text": "Do you have good recommendations for AI courses? That could be an interesting one",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fBVfF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Do you have good recommendations for AI courses? That could be an interesting one"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1num",
+              "users": [
+                "U01AKGWGLC8",
+                "U03UMPD2NNS"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760613576.178209",
+          "client_msg_id": "ede7c2fd-e4f5-4d07-9526-60222b7438c9",
+          "text": "<@U03TY4YJU4X> I added some GenAI intro courses from Coursera, completely going off CGPT's suggestions but open to other ideas\n\n*Question*: does the same budget renew for 2026?\none of the courses is a monthly charge but realistically probably will only get to this next year",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jNDLx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I added some GenAI intro courses from Coursera, completely going off CGPT's suggestions but open to other ideas\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Question",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": does the same budget renew for 2026?\none of the courses is a monthly charge but realistically probably will only get to this next year"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760613792.778599",
+          "client_msg_id": "aecbd2b2-4683-4b0e-861d-a12f72c532ec",
+          "text": "and let me know if I can already by the other courses",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dzVyA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and let me know if I can already by the other courses"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1760619361.319559",
+          "client_msg_id": "a9d03f6b-ad93-412a-8586-8762f44512bb",
+          "text": "Unfortunately I don't know about 2026 rn, so at least for 2025 we can fund that\\",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0eBfN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Unfortunately I don't know about 2026 rn, so at least for 2025 we can fund that\\"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760619418.768789",
+          "client_msg_id": "20548b6b-0435-461f-924d-a4cae6fb187d",
+          "text": "can I book the courses already? or i need to submit somewhere else?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mIYxj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "can I book the courses already? or i need to submit somewhere else?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1760619442.486099",
+          "client_msg_id": "32597423-33c1-4508-b86c-e1a376e8be03",
+          "text": "you can and we should cover that through Oracle",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EsAin",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "you can and we should cover that through Oracle"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1760687637.999329",
+          "client_msg_id": "17cbd58f-b1ad-41d3-a8ac-3a9d40d85cfd",
+          "text": "<@U01AKGWGLC8> what course are you taking?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iHEsk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " what course are you taking?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760687828.665079",
+          "client_msg_id": "606e6553-0194-45c5-a030-109ad26363bd",
+          "text": "I put it on the sheet Nikita linked -- are you already taking another one?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qwPnq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I put it on the sheet Nikita linked -- are you already taking another one?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760687838.674659",
+          "client_msg_id": "d4b642a2-caa7-46f7-97d4-c23d23d3edfe",
+          "text": "Haven't bought it yet so can't say how good it is",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ytosB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Haven't bought it yet so can't say how good it is"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1760688512.217689",
+          "client_msg_id": "9c366e5b-5754-4e17-be0e-709cd463ed58",
+          "text": "Arent they free?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "i8XGX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Arent they free?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I see this on every course you linked?",
+          "files": [
+            {
+              "id": "F09LM44HUA3",
+              "created": 1760688532,
+              "timestamp": 1760688532,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U03UMPD2NNS",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 247568,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09LM44HUA3/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09LM44HUA3/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 244,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 326,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 489,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 543,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 652,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09LM44HUA3-894dfd652d/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 695,
+              "original_w": 1832,
+              "original_h": 1244,
+              "thumb_tiny": "AwAhADDQ4D5+bJ+uKUHjAzxxzSY+Y/Oe3HHH/wCumuSgLbmOSMLx+Qz/AJ9KAJM0ZqJSxfGJMZ+98uP8fapAOep+lAAwDDB6exxS5oooArSGbzmCPhQM42n+eKVkueNsq/iP/rVOwYr8pAPqRmlUEL8xBPqBiquKwUUHgcAn2FLipGJSGjn+739aUcjpigANFBooAKKKKACiiigD/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09LM44HUA3/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09LM44HUA3-f1705ca9ad",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03UMPD2NNS",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4d6ZO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I see this on every course you linked?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1760688539.592369",
+          "client_msg_id": "f7585df1-866e-425b-a955-d814b9c1c1be",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X"
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760709222.333039",
+          "client_msg_id": "c694c9f4-bfae-4644-8690-f325bc1c0541",
+          "text": "if you click on it and sign up it then says it's 42eur",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "F+PQa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "if you click on it and sign up it then says it's 42eur"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "",
+          "files": [
+            {
+              "id": "F09M2EQ5EMU",
+              "created": 1760709290,
+              "timestamp": 1760709290,
+              "name": "Screenshot 2025-10-17 at 15.54.16.png",
+              "title": "Screenshot 2025-10-17 at 15.54.16.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01AKGWGLC8",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 110797,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09M2EQ5EMU/screenshot_2025-10-17_at_15.54.16.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09M2EQ5EMU/download/screenshot_2025-10-17_at_15.54.16.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 273,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 364,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 546,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 607,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 728,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09M2EQ5EMU-8c5d54d21f/screenshot_2025-10-17_at_15.54.16_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 777,
+              "original_w": 1226,
+              "original_h": 930,
+              "thumb_tiny": "AwAlADC6qxiIO+AO5JxQfIAyWXHru/z6j86fEcRA0+gCPZGTgYyDjrTc24JBdMr1+bpU1IAPvAckdcc0AN8pPT9aZIiqpIX0wc1NTJv9UaAGxssVuC2FUen1oWaJ5AoOW6jIPp/hSptMAD42+/TrSrHGvzKiDHcAU9AH96KKKQBTJv8AVNT6ZN/qjQBEk21QNuce9O+0f7P61DRQBN9o/wBn9aPtH+z+tQ0UATfaP9n9aa825SNuM+9R0UAf/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09M2EQ5EMU/screenshot_2025-10-17_at_15.54.16.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09M2EQ5EMU-30b32e7faf",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U01AKGWGLC8",
+          "display_as_bot": false,
+          "type": "message",
+          "ts": "1760709295.046559",
+          "client_msg_id": "b4b2d7cd-fac7-41e1-91e5-5f557c40da60",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X"
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1760796035.437709",
+          "client_msg_id": "3f6085aa-334e-4ebe-9e5a-c4c7188d9851",
+          "text": "I think the GenAI for Everyone course is too basic I would skip it",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FYNVY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think the GenAI for Everyone course is too basic I would skip it"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1760954903.829639",
+          "client_msg_id": "a7a7f6f4-5fa6-47e8-a4e7-e0e065815270",
+          "text": "agreed",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758722431.198229",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TP9qF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "agreed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1758615266.009009",
+      "client_msg_id": "f7eabd2c-5a89-4106-a8ee-adadbb0cc712",
+      "text": ":alert2: Hey folks. I would like your comments on this by EOW :alert2:\n\n1. *Problem*: with GenAI being proliferated through the organization and analyzing it's capabilities, the role of the product manager, their daily work is expected to shift and adapt. Product managers across HelloTech lack a definition of their new role, processes and ways to practically apply GenAI and its' capabilities in their daily/core work.\n2. *Goal*: provide a new ways of working for product managers within the organization, based on what is available right now, offering a platform to build into the future to accelerate customer problem identificaiton, resolution and achieve business objectives.\n3. *Approach*:\n    a. Documented known use cases and flows, attempting to be tool agnostic where possible, avoid investment into tools that are \"wrappers\" on core models as much as possible\n    b. Define new role and core tasks for a product manager within a GenAI augmented organization\n    c. Provide tools and workflows that would support problem identification, prioritization, solutioning, execution and launch of software products with their teams\n4. *Ask*: Feel free to review and comment the \"Cheat Sheet\" and experiment with the NotebookLM based on captured sources\n    a. Feel free to go through the full source document\n5. *Resources*:\n    a. <https://docs.google.com/document/d/1kui7j2A6Ry2s1RbzRqBTWmH3GUWw5Ba3cLlOLAQO60Q/edit?usp=sharing|Context Driven Product Management> (cheat sheet)\n    b. <https://docs.google.com/document/d/1OM-lmUzYlIijXk5F2_WwkoY4n0BHVoN733m8V_aO0Ew/edit?usp=sharing|Full Context>\n    c. <https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0|Notebook>\n6. *Next* *steps*: work together with the AI Assemble and the UX/Engineering efforts on GenAI integration to augment and adapt the role and proposed approaches based on evolving capabilities.\n",
+      "team": "T02AGMUUR",
+      "thread_ts": "1758615266.009009",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1758834803.764889",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03TY4YJU4X",
+        "U03R6F2AG9K"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://notebooklm.google.com/_/static/branding/v5/og/notebook_lm_share.png",
+          "image_width": 2400,
+          "image_height": 1254,
+          "image_bytes": 77684,
+          "from_url": "https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0",
+          "service_icon": "https://notebooklm.google.com/_/static/branding/v5/light_mode/favicon/apple-touch-icon.png",
+          "id": 1,
+          "original_url": "https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0",
+          "fallback": "Google NotebookLM | Your research and thinking partner, grounded in the information you trust",
+          "text": "Use the power of AI for quick summarization and note taking, NotebookLM is your powerful virtual research assistant rooted in information you can trust.",
+          "title": "Google NotebookLM | Your research and thinking partner, grounded in the information you trust",
+          "title_link": "https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0",
+          "service_name": "notebooklm.google.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "e6Ke2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " Hey folks. I would like your comments on this by EOW "
+                },
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Problem",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": with GenAI being proliferated through the organization and analyzing it's capabilities, the role of the product manager, their daily work is expected to shift and adapt. Product managers across HelloTech lack a definition of their new role, processes and ways to practically apply GenAI and its' capabilities in their daily/core work."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Goal",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": provide a new ways of working for product managers within the organization, based on what is available right now, offering a platform to build into the future to accelerate customer problem identificaiton, resolution and achieve business objectives."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Approach",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ":"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Documented known use cases and flows, attempting to be tool agnostic where possible, avoid investment into tools that are \"wrappers\" on core models as much as possible"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Define new role and core tasks for a product manager within a GenAI augmented organization"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Provide tools and workflows that would support problem identification, prioritization, solutioning, execution and launch of software products with their teams"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ask",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": Feel free to review and comment the \"Cheat Sheet\" and experiment with the NotebookLM based on captured sources"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0,
+              "offset": 3,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Feel free to go through the full source document"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Resources",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ":"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0,
+              "offset": 4,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1kui7j2A6Ry2s1RbzRqBTWmH3GUWw5Ba3cLlOLAQO60Q/edit?usp=sharing",
+                      "text": "Context Driven Product Management"
+                    },
+                    {
+                      "type": "text",
+                      "text": " (cheat sheet)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1OM-lmUzYlIijXk5F2_WwkoY4n0BHVoN733m8V_aO0Ew/edit?usp=sharing",
+                      "text": "Full Context"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0",
+                      "text": "Notebook"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Next",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "steps",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": work together with the AI Assemble and the UX/Engineering efforts on GenAI integration to augment and adapt the role and proposed approaches based on evolving capabilities."
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0,
+              "offset": 5,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1758819853.406939",
+          "client_msg_id": "0198bbf3-3bd8-4504-b7fd-08538486a5b8",
+          "text": "<@U03TY4YJU4X> you need to give access to the NotebookLM",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758615266.009009",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ftfda",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " you need to give access to the NotebookLM"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1758822737.316459",
+          "client_msg_id": "2c1d9b34-cb63-44a9-b7a1-31bfab6761fe",
+          "text": "When will they fix the access issues :melting_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758615266.009009",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2kvwT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When will they fix the access issues "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "melting_face",
+                      "unicode": "1fae0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03R6F2AG9K",
+          "type": "message",
+          "ts": "1758834803.764889",
+          "client_msg_id": "4aef095e-4062-44c5-8f46-9b0c4d5a2691",
+          "text": "<@U03TY4YJU4X> Try sharing with `<mailto:hellotech@hellofresh.com|hellotech@hellofresh.com>`  :slightly_smiling_face:\nthat's what I did for the ABBA Notebook",
+          "team": "T02AGMUUR",
+          "thread_ts": "1758615266.009009",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "auuHP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Try sharing with "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:hellotech@hellofresh.com",
+                      "text": "hellotech@hellofresh.com",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "  "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nthat's what I did for the ABBA Notebook"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1758544640.686809",
+      "client_msg_id": "1d56c900-cc01-452c-ae51-cf72ebf52fc1",
+      "text": "From those I would recommend setting your KRs",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cBuC8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "From those I would recommend setting your KRs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1758544630.324759",
+      "client_msg_id": "6d704b1e-d22c-49de-a1b9-5898abef2b9a",
+      "text": "So, regarding those objectives: the focus for crafting those was to capture the customer problems or objectives from the GoC and TPT domain objectives _that we would be able to influence as directly as possible._ ",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VGmiC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "So, regarding those objectives: the focus for crafting those was to capture the customer problems or objectives from the GoC and TPT domain objectives "
+                },
+                {
+                  "type": "text",
+                  "text": "that we would be able to influence as directly as possible. ",
+                  "style": {
+                    "italic": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

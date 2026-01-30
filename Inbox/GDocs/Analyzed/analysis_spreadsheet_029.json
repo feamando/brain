@@ -1,0 +1,64 @@
+{
+  "batch_id": "spreadsheet_029",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "Conversion Tool - TPT",
+      "doc_id": "1e-MBA8v_JvyFpi4Bnt-yJ8Qw8xipYn2XmoLMwvHZJvs",
+      "doc_type": "spreadsheet",
+      "purpose": "Conversion analysis tool for TPT (The Purple Taco) tracking funnel performance, channel effectiveness, and conversion rates",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Blended conversion rate (CVR) over time",
+        "Traffic and conversion volumes",
+        "Channel-specific conversion rates",
+        "Micro-conversions at each funnel step",
+        "Funnel drop-off points by step",
+        "Seasonality patterns vs other brands",
+        "Landing page to quiz conversion rates"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Primary brand being analyzed for conversion performance"
+        },
+        {
+          "name": "Xbrand",
+          "type": "brand",
+          "context": "Comparison brand for seasonality benchmarking"
+        },
+        {
+          "name": "HFG brands",
+          "type": "brand",
+          "context": "Brand group used for conversion rate comparison"
+        },
+        {
+          "name": "Cade",
+          "type": "person",
+          "context": "Action owner - checking with First Media on LP to Quiz mCVR drop (March to April/May) and competitor CTA copy"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Action owner - creating a view (incomplete action item)"
+        },
+        {
+          "name": "First Media",
+          "type": "system",
+          "context": "Data source or partner for funnel conversion data"
+        }
+      ],
+      "insights": [
+        "Tool provides 5 distinct analytical views covering weekly trends, channel performance, funnel analysis, and competitive benchmarking",
+        "Interactive funnel view exists in both blended and channel-specific versions for granular analysis",
+        "Identified performance issue: micro-conversion drop from Landing Page to Quiz between March and April/May",
+        "Cross-channel comparison capability allows identification of channel-specific funnel weaknesses",
+        "Action items from April 1st meeting indicate focus on funnel optimization and competitive analysis",
+        "Tool enables both time-based (weekly/monthly) and comparative (channel vs channel, brand vs brand) analysis"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:14:23.960735"
+}

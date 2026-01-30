@@ -1,0 +1,147 @@
+{
+  "batch_id": "prd_010",
+  "doc_type": "prd",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "Scope Proposal: External Engineering Augmentation for The Pets Table (TPT)",
+      "doc_id": "1UiptyNxTPvqBvDKavC9B0v8brSHhr0FiSVvxr6xr5x4",
+      "doc_type": "prd",
+      "project_name": "External Engineering Augmentation for The Pets Table (TPT)",
+      "owner": "Not explicitly mentioned",
+      "target_date": "Not specified",
+      "summary": "External engineering augmentation project for The Pets Table (TPT) focusing on three main initiatives: creating a checkout confirmation page with multipet and add-ons versions, improving dashboard quick actions with above-fold repositioning, and optimizing meal display on the dashboard. All deliverables must be delivered for Web and Mobile Web, fully tested, integrated into existing tech stack, with documentation and editable content through Contentful.",
+      "requirements": {
+        "must_have": [
+          "Two versions of checkout confirmation page (multipet and add-ons)",
+          "Order summary display matching checkout page",
+          "Logic-based page loading to show correct version based on pet profile data",
+          "Remove 'frying pan' animation from current production flow",
+          "Redesigned quick actions placed above the fold as accordion",
+          "Scalable component for subscription management",
+          "Header formatted to new design (UI changes only)",
+          "View order total button changed to icon on mobile",
+          "Two CTAs below meals: change meals and feeding guide",
+          "Reduced size of meals display on dashboard",
+          "Portion percentage functionality with multiple calorie ranges (100%, 75%, 50%)",
+          "Two API calls for switching portion percentage: patch subscription and patch pet profile",
+          "Portion % hook, badge, and quiz steps components",
+          "All content editable through Contentful entries",
+          "Full testing and integration into existing tech stack",
+          "Comprehensive documentation",
+          "Tracking implementation for all features"
+        ],
+        "nice_to_have": [
+          "Quiz Allergens experiment setup repurposed for new experiment"
+        ],
+        "out_of_scope": [
+          "Pre-checkout service replacement (ongoing separate initiative)"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Remove frying pan animation from checkout flow",
+          "rationale": "Current animation gives impression that user needs to cook the food, which is misleading",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Show multipet CTA if user mentioned multiple pets in checkout, otherwise show add-ons store CTA",
+          "rationale": "Personalize post-conversion experience based on user's pet profile to increase add-ons take rate and multipet penetration",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Move quick actions above the fold as accordion",
+          "rationale": "Active users struggling to navigate to features they need; current placement at bottom of page reduces discoverability",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Implement portion percentage logic in FE for mixed plans",
+          "rationale": "API returns mixed plan for 50/75% portions, requiring frontend handling",
+          "approved_by": "Not specified"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "Contentful CMS",
+          "NMPS API (handles calorie range logic)",
+          "Subscription patch API",
+          "Pet profile patch API",
+          "Existing tech stack integration",
+          "Portion % hook component",
+          "Portion % badge component",
+          "Quiz Steps component"
+        ],
+        "team": [
+          "GridDynamics (external engineering team)",
+          "Design team (Figma designs)",
+          "maria.chelminska@hellofresh.com (design clarifications)"
+        ],
+        "external": [
+          "GridDynamics (briefed June 27, 2025)"
+        ]
+      },
+      "success_metrics": [
+        "Increase take rate of Add-ons",
+        "Increased Retention",
+        "Increase Multipet penetration",
+        "Increased user engagement with core functionalities",
+        "Mitigating the need of churning and improved retention",
+        "Reduction of empty reactivations",
+        "Optimized display of meal information reducing page real estate"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "role": "Client/product being developed"
+        },
+        {
+          "name": "GridDynamics",
+          "type": "external",
+          "role": "External engineering augmentation team, briefed June 27, 2025"
+        },
+        {
+          "name": "maria.chelminska@hellofresh.com",
+          "type": "person",
+          "role": "Team member providing design clarifications and approvals"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "role": "HelloFresh team member mentioned in email correspondence"
+        },
+        {
+          "name": "Nirav Sheth",
+          "type": "person",
+          "role": "Chairman at Anatta, external contact"
+        },
+        {
+          "name": "Contentful",
+          "type": "system",
+          "role": "CMS for managing editable content entries"
+        },
+        {
+          "name": "NMPS API",
+          "type": "system",
+          "role": "API handling calorie range logic for portion percentages"
+        },
+        {
+          "name": "Figma",
+          "type": "system",
+          "role": "Design tool containing ready designs and prototypes"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Parent company"
+        },
+        {
+          "name": "Anatta",
+          "type": "external",
+          "role": "External company in email correspondence"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:41:13.400599"
+}

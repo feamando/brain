@@ -1,0 +1,583 @@
+{
+  "batch_id": "spreadsheet_055",
+  "doc_type": "spreadsheet",
+  "doc_count": 9,
+  "results": [
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipes, nutritional information, costs, dietary attributes, and operational details for meal preparation and delivery",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe IDs and MSKU codes for meal tracking",
+        "Cost data: meal costs ranging from $1.94-$3.69, max meal costs from $2.54-$4.85",
+        "L3 Run Ratings: 3.40-3.53 range with swap out percentages 0.65%-1.19%",
+        "Nutritional metrics: calories (450-530), protein (27-44g), sodium (610-900mg)",
+        "Status categories: 'Graveyard' (discontinued) and 'New' (active)",
+        "Dietary attributes: Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free, Low Carb, Keto, GLP-1 Balance",
+        "Approval dates: 10/21/2025 for new items",
+        "Shelf life and plating dates tracked"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta recipes"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef recipe"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Discontinued meal (Graveyard status) with 6 recipe variations (F00002A-F)"
+        },
+        {
+          "name": "Greek Isle Caper Salmon",
+          "type": "product",
+          "context": "New menu item with European/Italian cuisine classification"
+        },
+        {
+          "name": "Greek-Style Market Chicken Bowl",
+          "type": "product",
+          "context": "New menu item marked as Mediterranean and GLP-1 Support"
+        },
+        {
+          "name": "Red Pepper Bruschetta Shredded Chicken",
+          "type": "product",
+          "context": "New menu item with Mediterranean classification"
+        },
+        {
+          "name": "Garlic Tomato Cream Shredded Beef",
+          "type": "product",
+          "context": "New menu item with beef protein"
+        }
+      ],
+      "insights": [
+        "Product lifecycle management: 'Graveyard' status meals (Chicken & Mushroom Marsala variants) are being phased out while new meals are being introduced",
+        "Recipe versioning: Multiple cost variations exist for the same meal (F00002A-F), suggesting recipe optimization or ingredient substitution testing",
+        "Dietary trend focus: Strong emphasis on health-conscious options including GLP-1 Balance, Mediterranean diet, High Protein, and Calorie Smart categories",
+        "Protein diversity: Menu includes chicken (breast and shredded), salmon, and beef options with protein content ranging 27-44g per meal",
+        "Cost efficiency: New recipes ($2.36-$3.69) are competitively priced compared to discontinued items ($1.94-$2.27), suggesting value optimization",
+        "European/Italian cuisine dominance: All visible recipes are classified as European or Italian cuisine",
+        "Operational complexity: Meals require multiple preparation methods (marinade, brine, grill, oven, braiser, shredder) tracked for kitchen operations",
+        "Container standardization: All meals use '2 CT' containers with color-coded sleeves (Yellow, Blue, Red) for easy identification",
+        "Quality metrics: L3 Run Ratings and swap out percentages indicate customer satisfaction and meal replacement rates are actively monitored"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs from $2.54 to $4.85",
+        "Calorie range: 450-530 calories per meal",
+        "L3 Run Ratings between 0.65% and 1.19%",
+        "Nutrition scores: 0-4",
+        "Dietary fiber: 5-16g",
+        "Protein content: 27-44g per meal",
+        "Multiple recipe variants (A-F) for same base meal"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta recipes"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef recipe"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Recipe in 'Graveyard' status with 6 variants (F00002A-F)"
+        },
+        {
+          "name": "Greek Isle Caper Salmon",
+          "type": "product",
+          "context": "New recipe with approval date 10/21/2025"
+        },
+        {
+          "name": "Greek-Style Market Chicken Bowl",
+          "type": "product",
+          "context": "New recipe with GLP-1 Support and Mediterranean attributes"
+        },
+        {
+          "name": "European/Italian",
+          "type": "cuisine",
+          "context": "Primary cuisine classification for most meals shown"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for cost optimization - Chicken Marsala has 6 versions with costs ranging $1.94-$2.27",
+        "Graveyard status meals are still tracked but likely discontinued (Chicken & Mushroom Marsala)",
+        "New recipes approved for 10/21/2025 focus on health trends: GLP-1 Support, Mediterranean, and high fiber content",
+        "All meals shown are Calorie Smart and Chef's Choice certified",
+        "Chicken-based meals dominate the dataset with both breast and shredded preparations",
+        "Yellow sleeve color indicates chicken meals, Blue for salmon, Red for beef",
+        "Most meals are dairy-free, pork-free, and high protein",
+        "Recipe costs are significantly below max meal costs, suggesting healthy profit margins",
+        "European-Italian cuisine is the dominant style across all recipes shown",
+        "Newer recipes emphasize GLP-1 Balance and Mediterranean diet attributes, indicating market trend adaptation"
+      ]
+    },
+    {
+      "doc_title": "Food Influencers for Interviews",
+      "doc_id": "19A-paP1BG184CJkDhJDB5_XKAq5h7g8MLxe2Ie7rqd4",
+      "doc_type": "spreadsheet",
+      "purpose": "Track outreach and interview coordination with food influencers across social media platforms",
+      "data_type": "tracker",
+      "key_data_points": [
+        "47 food influencers tracked across Instagram, TikTok, YouTube, and Pinterest",
+        "Follower counts range from 2,012 to 10.4 million",
+        "15 influencers have been contacted (Outreach Phases 1-5)",
+        "4 influencers declined/not interested",
+        "1 interview successfully set up (Evolving Table)",
+        "Multiple follow-up emails sent across phases",
+        "Influencer sizes: Micro (5K-100K), Mid (100K-500K), Macro (500K-1M), Mega (1M+)"
+      ],
+      "entities": [
+        {
+          "name": "Evolving Table (London Brazil)",
+          "type": "person",
+          "context": "Only influencer with interview successfully scheduled, Pinterest-based, 109.5K followers, published cookbook author"
+        },
+        {
+          "name": "Joshua Weissman",
+          "type": "person",
+          "context": "Mega influencer with 10.4M YouTube followers, published cookbook author, follow-up email sent in Phase 4"
+        },
+        {
+          "name": "Plantyou (Carleigh Bodrug)",
+          "type": "person",
+          "context": "Largest influencer tracked at 5.5M Instagram followers, published cookbook author, no response in Phase 5"
+        },
+        {
+          "name": "Justinesnacks (Justine Doiron)",
+          "type": "person",
+          "context": "2.3M TikTok followers, published cookbook author, no response in Phase 5"
+        },
+        {
+          "name": "Luke Brown (cookinginthemidwest)",
+          "type": "person",
+          "context": "1.8M Instagram followers, declined interview, published cookbook author"
+        },
+        {
+          "name": "Corre Larkin (cocolarkincooks)",
+          "type": "person",
+          "context": "1M Instagram followers, declined interview, upcoming cookbook"
+        },
+        {
+          "name": "Pam (Cooking at Pam's Place)",
+          "type": "person",
+          "context": "1.18M YouTube followers, follow-up email sent in Phase 3"
+        },
+        {
+          "name": "Bailey Hayes",
+          "type": "person",
+          "context": "Micro influencer (68.2K TikTok), follow-up email sent in Phase 1"
+        }
+      ],
+      "insights": [
+        "Low conversion rate: Only 1 interview secured out of 15 contacted (6.7% success rate)",
+        "4 outright rejections from contacted influencers (26.7% rejection rate)",
+        "Phase 5 outreach (4 influencers) yielded zero responses, all were Mega influencers with published cookbooks",
+        "Cookbook authors appear to be a target demographic - 11 influencers noted as published/upcoming authors",
+        "Geographic focus on US and Canada, with some European influencers (UK, Italy, Greece, Portugal, Austria)",
+        "Multi-platform presence is common - many influencers tracked across 2-3 platforms",
+        "Instagram is the dominant platform (32 influencers), followed by TikTok, YouTube, and Pinterest",
+        "Contact information varies widely - some have direct emails, others only social media or agency contacts",
+        "Larger influencers (Mega tier) tend to have lower response rates and use agency representation",
+        "The spreadsheet is actively being used with 5 distinct outreach phases, suggesting ongoing campaign"
+      ]
+    },
+    {
+      "doc_title": "Sprint Tracking",
+      "doc_id": "11-Ob_y8-vYsY2Gl_ZFmB0MzDenX2GpR6IMqh5IDpnDY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track engineering sprint progress, capacity planning, and team velocity across multiple quarters",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Sprint capacity ranges from 31-50 engineer days",
+        "Commitment typically 36-85 story points per sprint",
+        "Work allocation: 8 SPs for KTLO, 25% tech tickets, 50% main priorities, 25% QWs",
+        "Velocity ranges from 1.06 to 2.00 (Done/Capacity ratio)",
+        "Average velocity over last 3 weeks: 1.40-2.00",
+        "Team size: 7-8 engineers per sprint",
+        "Sprint duration: 2 weeks (bi-weekly sprints)"
+      ],
+      "entities": [
+        {
+          "name": "Andrea",
+          "type": "person",
+          "context": "Team member appearing in all sprints"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Engineering Manager (EM) at 50% capacity"
+        },
+        {
+          "name": "Guhan",
+          "type": "person",
+          "context": "Regular team member"
+        },
+        {
+          "name": "Oliver",
+          "type": "person",
+          "context": "Software Engineer (SE) with reduced availability (days-1)"
+        },
+        {
+          "name": "Mateusz",
+          "type": "person",
+          "context": "Team member"
+        },
+        {
+          "name": "Suzi",
+          "type": "person",
+          "context": "Team member"
+        },
+        {
+          "name": "Desi",
+          "type": "person",
+          "context": "Team member"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Team member (joined in recent sprints)"
+        },
+        {
+          "name": "Shujath",
+          "type": "person",
+          "context": "Former team member (Q1 2025)"
+        },
+        {
+          "name": "Project Heaven",
+          "type": "project",
+          "context": "Launched in W45-46"
+        },
+        {
+          "name": "iAdvize chatbot",
+          "type": "system",
+          "context": "Launched in W37-38"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Email integration work in W35-36"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Universal Payment Method - change payment work"
+        }
+      ],
+      "insights": [
+        "Team velocity improved from ~1.1-1.3 in Q1 to 1.6-2.0 in Q4 2025, indicating increased efficiency",
+        "Pricing API migration is a recurring theme across multiple sprints (W43-52)",
+        "Sprint goals completion rate varies - many sprints have mixed TRUE/FALSE goal completions",
+        "Team capacity fluctuates significantly (31-50 days) due to varying individual availability",
+        "Oliver consistently has reduced availability (SE, days-1) across all sprints",
+        "Ahmed (EM) contributes at 50% capacity, focusing on management",
+        "Recent sprints (Q4) show higher commitment (65-85 SPs) vs earlier sprints (36-64 SPs)",
+        "Portion percentage and calorie adjustment features are major initiatives spanning multiple sprints",
+        "Tech debt allocation is formalized at 25% of capacity",
+        "Some sprints show velocity >1.7, suggesting team occasionally over-delivers on commitments"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and workstream responsibilities for the 2025 ANZ (Australia/New Zealand) Christmas Offering product launch",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams already in progress (Ideation done, Project set up, Recipes created, NID onboarding started)",
+        "Cross-functional team spanning Product, Engineering, Operations, Marketing, Finance, FSQA, and more"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead for ANZ Product Strategy (AU)"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "ANZ Project Manager lead"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Key stakeholder across multiple workstreams (Culinary Innovation, CIO Dev, Editorial, Digital Ops)"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "project",
+          "context": "Project code/identifier for the Christmas Offering"
+        },
+        {
+          "name": "Vitoria Mantovanni",
+          "type": "person",
+          "context": "Lead for Culinary Innovation (AU)"
+        },
+        {
+          "name": "Sofia Gill",
+          "type": "person",
+          "context": "Lead for CIO Dev Team"
+        },
+        {
+          "name": "Marcus Thomson",
+          "type": "person",
+          "context": "Lead for AU Logistics"
+        },
+        {
+          "name": "Faye Chen",
+          "type": "person",
+          "context": "Lead for NZ Logistics"
+        },
+        {
+          "name": "Jamie McKay",
+          "type": "person",
+          "context": "Lead for Marketing"
+        },
+        {
+          "name": "Strategic Procurement",
+          "type": "system",
+          "context": "Onboarding SKUs for both markets with multiple team members"
+        }
+      ],
+      "insights": [
+        "Project is already underway with several completed milestones (ideation, recipes, project setup)",
+        "Strong separation between AU and NZ operations with dedicated leads for each market",
+        "Hannah Gilbert serves as a central stakeholder across culinary, development, and content workstreams",
+        "Some workstreams still need secondary leads (marked as TBD), indicating ongoing team formation",
+        "FSQA (Food Safety & Quality Assurance) explicitly noted as needing to onboard SKUs for both markets",
+        "Duplication work required for marketing campaigns, recipe booklets, and website content across markets",
+        "Strategic Procurement has the most granular team breakdown with 5 named individuals covering different categories (PTN, PHF, PCK, GRO)",
+        "Engineering and Production have multiple co-leads, suggesting resource-intensive workstreams"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs from $2.54 to $4.85",
+        "Calorie range: 450-530 calories per meal",
+        "L3 Run Ratings between 0.65% and 1.19%",
+        "Nutrition scores: 0-4",
+        "Dietary fiber: 5-16g",
+        "Protein content: 27-44g per meal",
+        "Multiple recipe variants (A-F) for same base meal"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef"
+        },
+        {
+          "name": "F00002 series",
+          "type": "system",
+          "context": "Recipe IDs for Chicken & Mushroom Marsala variants (Graveyard status)"
+        },
+        {
+          "name": "F01905-F01908",
+          "type": "system",
+          "context": "Recipe IDs for new meals with Pending shelf life status"
+        }
+      ],
+      "insights": [
+        "Chicken & Mushroom Marsala has 6 recipe variants (A-F) with 'Graveyard' status, suggesting discontinued or phased-out meals",
+        "All newer recipes (F01905-F01908) have 'New' status with approval date of 10/21/2025 and 'Pending' shelf life",
+        "European/Italian cuisine dominates the sample, appearing in all newer recipes",
+        "All meals are marked as Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free, and Low Carb",
+        "Chicken breast and shredded proteins are most common protein types",
+        "Yellow sleeve color indicates chicken meals, Blue for salmon, Red for beef",
+        "GLP-1 Balance and Mediterranean diet tags appear on several newer recipes, suggesting trend toward weight management and health-focused offerings",
+        "Cost variance exists even within same meal variants (F00002A-F: $1.94-$2.27), likely due to ingredient sourcing or portion adjustments"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project being tracked for operational overhead"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for tracking KTLO work"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to attribute tickets to specific months",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "Good Chop Marketing Vouchers",
+      "doc_id": "13VRpw2nqq8rj2gL5AVh7dU35-La0EDoCfMPLFMnUxO8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing vouchers and promotional codes for free product offers to customers",
+      "data_type": "tracker",
+      "key_data_points": [
+        "14 different product voucher types (bacon, wings, beef, salmon, steaks, cheesecake)",
+        "Two duration types: 'For Life' and 'For Year' promotions",
+        "SKU indexes ranging from 1-147",
+        "Multiple promo code campaigns: TURKEY, TRK, GBL, TRKXA series",
+        "Customer IDs tracked (ranging from ~900K to ~2.2M)",
+        "Email banner activation status tracked",
+        "Turkey promotion codes: ORGANIC TURKEY, TURKEY ACTIVATION NAE, TURKEY REACTIVATION NAE, TURKEY CODE 2023"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company offering meat and food subscription service with promotional vouchers"
+        },
+        {
+          "name": "ODL",
+          "type": "system",
+          "context": "Referenced as source system for customer IDs and add-on column data"
+        }
+      ],
+      "insights": [
+        "Premium products (ribeyes, filet mignon, grass-fed beef) are offered as both lifetime and yearly promotions",
+        "Turkey-themed promotional campaigns appear to be a major marketing initiative with multiple code variants",
+        "Each voucher has standardized messaging: 'We've added your FREE [product]. Enjoy!'",
+        "Most promotions have 'Actives email banner' set to TRUE, indicating active email marketing campaigns",
+        "Customer IDs are organized by promo code type (TURKEY, TRK, GBL campaigns)",
+        "Product codes use abbreviations: BCN (Bacon), WNG (Wings), GFL (Ground Beef For Life), RFY (Ribeyes For Year), etc.",
+        "SKU index 108 is used for bacon, 147 for wings, suggesting standardized product catalog",
+        "Large list of customer IDs (60+) suggests significant promotional reach"
+      ]
+    },
+    {
+      "doc_title": "Food Influencers for Interviews",
+      "doc_id": "19A-paP1BG184CJkDhJDB5_XKAq5h7g8MLxe2Ie7rqd4",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage outreach to food influencers for interview opportunities, including contact information, follower counts, and response status",
+      "data_type": "tracker",
+      "key_data_points": [
+        "43 food influencers tracked across Instagram, YouTube, TikTok, and Pinterest",
+        "Follower counts range from 1,943 (Micro) to 3,400,000 (Mega)",
+        "13 influencers have been contacted (Outreach Phase 1-2)",
+        "3 influencers responded 'Not Interested'",
+        "6 influencers have follow-up emails sent",
+        "1 influencer requested 2nd interview",
+        "At least 8 influencers are cookbook authors",
+        "Primary locations: US, Canada, UK, with some international (Italy, Greece, Austria, Portugal)"
+      ],
+      "entities": [
+        {
+          "name": "Brandon Frohne",
+          "type": "person",
+          "context": "Mid-tier Instagram influencer (184K), contacted, follow-up sent"
+        },
+        {
+          "name": "Corre Larkin (cocolarkincooks)",
+          "type": "person",
+          "context": "Mega influencer (1M), cookbook author, not interested"
+        },
+        {
+          "name": "Luke Brown (cookinginthemidwest)",
+          "type": "person",
+          "context": "Mega influencer (1.8M), cookbook author, not interested"
+        },
+        {
+          "name": "Carmen Spillette (Eat with Carmen)",
+          "type": "person",
+          "context": "Pinterest/Instagram, Canada-based, follow-up sent"
+        },
+        {
+          "name": "Tiffy Chen (Tiffy.Cooks)",
+          "type": "person",
+          "context": "Mega influencer (2.1M Instagram, 3.4M TikTok), cookbook author, Asian comfort dishes"
+        },
+        {
+          "name": "Helena Faustin (ThatNurseCanCook)",
+          "type": "person",
+          "context": "Macro influencer (779K), cookbook author, Jamaican home-cooking"
+        },
+        {
+          "name": "Lindsay Ostrom (Pinch of Yum)",
+          "type": "person",
+          "context": "Mega influencer (1.7M), cookbook author"
+        },
+        {
+          "name": "Liv Biermann (itslivb)",
+          "type": "person",
+          "context": "YouTube macro influencer (586K), Canada, responded to outreach"
+        }
+      ],
+      "insights": [
+        "Response rate appears low - only 3 positive responses out of 13 contacted influencers",
+        "Mega and macro influencers (1M+ followers) seem less interested in participating",
+        "Cookbook authors are specifically targeted, representing significant portion of list",
+        "Multi-platform presence is common - many influencers active on 2-3 platforms simultaneously",
+        "Geographic diversity exists but US/Canada influencers are primary targets",
+        "Contact methods vary: some have direct emails, others only reachable via social media or management",
+        "Outreach is in early phases (Phase 1-2), with majority of list not yet contacted",
+        "Influencer size categories: Micro (<100K), Mid (100K-500K), Macro (500K-1M), Mega (1M+)"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:02:34.399730"
+}

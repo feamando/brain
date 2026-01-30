@@ -1,0 +1,1030 @@
+{
+  "batch_id": "spreadsheet_043",
+  "doc_type": "spreadsheet",
+  "doc_count": 9,
+  "results": [
+    {
+      "doc_title": "HFCA - CCM Recipes",
+      "doc_id": "1ifyitYmONU5VnTW8MjP4dlVo_h3IQKWJzK4AfhoIndU",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe management and menu planning workflow for HelloFresh Canada (HFCA) Customer Choice Menu (CCM), tracking weekly recipe configurations, tags, labels, and promotional campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe slots: 1017, 1020, 1025, 1038, 1043, 1044, 1045, 1064-1066, 1082-1083, 1085-1094, 1301, 1302",
+        "Health Product Line slots: 1085-1094 (W34+ 2025)",
+        "15MM (15-minute meals) slots with 'Super Quick' label",
+        "Static Favourites: 10 parent slots",
+        "Monthly Themes: 3 parent slots",
+        "Regional surcharges: ON only MOD, AB & BC only surcharges (slots 1301, 1302)",
+        "Current active campaigns: Winter Warmers (W46-47), The Office (W43-44), Fall Flavours (W39-46), Global Cuisine (W38-40)"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh Canada (HFCA)",
+          "type": "brand",
+          "context": "Primary brand for this recipe management system"
+        },
+        {
+          "name": "CCM (Customer Choice Menu)",
+          "type": "system",
+          "context": "Menu management platform where recipes are uploaded and activated"
+        },
+        {
+          "name": "HC (HelloChef)",
+          "type": "system",
+          "context": "Team/system responsible for uploading menu weeks into CCM"
+        },
+        {
+          "name": "MP (Menu Planning)",
+          "type": "system",
+          "context": "Team that identifies recipe classifications and posts in #hfc_weekly_menuplanning Slack channel"
+        },
+        {
+          "name": "Naomi Harper",
+          "type": "person",
+          "context": "Contact for Protein Plus label logic questions (W10+ 2025)"
+        },
+        {
+          "name": "Cat & Nat",
+          "type": "brand",
+          "context": "Partnership campaign running W36-39 2025"
+        },
+        {
+          "name": "CPS",
+          "type": "system",
+          "context": "System where missing recipe information must be updated"
+        }
+      ],
+      "insights": [
+        "Complex multi-step QA process: Initial setup (T-1 week) → HC upload → Pre-activation check → Post-activation live QA → Manual corrections at T-2",
+        "Heavy reliance on manual data entry and cross-referencing between Product Calendar, Slack (#hfc_weekly_menuplanning), and CCM system",
+        "Regional customization: Different surcharges and MOD availability by province (ON, AB, BC)",
+        "Seasonal and promotional campaigns drive tag/label requirements with specific week ranges",
+        "Recipe taxonomy includes multiple classification systems: tags (Veggie, Family Friendly, Spicy, etc.), labels (Discovery, Perfect Pair, Super Quick), and product lines (Health, Carb Smart, Cal Smart, Protein Plus)",
+        "Slot 1038 has dynamic Veggie classification requiring manual Slack verification each week",
+        "Data integrity critical: Must update both current and future recipe versions, copy/paste values to lock in data",
+        "Transition from 'feel-good' to TAG logic for Protein Plus occurred at W10 2025",
+        "15-minute meal slots were reintroduced at W36 2024 after previous removal"
+      ]
+    },
+    {
+      "doc_title": "New Ventures: PA Backlog",
+      "doc_id": "1GqTtNYp7Mn6HL5OYtG4N0oisoRsPnASu97oJu2oyii8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks product analytics backlog for New Ventures brands (TPT and GoC), including experiment deep dives, dashboard builds, and analysis requests",
+      "data_type": "tracker",
+      "key_data_points": [
+        "43 total requests tracked",
+        "Priority levels: 1 (highest), 2 (medium), 3 (lowest/deprioritized)",
+        "Deadlines ranging from W47 to W50 2025, and W03-W10 2026",
+        "Request types: retention deep dive, CVR deep dive, CVA Calculation, dashboard builds, tracking events",
+        "Date added: primarily 06.11.2025 and 01.12.2025"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Primary brand with 33 requests - appears to be a pet food subscription service"
+        },
+        {
+          "name": "GoC",
+          "type": "brand",
+          "context": "Secondary brand with 10 requests - subscription service with OTP and cadence experiments"
+        },
+        {
+          "name": "Rena Zhou",
+          "type": "person",
+          "context": "Owner of multiple Tableau dashboard requests"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Responsible for multiple prepost analyses"
+        },
+        {
+          "name": "Winnie Huang",
+          "type": "person",
+          "context": "Building dashboards, available from end of December"
+        },
+        {
+          "name": "Harsh Maheshwari",
+          "type": "person",
+          "context": "Building dashboards from mid-December"
+        },
+        {
+          "name": "Laurent",
+          "type": "person",
+          "context": "Owner of Add-ons analysis"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "context": "Used as starting point for price test analysis"
+        },
+        {
+          "name": "Tableau",
+          "type": "system",
+          "context": "Dashboard platform for multiple retention and analytics dashboards"
+        },
+        {
+          "name": "FTC",
+          "type": "system",
+          "context": "Regulatory body requiring new cancellation page preparation"
+        }
+      ],
+      "insights": [
+        "Heavy focus on retention analysis - 'retention deep dive' appears in 15 requests",
+        "Conversion rate (CVR) optimization is a major theme with 13 CVR-related requests",
+        "Multiple dashboard build requests indicate need for better self-service analytics infrastructure",
+        "TPT brand shows extensive experimentation in funnel optimization (allergens, quiz improvements, meal cards, pricing)",
+        "Several Priority 3 items marked as 'Deprio' suggesting resource constraints",
+        "GoC brand focusing on OTP (One-Time Purchase) implementation and cadence experiments",
+        "Strong emphasis on A/B testing and pre-post analysis methodology",
+        "Regulatory compliance driving some work (FTC cancellation page requirements)",
+        "Cross-functional dependencies noted with 'Support needed' flags on multiple items",
+        "Resource bottleneck indicated by dashboard builds scheduled for mid-to-late December when capacity available"
+      ]
+    },
+    {
+      "doc_title": "New Ventures: PA Backlog",
+      "doc_id": "1GqTtNYp7Mn6HL5OYtG4N0oisoRsPnASu97oJu2oyii8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks product analytics backlog for New Ventures brands (TPT and GoC), including experiment deep dives, dashboard builds, and analysis requests",
+      "data_type": "tracker",
+      "key_data_points": [
+        "43 total requests tracked",
+        "Priority levels: 1 (highest), 2 (medium), 3 (lowest/deprioritized)",
+        "Deadlines ranging from W47 to W50 2025, and W03-W10 2026",
+        "Request types: retention deep dive, CVR deep dive, CVA Calculation, dashboard builds, tracking events",
+        "Date added: primarily 06.11.2025 and 01.12.2025"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Primary brand with 33 requests - appears to be a pet food subscription service"
+        },
+        {
+          "name": "GoC",
+          "type": "brand",
+          "context": "Secondary brand with 10 requests - subscription service with OTP and cadence experiments"
+        },
+        {
+          "name": "Rena Zhou",
+          "type": "person",
+          "context": "Owner of multiple Tableau dashboard requests"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Responsible for multiple prepost analyses"
+        },
+        {
+          "name": "Winnie Huang",
+          "type": "person",
+          "context": "Building dashboards, available from end of December"
+        },
+        {
+          "name": "Harsh Maheshwari",
+          "type": "person",
+          "context": "Building dashboards from mid-December"
+        },
+        {
+          "name": "Laurent",
+          "type": "person",
+          "context": "Owner of Add-ons analysis"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "context": "Used as starting point for price test analysis"
+        },
+        {
+          "name": "Tableau",
+          "type": "system",
+          "context": "Dashboard platform for multiple retention and analytics dashboards"
+        },
+        {
+          "name": "FTC",
+          "type": "system",
+          "context": "Regulatory body requiring new cancellation page preparation"
+        }
+      ],
+      "insights": [
+        "Heavy focus on retention analysis - 'retention deep dive' appears in 15 requests",
+        "Conversion rate optimization is a major theme with CVR and CVA calculations throughout",
+        "Multiple dashboard build requests indicate need for better self-service analytics infrastructure",
+        "TPT brand shows extensive experimentation in funnel optimization (allergens, quiz improvements, meal cards, pricing)",
+        "Priority 3 items are frequently marked as 'deprio' suggesting resource constraints",
+        "GoC brand has several pending items without clear deadlines, indicating earlier stage or blocked work",
+        "Strong emphasis on A/B testing and pre-post analysis methodology",
+        "Subscription business model evident through focus on cancellation rates, retention curves, and cadence analysis",
+        "Product features span customer acquisition (funnel/quiz), retention (dashboard, cancellations), and monetization (add-ons, pricing)",
+        "Cross-functional dependencies noted with 'Support needed' flags on multiple high-priority items"
+      ]
+    },
+    {
+      "doc_title": "Roadmap - Good Chop 2025/2026",
+      "doc_id": "19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg",
+      "doc_type": "spreadsheet",
+      "purpose": "Product development roadmap for Good Chop's 2025/2026 initiatives, tracking strategic projects, sprints, team capacity, and key milestones across quarters",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "53 weeks of planning from 12/31/2024 to 1/6/2026",
+        "4 quarters (Q1-Q4 2025)",
+        "70% capacity allocated to strategic initiatives",
+        "Dev capacity ranges from 5-33 story points across sprints",
+        "Peak period starts mid-year",
+        "Legal deadline: July 14 for Funnel and Cancellation deflection",
+        "Legal update: all changes by August 18",
+        "Price Deprecation deadline: November 18",
+        "Thanksgiving launch: Week 45",
+        "Migration to Pricing service: mid-October",
+        "Cash Credits migration: Week 45"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company for which roadmap is created"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Back to cross-sell, May 1 off"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Out of office May 8"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Returns to team, partly OOO during spike"
+        },
+        {
+          "name": "Pame",
+          "type": "person",
+          "context": "OOO 3 weeks, OOO until 22nd, returns later"
+        },
+        {
+          "name": "Areeba",
+          "type": "person",
+          "context": "Maternity leave until Q4 2026"
+        },
+        {
+          "name": "Bolo",
+          "type": "person",
+          "context": "Paternity leave from October 17 for 3 months"
+        },
+        {
+          "name": "Max",
+          "type": "person",
+          "context": "Team member mentioned with Nvard"
+        },
+        {
+          "name": "Nvard",
+          "type": "person",
+          "context": "Team member"
+        },
+        {
+          "name": "Becca",
+          "type": "person",
+          "context": "Out, then returns"
+        },
+        {
+          "name": "Khaled",
+          "type": "person",
+          "context": "Confirmed UPM Reactivations handled by Payments team"
+        },
+        {
+          "name": "Wallet",
+          "type": "system",
+          "context": "Major initiative with funnel work, error monitoring, campaigns, full launch"
+        },
+        {
+          "name": "Dashboard",
+          "type": "system",
+          "context": "Separate dashboard development (Milestone 1), order summary, premium swap, next delivery"
+        },
+        {
+          "name": "Seamless",
+          "type": "project",
+          "context": "Development on funnel, UAT phases, DIY version"
+        },
+        {
+          "name": "Welcome Kit",
+          "type": "project",
+          "context": "Development, UAT, marketing campaigns launched June 6"
+        },
+        {
+          "name": "Search",
+          "type": "system",
+          "context": "Development with product card redesign, launched June 23"
+        },
+        {
+          "name": "One Time Purchase (OTP)",
+          "type": "project",
+          "context": "MVP spike and development for funnel and post-checkout"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Credit reward at $0, design and product work"
+        },
+        {
+          "name": "PCS v2",
+          "type": "system",
+          "context": "Rolled out July 23 to 20%, then 100% by July 31"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Fixed cookie sizes July 24"
+        },
+        {
+          "name": "Genesys",
+          "type": "system",
+          "context": "Widget live after CC widget removed July 16"
+        }
+      ],
+      "insights": [
+        "Heavy focus on wallet and payment systems in Q1 with phased rollout (minor work → campaigns → full launch)",
+        "Dashboard development paused after Milestone 1 to prioritize CRO (Conversion Rate Optimization) initiatives",
+        "Significant team capacity fluctuations due to multiple leaves (maternity, paternity, OOO periods)",
+        "Legal compliance is a major constraint with multiple deadlines throughout the year",
+        "Product development follows a pattern: Spike → Dev → UAT → Bug fixes → Launch",
+        "Q2-Q3 focused on customer experience improvements (Seamless, Welcome Kit, Search, Product Cards)",
+        "Q4 emphasizes retention and monetization (Reactivations, OTP, Two-week cadence)",
+        "Multiple system migrations planned (Voucher, Pricing service, Cash Credits, PCS v2)",
+        "Peak season preparation requires extended planning and resource allocation",
+        "Cross-functional coordination between Dev, Design, Product, and PA (Product Analytics) teams",
+        "Experimentation-driven approach with rollback capabilities (e.g., 'No reason' rollback May 23)",
+        "Technical debt addressed through deprecation deadlines and system migrations",
+        "Customer retention initiatives include persisting free add-ons and reactivation UX improvements"
+      ]
+    },
+    {
+      "doc_title": "Roadmap - Good Chop 2025/2026",
+      "doc_id": "19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg",
+      "doc_type": "spreadsheet",
+      "purpose": "Product development roadmap for Good Chop's 2025/2026 initiatives, tracking strategic projects, sprints, team capacity, and key deliverables across quarters",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "53 weeks of planning from 12/31/2024 to 1/6/2026",
+        "70% capacity allocated to strategic initiatives",
+        "Dev capacity ranges from 5-33 story points across sprints",
+        "Legal deadlines: July 14 (Funnel, Cancellation deflection), August 18 (all changes published)",
+        "Price Deprecation deadline: November 18",
+        "Peak period starts mid-year",
+        "Thanksgiving one-off launch: Week 45",
+        "Migration to Pricing service needed: mid-October",
+        "Cash Credits migration: Week 45"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company for which the roadmap is created"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Back to cross-sell duties, May 1 off"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Out of office May 8"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Returns to team, partly OOO during One Time Purchase spike"
+        },
+        {
+          "name": "Pame",
+          "type": "person",
+          "context": "OOO 3 weeks, returns in Q4, OOO again until Sept 22"
+        },
+        {
+          "name": "Areeba",
+          "type": "person",
+          "context": "Maternity leave until Q4 2026"
+        },
+        {
+          "name": "Bolo",
+          "type": "person",
+          "context": "Paternity leave from October 17 for 3 months"
+        },
+        {
+          "name": "Becca",
+          "type": "person",
+          "context": "Out during certain period, returns later"
+        },
+        {
+          "name": "Max",
+          "type": "person",
+          "context": "Mentioned with Nvard"
+        },
+        {
+          "name": "Nvard",
+          "type": "person",
+          "context": "Mentioned with Max"
+        },
+        {
+          "name": "Khaled",
+          "type": "person",
+          "context": "Confirmed UPM Reactivations handled by Payments team"
+        },
+        {
+          "name": "Wallet",
+          "type": "system",
+          "context": "Major initiative with minor funnel work, error monitoring, campaigns launch, full launch with voucher migration"
+        },
+        {
+          "name": "Dashboard",
+          "type": "system",
+          "context": "Separate new dashboard development (Milestone 1), paused after Milestone 1 for CRO initiatives"
+        },
+        {
+          "name": "Seamless",
+          "type": "project",
+          "context": "Development on funnel, UAT phases, placeholder bugs"
+        },
+        {
+          "name": "Welcome Kit",
+          "type": "project",
+          "context": "Items available May 29, development and UAT, marketing campaigns launched June 6"
+        },
+        {
+          "name": "Search",
+          "type": "project",
+          "context": "Must keep allocating until INP resolved, launched June 23 with product cards"
+        },
+        {
+          "name": "One Time Purchase (OTP)",
+          "type": "project",
+          "context": "MVP spike and development for funnel and post-checkout, order created for Dig-tracking"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Credit reward at $0, mentioned across Q1-Q2"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Fixed cookie sizes on July 24"
+        },
+        {
+          "name": "Genesys",
+          "type": "system",
+          "context": "Widget live after CC widget removed July 16"
+        },
+        {
+          "name": "PCS v2",
+          "type": "system",
+          "context": "Rolled out to 20% on July 23, 100% on July 31"
+        }
+      ],
+      "insights": [
+        "Heavy focus on wallet and payment system improvements in Q1 with full launch and voucher migration",
+        "Strategic pause of Dashboard development after Milestone 1 to prioritize CRO (Conversion Rate Optimization) initiatives",
+        "Significant team capacity fluctuations due to multiple team members on leave (maternity, paternity, OOO)",
+        "Legal compliance is a major constraint with multiple deadlines throughout the year",
+        "Product development follows a phased approach: Spike → Development → UAT → Bug fixes → Launch",
+        "Q2 focuses on customer experience improvements (Seamless, Welcome Kit, Search)",
+        "Q3-Q4 shift toward retention and monetization (Reactivations, OTP, Two-week cadence)",
+        "Multiple system migrations planned for Q4 (Pricing service, Cash Credits, PCS v2)",
+        "Peak season preparation starts mid-year with Thanksgiving one-off in Week 45",
+        "Team operates on 2-week sprints with 70% capacity allocated to strategic initiatives",
+        "Several rollbacks and fixes noted in launch history (e.g., 'No reason' rollback May 23)",
+        "Cross-functional coordination between Dev, Design, Product, and PA (Product Analytics) teams",
+        "Preset V2 release contingent on positive Net Revenue results with 4-week maturity period"
+      ]
+    },
+    {
+      "doc_title": "AI-Native Pilot Teams",
+      "doc_id": "1yBWB8BLfjxnHsOuFkst5gdSukbw-lmiGpwKWAYLUf40",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks AI-Native pilot and pre-pilot teams, their onboarding status, points of contact, and associated project management links",
+      "data_type": "tracker",
+      "key_data_points": [
+        "7 teams total tracked",
+        "3 Pre-pilot teams",
+        "4 Pilot teams",
+        "Onboarding dates range from 9/14/2025 to 11/10/2025",
+        "Most teams lack complete JIRA and DORA metric links",
+        "Only 2 teams have DORA metrics links available"
+      ],
+      "entities": [
+        {
+          "name": "Pepijn Senders",
+          "type": "person",
+          "context": "Primary onboarder for 5 out of 7 teams"
+        },
+        {
+          "name": "Ebrahim Kargar",
+          "type": "person",
+          "context": "Co-onboarder for 6 teams and PoC for MarTech Voucher Validation"
+        },
+        {
+          "name": "Vadim Shaygorodskiy",
+          "type": "person",
+          "context": "Co-onboarder for MarTech Voucher Validation"
+        },
+        {
+          "name": "MarTech Voucher Validation",
+          "type": "project",
+          "context": "Pre-pilot team, earliest onboarding (9/14/2025)"
+        },
+        {
+          "name": "Engagement DAU",
+          "type": "project",
+          "context": "Pre-pilot team with Edu Morôni as PoC"
+        },
+        {
+          "name": "CCM Bulk Uploads",
+          "type": "project",
+          "context": "Pre-pilot team with Vimal Garg as PoC"
+        },
+        {
+          "name": "Conversions",
+          "type": "project",
+          "context": "Pilot team with Oleksii Svarychevski as PoC"
+        },
+        {
+          "name": "GoodChop",
+          "type": "project",
+          "context": "Pilot team with Alexander Matlin as PoC, has DORA metrics"
+        },
+        {
+          "name": "Squad Checkout",
+          "type": "project",
+          "context": "Pilot team with Kate Zimina and Vitaliy Shvarz as PoCs, has DORA metrics"
+        },
+        {
+          "name": "Cross Selling and Subscription Flexibility",
+          "type": "project",
+          "context": "Pilot team with incomplete data, no onboarding date"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "system",
+          "context": "Organization using Atlassian JIRA and Tableau for tracking"
+        },
+        {
+          "name": "JIRA",
+          "type": "system",
+          "context": "Project management tool, many links noted as 'Can't find link'"
+        },
+        {
+          "name": "DORA",
+          "type": "system",
+          "context": "DevOps metrics tracking via Tableau"
+        }
+      ],
+      "insights": [
+        "Data completeness issue: Most teams are missing JIRA and DORA metric links",
+        "Pepijn Senders and Ebrahim Kargar are the primary onboarding team, handling most implementations",
+        "Clear progression from Pre-pilot to Pilot status over time (September to November 2025)",
+        "Only 2 out of 7 teams (GoodChop and Squad Checkout) have complete DORA metrics tracking",
+        "One team (Cross Selling and Subscription Flexibility) is missing critical onboarding date information",
+        "Multiple PoCs noted difficulty accessing JIRA links ('Can't find link' appears 3 times)",
+        "Teams appear to be from various business domains: marketing, engagement, conversions, checkout, and cross-selling"
+      ]
+    },
+    {
+      "doc_title": "Roadmap - Good Chop 2025/2026",
+      "doc_id": "19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg",
+      "doc_type": "spreadsheet",
+      "purpose": "Product development roadmap for Good Chop's 2025/2026 initiatives, tracking strategic projects, sprints, team capacity, and key deliverables across quarters",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "53 weeks spanning Q1 2025 through Q1 2026",
+        "70% capacity allocated to strategic initiatives",
+        "Dev capacity ranges from 5-33 story points across sprints",
+        "Legal deadlines: July 14 (Funnel, Cancellation deflection), August 18 (all changes published)",
+        "Price Deprecation deadline: November 18",
+        "Peak period starts mid-year",
+        "Thanksgiving one-off launch: Week 45",
+        "Migration to Pricing service needed: mid-October",
+        "Cash Credits migration: Week 45"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company for which roadmap is created"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Returns to cross-sell duties, May 1 off"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Out of office May 8"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Returns to team, partially OOO during spike work"
+        },
+        {
+          "name": "Pame",
+          "type": "person",
+          "context": "OOO 3 weeks, returns later, OOO again until 22nd"
+        },
+        {
+          "name": "Areeba",
+          "type": "person",
+          "context": "Maternity leave until Q4 2026"
+        },
+        {
+          "name": "Bolo",
+          "type": "person",
+          "context": "Paternity leave from October 17 for 3 months"
+        },
+        {
+          "name": "Becca",
+          "type": "person",
+          "context": "Out, then returns"
+        },
+        {
+          "name": "Max",
+          "type": "person",
+          "context": "Mentioned with Nvard"
+        },
+        {
+          "name": "Nvard",
+          "type": "person",
+          "context": "Mentioned with Max"
+        },
+        {
+          "name": "Khaled",
+          "type": "person",
+          "context": "Confirmed UPM Reactivations handled by Payments team"
+        },
+        {
+          "name": "Wallet",
+          "type": "project",
+          "context": "Major initiative with minor funnel work, error monitoring, campaigns launch, full launch with voucher migration"
+        },
+        {
+          "name": "Dashboard",
+          "type": "project",
+          "context": "Separate new dashboard development (Milestone 1), paused after Milestone 1 for CRO initiatives"
+        },
+        {
+          "name": "Seamless",
+          "type": "project",
+          "context": "Development on funnel, UAT phases, placeholder bugs"
+        },
+        {
+          "name": "Welcome Kit",
+          "type": "project",
+          "context": "Development, UAT, items available May 29, marketing campaigns launched June 6"
+        },
+        {
+          "name": "Search",
+          "type": "project",
+          "context": "Must keep allocating until INP resolved, launched June 23, post-checkout search"
+        },
+        {
+          "name": "Product Cards",
+          "type": "project",
+          "context": "Redesign initiative, launched June 23"
+        },
+        {
+          "name": "One Time Purchase (OTP)",
+          "type": "project",
+          "context": "MVP spike and development phases, funnel and post-checkout work"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Credit reward at $0, design and product work"
+        },
+        {
+          "name": "PCS v2",
+          "type": "system",
+          "context": "Rolled out to 20% on July 23, 100% on July 31, migration work"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Fixed cookie sizes on July 24"
+        },
+        {
+          "name": "Genesys",
+          "type": "system",
+          "context": "Widget live after CC widget removed July 16"
+        }
+      ],
+      "insights": [
+        "Roadmap follows agile methodology with 2-week sprints and story point capacity planning",
+        "Team capacity significantly impacted by multiple leaves (maternity, paternity, OOO periods) in Q3-Q4",
+        "Heavy focus on CRO (Conversion Rate Optimization) initiatives mid-year, causing pause of new Dashboard work",
+        "Legal compliance is a major constraint with multiple deadlines affecting funnel and cancellation flows",
+        "Wallet and payment systems are foundational work completed early in roadmap (Q1-Q2)",
+        "Product development shifts from infrastructure (Wallet, Dashboard) to customer-facing features (Welcome Kit, Search, OTP) throughout the year",
+        "Multiple system migrations planned: Voucher, Pricing service, Cash Credits, PCS v2",
+        "Peak season preparation drives timing of several initiatives (Thanksgiving launch W45)",
+        "Design and Product teams work ahead of development with handovers and exploration phases",
+        "Several rollbacks and fixes noted in launch history (May 23 'No reason' rollback, July fixes for widgets and cart issues)",
+        "Cross-functional dependencies evident between Product, Design, PA (Product Analytics), and Dev teams",
+        "UPM (likely User Payment Management) Reactivations delegated to separate Payments team"
+      ]
+    },
+    {
+      "doc_title": "Roadmap - Good Chop 2025/2026",
+      "doc_id": "19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg",
+      "doc_type": "spreadsheet",
+      "purpose": "Product development roadmap for Good Chop's 2025/2026 initiatives, tracking strategic projects, sprints, team capacity, and key milestones across quarters",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "53 weeks of planning from 12/31/2024 to 1/6/2026",
+        "4 quarters (Q1-Q4 2025)",
+        "70% capacity allocated to strategic initiatives",
+        "Dev capacity ranges from 5-33 story points across sprints",
+        "Peak period starts mid-year",
+        "Legal deadline: July 14 for Funnel and Cancellation deflection",
+        "Legal update: all changes by August 18",
+        "Price Deprecation deadline: November 18",
+        "Thanksgiving launch: Week 45",
+        "Migration to Pricing service: mid-October",
+        "Cash Credits migration: Week 45"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company for which roadmap is created"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Back to cross-sell, May 1 off"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Out of office May 8"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Returns to team, partly OOO during spike"
+        },
+        {
+          "name": "Pame",
+          "type": "person",
+          "context": "OOO 3 weeks, returns later with 6 devs"
+        },
+        {
+          "name": "Areeba",
+          "type": "person",
+          "context": "Maternity leave until Q4 2026"
+        },
+        {
+          "name": "Bolo",
+          "type": "person",
+          "context": "Paternity leave from October 17 for 3 months"
+        },
+        {
+          "name": "Max",
+          "type": "person",
+          "context": "Team member mentioned with Nvard"
+        },
+        {
+          "name": "Nvard",
+          "type": "person",
+          "context": "Team member"
+        },
+        {
+          "name": "Becca",
+          "type": "person",
+          "context": "Out, then returns"
+        },
+        {
+          "name": "Khaled",
+          "type": "person",
+          "context": "Confirmed UPM Reactivations handled by Payments team"
+        },
+        {
+          "name": "Wallet",
+          "type": "system",
+          "context": "Full launch with voucher migration in Q1"
+        },
+        {
+          "name": "Dashboard",
+          "type": "system",
+          "context": "Separate new dashboard development, milestone 1 paused for CRO"
+        },
+        {
+          "name": "Seamless",
+          "type": "project",
+          "context": "Development on funnel, UAT in Q2"
+        },
+        {
+          "name": "Welcome Kit",
+          "type": "project",
+          "context": "Development and marketing campaigns launched June 6"
+        },
+        {
+          "name": "Search",
+          "type": "project",
+          "context": "Must keep allocating until INP resolved, launched June 23"
+        },
+        {
+          "name": "Product Cards",
+          "type": "project",
+          "context": "Redesign launched June 23"
+        },
+        {
+          "name": "One Time Purchase (OTP)",
+          "type": "project",
+          "context": "MVP spike and development in Q4"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Credit reward at $0, development in Q1-Q2"
+        },
+        {
+          "name": "PCS v2",
+          "type": "system",
+          "context": "Rolled out to 20% on July 23, 100% on July 31"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Fixed cookie sizes July 24"
+        },
+        {
+          "name": "Genesys",
+          "type": "system",
+          "context": "Widget live after CC widget removed July 16"
+        }
+      ],
+      "insights": [
+        "Roadmap follows agile methodology with 2-week sprints and story point capacity planning",
+        "Team capacity significantly impacted by multiple leaves (maternity, paternity, OOO) in Q3-Q4",
+        "Major strategic shift: Dashboard development paused after Milestone 1 to prioritize CRO (Conversion Rate Optimization) initiatives",
+        "Heavy focus on compliance and legal changes with multiple deadlines throughout the year",
+        "Product launches clustered in June-July period (Welcome Kit, Search, Product Cards, PCS v2)",
+        "Technical debt addressed through migrations (Voucher, Pricing service, Cash Credits)",
+        "Experimentation culture evident with A/B tests, UAT phases, and rollback capabilities",
+        "Cross-functional coordination between Dev, Design, Product, and PA (Product Analytics) teams",
+        "Peak season preparation starts mid-year with Thanksgiving-specific features",
+        "Persistent free add-ons feature spans multiple quarters showing complex implementation",
+        "Reactivation and retention features prioritized in Q4 (Reactivation UX, OTP)",
+        "Search performance (INP resolution) is critical ongoing concern requiring continuous allocation"
+      ]
+    },
+    {
+      "doc_title": "Roadmap - Good Chop 2025/2026",
+      "doc_id": "19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg",
+      "doc_type": "spreadsheet",
+      "purpose": "Product development roadmap for Good Chop's 2025/2026 initiatives, tracking strategic projects, sprints, team capacity, and key deliverables across quarters",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "53 weeks of planning from 12/31/2024 to 1/6/2026",
+        "70% capacity allocated to strategic initiatives",
+        "Dev capacity ranges from 5-33 story points across sprints",
+        "Legal deadlines: July 14 (Funnel, Cancellation deflection), August 18 (all changes published)",
+        "Price Deprecation deadline: November 18",
+        "Peak period starts mid-year",
+        "Thanksgiving one-off launch: Week 45",
+        "Migration to Pricing service needed: mid-October",
+        "Cash Credits migration: Week 45"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company for which the roadmap is created"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Back to cross-sell duties, May 1 off"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Out of office May 8"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Returns to team, partly OOO during One Time Purchase spike"
+        },
+        {
+          "name": "Pame",
+          "type": "person",
+          "context": "OOO 3 weeks, returns in Q4, OOO again until 22nd"
+        },
+        {
+          "name": "Areeba",
+          "type": "person",
+          "context": "Maternity leave until Q4 2026"
+        },
+        {
+          "name": "Bolo",
+          "type": "person",
+          "context": "Paternity leave from October 17 for 3 months"
+        },
+        {
+          "name": "Max",
+          "type": "person",
+          "context": "Team member mentioned in Q4"
+        },
+        {
+          "name": "Nvard",
+          "type": "person",
+          "context": "Team member mentioned in Q4"
+        },
+        {
+          "name": "Becca",
+          "type": "person",
+          "context": "Out, then returns to team"
+        },
+        {
+          "name": "Khaled",
+          "type": "person",
+          "context": "Confirmed UPM Reactivations handled by Payments team"
+        },
+        {
+          "name": "Wallet",
+          "type": "system",
+          "context": "Major initiative with minor funnel work, error monitoring, campaigns launch, full launch with voucher migration"
+        },
+        {
+          "name": "Dashboard",
+          "type": "system",
+          "context": "Separate new dashboard development (Milestone 1), paused after Milestone 1 for CRO initiatives"
+        },
+        {
+          "name": "Seamless",
+          "type": "project",
+          "context": "Development on funnel, UAT phases, placeholder bugs"
+        },
+        {
+          "name": "Welcome Kit",
+          "type": "project",
+          "context": "Development, UAT, items available May 29, marketing campaigns launched June 6"
+        },
+        {
+          "name": "Search",
+          "type": "project",
+          "context": "Development with product card redesign, launched June 23"
+        },
+        {
+          "name": "One Time Purchase (OTP)",
+          "type": "project",
+          "context": "MVP spike and development phases, order created for Dig-tracking"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Credit reward at $0, design and product work"
+        },
+        {
+          "name": "PCS v2",
+          "type": "system",
+          "context": "Migration, rolled out to 20% on July 23, 100% on July 31"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Fixed cookie sizes on July 24"
+        },
+        {
+          "name": "Genesys",
+          "type": "system",
+          "context": "Widget live after CC widget removed July 16"
+        }
+      ],
+      "insights": [
+        "Heavy focus on wallet and payment system improvements in Q1-Q2 2025",
+        "Team capacity significantly impacted by multiple leaves (maternity, paternity, OOO) in Q3-Q4",
+        "Strategic pivot: Dashboard development paused after Milestone 1 to prioritize CRO (Conversion Rate Optimization) initiatives",
+        "Compliance and legal changes are major themes with multiple deadlines throughout the year",
+        "Product launches follow a pattern: spike → development → UAT → bug fixes → launch",
+        "Multiple system migrations planned: Voucher, PCS v2, Pricing service, Cash Credits",
+        "Peak season preparation starts mid-year with Thanksgiving one-off in Week 45",
+        "Search functionality requires continuous allocation until INP (Interaction to Next Paint) is resolved",
+        "Free add-ons feature evolves from grace period end (April 15) to persisting across different user states",
+        "Significant technical debt addressed: Price deprecation, system migrations, widget optimizations",
+        "Cross-functional coordination between Dev, Design, Product, and PA (Product Analytics) teams",
+        "Real-time monitoring and rollback capabilities demonstrated (e.g., 'No reason' rollback May 23)"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:26:18.134055"
+}

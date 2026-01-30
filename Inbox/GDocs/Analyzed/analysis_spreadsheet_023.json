@@ -1,0 +1,111 @@
+{
+  "batch_id": "spreadsheet_023",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "CMA Squad overview",
+      "doc_id": "1q55kO1Nku3iw5y1G2XfNX2O1bDXiRaJ8vYWEHoRkBlY",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks CMA (Customer, Menu & Acquisition) squad organization, including team structure, KPIs, leadership, and communication channels for Q1 2026",
+      "data_type": "tracker",
+      "key_data_points": [
+        "25+ squads organized across 7 tribes",
+        "Q1 2026 KPIs defined for each squad",
+        "Profile Completion Rate (Customer Profile)",
+        "Menu Add-to-Cart Rate (Menu Discovery)",
+        "Recipe Response Rate (Feedback)",
+        "Predicted CLV per Intervention (Personalization)",
+        "Self Service Rate (Customer Service Experience)",
+        "Factor Penetration % (Factor Form)",
+        "Net Revenue (Good Chop, The Pets Table)",
+        "Daily active users to monthly active users ratio (Act squad)",
+        "Organic app downloads from sharing features (Share squad)"
+      ],
+      "entities": [
+        {
+          "name": "Shopping Journey",
+          "type": "project",
+          "context": "Tribe containing Customer Profile, Menu Discovery, Merchandising, and Feedback squads"
+        },
+        {
+          "name": "Shopping Foundation",
+          "type": "project",
+          "context": "Tribe containing Personalization, Cart, Shopping Platform, Customer Service Experience, and Cross Selling squads"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Tribe managing Factor Form, Good Chop, The Pets Table, and Market Innovation"
+        },
+        {
+          "name": "Consumer Core",
+          "type": "project",
+          "context": "Tribe focused on API-v2 migration for Customers, Plans, Deliveries & Orders, and Monoliths"
+        },
+        {
+          "name": "Consumer Foundations",
+          "type": "project",
+          "context": "Tribe with Consumer Acceleration and Client Platform squads"
+        },
+        {
+          "name": "Engagement",
+          "type": "project",
+          "context": "Tribe with Inspire and Act squads focused on app engagement"
+        },
+        {
+          "name": "Loyalty & Virality",
+          "type": "project",
+          "context": "Tribe managing Share, Missions, and Rewards squads"
+        },
+        {
+          "name": "Factor Form",
+          "type": "brand",
+          "context": "New venture with dedicated squad, website at factor75.com/factorform"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "New venture tracked by Net Revenue KPI, website at goodchop.com"
+        },
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "Pet food venture tracked by Net Revenue, website at thepetstable.com"
+        },
+        {
+          "name": "Fiona Lucas",
+          "type": "person",
+          "context": "PM for multiple Consumer Core squads (Customers, Plans, Deliveries & Orders, Monoliths)"
+        },
+        {
+          "name": "Wellney Yarra",
+          "type": "person",
+          "context": "PM for Customer Profile squad"
+        },
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "PM for Good Chop squad"
+        },
+        {
+          "name": "InComm",
+          "type": "system",
+          "context": "Integration partner for HelloFresh retail gift card program mentioned in email notes"
+        }
+      ],
+      "insights": [
+        "Organization uses tribe/squad structure with clear PM and EM ownership for each squad",
+        "Heavy focus on conversion metrics (Add-to-Cart rates, completion rates) across Shopping Journey squads",
+        "Consumer Core tribe is undergoing API-v2 migration with KPIs tracking endpoint migration progress",
+        "New Ventures tribe manages multiple brand initiatives (Factor, Good Chop, Pets Table) with revenue-focused KPIs",
+        "Engagement and Loyalty tribes focus on app-based metrics (downloads, active users, mission completion)",
+        "Some squads have missing Jira links or incomplete backlog information",
+        "UX tribe (Insights & Innovation, Content Design & Localization) has incomplete information with no assigned PM/EM",
+        "Multiple squads share 'Shopping Foundation & Customer Care' context, suggesting cross-functional collaboration",
+        "Email context shows active integration work with InComm for gift card program and various squad sync meetings"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:52:20.621441"
+}

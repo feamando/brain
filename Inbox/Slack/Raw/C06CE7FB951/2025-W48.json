@@ -1,0 +1,1199 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W48",
+  "extracted_at": "2026-01-02T10:43:57.354702Z",
+  "message_count": 23,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U01TQGXG9D3",
+      "text": "<@U01TQGXG9D3> has left the channel",
+      "type": "message",
+      "ts": "1764584508.461639"
+    },
+    {
+      "user": "U01TQGXG9D3",
+      "type": "message",
+      "ts": "1764584502.250119",
+      "bot_id": "B03CN16LT",
+      "text": "goodbye bollywood",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B03CN16LT",
+        "deleted": false,
+        "name": "giphy",
+        "updated": 1421408512,
+        "app_id": "A0F827J2C",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_72.png",
+          "image_48": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_48.png",
+          "image_72": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "block_id": "sY/4a",
+          "image_url": "https://media3.giphy.com/media/IJUsAMSi8jpQey3tHq/giphy-downsized.gif?cid=6104955esqbznkhtlxj2yyr73rjdalo3fcrit0afkj2pqkkx&ep=v1_gifs_translate&rid=giphy-downsized.gif&ct=g",
+          "alt_text": "goodbye bollywood",
+          "title": {
+            "type": "plain_text",
+            "text": "goodbye bollywood",
+            "emoji": true
+          },
+          "image_width": 480,
+          "image_height": 480,
+          "image_bytes": 1944297,
+          "is_animated": true,
+          "fallback": "480x480px image"
+        },
+        {
+          "type": "context",
+          "block_id": "BtYYt",
+          "elements": [
+            {
+              "type": "image",
+              "image_url": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_32.png",
+              "alt_text": "giphy logo"
+            },
+            {
+              "type": "mrkdwn",
+              "text": "Posted using /giphy | GIF by <https://giphy.com/bombaysoftwares/|Bombay Softwares>",
+              "verbatim": false
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "smiling_face_with_tear",
+          "users": [
+            "U8F7ZDAPM",
+            "U027201FQSV",
+            "U03UMPD2NNS",
+            "U03TY4YJU4X",
+            "U2D54V0UV",
+            "U05BNQPJX4K",
+            "U06JUCD7S4A"
+          ],
+          "count": 7
+        },
+        {
+          "name": "nooo-vader",
+          "users": [
+            "U01KKT2P7FY"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1764553726.533319",
+      "edited": {
+        "user": "U03TY4YJU4X",
+        "ts": "1764553924.000000"
+      },
+      "client_msg_id": "7bd22f5b-83fa-4c8b-92da-190682fbbc70",
+      "text": "Good morning folks, \n\nI would like to welcome <@U09UKDH3AA0> to the team as he would be joining us as a Staff Product Manager supporting The Pets Table. Prateek will be working together with the existing tech and commercial team, further growing our pet food service offering to customers across the US.\n\nPlease feel free to reach out to Prateek and give a warm welcome to HelloFresh!",
+      "team": "T02AGMUUR",
+      "thread_ts": "1764553726.533319",
+      "reply_count": 5,
+      "reply_users_count": 5,
+      "latest_reply": "1764599402.373349",
+      "reply_users": [
+        "U8F7ZDAPM",
+        "U03UMPD2NNS",
+        "U1GA9435H",
+        "U06JUCD7S4A",
+        "U027201FQSV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jvoDh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Good morning folks, \n\nI would like to welcome "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09UKDH3AA0"
+                },
+                {
+                  "type": "text",
+                  "text": " to the team as he would be joining us as a Staff Product Manager supporting The Pets Table. Prateek will be working together with the existing tech and commercial team, further growing our pet food service offering to customers across the US.\n\nPlease feel free to reach out to Prateek and give a warm welcome to HelloFresh!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U09UKDH3AA0",
+            "U2D54V0UV",
+            "U06JUCD7S4A"
+          ],
+          "count": 3
+        },
+        {
+          "name": "frogyay",
+          "users": [
+            "U8F7ZDAPM",
+            "U06JUCD7S4A",
+            "U027201FQSV"
+          ],
+          "count": 3
+        },
+        {
+          "name": "tada-confetti",
+          "users": [
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U01TQGXG9D3",
+            "U044SKGT4R5",
+            "U06JUCD7S4A",
+            "U027201FQSV",
+            "U09D8BZ9891"
+          ],
+          "count": 7
+        },
+        {
+          "name": "welcome-carpet",
+          "users": [
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "UEZ4PRFKM",
+            "U06JUCD7S4A",
+            "U027201FQSV",
+            "U09D8BZ9891"
+          ],
+          "count": 8
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1764582537.422729",
+          "client_msg_id": "14b9df1f-f312-4f50-b8f8-c1c50cdc02be",
+          "text": "Welcome to the team <@U09UKDH3AA0> :dogdance:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764553726.533319",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "M28sD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome to the team "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09UKDH3AA0"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "dogdance"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764582751.185869",
+          "client_msg_id": "269c503a-1292-4921-8680-74394266da20",
+          "text": "<@U09UKDH3AA0> welcome!!!! :yayfrog:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764553726.533319",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LK4+q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U09UKDH3AA0"
+                    },
+                    {
+                      "type": "text",
+                      "text": " welcome!!!! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "yayfrog"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U1GA9435H",
+          "type": "message",
+          "ts": "1764597430.397909",
+          "client_msg_id": "c73053fd-c629-4011-a37e-77db3c98396b",
+          "text": "Welcome welcome <@U09UKDH3AA0>!! :dog::cat-wave:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764553726.533319",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Hd1lF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome welcome "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09UKDH3AA0"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "cat-wave"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U06JUCD7S4A",
+          "type": "message",
+          "ts": "1764597487.553759",
+          "client_msg_id": "9e75026a-56a2-4b91-8a7a-114677806294",
+          "text": "Welcome to the team <@U09UKDH3AA0>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764553726.533319",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bI346",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome to the team "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09UKDH3AA0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1764599402.373349",
+          "client_msg_id": "424af4d9-fe09-4258-a324-96763143a810",
+          "text": "Welcome to the team <@U09UKDH3AA0>! :welcome-carpet:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764553726.533319",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gqXQi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome to the team "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09UKDH3AA0"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "welcome-carpet"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "UAAJRNY8G",
+      "text": "<@UAAJRNY8G> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764236124.646839"
+    },
+    {
+      "subtype": "thread_broadcast",
+      "user": "UEZ4PRFKM",
+      "thread_ts": "1764161384.532319",
+      "root": {
+        "user": "UEZ4PRFKM",
+        "type": "message",
+        "ts": "1764161384.532319",
+        "edited": {
+          "user": "UEZ4PRFKM",
+          "ts": "1764172001.000000"
+        },
+        "client_msg_id": "8a6b7ecf-df4a-486a-9e1e-a6aed2a1c641",
+        "text": "<!here> Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please <https://forms.gle/RfCcPCZ2yFRk3Nxg8>\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026",
+        "team": "T02AGMUUR",
+        "thread_ts": "1764161384.532319",
+        "reply_count": 11,
+        "reply_users_count": 6,
+        "latest_reply": "1764263100.796379",
+        "reply_users": [
+          "U02BA3VS7H8",
+          "UEZ4PRFKM",
+          "U023F53GS21",
+          "UE4HG114J",
+          "U01KKT2P7FY",
+          "U05BNQPJX4K"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "fpnm+",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "broadcast",
+                    "range": "here"
+                  },
+                  {
+                    "type": "text",
+                    "text": " Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://forms.gle/RfCcPCZ2yFRk3Nxg8"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "language": {
+          "locale": "en",
+          "is_reliable": true
+        }
+      },
+      "type": "message",
+      "ts": "1764162175.121389",
+      "client_msg_id": "2855a378-f76d-4a16-8a68-4a729bc2891a",
+      "text": "I added one more question around fit preference <https://forms.gle/RfCcPCZ2yFRk3Nxg8> so please resubmit if you already did. Im shopping around vendors atm and will try to accommodate",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zoQ1l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I added one more question around fit preference "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/RfCcPCZ2yFRk3Nxg8"
+                },
+                {
+                  "type": "text",
+                  "text": " so please resubmit if you already did. Im shopping around vendors atm and will try to accommodate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764161384.532319",
+      "edited": {
+        "user": "UEZ4PRFKM",
+        "ts": "1764172001.000000"
+      },
+      "client_msg_id": "8a6b7ecf-df4a-486a-9e1e-a6aed2a1c641",
+      "text": "<!here> Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please <https://forms.gle/RfCcPCZ2yFRk3Nxg8>\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026",
+      "team": "T02AGMUUR",
+      "thread_ts": "1764161384.532319",
+      "reply_count": 11,
+      "reply_users_count": 6,
+      "latest_reply": "1764263100.796379",
+      "reply_users": [
+        "U02BA3VS7H8",
+        "UEZ4PRFKM",
+        "U023F53GS21",
+        "UE4HG114J",
+        "U01KKT2P7FY",
+        "U05BNQPJX4K"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fpnm+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/RfCcPCZ2yFRk3Nxg8"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U02BA3VS7H8",
+            "U02BYQ8CHT7",
+            "U09D8BZ9891",
+            "U06JUCD7S4A"
+          ],
+          "count": 4
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U01U67XD681",
+            "U06JUCD7S4A"
+          ],
+          "count": 4
+        },
+        {
+          "name": "swag-parrot",
+          "users": [
+            "U02BA3VS7H8",
+            "U1GA9435H",
+            "U06JUCD7S4A",
+            "U05BNQPJX4K"
+          ],
+          "count": 4
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1764161606.831909",
+          "client_msg_id": "bef891a5-94d9-433b-bbbf-f9553e170070",
+          "text": "qq: Are the sizes unissex?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KcNTv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "qq: Are the sizes unissex?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "this",
+              "users": [
+                "U7SJ525DE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "subtype": "thread_broadcast",
+          "user": "UEZ4PRFKM",
+          "thread_ts": "1764161384.532319",
+          "root": {
+            "user": "UEZ4PRFKM",
+            "type": "message",
+            "ts": "1764161384.532319",
+            "edited": {
+              "user": "UEZ4PRFKM",
+              "ts": "1764172001.000000"
+            },
+            "client_msg_id": "8a6b7ecf-df4a-486a-9e1e-a6aed2a1c641",
+            "text": "<!here> Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please <https://forms.gle/RfCcPCZ2yFRk3Nxg8>\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026",
+            "team": "T02AGMUUR",
+            "thread_ts": "1764161384.532319",
+            "reply_count": 11,
+            "reply_users_count": 6,
+            "latest_reply": "1764263100.796379",
+            "reply_users": [
+              "U02BA3VS7H8",
+              "UEZ4PRFKM",
+              "U023F53GS21",
+              "UE4HG114J",
+              "U01KKT2P7FY",
+              "U05BNQPJX4K"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+              {
+                "type": "rich_text",
+                "block_id": "fpnm+",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "broadcast",
+                        "range": "here"
+                      },
+                      {
+                        "type": "text",
+                        "text": " Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://forms.gle/RfCcPCZ2yFRk3Nxg8"
+                      },
+                      {
+                        "type": "text",
+                        "text": "\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "language": {
+              "locale": "en",
+              "is_reliable": true
+            }
+          },
+          "type": "message",
+          "ts": "1764162175.121389",
+          "client_msg_id": "2855a378-f76d-4a16-8a68-4a729bc2891a",
+          "text": "I added one more question around fit preference <https://forms.gle/RfCcPCZ2yFRk3Nxg8> so please resubmit if you already did. Im shopping around vendors atm and will try to accommodate",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zoQ1l",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I added one more question around fit preference "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://forms.gle/RfCcPCZ2yFRk3Nxg8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " so please resubmit if you already did. Im shopping around vendors atm and will try to accommodate"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U023F53GS21",
+          "type": "message",
+          "ts": "1764162389.292769",
+          "client_msg_id": "ec6cb6e3-58d2-437f-9552-d50c402625c7",
+          "text": "am i still eligible for swag :eyes:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "D1n5/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "am i still eligible for swag "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U023F53GS21",
+          "type": "message",
+          "ts": "1764162399.789729",
+          "client_msg_id": "45523e47-eecb-41bb-94bf-0c39296e261d",
+          "text": "pls note that if answer is no im taking my dog with me",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7skZB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "pls note that if answer is no im taking my dog with me"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764162484.302949",
+          "client_msg_id": "DE089DF5-AE4F-41D8-8224-2D8158512EAC",
+          "text": "Fill in the form just in case we have a few extra :wink:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t7T9l",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Fill in the form just in case we have a few extra "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wink",
+                      "unicode": "1f609"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "smart",
+              "users": [
+                "U023F53GS21"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1764164940.576469",
+          "client_msg_id": "677b344a-f7fe-4fa5-ab2d-50a5287c8d7a",
+          "text": "Probably worth mentioning that these are EU sizes, right?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tNi8F",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Probably worth mentioning that these are EU sizes, right?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "this",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764170297.245319",
+          "client_msg_id": "a05d2dc4-b770-419e-9d55-722c0bb9344a",
+          "text": "Yes, so slightly smaller than the sizes NA folks are used to",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ap6Cn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, so slightly smaller than the sizes NA folks are used to"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01KKT2P7FY",
+          "type": "message",
+          "ts": "1764171745.557809",
+          "client_msg_id": "c563ac58-8a0b-42c7-9fa0-91573b352f49",
+          "text": "Can tavi get a thing too before I can no longer get things?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eLUbQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can tavi get a thing too before I can no longer get things?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "yes",
+              "users": [
+                "UEZ4PRFKM"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U05BNQPJX4K",
+          "type": "message",
+          "ts": "1764262955.848009",
+          "client_msg_id": "52c081dd-12f5-4ad7-95ac-59a10286eb9d",
+          "text": "I'm always between a Medium &amp; Large sweater because of long arms, should I pick a large?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GGKbx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm always between a Medium & Large sweater because of long arms, should I pick a large?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U05BNQPJX4K",
+          "type": "message",
+          "ts": "1764262965.177289",
+          "client_msg_id": "3706f96c-1ba1-4487-afe8-a2e17174a62a",
+          "text": "T-Shirts I'm 95% Medium",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FgHZ/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "T-Shirts I'm 95% Medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764263100.796379",
+          "client_msg_id": "f9eaf5d4-ad8d-475f-832f-9300291caebf",
+          "text": "yea I would go with L",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764161384.532319",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ULUHp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yea I would go with L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "thankyoublue",
+              "users": [
+                "U05BNQPJX4K"
+              ],
+              "count": 1
+            },
+            {
+              "name": "green_heart",
+              "users": [
+                "U05BNQPJX4K"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09UKDH3AA0",
+      "text": "<@U09UKDH3AA0> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160708.534159"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U01KA1QFFGT",
+      "text": "<@U01KA1QFFGT> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160684.880849"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U1GA9435H",
+      "text": "<@U1GA9435H> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160672.910509"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09JYRUPBFC",
+      "text": "<@U09JYRUPBFC> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160654.603679"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U08FY485B47",
+      "text": "<@U08FY485B47> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160623.587149"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U02BYQ8CHT7",
+      "text": "<@U02BYQ8CHT7> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160618.557789"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09CP1WMFJ9",
+      "text": "<@U09CP1WMFJ9> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160611.575719"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09D8BZ9891",
+      "text": "<@U09D8BZ9891> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160602.760059"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U02CRDYF2NL",
+      "text": "<@U02CRDYF2NL> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160595.916079"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U01T4BYS8TE",
+      "text": "<@U01T4BYS8TE> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160581.781369"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U06JUCD7S4A",
+      "text": "<@U06JUCD7S4A> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160576.058639"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03CLM4UBN3",
+      "text": "<@U03CLM4UBN3> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160570.358469"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U01V673T9F0",
+      "text": "<@U01V673T9F0> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160565.213029"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U01BT6RE4JG",
+      "text": "<@U01BT6RE4JG> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160559.564119"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "UNY6M67KM",
+      "text": "<@UNY6M67KM> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160539.929209"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U08E2S3V5D1",
+      "text": "<@U08E2S3V5D1> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160521.647029"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03EPTA66RK",
+      "text": "<@U03EPTA66RK> has joined the channel",
+      "inviter": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1764160512.680169"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "batch_id": "spreadsheet_028",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "Capitalization audit - [KR Inputs needed]",
+      "doc_id": "1CRXb8vyn-EfRT6LUWNxdjE-A8xUJ6k0q5v822ywgtdU",
+      "doc_type": "spreadsheet",
+      "purpose": "Q1 capitalization audit for tracking and verifying Key Results (KRs) that qualify for financial capitalization",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Column G - Finance/Portfolio Decision on KR Capitalization",
+        "Column H - Challenge decision flag (Yes/No)",
+        "Column I - Supporting comments",
+        "Column J - Check Questions (A, B, or C)",
+        "Column L - Economic benefit assessment",
+        "Column M - Percentage of capitalizable work YTD",
+        "Column AP - Tech Strategy input on OKR Management Tool"
+      ],
+      "entities": [
+        {
+          "name": "Q1 capitalization audit",
+          "type": "project",
+          "context": "Financial audit process for determining which Key Results can be capitalized as assets"
+        },
+        {
+          "name": "OKR Management Tool",
+          "type": "system",
+          "context": "Tool where YP/QAR strategy and tech strategy inputs are tracked"
+        },
+        {
+          "name": "YP/QAR strategy",
+          "type": "project",
+          "context": "Strategy framework that KRs must be associated with to demonstrate economic benefit"
+        },
+        {
+          "name": "KTLO",
+          "type": "project",
+          "context": "Keep The Lights On activities that may still deliver benefit and create assets"
+        }
+      ],
+      "insights": [
+        "Three-step verification process required: alliance tab review, finance decision verification, and question-specific responses",
+        "Three types of questions (A, B, C) address different capitalization criteria: asset creation evidence, economic benefit mapping, and percentage accuracy of capitalizable work",
+        "System flags KRs with missing YP strategy, KTLO associations needing benefit mapping, or KRs not found in OKR Tool",
+        "Allows for challenging finance decisions with supporting commentary",
+        "Includes mechanism to correct reporting mistakes from previous months",
+        "Links capitalization eligibility to strategic alignment and economic benefit demonstration"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:14:06.785309"
+}

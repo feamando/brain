@@ -1,0 +1,73 @@
+{
+  "batch_id": "spreadsheet_039",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "Good Chop: Tests Control Center (TCC)",
+      "doc_id": "14sn_hOcxcYDSqIyPnf37UUAqXWQVxzgY24Mu4SqFBzs",
+      "doc_type": "spreadsheet",
+      "purpose": "Tests Control Center (TCC) for Good Chop marketing campaigns - tracks A/B tests and promotional offers across different marketing channels (SEM, Facebook, CRM, Direct Mail)",
+      "data_type": "tracker",
+      "key_data_points": [
+        "25Q3 campaigns currently active (SEM NB, SEM Comp, SEM Brand, FB)",
+        "25Q2 campaigns recently completed or ongoing",
+        "23Q2 and 23Q1 historical campaigns for reference",
+        "Common offer structures: $100-$150 discounts with split patterns (50-30-20, 50-30-20-20, etc.)",
+        "Popular test variants: Welcome Kit offers, Free Ground Beef, Choose Your Offer, Ribeyes promotions",
+        "Geographic targeting: FL (Florida) specific offers, CA (Canada) specific tests",
+        "Channel breakdown: SEM (Search Engine Marketing - NB/Comp/Brand), FB (Facebook), CRM, DM (Direct Mail)"
+      ],
+      "entities": [
+        {
+          "name": "kelly.abrams@goodchop.com",
+          "type": "person",
+          "context": "Owner of SEM campaign tests (NB, Comp, Brand channels)"
+        },
+        {
+          "name": "yukie.yamamoto@goodchop.com",
+          "type": "person",
+          "context": "Owner of Facebook (FB) campaign tests"
+        },
+        {
+          "name": "yt@hellofresh.com",
+          "type": "person",
+          "context": "Owner of CRM and Direct Mail (DM) campaign tests, including Canada-specific tests"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Meat subscription service running promotional tests across multiple marketing channels"
+        },
+        {
+          "name": "SEM NB",
+          "type": "system",
+          "context": "Search Engine Marketing - New Business channel"
+        },
+        {
+          "name": "SEM Comp",
+          "type": "system",
+          "context": "Search Engine Marketing - Competitor targeting channel"
+        },
+        {
+          "name": "SEM Brand",
+          "type": "system",
+          "context": "Search Engine Marketing - Brand keyword channel"
+        }
+      ],
+      "insights": [
+        "Q3 2025 campaigns focus heavily on $100-$120 discount offers with multi-stage discount structures (50-30-20 pattern indicates likely discount percentages across order sequence)",
+        "Welcome Kit bundles and Free Ground Beef are primary promotional hooks being tested",
+        "Florida (FL) appears to be a key test market with multiple FL-specific offers",
+        "SEM campaigns test offer variations (Choose Your Offer vs Welcome Kit vs Free items)",
+        "Facebook campaigns test more product-specific offers (Ground Beef vs Ground Sirloin vs Ribeyes)",
+        "Campaign naming convention follows pattern: [Quarter] [Channel] [Offer A]__[Offer B] for A/B tests",
+        "Recent activity concentrated in July 2025 (last modified dates: 7/10-7/22/2025)",
+        "Historical data retained from 2023 campaigns suggests long-term test tracking and learnings",
+        "Canada market (CA) has separate test tracks with different offer structures",
+        "One unique test: 'BAU Copy__Tariff-Proof Copy' suggests messaging response to economic/trade conditions"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:21:19.216536"
+}

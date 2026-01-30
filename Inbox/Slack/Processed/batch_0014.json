@@ -1,0 +1,520 @@
+{
+  "batch_id": "C06CT0185T3_1763997054.960619",
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "message_count": 8,
+  "thread_count": 8,
+  "avg_importance": 88.0,
+  "tag_summary": {
+    "high_engagement": 2,
+    "action": 3,
+    "discussion": 4,
+    "question": 4,
+    "update": 1,
+    "notable": 2,
+    "deadline": 1
+  },
+  "time_range": {
+    "start": "1763997054.960619",
+    "end": "1764928485.271589"
+  },
+  "messages": [
+    {
+      "ts": "1763997054.960619",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Hey @UEZ4PRFKM would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+      "raw_text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W48",
+      "tags": [
+        "high_engagement",
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 12,
+      "reactions": [],
+      "thread_ts": "1763997054.960619",
+      "thread_replies": [
+        {
+          "ts": "1763998001.937289",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Hi Alex, based from the calendar provided by Platform that is correct. You can check it out https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0. Thanks!"
+        },
+        {
+          "ts": "1763998084.694329",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yes the web repo isnt opted out for https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=1476633874#gid=1476633874 during No Deployment Days so I would plan for our squads to respect these days and schedule deployments around them"
+        },
+        {
+          "ts": "1763998098.673259",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "woops -I forgot to hit send. Davor also shared :sweat_smile:"
+        },
+        {
+          "ts": "1763998193.628349",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Thank you both :handshake:"
+        },
+        {
+          "ts": "1764246721.636899",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hi @UEZ4PRFKM @U03TY4YJU4X!\n\nOn Monday we have an Approved Deployment day.\n\n*Approved Deployment Days:* Allows merges for services using Progressive Delivery or not on Opt-In list. For any service not using Progressive Delivery or that is on the Opt-In list, a Tribe Lead (Engineering or Product) must explicitly approve and a “*peak-approved*” label must be added to the PR in Github.\n\nDo you want us to send you the list of PRs or how would you prefer?"
+        },
+        {
+          "ts": "1764248050.521299",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Another question whom should we add as \"Stakeholder approval form\" for our PRs? Is PM enough?\n\n```Use the Updated PR Template: The frontend developers MUST include the following information in the description of every PR:\n- Potential risk section\n- Potential business impact\t\n- Potential customer impact\n- Stakeholder approval form```"
+        },
+        {
+          "ts": "1764248090.877719",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "This is only for peak, right?"
+        },
+        {
+          "ts": "1764248104.763669",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Yes"
+        },
+        {
+          "ts": "1764250600.694479",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yes send me a list of PRs and I can approve"
+        },
+        {
+          "ts": "1764250624.123239",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Is `Stakeholder approval form`  an actual form or is that a typo for \"from\""
+        },
+        {
+          "ts": "1764250669.404809",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "I guess it's just a typo for \"from\""
+        },
+        {
+          "ts": "1764262630.233489",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "You can just add me as the stakeholder when you send them over for approval. Not seeing much info elsewhere around who it should be"
+        }
+      ]
+    },
+    {
+      "ts": "1764087812.729749",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Hey eng leads @U027201FQSV @U8F7ZDAPM @U01BT6RE4JG @U01V9SX5NG5,\n\nAs part of peak prep for our TRE, we are being asked by the platform team to fill out this peak readiness https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1356933285#gid=1356933285 per squad outlining our alerts and monitoring dashboards. Its also a good exercise to confirm we have adequate observability and alerting to ensure system stability during peak\n\nAlex has already started this for GoC but can I ask the other leads to take a look and add their alerts/current dashboards pls- we ideally want this filled out by the end of next week Dec 5th. If dashboards don't exist, lets align how we can quickly leverage existing telemetry to create something in HoneyComb",
+      "raw_text": "Hey eng leads <@U027201FQSV> <@U8F7ZDAPM> <@U01BT6RE4JG> <@U01V9SX5NG5>,\n\nAs part of peak prep for our TRE, we are being asked by the platform team to fill out this peak readiness <https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1356933285#gid=1356933285|checklist> per squad outlining our alerts and monitoring dashboards. Its also a good exercise to confirm we have adequate observability and alerting to ensure system stability during peak\n\nAlex has already started this for GoC but can I ask the other leads to take a look and add their alerts/current dashboards pls- we ideally want this filled out by the end of next week Dec 5th. If dashboards don't exist, lets align how we can quickly leverage existing telemetry to create something in HoneyComb",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W48",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 98,
+      "reply_count": 8,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1764087812.729749",
+      "thread_replies": [
+        {
+          "ts": "1764112055.286979",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "I don't have permission to edit the docs."
+        },
+        {
+          "ts": "1764161473.996499",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "@U0MBX09UZ asked we put in our links as comments as he is helping validate the data quality of them.\n\nThis is also for FE TRE it looks like so for MIO/NV systems i would put mostly FE projects we worked on recently, like OTP"
+        },
+        {
+          "ts": "1764162962.068309",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "Sure but the OTP work has been handed off to @U01TQGXG9D3 . MIO or NVS afaik do not own any FE. "
+        },
+        {
+          "ts": "1764163701.546339",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Maybe just add a comment for Fede pls"
+        },
+        {
+          "ts": "1764172049.584769",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Have a blocker this Friday :+1:"
+        },
+        {
+          "ts": "1764175019.857409",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "On it this afternoon, thanks gang :sal:"
+        },
+        {
+          "ts": "1764345486.657219",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Done for Good Chop :white_check_mark:"
+        }
+      ]
+    },
+    {
+      "ts": "1764163191.918429",
+      "user": "U03UMPD2NNS",
+      "user_name": "U03UMPD2NNS",
+      "text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost *Panna Cotta* and *Gulab Jamun*.\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469.  @UEZ4PRFKM @U03TY4YJU4X You are probably in the best position to raise this issue and ask office management for solutions.",
+      "raw_text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost *Panna Cotta* and *Gulab Jamun*.\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management <https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469|isn't responding to our team's request>.  <@UEZ4PRFKM> <@U03TY4YJU4X> You are probably in the best position to raise this issue and ask office management for solutions.",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W48",
+      "tags": [
+        "discussion"
+      ],
+      "importance": 91,
+      "reply_count": 7,
+      "reactions": [
+        {
+          "name": "+1num",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1764163191.918429",
+      "thread_replies": [
+        {
+          "ts": "1764176882.628579",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Thanks for the visibility, I hadnt seen this. Let me raise this and align with Nikita when he is back next week around escalating. But i agree that it doesn't make sense for a WoCo team of less than 6 people to reserve the largest rooms on the floor"
+        },
+        {
+          "ts": "1764179695.557419",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Noted. We can make the argument that they take the back room in the Mezzanine, it's unbookable, not used and perfect for a 6 person team IMO. \n\n@UEZ4PRFKM fyi"
+        },
+        {
+          "ts": "1764838183.533389",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "I also have a feeling that the smaller rooms are booked out almost always (probably because the bigger ones are unavailable), which makes the overall rooms situation quite frustrating (just like it used to be in the other building)."
+        },
+        {
+          "ts": "1764838322.917119",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "to make it clear - I'm not talking about the 3rd floor only, it's across the whole building"
+        },
+        {
+          "ts": "1764844722.347389",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "*tl;dr:* Folks, unfortunately, there is no quick solution to the issue at hand.\n\n*Context:* Unfortunately, for cost-saving reasons, the ground floor quiet area will be subleased to another company, which means that that space will become unavailable for HF. Unfortunately, legally, WoCo does need access to secure, private rooms. Furthermore, because it's a \"smart building\" it's impossible to create additional meeting rooms quickly.\n\n*Immediate Solution:* We increase the usage of Mezzanine, the meeting room in the Mezzanine and the long table in the corridor on the other side of our room.\n\n*Mid-Term Solution:* The mezzanine space will be improved and separated into sections to increase access and utilization of the space. There will be a conference space, a individual meeting space and an easy way to get to the meeting room without disturbing participants in the conference space. The workspace team will consider increasing the quantity of phonebooths as well to compensate partially."
+        },
+        {
+          "ts": "1764846679.688039",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Does WoCo need the 2 big rooms on the 3rd floor?\nAs of now there is no room that is enough for our squad to meet.\n\nMy proposal:\n• free up gulab jamun (so that our teams have space for standups / groomings etc. and change it to a small room e.g. Brownie. \n• any chances that we could make the nursing room available to take meetings? It can be booked for all times it is needed for mothers, but most of the times the room is empty anyways. "
+        },
+        {
+          "ts": "1764853508.845869",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "That does seem to be the case, as they host parallel meetings, and they do have a legal entitlement for a specific space. BUT, why don't we want to use the big room in the back of the mezzanine? It should fit the whole team actually? + there is the big 10 person table in the corridor (there is nobody there, so can/should be used for grooming/planninbg for sure?\n\nNursing - yeah it's a good point, I don't think it's used for that; but worth checking with the broader team."
+        }
+      ]
+    },
+    {
+      "ts": "1764595913.333529",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Happy Monday team,\n\nwe want to understand how the Tribe members are using GenAI at the moment and how we can support them. Please take a look at https://docs.google.com/document/d/1i9Dg9pwMhL5wcFSiHl3QIVqXFyrRhxtWjpOj4FFKfwQ/edit?tab=t.0#heading=h.j3tl57qbat0b. We would appreciate your feedback before sharing it with the tribe.\n\nThank you!",
+      "raw_text": "Happy Monday team,\n\nwe want to understand how the Tribe members are using GenAI at the moment and how we can support them. Please take a look at <https://docs.google.com/document/d/1i9Dg9pwMhL5wcFSiHl3QIVqXFyrRhxtWjpOj4FFKfwQ/edit?tab=t.0#heading=h.j3tl57qbat0b|the Survey draft>. We would appreciate your feedback before sharing it with the tribe.\n\nThank you!",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W49",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 84,
+      "reply_count": 2,
+      "reactions": [],
+      "thread_ts": "1764595913.333529",
+      "thread_replies": [
+        {
+          "ts": "1764836787.147329",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "&gt; *6. What are the biggest challenges preventing you from using AI more effectively or more often?*\nI would rephrase it to more like \"How can we support you to use AI more effectively?\" and the answers accordingly. So that the whole sentiment is positive."
+        },
+        {
+          "ts": "1764836921.245709",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "And my personal feeling - it is too long. I would try to shrink it twice compared to what it is now."
+        }
+      ]
+    },
+    {
+      "ts": "1764663117.345289",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Morning team, just a heads up that I have an appointment at the immigration office at 1pm today so I’ll be working from home since it’s on the north side",
+      "raw_text": "Morning team, just a heads up that I have an appointment at the immigration office at 1pm today so I’ll be working from home since it’s on the north side",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W49",
+      "tags": [
+        "update",
+        "notable"
+      ],
+      "importance": 77,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "passport_control",
+          "users": [
+            "U027201FQSV",
+            "U03TY4YJU4X"
+          ],
+          "count": 2
+        },
+        {
+          "name": "handshake",
+          "users": [
+            "U2D54V0UV",
+            "U03TY4YJU4X"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1764663117.345289",
+      "thread_replies": [
+        {
+          "ts": "1764663183.205289",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Good luck there, Daniel!"
+        }
+      ]
+    },
+    {
+      "ts": "1764673211.627319",
+      "user": null,
+      "user_name": "",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your end-of-month reminder to please fill out the Monthly IT Cap Report before the deadline:*\n\n• :dance: Shared Team Members: @U03TY4YJU4X @UEZ4PRFKM \n• :dog: The Pets Table Squad: @U03UMPD2NNS @U8F7ZDAPM \n• :meat: GoodChop Squad: @U01AKGWGLC8 @U027201FQSV \n• :world: Market Innovation &amp; Optimization Squad:  @U02CRDYF2NL  @U01BT6RE4JG\n• :muscle:  Factor Form Squad: @U09D8BZ9891  @U01V9SX5NG5\nThe latest monthly report should be shared in the <#CD3KBK63Y|> channel",
+      "raw_text": "Heya New Ventures leads :wave:\n\n*This is your end-of-month reminder to please fill out the Monthly IT Cap Report before the deadline:*\n\n• :dance: Shared Team Members: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad: <@U01AKGWGLC8> <@U027201FQSV> \n• :world: Market Innovation &amp; Optimization Squad:  <@U02CRDYF2NL>  <@U01BT6RE4JG>\n• :muscle:  Factor Form Squad: <@U09D8BZ9891>  <@U01V9SX5NG5>\nThe latest monthly report should be shared in the <#CD3KBK63Y|> channel",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W49",
+      "tags": [
+        "high_engagement",
+        "deadline",
+        "action",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 12,
+      "reactions": [],
+      "thread_ts": "1764673211.627319",
+      "thread_replies": [
+        {
+          "ts": "1764686060.003219",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "@UEZ4PRFKM would you know what is the project we should use for BNL migration?"
+        },
+        {
+          "ts": "1764693791.120079",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "This is a good question... I don't think we have a KR in TAM that can be well attributed for this work - any ideas @U03TY4YJU4X? :thinking_face:\n\nThe PRD mentions leveraging new monetization models (ie: premium tier), but I see most existing KRs for teams are not generic enough or are cancelled. ie: ACT-T-19, CONS-S-67"
+        },
+        {
+          "ts": "1764772181.724499",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "Let me know once we have an option then I will complete IT Cap for the team"
+        },
+        {
+          "ts": "1764774523.383419",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Why don't we take the ACT-A-8-Subscription flexibility: Reduce cancellations cumulatively by 5%, as measured by A/B experiments for the time being? It's generic enough"
+        },
+        {
+          "ts": "1764775099.725589",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "Sounds good. I will use that for the team. Thanks."
+        },
+        {
+          "ts": "1764779707.898619",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "@U03TY4YJU4X it should be fine to attribute to that KR even if its labelled as DO NOT MEET right? I know they mostly care about not attributing to DONE or CANCELLED KRs"
+        },
+        {
+          "ts": "1764779735.266709",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "It's not cancelled :smile:"
+        },
+        {
+          "ts": "1764779763.771639",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "so yes, it's just that we don't meet the value. Cancelled or done would indicate that we already got the value (or don't plan to get it); hence can't capiutalize"
+        },
+        {
+          "ts": "1764878170.228119",
+          "user": "U02CRDYF2NL",
+          "user_name": "U02CRDYF2NL",
+          "text": "@U03TY4YJU4X Can you also suggest one for Factor form shopify initiaitve"
+        },
+        {
+          "ts": "1764879610.485389",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Ooh good question, what do we have for Factor Form generally? We could go for a conversion metric there, or revenue"
+        },
+        {
+          "ts": "1764881898.591359",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "in general, we have these main projects for Factor Form:\n• TAM-A-47-VMS: Drive towards achieving 15,690 net conversions for Factor Form by the end of 2025, in alignment with the 2025 business plan.\n• TAM-A-14-VMS: Launch One-Time Purchase in the Factor Form funnel with supporting tech infrastructure that can be leveraged by HFG by the end of Q2 2025\n• TAM-T-20-VMS: Launch 2 additional delivery cadences for Factor Form products that actives can select"
+        },
+        {
+          "ts": "1764890481.064119",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "@U02CRDYF2NL Just like last month, we are using TAM-A-14-VMS"
+        }
+      ]
+    },
+    {
+      "ts": "1764759076.738999",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Welcome again @U08E2S3V5D1 to New Ventures! :new-ventures:",
+      "raw_text": "Welcome again <@U08E2S3V5D1> to New Ventures! :new-ventures:",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W49",
+      "tags": [
+        "notable"
+      ],
+      "importance": 81,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "tada-confetti",
+          "users": [
+            "U027201FQSV",
+            "U2D54V0UV",
+            "U03TY4YJU4X",
+            "U09CP1WMFJ9",
+            "U03UMPD2NNS",
+            "UE4HG114J"
+          ],
+          "count": 6
+        },
+        {
+          "name": "wb",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U08E2S3V5D1"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1764759076.738999",
+      "thread_replies": [
+        {
+          "ts": "1764759162.871559",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Welcome to the team @U08E2S3V5D1! :welcome-carpet:"
+        }
+      ]
+    },
+    {
+      "ts": "1764928485.271589",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Heya @U01AKGWGLC8 and @U03UMPD2NNS - do we have any plans for rebranding/retheming of our brands in 2026?\n\nFor context, this year we had a KR for full adoption of Zest which we didn't prioritize so we didn't meet it (~60 files still need updates per brand), but if we have some rebranding plans, we should add this back into our roadmaps so we can leverage UI2 on Zest",
+      "raw_text": "Heya <@U01AKGWGLC8> and <@U03UMPD2NNS> - do we have any plans for rebranding/retheming of our brands in 2026?\n\nFor context, this year we had a KR for full adoption of Zest which we didn't prioritize so we didn't meet it (~60 files still need updates per brand), but if we have some rebranding plans, we should add this back into our roadmaps so we can leverage UI2 on Zest",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W49",
+      "tags": [
+        "question"
+      ],
+      "importance": 73,
+      "reply_count": 4,
+      "reactions": [],
+      "thread_ts": "1764928485.271589",
+      "thread_replies": [
+        {
+          "ts": "1764929487.296029",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "There's a general objective to do a brand refresh next year with an external agency - but Yury said they wouldn't kick this off until second part of the year"
+        },
+        {
+          "ts": "1764929513.776369",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "In general as we create new components now we do use Zest"
+        },
+        {
+          "ts": "1764932657.165229",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Nothing concrete on the TPT side, but this might change :slightly_smiling_face:"
+        },
+        {
+          "ts": "1764932882.279069",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yea these missing files are likely areas we haven't touched for a while but will need to update if we do a rebranding. @U01AKGWGLC8 lets consider this effort once the brand refresh comes onto the roadmap in 2026 for GoC, its likely that theres overlap in the remaining components across the 2 brands"
+        }
+      ]
+    }
+  ]
+}

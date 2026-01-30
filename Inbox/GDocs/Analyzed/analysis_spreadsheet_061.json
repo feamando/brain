@@ -1,0 +1,477 @@
+{
+  "batch_id": "spreadsheet_061",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks meal recipes and their nutritional information, costs, ratings, and operational details for what appears to be a meal delivery or food service company",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.65",
+        "L3 Run Ratings between 3.32 and 3.45",
+        "Calorie counts from 340 to 660 per meal",
+        "Sodium levels from 610mg to 1070mg",
+        "Protein content from 12g to 41g",
+        "Max meal cost targets ($2.54 to $3.49)",
+        "Nutrition scores (0 to 4.125)",
+        "Dietary fiber (6-7g)"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Multiple recipe variants (F00002A-F) in 'Graveyard' status"
+        },
+        {
+          "name": "Red Pepper Bruschetta Shredded Chicken",
+          "type": "product",
+          "context": "New recipe with 'New' status, approved 10/21/2025"
+        },
+        {
+          "name": "Garlic Tomato Cream Shredded Beef",
+          "type": "product",
+          "context": "New recipe with beef protein, approved 10/21/2025"
+        },
+        {
+          "name": "Ají Verde Turkey",
+          "type": "product",
+          "context": "New recipe with turkey protein, approved 10/28/2025"
+        },
+        {
+          "name": "Ginger Sesame Chicken & Scallion Rice",
+          "type": "product",
+          "context": "New Asian-inspired recipe, approved 11/11/2025"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal (Chicken & Mushroom Marsala has 6 variants F00002A-F), all marked as 'Graveyard' status suggesting discontinued items",
+        "All meals shown are marked as either 'Graveyard' or 'New' status, indicating lifecycle management",
+        "Strong focus on dietary accommodations: most meals are Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free, and Low Carb",
+        "Cuisine types span European (Italian), North American (Southwestern/Tex-Mex), and Asian (Chinese)",
+        "Chicken breast is the most common protein type in the sample",
+        "All new recipes have approval dates in late 2025 (October-November)",
+        "GLP-1 Balance and Mediterranean diet indicators suggest targeting specific health-conscious consumer segments",
+        "Shelf life status tracking indicates operational focus on food safety and freshness",
+        "Cost variance exists even within the same meal (Chicken & Mushroom Marsala ranges $1.94-$2.27)",
+        "Preparation methods are complex, involving multiple cooking techniques (Grill, Oven, Braiser, Shredder)"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks meal recipes and their nutritional information, costs, ratings, and operational details for what appears to be a meal delivery or food service company",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.65",
+        "L3 Run Ratings between 3.32 and 3.45",
+        "Calorie counts from 340 to 660 per meal",
+        "Sodium levels from 610mg to 1070mg",
+        "Protein content from 12g to 41g",
+        "Max meal cost target of $2.54 to $3.49",
+        "Nutrition scores ranging from 0 to 4.125",
+        "Dietary fiber content from 6g to 7g"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variations exist for the same meal (Chicken & Mushroom Marsala has versions A-F with slight cost and nutritional differences)",
+        "Most meals in the sample are marked as 'Graveyard' or 'New' status, suggesting lifecycle management",
+        "All meals are marked as 'Calorie Smart' and 'Chef's Choice', indicating quality standards",
+        "Chicken breast is the most common protein type in this sample",
+        "European/Italian cuisine is heavily represented",
+        "All meals use yellow or red sleeve colors for identification",
+        "Common cooking methods include oven, braiser, and grilling with marinades/brines",
+        "Meals are designed for various dietary preferences (Keto, High Protein, Dairy Free, Low Carb, GLP-1 Balance)",
+        "The database tracks extensive operational data including swap rates, run ratings, and shelf life status",
+        "Recent approval dates (October-November 2025) suggest active menu development"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, $0 revenue",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign with documented spend of $1,053 and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term tracking system covering 3+ years of weekly marketing data",
+        "WoW (Week-over-Week) analysis implemented starting in late 2022, suggesting increased focus on performance monitoring",
+        "Sparse data visible in extract suggests either incomplete data entry or filtered view",
+        "Self-Improvement campaign shows spend without corresponding revenue, indicating either a loss-making campaign or incomplete data",
+        "Consistent weekly cadence indicates disciplined marketing measurement approach",
+        "Structure suggests tracking multiple campaigns/channels with metrics like spend, revenue, and conversions"
+      ]
+    },
+    {
+      "doc_title": "Culinary Strategy | Recipe Development",
+      "doc_id": "1V8VPcFcI6fy9OPLgY6UL96aaK9_k5XCs3Ltk2lKtPTc",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe development brainstorming and planning tracker for culinary strategy, tracking new meal concepts across different product lines and dietary preferences",
+      "data_type": "planning",
+      "key_data_points": [
+        "Next brainstorm date: 1/14",
+        "Expected review date: 1/28",
+        "2025 slot assignments",
+        "Multiple recipe concepts per project (Concept 1-4)",
+        "Protein types: Chicken (shredded/breast), Seafood (Sea Bass), Beef & Pork (Meatball)",
+        "Product lines: Add On, Gourmet+, GLP-1 Support, Calorie Smart"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef assigned to Add On grain bowl projects"
+        },
+        {
+          "name": "LH",
+          "type": "person",
+          "context": "Chef assigned to Gourmet+ (Sea Bass) and GLP-1 Support (Meatball) projects"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef potentially assigned to Calorie Smart chicken rework (Steven)"
+        },
+        {
+          "name": "Leonard",
+          "type": "person",
+          "context": "Recommended black rice or wild rice blend for grain bowls"
+        },
+        {
+          "name": "Tricia / Abby",
+          "type": "person",
+          "context": "Confirming if Pesto Cream Chicken & Rice needs rework"
+        },
+        {
+          "name": "Add-ons team",
+          "type": "system",
+          "context": "Requesting grain bowl variety with new rice bases beyond quinoa"
+        },
+        {
+          "name": "Chopt Salad",
+          "type": "brand",
+          "context": "Inspiration source - Sesame Ginger Chicken Salad"
+        },
+        {
+          "name": "Chipotle",
+          "type": "brand",
+          "context": "Inspiration for Chipotle Crema"
+        }
+      ],
+      "insights": [
+        "Focus on diversifying grain bowl bases from quinoa to include black rice and wild rice blends that work cold",
+        "Strong emphasis on Asian-inspired flavors, with Korean cuisine and Asian street food seeing 32% YoY increase in consumer interest",
+        "Multiple dietary guardrails being tracked: Protein Plus, Mediterranean Diet, GLP-1 Support, Calorie Smart, Eat Like an Athlete",
+        "Recipe development follows structured concept generation (4 concepts per project) with specific marinade codes (e.g., 'mod marinade #6 Asian soy ginger')",
+        "Strategic ingredient considerations: avoiding cheese for shelf life, avoiding desserts in bento boxes, planning turkey meatball conversions",
+        "Gourmet+ line has significant expansion planned with multiple Sea Bass entries for slot 75",
+        "GLP-1 Support is a new product category with Mediterranean Diet alignment requirements",
+        "One rework project identified (F01476A - Pesto Cream Chicken & Rice) with assignment pending"
+      ]
+    },
+    {
+      "doc_title": "Good Chop Marketing Vouchers",
+      "doc_id": "13VRpw2nqq8rj2gL5AVh7dU35-La0EDoCfMPLFMnUxO8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing voucher codes for free product promotions at Good Chop, a meat/food delivery service, mapping promo codes to SKU indexes and customer IDs",
+      "data_type": "tracker",
+      "key_data_points": [
+        "14 different product voucher types (bacon, wings, beef, salmon, steaks, cheesecake)",
+        "Two duration types: 'For Life' and 'For Year' promotions",
+        "SKU indexes range from 1-147",
+        "Multiple promo code campaigns: TURKEY, TRK, TRKXA series, GBL",
+        "Customer IDs tracked (ranging from ~900K to ~2.2M)",
+        "ODL customer IDs listed: 68, 69, 73-77, 80-83",
+        "Over 100 customer IDs listed in rightmost columns"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Food delivery company offering meat and seafood products with promotional vouchers"
+        },
+        {
+          "name": "ODL",
+          "type": "system",
+          "context": "Referenced as source system for adding customer IDs"
+        },
+        {
+          "name": "Turkey Campaign 2023",
+          "type": "project",
+          "context": "Multiple turkey-related promo codes (ORGANIC TURKEY, TURKEY ACTIVATION NAE, TURKEY REACTIVATION NAE, TURKEY CODE 2023)"
+        }
+      ],
+      "insights": [
+        "Premium products (Ribeye, Filet Mignon, NY Strip) are offered as both lifetime and yearly promotions",
+        "Turkey promotions appear to be a major campaign with multiple activation types (organic, NAE, reactivation)",
+        "Most vouchers have 'Actives email banner' set to TRUE, indicating active email marketing",
+        "Products are primarily antibiotic-free (ABF) and include grass-fed options",
+        "The TRKXA series codes are associated with SKU index 60, while TRK, GBL, and TURKEY codes use SKU index 145",
+        "System tracks specific customer IDs for targeted promotional campaigns",
+        "Voucher prefixes are 3-letter codes (BCN, WNG, GFY, RFL, etc.) for easy reference"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and capacity status for the 2025 ANZ (Australia/New Zealand) Christmas Offering business initiative across multiple workstreams",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams marked as 'TBD' for secondary leads",
+        "Several capacity comments indicating work already in progress: 'Ideation done', 'Project has been set up', 'Recipes created', 'NID onboarding process already started', 'Onboarding SKUs for both markets'"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead for ANZ Product Strategy"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "ANZ Project Manager lead"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Stakeholder for multiple workstreams (Culinary Innovation, CIO Dev Team, Culinary, Editorial, Digital Ops)"
+        },
+        {
+          "name": "Francois Lubrano",
+          "type": "person",
+          "context": "Stakeholder for Project Management, Procurement Ops AU, and Menu Planning"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "project",
+          "context": "Project code/identifier in document title"
+        },
+        {
+          "name": "2025 ANZ Christmas Offering",
+          "type": "project",
+          "context": "Main business initiative being tracked"
+        },
+        {
+          "name": "Strategic Procurement",
+          "type": "system",
+          "context": "Workstream with multiple leads across PTN, PHF, PCK, and GRO categories"
+        }
+      ],
+      "insights": [
+        "Project spans both Australian and New Zealand markets with dedicated regional leads for most functions",
+        "Heavy cross-functional coordination required across 22+ workstreams including culinary, engineering, logistics, marketing, and operations",
+        "Project is in active execution phase with several milestones already completed (ideation, recipes, onboarding processes)",
+        "Some workstreams have multiple co-leads (Engineering, Finance, Procurement Ops, Production NZ)",
+        "Several positions still need assignment (multiple 'TBD' entries for secondary leads)",
+        "FSQA (Food Safety & Quality Assurance) explicitly noted as needing to onboard SKUs for both markets",
+        "Duplication work required for marketing campaigns, recipe booklets, and website content across markets",
+        "Strong stakeholder involvement with Hannah Gilbert overseeing multiple culinary and content-related workstreams"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "Story points assigned to KTLO work",
+        "Story points for resolved tickets",
+        "Monthly KTLO work distribution by team"
+      ],
+      "entities": [
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticket tracking system used to label and track KTLO work"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "The organizational unit or division being tracked for operational overhead"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their operational overhead separately",
+        "The system is automated with a nightly cron job that updates the spreadsheet",
+        "Accurate tracking requires retrospective story point assignment to resolved tickets",
+        "The calculation is based on resolved date to attribute work to specific months",
+        "The spreadsheet relies on consistent labeling practices (KTLO label) for accuracy"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign or category with $1,053 budget allocation and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term tracking system covering 3+ years of weekly marketing data",
+        "WoW (Week-over-Week) analysis implemented starting in late 2022, suggesting increased focus on performance monitoring",
+        "Sparse data visible in extract suggests this is a large spreadsheet with most cells empty or containing detailed metrics not shown",
+        "Self-Improvement campaign data point suggests tracking of specific marketing initiatives with budget and conversion metrics",
+        "Consistent weekly cadence indicates regular marketing reporting and analysis structure"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved tickets with story points",
+        "Monthly operational overhead calculation per team"
+      ],
+      "entities": [
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used to track and label KTLO work"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "The organizational unit or division being tracked for operational overhead"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to identify Keep The Lights On (operational maintenance) work in Jira tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "Requires discipline in labeling tickets and assigning story points for accuracy",
+        "Uses resolved date to attribute tickets to specific months",
+        "Story points should be added retrospectively for accurate overhead calculation",
+        "System depends on proper Jira hygiene (labeling and story point assignment)"
+      ]
+    },
+    {
+      "doc_title": "Good Chop Marketing Vouchers",
+      "doc_id": "13VRpw2nqq8rj2gL5AVh7dU35-La0EDoCfMPLFMnUxO8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing voucher codes for free product promotions at Good Chop, a meat/food delivery service, mapping promo codes to SKU indexes and customer IDs",
+      "data_type": "tracker",
+      "key_data_points": [
+        "14 different product voucher types (bacon, wings, beef, salmon, steaks, cheesecake)",
+        "Two duration types: 'For Life' and 'For Year' promotions",
+        "SKU indexes ranging from 1-147",
+        "Multiple promo code campaigns: TURKEY, TRK, TRKXA series, GBL",
+        "Customer IDs tracked (ranging from ~900K to ~2.2M)",
+        "ODL customer ID: 11783",
+        "Over 100 individual customer IDs listed in rightmost columns"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Food delivery company offering meat and seafood subscriptions with promotional vouchers"
+        },
+        {
+          "name": "ODL",
+          "type": "system",
+          "context": "Referenced as source system for adding customer IDs"
+        },
+        {
+          "name": "TURKEY campaigns",
+          "type": "project",
+          "context": "Multiple turkey-related promotional campaigns (ORGANIC TURKEY, TURKEY ACTIVATION NAE, TURKEY REACTIVATION NAE, TURKEY CODE 2023)"
+        }
+      ],
+      "insights": [
+        "Premium products (ribeyes, filet mignon) are offered as both lifetime and yearly promotions, suggesting high-value customer acquisition strategy",
+        "Turkey promotions appear to be a major campaign focus with multiple variants (activation, reactivation, organic)",
+        "All products use 'ABF' (Antibiotic-Free) designation, indicating quality positioning",
+        "Bacon (SKU 108) is the most common promotional item with both lifetime and yearly options",
+        "Email banner activation is TRUE for most products except some Filet Mignon and NY Strip lifetime offers",
+        "Customer IDs in the 2M range appear most frequently, suggesting recent customer acquisition focus",
+        "Standardized messaging format: 'We've added your FREE [product]. Enjoy!'",
+        "Multiple promo code series (TRKXA1A through TRKXA5A) suggest systematic campaign testing or segmentation"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:17:53.467245"
+}

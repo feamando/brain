@@ -1,0 +1,508 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W35",
+  "extracted_at": "2026-01-02T10:43:04.422625Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "UE4HG114J",
+      "type": "message",
+      "ts": "1756566993.061539",
+      "client_msg_id": "d15919af-a961-471c-9a4b-73592dc43ac7",
+      "text": "FYI, there is a critical alert based on an automated trigger - `[Good-chop] - Availability will violate SLO in 4h0m0s`\nIncident channel - <#C09CSJB184A|>",
+      "team": "T02AGMUUR",
+      "thread_ts": "1756566993.061539",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1756568700.073009",
+      "reply_users": [
+        "UE4HG114J"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bewRO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "FYI, there is a critical alert based on an automated trigger - "
+                },
+                {
+                  "type": "text",
+                  "text": "[Good-chop] - Availability will violate SLO in 4h0m0s",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nIncident channel - "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C09CSJB184A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "solved",
+          "users": [
+            "UE4HG114J"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1756568700.073009",
+          "client_msg_id": "3d13c44b-eeb9-4504-ac91-1b94515d0194",
+          "text": "Closed as not an incident.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756566993.061539",
+          "parent_user_id": "UE4HG114J",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fd3Z3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Closed as not an incident."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1756189442.148189",
+      "client_msg_id": "779e63b9-9902-4070-adaa-2795cee5ab9c",
+      "text": "<!here> hi folks please go ahead and book for yourself in the Archibus system. Please book for your colleagues as well.\n\nExample: I have done so so far for: DA, Yarra, Max, Cho, Deo, Bea, Becca, Bolo but I have reached max capacity :-)",
+      "team": "T02AGMUUR",
+      "thread_ts": "1756189442.148189",
+      "reply_count": 9,
+      "reply_users_count": 6,
+      "latest_reply": "1756198928.523729",
+      "reply_users": [
+        "U02BA3VS7H8",
+        "U03TY4YJU4X",
+        "U027201FQSV",
+        "U023F53GS21",
+        "U0251UW1YUE",
+        "U2D54V0UV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "geco9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " hi folks please go ahead and book for yourself in the Archibus system. Please book for your colleagues as well.\n\nExample: I have done so so far for: DA, Yarra, Max, Cho, Deo, Bea, Becca, Bolo but I have reached max capacity :-)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ty",
+          "users": [
+            "UE4HG114J",
+            "U02BA3VS7H8",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U2D54V0UV",
+            "U01TQGXG9D3"
+          ],
+          "count": 6
+        },
+        {
+          "name": "blobheart",
+          "users": [
+            "U02BA3VS7H8",
+            "U023F53GS21",
+            "U0251UW1YUE"
+          ],
+          "count": 3
+        },
+        {
+          "name": "on-it",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756189591.100839",
+          "client_msg_id": "5A13BDCF-C694-45E8-A93C-9ED08DEB7F6A",
+          "text": "Do you have the Archibus URL? ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bhf0A",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Do you have the Archibus "
+                    },
+                    {
+                      "type": "text",
+                      "text": "URL? "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756189663.163479",
+          "client_msg_id": "ee365db3-dc3b-4fb9-8634-a0c07f196aea",
+          "text": "I used the web page",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JaaSa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I used the web page"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756189664.159969",
+          "client_msg_id": "f363fe5a-b001-44ed-9e76-4e9b345c7b20",
+          "text": "<https://hellofresh.archibus.cloud/archibus|https://hellofresh.archibus.cloud/archibus>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5r3y1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.archibus.cloud/archibus",
+                      "text": "https://hellofresh.archibus.cloud/archibus"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1756190439.864049",
+          "edited": {
+            "user": "U02BA3VS7H8",
+            "ts": "1756191464.000000"
+          },
+          "client_msg_id": "545A2254-5666-43DF-875F-8C153C4BB9DB",
+          "text": "I was able to book for Guhan, Pedro, Ahmed, Alex, Mateusz, Oliver, Desi, Maria, Davor and Marina.\nNow I can’t book anymore",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wo/i3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I was able to book for Guhan, Pedro, Ahmed, Alex, Mateusz, Oliver, Desi, Maria, Davor and Marina.\nNow I can’t book anymore"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "heart",
+              "users": [
+                "U8F7ZDAPM",
+                "U03TY4YJU4X",
+                "U027201FQSV",
+                "UFE79GKFC",
+                "U7SJ525DE",
+                "U2D54V0UV"
+              ],
+              "count": 6
+            },
+            {
+              "name": "thankyou",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1756193193.546279",
+          "client_msg_id": "56319674-06a5-4f96-a812-4c1c868b00fc",
+          "text": "<@U03TY4YJU4X> do we need to do this every time we are in the office? Or only today?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JMvNo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " do we need to do this every time we are in the office? Or only today?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756193464.598269",
+          "client_msg_id": "fa3440d9-d452-4e62-aa5f-ff67a099b96c",
+          "text": "Only today because there is a risk",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "h/8Dd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Only today because there is a risk"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U023F53GS21",
+          "type": "message",
+          "ts": "1756197192.349689",
+          "client_msg_id": "6d0b4cd6-823a-4f1f-962c-6753584399b0",
+          "text": "i was like \"what is this email? who is archibus?\" :joy:\n\nthank you nikita :hugging_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "u3Adr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i was like \"what is this email? who is archibus?\" "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "joy",
+                      "unicode": "1f602"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nthank you nikita "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hugging_face",
+                      "unicode": "1f917"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "joy",
+              "users": [
+                "U2D54V0UV",
+                "U044SKGT4R5"
+              ],
+              "count": 2
+            },
+            {
+              "name": "pray",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1756197591.026009",
+          "client_msg_id": "06a1e5dc-63ee-46a4-94dc-19b13cee7688",
+          "text": "oh sweet! thanks nikita! :heart:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EdZ6P",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "oh sweet! thanks nikita! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "heart",
+                      "unicode": "2764-fe0f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1756198928.523729",
+          "client_msg_id": "16cc16a1-a0d6-4250-8027-0bcf73ccd068",
+          "text": "Thank you all :thank_you:, looks like we are full. Do we know why some of the desks are not available for booking?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1756189442.148189",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iuw1i",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you all "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thank_you"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", looks like we are full. Do we know why some of the desks are not available for booking?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

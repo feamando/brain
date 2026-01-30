@@ -1,0 +1,1646 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W29",
+  "extracted_at": "2026-01-02T10:38:40.570279Z",
+  "message_count": 4,
+  "messages": [
+    {
+      "user": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1752590322.852289",
+      "client_msg_id": "0f7c32a4-05f2-4824-ab1b-cf1ee5c2bc01",
+      "text": "Heya <@U027201FQSV> <@U8F7ZDAPM> <@U7SJ525DE>\n\nYou might have seen a ping on this <https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359|channel> from Consumer Core but tldr; they are looking to deprecate the use of `PATCH /subscriptions/{subscriptionId}` for editting delivery information as they rollout CDPS. Is this work we already have on our roadmaps as we adopt CDPS?\n\nIf not, we ideally have to prioritize it in the next 2 sprints. Technically they asked for this to be done by end of July but IMO this is unrealistic. I have aligned on a mid Aug deadline instead but want to confirm that we can make this change for our TPT and GoC brands before then. The change itself looks pretty straightforward to me",
+      "team": "T02AGMUUR",
+      "thread_ts": "1752590322.852289",
+      "reply_count": 14,
+      "reply_users_count": 5,
+      "latest_reply": "1753719511.686469",
+      "reply_users": [
+        "U7SJ525DE",
+        "U027201FQSV",
+        "U01AKGWGLC8",
+        "UEZ4PRFKM",
+        "U8F7ZDAPM"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359",
+          "ts": "1752221071.377359",
+          "author_id": "U07UZ2QAM7D",
+          "channel_id": "C087X11S06A",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C087X11S06A",
+              "ts": "1752221071.377359",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "8hhNF",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "emoji",
+                            "name": "memo",
+                            "unicode": "1f4dd",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " \"PATCH /subscription\" for Delivery updates End of Life",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nDear Deliveries clients ("
+                          },
+                          {
+                            "type": "text",
+                            "text": "web, mobile & internal backend ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "services),\n\nAs a part of Consumer Core strategy and "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Alliance KR",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a "
+                          },
+                          {
+                            "type": "text",
+                            "text": "new Deliveries API ",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “"
+                          },
+                          {
+                            "type": "text",
+                            "text": "PATCH /subscription",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “"
+                          },
+                          {
+                            "type": "text",
+                            "text": "POST /plans/{id}/changePlanDeliveryDetails",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “"
+                          },
+                          {
+                            "type": "text",
+                            "text": "PATCH /subscription",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "” will stop to update the Delivery entities.\n\n"
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "hourglass_flowing_sand",
+                            "unicode": "23f3"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Due Date:",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " 31 July.\n\nWe see following clients (cc among others "
+                          },
+                          {
+                            "type": "user",
+                            "user_id": "UEZ4PRFKM"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "user",
+                            "user_id": "U06L36ATUCD"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "user",
+                            "user_id": "U0708FBKN30"
+                          },
+                          {
+                            "type": "text",
+                            "text": ") updating the delivery option/interval using this endpoint:\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Android app"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "iPhone app"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "GreenChef Mobile App (Android)"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "whitelabel-mobile/Everyplate"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "whitelable-mobile/Youfoodz"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /account-settings/subscription-settings/delivery-window"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /account-settings/subscription-settings/delivery-address"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /my-account/deliveries/menu"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /settings/plan/delivery-address"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /settings/plan/reactivate"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Web: /account-settings/subscription-settings/delivery-interval"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "\nWe have prepared "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life",
+                            "text": "description of the change requested"
+                          },
+                          {
+                            "type": "text",
+                            "text": " and "
+                          },
+                          {
+                            "type": "text",
+                            "text": "we would like to know back from you",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " in the "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "thread",
+                            "unicode": "1f9f5"
+                          },
+                          {
+                            "type": "text",
+                            "text": " the feasibility of such change in your client."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "private_channel_prompt": true,
+          "id": 1,
+          "original_url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359",
+          "fallback": "[July 11th, 2025 1:04 AM] damian.tylczynski: :memo: *\"PATCH /subscription\" for Delivery updates End of Life*\n\nDear Deliveries clients (*web, mobile &amp; internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “*PATCH /subscription*” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “*POST /plans/{id}/changePlanDeliveryDetails*” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “*PATCH /subscription*” will stop to update the Delivery entities.\n\n:hourglass_flowing_sand: *Due Date:* 31 July.\n\nWe see following clients (cc among others <@UEZ4PRFKM> <@U06L36ATUCD> <@U0708FBKN30>) updating the delivery option/interval using this endpoint:\n• Android app\n• iPhone app\n• GreenChef Mobile App (Android)\n• whitelabel-mobile/Everyplate\n• whitelable-mobile/Youfoodz\n• Web: /account-settings/subscription-settings/delivery-window\n• Web: /account-settings/subscription-settings/delivery-address\n• Web: /my-account/deliveries/menu\n• Web: /settings/plan/delivery-address\n• Web: /settings/plan/reactivate\n• Web: /account-settings/subscription-settings/delivery-interval\nWe have prepared <https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life|description of the change requested> and *we would like to know back from you* in the :thread: the feasibility of such change in your client.",
+          "text": ":memo: *\"PATCH /subscription\" for Delivery updates End of Life*\n\nDear Deliveries clients (*web, mobile &amp; internal backend* services),\n\nAs a part of Consumer Core strategy and *Alliance KR* we are in process of moving the source of truth of Deliveries information from Intfood to CDPS; introducing a *new Deliveries API* and taking over all the APIv2 endpoints that modify Delivery information.\n\nTo be able to achieve that we ask all the clients that are using “*PATCH /subscription*” (mixing concern of many entities) for the purpose of changing delivery information to simply switch to existing APIv2 “*POST /plans/{id}/changePlanDeliveryDetails*” endpoint. This is the only way we can guarantee that the use-cases will be successfully supported after switching the source of truth to the new system. All the API calls that are being done to “*PATCH /subscription*” will stop to update the Delivery entities.\n\n:hourglass_flowing_sand: *Due Date:* 31 July.\n\nWe see following clients (cc among others <@UEZ4PRFKM> <@U06L36ATUCD> <@U0708FBKN30>) updating the delivery option/interval using this endpoint:\n• Android app\n• iPhone app\n• GreenChef Mobile App (Android)\n• whitelabel-mobile/Everyplate\n• whitelable-mobile/Youfoodz\n• Web: /account-settings/subscription-settings/delivery-window\n• Web: /account-settings/subscription-settings/delivery-address\n• Web: /my-account/deliveries/menu\n• Web: /settings/plan/delivery-address\n• Web: /settings/plan/reactivate\n• Web: /account-settings/subscription-settings/delivery-interval\nWe have prepared <https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life|description of the change requested> and *we would like to know back from you* in the :thread: the feasibility of such change in your client.",
+          "author_name": "Damian Tylczyński",
+          "author_link": "https://hellofresh.slack.com/team/U07UZ2QAM7D",
+          "author_icon": "https://avatars.slack-edge.com/2024-11-15/8048297811009_04e468a891ee69166e5e_48.jpg",
+          "author_subname": "Damian Tylczyński",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack Conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZfYch",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U027201FQSV"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U7SJ525DE"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nYou might have seen a ping on this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359",
+                  "text": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " from Consumer Core but tldr; they are looking to deprecate the use of "
+                },
+                {
+                  "type": "text",
+                  "text": "PATCH /subscriptions/{subscriptionId}",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " for editting delivery information as they rollout CDPS. Is this work we already have on our roadmaps as we adopt CDPS?\n\nIf not, we ideally have to prioritize it in the next 2 sprints. Technically they asked for this to be done by end of July but IMO this is unrealistic. I have aligned on a mid Aug deadline instead but want to confirm that we can make this change for our TPT and GoC brands before then. The change itself looks pretty straightforward to me"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1752590661.979359",
+          "client_msg_id": "adfe93d3-60a2-472c-8d80-f1e3ec269a67",
+          "text": "I wasn't aware of this so we do not have it in the roadmap for TPT",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6QmsH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I wasn't aware of this so we do not have it in the roadmap for TPT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1num",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1752647936.976109",
+          "client_msg_id": "4F089EBE-49B6-4627-BB89-5A898C80AD17",
+          "text": "Yes, as Desi said we were not aware of this migration, but it looks straightforward.\n<@U07VDFEFBQU> <@U01AKGWGLC8> we might consider to include this work into the next sprint (in 2 weeks).",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7JCdD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, as Desi said we were not aware of this migration, but it looks straightforward.\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " we might consider to include this work into the next sprint (in 2 weeks)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1752650614.403959",
+          "client_msg_id": "390819a0-e12f-43eb-9392-9649b7b0b813",
+          "text": "<@U027201FQSV> would you be able to create the ticket when you have time?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VlniT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " would you be able to create the ticket when you have time?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1753112243.883329",
+          "edited": {
+            "user": "UEZ4PRFKM",
+            "ts": "1753112259.000000"
+          },
+          "client_msg_id": "a4bfb48a-4a05-4796-b53f-bf87f119254c",
+          "text": "Thanks Alex and Beatrice! FYI here are some more <https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life#Change|details> about the API change needed.\n\n<@U8F7ZDAPM> <@U03UMPD2NNS> can we also try to fit this into the next sprint for TPT pls?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "page:{\"contentId\":\"5490737211\",\"instanceId\":\"Confluence:5678449836\",\"spaceKey\":\"DPLAT\"}",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*<https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life?atlOrigin=eyJpIjoiM2Y5MDcxMmIwYTU3NDA3YjkxNmY2NjA0Yjg1MDE1MWYiLCJwIjoiY29uZmx1ZW5jZS1jaGF0cy1pbnQifQ|\"PATCH /subscription\" for Delivery updates End of Life>*",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "ogMYL",
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image_url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:a5591b1a-4bc9-472e-9b58-954e56bc4c88/c4d356da-8f3a-45d6-87ae-3f6d9e8a186f/128",
+                      "alt_text": "images"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Owned by: Damian Tylczyński | 11 people viewed",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "actions",
+                  "block_id": "interactivity:{\"contentType\":\"page\",\"instanceId\":\"Confluence:5678449836\",\"id\":\"5490737211\",\"source\":\"unfurl\",\"isSpaceLink\":false,\"spaceKey\":\"DPLAT\"}",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "view",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "View page",
+                        "emoji": true
+                      },
+                      "style": "primary",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life?atlOrigin=eyJpIjoiNTJlZDFiNGI3NWQ5NDRhODgzOTEwOGYwOTA5ZDVhZTkiLCJwIjoiY29uZmx1ZW5jZS1jaGF0cy1pbnQifQ"
+                    },
+                    {
+                      "type": "button",
+                      "action_id": "saveContentForLater",
+                      "text": {
+                        "type": "plain_text",
+                        "text": ":star: Bookmark",
+                        "emoji": true
+                      }
+                    },
+                    {
+                      "type": "static_select",
+                      "action_id": "overflowActions",
+                      "placeholder": {
+                        "type": "plain_text",
+                        "text": "More actions...",
+                        "emoji": true
+                      },
+                      "options": [
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Watch page",
+                            "emoji": true
+                          },
+                          "value": "watchContent"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Like page",
+                            "emoji": true
+                          },
+                          "value": "like"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Comment",
+                            "emoji": true
+                          },
+                          "value": "addComment"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Share page",
+                            "emoji": true
+                          },
+                          "value": "shareContent"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "color": "#2684ff",
+              "fallback": "\"PATCH /subscription\" for Delivery updates End of Life",
+              "bot_id": "BLD8HA4JK",
+              "bot_team_id": "T02AGMUUR",
+              "app_unfurl_url": "https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life#Change",
+              "is_app_unfurl": true,
+              "app_id": "AC23SDS77"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eGq1e",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Alex and Beatrice! FYI here are some more "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life#Change",
+                      "text": "details"
+                    },
+                    {
+                      "type": "text",
+                      "text": " about the API change needed.\n\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can we also try to fit this into the next sprint for TPT pls?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1753113193.671169",
+          "client_msg_id": "d899d2b1-c1bf-4305-8b0c-bdf7a1d35835",
+          "text": "<@UEZ4PRFKM> will try but can’t guarantee yet because we got another request to also deprecate the /calculate/batch endpoint which also seems to be high prio <https://hellofresh.slack.com/archives/C04FVDBJZCK/p1752477967084729>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "attachments": [
+            {
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C04FVDBJZCK/p1752477967084729",
+              "fallback": "<@U01TLRS1W9L>: Hi, I'd like to ask a question! Please check the details.\n*Question title:* `Removal of /calculate/batch API in price-service`\n*Topic:* `Other`\n*Details:* `Hi, we are going to deprecate /calculate/batch API in price-service soon. The last major sources of requests to this API were GoodChop and ThePetsTable. Last week, the GoodChop team made the changes and they no longer call the API. Now I see ThePetsTable is #1 caller of the API. Can you check what are the use-cases to call /calculate/batch in price-service? Can we disable the API without negative consequences on the user-experience?`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-question",
+              "text": "<@U01TLRS1W9L>: Hi, I'd like to ask a question! Please check the details.\n*Question title:* `Removal of /calculate/batch API in price-service`\n*Topic:* `Other`\n*Details:* `Hi, we are going to deprecate /calculate/batch API in price-service soon. The last major sources of requests to this API were GoodChop and ThePetsTable. Last week, the GoodChop team made the changes and they no longer call the API. Now I see ThePetsTable is #1 caller of the API. Can you check what are the use-cases to call /calculate/batch in price-service? Can we disable the API without negative consequences on the user-experience?`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-question"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6/EGU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " will try but can’t guarantee yet because we got another request to also deprecate the /calculate/batch endpoint which also seems to be high prio "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C04FVDBJZCK/p1752477967084729"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1753113394.421719",
+          "client_msg_id": "4c8808b0-f270-402f-961b-843f7f7c0e87",
+          "text": "Ah ok thanks for the visibility - I was also under the impression when we Himash fixed for GoC it also included TPT",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CPMxG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ah ok thanks for the visibility - I was also under the impression when we Himash fixed for GoC it also included TPT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1753113502.254259",
+          "client_msg_id": "ca29af0c-a754-4238-8c91-d0c779f3a3d0",
+          "text": "ok lets prioritize this one see if we can tackle the subscription call after. The code where we call “PATCH /subscription” to change delivery information isnt shared with GoC is it?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5rRBI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok lets prioritize this one see if we can tackle the subscription call after. The code where we call “PATCH /subscription” to change delivery information isnt shared with GoC is it?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1753113949.289209",
+          "client_msg_id": "D9F0F2CB-8055-4496-B396-DA0DB07F589A",
+          "text": "Yes GoC made the change but there still seems to be some calls coming from TPT, there might be some TPT specific components making calls still but havent dug into it yet",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Hn1m3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes Go"
+                    },
+                    {
+                      "type": "text",
+                      "text": "C made the change but there still seems to be some calls coming from TPT, there might be some TPT specific components making calls still but havent dug into it yet"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1753114132.578789",
+          "client_msg_id": "53700a2c-3e01-431b-aedd-9c075b4ab2fd",
+          "text": "the batch is due to a reactivation component only used by TPT",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JdJTn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the batch is due to a reactivation component only used by TPT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1753114207.086419",
+          "edited": {
+            "user": "UEZ4PRFKM",
+            "ts": "1753114248.000000"
+          },
+          "client_msg_id": "7abab31f-1244-4482-922c-abb027d59801",
+          "text": "got it thanks - but for editting delivery dates using the PATCH subscription API, is this also separate across the 2 brands?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+kYCx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "got it thanks - but for editting delivery dates using the PATCH subscription API, is this also separate across the 2 brands?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1753718615.692169",
+          "client_msg_id": "c25bdaee-8a8b-4fc8-af55-69b1f512fed5",
+          "text": "I have created <https://hellofresh.atlassian.net/browse/GOC-3035|a ticket> to handle migration for GoC.\n\nWe were able to find two cases, when we call `PATCH /subscriptions/{id}` API endpoint:\n1. Delivery Information change on the `/settings/plan`\n2. Reactivation on the `/settings/plan/reactivate`\nI guess the first place is common between GoC and TPT.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "uf:ih:2944945::19439c2d196e47baa99baa4f82feef4d",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*<https://hellofresh.atlassian.net/browse/GOC-3035?atlOrigin=eyJpIjoiOWJjZWQ0ZDRmNjQ2NDY0Zjg1ZWQ0NDE3ZTYwYTRiNjciLCJwIjoiamlyYS1zbGFjay1pbnQifQ|GOC-3035 Depricate PATCH /subscription/{id}>*",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "uf:cx:2944945::e762165aebed40bb848e7ff5d661bc64",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "Status: *Backlog*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "image",
+                      "image_url": "https://product-integrations-cdn.atl-paas.net/jira-issuetype/task.png",
+                      "alt_text": "Task"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Type: *Task*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "image",
+                      "image_url": "https://product-integrations-cdn.atl-paas.net/icons/unknown-user.png",
+                      "alt_text": "Unassigned"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Assignee: *Unassigned*",
+                      "verbatim": false
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "Priority: *Normal*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "actions",
+                  "block_id": "issueFooterActions:{\"issueId\":\"2944945\",\"instanceId\":\"jira:644873fd-ceb4-4f39-a2aa-320afbd120b8\",\"projectId\":\"16142\",\"issueKey\":\"GOC-3035\",\"messageType\":\"uf\",\"nType\":\"ISSUE_UNFURL\"}",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "assign",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Assign",
+                        "emoji": true
+                      },
+                      "value": "assign"
+                    },
+                    {
+                      "type": "button",
+                      "action_id": "transition",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Change status",
+                        "emoji": true
+                      },
+                      "value": "transition"
+                    },
+                    {
+                      "type": "button",
+                      "action_id": "summarize",
+                      "text": {
+                        "type": "plain_text",
+                        "text": ":sparkles: AI Summarise",
+                        "emoji": true
+                      },
+                      "value": "summarize"
+                    },
+                    {
+                      "type": "static_select",
+                      "action_id": "jiraOverflowActions",
+                      "placeholder": {
+                        "type": "plain_text",
+                        "text": "More actions...",
+                        "emoji": true
+                      },
+                      "options": [
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Comment",
+                            "emoji": true
+                          },
+                          "value": "comment"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Unwatch",
+                            "emoji": true
+                          },
+                          "value": "unwatch"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Why am I seeing this?",
+                            "emoji": true
+                          },
+                          "value": "why"
+                        },
+                        {
+                          "text": {
+                            "type": "plain_text",
+                            "text": "Receive updates in channel",
+                            "emoji": true
+                          },
+                          "value": "connect"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "color": "#2684FF",
+              "fallback": "[no preview available]",
+              "bot_id": "B4S36RHS8",
+              "bot_team_id": "T02AGMUUR",
+              "app_unfurl_url": "https://hellofresh.atlassian.net/browse/GOC-3035",
+              "is_app_unfurl": true,
+              "app_id": "A2RPP3NFR"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iqy1N",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I have created "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/browse/GOC-3035",
+                      "text": "a ticket"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to handle migration for GoC.\n\nWe were able to find two cases, when we call "
+                    },
+                    {
+                      "type": "text",
+                      "text": "PATCH /subscriptions/{id}",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " API endpoint:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Delivery Information change on the "
+                        },
+                        {
+                          "type": "text",
+                          "text": "/settings/plan",
+                          "style": {
+                            "code": true
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Reactivation on the "
+                        },
+                        {
+                          "type": "text",
+                          "text": "/settings/plan/reactivate",
+                          "style": {
+                            "code": true
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nI guess the first place is common between GoC and TPT."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1753719444.113669",
+          "client_msg_id": "6a249641-fb75-4965-8fa8-9eb688843bc4",
+          "text": "<@UEZ4PRFKM> were you able to buy more time for us to change the end-point? does W33/W34 work?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sjKyQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " were you able to buy more time for us to change the end-point? does W33/W34 work?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1753719493.779939",
+          "client_msg_id": "fa166058-dcbd-43a6-b747-68e0ea33a4d4",
+          "text": "Yep that works :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ve1B9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yep that works "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1753719511.686469",
+          "client_msg_id": "26b035ad-fec4-4f82-b14e-9a9998558d8b",
+          "text": "thanks good to know",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752590322.852289",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Yv5b1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks good to know"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1752503044.882139",
+      "client_msg_id": "17c09de9-503b-4fb1-9717-0f2cef832b3a",
+      "text": "also who's on call?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1752503044.882139",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1752503170.716059",
+      "reply_users": [
+        "U2D54V0UV",
+        "U027201FQSV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FcqAY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "also who's on call?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1752503120.934609",
+          "client_msg_id": "d7fc55a4-48f6-4bc0-b514-ab42dc939c82",
+          "text": "<@U05BNQPJX4K> for New ventures",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752503044.882139",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cxXKO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U05BNQPJX4K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for New ventures"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1752503170.716059",
+          "client_msg_id": "a4762913-47c7-4be6-a234-957d0a444ad4",
+          "text": "Updated in the doc :white_check_mark:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752503044.882139",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CGtPu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Updated in the doc "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "white_check_mark",
+                      "unicode": "2705"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03TY4YJU4X",
+                "U05BNQPJX4K"
+              ],
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1752502970.490869",
+      "client_msg_id": "8fbc9eae-5644-4859-ae43-f31a73ffc197",
+      "text": "Hey folks please note the weekly updates for the standup: <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing>\n\n<!channel>",
+      "team": "T02AGMUUR",
+      "thread_ts": "1752502970.490869",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1752507137.464709",
+      "reply_users": [
+        "U027201FQSV",
+        "U03TY4YJU4X",
+        "U01TQGXG9D3"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rlTkT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks please note the weekly updates for the standup: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1752503291.230239",
+          "edited": {
+            "user": "U027201FQSV",
+            "ts": "1752504631.000000"
+          },
+          "client_msg_id": "1ce4a12b-c822-414b-9985-4705a4c4831f",
+          "text": "It seems like recent squad updates are in W28",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752502970.490869",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MG363",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It seems like recent squad updates are in W28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1752504187.035239",
+          "client_msg_id": "70f53837-e11f-4015-af34-b7608c648dff",
+          "text": "yeah, need to move that up",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752502970.490869",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LM6pD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yeah, need to move that up"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01TQGXG9D3",
+          "type": "message",
+          "ts": "1752507137.464709",
+          "client_msg_id": "48a909d8-1074-4d0c-a0b1-2d15c1aabee2",
+          "text": "Sorry, had a conflicting meeting :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752502970.490869",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CpqBa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sorry, had a conflicting meeting "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03R6F2AG9K",
+      "type": "message",
+      "ts": "1752501179.823589",
+      "text": ":fyi: In case ya missed it",
+      "team": "T02AGMUUR",
+      "attachments": [
+        {
+          "ts": "1752138463.573039",
+          "author_id": "U02U7EGQEGH",
+          "channel_id": "C07E0P0GW01",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C07E0P0GW01",
+              "ts": "1752138463.573039",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "zKNWV",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "emoji",
+                            "name": "mega",
+                            "unicode": "1f4e3"
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "text",
+                            "text": "We will move staging domains to Vercel",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "mega",
+                            "unicode": "1f4e3"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nWe will start using Vercel for our staging websites, such as "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://www-staging.hellofresh.com"
+                          },
+                          {
+                            "type": "text",
+                            "text": ", on "
+                          },
+                          {
+                            "type": "text",
+                            "text": "14.07.2025",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ". We use Vercel for our production environment, and we want our staging environment to be as similar to it as possible.\n\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Why It Matters",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ": To access the staging sites, you will need to be part of the "
+                          },
+                          {
+                            "type": "text",
+                            "text": "acl_vercel_viewer",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " group in Azure and logged on Vercel. "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://github.com/hellofresh/web/blob/master/docs/vercel.md#prerequisites",
+                            "text": "Here are the detailed instructions"
+                          },
+                          {
+                            "type": "text",
+                            "text": " on how to do this.\n\nPlease share any questions or concerns in the "
+                          },
+                          {
+                            "type": "channel",
+                            "channel_id": "C0125D6G44U"
+                          },
+                          {
+                            "type": "text",
+                            "text": " channel."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "color": "D0D0D0",
+          "from_url": "https://hellofresh.slack.com/archives/C07E0P0GW01/p1752138463573039?thread_ts=1752138463.573039&cid=C07E0P0GW01",
+          "is_share": true,
+          "fallback": "[July 10th, 2025 5:07 AM] elio.duarte: :mega: *We will move staging domains to Vercel* :mega:\n\nWe will start using Vercel for our staging websites, such as <https://www-staging.hellofresh.com>, on *14.07.2025*. We use Vercel for our production environment, and we want our staging environment to be as similar to it as possible.\n\n*Why It Matters*: To access the staging sites, you will need to be part of the *acl_vercel_viewer* group in Azure and logged on Vercel. <https://github.com/hellofresh/web/blob/master/docs/vercel.md#prerequisites|Here are the detailed instructions> on how to do this.\n\nPlease share any questions or concerns in the <#C0125D6G44U|> channel.",
+          "text": ":mega: *We will move staging domains to Vercel* :mega:\n\nWe will start using Vercel for our staging websites, such as <https://www-staging.hellofresh.com>, on *14.07.2025*. We use Vercel for our production environment, and we want our staging environment to be as similar to it as possible.\n\n*Why It Matters*: To access the staging sites, you will need to be part of the *acl_vercel_viewer* group in Azure and logged on Vercel. <https://github.com/hellofresh/web/blob/master/docs/vercel.md#prerequisites|Here are the detailed instructions> on how to do this.\n\nPlease share any questions or concerns in the <#C0125D6G44U|> channel.",
+          "author_name": "Elio Esteves Duarte",
+          "author_link": "https://hellofresh.slack.com/team/U02U7EGQEGH",
+          "author_icon": "https://avatars.slack-edge.com/2022-01-18/2960064392614_0e5b8ffabdd8e867cd20_48.jpg",
+          "author_subname": "Elio Esteves Duarte",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack Conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zKTSe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "fyi"
+                },
+                {
+                  "type": "text",
+                  "text": " In case ya missed it"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

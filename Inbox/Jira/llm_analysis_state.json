@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-01-02T17:30:50.488196",
+  "last_updated": "2026-01-02T18:14:53.943326",
+  "batches_analyzed": [
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0001.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0002.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0003.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0004.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0005.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0006.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0007.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0008.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0009.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0010.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0011.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0012.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0013.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0014.json",
+    "AI_Guidance/Brain/Inbox/Jira/Processed/batch_jira_0015.json"
+  ],
+  "docs_analyzed": 365,
+  "decisions_found": 73,
+  "entities_found": 217,
+  "errors": 0
+}

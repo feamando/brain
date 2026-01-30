@@ -1,0 +1,246 @@
+{
+  "batch_id": "prd_009",
+  "doc_type": "prd",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "PRD: Enabling One-Time-Purchase (OTP) Capabilities for HelloFresh Group",
+      "doc_id": "1vZfz2cWRq-LJVHs8EYKfue42mN6lzLJFpdFEd34ZZXo",
+      "doc_type": "prd",
+      "project_name": "Enabling One-Time-Purchase (OTP) Capabilities for HelloFresh Group",
+      "owner": "Deo Nathaniel",
+      "target_date": "2025 (phased rollout: W44-W46 2025, Q1 2026)",
+      "summary": "This initiative delivers One-Time-Purchase capability across HelloFresh Group brands to address customer needs for order flexibility without subscription commitment. The solution enables customers to purchase seasonal boxes, specialized items (Good Chop), Factor meals, and marketplace products as standalone purchases. Initial 2025 rollouts target Seasonal Boxes, Good Chop offerings, and Factor Form items, with projected incremental TCVA of €24.7M-€28.8M.",
+      "requirements": {
+        "must_have": [
+          "Core Purchase & Checkout Experience - customers can select OTP products, understand full cost upfront, and complete orders",
+          "Product discovery and browsing for OTP-eligible items",
+          "Transparent pricing and benefits display",
+          "Distinct OTP cart and checkout processes",
+          "Account creation/login functionality",
+          "All HelloFresh payment methods support",
+          "Order confirmation and tracking (email notifications)",
+          "Operational & Backend Integration - inventory management to delivery processing",
+          "Customer care support for OTP orders",
+          "Internal operations/logistics/finance processing",
+          "Delivery management capabilities"
+        ],
+        "nice_to_have": [
+          "Enhanced Flexibility for OTP - guest checkout, basic customization, OTP order management",
+          "Marketplace & Cross-Sell Specifics - third-party vendor products and Factor cross-sell integration",
+          "Advanced Customization for OTP - customized boxes, real-time product availability updates, marketing tools",
+          "Easy reorder functionality",
+          "Combining OTP orders with existing subscriptions",
+          "My Deliveries section integration",
+          "Combined delivery with subscription orders"
+        ],
+        "out_of_scope": [
+          "Full marketplace integration in 2025 (2-Way Marketplace targeted for 2026 PoC Q4 2025)",
+          "Factor B2B implementation (future discovery phase)",
+          "Complete Factor cross-sell iteration (2026 potential target)"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Phased rollout approach starting with Seasonal Boxes, Good Chop, and Factor Form",
+          "rationale": "Allows for iterative learning and reduces risk while addressing highest-value use cases first",
+          "approved_by": "Leadership Steerco"
+        },
+        {
+          "what": "Consolidate OTP functionality from third-party tools (Shopify) and legacy systems (Evangelist) into core platform",
+          "rationale": "Significantly lower costs and operational complexity while improving customer experience",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Initial focus on prospect customers for Good Chop Milestone 1, then active customers in Milestone 2",
+          "rationale": "Address subscription hesitation feedback and improve reactivation rates progressively",
+          "approved_by": "Not specified"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "Inventory management systems",
+          "Delivery management systems",
+          "Payment processing infrastructure",
+          "Order management systems",
+          "CRM systems",
+          "Email notification systems",
+          "SKU & Menu management systems"
+        ],
+        "team": [
+          "TAM (Technical Account Management) - Nikita Gorshkov, Wellney Yarra, Daniel Arias",
+          "Consumer Core - Abdelrahman Hussein, Adam Ghanem",
+          "Front End team - Alexander Matlin (Main PIC)",
+          "Back-end team - Vladyslav Valt, Ahmed ElSebaei (Main PICs)",
+          "Customer Care teams",
+          "Operations/Logistics teams",
+          "Finance teams",
+          "Dependent Tribes and alliances"
+        ],
+        "external": [
+          "Third-party CPG brands (for 2-Way Marketplace)",
+          "Dropshipping vendors"
+        ]
+      },
+      "success_metrics": [
+        "€24.7M-€28.8M incremental TCVA (Total Customer Value Added)",
+        "Good Chop OTP: €2.7M-€3M in TCVA",
+        "Seasonal box OTP: €16.5M-€21.5M net revenue potential",
+        "2-Way Marketplace PoC: ~$2.5M-$4.3M TCVA",
+        "Factor cross-sell AOV increase of 0.8-1.2pp",
+        "Factor cross-sell AOR increase of ~5%",
+        "Reactivation rates improvement",
+        "Conversion to subscription rates",
+        "Overall customer spend and engagement increase"
+      ],
+      "entities": [
+        {
+          "name": "Deo Nathaniel",
+          "type": "person",
+          "role": "Main Product/Project PIC, Editor, POC for Good Chop"
+        },
+        {
+          "name": "Alexander Matlin",
+          "type": "person",
+          "role": "Main Front End PIC, POC for Good Chop"
+        },
+        {
+          "name": "Vladyslav Valt",
+          "type": "person",
+          "role": "Main Back-end PIC"
+        },
+        {
+          "name": "Ahmed ElSebaei",
+          "type": "person",
+          "role": "Main Back-end PIC"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "role": "TAM - Accountable/Consulted"
+        },
+        {
+          "name": "Wellney Yarra",
+          "type": "person",
+          "role": "TAM - Accountable/Consulted, POC for Factor Form"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "role": "TAM - Accountable/Consulted"
+        },
+        {
+          "name": "Abdelrahman Hussein",
+          "type": "person",
+          "role": "Consumer Core - Accountable/Consulted"
+        },
+        {
+          "name": "Adam Ghanem",
+          "type": "person",
+          "role": "Consumer Core - Accountable/Consulted"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "role": "Informed stakeholder"
+        },
+        {
+          "name": "Cho Hwang",
+          "type": "person",
+          "role": "Informed stakeholder"
+        },
+        {
+          "name": "Sameer Doda",
+          "type": "person",
+          "role": "POC for HelloFresh Seasonal Boxes"
+        },
+        {
+          "name": "Tamas Szilagyi",
+          "type": "person",
+          "role": "POC for HelloFresh Seasonal Boxes"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "role": "POC for HelloFresh Seasonal Boxes"
+        },
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "role": "POC for HelloFresh Seasonal Boxes"
+        },
+        {
+          "name": "Shay Ben Yacov",
+          "type": "person",
+          "role": "POC for OTP for Formers"
+        },
+        {
+          "name": "Jordon Smith",
+          "type": "person",
+          "role": "POC for Factor Form"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Primary brand implementing OTP for seasonal boxes and core meal kits"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "role": "Premium meat and seafood brand implementing OTP for prospects and actives"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "Ready-to-eat meals brand for cross-sell and Factor Form OTP implementation"
+        },
+        {
+          "name": "Green Chef US",
+          "type": "brand",
+          "role": "Potential pilot brand for 2-Way Marketplace in 2026"
+        },
+        {
+          "name": "HelloFresh Group (HFG)",
+          "type": "brand",
+          "role": "Parent company implementing OTP capabilities across brands"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "role": "Third-party tool currently used for OTP, to be replaced"
+        },
+        {
+          "name": "Evangelist",
+          "type": "system",
+          "role": "Internal legacy system currently used for OTP, to be replaced"
+        },
+        {
+          "name": "Good Chop OTP",
+          "type": "project",
+          "role": "Initiative for one-time purchase at goodchop.com, ETA W46 2025"
+        },
+        {
+          "name": "HelloFresh Seasonal Boxes",
+          "type": "project",
+          "role": "Initiative for seasonal box OTP, LIVE 29th October 2025"
+        },
+        {
+          "name": "Factor Form OTP",
+          "type": "project",
+          "role": "Initiative for VMS items OTP at factor75.com/factorform, Nov Q4 2025"
+        },
+        {
+          "name": "OTP for Formers",
+          "type": "project",
+          "role": "Initiative for reactivating former customers, LIVE 14th October 2025"
+        },
+        {
+          "name": "2-Way Marketplace",
+          "type": "project",
+          "role": "2026 potential target with Q4 2025 PoC for third-party CPG products"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:40:45.329698"
+}

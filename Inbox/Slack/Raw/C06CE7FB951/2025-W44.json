@@ -1,0 +1,213 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W44",
+  "extracted_at": "2026-01-02T10:43:41.334016Z",
+  "message_count": 3,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1761833487.177349",
+      "client_msg_id": "d925fba7-9c74-4114-9539-74b23fc1dce0",
+      "text": "Especially the Berlin team <!here> :upvote:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hJJEV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Especially the Berlin team "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "upvote"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1761833187.248579",
+      "client_msg_id": "566e9458-29c5-413b-8732-8e1ec2d5b0df",
+      "text": "Hey folks the CMA all hands is in the loft! Please come on up!",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Burn6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks the CMA all hands is in the loft! Please come on up!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U027201FQSV",
+      "type": "message",
+      "ts": "1761660429.654359",
+      "edited": {
+        "user": "U027201FQSV",
+        "ts": "1761663498.000000"
+      },
+      "client_msg_id": "92d67c07-2083-4800-ba39-5910c3577daf",
+      "text": "Hey team, if you can, ~come to~ support <@U03EN3N4KM4> and <@U01AKGWGLC8> at HelloTech Demo Session today :goodchop_fan:\n\nThe team will present via Google Meet.",
+      "team": "T02AGMUUR",
+      "thread_ts": "1761660429.654359",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1761660476.096389",
+      "reply_users": [
+        "U01AKGWGLC8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fK6ju",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, if you can, "
+                },
+                {
+                  "type": "text",
+                  "text": "come to",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " support "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03EN3N4KM4"
+                },
+                {
+                  "type": "text",
+                  "text": " and "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " at HelloTech Demo Session today "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nThe team will present via Google Meet."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "partying_face",
+          "users": [
+            "U08AXBW1CAZ",
+            "U0184T48L74",
+            "U01PE2S4ZL6",
+            "U03UMPD2NNS",
+            "U02BA3VS7H8",
+            "U044SKGT4R5"
+          ],
+          "count": 6
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761660476.096389",
+          "client_msg_id": "ff8132f3-059e-40f3-a35b-7280b5e3cd18",
+          "text": "looking at the agenda we might not make it this session but let's see :smile:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761660429.654359",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DE9A1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "looking at the agenda we might not make it this session but let's see "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smile",
+                      "unicode": "1f604"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "sad-dog",
+              "users": [
+                "U02KQF884CT",
+                "U03EN3N4KM4",
+                "U08AXBW1CAZ",
+                "U02BA3VS7H8",
+                "U0184T48L74",
+                "U01TQGXG9D3"
+              ],
+              "count": 6
+            },
+            {
+              "name": "pray",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

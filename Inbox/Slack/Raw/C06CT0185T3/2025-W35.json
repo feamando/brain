@@ -1,0 +1,324 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W35",
+  "extracted_at": "2026-01-02T10:39:03.482683Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "subtype": "bot_message",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: General Tribe &amp; Social Updates: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad Updates: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad Updates: <@U01AKGWGLC8> <@U07VDFEFBQU> <@U027201FQSV> \n• :gear: New Ventures Systems Squad Updates: <@U2D54V0UV> \n• :crossed_swords: Cross-selling &amp; PUMA Squad Updates: <@U01TQGXG9D3> <@U03R6F2AG9K> ",
+      "username": "New Ventures Tribe Weekly Notes Reminder",
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "actions",
+              "block_id": "RZ6md",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "b5fa9f0a-aa2e-4a2a-8460-f5a1bd18e6b7",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Go To Notes",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "third_party_auth": {
+                    "enable_dynamic_auth": true
+                  }
+                }
+              ]
+            }
+          ],
+          "fallback": "[no preview available]"
+        }
+      ],
+      "type": "message",
+      "ts": "1756452616.074109",
+      "bot_id": "B099C38L3GE",
+      "app_id": "A098ZUFML9M",
+      "trigger_id": "Ft099E45M2R3",
+      "workflow_id": "Wf098ZUFPLG7",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SCIBY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya New Ventures leads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This is your weekly reminder to please update the Weekly Team Update ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Notes",
+                  "style": {
+                    "bold": true,
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " before standup on Monday:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    },
+                    {
+                      "type": "text",
+                      "text": " General Tribe & Social Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Pets Table Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "meat"
+                    },
+                    {
+                      "type": "text",
+                      "text": " GoodChop Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "gear",
+                      "unicode": "2699-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " New Ventures Systems Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U2D54V0UV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "crossed_swords",
+                      "unicode": "2694-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Cross-selling & PUMA Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01TQGXG9D3"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03R6F2AG9K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

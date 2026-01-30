@@ -1,0 +1,74 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W40",
+  "extracted_at": "2026-01-02T10:45:14.003406Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1759332654.444929",
+      "client_msg_id": "7a0ab6af-de48-491a-a72d-a080d3ae707a",
+      "text": ":alert2: *Important*: Please fill out the party planning form *<https://docs.google.com/forms/d/e/1FAIpQLSddMqVisE1LtyEkOTJPC06M0zlPGG2Zc-SnKlMLI45efkcuhQ/viewform?usp=sharing&amp;ouid=115542537507506428494|here>* created by <@U01AKGWGLC8> - I expect that the number of submissions = number of NVE team member :stuck_out_tongue:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "teqTl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "alert2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Important",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ": Please fill out the party planning form "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/forms/d/e/1FAIpQLSddMqVisE1LtyEkOTJPC06M0zlPGG2Zc-SnKlMLI45efkcuhQ/viewform?usp=sharing&ouid=115542537507506428494",
+                  "text": "here",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " created by "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " - I expect that the number of submissions = number of NVE team member "
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue",
+                  "unicode": "1f61b"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

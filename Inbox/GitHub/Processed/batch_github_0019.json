@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0019",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "46efe128",
+      "message": "[RTEVMS-2232] Factor Form: OTP sub vs OTP Tracking (#60149)\n\n* add GA events for frequency selectors\n\n* prevent bundles impression from firing on frequency select\n\n* prevent impression event from firing more than once\n\n* useRef\n\n* add usecallback\n\n* turn off in staging / vercel\n\n* oops\n\n* oops",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-07T20:38:44Z",
+      "url": "https://github.com/hellofresh/web/commit/46efe128c7618d32f43a88d1128dd082b010a47e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "117c291b",
+      "message": "[RTEVMS-1950] Replace static cadence w/ dynamic subscription cadence value (#59986)\n\n* replacing hardcoded delivery frequency for actives\n\n* updates to present dynamic cadence on VMS orders\n\n* show endless pause interval on reschedule order and order history\n\n* fix bugs and broken tests\n\n* refactoring cadence interval",
+      "author": "Jan Cássio",
+      "author_email": "110180472+jancassiohf@users.noreply.github.com",
+      "date": "2025-11-07T20:30:25Z",
+      "url": "https://github.com/hellofresh/web/commit/117c291b5eaaf1b88565332d0839d70a452587da",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "4b39df99",
+      "message": "[RTEVMS-2274] Factor Form | OTP: Remove Statsig for Config (#60141)\n\n* replace statsig hook w/ config hook\n\n* update tests\n\n* add lib for sub-brand/one-time-purchase\n\n* remove statsig hook and dependencies\n\n* update CONST/Types source\n\n* add back readme\n\n* update failing tests\n\n* update failing test\n\n* fix express-checkout product price tersts\n\n* fix bundle card unit test\n\n* skipping failing pet-food e2e\n\n* turn off on staging/vercel",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-07T20:02:51Z",
+      "url": "https://github.com/hellofresh/web/commit/4b39df993e77a836389d8ba71fa00b3fcbdd994c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "c19608fd",
+      "message": "feat(GOC-3221): Add streamlined QA review command package (#60119)\n\nCreate comprehensive visual regression testing and custom test scenario execution\ncommand for HelloFresh web applications using Chrome DevTools MCP integration.\n\nKey Features:\n- Visual regression testing with screenshot comparison and responsive validation\n- Custom test scenarios with natural language step parsing\n- Chrome DevTools MCP automation with Playwright fallback\n- Automated browser process cleanup to prevent resource accumulation\n- Brand/country switching via HelloFresh dev tools panel integration\n- Organized as comprehensive package with detailed documentation\n\nTechnical Implementation:\n- Command package located in .cursor/commands/qa-review/\n- Supports visual and custom test types with flexible parameters\n- Integrates with existing HelloFresh testing infrastructure\n- Full TypeScript support with proper command parameter typing\n- Comprehensive documentation with usage examples and best practices\n\n[Cursor_Code]",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-07T14:37:19Z",
+      "url": "https://github.com/hellofresh/web/commit/c19608fddb933ac526c795a304edb3fe02eca43f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "db02125a",
+      "message": "[TPT-2220] Project heaven dashboard (#60066)\n\n* Display new component when in single pet and pet is deceased\n\n* Update cancellation flow in case of pet deceased\n\n* Add mocks\n\n* Add missing config middleware",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-07T13:16:34Z",
+      "url": "https://github.com/hellofresh/web/commit/db02125a28bf0251d801225e4f656ef05853a20e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "79ae299f",
+      "message": "[TPT-2280] - PlansInfo component on Reactivation page (#60057)\n\n* TPT-2280 - wip\n\n* TPT-2280 - update CartItem to render weekly price or unitprice based on showPricePerWeek prop, update test\n\n* TPT-2280 - calculate perweek price only if showPerWeek prop is true\n\n* TPT-2280 - update planBox prices prop and test\n\n* TPT-2280 - pass sku and petName to PlansInfo, update test\n\n* TPT-2280 - cleanup\n\n* TPT-2280 - update PlansIfno props + test\n\n* TPT-2280 - cleanup\n\n* TPT-2280 - add reusable testhelper to avoid duplicating of same mocked data across multiple components\n\n* TPT-2280 - cleanup props\n\n* TPT-2280 - cleanup props\n\n* TPT-2280 - fix failing CartItem test\n\n* TPT-2280 - update price adapter\n\n* TPT-2280 - update price adapter test\n\n* TPT-2280 - add test button to apply voucher to OrderSummary\n\n* TPT-2280 - fix prop in OrderSummary\n\n* TPT-2280 - fix test button spacing in order sumamry",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-07T12:38:26Z",
+      "url": "https://github.com/hellofresh/web/commit/79ae299f33e411e01c5cf3de6590833de424f889",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "426acdef",
+      "message": "[GOC-3312] Fixes cypress config in mr reactivation tests (#60121)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-07T11:38:01Z",
+      "url": "https://github.com/hellofresh/web/commit/426acdef43ec129e73a3b732417c653e8ab982ec",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "d250b048",
+      "message": "[RTEVMS-1906] & [RTEVMS-1903] Factor Form: Added Tag component to be used by FilterButtons.tsx and Filters.tsx (#59900)\n\n* feat(RTEVMS-1906): Added Tag component to be used by FilterButtons.tsx and Filters.tsx\n\n* feature/RTEVMS-1906: Updating Tag folder name and unit tests\n\n* feature/RTEVMS-1906: Removing separate css file\n\n* feature/RTEVMS-1906: Updating location of Tag component\n\n* feature/RTEVMS-1906: Adding hover state to Tag component\n\n* feature/RTEVMS-1906: Removing className from Tag component and removing fontFamily from CSS\n\n* feature/RTEVMS-1906: Adding CSS constants in Tag.tsx\n\n* feature/RTEVMS-1906: Adding focus-visible state for Tag component",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-06T21:49:37Z",
+      "url": "https://github.com/hellofresh/web/commit/d250b048f9af748dca330491292f9844c45c31b7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "d2cfb59b",
+      "message": "[RTEVMS-2208] Factor Form | Cart-service Migration : remove feature hook and clean up ref (#59972)\n\n* remove feature hook and clean up references\n\n* remove setStoredSku in hooks and update tests\n\n* remove setStoredSku\n\n* add ticket for TODO\n\n* add existing var\n\n* Add logic to get subscribed sku for steppers\n\n* fix qty selector logic\n\n* fix ts error and tests\n\n* wait for cart data\n\n* fix tests\n\n* fix ts error\n\n* skip failing e2e",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-06T21:14:57Z",
+      "url": "https://github.com/hellofresh/web/commit/d2cfb59b1b96ba3b23a53e8d0d8f5ff604411238",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "5342f60b",
+      "message": "[RTEVMS-2266] Factor Form | OTP : create sub-brand hook + add Brand (#60047)\n\n* create sub-brandOTP cart hook\n\n* add missing brand param\n\n* remove brand param\n\n* add back brand in callback dependencies",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-06T17:23:27Z",
+      "url": "https://github.com/hellofresh/web/commit/5342f60bfaac9926c6b79d0058412d140a4b015a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "cf12a1e3",
+      "message": "[GOC-3343] Add a payment fraud error Contentful entry (#60001)\n\n* Add a payment fraud error Contentful entry\n\n* Updated a paymentFraudErrorMsg.\n\n* Fix tests.\n\n* Add useContentful() hook to read the new Contentful entry.\n\n* Move the new Contentful entry to the new location.",
+      "author": "Alexander Matlin",
+      "author_email": "alexander.matlin@hellofresh.com",
+      "date": "2025-11-06T15:42:18Z",
+      "url": "https://github.com/hellofresh/web/commit/cf12a1e3880fd36a65f6e2ac948b34ec1b8dba94",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9f4ff399",
+      "message": "[TPT-2220] Update multi-pet guard (#60019)\n\n* Update conditions to consider cancelled sub with deceased pet\n\n* Remove from ref",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-06T15:19:01Z",
+      "url": "https://github.com/hellofresh/web/commit/9f4ff3999adae6a344154d5a93fdccb8a86dccf7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "190f4158",
+      "message": "[TPT-2151] contentful keys for delivery details component (#60077)",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-11-06T15:15:45Z",
+      "url": "https://github.com/hellofresh/web/commit/190f4158741f37cf1868977ff607ae03c69dd775",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "bf5bc745",
+      "message": "[RTEVMS-2265] Factor Form: Adding in multi cadence feature flag (#60050)\n\n* feature/RTEVMS-2265: Adding in multi cadence feature flag\n\n* feature/RTEVMS-2265: updating feature flag hook\n\n* feature/RTEVMS-2265: updating feature flag tests",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-06T14:18:09Z",
+      "url": "https://github.com/hellofresh/web/commit/bf5bc7457a09cf61d7ae86283e38a1cfb34e2ebe",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "9f977e72",
+      "message": "[TPT-2304] Updated TPT squad name references (#60034)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-06T10:37:42Z",
+      "url": "https://github.com/hellofresh/web/commit/9f977e72df42e8005121ce9964abb837a5c038ff",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "14ea4844",
+      "message": "[TPT-2304] Renamed team and claims file for TPT (#60003)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-06T10:37:09Z",
+      "url": "https://github.com/hellofresh/web/commit/14ea48444b8c2efbd87c14095fb6224f3d4cba85",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "a66c6e1f",
+      "message": "[TPT-2303] Refactoring of delivery helpers (#60051)\n\n* Refactoring of delivery helpers",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-11-06T09:52:29Z",
+      "url": "https://github.com/hellofresh/web/commit/a66c6e1f6ff54a5ce4667a2777594248a308d36b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "81b7ea22",
+      "message": "[TPT-2222] Hide pet profile and plan settings nav items when subscription is cancelled due to death (#59967)\n\n* [TPT-2222] Add new loggedInWithPetDeceasedItems\n\n* [TPT-2222] Add feature flag conditional\n\n* [TPT-2222] Fix failing tests\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-06T09:13:27Z",
+      "url": "https://github.com/hellofresh/web/commit/81b7ea229438a648226338bbc088a13f5b42609b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "36caf7a1",
+      "message": "[GOC-3276] Migrate usage of price selector to use price endpoint (#59671)",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-11-06T09:07:19Z",
+      "url": "https://github.com/hellofresh/web/commit/36caf7a19d575fe0a9ea1d4c5416bd59ee50b2fe",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "a81bbe91",
+      "message": "[TPT-2279] deletes seamless logic (#60010)\n\n* deletes seamless logic\n\n* deletes unused hook\n\n* fixes test",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-11-06T08:54:00Z",
+      "url": "https://github.com/hellofresh/web/commit/a81bbe917b13b16c65ec9600da4810fb68604cd4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-06T08:54:00Z",
+    "newest": "2025-11-07T20:38:44Z"
+  }
+}

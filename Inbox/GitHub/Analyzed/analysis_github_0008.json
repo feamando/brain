@@ -1,0 +1,163 @@
+{
+  "batch_id": "github_0008",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-12-08T08:43:01Z",
+    "newest": "2025-12-09T10:45:57Z"
+  },
+  "analyzed_at": "2026-01-02T15:35:49.420271",
+  "changes_summary": "These commits primarily focus on OTP (One-Time Purchase) cart and checkout functionality, reactivation flow improvements, and Box Model Builder enhancements. Multiple test improvements include unquarantining tests and adding test IDs. Several bug fixes address pricing display, meal selection, and payment validation issues.",
+  "features": [
+    {
+      "name": "OTP Cart Checkout Handling",
+      "description": "Handles One-Time Purchase cart submission during checkout process",
+      "commits": [
+        "1e26b79d"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "OTP Address Persistence",
+      "description": "POST-only endpoint for persisting OTP addresses and PUT endpoint for customer address updates",
+      "commits": [
+        "362f3d36",
+        "2a44bb4b"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Box Model Builder Calorie Range Overrides",
+      "description": "Adds calorie range override functionality and general overrides to Box Model Builder",
+      "commits": [
+        "da3086a5",
+        "6dd48860"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Entry Point Reactivation Pricing",
+      "description": "Adds price display to entry point reactivation flow",
+      "commits": [
+        "ea7bff25"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Legacy to Shopify Factorform Redirect Monitoring",
+      "description": "Adds tracing for monitoring redirects from legacy factorform to Shopify factorform",
+      "commits": [
+        "a077147b"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Breed Message Feature",
+      "description": "Feature flag cleanup for breed message functionality",
+      "commits": [
+        "859f3143"
+      ],
+      "status": "modified"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Separate /batch fetch logic across plan-selection flows",
+      "rationale": "Improves organization and maintainability of plan selection data fetching",
+      "ticket": "TPT-2355"
+    },
+    {
+      "what": "Display meals immediately after reactivation",
+      "rationale": "Improves user experience by showing meals without delay",
+      "ticket": "TPT-2424"
+    },
+    {
+      "what": "Add Contentful key for invalid payment message",
+      "rationale": "Enables content management for payment error messaging",
+      "ticket": "TPT-2423"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Plan selection batch fetch logic",
+      "reason": "Separate concerns across different plan-selection flows",
+      "impact": "Plan selection flows and data fetching architecture"
+    },
+    {
+      "area": "OrderBreakdown tests",
+      "reason": "Improve test quality and maintainability",
+      "impact": "Test suite for order breakdown component"
+    },
+    {
+      "area": "Breed Message feature flag",
+      "reason": "Clean up feature flag after rollout completion",
+      "impact": "Breed message feature code"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Keyboard navigation in quiz",
+      "ticket": "TPT-2377"
+    },
+    {
+      "issue": "Reactivation order summary price display",
+      "ticket": "TPT-2240"
+    },
+    {
+      "issue": "Reactivation with invalid voucher handling",
+      "ticket": "TPT-2418"
+    },
+    {
+      "issue": "Meal selection revert on addons save",
+      "ticket": "TPT-2342"
+    },
+    {
+      "issue": "Google API integration in Toolbox",
+      "ticket": "TPT-2358"
+    }
+  ],
+  "entities": [
+    {
+      "name": "OTP Cart",
+      "type": "feature",
+      "context": "Enhanced with checkout submission handling and address persistence"
+    },
+    {
+      "name": "Box Model Builder",
+      "type": "component",
+      "context": "Extended with calorie range overrides and general override functionality"
+    },
+    {
+      "name": "Reactivation Flow",
+      "type": "feature",
+      "context": "Multiple improvements including pricing display, meal display timing, and voucher validation"
+    },
+    {
+      "name": "Shopify Factorform",
+      "type": "system",
+      "context": "Added monitoring for redirects from legacy factorform"
+    },
+    {
+      "name": "Quiz",
+      "type": "component",
+      "context": "Keyboard navigation improvements"
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "Added key for invalid payment message management"
+    },
+    {
+      "name": "OrderBreakdown",
+      "type": "component",
+      "context": "Test improvements"
+    }
+  ],
+  "key_patterns": [
+    "Test quality improvements: multiple commits unquarantine tests and add test IDs for better test reliability",
+    "API endpoint expansion: adding both POST and PUT endpoints for OTP address management following REST conventions",
+    "Feature flag lifecycle management: cleanup of breed message feature flag after successful rollout",
+    "Monitoring and observability: adding traces for system migration tracking (legacy to Shopify)",
+    "User experience focus: immediate meal display, pricing transparency, and keyboard accessibility improvements",
+    "Modular architecture: separating batch fetch logic across different flows for better maintainability"
+  ]
+}

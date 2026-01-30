@@ -1,0 +1,118 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W43",
+  "extracted_at": "2026-01-02T10:43:37.566305Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U8F7ZDAPM",
+      "type": "message",
+      "ts": "1761127432.176599",
+      "client_msg_id": "ec779e65-d0e6-401d-93be-d5ebfffc2ecc",
+      "text": "Hey team, if there's anyone that didn't get an invite to the TAM AHM tomorrow at 4pm let me know",
+      "team": "T02AGMUUR",
+      "thread_ts": "1761127432.176599",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1761155520.331449",
+      "reply_users": [
+        "UEZ4PRFKM"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6K2kH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, if there's anyone that didn't get an invite to the TAM AHM tomorrow at 4pm let me know"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "woman-raising-hand::skin-tone-3",
+          "users": [
+            "U044SKGT4R5",
+            "U03UMPD2NNS"
+          ],
+          "count": 2
+        },
+        {
+          "name": "woman-raising-hand::skin-tone-4",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "man-raising-hand::skin-tone-3",
+          "users": [
+            "U01KPB90WQM"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1761155520.331449",
+          "client_msg_id": "37e25316-f142-420c-b4ff-5b059d3a064b",
+          "text": "Thanks Ahmed, reminder for <@U03TY4YJU4X> and I to review our group aliases :eyes:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761127432.176599",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dDgLm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Ahmed, reminder for "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and I to review our group aliases "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

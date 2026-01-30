@@ -1,0 +1,1813 @@
+{
+  "channel_id": "C04FVDBJZCK",
+  "channel_name": "squad-nv-pet-food",
+  "week": "2025-W44",
+  "extracted_at": "2026-01-02T10:57:29.124689Z",
+  "message_count": 11,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U047SAC2PPV",
+      "text": "<@U047SAC2PPV> has left the channel",
+      "type": "message",
+      "ts": "1762165248.069999",
+      "reactions": [
+        {
+          "name": "blob-sweating",
+          "users": [
+            "UB87A2MJ7",
+            "U03UMPD2NNS"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1762164027.033319",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures-and-ecosystems / pets-table* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|505> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "deleted": false,
+        "name": "HF Inspector",
+        "updated": 1584012640,
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZC=u8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures-and-ecosystems / pets-table",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "505",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1762164025.938789",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new-ventures / pet-food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|505> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rYw2R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new-ventures / pet-food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "505",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "UUGGQ5UPL",
+      "type": "message",
+      "ts": "1762164024.873629",
+      "bot_id": "BUX6F19MM",
+      "app_id": "AUVAB8HCM",
+      "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to *new ventures / pet food* and here are my findings:\n\n*No issues found for your team! You're doing a great job!*\n\n\n_(or, maybe, they are among <https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1|505> unassigned :stuck_out_tongue_winking_eye:)_\nPlease take 2 minutes to answer this <https://forms.gle/sdpYDVtoojbavKUH6|HF-Inspector survey>.\n",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "BUX6F19MM",
+        "app_id": "AUVAB8HCM",
+        "user_id": "UUGGQ5UPL",
+        "name": "HF Inspector",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-03-12/983040856418_f9d6810a4a4f7d8199b0_72.png"
+        },
+        "deleted": false,
+        "updated": 1584012640,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "s=r",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This is Inspector reporting, I have checked areas of our infrastructure that belong to "
+                },
+                {
+                  "type": "text",
+                  "text": "new ventures / pet food",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and here are my findings:\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "No issues found for your team! You're doing a great job!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "(or, maybe, they are among ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://hf-inspector-web.eu.foundations.shared.int.hellofresh.io/?unassigned=1",
+                  "text": "505",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " unassigned ",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "stuck_out_tongue_winking_eye",
+                  "unicode": "1f61c",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nPlease take 2 minutes to answer this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://forms.gle/sdpYDVtoojbavKUH6",
+                  "text": "HF-Inspector survey"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U04KERHKT0S",
+      "type": "message",
+      "ts": "1762158712.612949",
+      "bot_id": "B04KEMZMBJP",
+      "app_id": "A04K7LEJM0W",
+      "text": ":x: *Cypress Specs Quarantined!* :nuke:",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B04KEMZMBJP",
+        "deleted": false,
+        "name": "Frontend Infra Bot",
+        "updated": 1675429601,
+        "app_id": "A04K7LEJM0W",
+        "user_id": "U04KERHKT0S",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_36.png",
+          "image_48": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_48.png",
+          "image_72": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1762158712.612949",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1762158712.926279",
+      "reply_users": [
+        "U04KERHKT0S"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "xmLUq",
+          "text": {
+            "type": "plain_text",
+            "text": ":x: Cypress Specs Quarantined! :nuke:",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "5lsbu",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*Success rate &lt; 90%*",
+              "verbatim": false
+            },
+            {
+              "type": "mrkdwn",
+              "text": "Number of Quarantined Specs: *1*",
+              "verbatim": false
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "block_id": "ux6Cn",
+          "text": {
+            "type": "mrkdwn",
+            "text": "The *pet-food* has *1* Cypress tests quarantined!.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "R+vy7",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Find quarantined files in the replies of this message :point_down:",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "IHBF3"
+        },
+        {
+          "type": "section",
+          "block_id": "9+jNf",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*<https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/v89LS2HRBU8|Honeycomb Query>*",
+              "verbatim": false
+            },
+            {
+              "type": "mrkdwn",
+              "text": "<https://github.com/hellofresh/web/actions/runs/19028260598|GitHub Action Run (19028260598)>",
+              "verbatim": false
+            },
+            {
+              "type": "mrkdwn",
+              "text": "*<https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3820683274/Quarantine+System|Quarantine System>*",
+              "verbatim": false
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U04KERHKT0S",
+          "type": "message",
+          "ts": "1762158712.926279",
+          "bot_id": "B04KEMZMBJP",
+          "app_id": "A04K7LEJM0W",
+          "text": "Hello again :wave:",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B04KEMZMBJP",
+            "app_id": "A04K7LEJM0W",
+            "user_id": "U04KERHKT0S",
+            "name": "Frontend Infra Bot",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_36.png",
+              "image_48": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_48.png",
+              "image_72": "https://avatars.slack-edge.com/2023-01-27/4695251413175_a511973d58500e3af4cf_72.png"
+            },
+            "deleted": false,
+            "updated": 1675429601,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1762158712.612949",
+          "parent_user_id": "U04KERHKT0S",
+          "attachments": [
+            {
+              "id": 1,
+              "color": "a30200",
+              "fallback": "[no preview available]",
+              "pretext": "*pet-food* <#C04FVDBJZCK|squad-nv-pet-food>, Quarantined file(s): *1*",
+              "fields": [
+                {
+                  "value": "petFoodAllergens.spec.ts -&gt; <https://github.com/hellofresh/web/blob/master/app/e2e-tests/pr/wl-pet-food-tests/wl-pet-food-allergens/petFoodAllergens.quarantined.spec.ts|petFoodAllergens.quarantined.spec.ts>",
+                  "title": "Test Filename",
+                  "short": false
+                },
+                {
+                  "value": "<https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics?query=%7B%22time_range%22%3A604800%2C%22granularity%22%3A0%2C%22breakdowns%22%3A%5B%22status%22%5D%2C%22calculations%22%3A%5B%7B%22op%22%3A%22SUM%22%2C%22column%22%3A%22test_runs%22%7D%2C%7B%22op%22%3A%22SUM%22%2C%22column%22%3A%22test_fails%22%7D%2C%7B%22op%22%3A%22SUM%22%2C%22column%22%3A%22test_retries%22%7D%2C%7B%22op%22%3A%22COUNT%22%7D%5D%2C%22filters%22%3A%5B%7B%22column%22%3A%22fileName%22%2C%22op%22%3A%22%3D%22%2C%22value%22%3A%22e2e-tests%2Fpr%2Fwl-pet-food-tests%2Fwl-pet-food-allergens%2FpetFoodAllergens.spec.ts%22%7D%2C%7B%22column%22%3A%22workflow.name%22%2C%22op%22%3A%22in%22%2C%22value%22%3A%5B%22Merge%22%2C%22Cron%22%5D%7D%2C%7B%22column%22%3A%22span.type%22%2C%22op%22%3A%22%3D%22%2C%22value%22%3A%22test%22%7D%5D%2C%22filter_combination%22%3A%22AND%22%2C%22orders%22%3A%5B%7B%22op%22%3A%22COUNT%22%2C%22order%22%3A%22descending%22%7D%5D%2C%22havings%22%3A%5B%5D%2C%22limit%22%3A3%7D|The last 7 days>",
+                  "title": "Success Rate Dashboard",
+                  "short": true
+                },
+                {
+                  "value": "<https://github.com/hellofresh/web/pull/59864|59864>",
+                  "title": "Pull request",
+                  "short": true
+                },
+                {
+                  "value": "Success Rate: *52.00%*, Runs: *159*, Retries: *185*, Fails: *76*",
+                  "title": "Rates (last 7 days)",
+                  "short": false
+                }
+              ],
+              "mrkdwn_in": [
+                "text"
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NHuv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hello again "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wave",
+                      "unicode": "1f44b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1761926070.970189",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1761926070.970189",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1762433028.639809",
+      "reply_users": [
+        "U018UCEFJ65",
+        "UFE79GKFC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U07HY5RPKT4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset Subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `found in column I of tab 2025_W45 in the below spreadsheet, thanks\n`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U07HY5RPKT4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset Subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `found in column I of tab 2025_W45 in the below spreadsheet, thanks\n`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1761926071.270839",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1761926070.970189",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UFE79GKFC",
+          "type": "message",
+          "ts": "1762433024.566369",
+          "client_msg_id": "21c38c5c-e35c-4ca5-ab86-5ffa3f93a76a",
+          "text": "Apologies for the delay, the subscriptions have been reset",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761926070.970189",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Oa1E+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Apologies for the delay, the subscriptions have been reset"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UFE79GKFC",
+          "type": "message",
+          "ts": "1762433028.639809",
+          "client_msg_id": "c73885ac-bc45-46df-9cdc-8fa4c5712089",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761926070.970189",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U09LJL3F45S",
+      "text": "<@U09LJL3F45S> has joined the channel",
+      "type": "message",
+      "ts": "1761742362.489929"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1761663057.502259",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1761663057.502259",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1761664049.614679",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U07JV68BQ79",
+        "U03UN2C25UL",
+        "U01PE2S4ZL6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U07JV68BQ79>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team, will appreciate PR review: <https://github.com/hellofresh/web/pull/59584>\n\nIt's basically adding GA events for tracking`\n*Expected behaviour:* `PR review`\n*Actual behaviour:* `—`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U07JV68BQ79>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team, will appreciate PR review: <https://github.com/hellofresh/web/pull/59584>\n\nIt's basically adding GA events for tracking`\n*Expected behaviour:* `PR review`\n*Actual behaviour:* `—`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1761663057.803029",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1761663057.502259",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761663243.143749",
+          "client_msg_id": "6af0f9f1-f042-4c68-b33d-0645922a4c70",
+          "text": "<!subteam^S09E623UL4B> once you have a minute :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761663057.502259",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gGHZ6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S09E623UL4B"
+                    },
+                    {
+                      "type": "text",
+                      "text": " once you have a minute "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UN2C25UL",
+          "type": "message",
+          "ts": "1761663897.534839",
+          "client_msg_id": "73a64ce4-3404-4a12-be6d-53eb729cf2ec",
+          "text": "Hi Polina\nReminder that the correct group is <!subteam^S05K3MZSD55>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761663057.502259",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "h0Tbr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Polina\nReminder that the correct group is "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S05K3MZSD55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01PE2S4ZL6"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761663949.441469",
+          "client_msg_id": "5f50bd8d-710a-452a-b299-661d1244def4",
+          "text": "Got it, thanks",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761663057.502259",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dJZ4y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Got it, thanks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01PE2S4ZL6"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1761664049.614679",
+          "client_msg_id": "779a6a9c-fee9-400d-aee8-efa2563299c6",
+          "text": "approved :check:\n<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761663057.502259",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vZk25",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "approved "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "check"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U07JV68BQ79"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1761659151.969239",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1761659151.969239",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1761665617.236159",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01PE2S4ZL6",
+        "U07HY5RPKT4"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U07HY5RPKT4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset Subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `found in column A of tab 2025_W45 in the below spreadsheet, thanks\n`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@U07HY5RPKT4>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset Subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `found in column A of tab 2025_W45 in the below spreadsheet, thanks\n`\n*Expected behaviour:* `reset subs`\n*Actual behaviour:* `payment errors`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1761659152.319829",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1761659151.969239",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1761664208.362459",
+          "edited": {
+            "user": "U01PE2S4ZL6",
+            "ts": "1761664642.000000"
+          },
+          "client_msg_id": "25d4b597-efac-4d27-9c77-df476323217d",
+          "text": "<@U07HY5RPKT4> hey, sorry I lost the link to the spreadsheet, do you mind pasting it here :sweat_smile:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761659151.969239",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yteZF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U07HY5RPKT4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " hey, sorry I lost the link to the spreadsheet, do you mind pasting it here "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "unicode": "1f605"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07HY5RPKT4",
+          "type": "message",
+          "ts": "1761664813.598809",
+          "client_msg_id": "a0e7c7af-83aa-4d7f-979e-53f4099fe155",
+          "text": "apologies forgot to paste it in - <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=311438405#gid=311438405>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761659151.969239",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ryX4Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "apologies forgot to paste it in - "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=311438405#gid=311438405"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U01PE2S4ZL6"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U01PE2S4ZL6"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1761665617.236159",
+          "client_msg_id": "67948944-b503-4044-9bc6-f5f5c6c093a1",
+          "text": "the reset is complete :check:\n\n<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761659151.969239",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gtrim",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the reset is complete "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "check"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            },
+            {
+              "name": "ty",
+              "users": [
+                "U07HY5RPKT4"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U047SAC2PPV",
+      "type": "message",
+      "ts": "1761655665.050049",
+      "client_msg_id": "1ea0afac-b522-4808-a6c0-56d0b4dc0458",
+      "text": "Kick starting BFF :thread:",
+      "team": "T02AGMUUR",
+      "thread_ts": "1761655665.050049",
+      "reply_count": 14,
+      "reply_users_count": 3,
+      "latest_reply": "1761659357.915789",
+      "reply_users": [
+        "U047SAC2PPV",
+        "U8F7ZDAPM",
+        "U01PE2S4ZL6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zYkKn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Kick starting BFF "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "unicode": "1f9f5"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "mori-intensifies",
+          "users": [
+            "U7SJ525DE",
+            "U01U67XD681",
+            "U2D54V0UV",
+            "U01PE2S4ZL6"
+          ],
+          "count": 4
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655732.008069",
+          "client_msg_id": "d4d2e6c0-3e84-4bcf-a73b-185f77d8402b",
+          "text": "Hey team\n\nI'm going to start the work on the BFF, but first I need a name for the repo\nCan I get some ideas from you guys :bitte:\n\n<!subteam^S02VDPT74A0>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YAnwV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey team\n\nI'm going to start the work on the BFF, but first I need a name for the repo\nCan I get some ideas from you guys "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "bitte"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n"
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S02VDPT74A0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1761655798.878059",
+          "client_msg_id": "712cf394-07a9-4080-b80f-414a8199b9a5",
+          "text": "Is this repo only for 1 BFF or it could host multiple?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "79A/R",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is this repo only for 1 BFF or it could host multiple?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655818.372449",
+          "client_msg_id": "a274aee9-d027-4a8b-b010-dd1aedabe641",
+          "text": "all of the bffs :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RZ7as",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "all of the bffs "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655824.237939",
+          "client_msg_id": "2e65b881-ffa7-48d4-b90c-df1ac9c1174f",
+          "text": "it's going to be a monorepo",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ksxvf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it's going to be a monorepo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1761655868.224409",
+          "client_msg_id": "7e45aef0-e2f0-4fff-b4ad-b1d525d2dcdd",
+          "text": "then I would just stick with something like new-ventures-bff",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eP2Td",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "then I would just stick with something like new-ventures-bff"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655933.394699",
+          "client_msg_id": "d006c248-6269-44ed-8ec2-1c03108bc903",
+          "text": "so far these are the options:\n• nv-bff\n• new-ventures-bff\n• consumer-mega-bff\n• krass-bff\n",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0NiFj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "so far these are the options:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "nv-bff"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "new-ventures-bff"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "consumer-mega-bff"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "krass-bff"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655951.890159",
+          "client_msg_id": "e616e4f1-7109-45ff-889e-68b4601f40d6",
+          "text": "but we don't have new-ventures anymore :disappointed:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JqO2U",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but we don't have new-ventures anymore "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "disappointed",
+                      "unicode": "1f61e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1761655966.699659",
+          "client_msg_id": "2c15436c-758b-48e8-bd38-4f39cc66485e",
+          "text": "wdym we dont have new ventures anymore?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1/8pE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "wdym we dont have new ventures anymore?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761655989.992849",
+          "client_msg_id": "67875db6-e014-4399-8b73-c4028237eeff",
+          "text": "the name is gone. right? there is no more new-ventures in hellofresh",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s7a6B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the name is gone. right? there is no more new-ventures in hellofresh"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1761656025.646989",
+          "client_msg_id": "68afae21-d913-49a2-bc63-b1c449b4ba13",
+          "text": "No NVE is staying, TAM is gone though",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AYFck",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No NVE is staying, TAM is gone though"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U047SAC2PPV",
+          "type": "message",
+          "ts": "1761656053.715129",
+          "client_msg_id": "e3e07f1a-848a-4481-a783-9f6b32899090",
+          "text": "Then we go with new-ventures-bff\n\nI'll create a public channel once the repo is ready for contribution",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K02ig",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Then we go with new-ventures-bff\n\nI'll create a public channel once the repo is ready for contribution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U8F7ZDAPM",
+                "UFE79GKFC",
+                "U2D54V0UV"
+              ],
+              "count": 3
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1761658872.556909",
+          "client_msg_id": "dc90d37b-f5d6-4d3e-b21a-64a31ff4aecf",
+          "text": "what if nve is gone? :trollero:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ywAn7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "what if nve is gone? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "trollero"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1761659281.264449",
+          "client_msg_id": "f8d41ebd-473f-4392-a36e-6759adf678ab",
+          "text": "then we have bigger things to worry about :haha:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kFiiY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "then we have bigger things to worry about "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "haha"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1761659357.915789",
+          "edited": {
+            "user": "U01PE2S4ZL6",
+            "ts": "1761659366.000000"
+          },
+          "client_msg_id": "5cc479d0-ef1a-41e0-95f6-37d5abc03ffb",
+          "text": "yet someone renamed TAM, like there are no bigger things.. :trollero: (just trolling, and I'm done trolling :trollface:)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761655665.050049",
+          "parent_user_id": "U047SAC2PPV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "I1dUf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yet someone renamed TAM, like there are no bigger things.. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "trollero"
+                    },
+                    {
+                      "type": "text",
+                      "text": " (just trolling, and I'm done trolling "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "trollface"
+                    },
+                    {
+                      "type": "text",
+                      "text": ")"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U047SAC2PPV",
+      "text": "<@U047SAC2PPV> has joined the channel",
+      "type": "message",
+      "ts": "1761655638.562739"
+    }
+  ]
+}

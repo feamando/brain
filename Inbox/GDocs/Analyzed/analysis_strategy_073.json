@@ -1,0 +1,638 @@
+{
+  "batch_id": "strategy_073",
+  "doc_type": "strategy",
+  "doc_count": 3,
+  "results": [
+    {
+      "doc_title": "FINANCE 2026 HFG Domain Objectives - FINAL",
+      "doc_id": "19VE335DkBvZNP7-GJnhtrYmO8HamP_zMU0w_-jKBl5Q",
+      "doc_type": "strategy",
+      "goals": [
+        {
+          "description": "Transition from single year to a long-term (3 year) financial forecast while ensuring HFG realizes at least €500m of AEBIT and €400m FCF (post leases) in 2026",
+          "timeframe": "2026",
+          "owner": "Helge Doering"
+        },
+        {
+          "description": "Improve accuracy and agility of forecasting vs. 2025 for both weekly cost reporting and monthly actuals to GCR",
+          "timeframe": "2026",
+          "owner": "Not specified"
+        },
+        {
+          "description": "Overachieve >300 mEUR+ cost savings target communicated externally, including 100 mEUR+ overhead savings",
+          "timeframe": "2026",
+          "owner": "Finance with business functions"
+        },
+        {
+          "description": "Ensure >€1B spend flows through Workday Procurement to ensure proper controls",
+          "timeframe": "2026",
+          "owner": "Finance"
+        }
+      ],
+      "key_results": [
+        {
+          "metric": "AEBIT",
+          "baseline": "Not specified",
+          "target": "€500m in 2026"
+        },
+        {
+          "metric": "FCF (post-leases)",
+          "baseline": "Not specified",
+          "target": "€400m in 2026"
+        },
+        {
+          "metric": "AEBIT variance of MEC to GCR",
+          "baseline": "2025 performance",
+          "target": "Less than 5%"
+        },
+        {
+          "metric": "Cost savings",
+          "baseline": "Not specified",
+          "target": ">€300m+ (including €100m+ overhead savings)"
+        },
+        {
+          "metric": "Paid Gross CCV/CAC+D",
+          "baseline": "Not specified",
+          "target": "0.95 (including 5% blended AOR uplift)"
+        },
+        {
+          "metric": "Conversion growth",
+          "baseline": "Not specified",
+          "target": "Single digit"
+        },
+        {
+          "metric": "mPC2 (% of GR)",
+          "baseline": "Not specified",
+          "target": "46.5% for the Group"
+        },
+        {
+          "metric": "Group capex (including capitalized tech expenses)",
+          "baseline": "Not specified",
+          "target": "Below €150m"
+        },
+        {
+          "metric": "Spend through Workday Procurement",
+          "baseline": "Not specified",
+          "target": ">€1B"
+        },
+        {
+          "metric": "MEC call attendance reduction (US)",
+          "baseline": "Previous attendance level",
+          "target": "More than 50% reduction"
+        }
+      ],
+      "priorities": {
+        "in_scope": [
+          "Three-year financial forecasting with adaptive budget for all markets",
+          "Achieving 2026 AEBIT and FCF targets",
+          "Efficiency Program/Cost to Serve (HFG Top 5 Strategy #5)",
+          "Stronger enforcement and team education on financial planning",
+          "Improving AEBIT cockpit and planning process with GTO",
+          "Tailored reporting of discretionary costs (personnel costs, T&E, cost centers)",
+          "Tracking and enforcement of cost saving programs",
+          "Taking over responsibility for indirect personnel cost controlling from AEBIT cockpit",
+          "Improving forecasting accuracy for weekly cost reporting and monthly actuals",
+          "Reconciliation between cockpit and P&L impact in budget/actuals",
+          "Risk mitigation activities including fraud prevention",
+          "AI/Gemini experimentation for finance processes"
+        ],
+        "deprioritized": [
+          "Not explicitly stated in document"
+        ]
+      },
+      "dependencies": [
+        "Business functions driving AEBIT and FCF value",
+        "GTO collaboration for AEBIT cockpit and planning improvements",
+        "Functional leaders commitment to 3-year planning",
+        "SMT leaders steering with near and long-term vision",
+        "Tech support (noted as limited availability, focused on commercial teams)",
+        "Group CFO approval for decisions impacting targets or 3-year plan",
+        "Workday Procurement system implementation and adoption",
+        "Cross-functional collaboration for cost savings programs",
+        "Front-line teams (e.g., AP) maintaining vigilance on fraud risks"
+      ],
+      "risks": [
+        {
+          "risk": "General business performance not meeting AEBIT and FCF targets",
+          "mitigation": "Finance accurately tracking performance; assist with accuracy intramonth via GCR to MEC; partner with business functions through AEBIT cockpit"
+        },
+        {
+          "risk": "Finance objectives not being 'top of mind' across the business",
+          "mitigation": "Stronger enforcement and team education; proactive collaboration and challenge through tailored reporting"
+        },
+        {
+          "risk": "Limited Tech support for Finance objectives (Accuracy #2 and Efficiency #3)",
+          "mitigation": "Accomplish objectives without substantial Tech support; leverage AI/Gemini for automation and efficiency"
+        },
+        {
+          "risk": "Difficulty prioritizing risk mitigation activities and maintaining vigilance on fraud threats",
+          "mitigation": "Ensure front-line teams 'stay frosty' to threats; focus on risk mitigation as part of objectives"
+        },
+        {
+          "risk": "Decisions made that impact near-term targets or 3-year plan without proper validation",
+          "mitigation": "Require Group CFO approval and analysis validating trade-offs for material decisions"
+        }
+      ],
+      "initiatives": [
+        "Implementation of 3-year adaptive budget with core metrics (AOR, CAC, conversion growth, PC2, capex) across all markets",
+        "Enhancement of AEBIT cockpit with GTO for improved planning process",
+        "Workday Procurement rollout to process >€1B spend",
+        "Cost savings program tracking and enforcement (>€300m target)",
+        "Overhead savings program (€100m+ target)",
+        "Tailored discretionary cost reporting system (personnel, T&E, cost centers, Multimarket/Nexus)",
+        "Transfer of indirect personnel cost controlling responsibility from AEBIT cockpit to Finance",
+        "Forecasting accuracy improvement program for weekly and monthly reporting",
+        "Reconciliation process between cockpit and P&L for budget/actuals",
+        "AI/Gemini experimentation projects including: podcast creation from meeting notes, large dataset reconciliation, historical GL data analysis for estimates, quick analysis on large datasets for faster book closing",
+        "MEC call efficiency improvement (US market)",
+        "Risk mitigation and fraud prevention program"
+      ],
+      "entities": [
+        {
+          "name": "Christian Gaertner",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Greg Chisholm",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Uwe Voss",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Maria Fernandez",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "John Godevas",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Sarah Old",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Helge Doering",
+          "type": "person",
+          "context": "Objective Owner for primary 2026 financial forecast objective"
+        },
+        {
+          "name": "Kristen J Gould",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Robert Diem",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Alan Kearney",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Daniel Alvarez",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Daniel Hindley",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "Mark Holohan",
+          "type": "person",
+          "context": "Working Group/PoC member"
+        },
+        {
+          "name": "HFG",
+          "type": "brand",
+          "context": "HelloFresh Group - the organization for which these finance objectives are set"
+        },
+        {
+          "name": "GTO",
+          "type": "project",
+          "context": "Group Technology Organization - partner with Finance for AEBIT cockpit and planning improvements"
+        },
+        {
+          "name": "AEBIT cockpit",
+          "type": "system",
+          "context": "Financial tracking and planning system used for monitoring AEBIT performance and cost savings"
+        },
+        {
+          "name": "Workday Procurement",
+          "type": "system",
+          "context": "Procurement system to process >€1B spend with proper controls"
+        },
+        {
+          "name": "GCR",
+          "type": "system",
+          "context": "System for monthly actuals reporting and forecasting accuracy measurement"
+        },
+        {
+          "name": "MEC",
+          "type": "system",
+          "context": "Monthly Estimate Call/system for cost reporting and forecasting"
+        },
+        {
+          "name": "Gemini",
+          "type": "system",
+          "context": "AI tool being experimented with for finance automation, data analysis, podcast creation, and dataset reconciliation"
+        },
+        {
+          "name": "SMT",
+          "type": "project",
+          "context": "Senior Management Team - leaders responsible for steering business with near and long-term vision"
+        },
+        {
+          "name": "Nexus",
+          "type": "project",
+          "context": "Multimarket reporting initiative for cost center tracking"
+        },
+        {
+          "name": "Group CFO",
+          "type": "person",
+          "context": "Approval authority for decisions impacting financial targets or 3-year plan"
+        },
+        {
+          "name": "Finance & Legal Domain",
+          "type": "project",
+          "context": "The domain for which these 2026 objectives are defined"
+        }
+      ]
+    },
+    {
+      "doc_title": "Influencer Marketplace – Strategy",
+      "doc_id": "1dJS3v9EPc0Yj75BZ8vLydGEzur6Z8xYXgx8oQbHN5g4",
+      "doc_type": "strategy",
+      "goals": [
+        {
+          "description": "Launch Recipe Creator Marketplace MVP",
+          "timeframe": "Jan/Feb 2026",
+          "owner": "Wanderley Teixeira (Squad)"
+        },
+        {
+          "description": "Complete Prototype & Validate phase",
+          "timeframe": "Sprint 4, 2025",
+          "owner": "Annette MvdE"
+        },
+        {
+          "description": "Launch in Canada first",
+          "timeframe": "2026",
+          "owner": "HelloFresh CA"
+        },
+        {
+          "description": "Transform HelloFresh into 'Spotify for food' - platform where any creator can share recipes",
+          "timeframe": "Long-term",
+          "owner": "HelloFresh"
+        }
+      ],
+      "key_results": [
+        {
+          "metric": "Project phase completion",
+          "baseline": "Phase 3: Prototype & Validate",
+          "target": "Hand-over to Squad"
+        },
+        {
+          "metric": "Sprint progress",
+          "baseline": "Sprint 4, week 1",
+          "target": "On time delivery"
+        }
+      ],
+      "priorities": {
+        "in_scope": [
+          "Curated recipe creator marketplace with influencers",
+          "Aggregators integration",
+          "Instant purchase as meal kit option",
+          "Fulfilled by HelloFresh model",
+          "Recipe scoring based on formatting and completeness",
+          "Reliability meter for recipes",
+          "Automatic flagging of recipes missing critical info (times, measurements, yields)",
+          "Save for later functionality",
+          "Q&A section for recipes"
+        ],
+        "deprioritized": [
+          "Full 'Spotify for food' platform (long-term vision)",
+          "Open platform for any creator (deferred to later phase)"
+        ]
+      },
+      "dependencies": [
+        "Operations and logistics infrastructure",
+        "Warehouse capabilities",
+        "User research completion (Katheryn Eckles)",
+        "Tech execution team (Wanderley Teixeira)",
+        "Design assets and prototypes (Shay Obaidullah, Marc)",
+        "Business strategy alignment (Melanie Schwindt)",
+        "Bi-weekly stakeholder approvals"
+      ],
+      "risks": [
+        {
+          "risk": "Competitors already solving problem (Instacart partnerships with influencers and Pinterest)",
+          "mitigation": "Act with urgency; differentiate with holistic meal kit offering vs individual ingredients"
+        },
+        {
+          "risk": "Influencers dependent on heavily controlled social media platforms",
+          "mitigation": "Provide new revenue stream and direct audience engagement outside platforms"
+        },
+        {
+          "risk": "Recipe quality and completeness variability",
+          "mitigation": "Implement recipe scoring system and automatic flagging of incomplete recipes"
+        },
+        {
+          "risk": "Customer purchase timing mismatch",
+          "mitigation": "Implement save for later functionality"
+        }
+      ],
+      "initiatives": [
+        "Influencer Marketplace MVP development",
+        "Recipe Creator Marketplace platform",
+        "Curated influencer partnerships",
+        "Aggregator integration",
+        "Recipe quality scoring system",
+        "Shoppable social commerce integration",
+        "Fulfilled by HelloFresh logistics model",
+        "User research and prototype testing",
+        "CA market launch preparation"
+      ],
+      "entities": [
+        {
+          "name": "Annette MvdE",
+          "type": "person",
+          "context": "Driver - Experience Strategy, Berlin GMT+2, document owner"
+        },
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sponsor - SLT"
+        },
+        {
+          "name": "Wanderley Teixeira",
+          "type": "person",
+          "context": "Driver - Tech Execution, Toronto GMT-4, Squad hand-over recipient"
+        },
+        {
+          "name": "Melanie Schwindt",
+          "type": "person",
+          "context": "Driver - Business Strategy and Operation Strategy, Toronto GMT-4"
+        },
+        {
+          "name": "Ian Brooks",
+          "type": "person",
+          "context": "Key Approver, Toronto GMT-4"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Owner of Working Backwards Document"
+        },
+        {
+          "name": "Katheryn Eckles",
+          "type": "person",
+          "context": "User Research Plan owner"
+        },
+        {
+          "name": "Shay Obaidullah",
+          "type": "person",
+          "context": "MVP Design Assets owner"
+        },
+        {
+          "name": "Marc",
+          "type": "person",
+          "context": "First idea Prototype owner"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Company executing influencer marketplace strategy, positioning as 'Spotify for food'"
+        },
+        {
+          "name": "Recipe Creator Marketplace",
+          "type": "project",
+          "context": "Official project name for influencer marketplace initiative"
+        },
+        {
+          "name": "Influencer Marketplace",
+          "type": "project",
+          "context": "Strategy initiative to create curated recipe creator marketplace"
+        },
+        {
+          "name": "Instacart",
+          "type": "brand",
+          "context": "Competitor already partnering with influencers and Pinterest for ingredient ordering"
+        },
+        {
+          "name": "Pinterest",
+          "type": "brand",
+          "context": "Competitor partnering with Instacart for 1-click grocery list generation"
+        },
+        {
+          "name": "Spotify",
+          "type": "brand",
+          "context": "Aspirational model for long-term vision - 'Spotify for food'"
+        },
+        {
+          "name": "Magic Patterns",
+          "type": "system",
+          "context": "Design prototyping tool used for exploration prototype"
+        },
+        {
+          "name": "Miro",
+          "type": "system",
+          "context": "Tool for flow charts, password: InfluencerMarketplace2025"
+        },
+        {
+          "name": "Figma",
+          "type": "system",
+          "context": "Design tool for assets"
+        }
+      ]
+    },
+    {
+      "doc_title": "Influencer Marketplace – Strategy",
+      "doc_id": "1dJS3v9EPc0Yj75BZ8vLydGEzur6Z8xYXgx8oQbHN5g4",
+      "doc_type": "strategy",
+      "goals": [
+        {
+          "description": "Launch Recipe Creator Marketplace MVP",
+          "timeframe": "Jan/Feb 2026",
+          "owner": "Squad: Wanderley Teixeira"
+        },
+        {
+          "description": "Launch in Canada first",
+          "timeframe": "2026",
+          "owner": "HelloFresh CA"
+        },
+        {
+          "description": "Transform HelloFresh into the 'Spotify for food' - a platform where any creator can share a recipe that HelloFresh fulfills",
+          "timeframe": "Long-term",
+          "owner": "HelloFresh"
+        },
+        {
+          "description": "Complete Prototype & Validate: MVP Blueprint phase",
+          "timeframe": "Sprint 4, week 1 (Dec 2025)",
+          "owner": "Project Team"
+        }
+      ],
+      "key_results": [
+        {
+          "metric": "Attract new customers through social commerce",
+          "baseline": "Not specified",
+          "target": "Not specified"
+        },
+        {
+          "metric": "Create new revenue streams for influencers",
+          "baseline": "Current platform-dependent revenue",
+          "target": "Independent revenue through HelloFresh marketplace"
+        },
+        {
+          "metric": "Convert social media recipe inspiration into shoppable meal kits",
+          "baseline": "Followers struggle to find ingredients",
+          "target": "Easy re-cooking through meal kit delivery"
+        }
+      ],
+      "priorities": {
+        "in_scope": [
+          "Curated recipe creator marketplace with influencers",
+          "Curated recipe creator marketplace with aggregators",
+          "Instant purchase as meal kit 'fulfilled by HelloFresh'",
+          "Recipe scoring based on clear formatting and completeness",
+          "Reliability meter for recipes",
+          "Automatic flagging of recipes missing critical info (times, measurements, yields)",
+          "Save for later functionality",
+          "Q&A section for recipes"
+        ],
+        "deprioritized": [
+          "Full open platform for any creator (deferred to long-term vision)"
+        ]
+      },
+      "dependencies": [
+        "Tech Execution team (Wanderley Teixeira)",
+        "Operation Strategy team",
+        "Warehouse and logistics infrastructure",
+        "User Research completion (Katheryn Eckles)",
+        "Design Assets from Marc and Shay Obaidullah",
+        "Stakeholder approval through bi-weekly gated decisions"
+      ],
+      "risks": [
+        {
+          "risk": "Competitive threat from Instacart partnerships with influencers and Pinterest",
+          "mitigation": "Act now with urgency; differentiate with holistic meal kit offering vs individual ingredients"
+        },
+        {
+          "risk": "Recipe quality and completeness variability from influencers",
+          "mitigation": "Implement recipe scoring system and reliability meter; automatically flag incomplete recipes"
+        },
+        {
+          "risk": "Timing of purchase intent - users may want to buy later",
+          "mitigation": "Include save for later functionality in MVP consideration"
+        }
+      ],
+      "initiatives": [
+        "Influencer Marketplace MVP development",
+        "Prototype testing and validation",
+        "User research plan execution",
+        "Recipe scoring and reliability system",
+        "Curated marketplace with influencers and aggregators",
+        "Shoppable meal kit integration",
+        "HelloFresh shop creation for influencer recipes"
+      ],
+      "entities": [
+        {
+          "name": "Annette MvdE",
+          "type": "person",
+          "context": "Driver - Experience Strategy, Berlin GMT+2, document owner"
+        },
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Sponsor from SLT"
+        },
+        {
+          "name": "Wanderley Teixeira",
+          "type": "person",
+          "context": "Driver - Tech Execution, Toronto GMT-4, squad hand-over recipient"
+        },
+        {
+          "name": "Melanie Schwindt",
+          "type": "person",
+          "context": "Driver - Business Strategy and Operation Strategy, Toronto GMT-4"
+        },
+        {
+          "name": "Ian Brooks",
+          "type": "person",
+          "context": "Key Approver, Toronto GMT-4"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Owner of Working Backwards Document (WBD)"
+        },
+        {
+          "name": "Marc",
+          "type": "person",
+          "context": "Owner of First idea Prototype design assets"
+        },
+        {
+          "name": "Shay Obaidullah",
+          "type": "person",
+          "context": "Owner of MVP design assets"
+        },
+        {
+          "name": "Katheryn Eckles",
+          "type": "person",
+          "context": "Owner of User Research Plan & Assets"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Company executing the influencer marketplace strategy, positioned as expert in operations, warehouses and logistics"
+        },
+        {
+          "name": "Recipe Creator Marketplace",
+          "type": "project",
+          "context": "Official project name for the influencer marketplace initiative"
+        },
+        {
+          "name": "Instacart",
+          "type": "brand",
+          "context": "Competitor providing ingredient ordering links for influencers and Pinterest partnership"
+        },
+        {
+          "name": "Pinterest",
+          "type": "brand",
+          "context": "Competitor partnering with Instacart for 1-click grocery list generation"
+        },
+        {
+          "name": "Spotify",
+          "type": "brand",
+          "context": "Aspirational model - 'Spotify for food' as long-term vision"
+        },
+        {
+          "name": "Magic Patterns",
+          "type": "system",
+          "context": "Design prototyping tool used for exploration prototype"
+        },
+        {
+          "name": "Miro",
+          "type": "system",
+          "context": "Tool used for flow charts, password: InfluencerMarketplace2025"
+        },
+        {
+          "name": "Figma",
+          "type": "system",
+          "context": "Design tool used for design assets"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:42:29.106882"
+}

@@ -1,0 +1,753 @@
+{
+  "batch_id": "jira_0011",
+  "source": "jira",
+  "issue_count": 25,
+  "issue_types": {
+    "Sub-task": 2,
+    "Task": 19,
+    "Story": 2,
+    "Bug": 1,
+    "Epic": 1
+  },
+  "issues": [
+    {
+      "key": "RTEVMS-2453",
+      "summary": "Use Id from MongoDB and reuse it in web repo",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2026-01-05",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2431",
+      "parent_summary": "Add hardcoded product_items IDs to productNameToIdMap",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2418",
+      "summary": "[OTP][UAT] Update Welcome Kit copy for SNS orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDaily Greens *Welcome Kit* sections should be updated to communicate that this is for SNS orders only.\n\nCopy should be updated to SNS orders only in the following places:\n\n* Section on {{/products}} page\n* Greens product cards on {{/products}} page\n* Section on {{/products/greens}} page\n* Section on {{/signup}} page\n\n!Screenshot 2025-12-30 at 10.02.00 AM.png|width=321,height=431,alt=\"Screenshot 2025-12-30 at 10.02.00 AM.png\"!\n\n!Screenshot 2025-12-30 at 10.02.11 AM.png|width=448,height=191,alt=\"Screenshot 2025-12-30 at 10.02.11 AM.png\"!\n\n!Screenshot 2025-12-23 at 10.08.51 AM.png|width=939,height=762,alt=\"Screenshot 2025-12-23 at 10.08.51 AM.png\"!\n\n!Screenshot 2025-12-30 at 10.01.46 AM.png|width=1032,height=565,alt=\"Screenshot 2025-12-30 at 10.01.46 AM.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Ensure the Welcome Kit copy is updated on Section on the following pages\n** {{/products}} page\n*** Replace the title “FREE Daily Greens Welcome Kit worth $36“ with “Subscribe and Save: FREE Welcome Kit worth $36“\n*** Replace “Free welcome kit with first time purchase of Daily Greens.“ with “Get a free welcome kit with first time subscription order of Daily Greens; Auto-applied at checkout.“\n** Greens product cards on {{/products}} page\n*** Replace “*Free welcome kit* (worth $36) with first order“ with “*Free welcome kit* (worth $36) with first subscription order“\n** Section on {{/products/greens}} page\n*** Replace “new customers only“ with “New subscribers only, auto-applied at checkout“\n** Section on {{/signup}} page\n*** Replace “new customers only“ with “New subscribers only, auto-applied at checkout“\n*** Use the attached image to address the updates. \n!Gemini_Generated_Image_yfdpoqyfdpoqyfdp-20260106-191222.png|width=528,height=496,alt=\"Gemini_Generated_Image_yfdpoqyfdpoqyfdp-20260106-191222.png\"!\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requiremen",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Mendelson",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] we will need the updated copy for this ticket (but this is not high priority)",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2409",
+      "summary": "[KTLO] Prop 65: Show legally required disclaimers for related products",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs per California regulations, we should warn our users if some ingredients exceed a certain limit. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Add a “California residents only“ disclaimer to the bottom of the greens, whey protein, and creatine PDP pages as per [https://www.figma.com/design/eHvHX23anpQo3tbIJrMafT/Prop-65?node-id=0-1&t=ZFR85jt7FDItG7UX-1|https://www.figma.com/design/eHvHX23anpQo3tbIJrMafT/Prop-65?node-id=0-1&t=ZFR85jt7FDItG7UX-1|smart-link] \n## Creatine page can be updated later on once we have the PDP ready.\n# Show the additional warning as per figma if the users click on the chevron to expand the disclaimer. \n# The hyperlink should open in a new tab and land on [https://www.p65warnings.ca.gov/fact-sheets/foods-and-beverages|https://www.p65warnings.ca.gov/fact-sheets/foods-and-beverages]\n\n*Testing Requirements:*\n\n# Make sure the implemented version complies with the limitations described in [https://docs.google.com/document/d/1MzqqxKx6EchlFtJ-nTx_XGuAC0vQe6gClkMwUEDOjTo/edit?tab=t.0|https://docs.google.com/document/d/1MzqqxKx6EchlFtJ-nTx_XGuAC0vQe6gClkMwUEDOjTo/edit?tab=t.0|smart-link] \n# It only applies to greens, whey protein, and creatine products, so other products should not show this disclaimer.\n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-23",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] The implemented version doesn’t match with the designs in some ways:\n\n1. The paddings are different\n2. The chevron is too far from the text\n3. The title is bolded which shouldn’t be\n4. The font and font size doesn’t match the designs\n5. The warning icon is black which should be amber\n6. The link should open in a new tab but opens in the same tab (AC #3)\n\nImplemented version:\n\n!image-20260107-172537.png|width=1058,height=249,alt=\"image-20260107-172537.png\"!\n\n",
+          "created": "2026-01-07"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] because it is a Zest component, it has restraints on styling. I cannot change it to match these specs stylisticly\n5 - I spoke w/ Michael since we do not have the specified yellow token in the codebase and he said black is fine.\n6 - I can add a patch for this",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2416",
+      "summary": "[OTP][UAT] \"Delay or cancel anytime\" text is present for OTP orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\n“Delay or cancel anytime” text is shown in cart for OTP orders. This should be removed for OTP orders.\n\n!Screenshot 2025-12-30 at 9.55.28 AM.png|width=470,height=952,alt=\"Screenshot 2025-12-30 at 9.55.28 AM.png\"!\n\nUpdated design (font size is icorrect on my mockup. Keep font size the current size, just remove background and center.\n\n!30DAY.jpg|width=470,height=952,alt=\"30DAY.jpg\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* “Delay or cancel anytime” text is removed from cart for OTP orders \n** In this case, center align the ‘30-day money back guarantee’\n* “Delay or cancel anytime” text is visible within cart for SNS orders \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Low",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2414",
+      "summary": "[OTP][UAT] OTP free shipping threshold is incorrect",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nOTP free shipping threshold seems to be set to $50 instead of $65. When order total is <$65 but >$50, free shipping is shown in the order summary and cart.\n\n!Screenshot 2025-12-30 at 9.49.36 AM.png|width=371,height=671,alt=\"Screenshot 2025-12-30 at 9.49.36 AM.png\"!\n\n!Screenshot 2025-12-30 at 9.49.03 AM.png|width=476,height=520,alt=\"Screenshot 2025-12-30 at 9.49.03 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* When an OTP order is <$65, shipping should be applied in the cart and order summary\n* When and OTP order is >$65, shipping should be free in the cart and order summary\n* Shipping should always be free for OTP orders\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* We need to update the *price-set* used updating that specific sku: FJ-VMSU-2-2000-0\n* Review list from here: [https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "The price sets updates for shipping fee can be done using this guide.\n\n- [https://hellofresh.atlassian.net/wiki/spaces/ConsumerCore/pages/5856952466/Price+Rollouts+Self-Serve+Guide|https://hellofresh.atlassian.net/wiki/spaces/ConsumerCore/pages/5856952466/Price+Rollouts+Self-Serve+Guide|smart-link] \n- For more details I have added a video on Slack: [https://hellofresh.slack.com/archives/C09BKAQFKDM/p1767711007825349|https://hellofresh.slack.com/archives/C09BKAQFKDM/p1767711007825349|smart-link] ",
+          "created": "2026-01-06"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "!image-20260107-140625.png|width=1812,height=964,alt=\"image-20260107-140625.png\"!\n\nAdded request for approval on Slack channel\n\n[https://hellofresh.slack.com/archives/C0374928SNN/p1767794790485219|https://hellofresh.slack.com/archives/C0374928SNN/p1767794790485219|smart-link] ",
+          "created": "2026-01-07"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "Confirmed that this is working on both staging and live.\n\nThe following 16 SKUs were updated to change special price from 0 to 599: \n\n* FJ-VMSU-1-1-0, FJ-VMSU-1-10-0, FJ-VMSU-1-1000-0, FJ-VMSU-2-2000-0, FJ-VMSU-1-10000-0, FJ-VMSU-2-11000-0, FJ-VMSU-2-20000-0, FJ-VMSU-1-100000-0, FJ-VMSU-2-101000-0, FJ-VMSU-2-110000-0, FJ-VMSU-2-200000-0, FJ-VMSU-1-1000000-0, FJ-VMSU-2-1001000-0, FJ-VMSU-2-1010000-0, FJ-VMSU-2-1100000-0, FJ-VMSU-2-2000000-0\n\nSteps taken to update SKUs:\n\n* Price-set update is thro",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2428",
+      "summary": "Create copy sections for new products in lokalise",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nTBD - Blocked until the designs are finalized.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "determined in standup that this won’t be done as a bulk ticket - but rather per UI component, as needed",
+          "created": "2026-01-07"
+        }
+      ],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2419",
+      "summary": "[OTP][UAT] OTP checkout success message update",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAfter placing an OTP order the copy is incorrect.\n\n!Screenshot 2025-12-30 at 11.43.34 AM.png|width=569,height=491,alt=\"Screenshot 2025-12-30 at 11.43.34 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* *“In your box* You can make changes by Tue, Dec 30” should be removed\n* *“One-time purchases”* text should be added\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* [+Figma for correct copy+|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1384-42866&t=gIgb5b2cOibd0HyW-1]\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "TPT-2416",
+      "summary": "Funnel Navigation improvements: Back button from the Recipe Selection page should take customer to Plan Selection page",
+      "description": "{panel:bgColor=#eae6ff}\n*Expected Outcome*\n\nThe expected outcome is …\n\nWhen customer click on the “back” button on the recipe (meal) selection page customer should navigate back to the Plan selection page. (Please note: the back button on the browser correctly navigates customer to the plan selection page). See issue in the video attached.\n\nCurrently, clicking on the “back” button on the recipe selection page, navigates customers back to the step 1 of the onboarding quiz, which results in customers asked to fill in the essential questions again and wait for the calorie calculation.\n\nNavigating the customer back in the funnel leads to decline in conversion and decline in customer trust with PetsTable digital experience.\n\n*Data required for prioritization:* In what % of sessions, customer click on the “back” button of the recipe selection page. \n\n\n{panel}\n\nh3. *Scope (choose one):* {color:#97A0AF}*[ TBD ]*{color}  {color:#FF5630}*[ FIX THE BROKEN ]*{color}  {color:#FF991F}*[ SOLVE UNMET NEEDS ]*{color} {color:#36B37E}*[ ABOVE AND BEYOND NEEDS ]*{color} {color:#00B8D9}*[ INNOVATE ]*{color} \n\n||*What is the problem we’re solving for customers?*|Customers currently have to navigate through the questionnaire again if they click on the back button on the recipe selection page. \nAs we aim to have a variety of meal plans to offer customers, this will increase the time it takes for customers to make a satisfactory meal plan/recipe choice for their pet.  \nAllowing easier navigation from recipe to plan selection page will allow customers to make a decision quickly and move forward in the funnel to address/payment pages.|\n||*Why will customers care if we work on this?*|Customers expect the “back” button on recipe selection page to perform the expected action - take them back to plan selection page. Navigating customers back to the step 1 of questionnaire increases effort to complete transaction and reduce customer trust with TPT digital experience.|\n||*What company strategy bene",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Andrea Martins Costa L F Nascimento",
+      "reporter": "Prateek Jajoo",
+      "created": "2025-12-04",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [
+        "Meal selection"
+      ],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "TPT-2531",
+          "summary": "Funnel Improvements: Pre-select previously selected plan in the funnel"
+        }
+      ],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2403",
+      "summary": "Update the pdf feeding guide to include the portion %",
+      "description": "NOTE: Jasmine and Anisha will give an update in the [#squad-nv-pet-food|https://hellofresh.slack.com/archives/C04FVDBJZCK] when the feeding guides are ready, to give you a green light to pick up the ticket. Update the ticket with the link to the guides\n\n{panel:bgColor=#eae6ff}\n*Description*\n\nThe current feeding guides are based on SKU. For the launch of the different portion %s, we need to add an additional attrubute portion percentage. \n\nGoal of this ticket: Update the mapping of pdfs, so that they rely not only on SKU, but also portion %. \n\nLaunch new updated feeding guides\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* New feeding guides files [https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=755692854#gid=755692854|https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=755692854#gid=755692854|smart-link] \n* Update feeding guides instructions: [https://github.com/hellofresh/web/tree/master/toolbox/commands/wl-generate-feeding-guides|https://github.com/hellofresh/web/tree/master/toolbox/commands/wl-generate-feeding-guides|smart-link] \n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\n* If applicable, when the task/feature is split into multiple tickets\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* PDF feeding guides are mapped based on SKU and portion %\n** If user doesn’t have a pet profile (or NPS is down) it should default to 100% portion\n** If mixed plan always assume portion is 100% (see dev info)\n* New pdfs are launched\n* Implement behind a FF +(Only needed if PDFs aren’t uploaded yet when this change is made)+\n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* [Logic that builds the link to the feeding guide found here|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/sections/menu/info/components/FeedingGuideLink.tsx#L33]\n* Curre",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Mateusz Borowiak",
+      "reporter": "Maria Chelminska",
+      "created": "2025-12-01",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "release-log"
+      ],
+      "components": [],
+      "parent_key": "TPT-1698",
+      "parent_summary": "Stakeholder Requests Q2/25",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Andrea Martins Costa L F Nascimento",
+          "body": "Files are named after SKUs. They are hosted on S3.",
+          "created": "2025-12-15"
+        },
+        {
+          "author": "Andrea Martins Costa L F Nascimento",
+          "body": "[~accountid:6303a65d4c25135b9720b173] where can I find the updated files please? 🙏  ",
+          "created": "2025-12-15"
+        },
+        {
+          "author": "Maria Chelminska",
+          "body": "Hey Andrea, I added a wrong date in the ticket. We will get the files by the end of the week, by 18th of Dec, not november. They will be available here [https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=528934310#gid=528934310|https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=528934310#gid=528934310|smart-link] ",
+          "created": "2025-12-15"
+        },
+        {
+          "author": "Maria Chelminska",
+          "body": "For now drop this ticket and please take on sth else 🙂 ",
+          "created": "2025-12-15"
+        },
+        {
+          "author": "Maria Chelminska",
+          "body": "Feeding guides are available in this file: [https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=755692854#gid=755692854|https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?gid=755692854#gid=755692854|smart-link] ",
+          "created": "2026-01-05"
+        }
+      ],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2531",
+      "summary": "Funnel Improvements: Pre-select previously selected plan in the funnel",
+      "description": "{panel:bgColor=#eae6ff}\n*Description*\n\nFor the funnel navigation improvements, when the user selects a plan, moves forward, then comes back to the plan selection page in the funnel, we want the plan they previously selected to be pre-selected.\n{panel}\n\n{panel:bgColor=#deebff}\n*Resources*\n\n* Design\n* Assets\n* Content, etc\n{panel}\n\n{panel:bgColor=#ffebe6}\n*Out of Scope* \n\nN/A\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria* *_(focus on the what, not the how)_*\n\n* WHEN I am a logged out user OR I am a logged in user but I have no subscription yet (signed up, but haven’t checked out)\n* AND I am on the checkout funnel past the plans selection page\n* AND I go back to the plans selection page\n* THEN I should see the plan I have previously selected pre-selected on the plans selection page\n{panel}\n\n{panel:bgColor=#fffae6}\n*Developer Information* \n\n* Does it require [release log|https://docs.google.com/spreadsheets/d/1Y9ZsoBL6vLG_HwEfAKSleYNHIslCTlEeAaJpU1c0evg/edit?gid=1092559263#gid=1092559263] record? (add ticket label: release-log)\n* Do you recommend mobbing/pairing on this ticket?\n* If applicable, caveats or other known dependencies\n* Code context - examples of implementation\n* ⚠️ If possible, avoid using redux and try to refactor the files you’re touching that depend on redux to use data access hooks. E.g to get subscription data you can use [this hook|https://github.com/hellofresh/web/blob/a5dcf829594c11a7355ad1df3844ca898be17aba/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/data-access/subscription/useCurrentSubscription.ts]  ⚠️\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Andrea Martins Costa L F Nascimento",
+      "reporter": "Andrea Martins Costa L F Nascimento",
+      "created": "2025-12-29",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "TPT-2305",
+          "summary": "Funnel Navigation improvements: Redirection prevention on NavBar clicks "
+        },
+        {
+          "type": "is blocked by",
+          "key": "TPT-2416",
+          "summary": "Funnel Navigation improvements: Back button from the Recipe Selection page should take customer to P"
+        }
+      ],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "TPT-2542",
+      "summary": "Reset Trial Boxes - W02/26",
+      "description": "",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Desiree Mordine de Lima",
+      "reporter": "Desiree Mordine de Lima",
+      "created": "2026-01-06",
+      "updated": "2026-01-07",
+      "resolved": "2026-01-07",
+      "labels": [
+        "KTLO"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "TPT",
+      "squad_name": "The Pets Table"
+    },
+    {
+      "key": "MIO-21",
+      "summary": "[Live] Enable redirect for customers from legacy factorform to shopify factorform",
+      "description": "{panel:bgColor=#deebff}\n*User Story*\n\nAs a prospective Factorform customer who attempts to sign up or log in on the Legacy website ([http://factor75.com/factorform|http://factor75.com/factorform|smart-link] ), if I am not already registered, I must be smoothly and automatically redirected to the corresponding page on the new Shopify website ([https://factor-form-dev.myshopify.com/password|https://factor-form-dev.myshopify.com/password|smart-link]  ) to continue my session there. We have implemented these changes with a staging check as part of [https://hellofresh.atlassian.net/browse/MIO-20|https://hellofresh.atlassian.net/browse/MIO-20|smart-link], therefore this ticket is for removing the check and QA.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n# Enable the redirection changes on live\n# Verify the following user stories:\n## If the user lands on the sign-up page, they are redirected to the Shopify sign-up page equivalent.\n## If the user lands on the sign-in page, they are redirected to the Shopify sign-in page equivalent.\n{panel}",
+      "issue_type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Ameek Singh",
+      "created": "2025-11-25",
+      "updated": "2026-01-06",
+      "resolved": "2026-01-06",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Ameek Singh",
+          "body": "The redirection changes were not made on live based on stakeholder decisions",
+          "created": "2026-01-06"
+        }
+      ],
+      "links": [
+        {
+          "type": "Cannot finish until linked issue is finished.",
+          "key": "MIO-20",
+          "summary": "[Local storage only] Add redirect for customers not in legacy factorform to shopify dev site for fac"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-13",
+      "summary": "Shopify | Factor Form",
+      "description": "Mostly consulting but requires focus to create timelines, and answer questions\n[https://docs.google.com/document/d/1V5iDuJDx51yBdqH6LkYKzxw4YkVQXnWoqxnxrxg_hkQ/edit?pli=1&tab=t.vrzypws83yld#heading=h.uvobd0bzq3w4|https://docs.google.com/document/d/1V5iDuJDx51yBdqH6LkYKzxw4YkVQXnWoqxnxrxg_hkQ/edit?pli=1&tab=t.vrzypws83yld#heading=h.uvobd0bzq3w4|smart-link] \n\nFor website re-direction and SEO enhancements, we need to deliver this by soft-launch on Dec 15th.\nShopify Go-Live: December 15\n\n[https://docs.google.com/spreadsheets/d/1HmsnLbaHbuD-o20UPUQDP5mLJ8D2XfagyonXA18RQTU/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/1HmsnLbaHbuD-o20UPUQDP5mLJ8D2XfagyonXA18RQTU/edit?gid=0#gid=0|smart-link] ",
+      "issue_type": "Epic",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Wanderley Teixeira",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-11-07",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-24",
+      "summary": "Remove redirection from www.factorform.com",
+      "description": "Remove current redirection from [http://www.factorform.com|http://www.factorform.com|smart-link]  to [http://www.factor75.com/factorform|http://www.factor75.com/factorform|smart-link]  by removing all [+redirection rules+|https://github.com/hellofresh/infrastructure/blob/master/cdn/cloudflare/factorform.com/main.tf#L73] from Cloudflare\n\nAC:\n\n* When user hits [www.factorform.com|http://www.factorform.com] they shouldn’t be redirected anywhere",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Elena Pavlova",
+      "reporter": "Elena Pavlova",
+      "created": "2025-12-01",
+      "updated": "2026-01-06",
+      "resolved": "2026-01-06",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-26",
+      "summary": "Connect factorform.com domain to the Shopify instance",
+      "description": "Follow the instruction [https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains/connect-domain-manual#step-2-connect-your-domain-to-shopify|https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains/connect-domain-manual#step-2-connect-your-domain-to-shopify|smart-link] \n\nAC:\n\n* When a user hits [factorform.com|http://factorform.com] URL they should see the Shopify website",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Elena Pavlova",
+      "reporter": "Elena Pavlova",
+      "created": "2025-12-01",
+      "updated": "2026-01-06",
+      "resolved": "2026-01-06",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-71",
+      "summary": "Add Lokalize translations for confirm selection modal",
+      "description": "",
+      "issue_type": "Sub-task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Ameek Singh",
+      "created": "2026-01-06",
+      "updated": "2026-01-06",
+      "resolved": "2026-01-06",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-63",
+      "parent_summary": "[Web][Milestone 0] Persist plan type switch to the backend",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-61",
+      "summary": "Fix CORS issue",
+      "description": "When request to {{https://www.factor75.com/gw/auth/email/status}} is made from the Shopify it gets CORS error. Add Shopify domains to the allowed origins.",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Elena Pavlova",
+      "reporter": "Elena Pavlova",
+      "created": "2025-12-16",
+      "updated": "2026-01-06",
+      "resolved": "2026-01-06",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-29",
+      "summary": "RTE Systems - Update helm Charts & Comply Files with proper team details on applicable repos",
+      "description": "Update the *Helm Charts and Comply Files* across applicable repositories to reflect the correct team details for the newly formed *Market Innovation & Optimization(MIO)* team, previously managed under the RTE Systems squad (RTE Systems).\n\nThis task involves reviewing and modifying ownership details, metadata, and configuration settings to align with the new team structure and ensure compliance with internal standards.\n\n*Action Items:*\n\n* Identify all relevant repositories requiring updates.\n* Review and update team ownership details within Helm Charts.\n* Modify Comply Files to reflect the correct MIO team information.\n* Ensure consistency across all affected repositories.\n* Validate changes through pull request reviews and approvals.\n\n*Reference:*\n\n* Utilize the provided example PRs as a guideline for making the necessary updates.\n** [https://github.com/hellofresh/github-automation/blob/master/repositories/tax-service/.comply.yaml|https://github.com/hellofresh/github-automation/blob/master/repositories/tax-service/.comply.yaml]  \n** [https://github.com/hellofresh/tax-service/blob/3592ccda8da5c825be6702ceea1a03fa0248228d/ahoy/tax-service/values-live.yaml#L1|https://github.com/hellofresh/tax-service/blob/3592ccda8da5c825be6702ceea1a03fa0248228d/ahoy/tax-service/values-live.yaml#L1]  \n\n*Acceptance Criteria:*\n\n* All applicable repositories have updated Helm Charts and Comply Files.\n* PRs are submitted and approved following the team's review process.\n* Documentation is updated to reflect the changes where applicable.\n\nThis task is critical to maintaining accurate ownership records and ensuring a smooth transition to the new MIO team structure.",
+      "issue_type": "Task",
+      "status": "On Hold",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Davor Juric",
+          "body": "This ticket is blocked until HR and security update Workday and create an Azure group for our team.",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "Noticed that a lot of names are incosistent. Example for Community discount service, we have alerts and runbooks on the RTE-Systems squad name but ownership is for RTE-Platform. Will update all to be market-io.\n\n*Note*: that for all services we will update runbooks and codeowners once the teams are created in Workday.",
+          "created": "2025-12-15"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "Draft PR’s created for updating ownership:\n[https://github.com/hellofresh/profile-service/pull/664|https://github.com/hellofresh/profile-service/pull/664|smart-link] \n[https://github.com/hellofresh/profile-sinkers/pull/90|https://github.com/hellofresh/profile-sinkers/pull/90|smart-link] \n[https://github.com/hellofresh/programs-service/pull/307|https://github.com/hellofresh/programs-service/pull/307|smart-link] \n[https://github.com/hellofresh/subscribable-addons-bff/pull/258|https://github.com/he",
+          "created": "2025-12-16"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-28",
+      "summary": "NVS - Update helm Charts & Comply Files with proper team details on applicable repos",
+      "description": "Update the *Helm Charts and Comply Files* across applicable repositories to reflect the correct team details for the newly formed *Market Innovation & Optimization (MIO)* team, previously managed under the New Ventures Systems squad (NVS).\n\nThis task involves reviewing and modifying ownership details, metadata, and configuration settings to align with the new team structure and ensure compliance with internal standards.\n\n*Action Items:*\n\n* Identify all relevant repositories requiring updates.\n* Review and update team ownership details within Helm Charts.\n* Modify Comply Files to reflect the correct MIO team information.\n* Ensure consistency across all affected repositories.\n* Validate changes through pull request reviews and approvals.\n\n*Reference:*\n\n* Utilize the provided example PRs as a guideline for making the necessary updates.\n** [https://github.com/hellofresh/github-automation/blob/master/repositories/tax-service/.comply.yaml|https://github.com/hellofresh/github-automation/blob/master/repositories/tax-service/.comply.yaml]  \n** [https://github.com/hellofresh/tax-service/blob/3592ccda8da5c825be6702ceea1a03fa0248228d/ahoy/tax-service/values-live.yaml#L1|https://github.com/hellofresh/tax-service/blob/3592ccda8da5c825be6702ceea1a03fa0248228d/ahoy/tax-service/values-live.yaml#L1]  \n\n*Acceptance Criteria:*\n\n* All applicable repositories have updated Helm Charts and Comply Files.\n* PRs are submitted and approved following the team's review process.\n* Documentation is updated to reflect the changes where applicable.\n\nThis task is critical to maintaining accurate ownership records and ensuring a smooth transition to the new MIO team structure.",
+      "issue_type": "Task",
+      "status": "On Hold",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Davor Juric",
+          "body": "This ticket is blocked until HR and security update Workday and create an Azure group for our team.",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "List of NVS services with updated ownership:\n\nCreated draft PR’s:\n[https://github.com/hellofresh/nutritional-profile-service/pull/674|https://github.com/hellofresh/nutritional-profile-service/pull/674|smart-link] \n[https://github.com/hellofresh/nutritional-meal-plan-service/pull/320|https://github.com/hellofresh/nutritional-meal-plan-service/pull/320|smart-link] \n[https://github.com/hellofresh/pre-checkout-selection-service/pull/315|https://github.com/hellofresh/pre-checkout-selection-service/pu",
+          "created": "2025-12-09"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "Created a draft PRs for adding a new squad and updated new squad ownership in github-automation repo:\n[https://github.com/hellofresh/github-automation/pull/11796|https://github.com/hellofresh/github-automation/pull/11796|smart-link] \n\n[https://github.com/hellofresh/github-automation/pull/11795|https://github.com/hellofresh/github-automation/pull/11795|smart-link] \n\n\nUpdate from the platform. We can’t migrate to new partition until the cluster is created. So all the work for FTCP migration to new",
+          "created": "2025-12-09"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "Updated Slack channels for CI and Dependabot, and removed the partition change in OAM files as it needs to be done in another dedicated [+MIO-52+|https://hellofresh.atlassian.net/browse/MIO-52] for all services when the new cluster is created (e.g., New alliance name is part of Workday).\n\nTO DO:\nNeed to update Web when the github teams are created: [https://github.com/hellofresh/web/blob/839677926495a4325bb7bf273f2581432ce9dc87/.teams/new-ventures-systems.json#L4|https://github.com/hellofresh/we",
+          "created": "2025-12-12"
+        },
+        {
+          "author": "Davor Juric",
+          "body": "*Note*: that for all services we will update runbooks and codeowners once the teams are created in Workday.",
+          "created": "2025-12-15"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-23",
+      "summary": "Backend services handover documentation",
+      "description": "We need to document and align with all stakeholders on the handover and/or deprecation of backend services.\n\n* Complete operational service handovers to other domains following the TRE guidelines.\n* Develop a high-level  [+New Ventures: Backend services Ownership and Future plans+|https://docs.google.com/document/d/1shgXBKw6Mfz2uRnHWvSIBnlLmDxi1f71s5SZUqlJWEk/edit?tab=t.0] outlining the deprecation of all TAM backend services.\n* Create TRE Handover Guides (e.g.,[+[RTE Manufacturing - Youfoodz] B2B Ownership TRE Handover Guide+|https://docs.google.com/document/d/1ySmlmm15SnFye3yB1Fo_TJOuRKaMIB0Nd0uoQR1zEy0/edit?tab=t.0]) by end of 2025. Attach to this ticket and create separate tasks for each.\n* *Schedule & Sync:* Finalize by Week 2–3 of 2026.\n* *Kickoff:* Begin in Week 4 of 2026, with completion targeted for Q1 2026.\n\nBackend service list:\n\n{adf:display=block}\n{\"type\":\"table\",\"attrs\":{\"isNumberColumnEnabled\":false,\"layout\":\"center\",\"localId\":\"323183c1-7583-428a-b685-b57bc23a9b78\"},\"content\":[{\"type\":\"tableRow\",\"content\":[{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Tribe\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[414]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Service\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Tier\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[110]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Handover Guide\"}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[140]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Status\"}]}]}]},{\"type\":\"tableRow\",\"content\":[{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48],\"rowspan\":10},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"RTE\"}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[4",
+      "issue_type": "Task",
+      "status": "On Hold",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-11-26",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-7",
+      "parent_summary": "Handover & Deprecation - TAM BE Services",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "RTEVMS-2340",
+      "summary": "Account Pages",
+      "description": "Global account pages with approved styling placed. ",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-02",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [
+        "Shopify"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2341",
+      "parent_summary": "Shopify || Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2333",
+      "summary": "Initial Anatta Merge into Factor Form",
+      "description": "Initial dev task to merge base theme into Github",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Yogesh Jagdale",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-02",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [
+        "Shopify"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2341",
+      "parent_summary": "Shopify || Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2350",
+      "summary": "Factor Form | Anatta | Merge Main Branch to Master in Github",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Yogesh Jagdale",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-04",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [
+        "Shopify"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2341",
+      "parent_summary": "Shopify || Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2390",
+      "summary": "Anatta | Post Launch Support Fixes for Factor Form",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Debabrata Sen",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-18",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [
+        "Shopify"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2341",
+      "parent_summary": "Shopify || Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    },
+    {
+      "key": "RTEVMS-2353",
+      "summary": "Anatta | Factor Form - Homepage - Reviews",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-05",
+      "updated": "2026-01-06",
+      "resolved": "",
+      "labels": [
+        "Shopify"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2341",
+      "parent_summary": "Shopify || Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "RTEVMS",
+      "squad_name": "Factor Form"
+    }
+  ],
+  "date_range": {
+    "oldest": "2026-01-06",
+    "newest": "2026-01-07"
+  }
+}

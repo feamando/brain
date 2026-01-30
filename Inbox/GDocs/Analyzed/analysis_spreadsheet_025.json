@@ -1,0 +1,140 @@
+{
+  "batch_id": "spreadsheet_025",
+  "doc_type": "spreadsheet",
+  "doc_count": 2,
+  "results": [
+    {
+      "doc_title": "CMA Squad overview",
+      "doc_id": "1q55kO1Nku3iw5y1G2XfNX2O1bDXiRaJ8vYWEHoRkBlY",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks CMA (Consumer & Marketing Area) squad organization, ownership, KPIs, and resources for Q1 2026",
+      "data_type": "tracker",
+      "key_data_points": [
+        "25+ squads organized across 7 tribes",
+        "Q1 2026 KPIs defined for most squads",
+        "Key metrics include: Profile Completion Rate, Add-to-Cart Rates, CLV, Net Revenue, API endpoint migrations, Feature deployment frequency, User engagement ratios",
+        "Multiple brand ventures: Factor Form, Good Chop, The Pets Table",
+        "Consumer Core focused on API-v2 migration across customer, subscription, and deliveries domains",
+        "Loyalty program structure with Missions, Rewards, and Share squads"
+      ],
+      "entities": [
+        {
+          "name": "Fiona Lucas",
+          "type": "person",
+          "context": "PM for entire Consumer Core tribe (4 squads)"
+        },
+        {
+          "name": "Factor Form",
+          "type": "brand",
+          "context": "New Ventures squad tracking Factor Penetration % at factor75.com"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "New Ventures squad tracking Net Revenue at goodchop.com"
+        },
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "New Ventures squad tracking Net Revenue at thepetstable.com"
+        },
+        {
+          "name": "HelloFresh app",
+          "type": "system",
+          "context": "Primary platform for Engagement tribe metrics (downloads, DAU/MAU ratio)"
+        },
+        {
+          "name": "API-v2",
+          "type": "system",
+          "context": "Migration target for Consumer Core squads across multiple domains"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Project management tool with backlog links for most squads"
+        },
+        {
+          "name": "Slack",
+          "type": "system",
+          "context": "Communication channels defined for each squad"
+        }
+      ],
+      "insights": [
+        "Organization structure: 7 tribes (Shopping Journey, Shopping Foundation, New Ventures, Consumer Core, Consumer Foundations, Engagement, Loyalty & Virality, UX)",
+        "Shopping Foundation is the largest tribe with 5 squads focused on cart, personalization, platform, customer service, and cross-selling",
+        "New Ventures tribe manages 4 separate brand initiatives with revenue-focused KPIs",
+        "Consumer Core has unified PM leadership (Fiona Lucas) but distributed EM ownership, suggesting centralized product strategy",
+        "Technical debt focus: Consumer Core squads measuring API-v2 endpoint migration progress",
+        "Platform maturity emphasis: Consumer Foundations tracking deployment frequency and feature velocity",
+        "Engagement strategy spans content (Inspire), activity (Act), and virality (Share)",
+        "Loyalty program decomposed into three specialized squads: Missions (completion), Rewards (redemption), Share (organic growth)",
+        "Some squads lack complete information (missing Jira links, UX squads have no PM/EM listed)",
+        "Mix of business metrics (revenue, penetration) and technical metrics (API endpoints, deployment frequency) indicates balanced product-engineering focus"
+      ]
+    },
+    {
+      "doc_title": "CMA Squad overview",
+      "doc_id": "1q55kO1Nku3iw5y1G2XfNX2O1bDXiRaJ8vYWEHoRkBlY",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks CMA (Consumer & Marketing Area) squad organization, ownership, KPIs, and resources for Q1 2026",
+      "data_type": "tracker",
+      "key_data_points": [
+        "25+ squads organized across 7 tribes",
+        "Q1 2026 KPIs defined for most squads",
+        "Key metrics include: Profile Completion Rate, Add-to-Cart Rates, CLV, Net Revenue, API endpoint migration, Feature deployment frequency, User engagement ratios",
+        "Mix of product squads (Shopping Journey, New Ventures) and platform squads (Consumer Core, Consumer Foundations)",
+        "API-v2 migration tracking for Consumer Core squads",
+        "New Ventures tracking Net Revenue and penetration metrics"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary brand with app downloads and customer engagement metrics"
+        },
+        {
+          "name": "Factor75/Factor Form",
+          "type": "brand",
+          "context": "New venture with Factor Penetration % KPI"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "New venture tracking Net Revenue"
+        },
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "Pet food venture tracking Net Revenue"
+        },
+        {
+          "name": "Fiona Lucas",
+          "type": "person",
+          "context": "PM for entire Consumer Core tribe (4 squads)"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Project management tool with backlog links for most squads"
+        },
+        {
+          "name": "Slack",
+          "type": "system",
+          "context": "Communication channels listed for each squad"
+        }
+      ],
+      "insights": [
+        "Organization structure: 7 tribes (Shopping Journey, Shopping Foundation, New Ventures, Consumer Core, Consumer Foundations, Engagement, Loyalty & Virality, UX)",
+        "Consumer Core tribe has unified PM leadership (Fiona Lucas) but distributed EM ownership",
+        "New Ventures squads focus on revenue metrics, indicating growth/monetization focus",
+        "Consumer Foundations emphasizes developer productivity (deployment frequency, feature velocity)",
+        "Several Jira links noted as inaccessible ('Can't find link'), suggesting access control issues",
+        "UX tribe (Insights & Innovation, Content Design & Localization) lacks PM/EM assignments and KPIs, indicating possible support/shared service model",
+        "Engagement and Loyalty tribes focus on user activation and retention metrics (DAU/MAU, mission completion, reward redemption)",
+        "Shopping Foundation has largest squad count (5 squads), indicating complexity in core shopping experience",
+        "Some EM roles show interim assignments or future start dates (e.g., Bartosz Raciborski starts Jan 1st)"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:12:52.723289"
+}

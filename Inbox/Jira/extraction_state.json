@@ -1,0 +1,17 @@
+{
+  "extracted_at": "2026-01-19T17:04:26.208395+00:00Z",
+  "projects": [
+    "MIO",
+    "GOC",
+    "RTEVMS",
+    "TPT"
+  ],
+  "total_issues": 308,
+  "total_batches": 13,
+  "issues_per_project": {
+    "MIO": 49,
+    "GOC": 68,
+    "RTEVMS": 91,
+    "TPT": 100
+  }
+}

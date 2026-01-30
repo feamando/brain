@@ -1,0 +1,90 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W28",
+  "extracted_at": "2026-01-02T10:40:29.732021Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U08AXBW1CAZ",
+      "type": "message",
+      "ts": "1752245673.105229",
+      "client_msg_id": "623bb7fd-f83a-49e1-96ec-a76082dc2185",
+      "text": "MMMEEEWAAAWWOOOO",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YK2FD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "MMMEEEWAAAWWOOOO"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "cat-screaming",
+          "users": [
+            "U0184T48L74",
+            "U08AXBW1CAZ",
+            "U03UN2C25UL",
+            "U0251UW1YUE",
+            "U01PE2S4ZL6",
+            "U01TQGXG9D3",
+            "U079VE0A4UR",
+            "U02DM3WK0NL",
+            "U03EN3N4KM4"
+          ],
+          "count": 9
+        },
+        {
+          "name": "see_no_evil",
+          "users": [
+            "U08AXBW1CAZ",
+            "U03TY4YJU4X",
+            "U079VE0A4UR"
+          ],
+          "count": 3
+        },
+        {
+          "name": "mori-intensifies",
+          "users": [
+            "U08AXBW1CAZ",
+            "U027201FQSV",
+            "U0251UW1YUE",
+            "U01PE2S4ZL6",
+            "U079VE0A4UR"
+          ],
+          "count": 5
+        },
+        {
+          "name": "happy-marina",
+          "users": [
+            "U027201FQSV",
+            "U0251UW1YUE",
+            "U0MBX09UZ",
+            "U079VE0A4UR"
+          ],
+          "count": 4
+        },
+        {
+          "name": "typingcat",
+          "users": [
+            "U03QCR5AT6U",
+            "U079VE0A4UR",
+            "U02DM3WK0NL"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "batch_id": "github_0022",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-10-29T12:32:34Z",
+    "newest": "2025-10-30T15:07:25Z"
+  },
+  "analyzed_at": "2026-01-02T15:41:37.906167",
+  "changes_summary": "These commits primarily focus on checkout flow improvements, cart service migration, and pet subscription management features. Major work includes implementing reactivation pricing, cancellation reason tracking, cart-service backwards compatibility, and various UI enhancements for multi-pet checkout and promotional banners. Several refactoring efforts and E2E test additions are also present.",
+  "features": [
+    {
+      "name": "Cancellation Reason Deceased Hook",
+      "description": "Created useIsCancellationReasonDeceased hook to track when pet cancellation reason is deceased",
+      "commits": [
+        "702e09e7"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Dashboard Banner for No Subscriptions",
+      "description": "Added banner display on dashboard when user has no active subscriptions",
+      "commits": [
+        "16b008ab"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Charge on Checkout",
+      "description": "Enabled charging functionality during checkout process",
+      "commits": [
+        "8a439d2b"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Reactivation Pricing Hook",
+      "description": "Created useReactivationPricing hook to handle pricing logic for subscription reactivation",
+      "commits": [
+        "0c39ce83"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Gift Redirection",
+      "description": "Added redirection logic for gift-related flows",
+      "commits": [
+        "e4eb4c2a"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Free Addon Persistence",
+      "description": "Persist free addon selections post checkout when selected from free cuts popup on payment page",
+      "commits": [
+        "45c45201"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "MSS Cart Price Endpoint",
+      "description": "Enabled MSS Cart price endpoint for PetsTable EditMenuAddons screen",
+      "commits": [
+        "4d40da33"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Checkout Event Attributes",
+      "description": "Added attributes into checkout events for better tracking",
+      "commits": [
+        "163bb257"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Multi-Pet Checkout Animation",
+      "description": "Updated animation text for multi-pet checkout flow",
+      "commits": [
+        "277ed186"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Explore Store CTA Redirection",
+      "description": "Updated redirection logic for explore the store call-to-action",
+      "commits": [
+        "cc607f22"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Price with Discount Display",
+      "description": "Updated price display to show discounted pricing",
+      "commits": [
+        "753b1054"
+      ],
+      "status": "modified"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Cart-service migration with backwards compatibility",
+      "rationale": "Ensure smooth transition during cart-service migration by maintaining backwards compatibility",
+      "ticket": "RTEVMS-2248"
+    },
+    {
+      "what": "Add tracing to cart-service migration",
+      "rationale": "Enable monitoring and debugging during cart-service migration",
+      "ticket": "RTEVMS-2247"
+    },
+    {
+      "what": "Remove static cadence with translation keys",
+      "rationale": "Support internationalization for cadence removal feature",
+      "ticket": "RTEVMS-2251"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Quick actions helpers",
+      "reason": "Code organization and maintainability improvement",
+      "impact": "Quick actions functionality"
+    },
+    {
+      "area": "Quiz step test methods",
+      "reason": "Standardize testing approach with new quiz step methods",
+      "impact": "Quiz-related test suite"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Selected state styles in Promotional Multi SKU banner",
+      "ticket": "GOC-3313"
+    },
+    {
+      "issue": "Cart-service migration backwards compatibility",
+      "ticket": "RTEVMS-2248"
+    }
+  ],
+  "entities": [
+    {
+      "name": "cart-service",
+      "type": "api",
+      "context": "Migration with backwards compatibility and tracing implementation"
+    },
+    {
+      "name": "MSS Cart",
+      "type": "api",
+      "context": "Price endpoint enabled for PetsTable EditMenuAddons screen"
+    },
+    {
+      "name": "Factor Form",
+      "type": "component",
+      "context": "Part of cart-service migration effort"
+    },
+    {
+      "name": "PetsTable EditMenuAddons",
+      "type": "component",
+      "context": "Now uses MSS Cart price endpoint"
+    },
+    {
+      "name": "Promotional Multi SKU banner",
+      "type": "component",
+      "context": "Fixed selected state styles"
+    },
+    {
+      "name": "Dashboard",
+      "type": "feature",
+      "context": "Added banner for no subscriptions state"
+    },
+    {
+      "name": "Checkout",
+      "type": "feature",
+      "context": "Multiple enhancements including charge enablement, event attributes, and multi-pet animations"
+    },
+    {
+      "name": "Reactivation",
+      "type": "feature",
+      "context": "Added pricing hook and E2E tests for free popup"
+    }
+  ],
+  "key_patterns": [
+    "Custom React hooks for business logic encapsulation (useIsCancellationReasonDeceased, useReactivationPricing)",
+    "Progressive migration strategy with backwards compatibility for cart-service",
+    "Feature flag pattern for gradual rollout (charge on checkout enablement)",
+    "E2E test coverage expansion for critical flows (reactivation, meal selection)",
+    "Test quarantine management (unquarantining stable tests)",
+    "Internationalization support through translation keys",
+    "Event tracking enhancement for analytics",
+    "Component refactoring for maintainability"
+  ]
+}

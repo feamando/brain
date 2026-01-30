@@ -1,0 +1,475 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W27",
+  "extracted_at": "2026-01-02T10:40:26.349336Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "U8F7ZDAPM",
+      "type": "message",
+      "ts": "1751874475.142579",
+      "client_msg_id": "498bf988-53d2-4d25-b11f-7d9ae1b22c10",
+      "text": "Morning all :blob-wave:\n\nHappy to be back :kim-cry: and missed you guys! Will be spending the day (or the week) catching up and trying to remember what my job is, but if there’s anything important that needs my attention pls do reach out",
+      "team": "T02AGMUUR",
+      "thread_ts": "1751874475.142579",
+      "reply_count": 9,
+      "reply_users_count": 7,
+      "latest_reply": "1751894642.765579",
+      "reply_users": [
+        "U7SJ525DE",
+        "U2D54V0UV",
+        "U027201FQSV",
+        "U0MBX09UZ",
+        "U8F7ZDAPM",
+        "U01TQGXG9D3",
+        "U01PE2S4ZL6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sebkT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Morning all "
+                },
+                {
+                  "type": "emoji",
+                  "name": "blob-wave"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nHappy to be back "
+                },
+                {
+                  "type": "emoji",
+                  "name": "kim-cry"
+                },
+                {
+                  "type": "text",
+                  "text": " and missed you guys! Will be spending the day (or the week) catching up and trying to remember what my job is, but if there’s anything important that needs my attention pls do reach out"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "blob-wave",
+          "users": [
+            "U7SJ525DE",
+            "U047SAC2PPV",
+            "U2D54V0UV",
+            "U027201FQSV",
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U03EN3N4KM4",
+            "UJ182DUEN",
+            "U03UN2C25UL",
+            "U079VE0A4UR",
+            "U03UCPY6MHQ",
+            "U02DM3WK0NL",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3",
+            "U01PE2S4ZL6",
+            "U044SKGT4R5",
+            "U03QCR5AT6U"
+          ],
+          "count": 17
+        },
+        {
+          "name": "welcome-back",
+          "users": [
+            "U2D54V0UV",
+            "U027201FQSV",
+            "U0MBX09UZ",
+            "U02BA3VS7H8",
+            "U0251UW1YUE",
+            "U0184T48L74",
+            "UJ182DUEN",
+            "U03UCPY6MHQ",
+            "U02P4F23YJ0",
+            "U079VE0A4UR"
+          ],
+          "count": 10
+        },
+        {
+          "name": "kim-cry",
+          "users": [
+            "U03UN2C25UL"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ahmedangel",
+          "users": [
+            "U079VE0A4UR",
+            "U01PE2S4ZL6",
+            "U03TY4YJU4X"
+          ],
+          "count": 3
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1751874605.356809",
+          "client_msg_id": "4021d902-32aa-4e8b-b6b5-92429c9a09fa",
+          "text": "welcome back!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tWjyC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "welcome back!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1751874768.964139",
+          "client_msg_id": "b4448fe2-c97b-4f46-839e-e7530f4e3050",
+          "text": "Welcome back Ahmed! :tada-confetti:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K+YhZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome back Ahmed! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "tada-confetti"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1751874807.441239",
+          "client_msg_id": "4370bb45-e7af-4879-81cd-0d8841981c9f",
+          "text": "Welcome back, Ahmed! Nice to have you back :hugging_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Pnjl+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome back, Ahmed! Nice to have you back "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hugging_face",
+                      "unicode": "1f917"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1751874826.040269",
+          "client_msg_id": "d5b68bfa-b16f-4529-8aeb-16390bc9aed5",
+          "text": "welcome back!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tWjyC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "welcome back!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1751874888.608249",
+          "client_msg_id": "af1795f0-3443-4ed9-903f-089c5a40e146",
+          "text": "I was going to say it's hard to believe you are happy to be back, but then I remembered you were studying German, which is definitely worse than a job",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eElML",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I was going to say it's hard to believe you are happy to be back, but then I remembered you were studying German, which is definitely worse than a job"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U027201FQSV",
+                "U03EN3N4KM4",
+                "U2D54V0UV"
+              ],
+              "count": 3
+            },
+            {
+              "name": "dancing_germany",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            },
+            {
+              "name": "joy",
+              "users": [
+                "U8F7ZDAPM"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1751874948.901389",
+          "client_msg_id": "2381ce48-5e34-4eab-b16e-35714fba7a01",
+          "text": "Yes, it might be hard to switch back to English :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mZQcp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, it might be hard to switch back to English "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1751875345.024679",
+          "client_msg_id": "5f63af5d-f11c-439e-8ebf-ee884185c7e1",
+          "text": "Entschuldigung, ich spreche kein Englisch",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VQutT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Entschuldigung, ich spreche kein Englisch"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01TQGXG9D3",
+          "type": "message",
+          "ts": "1751892972.338089",
+          "client_msg_id": "0974653b-5b71-4268-b6f2-8d06546859ef",
+          "text": "Welcome back, Ahmed! :german_heart:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t5dg3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome back, Ahmed! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "german_heart"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U8F7ZDAPM"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01PE2S4ZL6",
+          "type": "message",
+          "ts": "1751894642.765579",
+          "client_msg_id": "b8b48dab-ee83-4aef-974e-f8dd5c57e059",
+          "text": "Oh studying German, thats a smart move :smart:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751874475.142579",
+          "parent_user_id": "U8F7ZDAPM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "usXkS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Oh studying German, thats a smart move "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smart"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U01AKGWGLC8",
+      "type": "message",
+      "ts": "1751295075.701749",
+      "client_msg_id": "5cce4a6d-2126-4daf-a2bc-69d7f8f4d065",
+      "text": "As mentioned in tribe standup, this upcoming Sprint we'll investigate how to optimize our <https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/dDJT8riV4Xc|increasing INP> on the <https://www.goodchop.com/first-box/MR-CBT1-12-1-0|Select Cuts page> from 300-500 ms closer to 600-700 ms currently. Select Cuts is where customers perform pre-checkout cut selection\n\nLikely it's related to the rollout of the new product cards, however we don't wish to roll this back so we will need to find other ways to optimize. If anyone can share any ideas that would be helpful!",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UyP+E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "As mentioned in tribe standup, this upcoming Sprint we'll investigate how to optimize our "
+                },
+                {
+                  "type": "link",
+                  "url": "https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/dDJT8riV4Xc",
+                  "text": "increasing INP"
+                },
+                {
+                  "type": "text",
+                  "text": " on the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.goodchop.com/first-box/MR-CBT1-12-1-0",
+                  "text": "Select Cuts page"
+                },
+                {
+                  "type": "text",
+                  "text": " from 300-500 ms closer to 600-700 ms currently. Select Cuts is where customers perform pre-checkout cut selection\n\nLikely it's related to the rollout of the new product cards, however we don't wish to roll this back so we will need to find other ways to optimize. If anyone can share any ideas that would be helpful!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "batch_id": "jira_0010",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 23,
+    "Bug": 2
+  },
+  "date_range": {
+    "oldest": "2025-12-16",
+    "newest": "2025-12-17"
+  },
+  "analyzed_at": "2026-01-02T18:11:23.128639",
+  "summary": "This batch represents work across multiple product teams focusing on one-time purchase (OTP) functionality rollout, meal plan customization features, and system migrations. Major efforts include building OTP checkout flows for Factor, implementing dynamic pricing for portion changes, migrating GreenChef NL customers, and various technical cleanup tasks including feature flag removal and form validation fixes.",
+  "decisions": [
+    {
+      "what": "Update minimum calorie limit from 88 to 54 to support new 60 kcal SKUs",
+      "issue_key": "TPT-2438",
+      "who": [
+        "Suzanna Filipowska"
+      ],
+      "rationale": "New SKUs for 60 kcal products require lower threshold to render correct plan options",
+      "date": null
+    },
+    {
+      "what": "Won't fix utility for extracting properties from useCurrentSubscription",
+      "issue_key": "TPT-1649",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "Decided not to proceed with this optimization approach",
+      "date": null
+    },
+    {
+      "what": "Won't investigate discount comms rendering issue in Price Presentation Service",
+      "issue_key": "RTEVMS-2346",
+      "who": [
+        "Jan Leite"
+      ],
+      "rationale": "Currently there is a 40% black friday voucher that takes precedence",
+      "date": null
+    },
+    {
+      "what": "Migrate existing customers to VMSU product family for OTP pricing",
+      "issue_key": "RTEVMS-2299",
+      "who": [
+        "Edwin Torres",
+        "Jordon Smith"
+      ],
+      "rationale": "Required to enable one-time-purchase functionality with proper pricing structure",
+      "date": null
+    },
+    {
+      "what": "Add Shopify domains to allowed CORS origins",
+      "issue_key": "MIO-61",
+      "who": [
+        "Elena Pavlova"
+      ],
+      "rationale": "Fix CORS error when requesting auth/email/status from Shopify",
+      "date": null
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "One-Time Purchase (OTP) Rollout",
+      "description": "Enable customers to make one-time purchases without subscription commitment, including checkout flows, pricing migration, email journeys, and UI components",
+      "status": "active",
+      "key_issues": [
+        "GOC-3377",
+        "GOC-3424",
+        "GOC-3224",
+        "RTEVMS-2372",
+        "RTEVMS-2375",
+        "RTEVMS-2299",
+        "RTEVMS-2381"
+      ]
+    },
+    {
+      "name": "GreenChef NL Migration/Closure",
+      "description": "Manage GreenChef Netherlands market closure including customer migration banners and feature flags",
+      "status": "active",
+      "key_issues": [
+        "MIO-47",
+        "MIO-45"
+      ]
+    },
+    {
+      "name": "Product Detail Page Enhancement",
+      "description": "Build carousel functionality in PDP header with images and videos from Contentful",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2206"
+      ]
+    },
+    {
+      "name": "Dynamic Plan Pricing",
+      "description": "Implement dynamic price updates when users change portion percentages in meal plans",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2289"
+      ]
+    },
+    {
+      "name": "Market Innovation & Optimization Team Formation",
+      "description": "Update infrastructure ownership and team details across repositories for newly formed MIO team",
+      "status": "active",
+      "key_issues": [
+        "MIO-29"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Helm Charts and Comply Files update blocked until HR and security update Workday and create Azure group",
+      "issue_key": "MIO-29",
+      "owner": "Davor Juric",
+      "impact": "Cannot complete team ownership migration for MIO team infrastructure"
+    },
+    {
+      "description": "OTP menu creation on staging deemed irrelevant as menus created on live",
+      "issue_key": "GOC-3224",
+      "owner": "Unassigned",
+      "impact": "QA preparation workflow changed"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor",
+      "type": "brand",
+      "context": "Brand experiencing OTP rollout, SLO implementation, and address update issues",
+      "issues": [
+        "RTEVMS-2285",
+        "RTEVMS-2372",
+        "RTEVMS-2375",
+        "TPT-2359",
+        "MIO-61"
+      ]
+    },
+    {
+      "name": "GreenChef",
+      "type": "brand",
+      "context": "Netherlands market closure and customer migration",
+      "issues": [
+        "MIO-47",
+        "MIO-45"
+      ]
+    },
+    {
+      "name": "Pantry Fresh",
+      "type": "feature",
+      "context": "New product launch requiring tooltip for air dried recipes discovery",
+      "issues": [
+        "TPT-2408"
+      ]
+    },
+    {
+      "name": "Rebecca Ferreira Albers",
+      "type": "person",
+      "context": "Assignee for OTP Banner/Entrypoint component",
+      "issues": [
+        "GOC-3377"
+      ]
+    },
+    {
+      "name": "Guhan Sundararajan",
+      "type": "person",
+      "context": "Handling feature flag cleanup and subscription utility work",
+      "issues": [
+        "TPT-1649",
+        "TPT-2428",
+        "TPT-2395"
+      ]
+    },
+    {
+      "name": "Edwin Torres",
+      "type": "person",
+      "context": "Leading OTP customer migration and checkout fixes",
+      "issues": [
+        "RTEVMS-2375",
+        "RTEVMS-2299",
+        "RTEVMS-2381"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag management system with stale configs requiring cleanup",
+      "issues": [
+        "GOC-3423",
+        "MIO-45"
+      ]
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "CMS providing images and videos for PDP carousel",
+      "issues": [
+        "TPT-2206"
+      ]
+    },
+    {
+      "name": "VMSU product family",
+      "type": "system",
+      "context": "Product family for OTP pricing migration",
+      "issues": [
+        "RTEVMS-2299",
+        "RTEVMS-2381"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "E-commerce platform requiring CORS configuration",
+      "issues": [
+        "MIO-61"
+      ]
+    },
+    {
+      "name": "Market Innovation & Optimization (MIO)",
+      "type": "squad",
+      "context": "Newly formed team taking over from RTE Systems squad",
+      "issues": [
+        "MIO-29",
+        "MIO-47",
+        "MIO-45",
+        "MIO-61"
+      ]
+    },
+    {
+      "name": "RTE Systems",
+      "type": "squad",
+      "context": "Previous squad name being migrated to MIO",
+      "issues": [
+        "MIO-29"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Feature flag cleanup after full rollout",
+      "context": "Removing tpt_meals_selection_migration flag after preferences-based meal selection is fully deployed"
+    },
+    {
+      "pattern": "Frontend-backend validation alignment",
+      "context": "Updating Last Name form validation to match backend's minimum 2 character requirement to prevent order placement failures"
+    },
+    {
+      "pattern": "Service Level Objectives (SLOs) for user experience monitoring",
+      "context": "Implementing SLOs for Factor Form experience to automatically detect sustained drops in customer success rates"
+    },
+    {
+      "pattern": "Dynamic pricing calculation on UI interaction",
+      "context": "Adjusting plan prices in real-time when users change portion percentages"
+    },
+    {
+      "pattern": "CORS configuration for cross-domain integration",
+      "context": "Adding allowed origins for Shopify integration with authentication endpoints"
+    },
+    {
+      "pattern": "Customer data migration with rollback plan",
+      "context": "Documented migration steps for moving customers to VMSU product family with ability to roll back"
+    },
+    {
+      "pattern": "Stale data handling from deliveries endpoint",
+      "context": "Price breakdown displaying incorrect cadence due to discrepant data from deliveries API"
+    },
+    {
+      "pattern": "Conditional UI rendering based on subscription status",
+      "context": "Checkout type selectors hidden for active SnS users, only showing subscription items"
+    }
+  ],
+  "work_themes": [
+    "One-Time Purchase enablement and customer migration",
+    "Feature flag and technical debt cleanup",
+    "Form validation and data consistency fixes",
+    "Market closure and brand migration",
+    "Team reorganization and infrastructure ownership updates",
+    "User experience enhancements (carousels, tooltips, banners)",
+    "Observability and monitoring improvements",
+    "Dynamic pricing and plan customization"
+  ],
+  "dependencies": [
+    {
+      "from": "MIO team",
+      "to": "HR and Security teams",
+      "context": "Workday updates and Azure group creation required for infrastructure ownership migration"
+    },
+    {
+      "from": "OTP rollout",
+      "to": "CRM team",
+      "context": "CRM needs to create OTP email journeys for customer communication"
+    },
+    {
+      "from": "Frontend checkout",
+      "to": "Backend validation",
+      "context": "Form validation must align with backend requirements to prevent order placement failures"
+    },
+    {
+      "from": "Price breakdown UI",
+      "to": "Deliveries endpoint",
+      "context": "UI depends on accurate data from deliveries API for displaying correct prices and cadence"
+    },
+    {
+      "from": "PDP carousel",
+      "to": "Contentful CMS",
+      "context": "Carousel images and videos sourced from Contentful after first slide from CCM"
+    },
+    {
+      "from": "Shopify integration",
+      "to": "Auth service",
+      "context": "Shopify domains need CORS allowlist for email status endpoint access"
+    }
+  ]
+}

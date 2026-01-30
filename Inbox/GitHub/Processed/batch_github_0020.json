@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0020",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "c4a6648e",
+      "message": "[TPT-2220] Filter out deceased pet subscriptions (#59987)\n\n* Filter out deceased pet subscriptions when FF is enabled\n\n* Add ready check\n\n* Simplify function",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-06T08:40:04Z",
+      "url": "https://github.com/hellofresh/web/commit/c4a6648e7422581ae01f7d77e758e79f4d9fa16b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "f5dfe205",
+      "message": "[TPT-2153] order summary plan box integration (#59997)\n\n* [TPT-2153] order summary plan box integration\n\n* [TPT-2153] additional refactor\n\n* [TPT-2153] empty commit\n\n* [TPT-2153] accessibility issues fixed\n\n* [TPT-2153] minor update\n\n* [TPT-2153] contentful entry key added\n\n* [TPT-2153] minor update in formatCurrency\n\n* [TPT-2153] PR comments fixed",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-05T18:55:16Z",
+      "url": "https://github.com/hellofresh/web/commit/f5dfe2054b2648a647aefca1ee1bc2542e05a7aa",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "013d6f56",
+      "message": "TPT-2152: add contentful keys (#60036)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-05T18:22:07Z",
+      "url": "https://github.com/hellofresh/web/commit/013d6f56bb2f1730d29ceab7b94241cc9e62d310",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "bbd8f733",
+      "message": "[TPT-2235] Reorganize plans-selection folder structure for better maintainability (#59991)\n\n* [TPT-2235] Reorganize plans-selection folder structure for better maintainability\n\n* [TPT-2235] Fix test imports for reorganized plans-selection structure",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-05T16:09:42Z",
+      "url": "https://github.com/hellofresh/web/commit/bbd8f7333f7e4695a115dcacd733d51fbaa170fd",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "5751bab4",
+      "message": "emulate the implementation of TPT carousel for using categories for addons (#59693)",
+      "author": "Alex Harvey",
+      "author_email": "alex.harvey@unb.ca",
+      "date": "2025-11-05T15:15:45Z",
+      "url": "https://github.com/hellofresh/web/commit/5751bab4aae8ab6f74063adabf6d002ab8b051ff",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ea0d61a5",
+      "message": "[TPT-2229] calories disclaimer (#60009)\n\n* calories disclaimer\n\n* minor styling fix",
+      "author": "sfilipowska",
+      "author_email": "82662345+sfilipowska@users.noreply.github.com",
+      "date": "2025-11-05T14:45:15Z",
+      "url": "https://github.com/hellofresh/web/commit/ea0d61a59ce726047460d4c06c20c27fc0a5219b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b47a0827",
+      "message": "[TPT-2280] - [GD] Reactivation page Plans info component Current plan (#60011)\n\n* TPT-2280 - update cartItem component + test\n\n* TPT-2280 - remove portion badge from CartItem, update test\n\n* TPT-2280 - add PlanBox component\n\n* TPT-2280 - fix failing test for PlansInfoContent\n\n* TPT-2280 - add test to PlanBox\n\n* TPT-2280 - send portion percentage to meals plan call\n\n* TPT-2280 - add alt to box plan image\n\n* TPT-2280 - update alt in box plan image",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-05T14:14:57Z",
+      "url": "https://github.com/hellofresh/web/commit/b47a08279c247248a3ab49251546e039eb2e5277",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8f33dcb8",
+      "message": "[GOC-3340] Fix LCP increase in plans page (#60007)",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-11-05T13:52:27Z",
+      "url": "https://github.com/hellofresh/web/commit/8f33dcb833ccc086a3458069b4ba1207f1fe50c2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "b34f3806",
+      "message": "[GOC-3329] Move voucher code field above in Plans page (#59906)\n\n* GOC-3329: Move voucher code field above in Plans page\n\n* Fix boxShadow and responsive padding for PlansPage component\n\n* replace __dangerouslySetCustomCSS with styled component\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-11-05T13:10:34Z",
+      "url": "https://github.com/hellofresh/web/commit/b34f38067fbf6195f58329006f4198c15784b17a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "af20053d",
+      "message": "[TPT-2268] Add e2e test for edit delivery address (#59969)\n\n* TPT-2268: add e2e test for edit delivery address\n\n* review fixes\n\n* fix of flaky test\n\n* add verification of error for empty form",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-05T12:57:51Z",
+      "url": "https://github.com/hellofresh/web/commit/af20053de5ebf232a11b10e1fdb38c926ec0eade",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "7aba9310",
+      "message": "[TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation (#59643)\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-Terms-Conditions-to-Entry-Point-Reactivation",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-11-05T12:03:08Z",
+      "url": "https://github.com/hellofresh/web/commit/7aba93102a63cf21375f2ac0bb80fed846c8ba30",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "3ea97901",
+      "message": "TPT-2280 - add contentful keys for week and weeks of food text (#60002)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-05T11:50:12Z",
+      "url": "https://github.com/hellofresh/web/commit/3ea979017e78074ff0cc7fb3fe69747caf3e9043",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d0bbdb2c",
+      "message": "[GOC-3342] Add an experimentation hook for Charge at Checkout experiment (#59998)\n\n* Add an experimentation hook for Charge at Checkout experiment.\n\n* Fix the tests.",
+      "author": "Alexander Matlin",
+      "author_email": "alexander.matlin@hellofresh.com",
+      "date": "2025-11-05T09:28:32Z",
+      "url": "https://github.com/hellofresh/web/commit/d0bbdb2c354310c3fc7c22370fc1ef336cad9d7a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "4d59742a",
+      "message": "TPT-2280 - copy paste CartItem without any changes (#59975)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-04T16:16:08Z",
+      "url": "https://github.com/hellofresh/web/commit/4d59742a68987cd3b1af9d6a020859eeefc0b985",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "875a0526",
+      "message": "[TPT-2220] TPT cancellation hook (#59965)\n\n* Create TPT cancellation hook\n\n* Add claim file\n\n* Update test mock",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-04T15:23:05Z",
+      "url": "https://github.com/hellofresh/web/commit/875a052628bbc9b3fd904f338ff252e43a21a0a1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "68478be6",
+      "message": "[RTEVMS-2257] Factor Form | OTP: Bundles Frequency Selectors (#59928)\n\n* update Frequency Selectors to not rely on product type\n\n* update bundles dialog with frequency selector for OTP\n\n* add CTA for dialog open, remove OTP/SnS servings\n\n* fix selector tests\n\n* add a11y compliance",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-04T15:17:05Z",
+      "url": "https://github.com/hellofresh/web/commit/68478be67fd2802298c1402665f10916c695379f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "1e865ce1",
+      "message": "[TPT-2150] - fix spacing between plans in PlansInfo component (#59968)\n\n* TPT-2150 - fix spacing between plans in PlansInfo component\n\n* TPT-2150 - fix spacing between for last selected plan too",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-04T15:12:46Z",
+      "url": "https://github.com/hellofresh/web/commit/1e865ce127e1cd042ceae3163daf503ae694bd37",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "9e0e4b7e",
+      "message": "[GOC-3322] Adds initial logic to send addons metadata (#59941)\n\n* [GOC-3322] Gets voucher duration logic\n\n* [GOC-3322] Adds feature gate hook\n\n* [GOC-3322] Label duration logic\n\n* [GOC-3322] Rename utils and add tests\n\n* [GOC-3322] Rename utils and fix tests\n\n* [GOC-3322] Fix tests\n\n* [GOC-3322] Fix import\n\n* [GOC-3322] Fix import",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-04T15:03:21Z",
+      "url": "https://github.com/hellofresh/web/commit/9e0e4b7e2f2413cc60bc1f20806b738253579a76",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "ed2152d1",
+      "message": "[GOC-3328] collapsible OS experiment for Mobile View  (#59886)\n\n* feat: implement collapsible order summary experiment with A/B testing support\n\n- Add experiment hook useCollapsibleOrderSummaryExperiment with comprehensive test coverage\n- Create types for experiment configuration and behavior\n- Update existing useCollapsibleOrderSummary hook to integrate with experiment logic\n- Add README documentation for experiment implementation\n- Enable A/B testing functionality for collapsible order summary feature\n\n[Cursor_Code]\n\n* Update useCollapsibleOrderSummaryExperiment.spec.ts\n\n* fix test",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-04T14:06:37Z",
+      "url": "https://github.com/hellofresh/web/commit/ed2152d17825bd0707f4f3324321915bf4d7c153",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "f097e20c",
+      "message": "[TPT-2235] Price calculation logic for active users on change-plan flow (#59888)\n\n* [TPT-2235] Add price calculation logic for active users on change-plan flow\n\n* [TPT-2235] Added claim file",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-04T13:46:48Z",
+      "url": "https://github.com/hellofresh/web/commit/f097e20c6fb29dc37c0cea35d2e4eab1e915e751",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-04T13:46:48Z",
+    "newest": "2025-11-06T08:40:04Z"
+  }
+}

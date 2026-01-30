@@ -1,0 +1,1463 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W29",
+  "extracted_at": "2026-01-02T10:46:16.500145Z",
+  "message_count": 7,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U02U7EGQEGH",
+      "text": "<@U02U7EGQEGH> has left the channel",
+      "type": "message",
+      "ts": "1752680257.497929"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "UJ182DUEN",
+      "text": "<@UJ182DUEN> has left the channel",
+      "type": "message",
+      "ts": "1752669289.622889"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U0MBX09UZ>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* Bug Report\n\n\n:mag: *Issue reported:*\nyour \"use-free-addons-by-voucher-code\" operation is spamming traces\n\n\n:footprints: *Steps to reproduce:*\n<https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/GAzpbaiKnCx?vs=hideCompare&amp;tab=overview>",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1752668986.571709",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1752668986.571709",
+      "reply_count": 17,
+      "reply_users_count": 5,
+      "latest_reply": "1753092478.761069",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U0MBX09UZ",
+        "U03UCPY6MHQ",
+        "U0184T48L74",
+        "U0251UW1YUE"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DJZs6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0MBX09UZ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Bug Report"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "your \"use-free-addons-by-voucher-code\" operation is spamming traces"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/GAzpbaiKnCx?vs=hideCompare&tab=overview"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1752668989.995939",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1752669009.274059",
+          "client_msg_id": "ff2e93a2-bcd8-4e76-b137-85d135d2b354",
+          "text": "if you don't mind, I will remove this span - you can create a PR fixing it once you have time",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kdO2T",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "if you don't mind, I will remove this span - you can create a PR fixing it once you have time"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1752669062.254499",
+          "client_msg_id": "9ce7447c-81d5-426c-85be-eceacc999439",
+          "text": "my guess is that you don't use this data anyway, otherwise you would have noticed that it's totally inaccurate  and that we have sessions with hundreds of this duplicate span",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "azkWK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "my guess is that you don't use this data anyway, otherwise you would have noticed that it's totally inaccurate  and that we have sessions with hundreds of this duplicate span"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1752669206.797759",
+          "edited": {
+            "user": "U0MBX09UZ",
+            "ts": "1752669216.000000"
+          },
+          "client_msg_id": "aa91e353-7a3c-476f-9d34-37f57522e8de",
+          "text": "it's the 9th most collected span in the website, with 6.3 million spans per day, and an average of 100 spans per session",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SF3wi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it's the 9th most collected span in the website, with 6.3 million spans per day, and an average of 100 spans per session"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "blob-think-oh",
+              "users": [
+                "U03UCPY6MHQ"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03UCPY6MHQ",
+          "type": "message",
+          "ts": "1752670103.806349",
+          "client_msg_id": "173f47e5-6fd8-45e3-8e26-2ca351751d78",
+          "text": "Thank you for reporting Fede!\nYes, please remove the span. I will discuss it with the team to understand what we wanted to track here and if we really need it.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qjUYo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for reporting Fede!\nYes, please remove the span. I will discuss it with the team to understand what we wanted to track here and if we really need it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1752670121.607139",
+          "client_msg_id": "b20a28e4-5f98-4692-ad08-9e3b09998b9f",
+          "text": "thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OJlya",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U03UCPY6MHQ"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1752670593.606449",
+          "client_msg_id": "0cbdbfd0-5994-4f02-b431-a67d04b8d885",
+          "text": "<https://github.com/hellofresh/web/pull/54999>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mqkpJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/web/pull/54999"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "users": [
+                "U03UCPY6MHQ"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1752741658.188489",
+          "edited": {
+            "user": "U0184T48L74",
+            "ts": "1752741857.000000"
+          },
+          "client_msg_id": "b9d39f89-abcb-4b9b-8a2d-6956bad76d23",
+          "text": "I remember I pointed it out to creator of the span: <https://hellofresh.slack.com/archives/C03DDD4R537/p1736526947671819?thread_ts=1736365589.730599&cid=C03DDD4R537> :disappointed:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C03DDD4R537/p1736526947671819?thread_ts=1736365589.730599&amp;cid=C03DDD4R537",
+              "ts": "1736526947.671819",
+              "author_id": "U0184T48L74",
+              "channel_id": "C03DDD4R537",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "is_reply_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C03DDD4R537",
+                  "ts": "1736526947.671819",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "F/D1f",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Hey Alex, we are sending the span around 300 times per user journey (in the funnel only). In 24 hours, we sent "
+                              },
+                              {
+                                "type": "link",
+                                "url": "https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/D7usQn3m51y",
+                                "text": "3 million"
+                              },
+                              {
+                                "type": "text",
+                                "text": " spans, which sounds huge for MR. Shouldn't we send the span only once per user/page?"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C03DDD4R537/p1736526947671819?thread_ts=1736365589.730599&amp;cid=C03DDD4R537",
+              "fallback": "[January 10th, 2025 8:35 AM] crui: Hey Alex, we are sending the span around 300 times per user journey (in the funnel only). In 24 hours, we sent <https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/D7usQn3m51y|3 million> spans, which sounds huge for MR. Shouldn't we send the span only once per user/page?",
+              "text": "Hey Alex, we are sending the span around 300 times per user journey (in the funnel only). In 24 hours, we sent <https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/D7usQn3m51y|3 million> spans, which sounds huge for MR. Shouldn't we send the span only once per user/page?",
+              "author_name": "Claudia Lorena Lagos Ruiz",
+              "author_link": "https://hellofresh.slack.com/team/U0184T48L74",
+              "author_icon": "https://avatars.slack-edge.com/2020-08-04/1265181965383_8cc7992276c43412d55c_48.jpg",
+              "author_subname": "Claudia Lorena Lagos Ruiz",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Thread in Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SsC4S",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I remember I pointed it out to creator of the span: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C03DDD4R537/p1736526947671819?thread_ts=1736365589.730599&cid=C03DDD4R537"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "disappointed",
+                      "unicode": "1f61e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088038.831629",
+          "client_msg_id": "85722696-29c6-4842-89fd-586f547dc4ea",
+          "text": "hi team, I just found another one of these spans",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hD1w6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hi team, I just found another one of these spans"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088046.330479",
+          "client_msg_id": "ffa770bc-6e8c-4404-8552-986b982b7322",
+          "text": "it was added 3 weeks ago",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KP6jc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it was added 3 weeks ago"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088052.833129",
+          "client_msg_id": "07b55109-db28-4510-8a55-9a01d6a7075a",
+          "text": "`operation.free-addons-operations`",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BqC/V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "operation.free-addons-operations",
+                      "style": {
+                        "code": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088071.263169",
+          "client_msg_id": "a2c6dd35-3c77-47f1-8956-f992d0ece26b",
+          "text": "we have users with thousands of these spans per session\n<https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/CbNBaiL6jFb?vs=hideCompare&amp;tab=overview>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UyP3T",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "we have users with thousands of these spans per session\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/CbNBaiL6jFb?vs=hideCompare&tab=overview"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088093.375899",
+          "client_msg_id": "f67ac2b4-b5a0-4743-9b4e-b974fc944725",
+          "text": "we should not be creating spans inside hooks like that",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MUpZg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "we should not be creating spans inside hooks like that"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753088244.752349",
+          "client_msg_id": "41d0050b-a1d1-422a-bad8-e3dcfc88f8de",
+          "text": "<@U0251UW1YUE> can you please take a look when you have some time?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "87zlQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0251UW1YUE"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can you please take a look when you have some time?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1753088669.105559",
+          "client_msg_id": "b0ae793f-e1fc-4b0e-9b5e-e0f88d2359ff",
+          "text": "sure! will check later today!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fsDQR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sure! will check later today!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1753090686.251869",
+          "client_msg_id": "4172afd4-bf9b-4b98-8f09-ff98555e64ff",
+          "text": "CR pls <https://github.com/hellofresh/web/pull/55187>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fne53",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "CR pls "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/web/pull/55187"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1753092478.761069",
+          "client_msg_id": "b72f9d86-d3d5-4cba-9762-a52e2adaf059",
+          "text": "thanks bolo",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752668986.571709",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jcRJE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks bolo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U0MBX09UZ",
+      "text": "<@U0MBX09UZ> has joined the channel",
+      "type": "message",
+      "ts": "1752668927.163519"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@UJ182DUEN>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle: \n*Topic:* CCM / Menu / AddOns / Menu Replacement\n\n\n:mag: *Issue reported:*\nThis night we got some KRS alerts where some customers didn’t have their selection propagated because some indexes were missing for some weeks\nThe complete list of cuts, subscriptions and weeks will be added to the thread\n\n\n:footprints: *Steps to reproduce:*\nN/A",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1752581772.623719",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1752581772.623719",
+      "reply_count": 10,
+      "reply_users_count": 5,
+      "latest_reply": "1752590116.540869",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "UJ182DUEN",
+        "U03EN3N4KM4",
+        "U01AKGWGLC8",
+        "U01B2LBUPND"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "i5H27",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UJ182DUEN",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Medium "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_yellow_circle",
+                  "unicode": "1f7e1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "CCM / Menu / AddOns / Menu Replacement"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "This night we got some KRS alerts where some customers didn’t have their selection propagated because some indexes were missing for some weeks\nThe complete list of cuts, subscriptions and weeks will be added to the thread"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "UJ182DUEN"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1752581776.186819",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qj6xS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "This is a CSV with all subscriptions, week, the error from MSS and the selection they made\nIt seems like indexes 368 and 369 are the ones missing\nIn total you have 47 affected subscriptions and the weeks with wrong menus are 2025-W38 and 2025-W40",
+          "files": [
+            {
+              "id": "F09698V5065",
+              "created": 1752581784,
+              "timestamp": 1752581784,
+              "name": "good_chop_selected_course_errors_15_07_2025.csv",
+              "title": "good_chop_selected_course_errors_15_07_2025.csv",
+              "mimetype": "text/csv",
+              "filetype": "csv",
+              "pretty_type": "CSV",
+              "user": "UJ182DUEN",
+              "user_team": "T02AGMUUR",
+              "editable": true,
+              "size": 29714,
+              "mode": "snippet",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09698V5065/good_chop_selected_course_errors_15_07_2025.csv",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09698V5065/download/good_chop_selected_course_errors_15_07_2025.csv",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09698V5065/good_chop_selected_course_errors_15_07_2025.csv",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09698V5065-9bd67b66a2",
+              "edit_link": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09698V5065/good_chop_selected_course_errors_15_07_2025.csv/edit",
+              "preview": "\"timestamp\",\"week\",\"subscriptionId\",\"country\",\"productSku\",\"selection\",\"error\"\n\"2025-07-15T00:43:21.16Z\",\"2025-W40\",\"790822\",\"mr\",\"MR-CBT1-8-1-0\",\"273-274-276-285-334-335-365-368\",\"Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu\"\n\"2025-07-15T00:43:21.16Z\",\"2025-W38\",\"790822\",\"mr\",\"MR-CBT1-8-1-0\",\"273-274-276-285-334-335-365-368\",\"Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu\"\n\"2025-07-15T00:44:58.96Z\",\"2025-W40\",\"790822\",\"mr\",\"MR-CBT1-8-1-0\",\"274-276-285-334-335-365-365-368\",\"Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu\"\n\"2025-07-15T00:44:58.961Z\",\"2025-W38\",\"790822\",\"mr\",\"MR-CBT1-8-1-0\",\"274-276-285-334-335-365-365-368\",\"Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected c...",
+              "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer cm-csv-tsv-wrapper\">\n<div class=\"CodeMirror-code\">\n<div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">timestamp</div><div class=\"cm-col\">week</div><div class=\"cm-col\">subscriptionId</div><div class=\"cm-col\">country</div><div class=\"cm-col\">productSku</div><div class=\"cm-col\">selection</div><div class=\"cm-col\">error</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:43:21.16Z</div><div class=\"cm-col\">2025-W40</div><div class=\"cm-col cm-num\">790822</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-8-1-0</div><div class=\"cm-col\">273-274-276-285-334-335-365-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:43:21.16Z</div><div class=\"cm-col\">2025-W38</div><div class=\"cm-col cm-num\">790822</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-8-1-0</div><div class=\"cm-col\">273-274-276-285-334-335-365-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:44:58.96Z</div><div class=\"cm-col\">2025-W40</div><div class=\"cm-col cm-num\">790822</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-8-1-0</div><div class=\"cm-col\">274-276-285-334-335-365-365-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:44:58.961Z</div><div class=\"cm-col\">2025-W38</div><div class=\"cm-col cm-num\">790822</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-8-1-0</div><div class=\"cm-col\">274-276-285-334-335-365-365-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:47:15.534Z</div><div class=\"cm-col\">2025-W40</div><div class=\"cm-col cm-num\">872546</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-12-1-0</div><div class=\"cm-col\">281-281-281-284-284-334-345-353-353-368-368-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T01:08:02.034Z</div><div class=\"cm-col\">2025-W38</div><div class=\"cm-col cm-num\">764151</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-12-1-0</div><div class=\"cm-col\">5-5-23-23-23-23-279-279-353-353-368-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T00:47:15.534Z</div><div class=\"cm-col\">2025-W38</div><div class=\"cm-col cm-num\">872546</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-12-1-0</div><div class=\"cm-col\">281-281-281-284-284-334-345-353-353-368-368-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T01:08:02.034Z</div><div class=\"cm-col\">2025-W40</div><div class=\"cm-col cm-num\">764151</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-12-1-0</div><div class=\"cm-col\">5-5-23-23-23-23-279-279-353-353-368-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">2025-07-15T01:22:44.742Z</div><div class=\"cm-col\">2025-W38</div><div class=\"cm-col cm-num\">724447</div><div class=\"cm-col\">mr</div><div class=\"cm-col\">MR-CBT1-12-1-0</div><div class=\"cm-col\">5-5-5-59-59-59-205-283-353-364-364-368</div><div class=\"cm-col\">Failed to select meals - selection didn't pass validation: invalid selection due to menu restrictions: selected courses don't exist in menu</div></div></div>\n</div>\n",
+              "lines": 120,
+              "lines_more": 115,
+              "preview_is_truncated": true,
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "UJ182DUEN",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9Aid5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is a CSV with all subscriptions, week, the error from MSS and the selection they made\nIt seems like indexes 368 and 369 are the ones missing\nIn total you have 47 affected subscriptions and the weeks with wrong menus are 2025-W38 and 2025-W40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1752581860.599739",
+          "client_msg_id": "eff4ef27-623f-4cd6-9133-26f8d1b7ba5a",
+          "thread_ts": "1752581772.623719"
+        },
+        {
+          "user": "UJ182DUEN",
+          "type": "message",
+          "ts": "1752581940.331569",
+          "client_msg_id": "bdf98deb-bc1a-428e-b3f5-9a47238ea624",
+          "text": "What Good Chop needs to check:\n• Confirm that these are the indexes missing in the menus for the mentioned weeks\n• Why are they missing? Is that a menu misconfig?\n• After that’s done, the selection should be retried (we can do that work)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qO5tf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What Good Chop needs to check:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Confirm that these are the indexes missing in the menus for the mentioned weeks"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Why are they missing? Is that a menu misconfig?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "After that’s done, the selection should be retried (we can do that work)"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1752582547.568089",
+          "client_msg_id": "2ab1f8c2-7811-493b-bf23-d0408dfadf34",
+          "text": "hey <@UJ182DUEN>, thanks for reporting this",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zvKkP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UJ182DUEN"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", thanks for reporting this"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1752582598.763359",
+          "client_msg_id": "3748c991-97ad-4d3c-9072-7b6502546ede",
+          "text": "hey <@U01B2LBUPND>, good morning there, when you have some time could you help us checking this?\nalso adding <@U01AKGWGLC8>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zsJrk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", good morning there, when you have some time could you help us checking this?\nalso adding "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1752583576.960299",
+          "client_msg_id": "3d7427f3-eef3-4c65-9190-3d3426514566",
+          "text": "<@U01B2LBUPND> validating that I can see 368 and 369 in 2025-w39 but not in w40 for example\n\nI guess this is a mistake and should be added? If so can you please correct?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZGrvt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01B2LBUPND"
+                    },
+                    {
+                      "type": "text",
+                      "text": " validating that I can see 368 and 369 in 2025-w39 but not in w40 for example\n\nI guess this is a mistake and should be added? If so can you please correct?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1752583597.032349",
+          "client_msg_id": "c8b2e3c2-ae37-4fbf-8f3a-bc8e1ef208cf",
+          "text": "and thanks <@UJ182DUEN> for the very clear next steps we should check and impacted menu weeks:pray:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eW41A",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UJ182DUEN"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for the very clear next steps we should check and impacted menu weeks"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "unicode": "1f64f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            },
+            {
+              "name": "people_hugging",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01B2LBUPND",
+          "type": "message",
+          "ts": "1752589320.630729",
+          "client_msg_id": "958ddb00-8d65-4500-b8f1-2ff79b3bde90",
+          "text": "this has been fixed. Thanks <@UJ182DUEN>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d4aod",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "this has been fixed. Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UJ182DUEN"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob-thanks",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            },
+            {
+              "name": "dance-1165",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            },
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1752589683.048329",
+          "client_msg_id": "96ba08ab-90d7-44b9-aa4f-6ff0e07ce7f0",
+          "text": "thanks seb",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "X0xEd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks seb"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UJ182DUEN",
+          "type": "message",
+          "ts": "1752590116.540869",
+          "client_msg_id": "fb0f6011-da1f-433e-8f25-c2d5efd77493",
+          "text": "Thanks folks",
+          "team": "T02AGMUUR",
+          "thread_ts": "1752581772.623719",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Nbvjh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks folks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "UJ182DUEN",
+      "text": "<@UJ182DUEN> has joined the channel",
+      "type": "message",
+      "ts": "1752581620.150629"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U06JUCD7S4A",
+      "text": "<@U06JUCD7S4A> has joined the channel",
+      "type": "message",
+      "ts": "1752507852.191359"
+    }
+  ]
+}

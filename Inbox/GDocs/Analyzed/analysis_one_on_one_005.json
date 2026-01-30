@@ -1,0 +1,1092 @@
+{
+  "batch_id": "one_on_one_005",
+  "doc_type": "one_on_one",
+  "doc_count": 8,
+  "results": [
+    {
+      "doc_title": "Hamed:Nikita 1:1 - 2025/12/18 17:25 CET - Notes by Gemini",
+      "doc_id": "1pFLm4CpL8OJYNI0YPBxf2GW1PL-JLx9G2X51hj4ydHg",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Hamed Karimian",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Confirm the visible frame size for PDP design to ensure key components are above the fold",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Work with Michael to explore more creative ideas for the PDP page",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Update images for clarity and consistency across the three product detail pages",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Bring engineers (specifically mentioned: 'pants') early to creative discussions for PDP redesign",
+          "owner": "Nikita Gorshkov / Hamed Karimian",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Move away from purely e-commerce carousel approach to more creative, lifestyle-oriented imagery for PDP",
+          "context": "Current design feels too functional (like Wayfair) and not lifestyle-oriented enough; should be more like Apple's approach"
+        },
+        {
+          "what": "Be bolder with VMS design and use it as an opportunity to try new things",
+          "context": "VMS doesn't have the same restrictions as TPT and Good Shop, providing a window of opportunity for experimentation"
+        },
+        {
+          "what": "Integrate images more seamlessly with white background blending into page, add more visible controls, close-up images, and video content",
+          "context": "To create a more engaging and lifestyle-focused product page experience"
+        }
+      ],
+      "feedback": [
+        "Nikita challenged Hamed's constraint-focused mindset, encouraging him to be bolder and more ambitious with design ideas despite technical limitations",
+        "Nikita acknowledged being happy with TPT design but less satisfied with Good Shop design outcomes"
+      ],
+      "blockers": [
+        {
+          "issue": "Technical constraints and feasibility concerns limiting design ambition (replicating advanced designs could take at least half a year)",
+          "owner": "Team/Engineering",
+          "status": "active"
+        },
+        {
+          "issue": "Lack of image consistency across product detail pages",
+          "owner": "Hamed Karimian",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Product Detail Page (PDP) redesign",
+        "Above-the-fold visibility for subscribe and save (SNS) and one-time purchase (OTP)",
+        "Lifestyle vs e-commerce imagery approach",
+        "Technical constraints vs design ambition",
+        "Early engineer involvement in creative process",
+        "VMS as opportunity for experimentation"
+      ],
+      "entities": [
+        {
+          "name": "Michael",
+          "type": "person",
+          "context": "Needs to be consulted about visible frame size and will collaborate on exploring creative PDP ideas"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Current project that provides opportunity to try new design approaches without the restrictions of other products"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Previous project where Nikita is happy with the design outcomes"
+        },
+        {
+          "name": "Good Shop",
+          "type": "project",
+          "context": "Previous project where Nikita feels less satisfied with design outcomes and faced restrictions"
+        },
+        {
+          "name": "Apple",
+          "type": "system",
+          "context": "Referenced as example of lifestyle-oriented design approach to aspire to"
+        },
+        {
+          "name": "Wayfair",
+          "type": "system",
+          "context": "Referenced as example of functional e-commerce approach to avoid"
+        },
+        {
+          "name": "Duolingo",
+          "type": "system",
+          "context": "Mentioned by Hamed as inspiration for features he had in mind when joining"
+        },
+        {
+          "name": "pants",
+          "type": "person",
+          "context": "Engineer who should be brought into creative discussions early"
+        }
+      ]
+    },
+    {
+      "doc_title": "Hamed:Nikita 1:1 - 2025/12/18 17:25 CET - Notes by Gemini",
+      "doc_id": "1pFLm4CpL8OJYNI0YPBxf2GW1PL-JLx9G2X51hj4ydHg",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Hamed Karimian",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Confirm the visible frame size for PDP design to ensure key components are above the fold",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Work with Michael to explore more creative ideas for the PDP page",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Update images for clarity and consistency across the three product detail pages",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Bring engineers (pants) into early design discussions to facilitate creative implementation",
+          "owner": "Nikita Gorshkov/Hamed Karimian",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Move away from purely e-commerce carousel approach to more creative, lifestyle-oriented imagery for PDP",
+          "context": "Current design feels too functional (like Wayfair) and not lifestyle-oriented enough; should be more like Apple's approach"
+        },
+        {
+          "what": "Be bolder with VMS design changes and use it as an opportunity to try new things",
+          "context": "VMS doesn't have the same constraints as TPT and Good Shop, providing a window of opportunity for experimentation"
+        },
+        {
+          "what": "Integrate images more seamlessly with white background blending into page, add more visible controls, close-up images, and video content",
+          "context": "To create a more engaging and lifestyle-focused product page experience"
+        }
+      ],
+      "feedback": [
+        "Nikita challenged Hamed's constraint-focused mindset, encouraging him to be bolder and more ambitious with design ideas despite technical limitations",
+        "Nikita encouraged involving engineers early in creative discussions to facilitate implementation and engagement"
+      ],
+      "blockers": [
+        {
+          "issue": "Technical constraints and feasibility concerns limiting design ambition - team feels constrained by implementation capabilities",
+          "owner": "Team/Engineering",
+          "status": "active"
+        },
+        {
+          "issue": "Concern that replicating advanced designs could take at least half a year to implement",
+          "owner": "Engineering/Product",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Product Detail Page (PDP) redesign",
+        "Above-the-fold visibility for subscribe and save (SNS) and one-time purchase (OTP)",
+        "Image consistency and lifestyle-oriented imagery",
+        "Moving from e-commerce functional design to lifestyle brand approach",
+        "Technical constraints vs. design ambition",
+        "VMS as opportunity for experimentation",
+        "Early engineer involvement in design process"
+      ],
+      "entities": [
+        {
+          "name": "Michael",
+          "type": "person",
+          "context": "Person Hamed needs to confirm visible frame size with and explore creative PDP ideas with"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Project that provides opportunity to try new design approaches without the constraints of other products"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Product where Nikita is happy with the design; has certain constraints about upsetting balance"
+        },
+        {
+          "name": "Good Shop",
+          "type": "project",
+          "context": "Product where Nikita feels more needs to be done design-wise; has constraints about upsetting the cards"
+        },
+        {
+          "name": "Apple",
+          "type": "system",
+          "context": "Referenced as example of lifestyle-oriented design approach to aspire to"
+        },
+        {
+          "name": "Wayfair",
+          "type": "system",
+          "context": "Referenced as example of functional e-commerce approach to avoid (current state)"
+        },
+        {
+          "name": "Duolingo",
+          "type": "system",
+          "context": "Mentioned by Hamed as inspiration for lifestyle brand features he had in mind when joining"
+        },
+        {
+          "name": "pants",
+          "type": "person",
+          "context": "Engineer(s) who should be brought into early design discussions"
+        }
+      ]
+    },
+    {
+      "doc_title": "Beatrice:Nikita 1:1 - 2025/12/19 15:46 CET - Notes by Gemini",
+      "doc_id": "1cAk1bsDpMF5ZQozGLwk4Tl6ojlTNLdcQ5Jvfuw4doC0",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Run another test for ad tech tracking and refunds",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-19"
+        },
+        {
+          "task": "Increase allocation over Christmas period",
+          "owner": "Beatrice Dimarucut",
+          "due": "Before Christmas 2025"
+        },
+        {
+          "task": "Consult with Ferron from PA about running OTP allocation and price value funnel test concurrently",
+          "owner": "Beatrice Dimarucut",
+          "due": "Before January 20, 2026"
+        },
+        {
+          "task": "Complete post-checkout and order confirmation page for OTP",
+          "owner": "Beatrice Dimarucut",
+          "due": "Before January 20, 2026"
+        },
+        {
+          "task": "Finalize CS5 external role posting",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Finalize Beatrice's promotion",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Prioritize finishing upsells and new dashboards despite potential increase in pause/cancellation rates",
+          "context": "Expected rise in AOV should compensate for any negative impact from displaying future deliveries"
+        },
+        {
+          "what": "Set January 20th as tentative launch date for One-Time Purchase (OTP)",
+          "context": "Due to unfinished work on post-checkout and order confirmation page"
+        },
+        {
+          "what": "Use alternative design approach for future boxes instead of traditional date picker",
+          "context": "Display three key deliveries (past, current, future) more actionably due to space constraints"
+        },
+        {
+          "what": "Increase allocation over Christmas can be done and adjusted later if needed",
+          "context": "Ad tech tracking is working and there is still time before Christmas"
+        },
+        {
+          "what": "Firewall B2B-related work to prevent resource drain",
+          "context": "B2B topics have tendency to consume resources; need separate funding and dedicated squad"
+        }
+      ],
+      "feedback": [
+        "Nikita Gorshkov received a promotion and will be able to serve the team with more capacity",
+        "Nikita's promotion was previously not approved last time but went through this time",
+        "Beatrice's promotion is being finalized"
+      ],
+      "blockers": [
+        {
+          "issue": "Product imagery not representing product quality accurately",
+          "owner": "Team (unspecified)",
+          "status": "active"
+        },
+        {
+          "issue": "Concern about running OTP allocation and price value funnel test concurrently due to potential difficulty interpreting results",
+          "owner": "Beatrice Dimarucut",
+          "status": "active"
+        },
+        {
+          "issue": "Post-checkout and order confirmation page incomplete for OTP launch",
+          "owner": "Beatrice Dimarucut",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Product imagery improvement",
+        "Ad tech tracking and refunds testing",
+        "Christmas allocation increase",
+        "Future boxes dashboard design and date picker implementation",
+        "One-Time Purchase (OTP) launch timeline",
+        "Price value funnel test planning",
+        "Team promotions and organizational changes",
+        "New Ventures scope expansion",
+        "B2B initiatives and resource allocation"
+      ],
+      "entities": [
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Started a thread about future boxes related to dashboard changes"
+        },
+        {
+          "name": "Ferron",
+          "type": "person",
+          "context": "From PA team, to be consulted about running parallel tests"
+        },
+        {
+          "name": "CS5",
+          "type": "project",
+          "context": "External role posting being finalized"
+        },
+        {
+          "name": "OTP (One-Time Purchase)",
+          "type": "project",
+          "context": "Launch planned for January 20th, includes post-checkout and order confirmation work"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Nikita's scope, expanding to include additional teams"
+        },
+        {
+          "name": "Adam and Park",
+          "type": "project",
+          "context": "B2B-related initiative that will be firewalled"
+        },
+        {
+          "name": "Laurel/Laura",
+          "type": "person",
+          "context": "Nikita's next meeting"
+        },
+        {
+          "name": "M&A case",
+          "type": "project",
+          "context": "Expected to drop into New Ventures space with a PM in the next year"
+        }
+      ]
+    },
+    {
+      "doc_title": "Hamed:Nikita 1:1 - 2025/12/05 17:41 CET - Notes by Gemini",
+      "doc_id": "1CtMnCPd3ICKq1SZmSXGjjd2WXqmCVFpvxP280qSwkp8",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Hamed Karimian",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Complete all end-to-end testing and preparation for OTP launch",
+          "owner": "The group/team",
+          "due": "End of week 51"
+        },
+        {
+          "task": "Turn on the feature flag for the OTP launch",
+          "owner": "The group/team",
+          "due": "Week two (Monday)"
+        },
+        {
+          "task": "Share updated link to full-functioning mobile app prototype from Michael",
+          "owner": "Hamed Karimian",
+          "due": "Next call"
+        },
+        {
+          "task": "Reach out to Laura and shopping experience leadership for design alignment",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Meet with Dio and Alisa from shopping experience team to ensure prototype doesn't interfere with factor app designs",
+          "owner": "Hamed Karimian",
+          "due": "Not specified"
+        },
+        {
+          "task": "Monitor the number of redirects between Shopify and legacy pages",
+          "owner": "Hamed Karimian/team",
+          "due": "Ongoing"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Push OTP full launch to Monday of week two instead of week 51",
+          "context": "Mitigate risks associated with limited team bandwidth, outstanding items in week 51, and proximity to year-end dates. Week one would still see low traffic due to calendar year."
+        },
+        {
+          "what": "Do a full launch rather than a soft launch for OTP",
+          "context": "Recommended by Nikita to reduce complexity and risk given the timing"
+        },
+        {
+          "what": "Implement Shopify redirects to prevent multiple accounts across websites",
+          "context": "Decision by Samir and Allison. Net new users from legacy pages redirected to Shopify; existing Factor account users landing on Shopify redirected back to legacy page to see their subscriptions and past orders. Expected to affect only small percentage (5% or less) of users."
+        },
+        {
+          "what": "Keep current Shopify redirect setup as is",
+          "context": "Agreed by Nikita since it won't impact too many people overall, with tracking in place to monitor if alternative solution needed"
+        }
+      ],
+      "feedback": [
+        "Nikita thanked Hamed for being super quick on the roadmap stuff, noting the workshop yesterday went really well"
+      ],
+      "blockers": [
+        {
+          "issue": "Broken link to full-functioning mobile app prototype",
+          "owner": "Hamed Karimian/Michael",
+          "status": "resolved"
+        },
+        {
+          "issue": "Outstanding items for OTP launch in week 51",
+          "owner": "Team",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "OTP (One-Time Password) launch planning and timeline",
+        "Mobile app prototype and design ownership alignment",
+        "Shopify redirects implementation and user experience",
+        "Traffic analysis and launch timing",
+        "Cross-team coordination for Factor app designs"
+      ],
+      "entities": [
+        {
+          "name": "OTP (One-Time Password)",
+          "type": "project",
+          "context": "Launch planned for week two with 90% user rollout, requires end-to-end testing"
+        },
+        {
+          "name": "Laura",
+          "type": "person",
+          "context": "Shopping experience leadership, primary contact for merchandising components and add-to-cart rate design alignment"
+        },
+        {
+          "name": "Dio",
+          "type": "person",
+          "context": "Shopping experience team member, meeting scheduled to ensure prototype alignment"
+        },
+        {
+          "name": "Alisa",
+          "type": "person",
+          "context": "Shopping experience team member, meeting scheduled to ensure prototype alignment"
+        },
+        {
+          "name": "Michael",
+          "type": "person",
+          "context": "Has updated link to mobile app prototype to be shared"
+        },
+        {
+          "name": "Samir",
+          "type": "person",
+          "context": "Made decision on implementing Shopify redirects"
+        },
+        {
+          "name": "Allison",
+          "type": "person",
+          "context": "Made decision on implementing Shopify redirects"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "New website platform with redirect logic to/from legacy pages based on user account status"
+        },
+        {
+          "name": "Factor app",
+          "type": "system",
+          "context": "Mobile app with distributed ownership, design alignment needed for prototype"
+        },
+        {
+          "name": "Legacy page/website",
+          "type": "system",
+          "context": "Existing Factor website for users with active Factor subscriptions"
+        },
+        {
+          "name": "Factor meals/Factor form",
+          "type": "project",
+          "context": "Subscription products with different plan types requiring redirect logic"
+        }
+      ]
+    },
+    {
+      "doc_title": "Maria:Nikita 1:1 - 2025/12/09 15:17 CET - Notes by Gemini",
+      "doc_id": "1kXfIN_jlJSZRrC6ErpvfjZOzFdyshJngx60nutEwqGI",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Maria Chelminska",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Look into things, run business cases, and provide evidence for OKR numbers by calculating the most valid launches with biggest expected impact",
+          "owner": "Maria Chelminska",
+          "due": "End of current week (week of Dec 9, 2025)"
+        },
+        {
+          "task": "Finalize budget matters with Tishia",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Conduct interviews with five independent contractors as contingency",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Focus on CVA impact rather than strict OKR numerical accuracy, accepting variance of ±25-50%",
+          "context": "OKR tracking discussion where Nikita emphasized impact over precision"
+        },
+        {
+          "what": "Use micro conversions for small, high-confidence experiments; reserve actual conversion/revenue data for critical experiments",
+          "context": "Addressing the 6-8 week time to significance problem in experimentation"
+        },
+        {
+          "what": "Focus on overall business numbers (net revenue, AOU, weekly active users) and make assumptions about metric correlations",
+          "context": "Simplifying the connection between micro conversions and business outcomes"
+        },
+        {
+          "what": "If hired, Tishia would be dedicated to TPT, Good Job, and VMS",
+          "context": "Staffing allocation discussion"
+        }
+      ],
+      "feedback": [],
+      "blockers": [
+        {
+          "issue": "Long time to significance for experiments (6-8 weeks), causing delays in experimentation velocity",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Implementing micro conversions requires more PA support to set up new metrics in static, which hasn't been done before",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Expected pushback on using micro conversions approach; not applicable for all experiment types (e.g., price testing)",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Need for analyst support to translate micro conversion impact to key metrics like CVR",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "PA (Product Analytics) support and staffing",
+        "OKR tracking and goal achievement",
+        "Experimentation methodology and time to significance",
+        "Micro conversions as leading indicators",
+        "Business metrics and north star KPIs"
+      ],
+      "entities": [
+        {
+          "name": "Simon",
+          "type": "person",
+          "context": "Senior in-house FT PA becoming more visible after onboarding, previously shielded by Eva"
+        },
+        {
+          "name": "Eva",
+          "type": "person",
+          "context": "Had been shielding Simon during onboarding period"
+        },
+        {
+          "name": "Tishia",
+          "type": "person",
+          "context": "Potential hire being discussed for budget finalization; would be dedicated to TPT, Good Job, and VMS"
+        },
+        {
+          "name": "Farane",
+          "type": "person",
+          "context": "Alex's manager who suggested using leading indicators/micro conversions to shorten time to significance"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Person whose manager is Farane"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "Good Job",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "CVA",
+          "type": "system",
+          "context": "Impact measurement framework being prioritized over strict OKR numbers"
+        },
+        {
+          "name": "CVR",
+          "type": "system",
+          "context": "Conversion rate metric; first CVR initiative achieved months ago"
+        },
+        {
+          "name": "MDE",
+          "type": "system",
+          "context": "Minimum Detectable Effect - easier to detect with micro conversions"
+        },
+        {
+          "name": "AOU",
+          "type": "system",
+          "context": "Key business metric mentioned as trackable OKR focus"
+        },
+        {
+          "name": "RPU",
+          "type": "system",
+          "context": "Revenue per user - one of the trackable OKR metrics"
+        }
+      ]
+    },
+    {
+      "doc_title": "Sameer:Nikita 1:1 - 2025/12/09 17:27 CET - Notes by Gemini",
+      "doc_id": "1AvoECK4OlerEh_0APJGXjxtCp_kEy7MEvRFNheyhM54",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Sameer Doda",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Sync with DA to explore securing additional backend engineering resources",
+          "owner": "Van",
+          "due": "Not specified"
+        },
+        {
+          "task": "Review draft PR for payments token",
+          "owner": "Payments team",
+          "due": "Not specified"
+        },
+        {
+          "task": "Work on account creation process with relevant teams",
+          "owner": "Sameer Doda",
+          "due": "Not specified"
+        },
+        {
+          "task": "Develop back-end solution for bulk pausing of HelloFresh accounts",
+          "owner": "Backend team",
+          "due": "Not specified"
+        },
+        {
+          "task": "Meet with Yolanta and Shay to discuss phase two designs and gather front-end estimation",
+          "owner": "Sameer Doda",
+          "due": "Not specified"
+        },
+        {
+          "task": "Contact payments team to finalize approach for migration of credits",
+          "owner": "Sameer Doda",
+          "due": "This week"
+        },
+        {
+          "task": "Provide ETA on timelines to Jonathan and Terra",
+          "owner": "Sameer Doda",
+          "due": "January"
+        },
+        {
+          "task": "Create complete mirror board with customer journeys and wireframes for influencer marketplace",
+          "owner": "Sameer Doda",
+          "due": "Not specified"
+        },
+        {
+          "task": "Sync with Dio regarding status of voucher application for one-time purchases",
+          "owner": "Sameer Doda",
+          "due": "Not specified"
+        },
+        {
+          "task": "Build rapport with Ian for initiative management",
+          "owner": "Sameer Doda",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Request to carry over Leman's additional days was denied",
+          "context": "Leman will be out for the remainder of the year"
+        },
+        {
+          "what": "Timeline ETA will be provided in January",
+          "context": "Jonathan and Terra from local teams accepted this timeline"
+        }
+      ],
+      "feedback": [
+        "Nikita Gorshkov encouraged Sameer Doda to build rapport with Ian to help position Ian as an arbiter for bigger initiatives"
+      ],
+      "blockers": [
+        {
+          "issue": "Leman unavailable for rest of year, need additional backend engineering resources",
+          "owner": "Van",
+          "status": "active"
+        },
+        {
+          "issue": "Draft PR for payments token awaiting review from payments team",
+          "owner": "Payments team",
+          "status": "active"
+        },
+        {
+          "issue": "Need to finalize migration of credits approach with payments team",
+          "owner": "Sameer Doda",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Resource allocation and team availability",
+        "Project status updates (payments token, account creation, HelloFresh bulk pausing)",
+        "Phase two designs and migration of credits",
+        "Influencer marketplace development",
+        "Shopify migration progress",
+        "Personal updates and baby's first Christmas plans"
+      ],
+      "entities": [
+        {
+          "name": "Leman",
+          "type": "person",
+          "context": "Team member unavailable for remainder of year"
+        },
+        {
+          "name": "Van",
+          "type": "person",
+          "context": "Tasked with syncing with DA for additional backend resources"
+        },
+        {
+          "name": "Yolanta",
+          "type": "person",
+          "context": "Meeting scheduled to discuss phase two designs"
+        },
+        {
+          "name": "Shay",
+          "type": "person",
+          "context": "Meeting scheduled to discuss phase two designs"
+        },
+        {
+          "name": "Jonathan",
+          "type": "person",
+          "context": "Local team member informed about January timeline"
+        },
+        {
+          "name": "Terra",
+          "type": "person",
+          "context": "Local team member informed about January timeline"
+        },
+        {
+          "name": "Ian",
+          "type": "person",
+          "context": "Being positioned as arbiter for bigger initiatives"
+        },
+        {
+          "name": "Dio",
+          "type": "person",
+          "context": "To sync regarding voucher application status"
+        },
+        {
+          "name": "DA",
+          "type": "person",
+          "context": "To be contacted about backend engineering resources"
+        },
+        {
+          "name": "Payments token",
+          "type": "project",
+          "context": "Draft PR awaiting review from payments team"
+        },
+        {
+          "name": "Account creation",
+          "type": "project",
+          "context": "Still needs work with relevant teams"
+        },
+        {
+          "name": "HelloFresh bulk pausing",
+          "type": "project",
+          "context": "New task to automatically pause accounts for 2-3 weeks"
+        },
+        {
+          "name": "Migration of credits",
+          "type": "project",
+          "context": "Approach needs to be finalized with payments team"
+        },
+        {
+          "name": "Influencer marketplace",
+          "type": "project",
+          "context": "Mirror board with customer journeys and wireframes being developed"
+        },
+        {
+          "name": "Shopify migration",
+          "type": "project",
+          "context": "Re-factor form almost finished, Good Chop migration expected to be quicker"
+        },
+        {
+          "name": "Payments team",
+          "type": "system",
+          "context": "Reviewing draft PR and involved in credits migration"
+        }
+      ]
+    },
+    {
+      "doc_title": "Maria:Nikita 1:1 - 2025/12/09 15:17 CET - Notes by Gemini",
+      "doc_id": "1kXfIN_jlJSZRrC6ErpvfjZOzFdyshJngx60nutEwqGI",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Maria Chelminska",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Look into things, run business cases, and provide evidence for OKR numbers by calculating the most valid launches with biggest expected impact",
+          "owner": "Maria Chelminska",
+          "due": "End of current week (week of Dec 9, 2025)"
+        },
+        {
+          "task": "Finalize budget matters with Tishia",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        },
+        {
+          "task": "Conduct interviews with five independent contractors as contingency",
+          "owner": "Nikita Gorshkov",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Focus on CVA impact rather than strict OKR numerical accuracy, accepting variance of ±25-50%",
+          "context": "OKR tracking discussion where Nikita emphasized impact over precision"
+        },
+        {
+          "what": "Use micro conversions for small, high-confidence experiments; reserve actual conversion/revenue data for critical experiments",
+          "context": "Addressing the 6-8 week time to significance problem for experiments"
+        },
+        {
+          "what": "Focus on overall business numbers (net revenue, AOU, weekly active users) and make assumptions about metric correlations",
+          "context": "Simplifying the connection between micro conversions and business outcomes"
+        },
+        {
+          "what": "If hired, Tishia would be dedicated to TPT, Good Job, and VMS",
+          "context": "Staffing allocation discussion"
+        }
+      ],
+      "feedback": [],
+      "blockers": [
+        {
+          "issue": "Long time to significance for experiments (6-8 weeks), causing delays in experimentation velocity",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Implementing micro conversions requires additional PA support to set up new metrics in static, which hasn't been done before",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Expected pushback on using micro conversions approach; not applicable for all experiment types (e.g., price testing)",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        },
+        {
+          "issue": "Need for analyst support to translate micro conversion impact to key metrics like CVR",
+          "owner": "Maria Chelminska",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "PA (Product Analytics) support and staffing",
+        "OKR tracking and achievement",
+        "Experimentation methodology and time to significance",
+        "Micro conversions vs. primary metrics",
+        "Business metrics alignment (net revenue, AOU, weekly active users)"
+      ],
+      "entities": [
+        {
+          "name": "Simon",
+          "type": "person",
+          "context": "Senior in-house FT PA becoming more visible after onboarding, previously shielded by Eva"
+        },
+        {
+          "name": "Eva",
+          "type": "person",
+          "context": "Had been shielding Simon during onboarding period"
+        },
+        {
+          "name": "Tishia",
+          "type": "person",
+          "context": "Potential hire being discussed for budget finalization; would be dedicated to TPT, Good Job, and VMS"
+        },
+        {
+          "name": "Farane",
+          "type": "person",
+          "context": "Alex's manager who suggested using leading indicators or micro conversions to shorten time to significance"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Person whose manager is Farane, involved in experimentation discussions"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "Good Job",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "One of three projects Tishia would be dedicated to if hired"
+        },
+        {
+          "name": "CVA",
+          "type": "system",
+          "context": "Impact measurement framework being prioritized over strict OKR numbers"
+        },
+        {
+          "name": "CVR",
+          "type": "system",
+          "context": "Conversion rate metric; first CVR initiative was achieved months ago"
+        },
+        {
+          "name": "MDE",
+          "type": "system",
+          "context": "Minimum Detectable Effect - easier to detect when using micro conversions"
+        }
+      ]
+    },
+    {
+      "doc_title": "Prateek:Nikita 1:1 - 2025/12/09 10:45 CET - Notes by Gemini",
+      "doc_id": "1cIVE2-Q7g2G28iQYEWZsJvnCa4gfFEeqwWeSyomyOf8",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Prateek Jajoo",
+        "Nikita Gorshkov"
+      ],
+      "action_items": [
+        {
+          "task": "Manage ETAs for login page work and app documentation/plan",
+          "owner": "Prateek Jajoo",
+          "due": "ongoing"
+        },
+        {
+          "task": "Secure reviews from Nikita Gorshkov and Laura Doas on login page designs before Katrina's departure",
+          "owner": "Prateek Jajoo",
+          "due": "this week"
+        },
+        {
+          "task": "Create one-pager detailing rationale for deprioritizing social logins with data analysis",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Investigate cost and feasibility of adding recipe selection display on checkout/payment page",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Check with Maria regarding TPT experience preview for design review process",
+          "owner": "Prateek Jajoo",
+          "due": "not specified"
+        },
+        {
+          "task": "Get feedback from Laura Doas and socialize login page designs with broader team",
+          "owner": "Prateek Jajoo",
+          "due": "this week"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Deprioritize social logins feature",
+          "context": "Based on data from other brands and older demographic of customer base; requires further data deep-dive and documentation"
+        },
+        {
+          "what": "Prioritize login page features: improved text box visibility and enhanced language with emotional appeal and social proof",
+          "context": "Focus on conversion rate improvements; one sprint's worth of work frontloaded due to Katrina's upcoming absence"
+        },
+        {
+          "what": "Test recipe selection display on checkout page if inexpensive",
+          "context": "Lack of transparency may reduce completion rates; displaying recipes could build customer confidence at point of highest commitment"
+        },
+        {
+          "what": "Design review can be done async or live; live preferred for relationship building",
+          "context": "Prateek needs to establish team relationships and get feedback before Katrina's departure"
+        }
+      ],
+      "feedback": [
+        "Meeting purpose clarified: focus on Prateek Jajoo's personal development, unblocking, and issue escalation",
+        "Nikita encouraged Prateek to establish relationships with team members through live design reviews"
+      ],
+      "blockers": [
+        {
+          "issue": "Difficulty accessing new tribe in Slide page on Confluence",
+          "owner": "Nikita Gorshkov",
+          "status": "resolved"
+        },
+        {
+          "issue": "Katrina's upcoming absence creating time pressure for design reviews and feedback",
+          "owner": "Prateek Jajoo",
+          "status": "active"
+        },
+        {
+          "issue": "Unclear process for design review with broader team",
+          "owner": "Prateek Jajoo",
+          "status": "resolved"
+        }
+      ],
+      "key_topics": [
+        "Confluence access issues",
+        "Personal development and project management",
+        "Login page feature prioritization",
+        "Conversion rate optimization",
+        "Social login deprioritization",
+        "Recipe selection transparency on checkout page",
+        "Design review process",
+        "Team collaboration and feedback"
+      ],
+      "entities": [
+        {
+          "name": "Katrina",
+          "type": "person",
+          "context": "Team member going on absence; creating urgency for design reviews and feedback before departure"
+        },
+        {
+          "name": "Laura Doas",
+          "type": "person",
+          "context": "Team member whose feedback is needed on login page designs; Prateek meeting with them"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "context": "Contact person for TPT experience preview and design review process"
+        },
+        {
+          "name": "Confluence",
+          "type": "system",
+          "context": "Documentation platform where Prateek had access issues to tribe page"
+        },
+        {
+          "name": "Login page",
+          "type": "project",
+          "context": "Primary project focus; working on conversion optimization features including text box visibility and language enhancement"
+        },
+        {
+          "name": "Checkout/payment page",
+          "type": "project",
+          "context": "Area of concern regarding lack of recipe selection display; potential improvement for completion rates"
+        },
+        {
+          "name": "TPT experience preview",
+          "type": "project",
+          "context": "Design review process that Maria manages"
+        },
+        {
+          "name": "App documentation and plan",
+          "type": "project",
+          "context": "Work item that Prateek needs to manage ETA for"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:26:55.084380"
+}

@@ -1,0 +1,80 @@
+{
+  "batch_id": "spreadsheet_026",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "Accessibility-2025 Program",
+      "doc_id": "1LwrtHRYx5pqta9k7dqKHJBfnwQOD5RH637JcxaA4tLY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track HelloFresh Group's Accessibility-2025 Program compliance with European Accessibility Act (EAA) and WCAG 2.2 Level AA standards",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Goal 1: Reduce 90% of important accessibility issues by June 28, 2025 (WEB) and Dec 31, 2025 (Mobile)",
+        "Goal 2: Establish accessibility standards for future product development",
+        "Current WEB compliance: 33%",
+        "Current MOBILE compliance: 15%",
+        "2025 WEB compliance target: 53%",
+        "2025 MOBILE compliance target: 20%",
+        "EAA enforcement date: June 28, 2025",
+        "Potential fines: €500 to €500,000 for non-compliance",
+        "P1 issues: 90% resolution target for 11 WCAG rules (WEB) by Dec 31",
+        "P0 issues: 90% resolution target for 4 WCAG rules (React Native) by Dec 31"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh Group",
+          "type": "system",
+          "context": "Parent organization implementing accessibility program"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "One of three brands requiring accessibility compliance"
+        },
+        {
+          "name": "GreenChef",
+          "type": "brand",
+          "context": "One of three brands requiring accessibility compliance"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "One of three brands requiring accessibility compliance"
+        },
+        {
+          "name": "Foundations Alliance",
+          "type": "project",
+          "context": "Team driving the program and providing Zest Design System components"
+        },
+        {
+          "name": "European Accessibility Act (EAA)",
+          "type": "system",
+          "context": "Regulatory mandate requiring WCAG 2.2 Level AA compliance"
+        },
+        {
+          "name": "Zest Design System",
+          "type": "system",
+          "context": "Component library made EAA-compliant for iOS, Android, Web, and React Native"
+        },
+        {
+          "name": "Cypress",
+          "type": "system",
+          "context": "Automated testing tool identifying accessibility issues"
+        }
+      ],
+      "insights": [
+        "Significant compliance gap exists: WEB at 33% vs 53% target, Mobile at 15% vs 20% target",
+        "Mobile compliance is notably lower than web across all metrics",
+        "Program involves company-wide collaboration across all CFA teams owning Front End TRE",
+        "Third-party accessibility audits have been completed for all three brands",
+        "Automated end-to-end UI testing infrastructure is in place for ongoing compliance tracking",
+        "Non-compliance risks include substantial fines and potential legal action from disability advocacy groups",
+        "Business opportunity identified: access to new customers with disposable income who were previously functionally excluded",
+        "Foundations Alliance has proactively created compliant components, but full compliance requires journey-level modifications by individual teams",
+        "Multiple communication channels established (#accessibility-program-25, team-specific channels) indicating cross-functional coordination"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:13:10.989361"
+}

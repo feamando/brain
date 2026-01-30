@@ -1,0 +1,400 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W31",
+  "extracted_at": "2026-01-02T10:40:44.169572Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "U02U39Z9XA9",
+      "type": "message",
+      "ts": "1753802100.375449",
+      "client_msg_id": "8fb04821-8f09-443e-96c5-3feb5c10dc53",
+      "text": "Hey Team,\nIt was a pleasure working with everyone in the tribe for more than 3.5 years. Let's count this as a longer vacation, I would love to connect and work with you all in the future. Feel free to ping me if you want to grab coffee/lunch/dinner or even play football with me in Berlin on Sundays, or maybe Fifa (we can make some arrangements :P). Until then, Auf Wiedersehen und bis später  (not sure if I used that right, entschuldigung then)\nContact/WhatsApp No: +49 17615681402\nHit me up on <https://linkedin.com/in/shujathkhan|linkedIn> and would be great if you could drop me a recommendation (i can do the same. Also, let's connect on instagram as well @shujath_khan.",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GefRe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey Team,\nIt was a pleasure working with everyone in the tribe for more than 3.5 years. Let's count this as a longer vacation, I would love to connect and work with you all in the future. Feel free to ping me if you want to grab coffee/lunch/dinner or even play football with me in Berlin on Sundays, or maybe Fifa (we can make some arrangements :P). Until then, Auf Wiedersehen und bis später  (not sure if I used that right, entschuldigung then)\nContact/WhatsApp No: +49 17615681402\nHit me up on "
+                },
+                {
+                  "type": "link",
+                  "url": "https://linkedin.com/in/shujathkhan",
+                  "text": "linkedIn"
+                },
+                {
+                  "type": "text",
+                  "text": " and would be great if you could drop me a recommendation (i can do the same. Also, let's connect on instagram as well @shujath_khan."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "blob-cat-heart-squeeze",
+          "users": [
+            "U08AXBW1CAZ",
+            "U8F7ZDAPM",
+            "U03UMPD2NNS",
+            "U03UN2C25UL",
+            "U03TY4YJU4X",
+            "U01TQGXG9D3",
+            "U02DM3WK0NL",
+            "U044SKGT4R5",
+            "U01AKGWGLC8"
+          ],
+          "count": 9
+        },
+        {
+          "name": "love-parrot",
+          "users": [
+            "U01KKT2P7FY",
+            "U03UMPD2NNS",
+            "U03TY4YJU4X",
+            "U01TQGXG9D3",
+            "U044SKGT4R5",
+            "U03QCR5AT6U"
+          ],
+          "count": 6
+        },
+        {
+          "name": "shujath",
+          "users": [
+            "U02DM3WK0NL",
+            "U03EN3N4KM4"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "UJ182DUEN",
+      "type": "message",
+      "ts": "1753717395.736969",
+      "client_msg_id": "55923027-a6b5-47bb-8277-31911c472be1",
+      "text": "Hi team\nI am leaving for a three months sabbatical and will be back on November 3rd\nHave a good time and do some crazy :gambiarra:",
+      "team": "T02AGMUUR",
+      "thread_ts": "1753717395.736969",
+      "reply_count": 6,
+      "reply_users_count": 6,
+      "latest_reply": "1753718509.794959",
+      "reply_users": [
+        "U7SJ525DE",
+        "U03EN3N4KM4",
+        "U8F7ZDAPM",
+        "U027201FQSV",
+        "U0251UW1YUE",
+        "U02U39Z9XA9"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2nj4i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team\nI am leaving for a three months sabbatical and will be back on November 3rd\nHave a good time and do some crazy "
+                },
+                {
+                  "type": "emoji",
+                  "name": "gambiarra"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "gambiarra",
+          "users": [
+            "U03EN3N4KM4",
+            "U01PE2S4ZL6",
+            "U027201FQSV",
+            "U047SAC2PPV",
+            "U02DM3WK0NL",
+            "U0251UW1YUE",
+            "U02U39Z9XA9",
+            "U03UN2C25UL",
+            "U02BA3VS7H8",
+            "U01TQGXG9D3",
+            "U08AXBW1CAZ",
+            "U02P4F23YJ0",
+            "U03UMPD2NNS",
+            "U044SKGT4R5"
+          ],
+          "count": 14
+        },
+        {
+          "name": "dancing-dog",
+          "users": [
+            "U08AXBW1CAZ"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U7SJ525DE",
+          "type": "message",
+          "ts": "1753717420.046119",
+          "client_msg_id": "ba20fd79-a7db-4d52-8747-88e076c0a3ef",
+          "text": "enjoy Vini! :yellow_heart:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sVTLl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "enjoy Vini! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "yellow_heart",
+                      "unicode": "1f49b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1753717449.459099",
+          "client_msg_id": "82011edf-dbfc-44d3-9274-259532987218",
+          "text": "disfruta Vini! :blob-wave:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dww/e",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "disfruta Vini! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blob-wave"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1753717454.641819",
+          "client_msg_id": "d6a209d2-c5d6-48ca-be86-69b9e9be2b8a",
+          "text": "Enjoy your time off Vini!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KsRHl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Enjoy your time off Vini!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1753717562.660589",
+          "edited": {
+            "user": "U027201FQSV",
+            "ts": "1753717575.000000"
+          },
+          "client_msg_id": "ead1fa8b-1ffe-4ada-8df9-e0d3e1e0a297",
+          "text": "We will miss you, Vini! :wave: Enjoy your time off and travel safe!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yUYDf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We will miss you, Vini! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wave",
+                      "unicode": "1f44b"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Enjoy your time off and travel safe!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1753717653.747479",
+          "client_msg_id": "1492404d-ce86-442a-be73-8b338bb84d60",
+          "text": "boas férias vini! aproveita!! :dance:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "o/NAl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "boas férias vini! aproveita!! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U02U39Z9XA9",
+          "type": "message",
+          "ts": "1753718509.794959",
+          "client_msg_id": "cf44acf2-591d-42fc-876f-0ca36e13774d",
+          "text": "Enjoy vini! :blob-enjoy:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1753717395.736969",
+          "parent_user_id": "UJ182DUEN",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pAycn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Enjoy vini! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blob-enjoy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob_lurv",
+              "users": [
+                "UJ182DUEN"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

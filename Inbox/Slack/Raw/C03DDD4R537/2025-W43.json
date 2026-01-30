@@ -1,0 +1,1183 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W43",
+  "extracted_at": "2026-01-02T10:48:28.323868Z",
+  "message_count": 4,
+  "messages": [
+    {
+      "subtype": "channel_join",
+      "user": "U09NE5H2Q81",
+      "text": "<@U09NE5H2Q81> has joined the channel",
+      "type": "message",
+      "ts": "1761555779.734979"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1761216985.914079",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1761216985.914079",
+      "reply_count": 12,
+      "reply_users_count": 3,
+      "latest_reply": "1761295202.489079",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U07JV68BQ79",
+        "U044SKGT4R5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U07JV68BQ79>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Code Review`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hey team, will appreciate PR review here: <https://github.com/hellofresh/web/pull/59294>`\n*Expected behaviour:* `PR review`\n*Actual behaviour:* `—`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U07JV68BQ79>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `PR review`\n*Topic:* `Code Review`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hey team, will appreciate PR review here: <https://github.com/hellofresh/web/pull/59294>`\n*Expected behaviour:* `PR review`\n*Actual behaviour:* `—`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1761216986.207219",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Code Review. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Code Review Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Code Review. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Code Review Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Code+Review+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761217013.015709",
+          "client_msg_id": "3d512269-c898-46c8-8e33-734358c1bb0e",
+          "text": "<!subteam^S08KVQVNV6U> will appreciate your eyes once you have a minute :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bh603",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S08KVQVNV6U"
+                    },
+                    {
+                      "type": "text",
+                      "text": " will appreciate your eyes once you have a minute "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "wave-cat",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1761221021.119829",
+          "client_msg_id": "d7f48300-938d-465b-b48b-f82a784d67e8",
+          "text": "Thankyou Polina for the request :two_hearts:\n I will take a look once I get free from meetings.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0kHHd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thankyou Polina for the request "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "two_hearts",
+                      "unicode": "1f495"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n I will take a look once I get free from meetings."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U07JV68BQ79"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761226881.935899",
+          "client_msg_id": "b2d1bbbe-3c1b-4292-bc58-9db66bf3203a",
+          "text": "<!subteam^S08KVQVNV6U>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AvlgH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S08KVQVNV6U"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1761232186.678699",
+          "client_msg_id": "b3a5ec66-0851-4d89-a08b-431ccecf72e9",
+          "text": "Folks, I'm facing an issue with zscaler, going to look into that.\nIf someone can take a look, otherwise I'll get back to it once the issue is fixed on my end.\ncc: <!subteam^SDTUNHN21>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xll5o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Folks, I'm facing an issue with zscaler, going to look into that.\nIf someone can take a look, otherwise I'll get back to it once the issue is fixed on my end.\ncc: "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "SDTUNHN21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761233854.407639",
+          "client_msg_id": "d029e1d4-6ae1-4299-bae1-d41a9d013df7",
+          "text": "<@U044SKGT4R5> is there a chance you take a look at it today or it's better to return to this tomorrow?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CdmI/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044SKGT4R5"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is there a chance you take a look at it today or it's better to return to this tomorrow?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Just checking, There's cart service failing on Plans page on staging with auth error 401.\nWhich doesn't let me proceed to stepper. so I can't QA rn :try-not-to-cry:",
+          "files": [
+            {
+              "id": "F09NBTPLQTW",
+              "created": 1761233635,
+              "timestamp": 1761233635,
+              "name": "Screenshot 2025-10-23 at 17.33.48.png",
+              "title": "Screenshot 2025-10-23 at 17.33.48.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U044SKGT4R5",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 429383,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09NBTPLQTW/screenshot_2025-10-23_at_17.33.48.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09NBTPLQTW/download/screenshot_2025-10-23_at_17.33.48.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 214,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 285,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 427,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 475,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 570,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09NBTPLQTW-b97783db4f/screenshot_2025-10-23_at_17.33.48_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 608,
+              "original_w": 2430,
+              "original_h": 1442,
+              "thumb_tiny": "AwAdADDSZQwIJPPoSKTYPVumPvH/AD+PWq4voScfN1xmlN7Fjof0/wAaAJmQn7rY69c9/wAaVAy53MD9Af8AE1Ue/QE4OBjuoPP4GhL9MZck+wTH9TQBdpGKoGdjgAc1U/tGD0f8qRtRjJG3cPXK5/rQBQCbWBDIwJHB9/WmnPlhsrgnHTmmZHoKVWwfur+NAC/Ljqc/Sj5fU/lQRnFO3DaAUXjvzk0CGHHYn8qOKUjJ9PakxQB//9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09NBTPLQTW/screenshot_2025-10-23_at_17.33.48.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09NBTPLQTW-fdaf8929af",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            },
+            {
+              "id": "F09N69QKKHC",
+              "created": 1761233673,
+              "timestamp": 1761233673,
+              "name": "Screenshot 2025-10-23 at 17.31.09.png",
+              "title": "Screenshot 2025-10-23 at 17.31.09.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U044SKGT4R5",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 2180400,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09N69QKKHC/screenshot_2025-10-23_at_17.31.09.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09N69QKKHC/download/screenshot_2025-10-23_at_17.31.09.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 193,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 257,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 386,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 429,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 515,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09N69QKKHC-ff684b1c9f/screenshot_2025-10-23_at_17.31.09_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 549,
+              "original_w": 2384,
+              "original_h": 1278,
+              "thumb_tiny": "AwAaADDS70tIBjP+NVfLkBOwED0GBQNFonFNEgKk4bA/2TURDsqsi7WIycikzIRgKRIB94jjkUCLAORkZ/EYparqZQAkgJLZ+Ze38qQ74/mMe7nPyjmgCzUKTh+eAD0OamppRGIJVSR0JFAEUkzI6gAHdwB0P50gmcgErt5wcj2zU+1cAbRgdOOlJsQknavPXjrQMYsjNkEAHHWlVznBHPrjin7FyDtGR0OOlRXIBVcgdT/6CaAP/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09N69QKKHC/screenshot_2025-10-23_at_17.31.09.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09N69QKKHC-1a2b44dbdf",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U044SKGT4R5",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dLO4s",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Just checking, There's cart service failing on Plans page on staging with auth error 401.\nWhich doesn't let me proceed to stepper. so I can't QA rn "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "try-not-to-cry"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1761233953.823469",
+          "client_msg_id": "05f824ca-808f-4bb6-9bc3-d5d3b8b5b345",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761234199.642229",
+          "client_msg_id": "c3d4e50b-6555-49a6-b5cb-b43df21ae06d",
+          "text": "Oh, that's very unfortunate. Let's wait until it's fixed.\n\nMaybe you have some concerns / suggestions regarding the code?\n\nClass components aren't easiest thing to tackle, but I did my best to introduce the new modal",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "m7dJb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Oh, that's very unfortunate. Let's wait until it's fixed.\n\nMaybe you have some concerns / suggestions regarding the code?\n\nClass components aren't easiest thing to tackle, but I did my best to introduce the new modal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "comment",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1761289788.408639",
+          "client_msg_id": "585f2b00-2234-46ca-a604-4bd7bbfc2dff",
+          "text": "Morning Polina,\nI did a code review, it's looks neat and simple. I'm just gonna QA now :eyes:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nNLnY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Morning Polina,\nI did a code review, it's looks neat and simple. I'm just gonna QA now "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "<@U044SKGT4R5> thanks for checking!\n\nThe thing is  `gw/auth/passwords/recover` is down for the entire staging. Modal was implemented separately and within this PR we can verify that call is being made.\n\nTo mark account as high-risk you can use (don't forget to substitute credentials to yours)\n\n```curl --location '<https://customer-identity-proxy-service.staging-k8s.hellofresh.io/v1/login?country=MR>' \\\n--header 'exposed-credential-check: 3' \\\n--header 'Content-Type: application/json' \\\n--data-raw '{\n    \"username\": \"<mailto:polina.shnaider+mail-test@hellofresh.com|polina.shnaider+mail-test@hellofresh.com>\",\n    \"password\": \"test123\"\n}\n'```\nIn order to receive actual email your account must have suffix `mail-test`",
+          "files": [
+            {
+              "id": "F09NSMA6QJD",
+              "created": 1761294798,
+              "timestamp": 1761294798,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U07JV68BQ79",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 965388,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09NSMA6QJD/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09NSMA6QJD/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 180,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 240,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 360,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 400,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 480,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09NSMA6QJD-57254e01cd/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 512,
+              "original_w": 3010,
+              "original_h": 1506,
+              "thumb_tiny": "AwAZADCZpmULl8AdyaT7TjnzFzjpkUOh28xlh6YzUQVT0gJ/4BRYC8g3xqdx+YZ7UrjapbeeAfTFNTaY0yHGBjABFD4KSBSwZhjvxQBX+0NyVIb6EUqzs4Dbvao9ko+/lweMBcfjT/LITG1iMdMUAXCDnjpilxS0UAJRS0UANz82MHHrnilI4ODg9s0tFAH/2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09NSMA6QJD/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09NSMA6QJD-3378173d38",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U07JV68BQ79",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Xk7f1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044SKGT4R5"
+                    },
+                    {
+                      "type": "text",
+                      "text": " thanks for checking!\n\nThe thing is  "
+                    },
+                    {
+                      "type": "text",
+                      "text": "gw/auth/passwords/recover",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is down for the entire staging. Modal was implemented separately and within this PR we can verify that call is being made.\n\nTo mark account as high-risk you can use (don't forget to substitute credentials to yours)\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_preformatted",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "curl --location '"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://customer-identity-proxy-service.staging-k8s.hellofresh.io/v1/login?country=MR"
+                    },
+                    {
+                      "type": "text",
+                      "text": "' \\\n--header 'exposed-credential-check: 3' \\\n--header 'Content-Type: application/json' \\\n--data-raw '{\n    \"username\": \"polina.shnaider+mail-test@hellofresh.com\",\n    \"password\": \"test123\"\n}\n'"
+                    }
+                  ],
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nIn order to receive actual email your account must have suffix "
+                    },
+                    {
+                      "type": "text",
+                      "text": "mail-test",
+                      "style": {
+                        "code": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1761295004.016209",
+          "client_msg_id": "1bb7379e-8a4c-4a30-a0d0-6944cfdf953f",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "reactions": [
+            {
+              "name": "blob-ooh",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            },
+            {
+              "name": "white_check_mark",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761295198.391029",
+          "client_msg_id": "f99f3cd1-f10d-477a-b3e4-7ed7e509615c",
+          "text": "Thanks a lot!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "asfSp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks a lot!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np1",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U07JV68BQ79",
+          "type": "message",
+          "ts": "1761295202.489079",
+          "client_msg_id": "f62a44c3-3d5c-4e73-bb30-e96d1b46cef7",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761216985.914079",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U07JV68BQ79",
+      "text": "<@U07JV68BQ79> has joined the channel",
+      "type": "message",
+      "ts": "1761216950.069979"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1761042371.866989",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1761042371.866989",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1761055442.588649",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01AKGWGLC8",
+        "U02BA3VS7H8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U01AKGWGLC8>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Check that there are no issues with legal checkbox in funnel`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `We received a few reports via Sprig that they cannot check the checkbox. Can the firefighter please check that there's no widespread issue?`\n*Expected behaviour:* `Checkbox is selectable and customers can proceed with checkout`\n*Actual behaviour:* `Customers reporting theyre stuck`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U01AKGWGLC8>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Check that there are no issues with legal checkbox in funnel`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `We received a few reports via Sprig that they cannot check the checkbox. Can the firefighter please check that there's no widespread issue?`\n*Expected behaviour:* `Checkbox is selectable and customers can proceed with checkout`\n*Actual behaviour:* `Customers reporting theyre stuck`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1761042372.156599",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761042378.541209",
+          "client_msg_id": "511789c4-a649-46c0-9e11-bba78ea1c07b",
+          "text": "sending video links",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4mGg8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sending video links"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761042705.441239",
+          "edited": {
+            "user": "U01AKGWGLC8",
+            "ts": "1761047885.000000"
+          },
+          "client_msg_id": "ff00296f-cfe5-4122-b21e-5fe52c3d709f",
+          "text": "*Ask:* Can we do a quick check if we have any honeycomb metrics which show if there's any widespread issue?\n\nYou can find the user IDs attached in Sprig\n• <https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=bc89dbcb-619e-4c67-a479-90bbfbcd5172|Example 1> - did not end up converting\n• <https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=922d0177-3e5e-4203-bf48-269391a4e47f|Example 2> - eventually ended up converting\n• <https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJ0ZXJtcyIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=4b47811b-66d4-4c66-9aea-10d1268578ef|Example 3> - eventually ended up converting",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "attachments": [
+            {
+              "from_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=bc89dbcb-619e-4c67-a479-90bbfbcd5172",
+              "image_url": "https://app.sprig.com/img/sprig.png",
+              "image_width": 2936,
+              "image_height": 1840,
+              "image_bytes": 57522,
+              "service_icon": "https://app.sprig.com/favicons/apple-icon-57x57.png",
+              "id": 1,
+              "original_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&amp;f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&amp;responseGroupUid=bc89dbcb-619e-4c67-a479-90bbfbcd5172",
+              "fallback": "Sprig: Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "text": "Sprig is a user insights platform that empowers product teams to build exceptional products. Sprig’s suite of insights tools helps companies improve the product experience with user insights delivered quickly.",
+              "title": "Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "title_link": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=bc89dbcb-619e-4c67-a479-90bbfbcd5172",
+              "service_name": "Sprig"
+            },
+            {
+              "from_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=922d0177-3e5e-4203-bf48-269391a4e47f",
+              "image_url": "https://app.sprig.com/img/sprig.png",
+              "image_width": 2936,
+              "image_height": 1840,
+              "image_bytes": 57522,
+              "service_icon": "https://app.sprig.com/favicons/apple-icon-57x57.png",
+              "id": 2,
+              "original_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&amp;f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&amp;responseGroupUid=922d0177-3e5e-4203-bf48-269391a4e47f",
+              "fallback": "Sprig: Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "text": "Sprig is a user insights platform that empowers product teams to build exceptional products. Sprig’s suite of insights tools helps companies improve the product experience with user insights delivered quickly.",
+              "title": "Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "title_link": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=922d0177-3e5e-4203-bf48-269391a4e47f",
+              "service_name": "Sprig"
+            },
+            {
+              "from_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJ0ZXJtcyIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=4b47811b-66d4-4c66-9aea-10d1268578ef",
+              "image_url": "https://app.sprig.com/img/sprig.png",
+              "image_width": 2936,
+              "image_height": 1840,
+              "image_bytes": 57522,
+              "service_icon": "https://app.sprig.com/favicons/apple-icon-57x57.png",
+              "id": 3,
+              "original_url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&amp;f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJ0ZXJtcyIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&amp;responseGroupUid=4b47811b-66d4-4c66-9aea-10d1268578ef",
+              "fallback": "Sprig: Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "text": "Sprig is a user insights platform that empowers product teams to build exceptional products. Sprig’s suite of insights tools helps companies improve the product experience with user insights delivered quickly.",
+              "title": "Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "title_link": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJ0ZXJtcyIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=4b47811b-66d4-4c66-9aea-10d1268578ef",
+              "service_name": "Sprig"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "D0NR6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ask: ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "Can we do a quick check if we have any honeycomb metrics which show if there's any widespread issue?\n\nYou can find the user IDs attached in Sprig\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=bc89dbcb-619e-4c67-a479-90bbfbcd5172",
+                          "text": "Example 1"
+                        },
+                        {
+                          "type": "text",
+                          "text": " - did not end up converting"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJjaGVjayIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=922d0177-3e5e-4203-bf48-269391a4e47f",
+                          "text": "Example 2"
+                        },
+                        {
+                          "type": "text",
+                          "text": " - eventually ended up converting"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://app.sprig.com/-gPGMIBCOpxk/feedback/310230/responses?dates=1758405600000&f=W3sidHlwZSI6InJlc3AiLCJvcCI6ImNvbnRhaW5zIiwidmFsdWUiOiJ0ZXJtcyIsIm5hbWUiOjMxNzk0MDUsInF1ZXNUeXBlIjoxLCJldmVudCI6bnVsbCwic3VidHlwZSI6bnVsbH1d&responseGroupUid=4b47811b-66d4-4c66-9aea-10d1268578ef",
+                          "text": "Example 3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " - eventually ended up converting"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761047974.945109",
+          "client_msg_id": "d9bf55bf-d20f-4de0-b0d2-b25b3a96d503",
+          "text": "Confirming that at least funnel GA data doesn't show a drop in conversion rate between Payment page and conversion\n\nand 2/3 customers above ended up converting anyway\n\nonly ask is to check if we have any honeycomb queries we can monitor for this",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PFEtw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Confirming that at least funnel GA data doesn't show a drop in conversion rate between Payment page and conversion\n\nand 2/3 customers above ended up converting anyway\n\nonly ask is to check if we have any honeycomb queries we can monitor for this"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U02BA3VS7H8",
+          "type": "message",
+          "ts": "1761050919.629449",
+          "edited": {
+            "user": "U02BA3VS7H8",
+            "ts": "1761051124.000000"
+          },
+          "client_msg_id": "492b2719-57e0-4423-b2d1-3cc8924d54bf",
+          "text": "I cannot reproduce the issue on live. Tried on web (using mobile view) and on my phone (iOS).\nWhat I found out is <https://app.sprig.com/feedback/310230/responses?replay=8bbd18e7-ac0a-438c-8f1b-c0136444e68a|another customer> that couldn’t check the “receive offers” checkbox on the Delivery page. This is an optional checkbox so they could still move forward.\n\nAll the customers have Android 10 (launched in 2019) and very small screens (around 358px) so I’m thinking if it could be a compatibility issue. Also we tried (even with Max) to find traces of these customers on honeycomb but there’s nothing :magic:\nThis could be some incompatibility issue or they have ad block.\n\nI would say it’s better to monitor the conversion rate drop and keep an eye on the comments to get more insights into the model and version of the phone.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "attachments": [
+            {
+              "from_url": "https://app.sprig.com/feedback/310230/responses?replay=8bbd18e7-ac0a-438c-8f1b-c0136444e68a",
+              "image_url": "https://app.sprig.com/img/sprig.png",
+              "image_width": 2936,
+              "image_height": 1840,
+              "image_bytes": 57522,
+              "service_icon": "https://app.sprig.com/favicons/apple-icon-57x57.png",
+              "id": 1,
+              "original_url": "https://app.sprig.com/feedback/310230/responses?replay=8bbd18e7-ac0a-438c-8f1b-c0136444e68a",
+              "fallback": "Sprig: Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "text": "Sprig is a user insights platform that empowers product teams to build exceptional products. Sprig’s suite of insights tools helps companies improve the product experience with user insights delivered quickly.",
+              "title": "Sprig | User Insights Platform for Teams Building Better Product Experiences",
+              "title_link": "https://app.sprig.com/feedback/310230/responses?replay=8bbd18e7-ac0a-438c-8f1b-c0136444e68a",
+              "service_name": "Sprig"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Gostn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I cannot reproduce the issue on live. Tried on web (using mobile view) and on my phone (iOS).\nWhat I found out is "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://app.sprig.com/feedback/310230/responses?replay=8bbd18e7-ac0a-438c-8f1b-c0136444e68a",
+                      "text": "another customer"
+                    },
+                    {
+                      "type": "text",
+                      "text": " that couldn’t check the “receive offers” checkbox on the Delivery page. This is an optional checkbox so they could still move forward.\n\nAll the customers have Android 10 (launched in 2019) and very small screens (around 358px) so I’m thinking if it could be a compatibility issue. Also we tried (even with Max) to find traces of these customers on honeycomb but there’s nothing "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "magic"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nThis could be some incompatibility issue or they have ad block.\n\nI would say it’s better to monitor the conversion rate drop and keep an eye on the comments to get more insights into the model and version of the phone."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761055440.206759",
+          "client_msg_id": "c82aabb7-f154-45cc-910c-176cc95a1a5c",
+          "text": "ok thanks for checking! Ill continue monitoring Sprig",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yhwH5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok thanks for checking! Ill continue monitoring Sprig"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "captain",
+              "users": [
+                "U02BA3VS7H8"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1761055442.588649",
+          "client_msg_id": "62937efa-8f0e-4779-8cdd-42ac4161db87",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1761042371.866989",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

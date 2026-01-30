@@ -1,0 +1,548 @@
+{
+  "version": "1.0",
+  "bot_user_id": "U0A6YEJ4MR6",
+  "last_poll": "2026-01-29T14:09:39.072547+00:00",
+  "processed_mentions": {
+    "mention_C0A6ZAS1MSQ_1767948763_565469": {
+      "processed_at": "2026-01-09T09:38:33.856100+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768209835_003339": {
+      "processed_at": "2026-01-12T09:38:39.074394+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768157234_995809": {
+      "processed_at": "2026-01-12T09:38:39.074445+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768126394_153079": {
+      "processed_at": "2026-01-12T09:38:39.075223+00:00",
+      "classification": "info",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768125276_020449": {
+      "processed_at": "2026-01-12T09:38:39.075296+00:00",
+      "classification": "info",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768033093_011769": {
+      "processed_at": "2026-01-12T09:38:39.075373+00:00",
+      "classification": "info",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1767970127_393119": {
+      "processed_at": "2026-01-12T09:38:39.075454+00:00",
+      "classification": "team_task",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768496265_487109": {
+      "processed_at": "2026-01-15T17:11:48.447515+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768491226_334209": {
+      "processed_at": "2026-01-15T17:11:49.256637+00:00",
+      "classification": "team_task",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768491075_888109": {
+      "processed_at": "2026-01-15T17:11:50.056071+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768490955_330639": {
+      "processed_at": "2026-01-15T17:11:50.790906+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768471191_954779": {
+      "processed_at": "2026-01-15T17:11:51.620246+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768382151_828359": {
+      "processed_at": "2026-01-15T17:11:52.356066+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768297983_777609": {
+      "processed_at": "2026-01-15T17:11:53.203935+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768558531_246689": {
+      "processed_at": "2026-01-16T11:22:34.232740+00:00",
+      "classification": "team_task",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768558433_575809": {
+      "processed_at": "2026-01-16T11:22:34.734009+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768511130_932579": {
+      "processed_at": "2026-01-16T11:22:35.212721+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768511108_832089": {
+      "processed_at": "2026-01-16T11:22:35.684502+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768577224_784619": {
+      "processed_at": "2026-01-16T15:41:09.451721+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768574810_855659": {
+      "processed_at": "2026-01-16T15:41:09.968241+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768574795_430459": {
+      "processed_at": "2026-01-16T15:41:10.565913+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1768572138_826969": {
+      "processed_at": "2026-01-16T15:41:11.136131+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A7FGYKZPX_1768823968_459899": {
+      "processed_at": "2026-01-20T14:39:57.877152+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1769068055_469409": {
+      "processed_at": "2026-01-22T15:31:08.426875+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1769010896_102719": {
+      "processed_at": "2026-01-22T15:31:08.932580+00:00",
+      "classification": "general",
+      "status": "pending"
+    },
+    "mention_C0A6ZAS1MSQ_1769176242_522219": {
+      "processed_at": "2026-01-23T17:05:00.120664+00:00",
+      "classification": "pmos_feature",
+      "status": "pending"
+    }
+  },
+  "pending_tasks": [
+    {
+      "id": "mention_C0A6ZAS1MSQ_1767948763_565469",
+      "source_ts": "1767948763.565469",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "team_task",
+      "extracted_task": "Set up basic Shopify store for Factor Canada",
+      "assignee": "Nikita Gorshkov",
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1767948763565469",
+      "raw_text": "<@U0A6YEJ4MR6>\n  [9:39 PM]\nHey Nikita -- can you remind me: when roughly do you think we'll manage to get basic shopify up and running for factor canada? just for customers to pick meals etc. We will do manual uploads of menus each week etc. as needed\n\n*Nikita Gorshkov*  [11:02 PM]\nHi Ian,\n\nHere are the estimates, in case we are able to fund this:\n\u2022  Store setup - 3 weeks (I would want to check with Wander here)\n\u2022  manual addition of products - 0.5 week\n\u2022  creation of 1 catalog - 1 week\nAll orders placed will be exported and fulfilled manually. No other integrations are required. I\u2019d say around 4-5 weeks.\n\nTimeline: I am checking on availability as folks are getting back into the office. Talking with the Product manager tomorrow, who might be able to pull this off, after we deliver the Good Chop Shopify store in January (so starting work ~late Jan/Feb in case we do get both an engineering and design FTE to support).",
+      "created_at": "2026-01-09T09:38:33.856007+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": true,
+      "formalized": {
+        "title": "Set up basic Shopify store for Factor Canada",
+        "description": "Set up a basic Shopify store for Factor Canada to enable customers to pick meals. The store will have manual menu uploads each week. Scope includes: store setup (3 weeks), manual product addition (0.5 week), and catalog creation (1 week). Total estimated timeline is 4-5 weeks. Orders will be exported and fulfilled manually with no other integrations required. Work is planned to start late January/February 2025, after the Good Chop Shopify store delivery in January, pending availability of engineering and design FTE support and funding approval. Nikita is checking availability with team members returning to office and will discuss with Product Manager.",
+        "task_type": "team_task",
+        "assignee": "Nikita Gorshkov",
+        "delegator": "Ian",
+        "deadline": "late January/February 2025",
+        "urgency": "medium",
+        "context_summary": "Factor Canada needs a basic e-commerce solution for customers to select meals. This is a foundational capability that will be manually managed initially while the team focuses on delivering Good Chop first.",
+        "dependencies": [
+          "Complete Good Chop Shopify store delivery in January",
+          "Secure funding approval for the project",
+          "Confirm availability of engineering and design FTE resources",
+          "Verify timeline with Wander for store setup estimate"
+        ],
+        "acceptance_criteria": [
+          "Shopify store is set up and functional for Factor Canada",
+          "Products are manually added and at least one catalog is created",
+          "Customers can browse and select meals through the store",
+          "Order export process is established for manual fulfillment"
+        ],
+        "original_text": "<@U0A6YEJ4MR6>\n  [9:39 PM]\nHey Nikita -- can you remind me: when roughly do you think we'll manage to get basic shopify up and running for factor canada? just for customers to pick meals etc. We will do manual uploads of menus each week etc. as needed\n\n*Nikita Gorshkov*  [11:02 PM]\nHi Ian,\n\nHere are the estimates, in case we are able to fund this:\n\u2022  Store setup - 3 weeks (I would want to check with Wander here)\n\u2022  manual addition of products - 0.5 week\n\u2022  creation of 1 catalog - 1 week\nAll orders placed will be exported and fulfilled manually. No other integrations are required. I\u2019d say around 4-5 weeks.\n\nTimeline: I am checking on availability as folks are getting back into the office. Talking with the Product manager tomorrow, who might be able to pull this off, after we deliver the Good Chop Shopify store in January (so starting work ~late Jan/Feb in case we do get both an engineering and design FTE to support).",
+        "confidence": 0.9,
+        "processed_at": "2026-01-09T09:47:53.312865+00:00",
+        "model_used": "claude"
+      },
+      "stale_since": "2026-01-23T12:23:11.321196+00:00"
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1767970127_393119",
+      "source_ts": "1767970127.393119",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "team_task",
+      "extracted_task": "\u2022 review document for Ed from Sameer: <https://docs.google.com/document/d/18XHuzxaot3wy1h7UL33XpEkTbvoQm2t_R4-JtEHzvEU/edit?tab=t.0>\n\u2022 finalize preread doc for offsite\n\u2022 finalize presentation for offside",
+      "assignee": "Sameer",
+      "priority": "medium",
+      "confidence": 0.5,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1767970127393119",
+      "raw_text": "<@U0A6YEJ4MR6>\n\u2022 review document for Ed from Sameer: <https://docs.google.com/document/d/18XHuzxaot3wy1h7UL33XpEkTbvoQm2t_R4-JtEHzvEU/edit?tab=t.0>\n\u2022 finalize preread doc for offsite\n\u2022 finalize presentation for offside",
+      "created_at": "2026-01-12T09:38:39.075448+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": true,
+      "assignee_slack_id": null,
+      "deadline": null,
+      "info_date": null,
+      "requires_user_lookup": false,
+      "stale_since": "2026-01-26T16:02:25.355177+00:00"
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768496265_487109",
+      "source_ts": "1768496265.487109",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for  create the TPT team to integrate spur",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768496265487109",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X> create the TPT team to integrate spur",
+      "created_at": "2026-01-15T17:11:48.447388+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768491226_334209",
+      "source_ts": "1768491226.334209",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "team_task",
+      "extracted_task": "task for \n1. Chat with Jama and Spur folks.",
+      "assignee": "Jama",
+      "priority": "medium",
+      "confidence": 0.5,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768491226334209",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X>\n1. Chat with Jama and Spur folks.",
+      "created_at": "2026-01-15T17:11:49.256599+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768491075_888109",
+      "source_ts": "1768491075.888109",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for \n1. PRD for Spur RFC",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768491075888109",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X>\n1. PRD for Spur RFC",
+      "created_at": "2026-01-15T17:11:50.056029+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768471191_954779",
+      "source_ts": "1768471191.954779",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task:  to check w/ Laurent on friday re: passwordless",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768471191954779",
+      "raw_text": "<@U0A6YEJ4MR6> task: <@U03TY4YJU4X> to check w/ Laurent on friday re: passwordless",
+      "created_at": "2026-01-15T17:11:51.620184+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768382151_828359",
+      "source_ts": "1768382151.828359",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768382151828359",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X>",
+      "created_at": "2026-01-15T17:11:52.356001+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768558531_246689",
+      "source_ts": "1768558531.246689",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "team_task",
+      "extracted_task": "task for  create Maria's promo template",
+      "assignee": "Maria",
+      "priority": "medium",
+      "confidence": 0.5,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768558531246689",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X> create Maria's promo template",
+      "created_at": "2026-01-16T11:22:34.232672+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768558433_575809",
+      "source_ts": "1768558433.575809",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for  add Simon/Anushka convo on sythetic customers",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768558433575809",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X> add Simon/Anushka convo on sythetic customers",
+      "created_at": "2026-01-16T11:22:34.733955+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768572138_826969",
+      "source_ts": "1768572138.826969",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for  create developer folder",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768572138826969",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X> create developer folder",
+      "created_at": "2026-01-16T15:41:11.136057+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1769010896_102719",
+      "source_ts": "1769010896.102719",
+      "source_channel": "C0A6ZAS1MSQ",
+      "source_channel_name": "ngo-slack-private",
+      "requester_id": "U03TY4YJU4X",
+      "requester_name": "Nikita Gorshkov",
+      "classification": "general",
+      "extracted_task": "task for  review doc",
+      "assignee": null,
+      "priority": "medium",
+      "confidence": 0.3,
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1769010896102719",
+      "raw_text": "<@U0A6YEJ4MR6> task for <@U03TY4YJU4X> review doc",
+      "created_at": "2026-01-22T15:31:08.932518+00:00",
+      "status": "pending",
+      "completed_at": null,
+      "is_stale": false
+    }
+  ],
+  "completed_tasks": [],
+  "pm_os_backlog": {
+    "features": [
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768209835_003339",
+        "title": "Problem: there is no tracking of tasks that are open\nSolution: introduce task tracking in claude cod",
+        "description": "Problem: there is no tracking of tasks that are open\nSolution: introduce task tracking in claude code",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768209835_003339",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-12T09:38:39.074354+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768209835003339"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768157234_995809",
+        "title": "\u2022 Current brain approach has issues in maintaining a time series of data points across the potential",
+        "description": "\u2022 Current brain approach has issues in maintaining a time series of data points across the potential thousands of entities \n\u2022 Create tables that manage entity connections \n\u2022 Create table that manage time based entitiy states/changes \n\u2022 Create a vector database to handle and manage connections closeness",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768157234_995809",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-12T09:38:39.074437+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768157234995809"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768490955_330639",
+        "title": "task for \n1. TPT integration of Spur into the SDLC \n    a. Ahmed, Maria - send PoC to Anushka\n2. Dea",
+        "description": "task for \n1. TPT integration of Spur into the SDLC \n    a. Ahmed, Maria - send PoC to Anushka\n2. Deadline: Sprint 08-09 integration\n3. Feature pilot: Plans page redesign\n4. Do some loom recordings\n5. Connect team with Anushka",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768490955_330639",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-15T17:11:50.790863+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768490955330639"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768297983_777609",
+        "title": "This is a test feature request to check the process",
+        "description": "This is a test feature request to check the process",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768297983_777609",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-15T17:11:53.203879+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768297983777609"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768511130_932579",
+        "title": "introduce beads to pmos",
+        "description": "introduce beads to pmos",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768511130_932579",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-16T11:22:35.212661+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768511130932579"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768511108_832089",
+        "title": "feature request",
+        "description": "feature request",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768511108_832089",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-16T11:22:35.684435+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768511108832089"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768577224_784619",
+        "title": "release notes in the Confluence blog",
+        "description": "release notes in the Confluence blog",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768577224_784619",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-16T15:41:09.451660+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768577224784619"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768574810_855659",
+        "title": "slack socket mode finalize",
+        "description": "slack socket mode finalize",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768574810_855659",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-16T15:41:09.968192+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768574810855659"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1768574795_430459",
+        "title": "how about creating a new section of next steps to all of the feature requests, bugs, tasks etc. auto",
+        "description": "how about creating a new section of next steps to all of the feature requests, bugs, tasks etc. automatically and waiting for the confirmaiton (all through slack)",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1768574795_430459",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-16T15:41:10.565874+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768574795430459"
+      },
+      {
+        "id": "mention_C0A7FGYKZPX_1768823968_459899",
+        "title": "[title]\n\nProblem: [what problem does this solve?]\nProposed solution: [how should it work?]\nUse case:",
+        "description": "[title]\n\nProblem: [what problem does this solve?]\nProposed solution: [how should it work?]\nUse case: [who benefits and how?]```",
+        "source_mention_id": "mention_C0A7FGYKZPX_1768823968_459899",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-20T14:39:57.875202+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A7FGYKZPX/p1768823968459899"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1769068055_469409",
+        "title": "feature-request: integrate beads and ralph\nRalph expects plan.md, but I have moved to beads",
+        "description": "feature-request: integrate beads and ralph\nRalph expects plan.md, but I have moved to beads",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1769068055_469409",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-22T15:31:08.426829+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1769068055469409"
+      },
+      {
+        "id": "mention_C0A6ZAS1MSQ_1769176242_522219",
+        "title": "step-by-step onboarding flow\n\nCreate a step-by-step onboarding web app for users to go through the w",
+        "description": "step-by-step onboarding flow\n\nCreate a step-by-step onboarding web app for users to go through the whole checklist. See how to automate as much as possible",
+        "source_mention_id": "mention_C0A6ZAS1MSQ_1769176242_522219",
+        "requester": "Nikita Gorshkov",
+        "status": "backlog",
+        "created_at": "2026-01-23T17:05:00.120640+00:00",
+        "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1769176242522219"
+      }
+    ],
+    "bugs": []
+  },
+  "statistics": {
+    "total_processed": 26,
+    "by_type": {
+      "general": 8,
+      "pmos_feature": 12,
+      "team_task": 3,
+      "info": 3
+    },
+    "completion_rate": 0.0
+  },
+  "ngo_tasks": [],
+  "team_tasks": [],
+  "brain_info": [
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768126394_153079",
+      "content": "let's see how to improve the brain with these methods: <https://docs.google.com/document/d/1QX8WjvYvPNv52QMI9USWVu5IFoV-JJX9HuIFagN146M/edit?usp=drivesdk|https://docs.google.com/document/d/1QX8WjvYvPNv52QMI9USWVu5IFoV-JJX9HuIFagN146M/edit?usp=drivesdk>",
+      "info_date": "2026-01-11",
+      "requester": "Nikita Gorshkov",
+      "status": "pending_storage",
+      "created_at": "2026-01-12T09:38:39.075215+00:00",
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768126394153079"
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768125276_020449",
+      "content": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases <https://share.google/QPb4CzPZC5TtMFCSP|https://share.google/QPb4CzPZC5TtMFCSP>  apply approaches detailed there to pmos",
+      "info_date": "2026-01-11",
+      "requester": "Nikita Gorshkov",
+      "status": "pending_storage",
+      "created_at": "2026-01-12T09:38:39.075290+00:00",
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768125276020449"
+    },
+    {
+      "id": "mention_C0A6ZAS1MSQ_1768033093_011769",
+      "content": "this is information to store to improve this preread document: <https://docs.google.com/document/d/18XHuzxaot3wy1h7UL33XpEkTbvoQm2t_R4-JtEHzvEU/edit?usp=drivesdk|https://docs.google.com/document/d/18XHuzxaot3wy1h7UL33XpEkTbvoQm2t_R4-JtEHzvEU/edit?usp=drivesdk>",
+      "info_date": "2026-01-10",
+      "requester": "Nikita Gorshkov",
+      "status": "pending_storage",
+      "created_at": "2026-01-12T09:38:39.075368+00:00",
+      "thread_link": "https://hellofresh.slack.com/archives/C0A6ZAS1MSQ/p1768033093011769"
+    }
+  ],
+  "questions": []
+}

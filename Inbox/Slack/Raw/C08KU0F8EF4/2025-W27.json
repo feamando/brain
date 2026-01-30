@@ -1,0 +1,948 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W27",
+  "extracted_at": "2026-01-02T10:44:20.681538Z",
+  "message_count": 4,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1751629685.332199",
+      "client_msg_id": "a5231d38-7056-4ff5-9f1b-c8f5a641a357",
+      "text": "<@U07VDFEFBQU> small question: what’s the CVA for seasonal boxes?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1751629685.332199",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1751632282.085569",
+      "reply_users": [
+        "U07VDFEFBQU"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G9JDh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U07VDFEFBQU"
+                },
+                {
+                  "type": "text",
+                  "text": " small question: what’s the CVA for seasonal boxes?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751632282.085569",
+          "client_msg_id": "546d5b56-88eb-44d1-aa37-fef131f236d5",
+          "text": "<https://docs.google.com/spreadsheets/d/1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE/edit?gid=888601670#gid=888601670>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751629685.332199",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8oeVZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE/edit?gid=888601670#gid=888601670"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1751621557.129899",
+      "client_msg_id": "07aa2ac0-a3db-46ec-a8c6-94aee13f49d5",
+      "text": "hey folks, I was going through the OKR update and based on our current work I am wondering if we need to adapt some of the OKRs that we have for the respective brands; e.g. I am not sure some of the RAF topics are still relevent or e.g. the multipet as Laurent isn’t too keen on it - your opinion - should we review/update those?",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QbQ0v",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey folks, I was going through the OKR update and based on our current work I am wondering if we need to adapt some of the OKRs that we have for the respective brands; e.g. I am not sure some of the RAF topics are still relevent or e.g. the multipet as Laurent isn’t too keen on it - your opinion - should we review/update those?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U01AKGWGLC8",
+      "type": "message",
+      "ts": "1751453428.822539",
+      "client_msg_id": "207972a7-889d-4a66-9910-add68aa47752",
+      "text": "<@U03UMPD2NNS> question on your referrals program\n\nIs there a limit to how many friends a customer can refer at Pets Table? Usually it's set via the CUI discount setting where you can determine that only X unique customers can use the same voucher code",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Z/cwt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " question on your referrals program\n\nIs there a limit to how many friends a customer can refer at Pets Table? Usually it's set via the CUI discount setting where you can determine that only X unique customers can use the same voucher code"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1751374218.535039",
+      "client_msg_id": "5934e57b-5576-4204-aa11-068e92322fc7",
+      "text": "hey folks, is this updated?\n<https://docs.google.com/spreadsheets/d/1ZSC4kTW4p2VUDnUYrCGkK4zbGuRW8sxu5yUOa9hgYF0/edit?usp=sharing>",
+      "team": "T02AGMUUR",
+      "thread_ts": "1751374218.535039",
+      "reply_count": 20,
+      "reply_users_count": 3,
+      "latest_reply": "1751450598.418889",
+      "reply_users": [
+        "U07VDFEFBQU",
+        "U01AKGWGLC8",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "B9p0p",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey folks, is this updated?\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1ZSC4kTW4p2VUDnUYrCGkK4zbGuRW8sxu5yUOa9hgYF0/edit?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751374945.046429",
+          "client_msg_id": "13a0c0f9-366a-4092-b3a2-572cf1f45dfd",
+          "text": "not yet, will update later today",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kIEi4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "not yet, will update later today"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751381843.389939",
+          "client_msg_id": "05808f3f-a6fe-4366-b819-5bccc863369b",
+          "text": "<@U03TY4YJU4X> updated",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x5aQ+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " updated"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751444393.805999",
+          "client_msg_id": "be5c9f9a-d144-4ac5-bcea-ab71b0051794",
+          "text": "<@U07VDFEFBQU> I don't think we should be putting CVA values <https://docs.google.com/spreadsheets/d/1ZSC4kTW4p2VUDnUYrCGkK4zbGuRW8sxu5yUOa9hgYF0/edit?gid=1582153870#gid=1582153870|here> unless we have the actual results",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nOnAY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I don't think we should be putting CVA values "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1ZSC4kTW4p2VUDnUYrCGkK4zbGuRW8sxu5yUOa9hgYF0/edit?gid=1582153870#gid=1582153870",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": " unless we have the actual results"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751444402.388629",
+          "client_msg_id": "444dcffc-04f5-4c5c-b08e-9ae2287fe5a7",
+          "text": "or is that what you want <@U03TY4YJU4X>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aKhrD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "or is that what you want "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1751446058.626839",
+          "client_msg_id": "00911cbf-9c22-4acc-b857-3e7cc934941e",
+          "text": "yes, these should be actuals",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jkbnO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes, these should be actuals"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751448706.607149",
+          "client_msg_id": "0d9797cf-cb15-48d6-ab3d-9dd3e8f0ccf4",
+          "text": "will delete non-actuals",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "v8mgf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "will delete non-actuals"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751448731.643289",
+          "client_msg_id": "f4b9e258-8a46-4b15-b303-92725bb4b452",
+          "text": "there is no update based on recent releases",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4LH4Z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "there is no update based on recent releases"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751448744.380379",
+          "client_msg_id": "77a02b71-b39b-4eab-aa1f-93c6215cc365",
+          "text": "Welcome gift analysis still needs to be done",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MFNFD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Welcome gift analysis still needs to be done"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751448751.160259",
+          "client_msg_id": "77c44303-3e20-4f57-893e-07557cded83d",
+          "text": "Search &amp; prod cards too early",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4am0Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Search & prod cards too early"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751448940.370269",
+          "client_msg_id": "66b2374f-e74d-4311-99a3-1529522a275a",
+          "text": "<@U03TY4YJU4X> <@U01AKGWGLC8> last year the CVA was based on BC because we don't have the forecasting capability. CRs are actuals",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RH6nZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " last year the CVA was based on BC because we don't have the forecasting capability. CRs are actuals"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751448953.013629",
+          "client_msg_id": "305f510e-35b3-4c45-b048-4277122f49b1",
+          "text": "<https://docs.google.com/spreadsheets/d/1G0cQvbiWFmVD0t8bO0aahHARk9XbUu3zXAa7MRy_QeY/edit?gid=465841548#gid=465841548>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2elpz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1G0cQvbiWFmVD0t8bO0aahHARk9XbUu3zXAa7MRy_QeY/edit?gid=465841548#gid=465841548"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1751449025.087039",
+          "client_msg_id": "90f0f5d1-1015-441d-8eee-96a04cdaa574",
+          "text": "Um, I don't think that's true though? We simply calculated the CVA impact based on the change. Sure they weren't \"true\" actuals; but at least based on visible results from baseline",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "57MJs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Um, I don't think that's true though? We simply calculated the CVA impact based on the change. Sure they weren't \"true\" actuals; but at least based on visible results from baseline"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751449168.206399",
+          "client_msg_id": "70e5882f-2497-4290-94b1-255a6f1af5dc",
+          "text": "if you see the numbers and click on the BC, they are exactly matched. So at least that's how we keep track for CVA last year. I'm fine changing the way we track it for this year, but the target was calculated based on that assumption",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d/6fj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "if you see the numbers and click on the BC, they are exactly matched. So at least that's how we keep track for CVA last year. I'm fine changing the way we track it for this year, but the target was calculated based on that assumption"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1751449265.598129",
+          "client_msg_id": "aff62120-f0c6-4209-993a-091dea329854",
+          "text": "Wait. OK, let's take a step back -\n1. <@U07VDFEFBQU> - how did you calculate them yesterday?\n2. <@U01AKGWGLC8> - how are you proposing we should calculate? ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Hjv2i",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Wait. OK, let's take a step back -\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U07VDFEFBQU"
+                        },
+                        {
+                          "type": "text",
+                          "text": " - how did you calculate them yesterday?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U01AKGWGLC8"
+                        },
+                        {
+                          "type": "text",
+                          "text": " - how are you proposing we should calculate? "
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751449320.610769",
+          "client_msg_id": "75b5aec2-ebea-40c0-b93d-6e68c40c4a26",
+          "text": "For best value we know definitively we saw +2.5% increase in CVR\n-&gt; We apply this based on the baseline values for 2025.\n\n&gt; We simply calculated the CVA impact based on the change. Sure they weren't \"true\" actuals; but at least based on visible results from baseline\n^so exactly this",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "E+zdp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For best value we know definitively we saw +2.5% increase in CVR\n-> We apply this based on the baseline values for 2025.\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_quote",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We simply calculated the CVA impact based on the change. Sure they weren't \"true\" actuals; but at least based on visible results from baseline"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "^so exactly this"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751449385.357329",
+          "client_msg_id": "1d39ffcf-baac-44ca-980b-5db78cbe9fa1",
+          "text": "we shouldn't be linking CVA based on the business case if we haven't seen that result actually materialized\n\nPreviously the business case was being linked",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GyHjq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "we shouldn't be linking CVA based on the business case if we haven't seen that result actually materialized\n\nPreviously the business case was being linked"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751449475.323199",
+          "client_msg_id": "8637c3bf-0f27-427c-bee0-0ee0f56726d7",
+          "text": "it's the same way in 2024\n\nExample <https://docs.google.com/spreadsheets/d/1oZlUYRKGCfxvgJqjDm0Uqh7e0t6P75q692Sk9MIbmTE/edit?gid=1678930848#gid=1678930848|cadence CVA> is being linked to the BC with the actual results entered from statsig. The source data for the +9.6% is based on Statsig, not based on the business case before results came in",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VHpHL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it's the same way in 2024\n\nExample "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1oZlUYRKGCfxvgJqjDm0Uqh7e0t6P75q692Sk9MIbmTE/edit?gid=1678930848#gid=1678930848",
+                      "text": "cadence CVA"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is being linked to the BC with the actual results entered from statsig. The source data for the +9.6% is based on Statsig, not based on the business case before results came in"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751450070.979469",
+          "client_msg_id": "8847ab48-8088-41d9-abc8-9cf5cb1433bd",
+          "text": "ahhh ok my bad, then my assumptions were wrong\n1. We get the results from statsig \n2. Apply the change to the BC with \"baseline\" numbers assumption\n3. Then we get the approximate CVA result :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bTJhO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ahhh ok my bad, then my assumptions were wrong\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "We get the results from statsig "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Apply the change to the BC with \"baseline\" numbers assumption"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Then we get the approximate CVA result "
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "+1",
+                          "unicode": "1f44d"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751450257.261909",
+          "client_msg_id": "6cd46bf2-0f97-49c7-94ee-43cb1595cd2b",
+          "text": "yes and normally I don't directly change the BC if we had one - I duplicate it and add \"Results\" at the end so that we can always keep track of how our estimations compared with actuals once we have them",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MJgSv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes and normally I don't directly change the BC if we had one - I duplicate it and add \"Results\" at the end so that we can always keep track of how our estimations compared with actuals once we have them"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1751450598.418889",
+          "client_msg_id": "38e4a487-ee7c-4223-b27e-600a582a9365",
+          "text": "Let's continue discussion <https://hellofresh.slack.com/archives/C05L8G8AL7N/p1751450211182529?thread_ts=1742562723.612159&amp;cid=C05L8G8AL7N|here>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751374218.535039",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C05L8G8AL7N/p1751450211182529?thread_ts=1742562723.612159&amp;cid=C05L8G8AL7N",
+              "ts": "1751450211.182529",
+              "msg_subtype": "thread_broadcast",
+              "author_id": "U01AKGWGLC8",
+              "channel_id": "C05L8G8AL7N",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "is_reply_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C05L8G8AL7N",
+                  "ts": "1751450211.182529",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "Vvaqe",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "hi "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U0665FUH0DS"
+                              },
+                              {
+                                "type": "text",
+                                "text": " "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U03D7AWJNKS"
+                              },
+                              {
+                                "type": "text",
+                                "text": " is there any update on when you will be implementing UPM for Reactivations for white label brands?\n\nContext: today in the legacy payment modal for Reactivations we see errors of customers who cannot proceed as they're unable to update their credit card (they cannot click on the payment method). This was previously raised already a few months ago "
+                              },
+                              {
+                                "type": "link",
+                                "url": "https://hellofresh.slack.com/archives/C08B62BR6NM/p1738159816059759",
+                                "text": "here"
+                              },
+                              {
+                                "type": "text",
+                                "text": " and the proposed action item was actually that we migrate to the UPM for Reactivations as well instead of iterating on the current legacy modal which will be deprecated\n\nIs there a possibility to migrate at least Good Chop earlier so that we can unblock the customers who are currently being blocked from reactivating?\n\ncc "
+                              },
+                              {
+                                "type": "user",
+                                "user_id": "U07VDFEFBQU"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C05L8G8AL7N/p1751450211182529?thread_ts=1742562723.612159&amp;cid=C05L8G8AL7N",
+              "fallback": "[July 2nd, 2025 2:56 AM] bdim: hi <@U0665FUH0DS> <@U03D7AWJNKS> is there any update on when you will be implementing UPM for Reactivations for white label brands?\n\nContext: today in the legacy payment modal for Reactivations we see errors of customers who cannot proceed as they're unable to update their credit card (they cannot click on the payment method). This was previously raised already a few months ago <https://hellofresh.slack.com/archives/C08B62BR6NM/p1738159816059759|here> and the proposed action item was actually that we migrate to the UPM for Reactivations as well instead of iterating on the current legacy modal which will be deprecated\n\nIs there a possibility to migrate at least Good Chop earlier so that we can unblock the customers who are currently being blocked from reactivating?\n\ncc <@U07VDFEFBQU>",
+              "text": "hi <@U0665FUH0DS> <@U03D7AWJNKS> is there any update on when you will be implementing UPM for Reactivations for white label brands?\n\nContext: today in the legacy payment modal for Reactivations we see errors of customers who cannot proceed as they're unable to update their credit card (they cannot click on the payment method). This was previously raised already a few months ago <https://hellofresh.slack.com/archives/C08B62BR6NM/p1738159816059759|here> and the proposed action item was actually that we migrate to the UPM for Reactivations as well instead of iterating on the current legacy modal which will be deprecated\n\nIs there a possibility to migrate at least Good Chop earlier so that we can unblock the customers who are currently being blocked from reactivating?\n\ncc <@U07VDFEFBQU>",
+              "author_name": "Beatrice Dimarucut",
+              "author_link": "https://hellofresh.slack.com/team/U01AKGWGLC8",
+              "author_icon": "https://avatars.slack-edge.com/2024-06-06/7236566513684_d5f9829826457c8c4d1d_48.jpg",
+              "author_subname": "Beatrice Dimarucut",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Thread in Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YbQ7m",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Let's continue discussion "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C05L8G8AL7N/p1751450211182529?thread_ts=1742562723.612159&cid=C05L8G8AL7N",
+                      "text": "here"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1077 @@
+{
+  "batch_id": "prd_017",
+  "doc_type": "prd",
+  "doc_count": 7,
+  "results": [
+    {
+      "doc_title": "Memo: TPT Sign-up Page Revamp",
+      "doc_id": "1VOx0gTwY6uxc3WsFBI8AqjEbWeTM6n_xZWEBese9oK4",
+      "doc_type": "prd",
+      "project_name": "TPT Sign-up Page Revamp",
+      "owner": "Not specified",
+      "target_date": "Not specified",
+      "summary": "Analysis and optimization of ThePetsTable registration page to improve customer experience and conversion rates. Despite low drop-off rates (11.62% to 12.25%), the project explores UI improvements to move from transactional to emotional tone and considers adding social login options. The registration page will be retained as it serves critical functions for user verification and reactivation.",
+      "requirements": {
+        "must_have": [
+          "Keep the registration page (not remove it)",
+          "Improve sign up CTA to increase customer intent",
+          "Monitor 2-week conversions post WKND cookie improvements",
+          "Maintain email autopopulation from WKND cookie",
+          "Verify whether prospect already has an account"
+        ],
+        "nice_to_have": [
+          "Use social logins (Apple, Google, Facebook) - P2 priority",
+          "Move from transactional to emotional tone in UI",
+          "Optimize page UI for better customer experience"
+        ],
+        "out_of_scope": [
+          "Removal of registration page",
+          "Immediate decision on Add-ons promotional banner removal"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Keep the registration page",
+          "rationale": "Registration page is necessary to verify existing accounts, redirect to reactivation page, prevent redundant navigation, and adjust applicable discounts. Drop-off rates are already low (11.62% to 12.25%)",
+          "approved_by": "Team consensus (based on comments)"
+        },
+        {
+          "what": "Keep Add-ons promotional banner",
+          "rationale": "Previous experiments with seasonal promotional banners showed positive CVR improvements. Customers learn about Add-ons for first time on sign up page. Limited experimental bandwidth available.",
+          "approved_by": "Not explicitly stated"
+        },
+        {
+          "what": "Make minimal functional changes to registration page",
+          "rationale": "Page already has low friction due to email autopopulation and high customer intent from completing 9-step quiz",
+          "approved_by": "Not explicitly stated"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "WKND cookie for email autopopulation",
+          "Site cookies for logged-in session redirect",
+          "Social login integration (Apple, Google, Facebook) - if implemented",
+          "Statsig (experimentation platform)",
+          "Google Analytics"
+        ],
+        "team": [
+          "Experimental/testing team (bandwidth constraint mentioned)"
+        ],
+        "external": [
+          "Apple (social login provider)",
+          "Google (social login provider)",
+          "Facebook (social login provider)"
+        ]
+      },
+      "success_metrics": [
+        "Conversion rate (CVR) from registration to address page",
+        "Session percentage reaching Address page vs Registration page",
+        "Registration completion rate",
+        "2-week conversions post WKND cookie improvements",
+        "Password submission rate (currently 96.6% based on HelloFresh data)",
+        "Overall checkout completion rate"
+      ],
+      "entities": [
+        {
+          "name": "ThePetsTable",
+          "type": "brand",
+          "role": "Primary product being analyzed - pet food subscription service"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Comparison benchmark - shows 45%+ drop-off from registration to address page"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "role": "Comparison benchmark mentioned for session percentages"
+        },
+        {
+          "name": "WKND cookie",
+          "type": "system",
+          "role": "Technical system enabling email autopopulation on registration page"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "role": "Experimentation platform used by HelloFresh for social login testing"
+        },
+        {
+          "name": "Google Analytics",
+          "type": "system",
+          "role": "Analytics platform showing 30% abandonment rate data"
+        }
+      ]
+    },
+    {
+      "doc_title": "PRD: Cancellation Funnel Unification",
+      "doc_id": "17kjxcXQOQH18-31bc_lz6JR9vEsxmUUIcWwh75Easmw",
+      "doc_type": "prd",
+      "project_name": "Cancellation Funnel Unification",
+      "owner": "Karolina Zak / Edward Day",
+      "target_date": "Not specified",
+      "summary": "This project aims to unify cancellation funnels across all HelloFresh Group brands by replicating the proven HelloFresh cancellation flow UX to other brands including meal-kit, RTE, The PetsTable, GoodChop, and Factor. The initiative will standardize the cancellation experience, improve customer retention, and streamline operational and technical maintenance through unified deflection strategies and cancellation surveys.",
+      "requirements": {
+        "must_have": [
+          "Replicate HelloFresh cancellation flow UX to all remaining brands (meal-kit, RTE, The PetsTable, GoodChop, Factor Form)",
+          "Create new cancellation funnel module with cross-brand functionality",
+          "Handle all existing funnel variations (BAU flow, one-step funnel, one-click funnel, French adjusted funnel) in scalable way",
+          "Implement HelloFresh cancellation survey framework for other brands",
+          "Unify deflection strategies across brands including: benefits display, offer new discount, change plan frequency, change plan size, skip instead of cancel",
+          "Maintain brand-specific routing (different links for HF vs Factor subscription settings)",
+          "Ensure market-level legal compliance for cancellation regulations",
+          "Preserve local non-legal decisions taken at market level"
+        ],
+        "nice_to_have": [
+          "A/B test for all brands excluding HelloFresh (control = BAU, variation = unified funnel)",
+          "Alternative: A/B test targeting Factor US customers only"
+        ],
+        "out_of_scope": [
+          "Switch to other brand deflection (removed from initiative scope, keep live for HelloFresh only)",
+          "Green Chef sustainability messaging",
+          "Enabling non-technical stakeholders to modify survey & deflections directly"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Rollout scenario selection (A/B test vs pre-post analysis)",
+          "rationale": "Decision depends on engineering complexity and effort estimation",
+          "approved_by": "Karolina Zak / Edward Day"
+        },
+        {
+          "what": "Remove 'Switch to other brand' deflection from unified funnel",
+          "rationale": "Scope reduction, maintain only for HelloFresh brand",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Change 'Change plan size' to direct link to subscription settings",
+          "rationale": "No price information shown and has one of lowest deflection rates",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Convert 'Offer new discount' from special deflection to regular module",
+          "rationale": "Requires small design change for consistency",
+          "approved_by": "Not specified"
+        },
+        {
+          "what": "Technical team owns final decision on local setups",
+          "rationale": "Balance capacity constraints with local input requirements",
+          "approved_by": "Not specified"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "New cancellation funnel module creation",
+          "Migration of HelloFresh flow pieces to cross-brand funnel",
+          "Brand-specific subscription settings pages (HF: /account-settings/subscription-settings, Factor: /settings/plan/plan-selection)",
+          "Orchestration layer for RTE subscription cancellation when meal kit subscription is cancelled",
+          "Google Analytics events alignment across brands",
+          "Cancellation dashboard",
+          "Tableau as source of truth for metrics"
+        ],
+        "team": [
+          "Emmanuelle Hazeaux (voucher creation ownership clarification)",
+          "Voice of Customer team (primary users of cancellation survey results)",
+          "Juan Sebastian Hernandez (VoC team contact)",
+          "Chattermill (receives survey comments)",
+          "Winnie Huang (cancellation data sets categories)",
+          "Local market teams (compliance and local requirements input)",
+          "Analytics team (metrics alignment and reporting)"
+        ],
+        "external": [
+          "Chattermill (survey comment processing)"
+        ]
+      },
+      "success_metrics": [
+        "Customer retention improvement for Factor and other brands",
+        "Standardized cancellation experience across brands",
+        "Consistent customer feedback collection on cancellation reasons",
+        "Deflection rate performance across brands",
+        "Operational and technical maintenance efficiency"
+      ],
+      "entities": [
+        {
+          "name": "Karolina Zak",
+          "type": "person",
+          "role": "Project decision maker and owner"
+        },
+        {
+          "name": "Edward Day",
+          "type": "person",
+          "role": "Project decision maker and owner"
+        },
+        {
+          "name": "Emmanuelle Hazeaux",
+          "type": "person",
+          "role": "Voucher creation ownership clarification"
+        },
+        {
+          "name": "Juan Sebastian Hernandez",
+          "type": "person",
+          "role": "Voice of Customer team contact"
+        },
+        {
+          "name": "Winnie Huang",
+          "type": "person",
+          "role": "Cancellation data sets specialist"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Source brand with proven cancellation funnel"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "Target brand for unified funnel (RTE)"
+        },
+        {
+          "name": "The PetsTable",
+          "type": "brand",
+          "role": "Target brand for unified funnel"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "role": "Target brand for unified funnel"
+        },
+        {
+          "name": "Factor Form",
+          "type": "brand",
+          "role": "Target brand for unified funnel"
+        },
+        {
+          "name": "Factor Programs",
+          "type": "brand",
+          "role": "Potential target brand (unclear)"
+        },
+        {
+          "name": "Green Chef",
+          "type": "brand",
+          "role": "Mentioned in context of sustainability"
+        },
+        {
+          "name": "Chattermill",
+          "type": "system",
+          "role": "Receives survey comments from Voice of Customer team"
+        },
+        {
+          "name": "Tableau",
+          "type": "system",
+          "role": "Source of truth for cancellation metrics"
+        },
+        {
+          "name": "Google Analytics",
+          "type": "system",
+          "role": "Event tracking requiring cross-brand alignment"
+        }
+      ]
+    },
+    {
+      "doc_title": "Maria:Nikita 1:1 - 2025/12/16 17:59 CET - Notes by Gemini",
+      "doc_id": "1XYIBY2fKZdSqpoWTCzM3Of8LPxoiayIBlJrLvx7y0IQ",
+      "doc_type": "prd",
+      "project_name": "CVR Program & Q1 Initiative Portfolio",
+      "owner": "Maria Chelminska",
+      "target_date": "Week 2-3 of Q1 2026 (delayed from pre-holiday launch)",
+      "summary": "A time-boxed CVR (conversion rate) improvement initiative focusing on discovery and funnel optimization, including banner placements and communication reinforcements. Multiple sub-initiatives are in progress including charger checkout, reactivation page, PDPs, and portion percentages, with several blocked by technical issues and contractor delays.",
+      "requirements": {
+        "must_have": [
+          "CVR program focused on customer experience from landing page onwards",
+          "Charger checkout with refund functionality",
+          "Reactivation page for multi-subscription users",
+          "PDPs (Product Detail Pages) implementation",
+          "Different portion percentages functionality",
+          "Multi-subscription support in new pricing endpoint",
+          "Voucher application for multi-subscription users"
+        ],
+        "nice_to_have": [
+          "One-click add-ons",
+          "Updating pet profiles",
+          "Quick actions improvements using React Native",
+          "App work including web view and React Native specifications",
+          "Push notifications capability"
+        ],
+        "out_of_scope": [
+          "Recurring CVR analysis and reporting (owned by Doas and team)",
+          "Cut scope from contractor deliverables (to be reviewed and potentially re-scoped)"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Maria Chelminska to own CVR program",
+          "rationale": "Need for substantial topic ownership; app work less demanding than anticipated as it focuses on technical specifications",
+          "approved_by": "Nikita Gorshkov"
+        },
+        {
+          "what": "Temporarily revert reactivation page to old pricing endpoint",
+          "rationale": "New pricing endpoint incorrectly flags vouchers as fraudulent for multi-subscription users; need to secure value before holidays despite creating future overhead",
+          "approved_by": "Nikita Gorshkov"
+        },
+        {
+          "what": "Establish rule that multi-subscriptions must always be supported in new service development",
+          "rationale": "Prevent recurring issues with multi-subscription users in shopping platform space",
+          "approved_by": "Nikita Gorshkov (to work with Java)"
+        },
+        {
+          "what": "Use scope-based pricing model with contractors rather than time and materials",
+          "rationale": "Beneficial despite expanded timeline and contractor underestimation of complexity",
+          "approved_by": "Maria Chelminska"
+        },
+        {
+          "what": "Leverage new team member Maria (starting January) for remaining initiatives and overhead work",
+          "rationale": "Team impacted by delays; need additional resources to deliver Q1 work",
+          "approved_by": "Maria Chelminska and Nikita Gorshkov"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "New pricing endpoint (multi-subscription voucher issue)",
+          "Old pricing endpoint (temporary fallback)",
+          "Refund system (blocking charger checkout)",
+          "Web view technology",
+          "React Native",
+          "Push notification infrastructure"
+        ],
+        "team": [
+          "Doas team (CVR analysis and reporting)",
+          "Java team (multi-subscription rule enforcement)",
+          "Guhan (managing contractor inconsistencies)",
+          "Ahmed (out of office starting Dec 17)",
+          "Lauron (Friday meeting participant)",
+          "Maria (new team member starting January)"
+        ],
+        "external": [
+          "Contractors (PDP and portion percentage work - described as 'sloppy' in following requirements)"
+        ]
+      },
+      "success_metrics": [
+        "CVR (Conversion Rate) improvement across funnel",
+        "Value secured from reactivations before holidays",
+        "Successful launch of charger checkout with refunds",
+        "Reactivation page deployment for multi-subscription users",
+        "Completion of PDP and portion percentage initiatives",
+        "Adherence to Q1 delivery timeline"
+      ],
+      "entities": [
+        {
+          "name": "Maria Chelminska",
+          "type": "person",
+          "role": "Product owner for CVR program and multiple initiatives"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "role": "Senior stakeholder/approver, decision maker"
+        },
+        {
+          "name": "Doas",
+          "type": "person",
+          "role": "Owner of CVR analysis and reporting function"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "role": "Team member, out of office starting Dec 17"
+        },
+        {
+          "name": "Guhan",
+          "type": "person",
+          "role": "Managing contractor inconsistencies"
+        },
+        {
+          "name": "Lauron",
+          "type": "person",
+          "role": "Friday meeting participant"
+        },
+        {
+          "name": "Java",
+          "type": "person",
+          "role": "Technical lead for multi-subscription rule enforcement"
+        },
+        {
+          "name": "Maria",
+          "type": "person",
+          "role": "New team member starting January 2026"
+        },
+        {
+          "name": "CVR Program",
+          "type": "project",
+          "role": "Time-boxed initiative for conversion rate optimization"
+        },
+        {
+          "name": "Charger Checkout",
+          "type": "project",
+          "role": "Initiative blocked by refund issues"
+        },
+        {
+          "name": "Reactivation Page",
+          "type": "project",
+          "role": "Initiative blocked by pricing endpoint multi-subscription issue"
+        },
+        {
+          "name": "PDPs",
+          "type": "project",
+          "role": "Product Detail Pages initiative delayed by contractor issues"
+        },
+        {
+          "name": "Pricing Endpoint",
+          "type": "system",
+          "role": "New service with multi-subscription voucher bug; old version used as temporary fallback"
+        },
+        {
+          "name": "Shopping Platform",
+          "type": "system",
+          "role": "Platform space requiring multi-subscription support"
+        },
+        {
+          "name": "React Native",
+          "type": "system",
+          "role": "Technology for app improvements and quick actions"
+        },
+        {
+          "name": "Gemini",
+          "type": "system",
+          "role": "AI note-taking tool that generated this document"
+        }
+      ]
+    },
+    {
+      "doc_title": "InComm / HelloFresh Tech Integration  - 2025/12/08 09:27 EST - Notes by Gemini",
+      "doc_id": "1rRmGsbWAGQO0FkOpzSbKUngrJdhuwlKvfRyl4f_1Zto",
+      "doc_type": "prd",
+      "project_name": "InComm / HelloFresh Tech Integration - Retail Gift Card Program",
+      "owner": "Nikita Gorshkov (HelloFresh - New Ventures Lead)",
+      "target_date": "Not specified - Legal review delayed until January 2026 due to December 1st deadline miss",
+      "summary": "HelloFresh is integrating with InComm to launch a new North American retail gift card program using transferred value activation. The integration involves physical gift cards activated at retail via IAB barcode scanning, with PIN-based redemption through HelloFresh's systems connecting to InComm's APIs for validation and value transfer.",
+      "requirements": {
+        "must_have": [
+          "Transferred value activation process via IAB barcode scanning at retail",
+          "PIN-based validation and redemption system",
+          "Custom-prefixed PIN generation capability",
+          "Error handling with specific timeout thresholds for 'get status' and 'redeem' requests",
+          "Retry/cancel recommendations for failed transactions",
+          "Reporting data including merchant name and location for analytics",
+          "Value management system for tracking card balances",
+          "Variable load product capability",
+          "Separate or combined Canadian and US contracts"
+        ],
+        "nice_to_have": [
+          "Single North American agreement to simplify legal review",
+          "Similar launch timelines for US and Canada markets"
+        ],
+        "out_of_scope": [
+          "HelloFresh involvement in initial card activation at retail"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Preference for variable load product",
+          "rationale": "Provides flexibility for different purchase amounts",
+          "approved_by": "Elysa Viti"
+        },
+        {
+          "what": "Request for single North American agreement instead of separate contracts",
+          "rationale": "Simplify legal review process and avoid creating unnecessary work for procurement team; enable similar launch timelines for US and Canada",
+          "approved_by": "Elysa Viti, Elaine Tobin"
+        },
+        {
+          "what": "Hold contract sending until North American agreement decision is made",
+          "rationale": "No point sending Canadian-only contract if combined agreement is possible",
+          "approved_by": "Laura Titherington"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "InComm IAB barcode activation system",
+          "InComm PIN validation API",
+          "InComm redemption/value transfer API",
+          "InComm 'get status' API for transaction verification",
+          "InComm reporting system for merchant analytics data",
+          "HelloFresh gift card redemption system"
+        ],
+        "team": [
+          "InComm Project Manager (to be assigned)",
+          "HelloFresh procurement team",
+          "HelloFresh legal team (review delayed until January)",
+          "HelloFresh US/Factor gift card team",
+          "InComm Canada account management team"
+        ],
+        "external": [
+          "InComm (primary vendor/partner)",
+          "Retail partners (for card activation at point of sale)",
+          "Costco (specific program mentioned requiring economics finalization)"
+        ]
+      },
+      "success_metrics": [
+        "Merchant name and location data availability for analytics",
+        "Transaction success rates with proper error handling",
+        "Timeout threshold compliance for API requests",
+        "Contract finalization and legal approval timeline"
+      ],
+      "entities": [
+        {
+          "name": "Laura Titherington",
+          "type": "person",
+          "role": "Business Development for InComm Canada"
+        },
+        {
+          "name": "Jacob Gabiam",
+          "type": "person",
+          "role": "Solutions Consultant at InComm"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "role": "Leading new ventures at HelloFresh"
+        },
+        {
+          "name": "Oliver Vicente",
+          "type": "person",
+          "role": "Lead Channel Manager at InComm"
+        },
+        {
+          "name": "Phillip Pidoux-Koronya",
+          "type": "person",
+          "role": "Director of Account Management at InComm Canada"
+        },
+        {
+          "name": "Elaine Tobin",
+          "type": "person",
+          "role": "Running gift cards and flyers for HelloFresh US/Factor"
+        },
+        {
+          "name": "Elysa Viti",
+          "type": "person",
+          "role": "HelloFresh representative handling contract/procurement"
+        },
+        {
+          "name": "Taylor Phelan",
+          "type": "person",
+          "role": "Meeting invitee"
+        },
+        {
+          "name": "April Dunham",
+          "type": "person",
+          "role": "Meeting invitee"
+        },
+        {
+          "name": "Scott Silver",
+          "type": "person",
+          "role": "Meeting invitee"
+        },
+        {
+          "name": "Amy Alpert",
+          "type": "person",
+          "role": "Meeting invitee"
+        },
+        {
+          "name": "Aniva Lu",
+          "type": "person",
+          "role": "Meeting invitee"
+        },
+        {
+          "name": "InComm",
+          "type": "system",
+          "role": "Gift card activation and value management platform provider"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Client implementing retail gift card program"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "HelloFresh subsidiary included in gift card program"
+        },
+        {
+          "name": "Costco",
+          "type": "brand",
+          "role": "Retail partner requiring specific program economics"
+        },
+        {
+          "name": "IAB barcode",
+          "type": "system",
+          "role": "Barcode system used for card activation at retail"
+        },
+        {
+          "name": "PIN system",
+          "type": "system",
+          "role": "Authentication mechanism for card redemption"
+        },
+        {
+          "name": "North American agreement",
+          "type": "project",
+          "role": "Proposed combined US/Canada contract structure"
+        }
+      ]
+    },
+    {
+      "doc_title": "PRD: (🥇MVP) Cross-Selling as Market Integration; Recurring Multi-Subscription (v1.0)",
+      "doc_id": "169IIJfqd6Rk0KO9QvOQqcSrJrCoA4GQndOrX00s_y0k",
+      "doc_type": "prd",
+      "project_name": "Cross-Selling as Market Integration; Recurring Multi-Subscription (MVP)",
+      "owner": "Leo Lee, Nikita Gorshkov",
+      "target_date": "August 2025",
+      "summary": "An MVP initiative to enable HelloFresh US customers to purchase Factor-produced Ready-to-Eat (RTE) meals through a multi-subscription model integrated into the HelloFresh experience. This 'Market Integration' strategy aims to serve more household meal moments, increase Average Order Rate (AOR), and reduce Customer Acquisition Costs (CACs) by offering both meal-kit and RTE options as part of the Top-5 Company Strategy #5 for 2025.",
+      "requirements": {
+        "must_have": [
+          "Multi-subscription technology enabling customers to have up to two separate subscriptions",
+          "Opt-in model via secondary recurring RTE subscription",
+          "Factor-produced RTE meals as physical product offering",
+          "Integration with HelloFresh US Core Menu",
+          "Order summary/receipt functionality for non-skipped meals",
+          "Pre-selection as fixed step for opt-in MVP",
+          "Menu availability checking mechanism"
+        ],
+        "nice_to_have": [
+          "Iterative improvements and refinements post-MVP",
+          "Enhanced cross-selling experience features"
+        ],
+        "out_of_scope": [
+          "Post-MVP interactions or launch recommendations",
+          "Operational execution details or requirements",
+          "Add-ons (excluded per confirmation)",
+          "Refactoring experience onto new Actives Journey revamp in React Native (Future 2026+ roadmap)",
+          "Manual management across Factor and cross-sell by Factor menu operations team"
+        ]
+      },
+      "decisions": [
+        {
+          "what": "Use multi-subscription technology for opt-in and opt-out models",
+          "rationale": "Enables lower commitment model with future default skipped capability",
+          "approved_by": "CS9+ Reviewers"
+        },
+        {
+          "what": "Use Factor-produced RTE meals instead of third-party vendor",
+          "rationale": "Part of Market Integration strategy to gather insights for 2026 peak recommendations",
+          "approved_by": "HelloFresh US Physical Product team"
+        },
+        {
+          "what": "Show order summary/receipt only for non-skipped meals",
+          "rationale": "Consistent with HelloFresh practice of not showing cart/order summary for skipped subscriptions",
+          "approved_by": "Under review by Katerina Scoullos, Arbaaz Dossani"
+        },
+        {
+          "what": "Exclude add-ons from MVP scope",
+          "rationale": "Scope reduction to simplify MVP delivery",
+          "approved_by": "Pending confirmation"
+        },
+        {
+          "what": "Pre-selection as fixed step for opt-in MVP",
+          "rationale": "Simplifies preference handling and reduces complexity on culinary tool and front-end sides",
+          "approved_by": "Leo Lee"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "Multi-subscription technology platform",
+          "HelloFresh US Core Menu system",
+          "Factor meal production and supply chain",
+          "Native mobile application (current)",
+          "React Native (future migration)",
+          "Culinary tools for recipe mapping",
+          "Menu availability API/checking system"
+        ],
+        "team": [
+          "HelloFresh US Physical Product team",
+          "Factor menu operations team",
+          "Engineering teams (cross-functional)",
+          "Customer Service teams",
+          "Menu operations teams"
+        ],
+        "external": [
+          "Factor (Factor75) - RTE meal supplier",
+          "Third-party vendor (previous Ready Made Meals supplier)"
+        ]
+      },
+      "success_metrics": [
+        "Average Order Rate (AOR) increase",
+        "Customer Acquisition Costs (CACs) reduction",
+        "Multi-subscription adoption rate",
+        "Cross-selling conversion rate",
+        "Household meal moments served"
+      ],
+      "entities": [
+        {
+          "name": "Leo Lee",
+          "type": "person",
+          "role": "Editor/Product Lead"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "role": "Editor/Product Lead"
+        },
+        {
+          "name": "HelloFresh US",
+          "type": "brand",
+          "role": "Target market and primary brand"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "RTE meal supplier and cross-sell brand"
+        },
+        {
+          "name": "Factor75",
+          "type": "brand",
+          "role": "Alternative name for Factor brand"
+        },
+        {
+          "name": "Allysa Misola",
+          "type": "person",
+          "role": "Contributor - content/copy discussion"
+        },
+        {
+          "name": "Katerina Scoullos",
+          "type": "person",
+          "role": "Reviewer - order summary requirements"
+        },
+        {
+          "name": "Arbaaz Dossani",
+          "type": "person",
+          "role": "Reviewer - technical implementation"
+        },
+        {
+          "name": "Tricia McGleam",
+          "type": "person",
+          "role": "Stakeholder - Factor operations"
+        },
+        {
+          "name": "Frankie Hernandez",
+          "type": "person",
+          "role": "Stakeholder - HelloFresh operations"
+        },
+        {
+          "name": "Sanyuja Mahajan",
+          "type": "person",
+          "role": "Stakeholder - Factor operations"
+        },
+        {
+          "name": "Market Integration",
+          "type": "project",
+          "role": "Overall strategy name for cross-selling initiative"
+        },
+        {
+          "name": "Actives Journey",
+          "type": "system",
+          "role": "Future platform for experience migration (React Native)"
+        },
+        {
+          "name": "Native",
+          "type": "system",
+          "role": "Current mobile application platform"
+        },
+        {
+          "name": "React Native",
+          "type": "system",
+          "role": "Future mobile application platform"
+        }
+      ]
+    },
+    {
+      "doc_title": "Request- tech support for DACH juices launch",
+      "doc_id": "1RvnLB5EBpMNRJ00gD5pE2HU7bsiajcRprh0OG7tpzkc",
+      "doc_type": "prd",
+      "project_name": "DACH Juices Launch - Pfand (Deposit) Tech Support",
+      "owner": "Patricia de Campos",
+      "target_date": null,
+      "summary": "HelloFresh and Factor need technical platform support to launch beverages (shots, juices, protein shakes, electrolyte drinks) in DACH and Nordic markets. The launch is blocked by legal requirements to display bottle deposit (Pfand) charges as separate line items in the checkout flow and invoices. This integration is required to comply with local regulatory requirements for beverages over 100ml.",
+      "requirements": {
+        "must_have": [
+          "Display Pfand/deposit amount as a separate line item in the 'Add-ons' section of checkout",
+          "Display Pfand/deposit amount as a separate line item in the 'Order Overview' section of checkout",
+          "Show exact number of units charged (e.g., '3x Pfand: €0.75')",
+          "Display individual deposit costs clearly showing quantity multiplied by unit price",
+          "Support market-specific deposit amounts that vary by country",
+          "Support different deposit prices based on bottle size (recipe-dependent)",
+          "Translate 'Pfand'/'Deposit' terminology for each market",
+          "Allow aggregated single line item for total deposits when multiple juice/shot packs are ordered",
+          "Display deposit charges in invoices (ideally)"
+        ],
+        "nice_to_have": [
+          "Display Pfand charges in invoices"
+        ],
+        "out_of_scope": []
+      },
+      "decisions": [
+        {
+          "what": "Deposit amount varies by market and bottle size",
+          "rationale": "Different markets have different regulatory requirements and bottle sizes may have different deposit amounts",
+          "approved_by": "Patricia de Campos"
+        },
+        {
+          "what": "Pfand must be displayed as separate line items in both Add-on and Order-summary sections",
+          "rationale": "Legal requirement for compliance with DACH and Nordic regulations",
+          "approved_by": "Legal/Regulatory requirement"
+        },
+        {
+          "what": "Multiple juice/shot packs can show single collated line item for total deposit",
+          "rationale": "Simplifies display while maintaining legal compliance, as long as exact units are shown",
+          "approved_by": "Patricia de Campos"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "Checkout funnel UI system",
+          "Order overview backend integration",
+          "Invoice generation system",
+          "Pricing engine to support market-specific and recipe-dependent deposit amounts",
+          "HelloFresh Market product system"
+        ],
+        "team": [
+          "Legal/Regulatory team (for compliance verification)",
+          "Product team (Factor and HelloFresh EU)",
+          "Engineering team (UI and backend integration)"
+        ],
+        "external": [
+          "Local regulatory agencies in DACH (Germany, Austria, Switzerland)",
+          "Local regulatory agencies in Nordics (Denmark, Sweden, Norway)",
+          "Local bottle deposit scheme operators"
+        ]
+      },
+      "success_metrics": [
+        "Successful launch of beverages in DACH markets as paid and FFL add-ons",
+        "Legal compliance with Pfand display requirements",
+        "Net AOV increase from beverage portfolio",
+        "Incremental value in Free for Life and Loyalty Programs",
+        "Future enablement for Nordics and Ireland launches"
+      ],
+      "entities": [
+        {
+          "name": "Patricia de Campos",
+          "type": "person",
+          "role": "Author and project owner"
+        },
+        {
+          "name": "Alejandro Tomas Callejas",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Diogo Almeida",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Susanne Ulrich",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Frank Zeugner",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "sameer.doda@hellofresh.ca",
+          "type": "person",
+          "role": "Assigned technical contact"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Primary brand launching beverage products"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "Brand launching protein shakes and electrolyte drinks"
+        },
+        {
+          "name": "DACH",
+          "type": "project",
+          "role": "Target market region (Germany, Austria, Switzerland)"
+        },
+        {
+          "name": "Nordics",
+          "type": "project",
+          "role": "Future target market region (Denmark, Sweden, Norway)"
+        },
+        {
+          "name": "Netherlands",
+          "type": "project",
+          "role": "Market where juices/shots already available"
+        },
+        {
+          "name": "France",
+          "type": "project",
+          "role": "Market where juices/shots already available"
+        },
+        {
+          "name": "Ireland",
+          "type": "project",
+          "role": "Future target market"
+        },
+        {
+          "name": "Free for Life Program",
+          "type": "system",
+          "role": "Loyalty program to be enhanced by beverage portfolio"
+        },
+        {
+          "name": "Loyalty Programs",
+          "type": "system",
+          "role": "Customer retention system to benefit from beverage launch"
+        },
+        {
+          "name": "HelloFresh Market",
+          "type": "system",
+          "role": "Product platform for add-ons"
+        }
+      ]
+    },
+    {
+      "doc_title": "Request- tech support for DACH juices launch",
+      "doc_id": "1RvnLB5EBpMNRJ00gD5pE2HU7bsiajcRprh0OG7tpzkc",
+      "doc_type": "prd",
+      "project_name": "DACH Juices Launch - Pfand (Deposit) Tech Support",
+      "owner": "Patricia de Campos",
+      "target_date": null,
+      "summary": "HelloFresh and Factor need technical platform support to launch private label shots, juices, protein shakes, and electrolyte drinks in DACH and Nordic markets. The launch is blocked due to legal requirements to display bottle deposit (Pfand) charges as separate line items in the checkout flow and invoices. This requires UI and backend integration changes to clearly show deposit amounts per unit in both the add-ons section and order summary.",
+      "requirements": {
+        "must_have": [
+          "Display Pfand (deposit) amount as a separate line item in the Order Overview section of checkout funnel",
+          "Show Pfand amount in the Add-ons section as a separate line item",
+          "Display the number of units charged (e.g., '3x Pfand') alongside the monetary value",
+          "Support market-specific deposit amounts that vary by country",
+          "Support different deposit prices based on bottle size (recipe-dependent)",
+          "Translate 'Pfand/Deposit' terminology for each market",
+          "Allow aggregated single line item for total Pfand when multiple products are ordered, showing exact units",
+          "Display Pfand charges ideally in the invoice as well"
+        ],
+        "nice_to_have": [
+          "Display Pfand amount in invoice"
+        ],
+        "out_of_scope": []
+      },
+      "decisions": [
+        {
+          "what": "Deposit amount varies by market and bottle size",
+          "rationale": "Different markets have different legal requirements and bottle sizes may have different deposit prices",
+          "approved_by": "Patricia de Campos"
+        },
+        {
+          "what": "Pfand must be shown as separate line items in both Add-on and Order-summary sections",
+          "rationale": "Legal requirement for DACH and Nordic markets",
+          "approved_by": "Legal/Regulatory requirement"
+        },
+        {
+          "what": "Multiple juice/shot packs can show single collated line item for total Deposit charge",
+          "rationale": "Simplifies display while maintaining legal compliance, as long as exact units are shown",
+          "approved_by": "Patricia de Campos"
+        }
+      ],
+      "dependencies": {
+        "technical": [
+          "Checkout funnel UI system",
+          "Backend pricing integration",
+          "Order summary display system",
+          "Invoice generation system",
+          "Market-specific pricing configuration system"
+        ],
+        "team": [
+          "Tech/Engineering team (sameer.doda@hellofresh.ca assigned)",
+          "Legal/Regulatory team",
+          "Product team"
+        ],
+        "external": [
+          "Local regulatory agencies (registration completed)",
+          "Local bottle deposit scheme providers (setup completed)"
+        ]
+      },
+      "success_metrics": [
+        "Launch of beverages >100ml in DACH as paid and FFL add-ons",
+        "Compliance with legal Pfand display requirements",
+        "Net AOV increase from beverage portfolio",
+        "Incremental value in Free for Life and Loyalty Programs",
+        "Successful launch enablement in Nordics (DK, SE, NO) and IE"
+      ],
+      "entities": [
+        {
+          "name": "Patricia de Campos",
+          "type": "person",
+          "role": "Author and project owner"
+        },
+        {
+          "name": "Alejandro Tomas Callejas",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Diogo Almeida",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Susanne Ulrich",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "Frank Zeugner",
+          "type": "person",
+          "role": "Contributor"
+        },
+        {
+          "name": "sameer.doda@hellofresh.ca",
+          "type": "person",
+          "role": "Assigned technical lead"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "role": "Primary brand launching beverage products"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "role": "Brand launching protein shakes and electrolyte drinks"
+        },
+        {
+          "name": "DACH",
+          "type": "project",
+          "role": "Target market region (Germany, Austria, Switzerland)"
+        },
+        {
+          "name": "Nordics",
+          "type": "project",
+          "role": "Target market region (DK, SE, NO)"
+        },
+        {
+          "name": "NL",
+          "type": "project",
+          "role": "Market where products are already available (Netherlands)"
+        },
+        {
+          "name": "FR",
+          "type": "project",
+          "role": "Market where products are already available (France)"
+        },
+        {
+          "name": "IE",
+          "type": "project",
+          "role": "Potential market in grey area (Ireland)"
+        },
+        {
+          "name": "Free for Life Program",
+          "type": "system",
+          "role": "Loyalty program to benefit from beverage launch"
+        },
+        {
+          "name": "Loyalty Programs",
+          "type": "system",
+          "role": "Customer retention programs to benefit from beverage launch"
+        },
+        {
+          "name": "Pfand",
+          "type": "system",
+          "role": "Bottle deposit scheme requiring technical implementation"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:51:59.359191"
+}

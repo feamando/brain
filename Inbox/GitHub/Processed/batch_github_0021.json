@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0021",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "1ae60181",
+      "message": "[TPT-2300] Fix Statsig track (#59960)\n\n* Fix successful_login event to pass right data\n\n* Pass statsig flag to checkout success tracking",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-04T13:46:06Z",
+      "url": "https://github.com/hellofresh/web/commit/1ae6018103ebb27ce96809caad5499a037fc22f7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "7c70596f",
+      "message": "[TPT-2228] adds food quantity disclaimer (#59762)\n\n* adds food quantity disclaimer\n\n* fixes test and a11y concerns",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-11-04T13:24:43Z",
+      "url": "https://github.com/hellofresh/web/commit/7c70596fc130805f1a350ce5e85faff72ee1e787",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "57aa4ee0",
+      "message": "[TPT-2272] prevent cadence breaking on reactivate (#59694)\n\n* [TPT-2272] added cadence data to subscription reactivation payload\n\n* refinements\n\n* removed logic blocking reactivation when data was missing\n\n* bringing back feature flag\n\n* rm unused comment\n\n* updated files names\n\n* skipping failing E2E",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-11-04T12:38:05Z",
+      "url": "https://github.com/hellofresh/web/commit/57aa4ee085805ca0db875bb49a12cbe447929c4f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "5c2b61c5",
+      "message": "[GOC-3322] Skip failing e2e (#59944)\n\n* skipping failing E2E\n\n* [GOC-3322] Removes skip\n\n* [GOC-3322] Renames files with right .quarantined name\n\n---------\n\nCo-authored-by: matborowiak <mateusz.borowiak@hellofresh.com>",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-04T10:09:47Z",
+      "url": "https://github.com/hellofresh/web/commit/5c2b61c50be370a971a4a6d6b5e312f189434444",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "c7af892e",
+      "message": "[TPT-2150] - [GD] Build and integrate the plans info component on the reactivation page (#59721)\n\n* [TPT-2150] - [GD] Build and integrate the plans info component on the reactivation page (#59536)\n\n* TPT-2150 - add contentful keys for data\n\n* TPT-2150 - add PlansInfo component and integrate into plan-reactivation page\n\n* TPT-2150 - add PlanItem component and test\n\n* TPT-2150 - update PlansInfo with hardcoded data for plans\n\n* TPT-2150 - add useOfferImage hook to map contentful images to plan offers\n\n* TPT-2150 - refactor PlanItem to use the correct data structure, update test\n\n* TPT-2150 - refactor PlansInfo component to use proper data structure\n\n* [TPT-2150] - [GD] Build and integrate the plans info component on the reactivation page (#59713)\n\n* TPT-2150 - update skuDataGuard to accept noLoader prop, add a test scenario for this\n\n* TPT-2150 - add PlansInfoContent component\n\n* TPT-2150 - update planItem component to render short title if aplicable\n\n* TPT-2150 - update useOfferImage hook to use centralized constants for portion size and family type\n\n* TPT-2150 - add util function to compare plans by family and portion, use util in PlansInfoContent\n\n* [TPT-2150] - Plans Info component on Reactivation page Tests (#59730)\n\n* TPT-2150 - update test for PlanItem\n\n* TPT-2150 - add test for plan comparison util\n\n* TPT-2150 - add tests for PlanInfo and PlansInfoContent\n\n* TPT-2150 - fix reactivation page failing test (#59738)\n\n* [TPT-2150] - Update plan offers filtering logic in PlansInfo component on Reactivation page (#59759)\n\n* TPT-2150 - update plan offers filtering logic\n\n* TPT-2150 - fix mock data\n\n* TPT-2150 - use getCoreFamily and core types instead of family type for useOfferImage hook\n\n* TPT-2150 - always show full time for plan item (#59892)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-03T17:29:09Z",
+      "url": "https://github.com/hellofresh/web/commit/c7af892e94c0fe664f3765f82d44928ce7527322",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "e1981fed",
+      "message": "[TPT-2283] suspense removed to disable skeleton display (#59748)\n\n* [TPT-2283] suspense removed to disable skeleton display\n\n* [TPT-2283] suspense, fallback removed from MountGuard",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-03T15:53:50Z",
+      "url": "https://github.com/hellofresh/web/commit/e1981fed96399420222795f42a468a7ee2db4634",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "367f4186",
+      "message": "[TPT-2284] loading page scroll fix (#59873)\n\n* [TPT-2284] loading page scroll fix\n\n* [TPT-2284] margin removed for the mobile view",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-03T15:42:09Z",
+      "url": "https://github.com/hellofresh/web/commit/367f4186b467fee1582c6969849f7809d0eeab57",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d9658208",
+      "message": "[TPT-2278] discount banner fix (#59852)\n\n* [TPT-2278] discount banner fix\n\n* [TPT-2278] discount banner display updated",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-03T15:42:00Z",
+      "url": "https://github.com/hellofresh/web/commit/d9658208ce8573a2c87e69a06fc5d3c5312983c9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "1ceab136",
+      "message": "[GOC-3316] Renders reddem gift link for goodchop in public header (#59745)\n\n* [GOC-3316] Renders reddem gift link for goodchop in Public Header\n\n* [GOC-3316] Fixes type\n\n* [GOC-3316] Fixes new url and add tests\n\n* [GOC-3316] Fixes import\n\n* [GOC-3316] Adds new redirection in general links\n\n* [GOC-3316] Adds missing mock",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-03T11:41:31Z",
+      "url": "https://github.com/hellofresh/web/commit/1ceab1366cb755aca3041ee231460bcc2a36af33",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "db8fc981",
+      "message": "TPT-2081: use pet name in the success modal title (#59807)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-03T11:01:42Z",
+      "url": "https://github.com/hellofresh/web/commit/db8fc981ca0e756ab9a2ee00d98e6c4067db0d88",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "935f6709",
+      "message": "[GOC-3193] Frequency Voucher info in subscription card (#59619)\n\n* feat(GOC-3193): MVP 1 foundation - voucher state integration with feature flag\n\n- Add useVoucherBenefitContent hook for dynamic voucher discount formatting\n- Add TypeScript interfaces for voucher content and validation\n- Update usePlanContent to integrate voucher state with feature flag control\n- Add plans-voucher-integration feature flag support\n- Maintain backward compatibility with static content when flag disabled\n\n[Cursor_Code]\n\n* refactor(GOC-3193): simplify MVP 1 by removing feature flag\n\n- Remove feature flag logic from usePlanContent hook\n- Always use voucher content when available for cleaner implementation\n- Maintain backward compatibility with static content fallback\n- Simplifies MVP 1 for faster delivery and testing\n\n[Cursor_Code]\n\n* fix(GOC-3193): use general voucher hook instead of sub-brand specific one\n\n- Replace useStoredVoucher from @/libs/sub-brand-vouchers with general hook\n- Use useStoredVoucher from @/operations/data-processors/use-current-voucher\n- Fix 'Only use useStoredVoucher within a subBrand' runtime error\n- Update hook usage to destructure storedVoucher from returned object\n\n[Cursor_Code]\n\n* feat(GOC-3193): integrate voucher discount with pricing and DiscountBanner\n\n- Connect voucher discount amount to SubscribeOption pricing logic\n- Add useVoucherBenefitContent to SubscribeOption component\n- Use effectiveDiscount (voucher amount or fallback to prop discount)\n- Update DiscountBanner to display voucher discount amount\n- Now showDiscount will be true when voucher has discount > 0\n- DiscountBanner will show actual voucher discount value\n\nThis completes the pricing integration part of MVP 1.\n\n[Cursor_Code]\n\n* fix(GOC-3193): remove duplicate voucher discount benefit\n\n- Remove voucher discount from benefits array to prevent duplication\n- Keep voucher discount only in freeCutBenefit (primary display location)\n- Static benefits (benefit1, benefit2) remain in benefits list\n- Now shows one voucher discount instead of two identical lines\n\nFixes the duplication issue where ' off in your first delivery'\nappeared twice in the subscription benefits.\n\n[Cursor_Code]\n\n* feat(GOC-3193): implement proper free addon benefit checking\n\n- Add useFreeAddonsByVoucherCode integration to check actual free addon benefits\n- Check voucher benefit_category === 'free-addon' instead of just discount amount\n- Add dynamic messaging based on lifetime ('year' vs 'life')\n- Show 'Free cut on every delivery for life' or 'Free cut on every delivery for a year'\n- Fallback hierarchy: free addon benefit → discount message → static content\n- Aligns with JIRA requirements for dynamic free addon messaging\n\nThis fixes the freeCutBenefit to show correct voucher-based messages.\n\n[Cursor_Code]\n\n* refactor(GOC-3193): simplify free addon benefit checking\n\nMAJOR SIMPLIFICATION:\n- Remove complex useFreeAddonsByVoucherCode hook (2 API calls)\n- Extract free addon info directly from existing useVoucherInfo call\n- Add hasFreeAddon and freeAddonLifetime to VoucherBenefitContent interface\n- Check discount_settings.additional_discounts.benefit_category === 'free-addon'\n- Get lifetime directly from voucher response\n\nBENEFITS:\n- ✅ No extra API calls (reuse existing voucher data)\n- ✅ Simpler logic and dependencies\n- ✅ Faster performance (no menu API call)\n- ✅ Same functionality with cleaner code\n- ✅ Easier to maintain and debug\n\nThis answers the user's question about 'easier way' - much simpler!\n\n[Cursor_Code]\n\n* fix(GOC-3193): correct free addon lifetime values\n\n- Use actual voucher lifetime values: 'Static' and 'unlimited'\n- 'Static' = free cut for a year\n- 'unlimited' = free cut for life\n- Update TypeScript interface to reflect correct possible values\n- Fix dynamic messaging to use correct voucher data values\n\nThanks for the correction on the actual API response values!\n\n[Cursor_Code]\n\n* refactor(GOC-3193): use contentful freeCutBenefit for free addon vouchers\n\n- Replace hardcoded free addon messages with contentful freeCutBenefit entry\n- Simplify logic: if voucher has free addon, show contentful content\n- Remove lifetime-specific message generation (Static/Unlimited)\n- Fix capitalization: 'unlimited' -> 'Unlimited'\n- Cleaner approach: let content team manage messaging via Contentful\n\nBenefits:\n- Content team can control messaging without code changes\n- Consistent with existing content management approach\n- Simpler logic and maintenance\n- Better separation of concerns\n\n[Cursor_Code]\n\n* fix(GOC-3193): resolve TODOs - use dynamic currency and locale\n\n- Add useCurrencyCode and useSelectedLocale hooks\n- Replace hardcoded 'USD' with dynamic currencyCode from app context\n- Replace hardcoded 'en-US' with dynamic locale from app context\n- Update useMemo dependencies to include currencyCode and locale\n- Now supports multiple currencies/locales automatically\n\n✅ TODOs resolved - proper internationalization support\n\n[Cursor_Code]\n\n* test(GOC-3193): update DeliveryFrequency tests for voucher integration\n\n- Add mocks for new voucher hooks: useVoucherBenefitContent, useCurrencyCode, useSelectedLocale\n- Add mock for useStoredVoucher hook\n- Add comprehensive voucher integration test cases:\n  * Voucher discount display\n  * Free addon benefit for Unlimited lifetime\n  * Free addon benefit for Static lifetime\n  * Fallback to static content when no voucher\n- Fix ESLint warnings with proper jest.mocked usage\n- Ensure test coverage for all new voucher functionality\n\nTests now properly validate voucher state integration behavior.\n\n[Cursor_Code]\n\n* Update DeliveryFrequency.spec.tsx\n\n* Update useVoucherBenefitContent.ts\n\n* feat: implement delivery frequency options for one-time purchase MVP\n\n- Add OneTimeOption and SubscribeOption components with pricing display\n- Update DeliveryFrequency main component with enhanced option handling\n- Implement usePricing hook for dynamic pricing calculations\n- Update component types and test coverage\n- Enhance PlansPageMonthlySubscription tests for new functionality\n\n[Cursor_Code]\n\n* Update useOptionContent.ts\n\n* Update usePricing.ts",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-03T10:58:11Z",
+      "url": "https://github.com/hellofresh/web/commit/935f6709f46710fbff381d61ae5ea6577765ec90",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "1d1c3eea",
+      "message": "[TPT-2245] refactor ftfl helper functions (#59871)\n\n* moved selector to add-ons selector files\n\n* moved locators to dashboard locs file\n\n* TPT-2245 refactor ftfl helper functions\n\n* fixed name of tests",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-03T10:54:08Z",
+      "url": "https://github.com/hellofresh/web/commit/1d1c3eea08ca16fd35fb35eeadf606c02179bac5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "cc5efbe2",
+      "message": "[TPT-2235] Re-organized PlansPrice component for re-usability (#59780)\n\n* [TPT-2235] Re-organized PlansPrice component for re-usability\n\n* [TPT-2235] Fix test mock path for PlansPrice component\n\n* [TPT-2235] Fix PlanCardV2 test mock path for PlansPrice\n\n* [TPT-2235] Add accessibility improvements with ARIA labels for price components",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-03T09:56:41Z",
+      "url": "https://github.com/hellofresh/web/commit/cc5efbe21808394fde9e1147cecc428e9baa1721",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "05e13476",
+      "message": "[TPT-2245] Move free treats for life helper functions back to test folder (#59753)\n\n* TPT-2245 move ftfl helper functions back to test",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-03T08:39:08Z",
+      "url": "https://github.com/hellofresh/web/commit/05e13476d83ff2d875e019f7b4c26c88494a5870",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "3ebf960b",
+      "message": "[RTEVMS-2193] Factor Form | calculate prices migration on cart and checkout (#59705)\n\n* feat(RTEVMS-2193): separated feature flag for calculate prices\n\nfeat(RTEVMS-2193): added improvements to simplify and reuse logic\n\nfeat(RTEVMS-2193): fix aggregate calculations in batch pricing migration\n\n- Calculate subTotal, grandTotal, discountAmount from product array\n- Batch API only returns per-product data, aggregates must be computed\n- Fixes $0.00 cart subtotal display issue\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\ntest(RTEVMS-2193): add comprehensive tests for migration hook\n\n- Add 16 tests for useCalculatedPricesWithMigration covering:\n  - Feature flag states (enabled/disabled/not ready)\n  - CustomerID override behavior\n  - Batch response transformation\n  - Aggregate calculations\n  - Loading states and edge cases\n- Update useGetProductPagePricing tests to mock migration hook\n- All tests passing (22 total)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\nfeat(RTEVMS-2193): improvements on the price calculation to avoid re-renders\n\n* feat(RTEVMS-2193): added improvements to simplify and reuse logic",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-10-31T20:36:31Z",
+      "url": "https://github.com/hellofresh/web/commit/3ebf960b60d6040c6a9cc0449c1c8d0633fef9ba",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f3dcd6b5",
+      "message": "[RTEVMS-2177] Factor Form | Leads Capture: Disabled CTA state (#59838)\n\n* fix disabled CTA state and Terms link\n\n* fix a11y compliance for visited link",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-10-31T19:35:29Z",
+      "url": "https://github.com/hellofresh/web/commit/f3dcd6b51cce517e97369c3ee07a9444f8bf1a68",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "49579251",
+      "message": "[GOC-3312] Adds config file to enable MR reactivation e2e (#59806)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-10-31T14:05:36Z",
+      "url": "https://github.com/hellofresh/web/commit/495792514a85fe0c6a87d296f61b76e2e58b670b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "1461517c",
+      "message": "TPT-2150 - add contentful keys (#59778)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-10-31T13:29:18Z",
+      "url": "https://github.com/hellofresh/web/commit/1461517cf10c008edac80aaf504ec5bbe6024ca9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "f2d2b382",
+      "message": "[GOC-3316] Uses mss instead of mas (#59775)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-10-31T10:37:42Z",
+      "url": "https://github.com/hellofresh/web/commit/f2d2b38245d48a5243a7755daee994a0e275f621",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "6a00dcb7",
+      "message": "[RTEVMS-2235] Factor Form | OTP: Order Summary UI Updates (#59750)\n\n* add otp products\n\n* Add OTP related copy/titles for order summary\n\n* Add BAU copy and fix divider margins\n\n* update unit tests\n\n* fix cursor-ism\n\n* add a11y compliance\n\n* fix freebies section\n\n* fix gaps/headings",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-10-30T20:11:52Z",
+      "url": "https://github.com/hellofresh/web/commit/6a00dcb7a6a0a0dfde00f82e96e3dbe392499398",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-10-30T20:11:52Z",
+    "newest": "2025-11-04T13:46:06Z"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "batch_id": "spreadsheet_040",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "2025 HelloTech OKR management tool",
+      "doc_id": "1jdRyu6eoWAyossWaGCbXEu_rrmuxWWRWni5Mzy2FLBM",
+      "doc_type": "spreadsheet",
+      "purpose": "Unable to determine - spreadsheet content could not be read due to timeout error",
+      "data_type": "planning",
+      "key_data_points": [
+        "Document title indicates '2025 HelloTech OKR management tool'",
+        "Spreadsheet read operation timed out - no actual data extracted"
+      ],
+      "entities": [
+        {
+          "name": "HelloTech",
+          "type": "system",
+          "context": "OKR management tool owner/team - appears in document title and email group references"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company - multiple employees sending emails, Berlin-based organization"
+        },
+        {
+          "name": "Karolina Zak",
+          "type": "person",
+          "context": "Senior Product Owner II departing after nearly a decade, farewell email sent"
+        },
+        {
+          "name": "Konstantin Rohleder",
+          "type": "person",
+          "context": "Lead Technical Program Manager managing Roadrunner deprecation project"
+        },
+        {
+          "name": "Roadrunner",
+          "type": "system",
+          "context": "Service being deprecated - copies data from Bob database to S3, part of monolith deprecation effort"
+        },
+        {
+          "name": "Bob database",
+          "type": "system",
+          "context": "Source database containing PII and non-PII tables (customer, subscription, sales_order data)"
+        },
+        {
+          "name": "Betterworks",
+          "type": "system",
+          "context": "Platform used for EoY Check-In responses and performance management"
+        }
+      ],
+      "insights": [
+        "The actual OKR spreadsheet data is unavailable due to technical read timeout",
+        "HelloFresh is undergoing significant technical transformation with monolith deprecation",
+        "Data migration from Roadrunner/Bob to new sources (Kafka topics) is in discovery phase",
+        "Organization uses multiple tools: Betterworks for performance management, custom OKR tools",
+        "Company experiencing personnel transitions (departures after long tenures)",
+        "Cross-functional coordination needed for infrastructure changes affecting multiple teams"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:21:34.782452"
+}

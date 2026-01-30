@@ -1,0 +1,180 @@
+{
+  "batch_id": "github_0013",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-11-20T14:20:59Z",
+    "newest": "2025-11-24T13:26:35Z"
+  },
+  "analyzed_at": "2026-01-02T15:37:55.510078",
+  "changes_summary": "These commits primarily focus on feature development and refactoring across multiple product teams (TPT, GOC, RTEVMS). Major themes include Contentful CMS integration for product content management, pricing and checkout improvements including OTP (One-Time Purchase) functionality, React 18 compatibility fixes, and code consolidation efforts to reduce technical debt.",
+  "features": [
+    {
+      "name": "OTP Statsig Event Tracking",
+      "description": "Implements Statsig event tracking on checkout success for One-Time Purchase orders",
+      "commits": [
+        "4f3583cd"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Portion Percentage Experiment",
+      "description": "Integrates tpt_portion_percentage experiment flag with Contentful keys for dynamic portion sizing",
+      "commits": [
+        "8d821bb4",
+        "1a3530be"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Price Per Serving Display",
+      "description": "Adds price per serving calculations and display in reactivation pricing hook",
+      "commits": [
+        "d5716244",
+        "7eab3ebe"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Cart Surcharge Integration",
+      "description": "Adds surcharge value handling into cart service function adapter",
+      "commits": [
+        "9e355c78"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "OTP Order Summary Logic",
+      "description": "Implements order summary logic for Factor Form One-Time Purchase flow",
+      "commits": [
+        "9cd913c0"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Redirections",
+      "description": "Adds new URL redirection rules",
+      "commits": [
+        "017820f9"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Dictionaries Feature",
+      "description": "Implements dictionaries functionality for TPT product",
+      "commits": [
+        "28f912b4"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Box Model Builder",
+      "description": "Initial setup of kn-box-model-builder component",
+      "commits": [
+        "61d2dffe"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Remove hardcoded delivery interval",
+      "rationale": "Make delivery intervals dynamic rather than hardcoded values",
+      "ticket": "RTEVMS-2301"
+    },
+    {
+      "what": "Deprecate WL useFormattedCurrency util",
+      "rationale": "Consolidate currency formatting utilities to reduce duplication",
+      "ticket": "TPT-2357"
+    },
+    {
+      "what": "Consolidate product family types for PetsTable",
+      "rationale": "Standardize type definitions across pet product components",
+      "ticket": "TPT-2357"
+    },
+    {
+      "what": "Update delivery source for reschedule delivery CDPS payload",
+      "rationale": "Correct the source attribution for delivery rescheduling events",
+      "ticket": "TPT-2259"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Multipet checkout test",
+      "reason": "Improve test structure and maintainability",
+      "impact": "Testing infrastructure for multipet checkout flow"
+    },
+    {
+      "area": "Constants organization",
+      "reason": "Better code organization and maintainability",
+      "impact": "TPT-2333 related constant definitions"
+    },
+    {
+      "area": "Product family types consolidation",
+      "reason": "Reduce type duplication and improve consistency",
+      "impact": "PetsTable component and related pet product features"
+    },
+    {
+      "area": "Currency formatting utilities",
+      "reason": "Eliminate deprecated utility in favor of standardized approach",
+      "impact": "All components using WL useFormattedCurrency"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "React 18 hydration Suspense boundary error",
+      "ticket": "TPT-2375"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "Multiple updates for content keys including entry names, portion percentages, key ingredients, and descriptions"
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Event tracking integration for OTP checkout success"
+    },
+    {
+      "name": "CDPS",
+      "type": "system",
+      "context": "Payload updates for delivery rescheduling events"
+    },
+    {
+      "name": "Cart Service",
+      "type": "api",
+      "context": "Enhanced with surcharge value handling"
+    },
+    {
+      "name": "PetsTable",
+      "type": "component",
+      "context": "Type consolidation and standardization"
+    },
+    {
+      "name": "Factor Form",
+      "type": "feature",
+      "context": "OTP order summary logic implementation"
+    },
+    {
+      "name": "Reactivation Pricing",
+      "type": "feature",
+      "context": "Enhanced with price per serving calculations"
+    },
+    {
+      "name": "Box Model Builder",
+      "type": "component",
+      "context": "Initial setup for kn-box-model-builder"
+    }
+  ],
+  "key_patterns": [
+    "Heavy use of feature flags for gradual rollout (tpt_portion_percentage experiment)",
+    "Contentful CMS integration pattern for dynamic content management across multiple features",
+    "Separation of pricing logic with dedicated hooks (useReactivationPricing)",
+    "Event-driven architecture with Statsig for analytics tracking",
+    "Adapter pattern for service integration (cart service function adapter)",
+    "Progressive migration from hardcoded values to dynamic configuration",
+    "Type consolidation efforts to reduce technical debt",
+    "React 18 compatibility updates addressing hydration issues"
+  ]
+}

@@ -1,0 +1,1054 @@
+{
+  "batch_id": "C06CE7FB951_1757576322.519819",
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "message_count": 16,
+  "thread_count": 16,
+  "avg_importance": 86.125,
+  "tag_summary": {
+    "notable": 11,
+    "action": 5,
+    "question": 4,
+    "discussion": 4,
+    "update": 1,
+    "blocker": 1,
+    "high_engagement": 1
+  },
+  "time_range": {
+    "start": "1757576322.519819",
+    "end": "1764161384.532319"
+  },
+  "messages": [
+    {
+      "ts": "1757576322.519819",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Since I’m not getting really better I visited a doctor this morning and received a sick leave until the end of this week. Hope I’ll be back on track next week.",
+      "raw_text": "Since I’m not getting really better I visited a doctor this morning and received a sick leave until the end of this week. Hope I’ll be back on track next week.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "notable"
+      ],
+      "importance": 85,
+      "reply_count": 5,
+      "reactions": [
+        {
+          "name": "take-care",
+          "users": [
+            "U7SJ525DE",
+            "U01KNE98YLR",
+            "U02BA3VS7H8",
+            "U0MBX09UZ",
+            "UFE79GKFC",
+            "U01U67XD681",
+            "U02DM3WK0NL",
+            "U01PE2S4ZL6",
+            "U0251UW1YUE",
+            "U044SKGT4R5",
+            "U2D54V0UV",
+            "U03UN2C25UL",
+            "U01TQGXG9D3",
+            "U08AXBW1CAZ",
+            "U03UMPD2NNS",
+            "U0958HM93B3",
+            "U03EN3N4KM4"
+          ],
+          "count": 17
+        },
+        {
+          "name": "getwellsoon",
+          "users": [
+            "U02BA3VS7H8",
+            "U2D54V0UV",
+            "U03UN2C25UL",
+            "U08AXBW1CAZ",
+            "U0958HM93B3"
+          ],
+          "count": 5
+        },
+        {
+          "name": "heal",
+          "users": [
+            "U08AXBW1CAZ"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1757576322.519819",
+      "thread_replies": [
+        {
+          "ts": "1757577314.641189",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Hope you feel better soon Max :pray:"
+        },
+        {
+          "ts": "1757582296.848589",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "take care max!"
+        },
+        {
+          "ts": "1757582394.186609",
+          "user": "U044SKGT4R5",
+          "user_name": "U044SKGT4R5",
+          "text": "Hope you feel better v soon Max :four_leaf_clover:"
+        },
+        {
+          "ts": "1757585623.757969",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Get well soon Max :four_leaf_clover:"
+        },
+        {
+          "ts": "1757591732.951749",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Feel better soon, Max :blobheart:"
+        }
+      ]
+    },
+    {
+      "ts": "1757663611.893239",
+      "user": "U0MBX09UZ",
+      "user_name": "U0MBX09UZ",
+      "text": "hi team, can someone please access to their live HF account and navigate to different menus? I'm getting an internet connection error screen and I'm not sure if it's a local problem or a bug on the website",
+      "raw_text": "hi team, can someone please access to their live HF account and navigate to different menus? I'm getting an internet connection error screen and I'm not sure if it's a local problem or a bug on the website",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 86,
+      "reply_count": 3,
+      "reactions": [],
+      "thread_ts": "1757663611.893239",
+      "thread_replies": [
+        {
+          "ts": "1757664124.830469",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "thx, maybe it's just me"
+        }
+      ]
+    },
+    {
+      "ts": "1757687351.569429",
+      "user": "U0958HM93B3",
+      "user_name": "U0958HM93B3",
+      "text": "Thank you to everyone for making my time at HF great",
+      "raw_text": "Thank you to everyone for making my time at HF great",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "notable"
+      ],
+      "importance": 74,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "kim-cry",
+          "users": [
+            "U03UN2C25UL",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3"
+          ],
+          "count": 3
+        },
+        {
+          "name": "crying-flork",
+          "users": [
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1757687351.569429",
+      "thread_replies": [
+        {
+          "ts": "1757687573.992699",
+          "user": "U03UN2C25UL",
+          "user_name": "U03UN2C25UL",
+          "text": "We’re gonna miss you, Troy! :sob: \nIt was great working with you. We didn’t get the chance to work directly together but from what I’ve seen and heard you had a positive impact in Good Chop even in the short amount of time the team had with you.\nI hope you continue to build cool things and that perhaps you get to come back to HF someday.\nI wish you all the best :two_hearts: "
+        },
+        {
+          "ts": "1757688223.905449",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "Bye Troy! It was very nice working with you\nHope we can work together again.\nAll the best to you going back to classes :nerdge:"
+        }
+      ]
+    },
+    {
+      "ts": "1757920974.375439",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Morning. I generally feel better, but still not healthy enough. :disappointed: \nDid some med tests and got another sick note up to Thursday. Hopefully, the tests won’t show anything serious and I will be back soon!",
+      "raw_text": "Morning. I generally feel better, but still not healthy enough. :disappointed: \nDid some med tests and got another sick note up to Thursday. Hopefully, the tests won’t show anything serious and I will be back soon!",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W37",
+      "tags": [
+        "notable"
+      ],
+      "importance": 93,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "feel-better-soon",
+          "users": [
+            "U7SJ525DE",
+            "U0251UW1YUE",
+            "U0184T48L74",
+            "U02BA3VS7H8",
+            "U01KNE98YLR",
+            "U08AXBW1CAZ",
+            "U044SKGT4R5",
+            "U03UN2C25UL",
+            "U01U67XD681",
+            "U2D54V0UV",
+            "U01TQGXG9D3",
+            "U01DE9ENHG9",
+            "U02P4F23YJ0"
+          ],
+          "count": 13
+        },
+        {
+          "name": "take-care",
+          "users": [
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U03UN2C25UL",
+            "U01U67XD681",
+            "U2D54V0UV"
+          ],
+          "count": 5
+        }
+      ],
+      "thread_ts": "1757920974.375439",
+      "thread_replies": [
+        {
+          "ts": "1757921194.375029",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "hope you feel better soon Max!"
+        },
+        {
+          "ts": "1757921300.282319",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "I hope you have a speedy recovery, Max"
+        },
+        {
+          "ts": "1757921396.203779",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "take care max! get well soon!"
+        },
+        {
+          "ts": "1758005814.611979",
+          "user": "U02P4F23YJ0",
+          "user_name": "U02P4F23YJ0",
+          "text": "Take care Max, wish you a speedy recovery"
+        }
+      ]
+    },
+    {
+      "ts": "1758513259.929739",
+      "user": "UE4HG114J",
+      "user_name": "UE4HG114J",
+      "text": "Morning. My wife’s close relatelive has deceased. She will need my support so I will be often away from laptop.",
+      "raw_text": "Morning. My wife’s close relatelive has deceased. She will need my support so I will be often away from laptop.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [
+        "discussion",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 8,
+      "reactions": [
+        {
+          "name": "cry",
+          "users": [
+            "U027201FQSV",
+            "U02BA3VS7H8",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3",
+            "U03UN2C25UL",
+            "U03UMPD2NNS"
+          ],
+          "count": 6
+        },
+        {
+          "name": "pray",
+          "users": [
+            "U01PE2S4ZL6",
+            "UEZ4PRFKM"
+          ],
+          "count": 2
+        },
+        {
+          "name": "pray::skin-tone-3",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1758513259.929739",
+      "thread_replies": [
+        {
+          "ts": "1758524467.212029",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "I'm so sorry about that, Max :disappointed: Hoping your wife and you can feel a bit better soon :pray:"
+        },
+        {
+          "ts": "1758524739.837359",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "so sorry for your loss Max"
+        },
+        {
+          "ts": "1758524895.148119",
+          "user": "U0251UW1YUE",
+          "user_name": "U0251UW1YUE",
+          "text": "sorry about that max"
+        },
+        {
+          "ts": "1758525719.137769",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "sorry for your loss, Max"
+        },
+        {
+          "ts": "1758527897.656389",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Sorry for your loss Max, hope the family is ok"
+        },
+        {
+          "ts": "1758529403.601539",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Sorry to hear that Max :sad-cowboy:"
+        },
+        {
+          "ts": "1758530554.456779",
+          "user": "U03UN2C25UL",
+          "user_name": "U03UN2C25UL",
+          "text": "I'm so sorry, Max :disappointed:"
+        }
+      ]
+    },
+    {
+      "ts": "1758531895.314279",
+      "user": "U01TQGXG9D3",
+      "user_name": "U01TQGXG9D3",
+      "text": ":fyi:\nhttps://hellofresh.slack.com/archives/C09362SJGCU/p1758531790579919\nThe R16 ground floor desks are repurposed for 2 months (launching and supporting Factor and Youfoodz on the unified app)\nThe meeting rooms will be available as usual.",
+      "raw_text": ":fyi:\n<https://hellofresh.slack.com/archives/C09362SJGCU/p1758531790579919>\nThe R16 ground floor desks are repurposed for 2 months (launching and supporting Factor and Youfoodz on the unified app)\nThe meeting rooms will be available as usual.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W38",
+      "tags": [
+        "update"
+      ],
+      "importance": 69,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U03TY4YJU4X"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1758531895.314279",
+      "thread_replies": [
+        {
+          "ts": "1758608828.976479",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Like I mentioned in standup yesterday, quick reminder that I will be working from here most of this week and next to support the team with the ABBA launch :rocket:"
+        }
+      ]
+    },
+    {
+      "ts": "1759332664.442499",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":alert2: *Important*: Please fill out the party planning form *https://docs.google.com/forms/d/e/1FAIpQLSddMqVisE1LtyEkOTJPC06M0zlPGG2Zc-SnKlMLI45efkcuhQ/viewform?usp=sharing&amp;ouid=115542537507506428494* created by @U01AKGWGLC8 - I expect that the number of submissions = number of NVE team member :stuck_out_tongue:",
+      "raw_text": ":alert2: *Important*: Please fill out the party planning form *<https://docs.google.com/forms/d/e/1FAIpQLSddMqVisE1LtyEkOTJPC06M0zlPGG2Zc-SnKlMLI45efkcuhQ/viewform?usp=sharing&amp;ouid=115542537507506428494|here>* created by <@U01AKGWGLC8> - I expect that the number of submissions = number of NVE team member :stuck_out_tongue:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W40",
+      "tags": [
+        "blocker",
+        "action",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 1,
+      "reactions": [],
+      "thread_ts": "1759332664.442499",
+      "thread_replies": [
+        {
+          "ts": "1759332831.275229",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "andddd still looking for some volunteers which said yes but whose emails were not collected\n\njoin us over at -&gt;&gt;&gt;&gt; <#C09J6DRDEHY|> :frogyay:"
+        }
+      ]
+    },
+    {
+      "ts": "1759907232.386429",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Team, my MacBook has been updated to 26.0.1 last night and can’t connect to the network anymore (both WiFi and hotspot). Have you faced the same issue?",
+      "raw_text": "Team, my MacBook has been updated to 26.0.1 last night and can’t connect to the network anymore (both WiFi and hotspot). Have you faced the same issue?",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W41",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 84,
+      "reply_count": 7,
+      "reactions": [],
+      "thread_ts": "1759907232.386429",
+      "thread_replies": [
+        {
+          "ts": "1759907938.215689",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "I have macOS Sonoma 14.7.5 :thinking_face:"
+        },
+        {
+          "ts": "1759909173.025469",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "I am on MacOS Sequoia 15.6.1 and no problems on my end."
+        },
+        {
+          "ts": "1759909424.957849",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "@U027201FQSV I'm on 26.0.1 and no issues here"
+        },
+        {
+          "ts": "1759909451.548139",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "It happens sometime because o the sentinel app that it takes a few minutes for the internet to kick in, but that was even before the updated"
+        },
+        {
+          "ts": "1759910151.858679",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Trying to connect for an hour and no success…"
+        },
+        {
+          "ts": "1759916525.470629",
+          "user": "U01PE2S4ZL6",
+          "user_name": "U01PE2S4ZL6",
+          "text": "I'm on 15.4 rn. I was experiencing similar issues regularly, but it usually took 10-15min. This week however didn't notice it anymore. (I suspect jamf, but who knows :shrug:)"
+        },
+        {
+          "ts": "1759920879.408819",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Fixed by IT Helpdesk now :white_check_mark: There was a VPN conflict"
+        }
+      ]
+    },
+    {
+      "ts": "1761127432.176599",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "Hey team, if there's anyone that didn't get an invite to the TAM AHM tomorrow at 4pm let me know",
+      "raw_text": "Hey team, if there's anyone that didn't get an invite to the TAM AHM tomorrow at 4pm let me know",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W43",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 85,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "woman-raising-hand::skin-tone-3",
+          "users": [
+            "U044SKGT4R5",
+            "U03UMPD2NNS"
+          ],
+          "count": 2
+        },
+        {
+          "name": "woman-raising-hand::skin-tone-4",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "man-raising-hand::skin-tone-3",
+          "users": [
+            "U01KPB90WQM"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1761127432.176599",
+      "thread_replies": [
+        {
+          "ts": "1761155520.331449",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Thanks Ahmed, reminder for @U03TY4YJU4X and I to review our group aliases :eyes:"
+        }
+      ]
+    },
+    {
+      "ts": "1761660429.654359",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "Hey team, if you can, ~come to~ support @U03EN3N4KM4 and @U01AKGWGLC8 at HelloTech Demo Session today :goodchop_fan:\n\nThe team will present via Google Meet.",
+      "raw_text": "Hey team, if you can, ~come to~ support <@U03EN3N4KM4> and <@U01AKGWGLC8> at HelloTech Demo Session today :goodchop_fan:\n\nThe team will present via Google Meet.",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W44",
+      "tags": [
+        "notable"
+      ],
+      "importance": 74,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "partying_face",
+          "users": [
+            "U08AXBW1CAZ",
+            "U0184T48L74",
+            "U01PE2S4ZL6",
+            "U03UMPD2NNS",
+            "U02BA3VS7H8",
+            "U044SKGT4R5"
+          ],
+          "count": 6
+        }
+      ],
+      "thread_ts": "1761660429.654359",
+      "thread_replies": [
+        {
+          "ts": "1761660476.096389",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "looking at the agenda we might not make it this session but let's see :smile:"
+        }
+      ]
+    },
+    {
+      "ts": "1762172950.284089",
+      "user": "U0MBX09UZ",
+      "user_name": "U0MBX09UZ",
+      "text": "hi team, i'm going to be leaving this channel soon :waveboi:  it has been an absolute please working with you all! I moved from HF growth to the everyplate team a bit more than 6 years ago, and it's amazing to see how the website and RN app of a small brand became multi-brand platforms for extremely successful markets and verticals, and how a 10-people team became a 50 people tribe :star2: I'm going to be working on something different, but still part of the bigger Consumer alliance. Please ping me if there's anything I can support you with :hugging_face:",
+      "raw_text": "hi team, i'm going to be leaving this channel soon :waveboi:  it has been an absolute please working with you all! I moved from HF growth to the everyplate team a bit more than 6 years ago, and it's amazing to see how the website and RN app of a small brand became multi-brand platforms for extremely successful markets and verticals, and how a 10-people team became a 50 people tribe :star2: I'm going to be working on something different, but still part of the bigger Consumer alliance. Please ping me if there's anything I can support you with :hugging_face:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W45",
+      "tags": [
+        "action",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "cry",
+          "users": [
+            "U027201FQSV",
+            "U7SJ525DE",
+            "U02KQF884CT",
+            "U03UN2C25UL",
+            "UJ182DUEN",
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U03EN3N4KM4",
+            "U03UMPD2NNS",
+            "U01TQGXG9D3",
+            "U01U67XD681",
+            "U0184T48L74",
+            "UEZ4PRFKM",
+            "U0251UW1YUE"
+          ],
+          "count": 14
+        },
+        {
+          "name": "handsome-fede",
+          "users": [
+            "U027201FQSV",
+            "U03UN2C25UL",
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U02DM3WK0NL",
+            "UEZ4PRFKM",
+            "U01DE9ENHG9",
+            "U0251UW1YUE"
+          ],
+          "count": 8
+        },
+        {
+          "name": "kim-cry",
+          "users": [
+            "U03UN2C25UL",
+            "U8F7ZDAPM",
+            "U7SJ525DE",
+            "U01TQGXG9D3"
+          ],
+          "count": 4
+        },
+        {
+          "name": "broken_heart",
+          "users": [
+            "U03UN2C25UL",
+            "UJ182DUEN",
+            "U8F7ZDAPM",
+            "UE4HG114J",
+            "U2D54V0UV",
+            "U03UMPD2NNS",
+            "U0251UW1YUE"
+          ],
+          "count": 7
+        },
+        {
+          "name": "lovely-fede",
+          "users": [
+            "U8F7ZDAPM",
+            "U2D54V0UV",
+            "U03UN2C25UL"
+          ],
+          "count": 3
+        },
+        {
+          "name": "thanks2u",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1762172950.284089",
+      "thread_replies": [
+        {
+          "ts": "1762173092.681199",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Fede, it's always the pleasure working with you :hugging_face:\n\nYou have played a huge role in the success of this group of people! :ty:\n\nWe will be in touch :teamwork-highfive:"
+        }
+      ]
+    },
+    {
+      "ts": "1762768886.199539",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks, wanted to congratulate @U07VDFEFBQU with 1 year at HF anniversary! :celebrate: Deo has had a long way to arrive fully in Berlin, but I can't be happier that eventually he overcame German paperwork and was able to contribute massively to: Good Chop E-Commerce, Funnel, OTP among a ton of other topics handled throughout the year! Happy to have you onboard! :woo:",
+      "raw_text": "Hey folks, wanted to congratulate <@U07VDFEFBQU> with 1 year at HF anniversary! :celebrate: Deo has had a long way to arrive fully in Berlin, but I can't be happier that eventually he overcame German paperwork and was able to contribute massively to: Good Chop E-Commerce, Funnel, OTP among a ton of other topics handled throughout the year! Happy to have you onboard! :woo:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W45",
+      "tags": [
+        "notable"
+      ],
+      "importance": 93,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "blobheart",
+          "users": [
+            "U03UN2C25UL",
+            "U08AXBW1CAZ",
+            "U0184T48L74",
+            "U087178ACSD",
+            "U01TQGXG9D3",
+            "U029EJGH6FR",
+            "U2D54V0UV",
+            "U01DE9ENHG9",
+            "U02DM3WK0NL",
+            "U03UMPD2NNS",
+            "U02BA3VS7H8"
+          ],
+          "count": 11
+        },
+        {
+          "name": "two_hearts",
+          "users": [
+            "U03UN2C25UL",
+            "U08AXBW1CAZ",
+            "U01TQGXG9D3",
+            "U2D54V0UV",
+            "U02DM3WK0NL",
+            "U03UMPD2NNS",
+            "U02BA3VS7H8"
+          ],
+          "count": 7
+        },
+        {
+          "name": "frogyay",
+          "users": [
+            "U08AXBW1CAZ",
+            "U02P4F23YJ0",
+            "UE4HG114J",
+            "U087178ACSD",
+            "U01TQGXG9D3",
+            "U03EN3N4KM4",
+            "U02KQF884CT",
+            "U02DM3WK0NL",
+            "U01AKGWGLC8",
+            "U02BA3VS7H8"
+          ],
+          "count": 10
+        },
+        {
+          "name": "partying_face",
+          "users": [
+            "U05BNQPJX4K",
+            "U02DM3WK0NL",
+            "U02BA3VS7H8"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": "1762768886.199539",
+      "thread_replies": [
+        {
+          "ts": "1762771069.240949",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Congratulations, Deo!! :excited-charmander:"
+        },
+        {
+          "ts": "1762771862.353919",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Congrats Deo :clapping: :tada-confetti:"
+        },
+        {
+          "ts": "1762778897.331729",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Thanks for the shoutout Nikita, and thank you all! What a roller coaster but happy to finally be part of the team in Berlin :slightly_smiling_face:"
+        },
+        {
+          "ts": "1762852680.029659",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Crazy that is has been a year already! Congrats Deo!"
+        }
+      ]
+    },
+    {
+      "ts": "1763048278.308789",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "Hey team, we finally got an update regarding Christmas time off :tada: https://hellofresh.slack.com/archives/C31DQS265/p1763048119629029",
+      "raw_text": "Hey team, we finally got an update regarding Christmas time off :tada: <https://hellofresh.slack.com/archives/C31DQS265/p1763048119629029>",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W46",
+      "tags": [
+        "notable"
+      ],
+      "importance": 74,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "yay",
+          "users": [
+            "U02KQF884CT",
+            "U03TY4YJU4X",
+            "U01PE2S4ZL6"
+          ],
+          "count": 3
+        },
+        {
+          "name": "xmasblob",
+          "users": [
+            "U03EN3N4KM4",
+            "U03TY4YJU4X",
+            "U01PE2S4ZL6"
+          ],
+          "count": 3
+        }
+      ],
+      "thread_ts": "1763048278.308789",
+      "thread_replies": [
+        {
+          "ts": "1763051073.187119",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "&gt; As a special recognition of everyone’s incredible effort and commitment throughout 2025"
+        }
+      ]
+    },
+    {
+      "ts": "1763103605.472799",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Huge congratulations to @U03UMPD2NNS on her birthday! :celebrate: Maria has been a unbelievable contributor to the success of The Pets Table, a true partner in crime for her team and I hope everyone will join me in congratulating her on her Birthday! :woo:",
+      "raw_text": "Huge congratulations to <@U03UMPD2NNS> on her birthday! :celebrate: Maria has been a unbelievable contributor to the success of The Pets Table, a true partner in crime for her team and I hope everyone will join me in congratulating her on her Birthday! :woo:",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W46",
+      "tags": [
+        "discussion",
+        "notable"
+      ],
+      "importance": 100,
+      "reply_count": 7,
+      "reactions": [
+        {
+          "name": "partying_face",
+          "users": [
+            "U03EN3N4KM4",
+            "U08AXBW1CAZ",
+            "UJ182DUEN",
+            "U087178ACSD",
+            "U0184T48L74",
+            "U03UMPD2NNS",
+            "U01KNE98YLR",
+            "U01U67XD681",
+            "U044SKGT4R5",
+            "U7SJ525DE",
+            "U03QCR5AT6U"
+          ],
+          "count": 11
+        },
+        {
+          "name": "frogyay",
+          "users": [
+            "U08AXBW1CAZ",
+            "UJ182DUEN",
+            "U087178ACSD",
+            "U01U67XD681",
+            "U044SKGT4R5"
+          ],
+          "count": 5
+        },
+        {
+          "name": "blob_lurv",
+          "users": [
+            "U03UMPD2NNS",
+            "U023F53GS21"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1763103605.472799",
+      "thread_replies": [
+        {
+          "ts": "1763103901.644979",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "Happy birthday Maria :partying_face:"
+        },
+        {
+          "ts": "1763107784.992319",
+          "user": "UJ182DUEN",
+          "user_name": "UJ182DUEN",
+          "text": "Happy bday Maria"
+        },
+        {
+          "ts": "1763109538.230979",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Thank you all! :heart:"
+        },
+        {
+          "ts": "1763110887.099849",
+          "user": "U01KNE98YLR",
+          "user_name": "U01KNE98YLR",
+          "text": "Happy Birthday:partying_face:"
+        },
+        {
+          "ts": "1763111548.283309",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Happy B-day Maria! :tada-confetti: :birthday-party:"
+        },
+        {
+          "ts": "1763116669.621319",
+          "user": "U02DM3WK0NL",
+          "user_name": "U02DM3WK0NL",
+          "text": "Happy birthday!!!!"
+        },
+        {
+          "ts": "1763117478.377369",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Birthday wishes! :cakeparrot:"
+        }
+      ]
+    },
+    {
+      "ts": "1763116701.025499",
+      "user": "U02DM3WK0NL",
+      "user_name": "U02DM3WK0NL",
+      "text": "Hey, does anyone know the names of the Contentful spaces used for HelloFresh Web and HelloFresh App?",
+      "raw_text": "Hey, does anyone know the names of the Contentful spaces used for HelloFresh Web and HelloFresh App?",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W46",
+      "tags": [
+        "question"
+      ],
+      "importance": 61,
+      "reply_count": 3,
+      "reactions": [],
+      "thread_ts": "1763116701.025499",
+      "thread_replies": [
+        {
+          "ts": "1763117072.517929",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "I dont think they use contentful, just Applanga and Localize"
+        },
+        {
+          "ts": "1763117265.193169",
+          "user": "U02DM3WK0NL",
+          "user_name": "U02DM3WK0NL",
+          "text": "hmmmmmm :thinking_face: , ok so they maybe use it only for Landing Pages"
+        }
+      ]
+    },
+    {
+      "ts": "1764161384.532319",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "@here Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please https://forms.gle/RfCcPCZ2yFRk3Nxg8\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026",
+      "raw_text": "<!here> Hey New Ventures Team,\n\nWe are looking to get some new swag with updated designs for the team and want to get accurate sizes for our team members across Berlin and Toronto offices. Could everyone submit this one-question survey please <https://forms.gle/RfCcPCZ2yFRk3Nxg8>\n\nFor the Canadian folks, im looking to bring these with me mid Dec if they come in time, else we will be bringing them over early 2026",
+      "channel_id": "C06CE7FB951",
+      "channel_name": "tribe-new-ventures-internal",
+      "week": "2025-W48",
+      "tags": [
+        "high_engagement",
+        "action",
+        "notable",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 11,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U02BA3VS7H8",
+            "U02BYQ8CHT7",
+            "U09D8BZ9891",
+            "U06JUCD7S4A"
+          ],
+          "count": 4
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U02BA3VS7H8",
+            "U7SJ525DE",
+            "U01U67XD681",
+            "U06JUCD7S4A"
+          ],
+          "count": 4
+        },
+        {
+          "name": "swag-parrot",
+          "users": [
+            "U02BA3VS7H8",
+            "U1GA9435H",
+            "U06JUCD7S4A",
+            "U05BNQPJX4K"
+          ],
+          "count": 4
+        }
+      ],
+      "thread_ts": "1764161384.532319",
+      "thread_replies": [
+        {
+          "ts": "1764161606.831909",
+          "user": "U02BA3VS7H8",
+          "user_name": "U02BA3VS7H8",
+          "text": "qq: Are the sizes unissex?"
+        },
+        {
+          "ts": "1764162175.121389",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "I added one more question around fit preference https://forms.gle/RfCcPCZ2yFRk3Nxg8 so please resubmit if you already did. Im shopping around vendors atm and will try to accommodate"
+        },
+        {
+          "ts": "1764162389.292769",
+          "user": "U023F53GS21",
+          "user_name": "U023F53GS21",
+          "text": "am i still eligible for swag :eyes:"
+        },
+        {
+          "ts": "1764162399.789729",
+          "user": "U023F53GS21",
+          "user_name": "U023F53GS21",
+          "text": "pls note that if answer is no im taking my dog with me"
+        },
+        {
+          "ts": "1764162484.302949",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Fill in the form just in case we have a few extra :wink:"
+        },
+        {
+          "ts": "1764164940.576469",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Probably worth mentioning that these are EU sizes, right?"
+        },
+        {
+          "ts": "1764170297.245319",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yes, so slightly smaller than the sizes NA folks are used to"
+        },
+        {
+          "ts": "1764171745.557809",
+          "user": "U01KKT2P7FY",
+          "user_name": "U01KKT2P7FY",
+          "text": "Can tavi get a thing too before I can no longer get things?"
+        },
+        {
+          "ts": "1764262955.848009",
+          "user": "U05BNQPJX4K",
+          "user_name": "U05BNQPJX4K",
+          "text": "I'm always between a Medium &amp; Large sweater because of long arms, should I pick a large?"
+        },
+        {
+          "ts": "1764262965.177289",
+          "user": "U05BNQPJX4K",
+          "user_name": "U05BNQPJX4K",
+          "text": "T-Shirts I'm 95% Medium"
+        },
+        {
+          "ts": "1764263100.796379",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "yea I would go with L"
+        }
+      ]
+    }
+  ]
+}

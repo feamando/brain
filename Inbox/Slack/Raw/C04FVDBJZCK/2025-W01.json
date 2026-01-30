@@ -1,0 +1,442 @@
+{
+  "channel_id": "C04FVDBJZCK",
+  "channel_name": "squad-nv-pet-food",
+  "week": "2025-W01",
+  "extracted_at": "2026-01-02T10:58:28.620075Z",
+  "message_count": 4,
+  "messages": [
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1767118398.971929",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1767118398.971929",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1767131908.382239",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U0184T48L74",
+        "UDH40QWLU"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `Subscriptions ID found in column A of \"2026_W01\" tab in this spreadsheet <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=202466042#gid=202466042>`\n*Expected behaviour:* `reset skus`\n*Actual behaviour:* `payment errors and CC requests`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue",
+          "text": "<@UDH40QWLU>: Hi, I want to report a new issue. Please check the details.\n*Issue:* `Reset subscriptions to trial sku`\n*Topic:* `Other`\n*Priority:* `High priority 🔴`\n*Description:* `Subscriptions ID found in column A of \"2026_W01\" tab in this spreadsheet <https://docs.google.com/spreadsheets/d/1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek/edit?gid=202466042#gid=202466042>`\n*Expected behaviour:* `reset skus`\n*Actual behaviour:* `payment errors and CC requests`\n\n*Category:* squad-nv-pet-food\n*Command:* pet-food-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1767118399.254429",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1767130634.812079",
+          "edited": {
+            "user": "U0184T48L74",
+            "ts": "1767130672.000000"
+          },
+          "client_msg_id": "7c73680c-ddd6-4eef-82b0-82a8776a3977",
+          "text": "Hey Rachael, I see that some boxes have today as delivery date, I'm not sure those are valid boxes for our script. Is it ok if we reset those boxes on Friday?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pR0Z1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Rachael, I see that some boxes have today as delivery date, I'm not sure those are valid boxes for our script. Is it ok if we reset those boxes on Friday?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UDH40QWLU",
+          "type": "message",
+          "ts": "1767130925.566619",
+          "client_msg_id": "52595AF1-C2C0-4424-8DBA-FE477D21D774",
+          "text": "Hey Claudia, no worries I will remove those ones from today’s list and repost them on Friday ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RgFRi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Claudia, no worries I will remove those ones from today’s list and repost them on Friday "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1767130986.734679",
+          "client_msg_id": "9276218e-b549-43ef-bbfa-388f1728a1dc",
+          "text": "perfect",
+          "team": "T02AGMUUR",
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FjF5N",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "perfect"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty_thankyou",
+              "users": [
+                "UDH40QWLU"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1767131900.248669",
+          "client_msg_id": "220e3ce2-2ca3-4e38-a4e6-339126e7d063",
+          "text": "done :check:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sdfS9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "done "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "check"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0184T48L74",
+          "type": "message",
+          "ts": "1767131908.382239",
+          "client_msg_id": "f2570890-e36c-4099-ae9f-595a29bf72e0",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1767118398.971929",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U0A6YEJ4MR6",
+      "text": "<@U0A6YEJ4MR6> has joined the channel",
+      "inviter": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1767104149.729209"
+    },
+    {
+      "text": "Hi team, flagging here that the updated Feeding Guides are completed and linked <https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing|HERE>, tab 'Feeding Guides'\n\ncc: <@U03UMPD2NNS> <@U8F7ZDAPM>",
+      "files": [
+        {
+          "id": "F0A37DJ7YHK",
+          "created": 1765573251,
+          "timestamp": 1765573251,
+          "name": "Feeding Guidelines Update",
+          "title": "Feeding Guidelines Update",
+          "mimetype": "application/vnd.google-apps.spreadsheet",
+          "filetype": "gsheet",
+          "pretty_type": "Google Sheets",
+          "user": "U0829PFG3LM",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 0,
+          "mode": "external",
+          "is_external": true,
+          "external_type": "gdrive",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "external_id": "1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY",
+          "external_url": "https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing",
+          "url_private": "https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_360.png",
+          "thumb_360_w": 254,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_480.png",
+          "thumb_480_w": 339,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_720.png",
+          "thumb_720_w": 509,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1132,
+          "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_960.png",
+          "thumb_960_w": 678,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A37DJ7YHK-de52e71c95/feeding_guidelines_update_1024.png",
+          "thumb_1024_w": 724,
+          "thumb_1024_h": 1024,
+          "thumb_tiny": "AwAwACLTJwM0wSKTjDf98GnnpSLnHPWgBaKKKACiiigAoxRRQAYooooAKKKKACiiigAooooAKKKKAP/Z",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A37DJ7YHK/feeding_guidelines_update",
+          "is_starred": false,
+          "skipped_shares": true,
+          "app_id": "A6NL8MJ6Q",
+          "has_rich_preview": true,
+          "file_access": "visible",
+          "entity_id": "W:A6NL8MJ6Q:1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY",
+          "full_size_preview_supported": true
+        }
+      ],
+      "upload": false,
+      "user": "U0829PFG3LM",
+      "display_as_bot": false,
+      "x_files": [
+        "F0A37DJ7YHK"
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Y7LVW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi team, flagging here that the updated Feeding Guides are completed and linked "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing",
+                  "text": "HERE"
+                },
+                {
+                  "type": "text",
+                  "text": ", tab 'Feeding Guides'\n\ncc: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1767029607.760229",
+      "client_msg_id": "74519de0-16d6-4481-8b53-bfe7d4b2e4ab",
+      "attachments": [
+        {
+          "from_url": "https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing",
+          "id": 212049259,
+          "bot_id": "B79TAGCE4",
+          "is_app_unfurl": true,
+          "app_unfurl_url": "https://docs.google.com/spreadsheets/d/1cYbQpXBtuwjGTHd_LVatwnHEw2neQOPNbe8KdMRioKY/edit?usp=sharing"
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U8F7ZDAPM"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U01PE2S4ZL6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U06N0MYHPUN",
+      "text": "<@U06N0MYHPUN> has left the channel",
+      "type": "message",
+      "ts": "1767018562.404349"
+    }
+  ]
+}

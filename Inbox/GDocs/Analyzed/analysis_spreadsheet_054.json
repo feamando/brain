@@ -1,0 +1,574 @@
+{
+  "batch_id": "spreadsheet_054",
+  "doc_type": "spreadsheet",
+  "doc_count": 9,
+  "results": [
+    {
+      "doc_title": "Sprint Tracking",
+      "doc_id": "11-Ob_y8-vYsY2Gl_ZFmB0MzDenX2GpR6IMqh5IDpnDY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track agile sprint progress, team capacity, commitments, and velocity across multiple quarters for an engineering team working on pricing, product features, and experiments",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Sprint velocity ranging from 1.06 to 2.00",
+        "Average velocity over last 3 weeks: 1.80 (most recent)",
+        "Team capacity: 31-50 engineer days per sprint",
+        "Commitment breakdown: 8 SPs for KTLO, 25% for tech tickets, 50% for main priorities, 25% for QWs",
+        "Done/Capacity ratio fluctuates between 1.06 and 2.00",
+        "Team size: 7-8 engineers including EM and SE"
+      ],
+      "entities": [
+        {
+          "name": "Andrea",
+          "type": "person",
+          "context": "Engineer appearing in all sprints, 1-8 available days per sprint"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Engineering Manager (EM) at 50% capacity, 0-4 available days"
+        },
+        {
+          "name": "Guhan",
+          "type": "person",
+          "context": "Engineer with 5-8 available days per sprint"
+        },
+        {
+          "name": "Oliver",
+          "type": "person",
+          "context": "Software Engineer (SE) with reduced availability (days-1), 0-8 days"
+        },
+        {
+          "name": "Mateusz",
+          "type": "person",
+          "context": "Engineer with 0-8 available days per sprint"
+        },
+        {
+          "name": "Suzi",
+          "type": "person",
+          "context": "Engineer with 5-8 available days per sprint"
+        },
+        {
+          "name": "Desi",
+          "type": "person",
+          "context": "Engineer with 2-8 available days per sprint"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Engineer appearing in recent sprints (Q4), 2-8 days"
+        },
+        {
+          "name": "Shujath",
+          "type": "person",
+          "context": "Engineer appearing in Q1 sprints, 3-8 days"
+        },
+        {
+          "name": "Project Heaven",
+          "type": "project",
+          "context": "Launched in W45-46 2025"
+        },
+        {
+          "name": "Pricing APIs",
+          "type": "system",
+          "context": "Multi-sprint goal to implement right pricing APIs across all user touchpoints"
+        },
+        {
+          "name": "iAdvize chatbot",
+          "type": "system",
+          "context": "Launched in W37-38 2025"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Email integration work in W35-36"
+        },
+        {
+          "name": "UPM (Universal Payment Method)",
+          "type": "system",
+          "context": "Change Payment Method feature worked on in Q1"
+        }
+      ],
+      "insights": [
+        "Pricing API implementation is a recurring multi-sprint goal spanning Q4 2025 (W43-52)",
+        "Team velocity shows improvement trend: Q1 average ~1.3, Q4 reaching 1.8-2.0",
+        "Most recent sprint (W49-52) shows 0% completion with 65 SP commitment, indicating it's in progress",
+        "High-performing sprints: W45-46 (velocity 2.00) and W35-36 (velocity 1.92)",
+        "Team capacity varies significantly (31-50 engineer days) due to individual availability fluctuations",
+        "Sprint goals mix feature launches, experiments, and technical improvements",
+        "Several experiments tracked: portion percentage, allergies, 2-step loading, breed-specific messaging",
+        "KTLO (Keep The Lights On) work is consistently allocated 8 story points per sprint",
+        "Tech debt/refactoring consistently allocated 25% of capacity",
+        "Team composition changed between Q1 and Q4 (Shujath out, Claudia in)",
+        "Oliver's availability is consistently reduced (marked as 'days-1')",
+        "Ahmed operates at 50% capacity as EM across all sprints"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, ratings, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs from $2.54 to $4.85",
+        "Customer ratings (L3 Run Ratings) between 3.40-3.53",
+        "Swap out percentages (0.91%-1.75%)",
+        "Calories ranging 450-540 per meal",
+        "Protein content 27-44g per meal",
+        "1,901 total ratings for Chicken & Mushroom Marsala",
+        "Last run date: 2023-W49 for graveyard items"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta recipes"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef recipe"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variations (A-F) exist for the same meal with slight cost and nutritional differences",
+        "Chicken & Mushroom Marsala has 'Graveyard' status despite having 1,901 ratings, suggesting it's been discontinued",
+        "New recipes (F01905-F01908) are pending approval with 10/21/2025 approval date",
+        "All meals are designed to meet multiple dietary preferences (Calorie Smart, High Protein, Dairy Free, etc.)",
+        "European/Italian cuisine dominates the sample with consistent use of polenta, potatoes, and vegetables",
+        "GLP-1 Balance and Mediterranean diet tags indicate targeting of specific health trends",
+        "Salmon has highest max meal cost ($4.85) compared to chicken ($2.54-$2.96) and beef ($3.49)",
+        "All new recipes have similar high ratings (3.40-3.53) and low swap rates (<2%)"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipe details, nutritional information, dietary attributes, costs, ratings, and operational data for meal planning and production",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs ranging from $2.54 to $4.85",
+        "L3 Run Ratings between 3.40-3.53 (recent meals)",
+        "Calories ranging from 450-530 per meal",
+        "Protein content 27-44g per meal",
+        "Sodium levels 610-900mg per meal",
+        "Dietary fiber 5-16g per meal",
+        "Nutrition scores ranging from 0-4.125"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Multiple recipe variants (F00002A-F) in 'Graveyard' status"
+        },
+        {
+          "name": "Greek Isle Caper Salmon",
+          "type": "product",
+          "context": "New recipe with salmon protein, European/Italian cuisine"
+        },
+        {
+          "name": "Greek-Style Market Chicken Bowl",
+          "type": "product",
+          "context": "New recipe with shredded chicken, Mediterranean-friendly"
+        },
+        {
+          "name": "Red Pepper Bruschetta Shredded Chicken",
+          "type": "product",
+          "context": "New recipe with dairy-free option"
+        },
+        {
+          "name": "Garlic Tomato Cream Shredded Beef",
+          "type": "product",
+          "context": "New recipe with beef protein"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal (Chicken & Mushroom Marsala has 6 variants F00002A-F), all marked as 'Graveyard' status suggesting discontinued items",
+        "Recent entries (F01905-F01908) are all marked as 'New' status with approval date of 10/21/2025, indicating upcoming menu additions",
+        "All meals are marked as 'Calorie Smart', 'Chef's Choice', 'High Protein', 'Pork Free', and 'Low Carb', suggesting a health-focused menu strategy",
+        "European/Italian cuisine dominates the cuisine classification across all visible recipes",
+        "Chicken-based meals are most common, with shredded chicken being a popular preparation method",
+        "Container color coding system exists: Yellow for chicken, Blue for salmon, Red for beef",
+        "All new recipes are marked as 'GLP-1 Balance' and 'Mediterranean' friendly, indicating targeting of specific dietary trends",
+        "Preparation methods consistently include marinating/brining and oven/braiser cooking techniques",
+        "Salmon recipe has highest max meal cost ($4.85) compared to chicken ($2.54) and beef ($3.49)",
+        "All new recipes have 'Pending' shelf life status, consistent with their upcoming launch"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, negative return indicated",
+        "Tracking spans approximately 3+ years of marketing data"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign or category with specific budget allocation of $1,053"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 3+ years (2021-2024) with consistent weekly monitoring",
+        "WoW analysis capability added midway through tracking period (Week 36 of 2022)",
+        "Sparse data visible in extract suggests either incomplete data or filtered view",
+        "Self-Improvement campaign shows negative performance (indicated by '$-' in return column)",
+        "Structure suggests multiple marketing channels/campaigns tracked simultaneously across weekly intervals",
+        "Consistent 3-column pattern per week likely represents: spend, conversions/units, and ROI/performance metrics"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and workstream responsibilities for the 2025 ANZ (Australia/New Zealand) Christmas Offering business initiative across XMB+XMO brands",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams already in progress (Ideation done, Project set up, Recipes created, NID onboarding started)",
+        "Cross-functional team spanning Product, Engineering, Operations, Marketing, Finance, FSQA, and more"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead AU for ANZ Product Strategy"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "ANZ Project Manager Lead"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Stakeholder for multiple workstreams (Culinary Innovation, CIO Dev, Editorial, Digital Ops)"
+        },
+        {
+          "name": "Francois Lubrano",
+          "type": "person",
+          "context": "Stakeholder for Project Management, Procurement Ops, Menu Planning"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "brand",
+          "context": "Target brands for 2025 Christmas Offering"
+        },
+        {
+          "name": "2025 Christmas Offering",
+          "type": "project",
+          "context": "Main initiative being tracked"
+        },
+        {
+          "name": "Strategic Procurement",
+          "type": "system",
+          "context": "Onboarding SKUs for both AU and NZ markets"
+        }
+      ],
+      "insights": [
+        "Project shows clear geographic separation with dedicated AU and NZ leads for most operational functions",
+        "Several workstreams are already in execution phase (recipes created/developed, onboarding started)",
+        "High stakeholder overlap with Hannah Gilbert and Francois Lubrano involved in multiple workstreams, suggesting coordination roles",
+        "Strategic Procurement has the most complex team structure with 5 named leads covering different categories (PTN, PHF, PCK, GRO)",
+        "Some workstreams still have TBD (To Be Determined) secondary leads, indicating team is not fully staffed",
+        "Duplication noted for Marketing campaigns, recipe booklets, and website content across markets",
+        "FSQA (Food Safety & Quality Assurance) explicitly noted as needing to onboard SKUs for both markets"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project containing multiple teams being tracked"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for tracking KTLO work"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to attribute tickets to specific months",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "September - November Xsell Feedback",
+      "doc_id": "1-8vREqpPhBQq6mB5n1F1RBXqwIzaFvtmlvtMU5-s8JE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks customer service interactions and feedback related to cross-selling Factor meals to HelloFresh customers during September-November 2025",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Response dates: October 26 - November 24, 2025",
+        "All interactions from US customers",
+        "Media types: Message and Voice",
+        "HelloFresh weeks: W44 and W48",
+        "Multiple customer IDs and unique interaction UIDs tracked"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary meal kit subscription service with self-managing accounts"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "Ready-to-eat meal service being cross-sold to HelloFresh customers, causing confusion and complaints"
+        }
+      ],
+      "insights": [
+        "Significant customer confusion about Factor cross-sell program - customers unaware they ordered Factor meals or how the two services interact",
+        "Multiple complaints about unauthorized or unexpected Factor orders being placed on HelloFresh accounts",
+        "Customers unclear that canceling HelloFresh affects Factor ordering ability, and vice versa",
+        "Communication gap: customers not understanding Factor meals come in separate boxes and require separate ordering",
+        "Account management issues: customers struggling with meal plan changes, cancellations, and understanding the relationship between HelloFresh and Factor subscriptions",
+        "At least one customer filed a dispute and vowed never to order again due to confusion",
+        "Technical glitches reported (website pricing discrepancies, orders placed despite items removed from cart)",
+        "Cross-sell program appears to be causing customer dissatisfaction and account cancellations"
+      ]
+    },
+    {
+      "doc_title": "Food Influencers for Interviews",
+      "doc_id": "19A-paP1BG184CJkDhJDB5_XKAq5h7g8MLxe2Ie7rqd4",
+      "doc_type": "spreadsheet",
+      "purpose": "Track outreach and interview coordination with food influencers across social media platforms",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Total influencers tracked: ~45",
+        "Contacted: 18 influencers",
+        "Follow-up emails sent: 12",
+        "Not interested responses: 4",
+        "Interviews set up: 1 (Evolving Table)",
+        "Requested 2nd interview: 1 (cheatdayeats)",
+        "No responses: 4",
+        "Follower range: 2,012 to 10.4M",
+        "Influencer sizes: Micro (5K-100K), Mid (100K-500K), Macro (500K-1M), Mega (1M+)",
+        "Platforms tracked: Instagram, TikTok, YouTube, Pinterest",
+        "Cookbook authors identified: 10+"
+      ],
+      "entities": [
+        {
+          "name": "Brandon Frohne",
+          "type": "person",
+          "context": "Mid-tier Instagram influencer (184K), contacted with follow-up sent"
+        },
+        {
+          "name": "Corre Larkin (cocolarkincooks)",
+          "type": "person",
+          "context": "Mega influencer (1M), upcoming cookbook author, not interested"
+        },
+        {
+          "name": "Luke Brown (cookinginthemidwest)",
+          "type": "person",
+          "context": "Mega influencer (1.8M), published cookbook author, not interested"
+        },
+        {
+          "name": "Carmen Spillette (Eat with Carmen)",
+          "type": "person",
+          "context": "Pinterest micro influencer, Canada-based, follow-up sent"
+        },
+        {
+          "name": "Bailey Hayes",
+          "type": "person",
+          "context": "TikTok micro influencer (68.2K), US/Canada, follow-up sent"
+        },
+        {
+          "name": "Allie (Baking A Moment)",
+          "type": "person",
+          "context": "YouTube micro influencer, US-based, follow-up sent"
+        },
+        {
+          "name": "Jessica Hirsch (cheatdayeats)",
+          "type": "person",
+          "context": "Instagram macro influencer (558K), requested 2nd interview"
+        },
+        {
+          "name": "London Brazil (Evolving Table)",
+          "type": "person",
+          "context": "Pinterest mid-tier influencer, published cookbook author, interview set up"
+        },
+        {
+          "name": "Joshua Weissman",
+          "type": "person",
+          "context": "YouTube mega influencer (10.4M), published cookbook author, follow-up sent"
+        },
+        {
+          "name": "Justine Doiron (Justinesnacks)",
+          "type": "person",
+          "context": "TikTok mega influencer (2.3M), published cookbook author, no response"
+        },
+        {
+          "name": "Carleigh Bodrug (Plantyou)",
+          "type": "person",
+          "context": "Instagram mega influencer (5.5M), published cookbook author, no response"
+        }
+      ],
+      "insights": [
+        "Outreach is organized in phases (1-5), suggesting a systematic campaign approach",
+        "Higher rejection rate from mega influencers with published cookbooks (3 out of 4 contacted declined or didn't respond)",
+        "Multi-platform presence is common - many influencers tracked across 2-3 platforms",
+        "Geographic diversity: US, Canada, UK, Italy, Greece, Portugal, Austria represented",
+        "Contact information varies widely: some have professional emails, others only social media",
+        "Only 1 interview successfully scheduled out of 18 contacted (5.6% conversion rate so far)",
+        "4 influencers in outreach phase 5 have not responded yet",
+        "Instagram is the dominant primary platform being tracked",
+        "Many influencers lack confirmed location data (marked with '?')",
+        "Cookbook authorship appears to be a key qualification criterion being tracked"
+      ]
+    },
+    {
+      "doc_title": "Sprint Tracking",
+      "doc_id": "11-Ob_y8-vYsY2Gl_ZFmB0MzDenX2GpR6IMqh5IDpnDY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track engineering sprint progress, capacity planning, and team velocity across multiple quarters",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Sprint capacity ranges from 31-50 engineer days",
+        "Commitment typically 36-85 story points per sprint",
+        "Work allocation: 8 SPs for KTLO, 25% tech tickets, 50% main priorities, 25% QWs",
+        "Velocity ranges from 1.06 to 2.00 (Done/Capacity ratio)",
+        "Average velocity over last 3 weeks: 1.40-2.00",
+        "Team size: 7-8 engineers per sprint",
+        "Sprint duration: 2 weeks (bi-weekly sprints)"
+      ],
+      "entities": [
+        {
+          "name": "Andrea",
+          "type": "person",
+          "context": "Team member appearing in all sprints"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Engineering Manager (EM) at 50% capacity"
+        },
+        {
+          "name": "Guhan",
+          "type": "person",
+          "context": "Team member/engineer"
+        },
+        {
+          "name": "Oliver",
+          "type": "person",
+          "context": "Software Engineer (SE) with reduced availability (days-1)"
+        },
+        {
+          "name": "Mateusz",
+          "type": "person",
+          "context": "Team member/engineer"
+        },
+        {
+          "name": "Suzi",
+          "type": "person",
+          "context": "Team member/engineer"
+        },
+        {
+          "name": "Desi",
+          "type": "person",
+          "context": "Team member/engineer"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Team member/engineer (joined later sprints)"
+        },
+        {
+          "name": "Shujath",
+          "type": "person",
+          "context": "Team member/engineer (earlier sprints)"
+        },
+        {
+          "name": "Project Heaven",
+          "type": "project",
+          "context": "Sprint goal for W45-46"
+        },
+        {
+          "name": "iAdvize chatbot",
+          "type": "system",
+          "context": "Launched in W37-38"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Email integration work in W35-36"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Universal Payment Method - multiple sprint goals"
+        }
+      ],
+      "insights": [
+        "Team velocity improved from ~1.1-1.3 in Q1 to 1.6-2.0 in Q4, indicating increased efficiency",
+        "Pricing API work is a recurring theme across multiple sprints (W43-52)",
+        "Most recent sprint (W49-52) shows 0% completion with 36 engineer days capacity",
+        "Sprint W47-48 achieved highest velocity of 2.00 with 74 story points completed",
+        "Oliver consistently has reduced availability (SE, days-1) across all sprints",
+        "Ahmed (EM) contributes at 50% capacity as Engineering Manager",
+        "Team composition changed between Q1 and Q4 (Shujath replaced by Claudia)",
+        "Sprint goals often carry over multiple sprints (e.g., pricing APIs across 3+ sprints)",
+        "Capacity utilization varies significantly: 31-50 engineer days per sprint",
+        "Several #REF! errors in Q1 data suggest formula issues in original spreadsheet"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:00:02.519033"
+}

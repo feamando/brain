@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0018",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "83a623b1",
+      "message": "[GOC-3293] useCustomerType (#60249)\n\n* useCustomerType\n\n* Remove redundant IIFE wrapper",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-11T11:23:21Z",
+      "url": "https://github.com/hellofresh/web/commit/83a623b1d3087d6f4f73430548674d385f4d610e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "3ad5bfb6",
+      "message": "[GOC-3293] Adjust useReactivationPricing (#60250)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-11T11:10:17Z",
+      "url": "https://github.com/hellofresh/web/commit/3ad5bfb646155d91534d58995f503b83e588107f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9da271f4",
+      "message": "[GOC-3293] useGuestPricing (#60263)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-11T11:08:05Z",
+      "url": "https://github.com/hellofresh/web/commit/9da271f4bd8f3c4de7e80857ebcf8e6a216491cd",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9c38b976",
+      "message": "[RTEVMS-2263] Factor Form | used activations/checkout/price on checkout page (#60233)\n\n* feat(RTEVMS-2263): used activations/checkout/price on checkout\n\n* feat(RTEVMS-2263): used activations/checkout/price on checkout\n\nfeat(RTEVMS-2263): added missing unit tests to useGetOrderSummaryProductData",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-11-10T21:25:29Z",
+      "url": "https://github.com/hellofresh/web/commit/9c38b9768767740b09f2cfba59881734ec2d21bc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "3c2f591c",
+      "message": "[RTEVMS-2232] Factor Form | OTP: provider + middleware (#60218)\n\n* Adding frequencyType params to get value in CTAs\n\n* add middleware and provider to have access to toggle\n\n* add middleware/provider where required\n\n* fix missing provider and unit tests\n\n* fix rest of tests\n\n* fix where provider is\n\n* fix issue w missing provider\n\n* fix entrypoint tests again\n\n* remove provider and middleware for localStorage approach\n\n* fix spaces for git diff\n\n* update tests and hook",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-10T21:13:19Z",
+      "url": "https://github.com/hellofresh/web/commit/3c2f591c8daca44df93f5f3392d99961afe6b6c7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "13f97abd",
+      "message": "[TPT-2152]: implement PaymentInfo (#60052)\n\n* TPT-2152: implement PaymentInfo\n\n* TPT-2152: fix test\n\n* TPT-2152: hide CTA while payment info is loading\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-10T17:14:48Z",
+      "url": "https://github.com/hellofresh/web/commit/13f97abdabb1f8d002d6ac590deb939942dd2cc4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "a97a2552",
+      "message": "[GOC-3196] Add WelcomeKit Banner for OTP (#60194)",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-10T15:27:32Z",
+      "url": "https://github.com/hellofresh/web/commit/a97a2552806d4deab44ee3359c19e8c618597c44",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "c30c3ac6",
+      "message": "[TPT-2273] Make cta section sticky on mobile (#60199)\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-10T14:51:22Z",
+      "url": "https://github.com/hellofresh/web/commit/c30c3ac6251e152a82c6f38a860256d88d2fdfb6",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "50a34231",
+      "message": "TPT-2281 - add new contentful keys for new feeding plan type quiz step (#60197)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-11-10T14:45:59Z",
+      "url": "https://github.com/hellofresh/web/commit/50a34231b1394c55cedf06d1fd68f31701b30db4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "eddf975e",
+      "message": "[TPT-2173]: add test for address update form (#59731)\n\n* TPT-2173: add test for address update form\n\n* TPT-2173: rename test\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-10T13:44:46Z",
+      "url": "https://github.com/hellofresh/web/commit/eddf975ef060bc7063c851d307c20ba5491c3dc9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "c46c02c8",
+      "message": "[TPT-2273] Create customer domain for cash credits (#60127)\n\n* [TPT-2273] Creater customer domain for cash credits\n\n* [TPT-2273] Add model to align with DDD approach\n\n* [TPT-2273] Prevent query from running if there is no customerUUID\n\n* [TPT-2273] Add formatted cash credits to adapter\n\n* [TPT-2273] Rename model to cashCredits\n\n* [TPT-2273] Fix import\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-10T13:38:04Z",
+      "url": "https://github.com/hellofresh/web/commit/c46c02c86031c9adb86360a26f2fe3c8d9e8142c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "94558c84",
+      "message": "[TPT-2297] Update model with object arguments (#60092)\n\n* update model with object arguments\n\n* refactor components\n\n* use domain mock\n\n* use unified mock",
+      "author": "oliverstr",
+      "author_email": "oliver_str@hotmail.com",
+      "date": "2025-11-10T13:27:53Z",
+      "url": "https://github.com/hellofresh/web/commit/94558c848d3a247c12858c145bf23b6b1b2845d2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d550ad24",
+      "message": "[GOC-3346] Implement voucher exclusion for One-Time Purchase products (#60025)\n\n* feat(GOC-3346): Implement voucher exclusion for One-Time Purchase products\n\nBUSINESS RULE: One-Time Purchase (OTP) products cannot be combined with vouchers.\nWhen OTP products are detected in cart, voucher discounts are disabled to ensure\ncustomers pay full price without voucher discounts across the entire checkout flow.\n\n## Summary of Changes\n\n### 🏗️ Infrastructure\n- Create centralized OTP detection library at @/whitelabel-libraries/otp\n- Add TypeScript types and comprehensive unit tests (100% coverage)\n- Update all imports to use centralized location\n- Remove deprecated OTP detection files\n\n### ⚙️ Core Fixes\n- **usePlansPriceCalculate**: Prevent voucher-enabled API calls when OTP detected\n- **usePricing**: Prevent voucher discounts in delivery frequency logic\n- **PlanPrice**: Prevent discount display in plan selection cards\n- **Comprehensive testing**: 15 test cases covering all scenarios\n\n### 📂 Files Modified\n- Added: @/whitelabel-libraries/otp/ (complete OTP detection library)\n- Modified: usePlansPriceCalculate.ts (main pricing hook with OTP prevention)\n- Modified: usePricing.ts (delivery frequency pricing logic)\n- Modified: PlanPrice.tsx (plan selection card pricing display)\n- Modified: Multiple import updates to use centralized library\n- Removed: Old duplicate OTP detection files\n\n### ✅ Testing\n- 15 comprehensive test cases covering all OTP detection scenarios\n- Existing functionality preserved (10 original tests)\n- New OTP detection tests (5 additional tests)\n- Edge cases covered: cookie vouchers, different customer types\n\n## Result\n✅ Plan selection pricing shows full price when OTP is selected\n✅ Delivery frequency pricing correctly excludes voucher discounts\n✅ API calls prevented when OTP + voucher combination detected\n✅ Production-ready with comprehensive test coverage\n\nRelated tickets: GOC-3192, GOC-3346\n\n[Cursor_Code]\n\n* fix(GOC-3346): CRITICAL - Fix -- price bug by allowing pricing API calls for OTP products\n\n- ISSUE: Order summary showing --.00 due to pricing API calls being completely disabled for OTP\n- ROOT CAUSE: Previous logic disabled API calls entirely when OTP detected, preventing price calculation\n- SOLUTION: Send empty couponCode to APIs instead of disabling them entirely\n\nKey changes:\n- Allow useCalculatedPrices calls for logged-in customers (enabled: !isProspectCustomer)\n- Allow useCalculatedProspectPricesBatch calls for prospects (enabled: isProspectCustomer)\n- Send empty couponCode when OTP detected: hasOTPInCart ? '' : voucherCode\n- Update all test cases to reflect new behavior\n\nBUSINESS RULE MAINTAINED: OTP products still cannot combine with vouchers\n- Voucher codes are stripped from API calls when OTP detected\n- Customers get full prices without voucher discounts\n- Pricing data is still retrieved for order display\n\nThis fixes the critical bug where order summaries showed -- total\nwhile preserving the voucher exclusion business rule.\n\nRelated tickets: GOC-3346\n\n[Cursor_Code]\n\n* refactor: Clean up comments in usePlansPriceCalculate\n\n- Replace verbose business rule comment with concise one-liner\n- Remove redundant inline comments\n- Keep code clean and focused on functionality\n\n[Cursor_Code]",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-10T13:19:34Z",
+      "url": "https://github.com/hellofresh/web/commit/d550ad24f2fad84036def9980036c27583be7dac",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "7e369892",
+      "message": "[GOC-3222] Avoid deprecated gateway in place order hook (#60146)\n\n* [GOC-3312] Un-quarantined checkoutWithTwoWeekCadence e2e\n\n* [GOC-3312] Export checkout post\n\n* [GOC-3312] Replace checkout payload\n\n* [GOC-3312] Transform payment to match new types\n\n* [GOC-3312] Minor change on imports\n\n* [GOC-3312] Remove comment\n\n* Revert \"[GOC-3312] Un-quarantined checkoutWithTwoWeekCadence e2e\"\n\nThis reverts commit c22b2e51e9d90576d0c101e0417abb1de2a37165.\n\n* [GOC-3312] Fixes tests\n\n* [GOC-3312] Fixes test\n\n* [GOC-3312] Removes comment\n\n* [GOC-3312] Uses useQueryClient\n\n* [GOC-3312] Replaces mocks in tests\n\n* [GOC-3312] Using processCustomerCheckout directly in payload\n\n* [GOC-3312] Remove export\n\n* [GOC-3312] Uses useProcessCustomerCheckout in place order",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-11-10T13:15:07Z",
+      "url": "https://github.com/hellofresh/web/commit/7e369892d591413081b78ea15f18def054633ead",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "ba9e112b",
+      "message": "[TPT-2267] Update e2e tests to check confirmation page (#60028)\n\n* TPT-2267: update e2e tests to check confirmation page\n\n* review fixes",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-10T13:09:57Z",
+      "url": "https://github.com/hellofresh/web/commit/ba9e112b9b34c5dd5f56af716aba9dfbd259cc24",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d13a2cf3",
+      "message": "[TPT-2173]: create address update form for reactivation page (#59533)\n\n* TPT-2173: create address update form for reactivation page\n\n* TPT-2173: tests fixes\n\n* TPT-2173: update FormWrapper\n\n* TPT-2173: update submit handler && PR fixes\n\n* TPT-2173: fix test\n\n* TPT-2173: css alignments and handleCancel fix\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-10T11:45:44Z",
+      "url": "https://github.com/hellofresh/web/commit/d13a2cf38cc292e3a81c4b90829ef2514be8c74f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "81c67326",
+      "message": "[GOC-3198] Sign-up: Hide Deals banner (#60155)\n\n* hide steps if cart includes OTP items\n\n* hide deals banner from signup\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-11-10T10:42:39Z",
+      "url": "https://github.com/hellofresh/web/commit/81c67326f0e02c55983d15dc3cf7ecfe6baccf71",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "ebd7f1ca",
+      "message": "[TPT-2153] Order summary price components integrated (#59999)\n\n* [TPT-2153] order summary plan box integration\n\n* [TPT-2153] additional refactor\n\n* [TPT-2153] empty commit\n\n* [TPT-2153] accessibility issues fixed\n\n* [TPT-2153] minor update\n\n* [TPT-2153] contentful entry key added\n\n* [TPT-2153] Order summary price components integrated\n\n* [TPT-2153] minor update in formatCurrency\n\n* [TPT-2153] PR comments fixed\n\n* [TPT-2153] price formattings integrated to the component\n\n* [TPT-2153] tax percent removed\n\n* [TPT-2153] tests fixed\n\n* [TPT-2153] accessibility issues fixed\n\n* [TPT-2153] useReactivationPricing hook moved to OrderSummary\n\n* [TPT-2153] minor updates\n\n* [TPT-2153] pr comments fixed\n\n* [TPT-2153] resolved conflicts with master\n\n* [TPT-2153] original and formatted prices passed to shipping\n\n* [TPT-2153] original price passed to shipping component",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-10T10:31:15Z",
+      "url": "https://github.com/hellofresh/web/commit/ebd7f1ca93cc6aa4e0ef0bef81ea70512a1ac7c4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "6bdb7470",
+      "message": "[GOC-3196] Add Social proof Banner for OTP (#60060)\n\n* feat(GOC-3196): Add social proof banner to OTP plans section\n\n- Import SocialProofBanner component into OneTimePurchaseMVP\n- Position banner between delivery frequency and SelectPlan button\n- Remove experiment dependencies for cleaner implementation\n- Banner now displays consistently for all OTP users\n\n[Cursor_Code]\n\n* test(GOC-3196): Add unit tests for social proof banner integration\n\n- Add mock for SocialProofBanner component in OneTimePurchaseMVP tests\n- Add test to verify social proof banner renders correctly\n- Add test to verify banner positioning between delivery frequency and select plan\n- All 31 tests passing including 2 new social proof banner tests\n\n[Cursor_Code]",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-11-10T09:46:44Z",
+      "url": "https://github.com/hellofresh/web/commit/6bdb74709ec6dd332cf41b3e0f6056bfde133ded",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "84642f61",
+      "message": "[GOC-3293] Improve testing utility (#60156)\n\n* Mount SystemCountryProvider in the testing utility\n\n* Single wrapper instantiation",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-10T09:02:34Z",
+      "url": "https://github.com/hellofresh/web/commit/84642f61aea956aa60c1a08dd1261dab18d011a2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-10T09:02:34Z",
+    "newest": "2025-11-11T11:23:21Z"
+  }
+}

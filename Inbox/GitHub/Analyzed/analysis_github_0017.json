@@ -1,0 +1,180 @@
+{
+  "batch_id": "github_0017",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-11-11T13:16:09Z",
+    "newest": "2025-11-13T19:44:38Z"
+  },
+  "analyzed_at": "2026-01-02T15:39:33.418924",
+  "changes_summary": "These commits primarily focus on pricing system refactoring (GOC-3293 series), feature flag cleanup, and UI improvements across checkout and plan management flows. Major work includes implementing customer-type-based pricing with vouchers, refactoring reactivation and reschedule flows, and adding multi-cadence support to Factor Form. Several feature flags were removed indicating feature stabilization.",
+  "features": [
+    {
+      "name": "Persist Shipping Address with OTP",
+      "description": "Added usePersistShippingAddress hook when One-Time Purchase (OTP) is enabled",
+      "commits": [
+        "a06c06e4"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Customer Type Based SKU Pricing",
+      "description": "Implemented pricing system that uses vouchers for active prices and customer-type-based pricing logic",
+      "commits": [
+        "998b376c",
+        "d05b2b21",
+        "ba2ebf5f"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Multi-Cadence Factor Form",
+      "description": "Added Lokalise translation keys for multi-cadence feature in Factor Form",
+      "commits": [
+        "f3d909f9"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Reactivations Checkout Price Endpoint",
+      "description": "YourPlanSection component now uses reactivations/checkout/price endpoint",
+      "commits": [
+        "bf5c1155"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Delivery Details Component",
+      "description": "New delivery details component implementation",
+      "commits": [
+        "f74ee88d"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Remaining Credits Message",
+      "description": "Added remaining credits message to change plan confirmation screen",
+      "commits": [
+        "ffed5f3a"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Voucher Input Hiding",
+      "description": "Hide voucher input on Collapsible Order Summary",
+      "commits": [
+        "ffc79941"
+      ],
+      "status": "modified"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Remove additional tax inclusion logic",
+      "rationale": "Part of pricing system refactoring to standardize tax handling",
+      "ticket": "GOC-3293"
+    },
+    {
+      "what": "Change Price interface structure",
+      "rationale": "Support new customer-type-based pricing model with vouchers",
+      "ticket": "GOC-3293"
+    },
+    {
+      "what": "Use PlansPriceForActiveUsers component in change-plan screen",
+      "rationale": "Standardize pricing display across user flows",
+      "ticket": "TPT-2235"
+    },
+    {
+      "what": "Send addons metadata when placing order",
+      "rationale": "Improve order data completeness for addon tracking",
+      "ticket": "GOC-3322"
+    },
+    {
+      "what": "Update OTP attributes in Detail product change GTM event",
+      "rationale": "Improve analytics tracking for One-Time Purchase flows",
+      "ticket": "GOC-3201"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Simplified reschedule flow",
+      "reason": "Code simplification and maintainability improvement",
+      "impact": "Reschedule functionality"
+    },
+    {
+      "area": "Interceptors",
+      "reason": "Code organization and structure improvement",
+      "impact": "HTTP request/response handling"
+    },
+    {
+      "area": "Settings tests",
+      "reason": "Improve test maintainability and coverage",
+      "impact": "Settings module test suite"
+    },
+    {
+      "area": "Pricing system architecture",
+      "reason": "Support customer-type-based pricing with vouchers",
+      "impact": "All pricing-related components and checkout flows"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Multi-pet checkout redirection issues",
+      "ticket": "TPT-2328"
+    },
+    {
+      "issue": "VMS spans in Factor Form",
+      "ticket": "RTEVMS-2279"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor Form",
+      "type": "component",
+      "context": "VMS spans fixed, multi-cadence Lokalise keys added"
+    },
+    {
+      "name": "YourPlanSection",
+      "type": "component",
+      "context": "Updated to use reactivations/checkout/price endpoint"
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Shipping address persistence added, GTM tracking updated"
+    },
+    {
+      "name": "Collapsible Order Summary",
+      "type": "component",
+      "context": "Voucher input now hidden"
+    },
+    {
+      "name": "PlansPriceForActiveUsers",
+      "type": "component",
+      "context": "Now used in change-plan screen"
+    },
+    {
+      "name": "reactivations/checkout/price",
+      "type": "api",
+      "context": "New endpoint integrated for pricing calculations"
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "type": "system",
+      "context": "Updated with OTP attributes for product change events"
+    },
+    {
+      "name": "Delivery Details",
+      "type": "component",
+      "context": "New component implementation"
+    }
+  ],
+  "key_patterns": [
+    "Feature flag cleanup pattern: Multiple commits removing stabilized feature flags (tpt-reactivation-refactor, tpt_air_dried_cadence)",
+    "Pricing system refactoring: Coordinated multi-commit effort (GOC-3293) to overhaul pricing architecture with vouchers and customer-type-based logic",
+    "Component-based architecture: Extracting reusable components (PlansPriceForActiveUsers, Delivery Details) for consistency",
+    "API endpoint migration: Moving from legacy pricing endpoints to new reactivations/checkout/price endpoint",
+    "Internationalization support: Adding Lokalise keys for new features indicating multi-language support",
+    "Analytics enhancement: Updating GTM events with additional metadata for better tracking",
+    "Test-driven refactoring: Refactoring accompanied by test updates (settings tests, interceptors)"
+  ]
+}

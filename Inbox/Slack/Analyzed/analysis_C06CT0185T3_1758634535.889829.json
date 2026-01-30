@@ -1,0 +1,359 @@
+{
+  "batch_id": "C06CT0185T3_1758634535.889829",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "channel_id": "C06CT0185T3",
+  "message_count": 10,
+  "analyzed_at": "2026-01-02T13:01:36.704218",
+  "decisions": [
+    {
+      "what": "Cross selling MVP demo selected for company-wide product demo",
+      "who": [
+        "U01TQGXG9D3",
+        "U03R6F2AG9K",
+        "U03TY4YJU4X"
+      ],
+      "date": "Next week Tuesday",
+      "context": "Part of Assaf's presentation initiative to showcase tribe work to the company",
+      "confidence": "high"
+    },
+    {
+      "what": "Operations review meeting cancelled and rescheduled to 1 month out due to re-org",
+      "who": [
+        "U8F7ZDAPM",
+        "U027201FQSV",
+        "U01V9SX5NG5",
+        "U01BT6RE4JG"
+      ],
+      "date": "Rescheduled to Dec 3",
+      "context": "No slides prepared for October and need to revisit after latest re-org",
+      "confidence": "high"
+    },
+    {
+      "what": "Occasion boxes demo pushed to recording instead of live demo",
+      "who": [
+        "U01BT6RE4JG",
+        "U03TY4YJU4X"
+      ],
+      "date": "Company-wide demo day",
+      "context": "Requested to add back as live test; positioned as Global Rollout of Occasion Boxes via OTP with ANZ as first experiment",
+      "confidence": "medium"
+    },
+    {
+      "what": "Good Chop confirmed to demo Multi-SKU free cut selection on Nov 18",
+      "who": [
+        "U01AKGWGLC8",
+        "UEZ4PRFKM"
+      ],
+      "date": "Nov 18",
+      "context": "Portfolio team asked if Good Chop wanted to demo; TPT declined to present",
+      "confidence": "high"
+    },
+    {
+      "what": "VMS to demo multi cadence project or OTP/Shopify launches at future demo session",
+      "who": [
+        "U09D8BZ9891",
+        "UEZ4PRFKM"
+      ],
+      "date": "After Nov 18",
+      "context": "VMS has no recent rollouts for Nov 18 but has upcoming launches in W51 and mid-Dec",
+      "confidence": "medium"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Cross selling MVP",
+      "type": "project",
+      "context": "Selected for company-wide demo presentation",
+      "relationships": [
+        "U01TQGXG9D3",
+        "U03R6F2AG9K",
+        "New Ventures tribe"
+      ]
+    },
+    {
+      "name": "TPT",
+      "type": "squad",
+      "context": "Team within New Ventures tribe, discussed for demo participation",
+      "relationships": [
+        "U8F7ZDAPM",
+        "U027201FQSV",
+        "U01AKGWGLC8",
+        "Allergens project",
+        "Project Heaven"
+      ]
+    },
+    {
+      "name": "GoC",
+      "type": "squad",
+      "context": "Team within New Ventures tribe, discussed legal confirmation checkbox and payments page improvements",
+      "relationships": [
+        "U027201FQSV",
+        "U01AKGWGLC8",
+        "U07VDFEFBQU",
+        "GOC-3130"
+      ]
+    },
+    {
+      "name": "VMS",
+      "type": "squad",
+      "context": "Team within New Ventures tribe, planning demos for OTP and Shopify launches",
+      "relationships": [
+        "U09D8BZ9891",
+        "U01V9SX5NG5",
+        "multi cadence project",
+        "OTP",
+        "Shopify"
+      ]
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Demoing Multi-SKU free cut selection on Reactivation page",
+      "relationships": [
+        "U01AKGWGLC8",
+        "OTP",
+        "W51 launch"
+      ]
+    },
+    {
+      "name": "OTP",
+      "type": "system",
+      "context": "One-time purchase system being rolled out across multiple teams",
+      "relationships": [
+        "Good Chop",
+        "VMS",
+        "Occasion boxes",
+        "U07VDFEFBQU"
+      ]
+    },
+    {
+      "name": "Occasion boxes",
+      "type": "project",
+      "context": "Global rollout via OTP with ANZ as first experiment",
+      "relationships": [
+        "U01BT6RE4JG",
+        "U02CRDYF2NL",
+        "U07VDFEFBQU",
+        "OTP"
+      ]
+    },
+    {
+      "name": "IT Cap",
+      "type": "system",
+      "context": "Tracking system showing TAM at 33%, NV at 79%",
+      "relationships": [
+        "U03TY4YJU4X",
+        "UEZ4PRFKM",
+        "Maria"
+      ]
+    },
+    {
+      "name": "Credit Auto Cancel Service",
+      "type": "system",
+      "context": "Service owned by Wander, questions being routed",
+      "relationships": [
+        "U01BT6RE4JG",
+        "UBDB3FVGS",
+        "U027201FQSV"
+      ]
+    },
+    {
+      "name": "Project Heaven",
+      "type": "project",
+      "context": "TPT-specific problem with low impact, considered for demo but deemed too niche",
+      "relationships": [
+        "U03UMPD2NNS",
+        "TPT"
+      ]
+    },
+    {
+      "name": "Allergens",
+      "type": "project",
+      "context": "Launched project considered for demo but deemed too old",
+      "relationships": [
+        "U03UMPD2NNS",
+        "U01AKGWGLC8",
+        "TPT"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "type": "project",
+      "context": "VMS project launching mid-Dec or early Jan, led by Laura and Sameer",
+      "relationships": [
+        "VMS",
+        "U09D8BZ9891",
+        "Laura",
+        "Sameer"
+      ]
+    },
+    {
+      "name": "Fede",
+      "type": "person",
+      "context": "U0MBX09UZ returning from vacation, catching up on emails and Slack",
+      "relationships": [
+        "U027201FQSV",
+        "UE4HG114J"
+      ]
+    },
+    {
+      "name": "Nikita",
+      "type": "person",
+      "context": "On paternity leave, unavailable for demos",
+      "relationships": [
+        "U01AKGWGLC8"
+      ]
+    },
+    {
+      "name": "Maria",
+      "type": "person",
+      "context": "Missing IT Cap data, added by U03TY4YJU4X",
+      "relationships": [
+        "U03TY4YJU4X",
+        "IT Cap"
+      ]
+    },
+    {
+      "name": "Prateek Jajoo",
+      "type": "person",
+      "context": "New hire starting Dec 1, missing from New Ventures All group",
+      "relationships": [
+        "New Ventures tribe",
+        "U03TY4YJU4X"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "IT Cap tracking at only 33% for TAM, 79% for NV",
+      "owner": "U03TY4YJU4X, UEZ4PRFKM",
+      "status": "active",
+      "impact": "Portfolio reporting and resource tracking"
+    },
+    {
+      "description": "Occasion boxes demo pushed to recording instead of live presentation",
+      "owner": "U01BT6RE4JG",
+      "status": "active",
+      "impact": "Reduced visibility for Global Rollout of Occasion Boxes via OTP"
+    },
+    {
+      "description": "VMS has no recent rollouts for Nov 18 demo",
+      "owner": "U09D8BZ9891",
+      "status": "active",
+      "impact": "Cannot participate in Nov 18 company-wide demo"
+    },
+    {
+      "description": "OTP and Shopify launches not ready until W51/mid-Dec",
+      "owner": "U09D8BZ9891",
+      "status": "active",
+      "impact": "VMS cannot demo on production for upcoming sessions"
+    },
+    {
+      "description": "Discrepancies with folks who left still marked as working in Sept",
+      "owner": "UEZ4PRFKM",
+      "status": "active",
+      "impact": "IT Cap tracking accuracy"
+    },
+    {
+      "description": "Operations review meeting calendar issues - doubled up on Dec 3",
+      "owner": "U01V9SX5NG5, U8F7ZDAPM",
+      "status": "active",
+      "impact": "Calendar management and meeting coordination"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Present Cross selling MVP demo at company-wide demo",
+      "owner": "U01TQGXG9D3, U03R6F2AG9K",
+      "due": "Next week Tuesday",
+      "status": "pending"
+    },
+    {
+      "task": "Complete IT Cap tracking spreadsheet by deadline",
+      "owner": "All team members",
+      "due": "08.10",
+      "status": "pending"
+    },
+    {
+      "task": "Add Maria's IT Cap data",
+      "owner": "U03TY4YJU4X",
+      "due": "ASAP",
+      "status": "done"
+    },
+    {
+      "task": "Check and add missing people to New Ventures All group",
+      "owner": "All team members",
+      "due": "ASAP",
+      "status": "done"
+    },
+    {
+      "task": "Confirm Good Chop demo spot for Nov 18 with Haley",
+      "owner": "U01AKGWGLC8",
+      "due": "ASAP",
+      "status": "done"
+    },
+    {
+      "task": "Update progress spreadsheet with ongoing fires while U03TY4YJU4X is out",
+      "owner": "All team members",
+      "due": "Next week",
+      "status": "pending"
+    },
+    {
+      "task": "Route UBDB3FVGS to U01BT6RE4JG for Credit Auto Cancel Service questions",
+      "owner": "U027201FQSV",
+      "due": "ASAP",
+      "status": "done"
+    },
+    {
+      "task": "Brainstorm demo projects for VMS and TPT for future sessions",
+      "owner": "UEZ4PRFKM, U03UMPD2NNS, U09D8BZ9891",
+      "due": "Next week",
+      "status": "pending"
+    },
+    {
+      "task": "Request to add Occasion boxes back as live demo instead of recording",
+      "owner": "U01BT6RE4JG",
+      "due": "ASAP",
+      "status": "pending"
+    },
+    {
+      "task": "Provide context on change management and automation opportunities",
+      "owner": "U03TY4YJU4X, U01KKT2P7FY",
+      "due": "When U03TY4YJU4X returns",
+      "status": "pending"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "Company-wide product demos",
+      "summary": "New Ventures tribe is organizing multiple product demos to present work to the company. Cross selling MVP confirmed for next week, Good Chop Multi-SKU demo for Nov 18, with VMS and TPT planning future sessions.",
+      "relevance": "Critical for showcasing tribe value and coordinating cross-team visibility"
+    },
+    {
+      "topic": "IT Cap tracking urgency",
+      "summary": "TAM is at only 33% IT Cap reporting with deadline of 08.10. NV improved to 79% with 97% of folks reported, but discrepancies remain with departed employees.",
+      "relevance": "Essential for portfolio reporting and resource allocation tracking"
+    },
+    {
+      "topic": "Re-org impact on operations",
+      "summary": "Recent re-org caused cancellation and rescheduling of operations review meeting. Teams are reassessing priorities and demo opportunities in light of organizational changes.",
+      "relevance": "Affects team coordination, meeting cadences, and project prioritization"
+    },
+    {
+      "topic": "OTP rollout across teams",
+      "summary": "One-time purchase (OTP) system being rolled out across multiple teams including Good Chop (W51), VMS (W51), and Occasion boxes (ANZ first). Multiple launches coordinated for late December.",
+      "relevance": "Major cross-team initiative requiring coordination and demo planning"
+    },
+    {
+      "topic": "Demo selection criteria",
+      "summary": "Teams discussing what makes good demo content - needs to be recent, customer-problem focused, novel enough for audience, and ideally launched or in beta/alpha testing.",
+      "relevance": "Guides project selection for company visibility and ensures quality presentations"
+    },
+    {
+      "topic": "Team member availability",
+      "summary": "Multiple team members on PTO including Nikita (paternity leave), U03TY4YJU4X (out next week), U01KKT2P7FY (month-long PTO starting 2nd week Dec), and U03R6F2AG9K (PTO mon/tues next week).",
+      "relevance": "Impacts demo participation, project ownership, and coordination needs"
+    }
+  ],
+  "summary": "New Ventures tribe coordinating multiple company-wide product demos with Cross selling MVP and Good Chop Multi-SKU confirmed, while addressing IT Cap tracking urgency (TAM at 33%) and navigating re-org impacts on operations and team coordination."
+}

@@ -1,0 +1,444 @@
+{
+  "batch_id": "jira_0014",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 24,
+    "Bug": 1
+  },
+  "date_range": {
+    "oldest": "2025-12-02",
+    "newest": "2025-12-09"
+  },
+  "analyzed_at": "2026-01-02T18:14:15.279473",
+  "summary": "The work focuses on three main areas: (1) team reorganization from NVS and RTE Systems squads into the new Market Innovation and Optimization (MIO) team, requiring updates across multiple systems (DORA dashboards, HF Inspector, Sentry, JSON files); (2) checkout and payment flow improvements including OTP (One-Time Purchase) cart integration, charge-at-checkout experiments, and reactivation flow migrations; (3) Factor Form/GreenChef migration preparation including Klaviyo email setup, DNS configuration, Shopify domain authentication, and two-step login flow improvements.",
+  "decisions": [
+    {
+      "what": "Block MIO-30 until github-automation changes are merged for CODEOWNERS file updates",
+      "issue_key": "MIO-30",
+      "who": [
+        "Davor Juric",
+        "Wanderley Teixeira"
+      ],
+      "rationale": "Cannot update team and Claim JSON files without the automation infrastructure in place",
+      "date": "2025"
+    },
+    {
+      "what": "Create one cartID per session for OTP checkout",
+      "issue_key": "GOC-3356",
+      "who": [
+        "Himash Tehan"
+      ],
+      "rationale": "Prevent duplicate cart creation issues during checkout flow",
+      "date": "2025"
+    },
+    {
+      "what": "Clean up feature flag for UPM vs legacy payment step before implementing handleOTPCheckoutSubmit",
+      "issue_key": "GOC-3396",
+      "who": [
+        "Beatrice Dimarucut"
+      ],
+      "rationale": "Technical debt cleanup needed before new OTP checkout flow implementation",
+      "date": "2025"
+    },
+    {
+      "what": "Consolidate MIO-33 work into MIO-32 for HF Inspector updates",
+      "issue_key": "MIO-33",
+      "who": [
+        "Davor Juric"
+      ],
+      "rationale": "Avoid duplicate effort by handling both NVS and RTE Systems updates together",
+      "date": "2025"
+    },
+    {
+      "what": "Hide payment banner for customers in C@C (Charge at Checkout) experiment variation",
+      "issue_key": "GOC-3407",
+      "who": [
+        "Alexander Matlin"
+      ],
+      "rationale": "Different payment flow for experiment participants requires UI changes",
+      "date": "2025"
+    },
+    {
+      "what": "Prototype alternative flows for change email step in two-step login",
+      "issue_key": "MIO-44",
+      "who": [
+        "Ameek Singh"
+      ],
+      "rationale": "Current flow of transitioning back to step 1 was unexpected for users",
+      "date": "2025"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Team Reorganization - Market Innovation and Optimization (MIO)",
+      "description": "Consolidate NVS and RTE Systems squads into new MIO team with updates across all tooling and monitoring systems",
+      "status": "active",
+      "key_issues": [
+        "MIO-14",
+        "MIO-30",
+        "MIO-31",
+        "MIO-32",
+        "MIO-33",
+        "MIO-36",
+        "MIO-39",
+        "MIO-40"
+      ]
+    },
+    {
+      "name": "OTP (One-Time Purchase) Checkout Flow",
+      "description": "Implement complete OTP cart creation and checkout submission flow separate from subscription checkout",
+      "status": "completed",
+      "key_issues": [
+        "GOC-3177",
+        "GOC-3354",
+        "GOC-3356",
+        "GOC-3396"
+      ]
+    },
+    {
+      "name": "Factor Form/GreenChef Migration",
+      "description": "Migrate Factor Form to new infrastructure including Klaviyo email setup, Shopify integration, and user experience improvements",
+      "status": "active",
+      "key_issues": [
+        "MIO-1",
+        "MIO-13",
+        "MIO-17",
+        "MIO-18",
+        "MIO-27",
+        "MIO-42",
+        "MIO-43",
+        "MIO-44"
+      ]
+    },
+    {
+      "name": "Backend Services Handover",
+      "description": "Document and execute handover/deprecation of backend services to other domains following TRE guidelines",
+      "status": "active",
+      "key_issues": [
+        "MIO-7",
+        "MIO-23"
+      ]
+    },
+    {
+      "name": "Reactivation Flow Migration",
+      "description": "Migrate reactivation flow components including premium shipping to new architecture",
+      "status": "active",
+      "key_issues": [
+        "GOC-3270",
+        "GOC-3408"
+      ]
+    },
+    {
+      "name": "Test Quarantine System Cleanup",
+      "description": "Address flaky tests in quarantine system to improve test reliability",
+      "status": "completed",
+      "key_issues": [
+        "GOC-3391",
+        "GOC-3392",
+        "GOC-3417"
+      ]
+    },
+    {
+      "name": "Charge at Checkout (C@C) Experiment",
+      "description": "Implement experiment variation for charging customers at checkout instead of traditional payment flow",
+      "status": "active",
+      "key_issues": [
+        "GOC-3317",
+        "GOC-3407"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Team and Claim JSON file updates blocked pending github-automation changes merge",
+      "issue_key": "MIO-30",
+      "owner": "Davor Juric",
+      "impact": "Cannot update repository ownership information for MIO team transition"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Market Innovation and Optimization (MIO)",
+      "type": "squad",
+      "context": "Newly formed team consolidating NVS and RTE Systems squads",
+      "issues": [
+        "MIO-14",
+        "MIO-30",
+        "MIO-31",
+        "MIO-32",
+        "MIO-33",
+        "MIO-36",
+        "MIO-39",
+        "MIO-40"
+      ]
+    },
+    {
+      "name": "New Ventures Systems (NVS)",
+      "type": "squad",
+      "context": "Previous squad being consolidated into MIO team",
+      "issues": [
+        "MIO-30",
+        "MIO-32",
+        "MIO-36",
+        "MIO-39"
+      ]
+    },
+    {
+      "name": "RTE Systems",
+      "type": "squad",
+      "context": "Previous squad being consolidated into MIO team",
+      "issues": [
+        "MIO-31",
+        "MIO-33",
+        "MIO-40"
+      ]
+    },
+    {
+      "name": "Davor Juric",
+      "type": "person",
+      "context": "Primary assignee for team reorganization tasks",
+      "issues": [
+        "MIO-30",
+        "MIO-31",
+        "MIO-32",
+        "MIO-33",
+        "MIO-39",
+        "MIO-40",
+        "MIO-23"
+      ]
+    },
+    {
+      "name": "Romina Nicastro",
+      "type": "person",
+      "context": "Lead developer for OTP checkout implementation and test quarantine fixes",
+      "issues": [
+        "GOC-3354",
+        "GOC-3356",
+        "GOC-3396",
+        "GOC-3417"
+      ]
+    },
+    {
+      "name": "Ameek Singh",
+      "type": "person",
+      "context": "Working on Factor Form monitoring, onboarding, and UX improvements",
+      "issues": [
+        "MIO-27",
+        "MIO-41",
+        "MIO-44"
+      ]
+    },
+    {
+      "name": "DORA dashboards",
+      "type": "system",
+      "context": "Performance tracking system requiring team label updates",
+      "issues": [
+        "MIO-39",
+        "MIO-40"
+      ]
+    },
+    {
+      "name": "HF Inspector",
+      "type": "system",
+      "context": "Tool requiring team detail updates for new MIO team",
+      "issues": [
+        "MIO-32",
+        "MIO-33"
+      ]
+    },
+    {
+      "name": "Sentry",
+      "type": "system",
+      "context": "Error tracking and alerting system requiring team configuration updates",
+      "issues": [
+        "MIO-36"
+      ]
+    },
+    {
+      "name": "Klaviyo",
+      "type": "system",
+      "context": "Email service platform requiring DNS configuration for Factor Form",
+      "issues": [
+        "MIO-42"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag platform for GreenChef migration and C@C experiment",
+      "issues": [
+        "MIO-43",
+        "GOC-3407"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Legacy website being migrated with new infrastructure and monitoring",
+      "issues": [
+        "MIO-13",
+        "MIO-18",
+        "MIO-27",
+        "MIO-42"
+      ]
+    },
+    {
+      "name": "GreenChef",
+      "type": "brand",
+      "context": "Brand being migrated to new platform with Statsig feature gates",
+      "issues": [
+        "MIO-1",
+        "MIO-43"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "E-commerce platform for Factor Form requiring domain authentication",
+      "issues": [
+        "MIO-18"
+      ]
+    },
+    {
+      "name": "Recharge",
+      "type": "system",
+      "context": "Subscription management platform requiring custom domain authentication",
+      "issues": [
+        "MIO-18"
+      ]
+    },
+    {
+      "name": "Honeycomb",
+      "type": "system",
+      "context": "Monitoring and observability platform for tracking redirection logic and test failures",
+      "issues": [
+        "MIO-27",
+        "GOC-3391"
+      ]
+    },
+    {
+      "name": "customer-management-service",
+      "type": "system",
+      "context": "Service being investigated for migration capabilities",
+      "issues": [
+        "MIO-17"
+      ]
+    },
+    {
+      "name": "Sneha Gupta",
+      "type": "person",
+      "context": "New team member being onboarded with mobile estimates validation",
+      "issues": [
+        "MIO-41",
+        "MIO-43"
+      ]
+    },
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Developer providing technical guidance on cart creation and test issues",
+      "issues": [
+        "GOC-3356",
+        "GOC-3388",
+        "GOC-3391",
+        "GOC-3392"
+      ]
+    },
+    {
+      "name": "Wanderley Teixeira",
+      "type": "person",
+      "context": "Managing DNS updates and backlog prioritization",
+      "issues": [
+        "MIO-17",
+        "MIO-30",
+        "MIO-42"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Hook-based architecture for UI logic separation",
+      "context": "Creating dedicated hooks like useCreateOTPCartForCheckout and useOrderConfirmationData to wrap data-access hooks with UI-specific logic, promoting separation of concerns"
+    },
+    {
+      "pattern": "Feature flag driven development",
+      "context": "Using Statsig for gradual rollouts (GreenChef migration, C@C experiment) and conditional UI rendering based on experiment allocation"
+    },
+    {
+      "pattern": "Test quarantine system",
+      "context": "Systematic approach to isolate and fix flaky tests with success rate tracking (85-87% thresholds) before re-enabling in main test suite"
+    },
+    {
+      "pattern": "Observability-first approach",
+      "context": "Building Honeycomb dashboards with traces before deploying new features (redirection logic monitoring) to track performance and failure rates"
+    },
+    {
+      "pattern": "DNS-based service authentication",
+      "context": "Using NS and TXT records for third-party service authentication (Klaviyo, Recharge, SendGrid) to enable email delivery and domain verification"
+    },
+    {
+      "pattern": "Separate checkout flows for different purchase types",
+      "context": "Implementing distinct handleOTPCheckoutSubmit function to handle one-time purchases separately from subscription checkout logic"
+    },
+    {
+      "pattern": "Redux to hooks migration",
+      "context": "Migrating from Redux selectors to custom hooks for state management in reactivation flow (premium shipping)"
+    },
+    {
+      "pattern": "Batch price calculation",
+      "context": "Using /calculate/prospect/batch endpoint for efficient price retrieval across multiple components"
+    }
+  ],
+  "work_themes": [
+    "Team reorganization and tooling updates",
+    "Checkout flow optimization and experimentation",
+    "Brand migration and infrastructure setup",
+    "Test stability and quality improvements",
+    "Email service integration and DNS configuration",
+    "Monitoring and observability enhancement",
+    "Technical debt reduction",
+    "Service handover and documentation"
+  ],
+  "dependencies": [
+    {
+      "from": "MIO team",
+      "to": "github-automation",
+      "context": "Team reorganization blocked on automation changes for CODEOWNERS file updates"
+    },
+    {
+      "from": "OTP checkout implementation",
+      "to": "Feature flag cleanup",
+      "context": "New OTP flow requires cleanup of UPM vs legacy payment feature flags first"
+    },
+    {
+      "from": "Factor Form",
+      "to": "Klaviyo",
+      "context": "Email functionality depends on DNS record configuration and domain authentication"
+    },
+    {
+      "from": "Factor Form",
+      "to": "Shopify/Recharge",
+      "context": "Custom domain authentication required for email delivery (failed payment recovery)"
+    },
+    {
+      "from": "MIO team",
+      "to": "Cart Foundation team",
+      "context": "Investigating errors with multiple free cuts per category in meals/addons saving"
+    },
+    {
+      "from": "Test quarantine fixes",
+      "to": "Honeycomb",
+      "context": "Using Honeycomb queries to analyze test failure patterns and error messages"
+    },
+    {
+      "from": "GreenChef migration",
+      "to": "Statsig",
+      "context": "Feature gate setup required before migration can proceed"
+    },
+    {
+      "from": "Reactivation flow",
+      "to": "price-service",
+      "context": "Premium shipping migration depends on price-service API for prospect pricing"
+    }
+  ]
+}

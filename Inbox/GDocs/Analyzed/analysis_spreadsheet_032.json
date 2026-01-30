@@ -1,0 +1,135 @@
+{
+  "batch_id": "spreadsheet_032",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "[WIP] 2025YP Dependencies Master",
+      "doc_id": "1l-eRcM2QchbaLJ0uDemwpuxt8i2K7mwDxavw0l_99YM",
+      "doc_type": "spreadsheet",
+      "purpose": "Track all dependencies raised for 2025 Year Planning across different alliances/teams, including acceptance status and coordination between requestors and recipients",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Dependencies segregated by alliance in different tabs",
+        "Acceptance deadline: NOV 6 (after which requestors can check accepted/not accepted dependencies)",
+        "Sheet refresh interval: 1-2 hours for updated information to reflect",
+        "Two main categories: Tech teams and Non-Tech teams"
+      ],
+      "entities": [
+        {
+          "name": "Consumer Core",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Marketing NA",
+          "type": "project",
+          "context": "Non-Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Data",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Operations NA",
+          "type": "project",
+          "context": "Non-Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Decisions",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Marketing INTL",
+          "type": "project",
+          "context": "Non-Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Engagement",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Operations INTL",
+          "type": "project",
+          "context": "Non-Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Food",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Foundations",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Fulfilment",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Growth",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "IT & Security",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Operations Enablement",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Procurement",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Tech - TAM Expansion",
+          "type": "project",
+          "context": "Tech team alliance with incoming dependencies"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Organizing New Ventures PA Resource Alignment meeting, coordinating scheduling conflicts"
+        },
+        {
+          "name": "Matthew Stone",
+          "type": "person",
+          "context": "Requested meeting reschedule due to Consumer Mega Alliance SLT conflict"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Attending Consumer Mega Alliance SLT, has scheduling conflict"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Attending Consumer Mega Alliance SLT, has scheduling conflict"
+        }
+      ],
+      "insights": [
+        "Master dependency tracking system for 2025 planning with read-only mastersheet and editable alliance-specific tabs",
+        "Process includes acceptance workflow where recipient alliances must manually update acceptance status",
+        "Once accepted, dependencies must be copied to recipient's roadmap as strategies",
+        "Rejections are automatically communicated back to requestors via their roadmap's DependencyLog tab",
+        "System has built-in lag time (1-2 hours) for data synchronization across sheets",
+        "Clear separation between Tech and Non-Tech team alliances for dependency management",
+        "FAQs indicate common issues: editing restrictions (only acceptance status should be modified), communication protocols, and removal procedures",
+        "Recent email activity shows coordination challenges around PA resource alignment for New Ventures, with scheduling conflicts between team meetings",
+        "Active JIRA work includes OTP checkout improvements, Statsig metrics, and SAR latency issues (blocked)",
+        "GitHub activity shows ongoing work on TPT (The Pets Table) features including quiz tests, portion selection, and calorie adjustments"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:15:41.878875"
+}

@@ -1,0 +1,458 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W51",
+  "extracted_at": "2026-01-02T10:45:55.838657Z",
+  "message_count": 3,
+  "messages": [
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1766055381.702369",
+      "client_msg_id": "53339754-bbd8-44e5-9deb-31810d99e285",
+      "text": "Hey people,\n<@U01AKGWGLC8> <@U07VDFEFBQU> <@U03TY4YJU4X>  - Good Chop is only showing the next deliverable box to the users. So you remember what was the rationale for Good Chop to not expose deliveries coming up later in the future?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1766055381.702369",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1766057329.753159",
+      "reply_users": [
+        "U03TY4YJU4X",
+        "U03UMPD2NNS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Gllr1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey people,\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U07VDFEFBQU"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03TY4YJU4X"
+                },
+                {
+                  "type": "text",
+                  "text": "  - Good Chop is only showing the next deliverable box to the users. So you remember what was the rationale for Good Chop to not expose deliveries coming up later in the future?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766055666.588539",
+          "client_msg_id": "22d09d5e-7d09-469d-866a-1f965f319776",
+          "text": "```Short Answer\n  The decision to not expose future deliveries was primarily driven by legacy technical  constraints (reliance on a shared \"Whitelabel\" dashboard) and a strategic  prioritization of the immediate order experience over complex subscription management.\n\n  However, this is actively changing. \"Future Boxes\" is explicitly listed as a key  feature for the Q2 2026 \"New Dashboard Release,\" indicating the limitation is  recognized and a fix is planned.\n\n  Detailed Rationale\n\n   1. Legacy Tech &amp; Migration (Primary Reason):\n       * Good Chop has been operating on a \"shared Whitelabel\" dashboard infrastructure that lacked brand-specific customization.\n       * The team is currently in the middle of a \"Dashboard Improvements\" initiative to migrate Good Chop away from this shared legacy system. The priority has\n         been stabilizing the current platform and enabling core commerce features (like Charge at Checkout) rather than building advanced subscription management features like multi-week visibility.\n\n   2. Strategic Pivot to E-Commerce (Business Reason):\n       * Good Chop is actively trying to move away from the rigid \"subscription plan\" model (which \"Future Boxes\" reinforces) and towards a flexible E-Commerce /\n         One-Time Purchase (OTP) model.\n       * Investing heavily in a UI that emphasizes \"managing your next 4 subscription boxes\" would have been counter-strategic while the business was trying to\n         build \"Charge at Checkout\" and \"OTP\" flows to allow customers to buy what they want, when they want, without being locked into a rigid weekly cadence.\n\n   3. Inventory &amp; Sourcing Complexity:\n       * Unlike standard meal kits, Good Chop's \"digital butcher\" model relies on specific cuts and sourcing. Managing guaranteed inventory visibility for weeks         into the future is significantly more complex for specific protein cuts than  for general meal kit ingredients, making a \"future box\" view operationally riskier to promise.\n\n  Future Outlook (Roadmap)\n  According to the H1 2026 Roadmap, the \"New Dashboard Release\" in Q2 2026 will finally introduce:\n   * Future Boxes: Full visibility into upcoming deliveries.\n   * Add-on Upselling: Easier ways to add items to upcoming orders.\n   * Premium Swaps: Options to upgrade cuts in future boxes.```",
+          "team": "T02AGMUUR",
+          "thread_ts": "1766055381.702369",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kWhiF",
+              "elements": [
+                {
+                  "type": "rich_text_preformatted",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Short Answer\n  The decision to not expose future deliveries was primarily driven by legacy technical  constraints (reliance on a shared \"Whitelabel\" dashboard) and a strategic  prioritization of the immediate order experience over complex subscription management.\n\n  However, this is actively changing. \"Future Boxes\" is explicitly listed as a key  feature for the Q2 2026 \"New Dashboard Release,\" indicating the limitation is  recognized and a fix is planned.\n\n  Detailed Rationale\n\n   1. Legacy Tech & Migration (Primary Reason):\n       * Good Chop has been operating on a \"shared Whitelabel\" dashboard infrastructure that lacked brand-specific customization.\n       * The team is currently in the middle of a \"Dashboard Improvements\" initiative to migrate Good Chop away from this shared legacy system. The priority has\n         been stabilizing the current platform and enabling core commerce features (like Charge at Checkout) rather than building advanced subscription management features like multi-week visibility.\n\n   2. Strategic Pivot to E-Commerce (Business Reason):\n       * Good Chop is actively trying to move away from the rigid \"subscription plan\" model (which \"Future Boxes\" reinforces) and towards a flexible E-Commerce /\n         One-Time Purchase (OTP) model.\n       * Investing heavily in a UI that emphasizes \"managing your next 4 subscription boxes\" would have been counter-strategic while the business was trying to\n         build \"Charge at Checkout\" and \"OTP\" flows to allow customers to buy what they want, when they want, without being locked into a rigid weekly cadence.\n\n   3. Inventory & Sourcing Complexity:\n       * Unlike standard meal kits, Good Chop's \"digital butcher\" model relies on specific cuts and sourcing. Managing guaranteed inventory visibility for weeks         into the future is significantly more complex for specific protein cuts than  for general meal kit ingredients, making a \"future box\" view operationally riskier to promise.\n\n  Future Outlook (Roadmap)\n  According to the H1 2026 Roadmap, the \"New Dashboard Release\" in Q2 2026 will finally introduce:\n   * Future Boxes: Full visibility into upcoming deliveries.\n   * Add-on Upselling: Easier ways to add items to upcoming orders.\n   * Premium Swaps: Options to upgrade cuts in future boxes."
+                    }
+                  ],
+                  "border": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766055745.538199",
+          "client_msg_id": "f05b6899-18f3-4490-a3ac-a00f8f8ab114",
+          "text": "OK tl;dr I don't fully agree with this assessment, but it's not incorrect; I think a simpler explanation is that when we tested future box display it led to an increase in Cancellations and Pauses making it CVA negative",
+          "team": "T02AGMUUR",
+          "thread_ts": "1766055381.702369",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iAkZ4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK tl;dr I don't fully agree with this assessment, but it's not incorrect; I think a simpler explanation is that when we tested future box display it led to an increase in Cancellations and Pauses making it CVA negative"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1766055902.998869",
+          "client_msg_id": "2546dac5-ace4-4aed-be5a-bdcdd9a77e8f",
+          "text": "Got it, and regarding the 2026 planning. Do you know in what format the next box will be presented? Are they planning to use the WL week navigation?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1766055381.702369",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5/uU0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Got it, and regarding the 2026 planning. Do you know in what format the next box will be presented? Are they planning to use the WL week navigation?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766056956.641319",
+          "client_msg_id": "5132d07c-78bd-48ad-8f61-c1f529bda25f",
+          "text": "let me see if I can find the designs",
+          "team": "T02AGMUUR",
+          "thread_ts": "1766055381.702369",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mQK13",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "let me see if I can find the designs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766057329.753159",
+          "client_msg_id": "32e95e65-3f70-406f-960c-56c17a52d785",
+          "text": "ah, ok, not 100% certain of the latest version as we haven't been working on it for some time; but it was originally envisaged as the \"weekly picker\" where instead of weeks, you see the past delivery box (for recipe reviews etc.) current box (default view) and the next delivery.\n\nThere was an option where we explored vertical scrolling as well; but there's too much we want to have on the current pre-cutoff order",
+          "team": "T02AGMUUR",
+          "thread_ts": "1766055381.702369",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "76JmV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ah, ok, not 100% certain of the latest version as we haven't been working on it for some time; but it was originally envisaged as the \"weekly picker\" where instead of weeks, you see the past delivery box (for recipe reviews etc.) current box (default view) and the next delivery.\n\nThere was an option where we explored vertical scrolling as well; but there's too much we want to have on the current pre-cutoff order"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1num",
+              "users": [
+                "U01AKGWGLC8"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Hey team, :wave::skin-tone-2:\nI came across this doc while digging through some materials. It’s a helpful resource for identifying which groups to request access to for food systems:\n<https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?tab=t.0>\n\nIt doesn’t cover CPS. If you need CPS access, the group naming follows this format: <http://acl_scm_ops_culinary.nl|acl_scm_ops_culinary.nl>.all.manager-staging, where nl can be replaced with the relevant brand or country code.",
+      "files": [
+        {
+          "id": "F07CCCAQ2Q7",
+          "created": 1721202063,
+          "timestamp": 1721202063,
+          "name": "Log in with Azure - User Guide",
+          "title": "Access FSM Tools with Azure - User Guide",
+          "mimetype": "application/vnd.google-apps.document",
+          "filetype": "gdoc",
+          "pretty_type": "Google Docs",
+          "user": "U03CJ1BKFTL",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 0,
+          "mode": "external",
+          "is_external": true,
+          "external_type": "gdrive",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "external_id": "1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8",
+          "external_url": "https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?usp=sharing",
+          "url_private": "https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?usp=sharing",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_360.png",
+          "thumb_360_w": 277,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_480.png",
+          "thumb_480_w": 369,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_720.png",
+          "thumb_720_w": 554,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1040,
+          "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_960.png",
+          "thumb_960_w": 738,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F07CCCAQ2Q7-41087a7a29/log_in_with_azure_-_user_guide_1024.png",
+          "thumb_1024_w": 788,
+          "thumb_1024_h": 1024,
+          "thumb_tiny": "AwAwACXQkcpg7lAyM5//AFj2pC+0/M69cemP1/zkUkikyBggJxjJH6UqBzyxwRkDgc/rQAM/OFljDdgef60uWDHc6YzwMY78d6Xbn72D+FBRD1VfyoAdRQAAMAAD0FFADZG2gHaTz2GcUqtuXOCPqMUpGRQKACigdOmKKACiiigBr7uAvGep9KYPO/2DUpIHWm5B5549qADLcZUfnTqQEYpaACiiigD/2Q==",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F07CCCAQ2Q7/log_in_with_azure_-_user_guide",
+          "is_starred": false,
+          "skipped_shares": true,
+          "app_id": "A6NL8MJ6Q",
+          "has_rich_preview": true,
+          "file_access": "visible",
+          "entity_id": "W:A6NL8MJ6Q:1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8",
+          "full_size_preview_supported": true
+        }
+      ],
+      "upload": false,
+      "user": "U02CRDYF2NL",
+      "display_as_bot": false,
+      "x_files": [
+        "F07CCCAQ2Q7"
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "pzbAE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b-1f3fb",
+                  "skin_tone": 2
+                },
+                {
+                  "type": "text",
+                  "text": "\nI came across this doc while digging through some materials. It’s a helpful resource for identifying which groups to request access to for food systems:\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?tab=t.0"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nIt doesn’t cover CPS. If you need CPS access, the group naming follows this format: "
+                },
+                {
+                  "type": "link",
+                  "url": "http://acl_scm_ops_culinary.nl",
+                  "text": "acl_scm_ops_culinary.nl"
+                },
+                {
+                  "type": "text",
+                  "text": ".all.manager-staging, where nl can be replaced with the relevant brand or country code."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1765870669.352619",
+      "client_msg_id": "1b387297-be01-414d-a678-1c6b468ccaf6",
+      "thread_ts": "1765870669.352619",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1765898125.215159",
+      "reply_users": [
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?tab=t.0",
+          "id": 764743952,
+          "bot_id": "B79TAGCE4",
+          "is_app_unfurl": true,
+          "app_unfurl_url": "https://docs.google.com/document/d/1NH_q_nhuWs6sdnHd5_eeCN6wgsUfSYfU1INnZs2FgK8/edit?usp=sharing"
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "fire",
+          "users": [
+            "U03TY4YJU4X"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765898125.215159",
+          "client_msg_id": "af0cfa5a-df32-4926-a2ea-cd2cc917b1d9",
+          "text": "Ooh thanks! Saving",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765870669.352619",
+          "parent_user_id": "U02CRDYF2NL",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ukcyJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ooh thanks! Saving"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1765815912.930739",
+      "client_msg_id": "1dfa4213-5837-4dd5-bae5-12ad6418b049",
+      "text": "hey <@U09UKDH3AA0> <@U03UMPD2NNS> - Laurent is gonna start a CVR program (think more of a \"audit existing experience\", identify how to optimize/rebuild the TPT funnel; rather than consolidate plans and meals) and is asking who would like to own that?",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BZ7P0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09UKDH3AA0"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " - Laurent is gonna start a CVR program (think more of a \"audit existing experience\", identify how to optimize/rebuild the TPT funnel; rather than consolidate plans and meals) and is asking who would like to own that?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U09UKDH3AA0"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

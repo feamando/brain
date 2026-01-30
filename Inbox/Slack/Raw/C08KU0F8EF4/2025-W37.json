@@ -1,0 +1,261 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W37",
+  "extracted_at": "2026-01-02T10:45:00.780094Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1757503124.381039",
+      "client_msg_id": "747f921c-f1e7-4b54-b52f-b7971de45f4f",
+      "text": "<@U01AKGWGLC8> <@U07VDFEFBQU> <@U03UMPD2NNS> - the charge at checkout - what's the CVA impact on it potentially for GoC and TPT?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1757503124.381039",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1757526542.309649",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03TY4YJU4X",
+        "U03UMPD2NNS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9+UzS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U07VDFEFBQU"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " - the charge at checkout - what's the CVA impact on it potentially for GoC and TPT?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757503459.783469",
+          "client_msg_id": "f8aebe96-e373-43f4-919e-3587b170762d",
+          "text": "I can do a quick BC later",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iuVMh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I can do a quick BC later"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757503473.870499",
+          "client_msg_id": "907f77e1-6000-4423-87bf-ed620c000444",
+          "text": "but the CVR uplift would be essentially most of our empty activation rate",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tRUe+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but the CVR uplift would be essentially most of our empty activation rate"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757503546.313229",
+          "edited": {
+            "user": "U01AKGWGLC8",
+            "ts": "1757503567.000000"
+          },
+          "client_msg_id": "1ff3687e-bad1-4946-ae60-1ecaeee22f17",
+          "text": "and also depends if we're able to still let customers add addons post-checkout (which can be charged later)\n\nif the condition for charge at checkout is that we cannot let people add addons then there will be a negative AOV impact to consider",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Jl5ra",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "and also depends if we're able to still let customers add addons post-checkout (which can be charged later)\n\nif the condition for charge at checkout is that we cannot let people add addons then there will be a negative AOV impact to consider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757504313.133299",
+          "client_msg_id": "254f7278-177b-417c-b71b-86613ef9f17d",
+          "text": "of course, although... not sure if the impact is gonna be that prinounced, it's a separate payment flow for add-ons anyway, if we can simply maintain that one",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ef1QS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "of course, although... not sure if the impact is gonna be that prinounced, it's a separate payment flow for add-ons anyway, if we can simply maintain that one"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1757508647.929949",
+          "client_msg_id": "392cbd89-959a-412d-ba8c-ae95b3644043",
+          "text": "Besides the empty conversion rate, please consider also CAC improvement, as we wont be paying Native partners for these empties.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GCYLg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Besides the empty conversion rate, please consider also CAC improvement, as we wont be paying Native partners for these empties."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1757520339.945429",
+          "client_msg_id": "756f34e5-9395-49b8-b6f1-981bec9c47b8",
+          "text": "<https://docs.google.com/spreadsheets/d/19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg/edit?gid=1687350365#gid=1687350365|BC for Good Chop >",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tEZbh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg/edit?gid=1687350365#gid=1687350365",
+                      "text": "BC for Good Chop "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1757526542.309649",
+          "client_msg_id": "f0abd3fc-7a41-4273-931c-825333fbd029",
+          "text": "Perfect thank you!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1757503124.381039",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NhK6v",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Perfect thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

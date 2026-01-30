@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0006",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "eaf203a0",
+      "message": "[TPT-2352] Add config middlewares (#61716)\n\n* Add manual credit feature middleware\n\n* Add sprig and whatsnew middlewares",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-12-12T11:14:05Z",
+      "url": "https://github.com/hellofresh/web/commit/eaf203a0de69555bc83fee43ed62bd6463ff7062",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "70b2c807",
+      "message": "[TPT-2369] Adjust old reactivation test (#61764)",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-12-12T10:25:57Z",
+      "url": "https://github.com/hellofresh/web/commit/70b2c8079a3792177df8a3df20b767e724205b58",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "fc5ecf0d",
+      "message": "[GOC-3421] Adds surcharge price to show total without conditions (#61724)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-12T09:35:27Z",
+      "url": "https://github.com/hellofresh/web/commit/fc5ecf0dac059f491569f88270b148144012973d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "ffc65078",
+      "message": "[MIO-57] [Staging] Remove requirement of local storage override for shopify redirects (#61681)\n\n* feat: remove local storage override requirement to test redirect on staging\n\n* feat: add local storage override for Shopify redirect in e2e tests\n\n* refactor: update local storage override handling for Shopify redirect\n\n* test: fix flaky VMS cancellation spec with product selection timeout\n\n* feat: add isRedirectPending state to handle user redirection during signup process\n\n- Updated FactorFormSignupPage and FactorFormTrialBoxSignupPage to include isRedirectPending state for better user experience during redirection.\n- Enhanced loading indicators to show when a redirect is pending, preventing UI flicker.\n- Modified useShopifyRedirectForUnregisteredVMSUsers hook to manage isRedirectPending state and track redirect timing metrics.\n- Updated tests to validate new redirect behavior and state management.\n\n* fix: simplify conditional rendering in FactorFormTrialBoxSignupPage\n\n- Updated the rendering logic to show the loading spinner only when the user is logged in, removing the unnecessary check for redirect pending state.\n- This change improves the user experience by preventing UI flicker during navigation.\n\n* test: rename incorrect tracking function in useShopifyRedirectForUnregisteredVMSUsers tests\n\n* fix: enhance redirect handling in FactorFormSignupPage and FactorFormTrialBoxSignupPage\n\n* test: quarantine VMS cancellation test\n\n* test: remove timeout from product selection in VMS cancellation spec\n\n* feat: add disableRedirectToShopifyFactorform helper for improved test setup",
+      "author": "singh-ameek",
+      "author_email": "104858529+singh-ameek@users.noreply.github.com",
+      "date": "2025-12-11T20:05:31Z",
+      "url": "https://github.com/hellofresh/web/commit/ffc65078c75f68fe07e84bf6f2286a9d84205233",
+      "repo": "hellofresh/web",
+      "matched_prefix": "MIO-"
+    },
+    {
+      "sha": "0278a0a6",
+      "message": "[TPT-2435] - [GD] Handle users with expired payment (#61595)\n\n* TPT-2435 - show error for expired card\n\n* TPT-2435 - show error for expired card\n\n* TPT-2435 - fix failing test\n\n* TPT-2435 - fix ts error\n\n* TPT-2406 - display error for expired card only after click on reactivate button\n\n* TPT-2406 - fix test\n\n* TPT-2406 - fix test",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-11T15:25:09Z",
+      "url": "https://github.com/hellofresh/web/commit/0278a0a6e99ae59c66967407f0705aed88f6748e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2884f195",
+      "message": "[RTEVMS-2256] Factor Form | Added normalized sku for vmsu family (#61684)\n\n* feat(RTEVMS-2256): added normalized sku for vmsu family\n\n* feat(RTEVMS-2256): improved CheckoutCTA to avoid issue with tslint later",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-11T15:09:30Z",
+      "url": "https://github.com/hellofresh/web/commit/2884f195b67323d17414a9c222a6a522e554be96",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "beb17477",
+      "message": "[TPT-2271]: Tests for plan change quick action (#61447)\n\n* [TPT-2271]: plan change quick action tests\n\n* review fixes\n\n* review fixes\n\n* delete mocks",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-12-11T13:12:13Z",
+      "url": "https://github.com/hellofresh/web/commit/beb17477ec3600527de125351d9da3a2ced7a096",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b71bcc39",
+      "message": "[TPT-2167] Add-voucher-to-Entry-Point-Reactivation (#61676)\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Price-to-Entry-Point-to-Reactivation-part-1\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-Entry-Point-Reactivation-banner\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* Fix formatting in required-workflow.yaml\n\n* Fix exit code in required workflow\n\n* revert prettier changes\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-price-to-Entry-Point-Reactivation\n\n* Merge branch master into feature/TPT-2167-Add-Price-to-Entry-Point-to-Reactivation-price\n\n* Merge branch master into feature/TPT-2167-Add-Price-to-Entry-Point-to-Reactivation-price\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation\n\n* [TPT-2167] Add-voucher-to-Entry-Point-Reactivation",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-12-11T13:06:14Z",
+      "url": "https://github.com/hellofresh/web/commit/b71bcc39a7685c3f98f40d116f4aee515464166b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8a375ee1",
+      "message": "[GOC-3420] Removes entry point for new dashboard mr (#61695)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-11T12:47:20Z",
+      "url": "https://github.com/hellofresh/web/commit/8a375ee15b1939b02603461e1e5956f7a9b591df",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "07ab3ef3",
+      "message": "[TPT-2440] making sure PetInfoHeader mounts client-side only (#61635)\n\n* [TPT-2440] making sure PetInfoHeader mounts client-side only\n\n* removed comment\n\n* test fix\n\n* cr refinements\n\n* test refinement",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-12-11T11:37:57Z",
+      "url": "https://github.com/hellofresh/web/commit/07ab3ef3ed48fec0261818efdba814d0acdc1a27",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "65e4923b",
+      "message": "[TPT-2361] implementing llms.txt (#61639)\n\n* [TPT-2361] implementing llms.txt\n\n* updated snapshot for test",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-12-11T11:03:36Z",
+      "url": "https://github.com/hellofresh/web/commit/65e4923baa43b2602fd2085034c305b7d67f7a15",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "a1ebfc75",
+      "message": "[GOC-3349] restore cuts in subscription loading page (#61591)\n\n* add a hook to get recipes from useDeliveryMenuByWeek\n\n* Trigger redeploy\n\n* update the tests\n\n* Fix SelectedCuts tests and stub delivery menu in e2e\n\n* remove unnecessary type\n\n* refactor: improve loading states in order confirmation\n\n* add a loading state to screen readers\n\n* fix tests",
+      "author": "nvyer",
+      "author_email": "nvard.yeritsyan@ext.hellofresh.com",
+      "date": "2025-12-11T09:55:30Z",
+      "url": "https://github.com/hellofresh/web/commit/a1ebfc75aab7955b64f6b01b65ac6feecccdd245",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "cdb22d67",
+      "message": "[GOC-3352] PR2: Support PUT for OTP address persistence (#61573)\n\n* support PUT for address save\n\n* support address save updates and retries\n\n* Update usePersistOTPAddresses.spec.ts\n\n* remove hardcoded string\n\n* Update checkout.ts\n\nfix entry id",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-12-11T09:26:25Z",
+      "url": "https://github.com/hellofresh/web/commit/cdb22d6739235ece17570457f7b16ee88777acff",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "eb05058f",
+      "message": "[RTEVMS-2303] Factor Form | OTP: Checkout Pricing (#61679)\n\n* use correct sku\n\n* fix pricing to return non-discounted price for OTP total\n\n* update shipping copy hook\n\n* fix copy\n\n* add check for subscription for discount\n\n* only pass voucher if subscription\n\n* fix endpoint calls to return full grandtotal\n\n* fix test\n\n* fix grand total unit tests\n\n* fix format\n\n* lol actually fix formatting\n\n* fix cart shipping bar\n\n* fix tests\n\n* fix entrypoint tests\n\n* update shipping bar tests\n\n* reorder imports",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-11T02:16:05Z",
+      "url": "https://github.com/hellofresh/web/commit/eb05058f7e189f4748e963139cd36ada13909add",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "d53cbcc0",
+      "message": "feat(RTEVMS-2256): added feature gate to enable vmsu family usage (#61657)",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-10T16:11:02Z",
+      "url": "https://github.com/hellofresh/web/commit/d53cbcc029a8dc0468751ce27acaca9358073ce4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "78018905",
+      "message": "[RTEVMS-2331] Factor Form | Endless Pause Cleanup (#61648)\n\n* remove unused query\n\n* remove request id",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-10T16:09:11Z",
+      "url": "https://github.com/hellofresh/web/commit/7801890563ed025942c1059d3fb9012eeb311e8b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f4b63022",
+      "message": "TPT-2444: Increase spacing in size selection component [Cursor_Code] (#61641)",
+      "author": "pedroávila",
+      "author_email": "91055415+pedroavilahello@users.noreply.github.com",
+      "date": "2025-12-10T15:58:34Z",
+      "url": "https://github.com/hellofresh/web/commit/f4b630224ca50dce9dafe4930f1187e229650f9b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "01865a26",
+      "message": "[RTEVMS-2356] Factor Form: Bug Fix for OTP Order Summary Updates (#61651)\n\n* RTEVMS-2356: Adding Lokalise keys\n\n* RTEVMS-2356: Adding Lokalise keys\n\n* RTEVMS-2356: Copy updates for OTP order summary\n\n* RTEVMS-2356: Updating shipping qualifying amount\n\n* RTEVMS-2356: Updating test\n\n* RTEVMS-2356: Adding free delivery price constant\n\n* RTEVMS-2356: Removing free item from cart drawer\n\n* RTEVMS-2356: Updating constant name\n\n* RTEVMS-2356: fixing copy bug",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-10T15:53:04Z",
+      "url": "https://github.com/hellofresh/web/commit/01865a26a706485093a663cffe69325f5eec74ce",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "df168929",
+      "message": "[TPT-2363] implemented structured markup data for our-products (#61446)",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-12-10T14:42:57Z",
+      "url": "https://github.com/hellofresh/web/commit/df1689294c386238cf1267d11c5c6749144fd5b9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "f5e8cdce",
+      "message": "[TPT-2288] plan card image contentful keys added (#61643)",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-10T14:41:51Z",
+      "url": "https://github.com/hellofresh/web/commit/f5e8cdce18f43cfd33edf1986e98debfe76b4bf5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-10T14:41:51Z",
+    "newest": "2025-12-12T11:14:05Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "batch_id": "spreadsheet_036",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "The Pets Table - 2026 BP v1 (Internal)",
+      "doc_id": "1338-4j5sMaG0A90gX-aeM_nsY8QSIgR4zAtP2E1in_s",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal business planning document for The Pets Table (TPT) brand tracking development work, JIRA tickets, GitHub activity, and active experiments",
+      "data_type": "tracker",
+      "key_data_points": [
+        "9 open Pull Requests for The Pets Table",
+        "10 JIRA tickets in various states (Blocked, Backlog, In Review, In Progress, Closed)",
+        "7 recent commits in last 5 hours to 3 days",
+        "50+ active Statsig experiments across multiple brands",
+        "High priority: CA Seamless downgrade issue (Closed), Pre/post Elysium analysis (Urgent, In Review)",
+        "Key focus areas: Portion percentage selection, calorie adjustments, OTP (One-Time Purchase) functionality, quiz testing"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "context": "Primary brand with most active development - 9 PRs, portion/calorie features"
+        },
+        {
+          "name": "Factor Form",
+          "type": "brand",
+          "context": "Sub-brand with OTP order history and discount communications work"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Brand working on one-time-deliveries page and OTP detection"
+        },
+        {
+          "name": "Market Innovation",
+          "type": "project",
+          "context": "Minimal activity - 1 commit removing Shopify redirect logic"
+        },
+        {
+          "name": "Guhan Sundararajan (@Guhan21)",
+          "type": "person",
+          "context": "Active developer on TPT portion options and calorie adjustments"
+        },
+        {
+          "name": "Andrea Martins",
+          "type": "person",
+          "context": "Recent commits on allergens E2E tests and checkout fixes"
+        },
+        {
+          "name": "Elysium",
+          "type": "system",
+          "context": "System under urgent pre/post analysis review"
+        },
+        {
+          "name": "Katana",
+          "type": "system",
+          "context": "System mentioned in OTP order traceability ticket"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company - multiple market experiments (US, UK, GB, FR, DE, NL, BE, AU)"
+        }
+      ],
+      "insights": [
+        "Heavy focus on portion percentage and calorie adjustment features for TPT with multiple related PRs in flight",
+        "One-Time Purchase (OTP) functionality is a cross-brand initiative affecting TPT, Factor Form, and Good Chop",
+        "Several blocked tickets related to data migration and reporting metrics suggest infrastructure challenges",
+        "Extensive A/B testing across markets with 50+ active Statsig experiments covering pricing, CRM, demand steering, and checkout flows",
+        "Recent work emphasizes E2E test stability (unquarantining tests) and GTM event tracking improvements",
+        "Geographic expansion evident with experiments running in US, UK, GB, FR, DE, NL, BE, AU, Nordics markets",
+        "Payment success rate and perfect order rate metrics are under active definition/review",
+        "Migration to v2 products API for PetsTable has been in progress for 23 days (oldest open PR)"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:19:36.644057"
+}

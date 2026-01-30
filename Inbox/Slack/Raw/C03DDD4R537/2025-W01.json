@@ -1,0 +1,17 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W01",
+  "extracted_at": "2026-01-02T10:49:13.201530Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "subtype": "channel_join",
+      "user": "U0A6YEJ4MR6",
+      "text": "<@U0A6YEJ4MR6> has joined the channel",
+      "inviter": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1767104141.790369"
+    }
+  ]
+}

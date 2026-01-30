@@ -1,0 +1,1048 @@
+{
+  "batch_id": "one_on_one_001",
+  "doc_type": "one_on_one",
+  "doc_count": 4,
+  "results": [
+    {
+      "doc_title": "Beatrice <> Nikita Weekly 1:1 Notes",
+      "doc_id": "1K7O7Q8OeHf64BNoxoMoqrbpcvkwUas24oBJNPTwaqlM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov",
+        "Jama Musse",
+        "Deo Nathaniel"
+      ],
+      "action_items": [
+        {
+          "task": "First build Q1 KRs and from that make the initiatives for 2026 OKRs",
+          "owner": "Team",
+          "due": "Next Wed (from Sep 18, 2025)"
+        },
+        {
+          "task": "Create wireframes and smoke test set up for 2WM",
+          "owner": "Beatrice",
+          "due": "late July / mid-August 2025"
+        },
+        {
+          "task": "Speak to David about 2WM timing",
+          "owner": "Beatrice",
+          "due": "Not specified"
+        },
+        {
+          "task": "Check in with Daniel on Jay and Eric",
+          "owner": "Nikita",
+          "due": "Not specified"
+        },
+        {
+          "task": "Reach out to Daniel Arias on resourcing for NV Decoupling",
+          "owner": "Beatrice",
+          "due": "Not specified"
+        },
+        {
+          "task": "Make introduction to IXI team on monetization strategies shadowing",
+          "owner": "Nikita",
+          "due": "Not specified"
+        },
+        {
+          "task": "Start PA interview process",
+          "owner": "Not specified",
+          "due": "Dec 9, 2025"
+        },
+        {
+          "task": "Creating pitch for influencer marketplace",
+          "owner": "Not specified",
+          "due": "mid-aug 2025"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Spur approved as supplier for competitive analysis flows",
+          "context": "Received approval from Finance on Dec 4, 2025"
+        },
+        {
+          "what": "TPT approval for legal checkbox only for California, based on zip code not State",
+          "context": "Legal checkbox implementation - 3 SPs involved"
+        },
+        {
+          "what": "2WM pricing model similar to Wayfair - base price from 3rd party supplier with margin on top",
+          "context": "Third party keeps inventory and owns logistics, HF charges margin to customers"
+        },
+        {
+          "what": "Customer-centric, smaller KRs which are not only business-focused for 2026 OKRs",
+          "context": "Should be framed in customer benefits, start from customer problem into business metrics"
+        }
+      ],
+      "feedback": [
+        "PDP plan review on Aug 14, 2025 - discussing gaps to fill for path to promotion",
+        "Career Pathing plan discussed on Feb 21, 2025",
+        "Personal Development Plan 2025 reviewed with focus on career progression"
+      ],
+      "blockers": [
+        {
+          "issue": "Ahmed doing investigation on what's cheaper for checkout migration, needs support from Alex",
+          "owner": "Ahmed",
+          "status": "active"
+        },
+        {
+          "issue": "Big concern from Evan is no strong BC; WBD want for throughout March to April",
+          "owner": "Evan",
+          "status": "active"
+        },
+        {
+          "issue": "How do we compensate for tactical-bias",
+          "owner": "Not specified",
+          "status": "active"
+        },
+        {
+          "issue": "Should a C@C paid box ever have a status of cancelled in OWL",
+          "owner": "Not specified",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "2026 OKRs and planning",
+        "Charge at Checkout (C@C)",
+        "Two-Way Marketplace (2WM)",
+        "Payments and credits system",
+        "Shopify integration",
+        "Career development and promotion path",
+        "Product prioritization",
+        "Monetization strategies",
+        "OTP (One-Time Purchase)",
+        "Legal compliance and checkboxes",
+        "Referrals and credits migration"
+      ],
+      "entities": [
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Product Manager having 1:1s with Nikita"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Manager conducting 1:1s with Beatrice"
+        },
+        {
+          "name": "Spur",
+          "type": "system",
+          "context": "Agent for competitive analysis flows, approved as supplier by Finance"
+        },
+        {
+          "name": "OWL",
+          "type": "system",
+          "context": "System tracking C@C paid box statuses"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform being considered for integration, alternative being explored"
+        },
+        {
+          "name": "GoC",
+          "type": "project",
+          "context": "Good Chop - H1 2026 Product Prioritization and 2026 OKRs"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Backend service for checkout layout"
+        },
+        {
+          "name": "UPL",
+          "type": "system",
+          "context": "Project Lego - component-driven payment layout migration target"
+        },
+        {
+          "name": "Adyen",
+          "type": "system",
+          "context": "Payment platform currently in use"
+        },
+        {
+          "name": "Stripe",
+          "type": "system",
+          "context": "Alternative payment platform, more expensive, nobody using"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Doing investigation on checkout migration costs"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Needs to provide support for Ahmed's investigation"
+        },
+        {
+          "name": "Sebastian",
+          "type": "person",
+          "context": "Involved in Payments AR"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Potential focus on Shopify"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Contact for 2WM timing and wireframes"
+        },
+        {
+          "name": "George",
+          "type": "person",
+          "context": "Has idea on selling 3rd party boxes within HF"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "System being considered for deprecation"
+        },
+        {
+          "name": "Jay and Eric",
+          "type": "person",
+          "context": "Nikita to check in with Daniel about them"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Contact for NV Decoupling resourcing"
+        },
+        {
+          "name": "Evan",
+          "type": "person",
+          "context": "Leading monetization strategies, concerned about BC"
+        },
+        {
+          "name": "Abdel / Adam",
+          "type": "person",
+          "context": "Note for OTP documentation"
+        },
+        {
+          "name": "2WM",
+          "type": "project",
+          "context": "Two-Way Marketplace - secondary marketplace for complementary products"
+        },
+        {
+          "name": "HelloCredits",
+          "type": "system",
+          "context": "Credits system being migrated to Cash Credits"
+        },
+        {
+          "name": "Cash Credits",
+          "type": "system",
+          "context": "New credits system replacing HelloCredits"
+        },
+        {
+          "name": "TPT",
+          "type": "system",
+          "context": "System handling legal checkbox approval based on zip code"
+        },
+        {
+          "name": "Deliveries API",
+          "type": "system",
+          "context": "Allows multiple cadences and endless pause for X-selling"
+        },
+        {
+          "name": "SteerCo",
+          "type": "project",
+          "context": "Steering Committee requiring wireframes for 2WM"
+        },
+        {
+          "name": "IXI team",
+          "type": "person",
+          "context": "Team working on monetization strategies"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Provided agreement to retain credits for customers"
+        }
+      ]
+    },
+    {
+      "doc_title": "Beatrice <> Nikita Weekly 1:1 Notes",
+      "doc_id": "1K7O7Q8OeHf64BNoxoMoqrbpcvkwUas24oBJNPTwaqlM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov",
+        "Jama Musse",
+        "Deo Nathaniel"
+      ],
+      "action_items": [
+        {
+          "task": "First build Q1 KRs and from that make the initiatives for 2026 OKRs",
+          "owner": "Team",
+          "due": "Next Wed (from Sep 18, 2025)"
+        },
+        {
+          "task": "Create wireframes and smoke test set up for 2WM",
+          "owner": "Beatrice",
+          "due": "late July / mid-August 2025"
+        },
+        {
+          "task": "Speak to David about 2WM timing",
+          "owner": "Beatrice",
+          "due": "Not specified"
+        },
+        {
+          "task": "Check in with Daniel on Jay and Eric",
+          "owner": "Nikita",
+          "due": "Not specified"
+        },
+        {
+          "task": "Reach out to Daniel Arias on resourcing for NV Decoupling",
+          "owner": "Beatrice",
+          "due": "Not specified"
+        },
+        {
+          "task": "Make introduction to IXI team on monetization strategies shadowing",
+          "owner": "Nikita",
+          "due": "Not specified"
+        },
+        {
+          "task": "Start PA interview process",
+          "owner": "Not specified",
+          "due": "Dec 9, 2025"
+        },
+        {
+          "task": "Creating pitch for influencer marketplace",
+          "owner": "Not specified",
+          "due": "mid-aug 2025"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Spur approved as supplier for competitive analysis flows",
+          "context": "Received approval from Finance on Dec 4, 2025"
+        },
+        {
+          "what": "TPT approval for legal checkbox only for California, based on zip code not State",
+          "context": "Legal checkbox implementation - 3 SPs involved"
+        },
+        {
+          "what": "2WM pricing model similar to Wayfair - base price from 3rd party supplier with margin on top",
+          "context": "Third party keeps inventory and owns logistics, HF charges margin to customers"
+        },
+        {
+          "what": "Customer-centric, smaller KRs which are not only business-focused for 2026 OKRs",
+          "context": "Should be framed in customer benefits, start from customer problem into business metrics"
+        }
+      ],
+      "feedback": [
+        "PDP plan review on Aug 14, 2025 - discussing gaps to fill for path to promotion",
+        "Career Pathing plan discussion on Feb 21, 2025",
+        "Personal Development Plan 2025 review with focus on career progression"
+      ],
+      "blockers": [
+        {
+          "issue": "Ahmed doing investigation on what's cheaper for checkout migration, needs support from Alex",
+          "owner": "Ahmed",
+          "status": "active"
+        },
+        {
+          "issue": "Big concern from Evan is no strong BC; WBD want for throughout March to April",
+          "owner": "Evan",
+          "status": "active"
+        },
+        {
+          "issue": "How do we compensate for tactical-bias",
+          "owner": "Not specified",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "2026 OKRs and Product Prioritization",
+        "Charge at Checkout (C@C) and Payments",
+        "Two-Way Marketplace (2WM)",
+        "Career Development and Promotion Path",
+        "Credits and Referrals System",
+        "Shopify Integration",
+        "OTP (One-Time Purchase)",
+        "Legal Compliance and Checkboxes",
+        "Ranking Experimentation",
+        "Monetization Strategies",
+        "NV Decoupling"
+      ],
+      "entities": [
+        {
+          "name": "Spur",
+          "type": "system",
+          "context": "Agent for competitive analysis flows, approved by Finance as supplier"
+        },
+        {
+          "name": "OWL",
+          "type": "system",
+          "context": "System tracking C@C paid box status"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform being considered for integration, mentioned multiple times as potential focus area"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Potentially focusing on Shopify"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Current checkout layout system"
+        },
+        {
+          "name": "UPL (project lego)",
+          "type": "project",
+          "context": "Component-driven payment layout migration target"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Doing investigation on checkout migration costs"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Needs to provide support for Ahmed's investigation"
+        },
+        {
+          "name": "Sebastian",
+          "type": "person",
+          "context": "Involved in Payments AR"
+        },
+        {
+          "name": "Stripe",
+          "type": "system",
+          "context": "Payment platform alternative, more expensive than current solution"
+        },
+        {
+          "name": "Adyen",
+          "type": "system",
+          "context": "Current payment platform"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Contact for 2WM wireframes and timing discussions"
+        },
+        {
+          "name": "George",
+          "type": "person",
+          "context": "Has idea on selling 3rd party boxes within HF"
+        },
+        {
+          "name": "Wayfair",
+          "type": "system",
+          "context": "Comparison model for 2WM pricing structure"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Provided agreement to retain credits for customers"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "System being considered for deprecation"
+        },
+        {
+          "name": "Jay and Eric",
+          "type": "person",
+          "context": "Nikita to check in with Daniel about them"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Contact for NV Decoupling resourcing"
+        },
+        {
+          "name": "Evan",
+          "type": "person",
+          "context": "Leading monetization strategies work"
+        },
+        {
+          "name": "Abdel / Adam",
+          "type": "person",
+          "context": "Need to provide documentation for OTP"
+        },
+        {
+          "name": "IXI team",
+          "type": "project",
+          "context": "Team working on monetization strategies"
+        },
+        {
+          "name": "HelloCredits",
+          "type": "system",
+          "context": "Credits system being migrated or deprecated"
+        },
+        {
+          "name": "Cash Credits",
+          "type": "system",
+          "context": "Target credits system for migration"
+        },
+        {
+          "name": "GoC (Good Chop)",
+          "type": "project",
+          "context": "Product line with H1 2026 prioritization and 2026 OKRs planning"
+        },
+        {
+          "name": "SteerCo",
+          "type": "project",
+          "context": "Requires wireframes for 2WM"
+        },
+        {
+          "name": "Deliveries API",
+          "type": "system",
+          "context": "Allows multiple cadences and endless pause functionality for X-selling"
+        }
+      ]
+    },
+    {
+      "doc_title": "Beatrice <> Nikita Weekly 1:1 Notes",
+      "doc_id": "1K7O7Q8OeHf64BNoxoMoqrbpcvkwUas24oBJNPTwaqlM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov",
+        "Jama Musse",
+        "Deo Nathaniel"
+      ],
+      "action_items": [
+        {
+          "task": "Ask about reusing backend services for HelloFresh",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-11"
+        },
+        {
+          "task": "Create document to loop in Shay and detail AL planning for charge checkout at scale",
+          "owner": "Nikita Gorshkov",
+          "due": "2025-12-11"
+        },
+        {
+          "task": "Document all charge checkout issues including refund options via AL (orders tab vs error reporting)",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-11"
+        },
+        {
+          "task": "Conduct live test and process via Bob to understand correct sequence for pre-cutoff orders",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-11"
+        },
+        {
+          "task": "Send sheet documenting flow of order states, payment states, and AL actions",
+          "owner": "Nikita Gorshkov",
+          "due": "2025-12-11"
+        },
+        {
+          "task": "Start PA interview process",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-09"
+        },
+        {
+          "task": "Complete GoC H1 2026 Product Prioritization (WIP)",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-12-02"
+        },
+        {
+          "task": "Build Q1 KRs and derive initiatives from them",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-09-25"
+        },
+        {
+          "task": "Create wireframes and smoke test setup for 2WM",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-08-15"
+        },
+        {
+          "task": "Speak to David about 2WM timing",
+          "owner": "Beatrice Dimarucut",
+          "due": "2025-07-18"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "App-first approach for new features like merchandising tiles on Ellesium",
+          "context": "Code reuse between web and mobile requires features to be built in specific way; all backend logic should be reusable"
+        },
+        {
+          "what": "Cancel/refund functionalities during AL migration - performing one action makes other unavailable",
+          "context": "Addressing confusion around charge checkout issues"
+        },
+        {
+          "what": "Spur approved as supplier by Finance for competitive analysis flows",
+          "context": "Agent use case for competitive analysis"
+        },
+        {
+          "what": "C@C paid box status handling in OWL",
+          "context": "Discussion on whether cancelled status should appear"
+        },
+        {
+          "what": "2026 OKRs approach: customer-centric, smaller KRs not only business-focused",
+          "context": "Connect KRs with business OKRs (CVR, AOR) while tying customer benefit into business value"
+        },
+        {
+          "what": "3 KRs for Good Chop with potential QoQ variations, framed in customer benefits",
+          "context": "Start from customer problem into business metrics"
+        },
+        {
+          "what": "Charge at checkout: migrating to UPL (project lego) - component-driven payment layout",
+          "context": "Would require building non-supported use cases (e.g. TB, cadences); Ahmed investigating cost with Alex support"
+        },
+        {
+          "what": "TPT approval for legal checkbox only for California, based on zip code not State",
+          "context": "Zip code is source of truth; 3 SPs involved"
+        },
+        {
+          "what": "2WM pricing model similar to Wayfair - base price from 3rd party supplier with margin on top",
+          "context": "Supplier keeps inventory and owns logistics; need wireframes for SteerCo"
+        }
+      ],
+      "feedback": [
+        {
+          "topic": "Personal Development Plan review",
+          "date": "2025-08-14",
+          "context": "Discussed gaps to fill for path to promotion"
+        },
+        {
+          "topic": "Career Pathing plan discussion",
+          "date": "2025-02-21",
+          "context": "Filtering research method, monetization strategies, OTP deliveries API"
+        }
+      ],
+      "blockers": [
+        {
+          "issue": "Confusion around charge checkout flows for AL - cancel/refund functionality unclear",
+          "owner": "Nikita Gorshkov",
+          "status": "active"
+        },
+        {
+          "issue": "Documentation needed for expected AL behavior despite current workarounds with Bob",
+          "owner": "Beatrice Dimarucut",
+          "status": "active"
+        },
+        {
+          "issue": "Ahmed needs support from Alex for charge at checkout investigation",
+          "owner": "Ahmed",
+          "status": "active"
+        },
+        {
+          "issue": "No strong business case from Evan; WBD want throughout March to April",
+          "owner": "Evan",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "Code reuse between frontend and backend",
+        "Charge at checkout and AL migration",
+        "2026 OKRs and product prioritization",
+        "PA interview process",
+        "Spur supplier approval",
+        "Good Chop KRs and customer-centric metrics",
+        "Payment platform migration (UPM to UPL)",
+        "Two-way marketplace (2WM) strategy",
+        "Legal checkbox and TPT approval",
+        "Career development and promotion path",
+        "Shopify integration considerations",
+        "OTP (One-Time Purchase) functionality",
+        "Credits and referrals system"
+      ],
+      "entities": [
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Product Manager having weekly 1:1s with Nikita"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Manager conducting 1:1s with Beatrice"
+        },
+        {
+          "name": "Spur",
+          "type": "system",
+          "context": "Agent for competitive analysis flows, approved by Finance as supplier"
+        },
+        {
+          "name": "AL (Ellesium)",
+          "type": "system",
+          "context": "Platform being migrated to, with charge checkout and cancel/refund functionality"
+        },
+        {
+          "name": "OWL",
+          "type": "system",
+          "context": "System handling C@C paid box statuses"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Current backend service for checkout layout"
+        },
+        {
+          "name": "UPL (Project Lego)",
+          "type": "system",
+          "context": "Component-driven payment layout being migrated to"
+        },
+        {
+          "name": "GoC (Good Chop)",
+          "type": "project",
+          "context": "Product line with H1 2026 prioritization and OKRs"
+        },
+        {
+          "name": "2WM (Two-Way Marketplace)",
+          "type": "project",
+          "context": "Initiative for selling 3rd party products, separate from core business"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform being considered for integration"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Investigating charge at checkout migration costs"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Providing support for charge at checkout investigation"
+        },
+        {
+          "name": "Shay",
+          "type": "person",
+          "context": "To be looped in on AL charge checkout documentation"
+        },
+        {
+          "name": "Bob",
+          "type": "person",
+          "context": "Current workaround contact for AL issues"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Contact for 2WM timing and wireframes"
+        },
+        {
+          "name": "Stripe",
+          "type": "system",
+          "context": "Payment platform alternative to Adyen, more expensive"
+        },
+        {
+          "name": "Adyen",
+          "type": "system",
+          "context": "Current payment platform"
+        },
+        {
+          "name": "TPT",
+          "type": "system",
+          "context": "Handling legal checkbox approval based on zip code"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "System being considered for deprecation"
+        }
+      ]
+    },
+    {
+      "doc_title": "Beatrice <> Nikita Weekly 1:1 Notes",
+      "doc_id": "1K7O7Q8OeHf64BNoxoMoqrbpcvkwUas24oBJNPTwaqlM",
+      "doc_type": "one_on_one",
+      "participants": [
+        "Beatrice Dimarucut",
+        "Nikita Gorshkov",
+        "Jama Musse",
+        "Deo Nathaniel"
+      ],
+      "action_items": [
+        {
+          "task": "Start PM opening recruitment for external candidates at CS5 level",
+          "owner": "Not specified",
+          "due": "First week of January 2026"
+        },
+        {
+          "task": "Start PA interview process",
+          "owner": "Not specified",
+          "due": "December 4, 2025"
+        },
+        {
+          "task": "Complete GoC H1 2026 Product Prioritization",
+          "owner": "Not specified",
+          "due": "Work in progress as of December 2, 2025"
+        },
+        {
+          "task": "Build Q1 KRs and derive initiatives from them",
+          "owner": "Team",
+          "due": "Next Wednesday (from September 18, 2025)"
+        },
+        {
+          "task": "Create pitch for influencer marketplace",
+          "owner": "Not specified",
+          "due": "Mid-August 2025"
+        },
+        {
+          "task": "Complete wireframes and smoke test setup for 2WM",
+          "owner": "Not specified",
+          "due": "Late July / mid-August 2025"
+        },
+        {
+          "task": "Speak to David about 2WM timing",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Check in with Daniel regarding Jay and Eric",
+          "owner": "Nikita",
+          "due": "Not specified"
+        },
+        {
+          "task": "Reach out to Daniel Arias on resourcing for NV Decoupling",
+          "owner": "Not specified",
+          "due": "Not specified"
+        },
+        {
+          "task": "Make introduction to IXI team on monetization strategies shadowing",
+          "owner": "Nikita",
+          "due": "Not specified"
+        }
+      ],
+      "decisions": [
+        {
+          "what": "Spur approved as supplier for competitive analysis flows",
+          "context": "Received approval from Finance"
+        },
+        {
+          "what": "TPT approval for legal checkbox only for California, based on zip code not State",
+          "context": "Zip code is source of truth, involves 3 SPs"
+        },
+        {
+          "what": "Agreement from Yury to retain credits for customers",
+          "context": "Related to credit management and migration strategy"
+        },
+        {
+          "what": "2WM pricing model similar to Wayfair - base price from 3rd party supplier with margin on top",
+          "context": "3rd party keeps inventory and owns logistics, HF charges margin to customers"
+        },
+        {
+          "what": "Frame 2026 OKRs with 3 KRs for Good Chop with customer-centric focus",
+          "context": "Should be framed in customer benefits, starting from customer problem into business metrics, connecting to business OKRs (CVR, AOR)"
+        }
+      ],
+      "feedback": [
+        "PDP plan review on August 14, 2025 - discussing gaps to fill for path to promotion",
+        "Career Pathing plan discussed on February 21, 2025",
+        "Personal Development Plan 2025 attached to multiple meetings"
+      ],
+      "blockers": [
+        {
+          "issue": "Ahmed needs support from Alex for investigation on UPM vs UPL migration cost analysis",
+          "owner": "Ahmed/Alex",
+          "status": "active"
+        },
+        {
+          "issue": "Big concern from Evan - no strong business case; WBD want throughout March to April",
+          "owner": "Evan",
+          "status": "active"
+        },
+        {
+          "issue": "Question on whether C@C paid box should ever have status of cancelled in OWL",
+          "owner": "Not specified",
+          "status": "active"
+        },
+        {
+          "issue": "Legal check needed for removing all credits from FY/L customers",
+          "owner": "Legal team",
+          "status": "active"
+        }
+      ],
+      "key_topics": [
+        "2026 OKRs and Product Prioritization",
+        "Charge at Checkout (C@C) implementation",
+        "Two-Way Marketplace (2WM) strategy",
+        "Credits and referrals management",
+        "Payment systems (UPM, UPL, Adyen, Stripe)",
+        "Shopify integration exploration",
+        "Career development and promotion path",
+        "Monetization strategies",
+        "One-Time Purchase (OTP) functionality",
+        "Filtering/Sorting/Search capabilities",
+        "Ranking experimentation for logged-out users"
+      ],
+      "entities": [
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Product Manager having weekly 1:1s with Nikita"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Manager conducting 1:1s with Beatrice"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Potential focus on Shopify integration"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Doing investigation on UPM vs UPL migration costs"
+        },
+        {
+          "name": "Alex",
+          "type": "person",
+          "context": "Needs to provide support for payment migration investigation"
+        },
+        {
+          "name": "Sebastian",
+          "type": "person",
+          "context": "Involved in Payments AR"
+        },
+        {
+          "name": "David",
+          "type": "person",
+          "context": "Contact for 2WM wireframes and timing discussions"
+        },
+        {
+          "name": "George",
+          "type": "person",
+          "context": "Has idea on selling 3rd party boxes within HF"
+        },
+        {
+          "name": "Yury",
+          "type": "person",
+          "context": "Gave agreement to retain credits for customers"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Contact for NV Decoupling resourcing"
+        },
+        {
+          "name": "Evan",
+          "type": "person",
+          "context": "Leading monetization strategies work"
+        },
+        {
+          "name": "Abdel",
+          "type": "person",
+          "context": "Note regarding OTP documentation"
+        },
+        {
+          "name": "Adam",
+          "type": "person",
+          "context": "Note regarding OTP documentation"
+        },
+        {
+          "name": "Jay",
+          "type": "person",
+          "context": "Nikita to check in with Daniel about"
+        },
+        {
+          "name": "Eric",
+          "type": "person",
+          "context": "Nikita to check in with Daniel about"
+        },
+        {
+          "name": "Spur",
+          "type": "system",
+          "context": "Agent for competitive analysis flows, approved as supplier by Finance"
+        },
+        {
+          "name": "OWL",
+          "type": "system",
+          "context": "System where C@C paid box status is tracked"
+        },
+        {
+          "name": "UPM",
+          "type": "system",
+          "context": "Current backend payment service being used for checkout layout"
+        },
+        {
+          "name": "UPL",
+          "type": "system",
+          "context": "Component-driven payment layout (project lego) being considered for migration"
+        },
+        {
+          "name": "Adyen",
+          "type": "system",
+          "context": "Payment platform currently in use"
+        },
+        {
+          "name": "Stripe",
+          "type": "system",
+          "context": "Alternative payment platform, more expensive, nobody using"
+        },
+        {
+          "name": "Shopify",
+          "type": "system",
+          "context": "E-commerce platform being explored as potential integration for 2026"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "System being considered for deprecation"
+        },
+        {
+          "name": "Wayfair",
+          "type": "system",
+          "context": "Reference model for 2WM pricing structure"
+        },
+        {
+          "name": "GoC (Good Chop)",
+          "type": "project",
+          "context": "Product line with H1 2026 prioritization and 2026 OKRs planning"
+        },
+        {
+          "name": "2WM (Two-Way Marketplace)",
+          "type": "project",
+          "context": "Initiative for Q4 with wireframes needed for SteerCo, exploring inventory and pricing models"
+        },
+        {
+          "name": "C@C (Charge at Checkout)",
+          "type": "project",
+          "context": "Payment feature using UPM, considering migration to UPL"
+        },
+        {
+          "name": "OTP (One-Time Purchase)",
+          "type": "project",
+          "context": "Feature with Deliveries API enabling multiple cadences and X-selling capabilities"
+        },
+        {
+          "name": "HelloCredits",
+          "type": "system",
+          "context": "Credit system being considered for migration to Cash Credits"
+        },
+        {
+          "name": "Cash Credits",
+          "type": "system",
+          "context": "Alternative credit system for migration from HelloCredits"
+        },
+        {
+          "name": "NV Decoupling",
+          "type": "project",
+          "context": "Technical project requiring resourcing from Daniel Arias"
+        },
+        {
+          "name": "TAM Expansion 2025",
+          "type": "project",
+          "context": "PA Requirements Gathering for Q1 & Q2 support"
+        },
+        {
+          "name": "SteerCo",
+          "type": "system",
+          "context": "Steering committee requiring wireframes for 2WM project"
+        },
+        {
+          "name": "IXI team",
+          "type": "person",
+          "context": "Team working on monetization strategies"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:17:26.889781"
+}

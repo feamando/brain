@@ -1,0 +1,142 @@
+{
+  "batch_id": "spreadsheet_041",
+  "doc_type": "spreadsheet",
+  "doc_count": 2,
+  "results": [
+    {
+      "doc_title": "TPT SKU Complexity Calculator",
+      "doc_id": "1zJh7dUObQX8FA0GhSkXJUyzSU0z1YxXLZ5BaY6YpVCQ",
+      "doc_type": "spreadsheet",
+      "purpose": "Maps date inputs to corresponding month start and end dates for TPT SKU complexity calculations",
+      "data_type": "planning",
+      "key_data_points": [
+        "Date range spans from September 2024 to December 2026",
+        "27 monthly periods mapped",
+        "Each input date maps to full calendar month boundaries",
+        "Input dates vary throughout each month (not standardized to month-end)"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "system",
+          "context": "SKU Complexity Calculator tool that requires date mapping functionality"
+        },
+        {
+          "name": "HelloFresh US",
+          "type": "brand",
+          "context": "Mentioned in email about 2025-W48 Recipe Report with menu scores and SKU launches"
+        },
+        {
+          "name": "Factor Canada",
+          "type": "brand",
+          "context": "Referenced in emails about menu loading issues and B2B Shopify integration"
+        },
+        {
+          "name": "Rachel LeMier",
+          "type": "person",
+          "context": "Manager, Consumer & Product Insights - sent recipe report email"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Discussed context-driven product management and B2B Shopify integration"
+        },
+        {
+          "name": "Matthijs Muller",
+          "type": "person",
+          "context": "Leaving HelloFresh after 10 years on December 19th"
+        }
+      ],
+      "insights": [
+        "The spreadsheet provides a lookup table for converting arbitrary date inputs into standardized monthly periods",
+        "Input dates are not consistently at month-end, suggesting they may represent reporting or processing dates",
+        "The tool appears designed to handle SKU complexity analysis over multi-year planning horizons",
+        "Date mapping is critical infrastructure for TPT (likely 'Third Party Tools' or similar) SKU management",
+        "The emails bundled with this spreadsheet suggest this is part of a larger HelloFresh operational system involving recipe planning, menu management, and product complexity tracking"
+      ]
+    },
+    {
+      "doc_title": "Open roles EPD New ventures - 2026",
+      "doc_id": "1MkZ4TBkzraSt_RPPSV07pAXLIF52IuRWYsMFzLs_wdw",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks open and planned engineering and product roles for EPD (Engineering, Product, Design) New Ventures division for 2026, including backfills and new positions",
+      "data_type": "planning",
+      "key_data_points": [
+        "11 total roles tracked",
+        "Mix of Live (2), Filled (2), and Pending (7) positions",
+        "Career steps range from CS4 (Mid Level) to CS7 (Associate Director)",
+        "Locations: Toronto (CA) and Berlin (DE)",
+        "Cost Center: 8191 for most roles",
+        "Importance ratings: 1-5 scale (mostly 4-5 priority)"
+      ],
+      "entities": [
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Squad with 2 open backfill roles in Toronto for frontend developers (CS4 and CS6)"
+        },
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "brand",
+          "context": "Product requiring Staff PM role (filled by Prateek Jajoo starting December)"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Major expansion with 5 roles (1 filled, 1 pending designer, 3 pending new engineering roles) funded by Good Chop P&L"
+        },
+        {
+          "name": "Market Innovation & Optimization (MIO)",
+          "type": "project",
+          "context": "Squad with 2 backfill roles (1 live CS4 BE, 1 pending CS5 BE)"
+        },
+        {
+          "name": "Tamir Arnesty",
+          "type": "person",
+          "context": "Left Factor Form squad in October, CS4 FE backfill in progress"
+        },
+        {
+          "name": "Brian Leach",
+          "type": "person",
+          "context": "Left Factor Form in August due to US RTO policy, CS6 Staff Engineer backfill ongoing"
+        },
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Filled Staff PM role for The Pets Table, starting December"
+        },
+        {
+          "name": "Chiamaka Glory Nwolisa",
+          "type": "person",
+          "context": "Internal transfer from Growth Alliance filling CS5 FE role for Good Chop in December"
+        },
+        {
+          "name": "Yury Trofimov",
+          "type": "person",
+          "context": "VP Good Chop, aligned on new engineering roles"
+        },
+        {
+          "name": "Dominik",
+          "type": "person",
+          "context": "Verbally approved Good Chop new roles"
+        },
+        {
+          "name": "Marina Guthmann",
+          "type": "person",
+          "context": "Exiting, Senior Product Designer backfill needed for Good Chop"
+        }
+      ],
+      "insights": [
+        "Good Chop is undergoing significant expansion with 5 roles (largest single initiative), transitioning to self-funded engineering via brand P&L",
+        "Factor Form squad experiencing retention challenges: 2 departures with difficult backfilling (rejected offers, hard-to-find candidates with web/Shopify/RN experience)",
+        "Geographic concentration: Canada roles in Toronto, German roles in Berlin, with some strategic location shifts (CS7 Canada role converted to CS5 DE role)",
+        "US RTO (Return to Office) policy cited as reason for at least one departure (Brian Leach)",
+        "Hiring challenges evident: roles open for months, contractor attempts failed, offer rejections at final stages",
+        "Internal mobility being leveraged: 2 roles filled via internal transfers with promotion potential",
+        "Timeline pressure: Multiple roles targeted for end of January 2026 due to backlog delivery needs",
+        "Most roles are replacements (8) vs net new (3), indicating focus on maintaining capacity rather than expansion"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:22:12.568968"
+}

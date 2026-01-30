@@ -1,0 +1,1217 @@
+{
+  "batch_id": "meeting_076",
+  "doc_type": "meeting",
+  "doc_count": 6,
+  "results": [
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance - New Ventures",
+      "doc_id": "1-yBSTAzOwSGLtLUfuaL_0l1eoyL1jB7v6-ESABhWdak",
+      "doc_type": "meeting",
+      "meeting_purpose": "2026 Yearly Plan review for Consumer Mega-Alliance New Ventures division",
+      "attendees": [
+        "Jama Musse",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Holger Hammel",
+        "Dominik Richter",
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Laurent Guillemain",
+        "Seb Tron",
+        "Fabien Simon",
+        "Adriana Villar",
+        "Brian Leung"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Keep momentum on Factor Programs physical product and plan ahead of Q2 development relaunch",
+          "who": [
+            "Adam Park",
+            "Jama Musse"
+          ],
+          "context": "Factor Programs fell below the line for Q4 and Q1, needed reprioritization alignment"
+        },
+        {
+          "what": "Add 1 incremental PA resource to New Ventures domain space for analytics",
+          "who": [
+            "Annie Meininghaus",
+            "Jama Musse"
+          ],
+          "context": "Lack of analytics resourcing was highlighted as risk for New Ventures"
+        },
+        {
+          "what": "Move Loyalty on Pets Table by 1 quarter to Q3 to leverage New Loyalty program launch",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Alignment needed on how Loyalty should work for New Ventures and connect to New Loyalty strategy launching Q2-Q3"
+        },
+        {
+          "what": "Make App Launch for Pets Table contingent on results of Elysium and ABBA app launches",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Decision based on both financial and performance KPIs from other app launches"
+        },
+        {
+          "what": "Cross Selling for other brands outside of HelloFresh and Factor is below the line for 2026, to be revisited for 2027 planning",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Deprioritized for 2026 yearly plan"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Review Factor Tech prioritization list against MD squad backlog",
+          "owner": "Adam Park, Ed Boyes",
+          "timeline": "Completed - incremental asks pulled into Ed squad prioritization"
+        },
+        {
+          "task": "Come back with Analytics resourcing plans for New Ventures",
+          "owner": "Annie Meininghaus, Jama Musse",
+          "timeline": "Completed - 1 incremental PA resource added"
+        },
+        {
+          "task": "Connect with Adam Park on personalized performance stack plan for Factor Form",
+          "owner": "Jama Musse",
+          "timeline": "Added for exploration in Q3 plan"
+        },
+        {
+          "task": "Update Yearly Plan to move Loyalty on Pets Table to Q3",
+          "owner": "YP Document Owner",
+          "timeline": "Before final YP approval submission"
+        },
+        {
+          "task": "Update Yearly Plan to make Pets Table App Launch contingent on Elysium and ABBA results",
+          "owner": "YP Document Owner",
+          "timeline": "Before final YP approval submission"
+        },
+        {
+          "task": "Finalize 2026 HC budget review",
+          "owner": "Finance and Portfolio",
+          "timeline": "Under review following recent org changes"
+        }
+      ],
+      "key_points": [
+        "New Ventures team includes Good Chop, The Pets Table, Factor Form, and Market Innovation",
+        "Funded fixed HC for New Ventures is 50 with management structure of 1 Director of Engineering (Daniel Arias) and 1 Director of Product (Nikita Gorshkov)",
+        "Teams settling into new squad structure during Q4",
+        "New Ventures have self-funded with exception of +2 from Growth to fund Market Innovation squad",
+        "Factor Form should better connect products to customer goals for personalized performance stack",
+        "Aligned strategy needed for Loyalty across New Ventures brands",
+        "Exploring modernized CX leveraging AI for customer support, sales funnel, and retention flow"
+      ],
+      "blockers": [
+        "Lack of analytics resourcing for New Ventures (resolved with 1 incremental PA resource)",
+        "Factor Programs fell below the line for Q4 and Q1 requiring reprioritization discussion",
+        "Final 2026 HC budget under review with Finance and Portfolio due to recent org changes",
+        "Outstanding analytics backlog requiring temporary capacity"
+      ],
+      "follow_ups": [
+        "Review results of Elysium and ABBA app launches before proceeding with Pets Table app",
+        "Revisit Cross Selling for brands outside HelloFresh and Factor in 2027 planning",
+        "Explore personalized performance stack for Factor Form in Q3",
+        "Leverage New Loyalty program when it launches in Q2-Q3",
+        "Continue conversations with markets for 2026 planning with Theresa Stolberg"
+      ],
+      "entities": [
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Responsible for Factor Programs and Factor Tech prioritization list"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Director of Engineering for New Ventures"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Director of Product for New Ventures"
+        },
+        {
+          "name": "Theresa Stolberg",
+          "type": "person",
+          "context": "Leading conversations with markets for 2026 planning"
+        },
+        {
+          "name": "Good Chop",
+          "type": "project",
+          "context": "Digital butcher experience delivering premium, locally sourced proteins to US consumers"
+        },
+        {
+          "name": "The Pets Table",
+          "type": "project",
+          "context": "Human-grade pet food for pet parents, includes loyalty program and app launch plans"
+        },
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Factor sub-brand supporting customers on holistic wellness and health goals"
+        },
+        {
+          "name": "Market Innovation",
+          "type": "project",
+          "context": "Squad bringing new experiences across markets, funded by +2 from Growth"
+        },
+        {
+          "name": "New Loyalty program",
+          "type": "system",
+          "context": "Strategy set to launch in Q2-Q3 that Pets Table will leverage"
+        },
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "App launch whose results will inform Pets Table app launch decision"
+        },
+        {
+          "name": "ABBA",
+          "type": "project",
+          "context": "App launch whose results will inform Pets Table app launch decision"
+        },
+        {
+          "name": "MD squad",
+          "type": "system",
+          "context": "Squad with backlog reviewed against Factor Tech prioritization"
+        },
+        {
+          "name": "Ed squad",
+          "type": "system",
+          "context": "Squad that incorporated Factor Tech incremental asks into prioritization"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "project",
+          "context": "Parent brand mentioned in context of cross-selling strategy"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Brand mentioned in context of cross-selling strategy and parent to Factor Form"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance (Final) - Q1",
+      "doc_id": "1BQ2mls9gsrGXGxKLQDAHIQRETimL749zLhPC2A6g2k8",
+      "doc_type": "meeting",
+      "meeting_purpose": "Review and finalize the 2026 Yearly Plan for Consumer Mega-Alliance Q1, addressing feedback from draft reviews and aligning on strategic priorities",
+      "attendees": [
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Dominik Richter",
+        "Holger Hammel",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Dina Mehrez",
+        "Thomas Griesel",
+        "Fabien Simon",
+        "Marlene Rosner",
+        "Brian Leung",
+        "Adriana Villar",
+        "Evan Weintraub",
+        "Jama Musse"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Create AOV-focused squad in Q2 with dedicated KPI, self-funded",
+          "who": [
+            "Consumer Mega Alliance leadership"
+          ],
+          "context": "Question raised during draft reviews about whether to invest in AOV-focused squad. Focus in Q1 is rolling out personalized core journey with widgets before layering in upselling components"
+        },
+        {
+          "what": "Reserve 20% of engineering IC capacity for legacy loyalty program maintenance while evolving new loyalty framework",
+          "who": [
+            "Evan Weintraub"
+          ],
+          "context": "Loyalty strategy across markets needed clarification. New vendor-based loyalty program to launch first in US"
+        },
+        {
+          "what": "Pause Programs on Factor funnel for peak due to negative results",
+          "who": [
+            "Jama Musse",
+            "Alison Ryan"
+          ],
+          "context": "Factor Programs Transition Plan - will partner with Commercial and New Programs hire in NA to design better 'Active Experience' and 3rd-party partnerships in Q2"
+        },
+        {
+          "what": "Decouple forecasting from personalization models with technical interfaces",
+          "who": [
+            "Holger Hammel",
+            "Food Systems"
+          ],
+          "context": "Enable independent iteration. Once validated, assess org impact in Q1-Q2"
+        },
+        {
+          "what": "Prioritize recipe bridge feature in Q4/Q1 for Project 5M",
+          "who": [
+            "Evan Weintraub",
+            "Lisa Trueblood"
+          ],
+          "context": "Prioritization influenced by competitor analysis and internal workshop revealing behavioral gap: users save recipes enthusiastically but rarely act on them"
+        },
+        {
+          "what": "Defer variable pricing to Q3, add to Market Innovation squad backlog",
+          "who": [
+            "Jama Musse"
+          ],
+          "context": "Urgently requested by markets but will define long-term ownership before initiation as pricing ownership is moving to growth MA"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share prioritization framework for Project 5M",
+          "owner": "Lisa Trueblood",
+          "timeline": "Follow-up discussion (preparing one-pager)"
+        },
+        {
+          "task": "Define technical interfaces for decoupling forecasting from personalization",
+          "owner": "Holger Hammel (Food Systems)",
+          "timeline": "Q1-Q2"
+        },
+        {
+          "task": "Sign off on Factor requirements integration",
+          "owner": "Ed Boyes",
+          "timeline": "Before final submission"
+        },
+        {
+          "task": "Roll out Elysium (new store and homepage in app)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Fast rollout with new app features"
+        },
+        {
+          "task": "Roll out menu ranking models prioritizing P500 readiness and Penguin for Factor US",
+          "owner": "Annie Meininghaus (Food Systems)",
+          "timeline": "Q4/Q1"
+        },
+        {
+          "task": "Expand Penguin personalization to INTL markets (HF-UK, HF-CA, CP-CA, HF-ANZ, HF-BNL, HF-DKSE, HF-DEAT)",
+          "owner": "Annie Meininghaus",
+          "timeline": "Q1/Q2, other RTE markets in H2"
+        },
+        {
+          "task": "Strengthen RAF program and build new in-product sharing loops",
+          "owner": "Evan Weintraub (Share squad)",
+          "timeline": "Ongoing - prioritizing foundational fixes"
+        },
+        {
+          "task": "Design better Active Experience and 3rd-party partnerships for Factor",
+          "owner": "Alison Ryan with Commercial and New Programs hire",
+          "timeline": "Q2"
+        },
+        {
+          "task": "Define long-term ownership for variable pricing",
+          "owner": "Jama Musse",
+          "timeline": "Before Q3 initiation"
+        }
+      ],
+      "key_points": [
+        "Clarification of how menu expansion plans, personalization rollouts, and app features integrate together",
+        "Elysium rollout followed by new app features including merchandising widgets, recommendation widgets, search functionality, and trending/popular widgets",
+        "Menu ranking rollout prioritizes P500 readiness and Penguin for Factor US, with INTL expansion following",
+        "Project 5M prioritization framework based on competitor analysis and internal workshop revealing user behavioral gap in recipe execution",
+        "Reconciliation of marketing RAF plan with tech yearly plan to address gap between Marketing and Consumer growth targets",
+        "Variable pricing is urgently requested feature by markets",
+        "Factor tech requests have been collected and integrated into Market Innovation backlog",
+        "Loyalty strategy involves maintaining legacy program while implementing new vendor-based program starting in US"
+      ],
+      "blockers": [
+        "Gap between Marketing and Consumer growth targets for RAF program",
+        "Negative results from Programs on Factor funnel requiring pause during peak",
+        "Need to define long-term ownership for variable pricing as pricing ownership moves to growth MA",
+        "Dependency on technical interface definition for decoupling forecasting from personalization"
+      ],
+      "follow_ups": [
+        "Walk through detailed methodology for Project 5M prioritization if requested",
+        "Assess organizational impact of decoupled forecasting once technical validation complete (Q1-Q2)",
+        "Review Factor requirements sign-off with Ed Boyes",
+        "Update FAQ 11 regarding RAF program alignment",
+        "Further alignment on topics/ordering pending with Tushar, Holger, Fernando, and Leo"
+      ],
+      "entities": [
+        {
+          "name": "Ed Boyes",
+          "type": "person",
+          "context": "Attendee, needs to sign off on Factor requirements"
+        },
+        {
+          "name": "Assaf Ronen",
+          "type": "person",
+          "context": "Attendee"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Owner of forecasting decoupling initiative"
+        },
+        {
+          "name": "Annie Meininghaus",
+          "type": "person",
+          "context": "Owner of menu ranking and personalization rollout"
+        },
+        {
+          "name": "Jama Musse",
+          "type": "person",
+          "context": "Owner of Factor tech requests, variable pricing, and Factor programs transition"
+        },
+        {
+          "name": "Evan Weintraub",
+          "type": "person",
+          "context": "Owner of Project 5M, loyalty strategy, and RAF program alignment"
+        },
+        {
+          "name": "Lisa Trueblood",
+          "type": "person",
+          "context": "Preparing Project 5M prioritization one-pager"
+        },
+        {
+          "name": "Alison Ryan",
+          "type": "person",
+          "context": "Partner for Factor programs transition and Active Experience design"
+        },
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Aligned with Jama and Annie on Factor backlog merge"
+        },
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "New store and homepage in the app with fast rollout"
+        },
+        {
+          "name": "Project 5M",
+          "type": "project",
+          "context": "App engagement initiative prioritizing recipe bridge feature based on user behavioral gap"
+        },
+        {
+          "name": "Penguin",
+          "type": "system",
+          "context": "Personalization system for Factor US and INTL markets rollout"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Readiness prioritized in Q4/Q1 for menu ranking rollout"
+        },
+        {
+          "name": "RAF (Refer-a-Friend)",
+          "type": "project",
+          "context": "Program being strengthened by Share squad to address growth target gaps"
+        },
+        {
+          "name": "Factor",
+          "type": "project",
+          "context": "Market with specific tech requirements, programs transition, and Penguin rollout"
+        },
+        {
+          "name": "Consumer Mega Alliance",
+          "type": "project",
+          "context": "Organization creating best digital product experience, subject of 2026 yearly plan"
+        },
+        {
+          "name": "Market Innovation squad",
+          "type": "project",
+          "context": "Squad handling Factor backlog and variable pricing"
+        },
+        {
+          "name": "Share squad",
+          "type": "project",
+          "context": "Squad focusing on RAF program and in-product sharing loops"
+        },
+        {
+          "name": "Food Systems",
+          "type": "project",
+          "context": "Team defining technical interfaces for forecasting decoupling and expediting Penguin for INTL"
+        }
+      ]
+    },
+    {
+      "doc_title": "2026 Yearly Plan - Consumer Mega-Alliance - New Ventures",
+      "doc_id": "1-yBSTAzOwSGLtLUfuaL_0l1eoyL1jB7v6-ESABhWdak",
+      "doc_type": "meeting",
+      "meeting_purpose": "2026 Yearly Plan review for Consumer Mega-Alliance New Ventures division",
+      "attendees": [
+        "Jama Musse",
+        "Cho Hwang",
+        "Annie Meininghaus",
+        "Holger Hammel",
+        "Dominik Richter",
+        "Ed Boyes",
+        "Assaf Ronen",
+        "Laurent Guillemain",
+        "Seb Tron",
+        "Fabien Simon",
+        "Adriana Villar",
+        "Brian Leung"
+      ],
+      "date": "Oct 16, 2025",
+      "decisions": [
+        {
+          "what": "Keep momentum on Factor Programs physical product and plan ahead of Q2 development relaunch",
+          "who": [
+            "Adam Park",
+            "Jama Musse"
+          ],
+          "context": "Factor Programs fell below the line for Q4 and Q1, needed reprioritization alignment"
+        },
+        {
+          "what": "Add 1 incremental PA resource to New Ventures domain space for analytics",
+          "who": [
+            "Annie Meininghaus",
+            "Jama Musse"
+          ],
+          "context": "Lack of analytics resourcing was highlighted as risk for New Ventures"
+        },
+        {
+          "what": "Move Loyalty on Pets Table by 1 quarter to Q3 to leverage New Loyalty program launch",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Alignment needed on how Loyalty should work for New Ventures and connect to New Loyalty strategy launching Q2-Q3"
+        },
+        {
+          "what": "Make App Launch for Pets Table contingent on results of Elysium and ABBA app launches",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Decision based on both financial and performance KPIs from other app launches"
+        },
+        {
+          "what": "Cross Selling for other brands outside of HelloFresh and Factor is below the line for 2026, to be revisited for 2027 planning",
+          "who": [
+            "New Ventures team"
+          ],
+          "context": "Deprioritized for 2026 yearly plan"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Review Factor Tech prioritization list against MD squad backlog",
+          "owner": "Adam Park and Ed Boyes",
+          "timeline": "Completed - incremental asks pulled into Ed squad prioritization"
+        },
+        {
+          "task": "Come back with Analytics resourcing plans for New Ventures",
+          "owner": "Annie Meininghaus and Jama Musse",
+          "timeline": "Completed - 1 incremental PA resource added"
+        },
+        {
+          "task": "Connect with Adam Park on personalized performance stack plan for Factor Form",
+          "owner": "Jama Musse",
+          "timeline": "Added for exploration in Q3 plan"
+        },
+        {
+          "task": "Update Yearly Plan to move Loyalty on Pets Table to Q3",
+          "owner": "YP Document Owner",
+          "timeline": "Before final YP approval submission"
+        },
+        {
+          "task": "Update Yearly Plan to make Pets Table App Launch contingent on Elysium and ABBA results",
+          "owner": "YP Document Owner",
+          "timeline": "Before final YP approval submission"
+        },
+        {
+          "task": "Finalize 2026 HC budget review",
+          "owner": "Finance and Portfolio",
+          "timeline": "Under review following recent org changes"
+        }
+      ],
+      "key_points": [
+        "New Ventures team focuses on Good Chop, The Pets Table, Factor Form, and Market Innovation",
+        "Funded fixed HC for New Ventures is 50 with management structure of 1 Director of Engineering (Daniel Arias) and 1 Director of Product (Nikita Gorshkov)",
+        "Teams settling into new squad structure during Q4",
+        "New Ventures have self-funded with exception of +2 from Growth to fund Market Innovation squad",
+        "Factor Form should better connect products to customer goals for personalized performance stack",
+        "Aligned strategy needed for Loyalty across New Ventures brands",
+        "Exploring modernized CX leveraging AI for customer support, sales funnel, and retention flow"
+      ],
+      "blockers": [
+        "Lack of analytics resourcing for New Ventures (resolved with 1 incremental PA resource)",
+        "Factor Programs fell below the line for Q4 and Q1 requiring reprioritization discussion",
+        "Final 2026 HC budget under review with Finance and Portfolio due to recent org changes",
+        "Outstanding analytics backlog requiring temporary capacity"
+      ],
+      "follow_ups": [
+        "Monitor results of Elysium and ABBA app launches to determine Pets Table app launch timing",
+        "Explore personalized performance stack for Factor Form in Q3",
+        "Revisit cross-selling for brands outside HelloFresh and Factor in 2027 planning",
+        "Continue conversations with markets for 2026 planning with Theresa Stolberg",
+        "Prioritize initiatives including multipet checkout improvements, add-on subscribe & save, CVR initiatives, and RAF initiatives for Pets Table"
+      ],
+      "entities": [
+        {
+          "name": "Adam Park",
+          "type": "person",
+          "context": "Responsible for Factor Programs and Factor Tech prioritization list"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Director of Engineering for New Ventures"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Director of Product for New Ventures"
+        },
+        {
+          "name": "Theresa Stolberg",
+          "type": "person",
+          "context": "Leading conversations with markets for 2026 planning"
+        },
+        {
+          "name": "Good Chop",
+          "type": "project",
+          "context": "Digital butcher experience delivering premium, locally sourced proteins to US consumers"
+        },
+        {
+          "name": "The Pets Table",
+          "type": "project",
+          "context": "Human-grade pet food for pet parents, with planned loyalty program in Q3 and contingent app launch"
+        },
+        {
+          "name": "Factor Form",
+          "type": "project",
+          "context": "Factor sub-brand supporting customers on holistic wellness and health goals"
+        },
+        {
+          "name": "Market Innovation",
+          "type": "project",
+          "context": "Squad bringing brand new experiences across markets, funded by +2 from Growth"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "system",
+          "context": "Parent brand mentioned in cross-selling discussion"
+        },
+        {
+          "name": "Factor",
+          "type": "system",
+          "context": "Brand with programs and tech prioritization needs"
+        },
+        {
+          "name": "New Loyalty program",
+          "type": "system",
+          "context": "Launching Q2-Q3, to be leveraged by Pets Table in Q3"
+        },
+        {
+          "name": "Elysium",
+          "type": "project",
+          "context": "App launch whose results will inform Pets Table app launch decision"
+        },
+        {
+          "name": "ABBA",
+          "type": "project",
+          "context": "App launch whose results will inform Pets Table app launch decision"
+        },
+        {
+          "name": "MD squad",
+          "type": "system",
+          "context": "Squad with backlog reviewed against Factor Tech prioritization"
+        },
+        {
+          "name": "Ed squad",
+          "type": "system",
+          "context": "Squad where Factor Tech incremental asks were pulled into prioritization"
+        }
+      ]
+    },
+    {
+      "doc_title": "Notes - The Pets Table - Weekly Check-in",
+      "doc_id": "1vOrUixt-zxfpCL9iVGENlw9TfCNcnqeUuyfrsHBvKKI",
+      "doc_type": "meeting",
+      "meeting_purpose": "Weekly check-in for The Pets Table product team to discuss progress, issues, and coordinate on ongoing initiatives",
+      "attendees": [
+        "Maria Chelminska",
+        "Anisha Chandra",
+        "Laurent Guillemain",
+        "Dovas Zakas",
+        "Nikita Gorshkov",
+        "Rena Zhou",
+        "Daniel Arias",
+        "Prateek Jajoo",
+        "Eva Martínez Romero",
+        "Désirée Lima",
+        "Ahmed Wagdi",
+        "Pedro Ávila",
+        "Lindsay Finnerty"
+      ],
+      "date": "Dec 17, 2025 (with notes from Dec 10, 2025 and Dec 2, 2025)",
+      "decisions": [
+        {
+          "what": "Test simpler version of Beam by sharing Transaction Details manually via spreadsheet",
+          "who": [
+            "Team"
+          ],
+          "context": "Discussion about Beam timing implementation approach"
+        },
+        {
+          "what": "Decide by W52 whether to pause iAdvize experience before Portion Percentage feature launch",
+          "who": [
+            "Team"
+          ],
+          "context": "iAdvize showing +3% improvement after Nov 20 changes, but needs decision on timing with upcoming feature"
+        },
+        {
+          "what": "Change copy in funnel and active experience from 'meal' to 'recipe'",
+          "who": [
+            "Maria",
+            "Prateek"
+          ],
+          "context": "Terminology standardization across product"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Dive deeper into rescheduling including delivery day change",
+          "owner": "Ahmed Wagdi",
+          "timeline": "Ongoing (carried over multiple weeks)"
+        },
+        {
+          "task": "Check with PA on options to shorten the allocation to tests and continuation of iAdvize",
+          "owner": "Maria",
+          "timeline": "Ongoing"
+        },
+        {
+          "task": "Check number and types of questions asked via chatbot once portion % are launched",
+          "owner": "Team",
+          "timeline": "After Portion Percentage launch"
+        },
+        {
+          "task": "Start conversation via public squad channel and discuss with Vinicius Fernandes de Jesus",
+          "owner": "Dovas Zakas and Lindsay Finnerty",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Share with Suzi that all new SKUs should be added to Adjust daily calories",
+          "owner": "Maria",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Follow up with PA team regarding reactivation rate reporting",
+          "owner": "Maria",
+          "timeline": "Not specified"
+        },
+        {
+          "task": "Manage incremental rollout of C@C (Change at Checkout)",
+          "owner": "Ahmed Wagdi",
+          "timeline": "Ongoing"
+        }
+      ],
+      "key_points": [
+        "Total Price communication issue with taxes and discounts - discussing options to change tax communication or stop showing total price before discount",
+        "Actives dashboard experience scoping document needs alignment with Maria and Prateek",
+        "iAdvize error tracking: negative until Nov 20th, +3% after Nov 20 changes with delayed trigger",
+        "C@C (Change at Checkout) first test was successful",
+        "Reactivation page progress update - fixing multipet issues where voucher not applied for users with active subscriptions",
+        "Product PDP potentially launching mid next week",
+        "Add-ons dropping from order issue identified",
+        "Request to add 'how many pets do you have' funnel data to SFMC for multipet CRM flow",
+        "Dashboard simplification and excitement initiative needs scoping and workshop",
+        "AAFCO statement finalization for nutritional compliance"
+      ],
+      "blockers": [
+        "Multipet voucher application issue - voucher not applied because users have active subscription",
+        "Add-ons dropping from order",
+        "iAdvize experience timing conflict with Portion Percentage feature launch",
+        "Reporting tab no longer supported feature - need to use DWH for conversion data"
+      ],
+      "follow_ups": [
+        "Continue iAdvize topic offline",
+        "Continue discussion about passing multipet data to CRM in the channel",
+        "Dashboard simplification and excitement initiative scoping & workshop",
+        "Check with global BI on how conversion information is pulled from DWH",
+        "Finalize RAF (Refer-a-Friend) values: 100% off trial box (pay shipping only) and TBD credit for referrer"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "project",
+          "context": "Main product being discussed, pet food subscription service"
+        },
+        {
+          "name": "iAdvize",
+          "type": "system",
+          "context": "Chatbot/customer service tool showing performance improvements after Nov 20 changes"
+        },
+        {
+          "name": "Beam",
+          "type": "system",
+          "context": "Feature being tested with simplified Transaction Details sharing approach"
+        },
+        {
+          "name": "SFMC",
+          "type": "system",
+          "context": "Salesforce Marketing Cloud - CRM system for customer communications"
+        },
+        {
+          "name": "C@C (Change at Checkout)",
+          "type": "project",
+          "context": "Feature in incremental rollout with successful first test"
+        },
+        {
+          "name": "Portion Percentage",
+          "type": "project",
+          "context": "Upcoming feature launch that may conflict with iAdvize timing"
+        },
+        {
+          "name": "Vinicius Fernandes de Jesus",
+          "type": "person",
+          "context": "Person to discuss request with via squad channel"
+        },
+        {
+          "name": "Suzi",
+          "type": "person",
+          "context": "Person to receive information about new SKUs for Adjust daily calories"
+        },
+        {
+          "name": "AAFCO",
+          "type": "system",
+          "context": "Association of American Feed Control Officials - nutritional standards authority"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Project management tool referenced for TPT backlog"
+        },
+        {
+          "name": "DWH",
+          "type": "system",
+          "context": "Data warehouse for conversion reporting"
+        },
+        {
+          "name": "Gabi and Ryan",
+          "type": "person",
+          "context": "Working on attribution and tracking setup for multisubscription users"
+        },
+        {
+          "name": "Mateusz Borowiak",
+          "type": "person",
+          "context": "Person Nikita Gorshkov needs to talk to about conversion event modifications"
+        }
+      ]
+    },
+    {
+      "doc_title": "New Ventures Tribe - Weekly Standup Notes",
+      "doc_id": "1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU",
+      "doc_type": "meeting",
+      "meeting_purpose": "Weekly standup for New Ventures Tribe to share team updates, people availability, on-call rotations, and project progress",
+      "attendees": [
+        "Madeeha Hasan",
+        "Tavi Scandiff-Pirvu",
+        "Liman Labaran",
+        "Oliver Strobel",
+        "Pedro Ávila",
+        "Arbaaz Dossani",
+        "Ahmed Wagdi",
+        "Edwin Torres",
+        "Romina Nicastro",
+        "Daniel Arias",
+        "Alexander Matlin",
+        "Beatrice Dimarucut",
+        "Andrea Martins",
+        "Matheus Bolognini",
+        "Morteza Pourkazemi",
+        "Elena Pavlova",
+        "Sneha Gupta",
+        "Wanderley Teixeira",
+        "Philip Tauro",
+        "Désirée Lima",
+        "Himash Tehan",
+        "Albert Liu",
+        "Maksim Burov",
+        "Lucas Freire Torres Cruz",
+        "Nikita Gorshkov",
+        "Ciro da Silva da Costa",
+        "Solenne",
+        "Tobias",
+        "Yoav",
+        "Annie"
+      ],
+      "date": "2025-W51 (week of December 16-20, 2025), with notes from W50, W49, and historical 2021-W13",
+      "decisions": [
+        {
+          "what": "First sprint of 2026 should start Jan 5 for all squads",
+          "who": [
+            "New Ventures Tribe leadership"
+          ],
+          "context": "Sprint alignment across Hellotech organization"
+        },
+        {
+          "what": "Tribe-wide demo at the end of every sprint, recorded and shared",
+          "who": [
+            "New Ventures Tribe"
+          ],
+          "context": "First demo scheduled for Friday, Jan 16, 2026"
+        },
+        {
+          "what": "Q1 2026 on-call rotations split into two: L2 - New Ventures and L2 - Market Innovation",
+          "who": [
+            "New Ventures Tribe"
+          ],
+          "context": "L2 - New Ventures supports client TRE for TPT, GoodChop & VMS brands; L2 - Market Innovation supports backend services until deprecated/handover"
+        },
+        {
+          "what": "Q2+Q3 roadmap priorities established with Porterhouse leading",
+          "who": [
+            "Solenne",
+            "Ahmed",
+            "Tobias",
+            "Yoav",
+            "Annie"
+          ],
+          "context": "Hard choices between deliveries will favor higher priority projects"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Q1 2026 New Ventures On-Call volunteer sign-up",
+          "owner": "New Ventures team members",
+          "timeline": "Q1 2026"
+        },
+        {
+          "task": "RSVP for New Ventures Tribe Berlin New Years Dinner",
+          "owner": "Team members",
+          "timeline": "Jan 27, 2026"
+        },
+        {
+          "task": "RSVP for New Ventures Toronto Xmas Dinner",
+          "owner": "Team members",
+          "timeline": "Dec 18, 2025 (RSVP by Dec 10, 2025)"
+        },
+        {
+          "task": "Monitor Approved Deployment & No deployment Days during peak",
+          "owner": "All team members",
+          "timeline": "Dec 20 - Jan 18"
+        },
+        {
+          "task": "Complete BFF migration in mobile app",
+          "owner": "Development team",
+          "timeline": "Early next week (from 2021-W13 context)"
+        },
+        {
+          "task": "Migrate route access control for Delivery Tracking and RaF routes",
+          "owner": "Development team",
+          "timeline": "By end of next week (from 2021-W13 context)"
+        },
+        {
+          "task": "Force update mobile app before Alice is killed",
+          "owner": "Development team",
+          "timeline": "Before mid April (from 2021-W13 context)"
+        }
+      ],
+      "key_points": [
+        "Multiple team members out during weeks 49-51 (holiday period)",
+        "Peak release calendar in effect with no deployment days Dec 20 - Jan 18",
+        "Sprint alignment across Hellotech starting Jan 5, 2026",
+        "On-call rotations established for Q1 2026 with two separate tracks",
+        "Social events planned: Anthropic visit Dec 16, Toronto dinner Dec 18, Berlin dinner Jan 27",
+        "BFF migration nearing completion in mobile app",
+        "Additional Vouchers support being implemented for web and mobile",
+        "Alice API being deprecated and removed"
+      ],
+      "blockers": [
+        "Peak deployment restrictions from Dec 20 - Jan 18 limiting releases",
+        "Multiple team members out during holiday period affecting capacity"
+      ],
+      "follow_ups": [
+        "Review Q2+Q3 roadmap priorities if concerns arise about high-priority projects",
+        "Cleanup work needed on web and mobile after BFF migration",
+        "Complete deprecation/handover of backend services previously owned by TAM"
+      ],
+      "entities": [
+        {
+          "name": "Matheus Bolognini",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for W51"
+        },
+        {
+          "name": "Morteza Pourkazemi",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for W51"
+        },
+        {
+          "name": "Himash Tehan",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for W50"
+        },
+        {
+          "name": "Albert Liu",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for W50"
+        },
+        {
+          "name": "Oliver Strobel",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for W49"
+        },
+        {
+          "name": "Ciro da Silva da Costa",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for W49"
+        },
+        {
+          "name": "Hellotech",
+          "type": "system",
+          "context": "Organization-wide sprint alignment initiative"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Brand supported by client TRE in New Ventures"
+        },
+        {
+          "name": "GoodChop",
+          "type": "project",
+          "context": "Brand supported by client TRE in New Ventures"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Brand supported by client TRE in New Ventures"
+        },
+        {
+          "name": "Anthropic",
+          "type": "system",
+          "context": "Visiting HF on Dec 16, 2026 (likely typo, should be 2025)"
+        },
+        {
+          "name": "Porterhouse",
+          "type": "project",
+          "context": "Highest priority project in Q2+Q3 roadmap"
+        },
+        {
+          "name": "BFF migration",
+          "type": "project",
+          "context": "Technical initiative for mobile app nearing completion"
+        },
+        {
+          "name": "Alice",
+          "type": "system",
+          "context": "Legacy API being deprecated and removed from Intfood"
+        },
+        {
+          "name": "Additional Vouchers",
+          "type": "project",
+          "context": "Engagement sprint goal for price calculation logic"
+        },
+        {
+          "name": "Add-ons",
+          "type": "project",
+          "context": "Happiness team implementing changes and setting up SKUs"
+        }
+      ]
+    },
+    {
+      "doc_title": "New Ventures Tribe - Weekly Standup Notes",
+      "doc_id": "1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU",
+      "doc_type": "meeting",
+      "meeting_purpose": "Weekly standup for New Ventures Tribe to share team updates, people availability, on-call rotations, and project progress",
+      "attendees": [
+        "Madeeha Hasan",
+        "Tavi Scandiff-Pirvu",
+        "Liman Labaran",
+        "Oliver Strobel",
+        "Pedro Ávila",
+        "Arbaaz Dossani",
+        "Ahmed Wagdi",
+        "Edwin Torres",
+        "Romina Nicastro",
+        "Daniel Arias",
+        "Alexander Matlin",
+        "Beatrice Dimarucut",
+        "Andrea Martins",
+        "Matheus Bolognini",
+        "Morteza Pourkazemi",
+        "Elena Pavlova",
+        "Sneha Gupta",
+        "Désirée Lima",
+        "Wanderley Teixeira",
+        "Philip Tauro",
+        "Himash Tehan",
+        "Albert Liu",
+        "Maksim Burov",
+        "Lucas Freire Torres Cruz",
+        "Nikita Gorshkov",
+        "Ciro da Silva da Costa",
+        "Solenne",
+        "Tobias",
+        "Yoav",
+        "Annie"
+      ],
+      "date": "2025-W51 (Week of December 16, 2025), with notes from 2025-W50, 2025-W49, and historical 2021-W13",
+      "decisions": [
+        {
+          "what": "First sprint of 2026 should start Jan 5 for all squads",
+          "who": [
+            "New Ventures Tribe leadership"
+          ],
+          "context": "Sprint alignment across Hellotech organization"
+        },
+        {
+          "what": "Tribe-wide demo at the end of every sprint, recorded and shared",
+          "who": [
+            "New Ventures Tribe"
+          ],
+          "context": "First demo scheduled for Friday, Jan 16, 2026"
+        },
+        {
+          "what": "Q1 2026 on-call rotations split into two: L2 - New Ventures and L2 - Market Innovation",
+          "who": [
+            "New Ventures Tribe"
+          ],
+          "context": "L2 - New Ventures supports client TRE for TPT, GoodChop & VMS brands; L2 - Market Innovation supports backend services until deprecated/handover"
+        },
+        {
+          "what": "Q2+Q3 Roadmap priorities established with Porterhouse leading",
+          "who": [
+            "Solenne",
+            "Ahmed",
+            "Tobias",
+            "Yoav",
+            "Annie"
+          ],
+          "context": "Hard choices between deliveries will favor higher priority projects (historical 2021-W13)"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Q1 2026 New Ventures On-Call volunteer sign-up",
+          "owner": "New Ventures team members",
+          "timeline": "Q1 2026"
+        },
+        {
+          "task": "RSVP for New Ventures Tribe Berlin New Years Dinner",
+          "owner": "Team members",
+          "timeline": "ASAP for Jan 27, 2026 event"
+        },
+        {
+          "task": "RSVP for New Ventures Toronto Xmas Dinner",
+          "owner": "Team members",
+          "timeline": "By Dec 10, 2025 for Dec 18, 2025 event"
+        },
+        {
+          "task": "Monitor Approved Deployment & No deployment Days during peak",
+          "owner": "All team members",
+          "timeline": "Dec 20 - Jan 18"
+        },
+        {
+          "task": "Complete BFF migration in mobile app",
+          "owner": "Development team",
+          "timeline": "Early next week (historical 2021-W13)"
+        },
+        {
+          "task": "Migrate route access control for Delivery Tracking and RaF routes",
+          "owner": "Development team",
+          "timeline": "By end of next week (historical 2021-W13)"
+        }
+      ],
+      "key_points": [
+        "Multiple team members out during weeks 2025-W50 and 2025-W51 (holiday period)",
+        "On-call rotations assigned weekly for L2 - New Ventures and L2 - RTE Systems/NV Systems",
+        "Peak deployment freeze period from Dec 20 - Jan 18",
+        "Sprint alignment across Hellotech starting Jan 5, 2026",
+        "Tribe-wide demos to be implemented at end of each sprint",
+        "Social events planned: Anthropic visit (Dec 16), Toronto Xmas dinner (Dec 18), Berlin New Years dinner (Jan 27)",
+        "Additional Vouchers support being implemented in price calculation logic (historical)",
+        "Alice API being deprecated with final endpoint removal (historical 2021-W13)",
+        "Add-ons implementation in progress with Happiness team (historical)"
+      ],
+      "blockers": [],
+      "follow_ups": [
+        "Peak Web Readiness Checklist completion",
+        "Q1 2026 on-call rotation volunteer confirmation",
+        "Social event RSVPs and attendance tracking"
+      ],
+      "entities": [
+        {
+          "name": "Matheus Bolognini",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for 2025-W51"
+        },
+        {
+          "name": "Morteza Pourkazemi",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for 2025-W51"
+        },
+        {
+          "name": "Himash Tehan",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for 2025-W50"
+        },
+        {
+          "name": "Albert Liu",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for 2025-W50"
+        },
+        {
+          "name": "Oliver Strobel",
+          "type": "person",
+          "context": "L2 - New Ventures on-call engineer for 2025-W49"
+        },
+        {
+          "name": "Ciro da Silva da Costa",
+          "type": "person",
+          "context": "L2 - RTE Systems/NV Systems on-call engineer for 2025-W49"
+        },
+        {
+          "name": "Hellotech",
+          "type": "system",
+          "context": "Organization-wide sprint alignment"
+        },
+        {
+          "name": "TPT",
+          "type": "project",
+          "context": "Brand supported by client TRE"
+        },
+        {
+          "name": "GoodChop",
+          "type": "project",
+          "context": "Brand supported by client TRE"
+        },
+        {
+          "name": "VMS",
+          "type": "project",
+          "context": "Brand supported by client TRE"
+        },
+        {
+          "name": "Anthropic",
+          "type": "system",
+          "context": "Visiting HF on Dec 16, 2026 (likely typo, should be 2025)"
+        },
+        {
+          "name": "Porterhouse",
+          "type": "project",
+          "context": "Highest priority project in Q2+Q3 roadmap (historical)"
+        },
+        {
+          "name": "BFF migration",
+          "type": "project",
+          "context": "Mobile app migration nearly complete (historical)"
+        },
+        {
+          "name": "Alice",
+          "type": "system",
+          "context": "Legacy API being deprecated (historical)"
+        },
+        {
+          "name": "Additional Vouchers",
+          "type": "project",
+          "context": "Engagement sprint goal for price calculation (historical)"
+        },
+        {
+          "name": "Add-ons",
+          "type": "project",
+          "context": "Implementation by Happiness team (historical)"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T12:51:36.544166"
+}

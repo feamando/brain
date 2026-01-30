@@ -1,0 +1,620 @@
+{
+  "batch_id": "spreadsheet_060",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, $0 revenue",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign with tracked spend of $1,053 and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 3+ years of weekly data (approximately 150+ weeks)",
+        "Structured for week-over-week performance analysis starting mid-2022",
+        "Minimal data populated in visible rows - likely a template or early-stage tracking document",
+        "Self-Improvement campaign shows spend without corresponding revenue, suggesting either incomplete data or unsuccessful campaign performance",
+        "Format suggests tracking of multiple campaigns/channels with metrics like spend, revenue, and conversions across weekly periods"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "Story points assigned to KTLO work",
+        "Story points for resolved tickets",
+        "Monthly KTLO work distribution by team"
+      ],
+      "entities": [
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticket tracking system used to label and track KTLO work"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "The business unit or division being tracked for operational overhead"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their operational overhead separately",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "Requires discipline in labeling tickets and assigning story points for accuracy",
+        "Uses resolved date to attribute tickets to specific months",
+        "Story points should be added retrospectively for accurate overhead calculation",
+        "System depends on proper Jira hygiene (labeling and story point assignment)"
+      ]
+    },
+    {
+      "doc_title": "Sprint Tracking",
+      "doc_id": "11-Ob_y8-vYsY2Gl_ZFmB0MzDenX2GpR6IMqh5IDpnDY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track sprint progress, capacity planning, and velocity metrics for an engineering team working on product features and technical improvements",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Team capacity ranges from 31-50 engineer days per sprint",
+        "Commitment follows 50% main priority, 25% tech tickets, 25% QWs, plus 8 SPs for KTLO",
+        "Velocity (Done/Capacity) ranges from 1.06 to 2.00, with recent average around 1.80",
+        "Most recent sprint (2025-W49-52): 36 engineer days capacity, 72 SPs committed, 72 done",
+        "Sprint duration: typically 2 weeks",
+        "Team size: 7-8 engineers including EM and SE roles"
+      ],
+      "entities": [
+        {
+          "name": "Andrea",
+          "type": "person",
+          "context": "Core team member, consistently available across all sprints"
+        },
+        {
+          "name": "Ahmed",
+          "type": "person",
+          "context": "Engineering Manager (EM) at 50% capacity"
+        },
+        {
+          "name": "Oliver",
+          "type": "person",
+          "context": "Software Engineer (SE) with reduced availability (days-1)"
+        },
+        {
+          "name": "Guhan",
+          "type": "person",
+          "context": "Team member with varying availability"
+        },
+        {
+          "name": "Mateusz",
+          "type": "person",
+          "context": "Team member with varying availability"
+        },
+        {
+          "name": "Suzi",
+          "type": "person",
+          "context": "Team member, consistently available"
+        },
+        {
+          "name": "Desi",
+          "type": "person",
+          "context": "Team member with varying availability"
+        },
+        {
+          "name": "Claudia",
+          "type": "person",
+          "context": "Team member in recent sprints"
+        },
+        {
+          "name": "Shujath",
+          "type": "person",
+          "context": "Team member in earlier Q1 sprints"
+        },
+        {
+          "name": "Project Heaven",
+          "type": "project",
+          "context": "Sprint goal for W45-46, marked as launched"
+        },
+        {
+          "name": "iAdvize chatbot",
+          "type": "system",
+          "context": "Launched in W37-38"
+        },
+        {
+          "name": "Wunderkind",
+          "type": "system",
+          "context": "Email integration work in W35-36"
+        },
+        {
+          "name": "UPM (Universal Payment Method)",
+          "type": "system",
+          "context": "Payment method feature in Q1 sprints"
+        }
+      ],
+      "insights": [
+        "Team velocity improved significantly from Q1 (avg 1.20-1.53) to Q4 (avg 1.58-2.00), indicating increased efficiency",
+        "Most recent sprint achieved 2.00 velocity (100% over capacity), highest recorded",
+        "Pricing API work is a recurring theme across multiple sprints (W43-52), indicating major technical initiative",
+        "Work allocation follows consistent pattern: 50% main priorities, 25% quality work, 25% tech debt/refactoring, plus fixed KTLO",
+        "Team composition changed between Q1 and Q4 (Shujath out, Claudia in)",
+        "Sprint goals show mix of feature launches (experiments, UI changes) and technical improvements (API migrations, refactoring)",
+        "Some sprints have incomplete goals (marked FALSE) even when velocity is high, suggesting scope management challenges",
+        "Oliver consistently has reduced capacity (days-1 or low availability), likely part-time or shared resource",
+        "Ahmed as EM at 50% suggests dual role or shared management responsibility"
+      ]
+    },
+    {
+      "doc_title": "Demo Session Sign-Up Sheet",
+      "doc_id": "1KNq8OJm2YC8NSgDee2NY5Sdz3EtOI89AfIjM3EmrgZY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and schedule demo presentations for various product features and projects across different teams/squads, including presenter information, production status, and relevant documentation links",
+      "data_type": "planning",
+      "key_data_points": [
+        "Demo date: 12/16/2025",
+        "9 total demos scheduled",
+        "7 projects already in production",
+        "1 project planned for W50 go-live",
+        "1 project status unclear",
+        "Preliminary ordering system (1-6) for presentation sequence"
+      ],
+      "entities": [
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Parent organization for multiple squads including Conversion Comms, Customer Value Forecasting, CRM Engine, and Active Journey Alliance"
+        },
+        {
+          "name": "SCM Inventory Management",
+          "type": "system",
+          "context": "Team responsible for warehouse management and procurement integration projects"
+        },
+        {
+          "name": "Harneet Singh, Alvaro Magalhaes, Aleksandr Shalaev",
+          "type": "person",
+          "context": "Presenters for Ad progression customized funnels demo"
+        },
+        {
+          "name": "Adrian Southwart, Jasper van Leeuwen",
+          "type": "person",
+          "context": "Presenters for WMS 2.0 warehouse replenishment demo in Netherlands facility"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "context": "Platform used for A/B testing integration and CLV model deployment"
+        },
+        {
+          "name": "Workday Procurement",
+          "type": "system",
+          "context": "Integrated with Oracle Finance for indirect procurement across HelloFresh"
+        },
+        {
+          "name": "Iterable",
+          "type": "system",
+          "context": "Platform for embedded message campaigns with dynamic audience selection"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company operating warehouses and meal kit services"
+        },
+        {
+          "name": "BOLT/NDD",
+          "type": "system",
+          "context": "Fast delivery services that increased delivery option complexity"
+        }
+      ],
+      "insights": [
+        "High production readiness: 78% of demos showcase already-deployed features, indicating focus on sharing completed work rather than future plans",
+        "Cross-functional collaboration: Projects span multiple domains including marketing (ad funnels), operations (warehouse management), procurement, mobile app, accessibility, AI/ML (recipe grading, CLV prediction), and logistics",
+        "AI/automation theme: Multiple projects leverage AI including accessibility scanning, recipe grading, and customer lifetime value prediction",
+        "Scheduling challenges noted: One demo was on agenda previous week but not completed; flexibility built in with potential topic swaps",
+        "International scope: Projects reference Netherlands facility and UK regions, indicating global operations",
+        "Complexity management focus: Several projects address scaling challenges (delivery options increased from 63 to 198, inventory accuracy improvements)",
+        "Integration emphasis: Multiple demos showcase system integrations (Workday-Oracle, Statsig, GitHub workflows, Iterable)",
+        "Missing information: One demo (New Cooking Experience on App) lacks description and production status"
+      ]
+    },
+    {
+      "doc_title": "Food Influencers for Interviews",
+      "doc_id": "19A-paP1BG184CJkDhJDB5_XKAq5h7g8MLxe2Ie7rqd4",
+      "doc_type": "spreadsheet",
+      "purpose": "Track outreach and interview coordination with food influencers across social media platforms for potential collaboration or content creation",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Total influencers tracked: ~40+",
+        "Outreach phases: 1-6",
+        "Follower ranges: 2,012 (Micro) to 1,800,000 (Mega)",
+        "Platform distribution: Primarily Instagram, some YouTube, TikTok, Pinterest",
+        "Contact status: Mix of contacted, follow-ups sent, interviews complete, not interested",
+        "Cookbook authors: Multiple influencers have published or upcoming cookbooks",
+        "Geographic spread: US, Canada, UK, Italy, Greece, Austria, Portugal, Lisbon"
+      ],
+      "entities": [
+        {
+          "name": "Luke Brown (cookinginthemidwest)",
+          "type": "person",
+          "context": "Mega influencer (1.8M followers), published cookbook author, not interested in collaboration"
+        },
+        {
+          "name": "Corre Larkin (cocolarkincooks)",
+          "type": "person",
+          "context": "Mega influencer (1M followers), upcoming cookbook, not interested"
+        },
+        {
+          "name": "Marisel Salazar",
+          "type": "person",
+          "context": "Micro influencer (40K), published cookbook author, interview complete, focuses on American Latino cuisines"
+        },
+        {
+          "name": "Althea Brown (Metemgee)",
+          "type": "person",
+          "context": "Mid-tier influencer (189K), published cookbook author, interview set up, specializes in Guyanese/Caribbean cuisine"
+        },
+        {
+          "name": "Lindsay Ostrom (Pinch of Yum)",
+          "type": "person",
+          "context": "Mega influencer (1.7M followers), published cookbook author, no response yet"
+        },
+        {
+          "name": "Carmen Spillette (Eat with Carmen)",
+          "type": "person",
+          "context": "Canada-based, Asian recipes focus, follow-up email sent"
+        },
+        {
+          "name": "Bailey Hayes",
+          "type": "person",
+          "context": "Micro TikTok influencer, follow-up email sent"
+        },
+        {
+          "name": "Dwight Smith",
+          "type": "person",
+          "context": "Macro TikTok influencer (630K), Canada-based, follow-up email sent"
+        }
+      ],
+      "insights": [
+        "Outreach success rate appears low - multiple mega influencers declined (cookinginthemidwest, cocolarkincooks, zimmysnook)",
+        "Phase 6 shows most recent/active outreach with detailed personalized email notes",
+        "Micro and mid-tier influencers show better engagement than mega influencers",
+        "Cookbook authors are specifically targeted, suggesting content collaboration around published recipes",
+        "Multi-platform presence is tracked (Instagram, TikTok, YouTube, Pinterest) to assess total reach",
+        "Many influencers only contactable via social media (no direct email), which may hinder outreach",
+        "Geographic diversity suggests international campaign or content needs",
+        "Personalized email customization notes focus on specific content styles and cultural cuisine specialties",
+        "Interview completion rate is low relative to total contacts made",
+        "Follow-up emails are primary status for engaged contacts, suggesting slow response rates"
+      ]
+    },
+    {
+      "doc_title": "Culinary Strategy | Recipe Development",
+      "doc_id": "1V8VPcFcI6fy9OPLgY6UL96aaK9_k5XCs3Ltk2lKtPTc",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe development planning and brainstorming tracker for culinary strategy, focusing on meal concepts across different dietary preferences and protein types",
+      "data_type": "planning",
+      "key_data_points": [
+        "Next brainstorm date: 1/14",
+        "Expected review date: 1/28",
+        "2025 slot assignments",
+        "Chef assignments (NS, LH, SH)",
+        "Slot 75 for Gourmet+ items",
+        "Multiple recipe concepts per project (typically 3-4 variations)",
+        "Asian street food interest up 32% YoY"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef assigned to Add On grain bowl projects"
+        },
+        {
+          "name": "LH",
+          "type": "person",
+          "context": "Chef assigned to Gourmet+ seafood and GLP-1 Support projects"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef potentially assigned to Calorie Smart chicken rework"
+        },
+        {
+          "name": "Leonard",
+          "type": "person",
+          "context": "Recommended black rice or wild rice blend for grain bowls"
+        },
+        {
+          "name": "Tricia / Abby",
+          "type": "person",
+          "context": "Confirming if Pesto Cream Chicken & Rice needs rework"
+        },
+        {
+          "name": "Add-ons team",
+          "type": "system",
+          "context": "Requesting grain bowl variety with new rice bases beyond quinoa"
+        },
+        {
+          "name": "Chopt Salad",
+          "type": "brand",
+          "context": "Inspiration source for Sesame Ginger Chicken Salad"
+        },
+        {
+          "name": "Chipotle",
+          "type": "brand",
+          "context": "Inspiration for crema component"
+        }
+      ],
+      "insights": [
+        "Focus on expanding grain bowl variety by introducing rice bases (black rice, wild rice blend) as alternatives to existing quinoa-only options",
+        "Strong emphasis on dietary preference categories: Add On, Gourmet+, GLP-1 Support, Calorie Smart, Protein Plus",
+        "Asian and Mexican/Southwestern flavor profiles are priority development areas",
+        "Multiple recipe concepts generated per project (3-4 variations) to provide options",
+        "Grain bowls designed as 1-count bento format, avoiding dessert components",
+        "Korean cuisine and Asian street food identified as trending with 32% YoY consumer interest increase",
+        "Mediterranean Diet and GLP-1 Support guardrails are key nutritional constraints",
+        "Shelf life considerations important (e.g., avoiding cheese in Mexican grain bowl)",
+        "Rice must be enjoyable when eaten cold for meal prep applications",
+        "Heavy repetition of Gourmet+ Sea Bass entries (13 identical rows) suggests placeholder or data entry issue",
+        "GLP-1 Support items planned with intention to convert beef/pork meatballs to turkey when specifications available"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, dietary attributes, and operational metrics",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.65",
+        "L3 Run Ratings between 3.32 and 3.45",
+        "Calorie counts from 340 to 660 per meal",
+        "Sodium levels from 610mg to 1070mg",
+        "Protein content from 12g to 41g",
+        "Max meal cost targets ($2.54 to $3.49)",
+        "Nutrition scores (0 to 4.125)",
+        "Dietary fiber (6-7g)"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Multiple recipe variants (F00002A-F) in Graveyard status"
+        },
+        {
+          "name": "GLP-1 Balance/Support",
+          "type": "system",
+          "context": "Dietary category tracked for meal compatibility"
+        }
+      ],
+      "insights": [
+        "Chicken & Mushroom Marsala has 6 recipe variants (F00002A-F) all marked as 'Graveyard' status, suggesting discontinued recipes",
+        "Most meals are marked as 'Calorie Smart' and 'Chef's Choice', indicating focus on health-conscious options",
+        "European/Italian cuisine is prominent in the sample, with multiple chicken and beef dishes",
+        "Newer recipes (F01907A, F01908A, F01912A, F01932A) have approval dates in October-November 2025 and 'New' status",
+        "All meals are dairy-free and pork-free, suggesting specific dietary restrictions for the service",
+        "Chicken breast is the most common protein type in the sample",
+        "Recipes track extensive preparation methods including marinading, grilling, braising, and shredding",
+        "Mediterranean and GLP-1 support categories are tracked, indicating focus on specific dietary trends",
+        "Shelf life status and plating dates are monitored for operational planning"
+      ]
+    },
+    {
+      "doc_title": "Culinary Strategy | Recipe Development",
+      "doc_id": "1V8VPcFcI6fy9OPLgY6UL96aaK9_k5XCs3Ltk2lKtPTc",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe development brainstorming and planning tracker for culinary strategy, tracking new meal concepts across different product lines and dietary preferences",
+      "data_type": "planning",
+      "key_data_points": [
+        "Next brainstorm date: 1/14",
+        "Expected review date: 1/28",
+        "2025 slot assignments",
+        "Multiple recipe concepts per project (typically 3-4 variations)",
+        "Slot 75 for Gourmet+ Sea Bass items",
+        "N/A slots for GLP-1 Support meatball items"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef assigned to Add On grain bowl projects"
+        },
+        {
+          "name": "LH",
+          "type": "person",
+          "context": "Chef assigned to Gourmet+ seafood and GLP-1 Support projects"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef potentially assigned to Calorie Smart chicken rework (Steven)"
+        },
+        {
+          "name": "Leonard",
+          "type": "person",
+          "context": "Recommended black rice or wild rice blend for grain bowls"
+        },
+        {
+          "name": "Tricia / Abby",
+          "type": "person",
+          "context": "Confirming if Pesto Cream Chicken & Rice needs rework"
+        },
+        {
+          "name": "Add-ons team",
+          "type": "system",
+          "context": "Requesting new grain bowl varieties with rice base alternatives to quinoa"
+        },
+        {
+          "name": "Chopt Salad",
+          "type": "brand",
+          "context": "Inspiration source for Sesame Ginger Chicken Salad"
+        },
+        {
+          "name": "Chipotle",
+          "type": "brand",
+          "context": "Inspiration for Crema in Mexican grain bowl"
+        }
+      ],
+      "insights": [
+        "Strategic shift from quinoa-only to diverse grain bases (black rice, wild rice blends) for grain bowls",
+        "Focus on cold-enjoyable rice preparations for meal prep convenience",
+        "Korean cuisine and Asian street food trending with 32% YoY increase in consumer interest",
+        "Multiple dietary preference lines being developed: Add On, Gourmet+, GLP-1 Support, Calorie Smart, Protein Plus, Eat Like an Athlete",
+        "GLP-1 Support line requires Mediterranean Diet guardrails compliance",
+        "Plan to convert beef/pork meatballs to turkey when spec is available",
+        "Grain bowls developed as 1-count bento format without dessert",
+        "Heavy emphasis on Mexican and Asian flavor profiles for new grain bowl concepts",
+        "Each project generates 3-4 concept variations for evaluation",
+        "Significant volume of Gourmet+ Sea Bass items in development (13 entries for slot 75)",
+        "Recipe rework process includes consideration of shelf life, pH requirements, and existing product differentiation"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project being tracked for operational overhead"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for KTLO tracking"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to identify Keep The Lights On operational work in tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to categorize tickets into specific months",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "Demo Session Sign-Up Sheet",
+      "doc_id": "1KNq8OJm2YC8NSgDee2NY5Sdz3EtOI89AfIjM3EmrgZY",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and schedule demo presentations for various product features and projects across different teams/squads, including presenter information, production status, and relevant documentation links",
+      "data_type": "planning",
+      "key_data_points": [
+        "Demo date: 12/16/2025",
+        "9 total demos scheduled",
+        "7 projects already in production",
+        "1 project planned for W50 go-live",
+        "1 project status unclear",
+        "Preliminary ordering system (1-6) for presentation sequence"
+      ],
+      "entities": [
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Parent organization for multiple squads including Conversion Comms, Customer Value Forecasting, CRM Engine, and Active Journey Alliance"
+        },
+        {
+          "name": "SCM Inventory Management",
+          "type": "system",
+          "context": "Team responsible for warehouse management and procurement integration projects"
+        },
+        {
+          "name": "Harneet Singh, Alvaro Magalhaes, Aleksandr Shalaev",
+          "type": "person",
+          "context": "Presenters for Ad progression customized funnels demo"
+        },
+        {
+          "name": "Adrian Southwart, Jasper van Leeuwen",
+          "type": "person",
+          "context": "Presenters for WMS 2.0 warehouse replenishment demo in Netherlands facility"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "context": "Platform used for A/B testing integration and CLV model deployment"
+        },
+        {
+          "name": "Workday Procurement",
+          "type": "system",
+          "context": "Integrated with Oracle Finance for indirect procurement across HelloFresh"
+        },
+        {
+          "name": "Iterable",
+          "type": "system",
+          "context": "Platform for embedded message campaigns with dynamic audience selection"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company operating warehouses and meal kit services"
+        },
+        {
+          "name": "BOLT/NDD",
+          "type": "system",
+          "context": "Fast delivery services that increased delivery option complexity"
+        }
+      ],
+      "insights": [
+        "Most projects (7 out of 9) are already in production, indicating this is a showcase of completed work rather than future planning",
+        "Strong focus on optimization and automation: AI-powered accessibility scanning, automated recipe grading, CLV prediction models, and personalized marketing funnels",
+        "Multiple projects address operational efficiency in supply chain and warehouse management (WMS 2.0, Project DISH, Logistics Configurator)",
+        "Cross-functional collaboration evident with multiple squads/alliances working together on projects",
+        "Some demos were deprioritized from previous week ('was on agenda last week and didn't get to them')",
+        "Flexibility in presentation order with notes about potential swaps (AI Accessibility Scanner vs Social Recipe Grader)",
+        "Integration focus: multiple projects involve connecting existing systems (Workday-Oracle, Statsig integration, GitHub workflow integration)",
+        "Customer experience improvements span both digital (app cooking experience, embedded campaigns) and operational (delivery options, warehouse efficiency) domains",
+        "Netherlands facility mentioned as 'best performing warehouse in the world'"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:15:21.122461"
+}

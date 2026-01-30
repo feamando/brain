@@ -1,0 +1,2533 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W40",
+  "extracted_at": "2026-01-02T10:48:15.666601Z",
+  "message_count": 13,
+  "messages": [
+    {
+      "subtype": "channel_leave",
+      "user": "U0184T48L74",
+      "text": "<@U0184T48L74> has left the channel",
+      "type": "message",
+      "ts": "1759406880.628019"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U03UN2C25UL",
+      "text": "<@U03UN2C25UL> has left the channel",
+      "type": "message",
+      "ts": "1759405736.976119"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1759403521.945789",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1759403521.945789",
+      "reply_count": 27,
+      "reply_users_count": 6,
+      "latest_reply": "1759409184.077759",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U03TY4YJU4X",
+        "U0251UW1YUE",
+        "U01AKGWGLC8",
+        "U027201FQSV",
+        "UE4HG114J"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U03TY4YJU4X>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Good Chop Header Not Loading`\n*Topic:* `Bug Report`\n*Priority:* `High priority 🔴`\n*Description:* `Replication: Go to Good Chop <http://goodchop.com|goodchop.com>\n\nCurrent behaviour: No header is loading\n\nExpected: Header loads\n\nTested: @nikita @ahmed @comet @edge @chrome`\n*Expected behaviour:* `Header is loaded`\n*Actual behaviour:* `Header isn't loaded`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U03TY4YJU4X>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Good Chop Header Not Loading`\n*Topic:* `Bug Report`\n*Priority:* `High priority 🔴`\n*Description:* `Replication: Go to Good Chop <http://goodchop.com|goodchop.com>\n\nCurrent behaviour: No header is loading\n\nExpected: Header loads\n\nTested: @nikita @ahmed @comet @edge @chrome`\n*Expected behaviour:* `Header is loaded`\n*Actual behaviour:* `Header isn't loaded`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1759403522.266229",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Bug Report. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Bug Report Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Bug Report. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Bug Report Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Bug+Report+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "",
+          "files": [
+            {
+              "id": "F09JA9N7G5U",
+              "created": 1759403571,
+              "timestamp": 1759403571,
+              "name": "Screenshot 2025-10-02 at 13.12.18.png",
+              "title": "Screenshot 2025-10-02 at 13.12.18.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U03TY4YJU4X",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 5148814,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09JA9N7G5U/screenshot_2025-10-02_at_13.12.18.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09JA9N7G5U/download/screenshot_2025-10-02_at_13.12.18.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 187,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 250,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 375,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 416,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 500,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09JA9N7G5U-bd449f58f1/screenshot_2025-10-02_at_13.12.18_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 533,
+              "original_w": 2378,
+              "original_h": 1238,
+              "thumb_tiny": "AwAZADCzJNMiBgEYd+On61F9uk/up+Rp0BdgRltvUMfzqrIf3j5xnJ6U46ikrFj7dJ/dT8jR9uk/up+RqJWVVGCue4Izn6cU1mV2zwo9P/1D/OKqxN2WI75ixDhQOxANOF0/V9qr1Axyf1qmMEnLYA/OnYaPJB6YOAASKl2Q1djzcuFAQjOOWx3/AMKgO7AZh97nPXNNp0X/ACz/ANxv609g3FjKbv3mdvfHWlkMe791uxj+Ko/WkFMkeMOhBIHPc4/z3p/ySZ3NzghW6cf5z2p1r0P+8P5GnH/VL/uD+VZy3NY9j//Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09JA9N7G5U/screenshot_2025-10-02_at_13.12.18.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09JA9N7G5U-48c3bc47ab",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03TY4YJU4X",
+          "display_as_bot": false,
+          "type": "message",
+          "ts": "1759403580.995399",
+          "client_msg_id": "0c99ef0e-7924-41ae-975b-9d5ed23da618",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1759403696.120069",
+          "client_msg_id": "650bce2d-6d14-455a-b98f-6dcd2ff426b1",
+          "text": "<@U027201FQSV> view plans also broken on base load",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "J/Zor",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " view plans also broken on base load"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1759403704.877529",
+          "client_msg_id": "e74c2ad5-07c4-47e0-9af2-b9e756266eeb",
+          "text": "<@U01AKGWGLC8> :eyes:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FSixH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hmmm it works normally on my end :thinking_face: couldn't reproduce it",
+          "files": [
+            {
+              "id": "F09J61NNTDH",
+              "created": 1759404058,
+              "timestamp": 1759404058,
+              "name": "Screen Recording 2025-10-02 at 13.20.08.mov",
+              "title": "Screen Recording 2025-10-02 at 13.20.08.mov",
+              "mimetype": "video/quicktime",
+              "filetype": "mov",
+              "pretty_type": "QuickTime Movie",
+              "user": "U0251UW1YUE",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 70354979,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "is_transcription_region_supported": true,
+              "transcription": {
+                "status": "none"
+              },
+              "mp4": "https://files.slack.com/files-tmb/T02AGMUUR-F09J61NNTDH-6ded2744a7/screen_recording_2025-10-02_at_13.20.08.mp4",
+              "url_private": "https://files.slack.com/files-tmb/T02AGMUUR-F09J61NNTDH-6ded2744a7/screen_recording_2025-10-02_at_13.20.08.mp4",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09J61NNTDH/download/screen_recording_2025-10-02_at_13.20.08.mov",
+              "hls": "https://files.slack.com/files-tmb/T02AGMUUR-F09J61NNTDH-6ded2744a7/file.m3u8?_xcb=095aa",
+              "hls_embed": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MTI4OTM5MyxBVkVSQUdFLUJBTkRXSURUSD04NTI0ODgsQ09ERUNTPSJhdmMxLjY0MDAyOCxtcDRhLjQwLjUiLFJFU09MVVRJT049MTkyMHgxMDgwLEZSQU1FLVJBVEU9MjkuOTcwCmRhdGE6YXBwbGljYXRpb24vdm5kLmFwcGxlLm1wZWd1cmw7YmFzZTY0LEkwVllWRTB6VlFvalJWaFVMVmd0VmtWU1UwbFBUam96Q2lORldGUXRXQzFVUVZKSFJWUkVWVkpCVkVsUFRqbzNDaU5GV0ZRdFdDMU5SVVJKUVMxVFJWRlZSVTVEUlRveENpTkZXRlF0V0MxUVRFRlpURWxUVkMxVVdWQkZPbFpQUkFvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREF5UVVkTlZWVlNMVVl3T1VvMk1VNU9WRVJJTFRaa1pXUXlOelEwWVRjdlptbHNaVjlJWHpJMk5GOHhPVEl3ZURFd09EQmZOalV3TUV0Q1VGTmZOMUZXUWxKZk1EQXdNREV1ZEhNS0kwVllWRWxPUmpvMkxqQXdOaXdLYUhSMGNITTZMeTltYVd4bGN5NXpiR0ZqYXk1amIyMHZabWxzWlhNdGRHMWlMMVF3TWtGSFRWVlZVaTFHTURsS05qRk9UbFJFU0MwMlpHVmtNamMwTkdFM0wyWnBiR1ZmU0Y4eU5qUmZNVGt5TUhneE1EZ3dYelkxTURCTFFsQlRYemRSVmtKU1h6QXdNREF5TG5SekNpTkZXRlJKVGtZNk5pNHdNRFlzQ21oMGRIQnpPaTh2Wm1sc1pYTXVjMnhoWTJzdVkyOXRMMlpwYkdWekxYUnRZaTlVTURKQlIwMVZWVkl0UmpBNVNqWXhUazVVUkVndE5tUmxaREkzTkRSaE55OW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TXk1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBeVFVZE5WVlZTTFVZd09VbzJNVTVPVkVSSUxUWmtaV1F5TnpRMFlUY3ZabWxzWlY5SVh6STJORjh4T1RJd2VERXdPREJmTmpVd01FdENVRk5mTjFGV1FsSmZNREF3TURRdWRITUtJMFZZVkVsT1JqbzJMakF3Tml3S2FIUjBjSE02THk5bWFXeGxjeTV6YkdGamF5NWpiMjB2Wm1sc1pYTXRkRzFpTDFRd01rRkhUVlZWVWkxR01EbEtOakZPVGxSRVNDMDJaR1ZrTWpjME5HRTNMMlpwYkdWZlNGOHlOalJmTVRreU1IZ3hNRGd3WHpZMU1EQkxRbEJUWHpkUlZrSlNYekF3TURBMUxuUnpDaU5GV0ZSSlRrWTZOaTR3TURZc0NtaDBkSEJ6T2k4dlptbHNaWE11YzJ4aFkyc3VZMjl0TDJacGJHVnpMWFJ0WWk5VU1ESkJSMDFWVlZJdFJqQTVTall4VGs1VVJFZ3RObVJsWkRJM05EUmhOeTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd05pNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQXlRVWROVlZWU0xVWXdPVW8yTVU1T1ZFUklMVFprWldReU56UTBZVGN2Wm1sc1pWOUlYekkyTkY4eE9USXdlREV3T0RCZk5qVXdNRXRDVUZOZk4xRldRbEpmTURBd01EY3VkSE1LSTBWWVZFbE9Sam8wTGpnM01pd0thSFIwY0hNNkx5OW1hV3hsY3k1emJHRmpheTVqYjIwdlptbHNaWE10ZEcxaUwxUXdNa0ZIVFZWVlVpMUdNRGxLTmpGT1RsUkVTQzAyWkdWa01qYzBOR0UzTDJacGJHVmZTRjh5TmpSZk1Ua3lNSGd4TURnd1h6WTFNREJMUWxCVFh6ZFJWa0pTWHpBd01EQTRMblJ6Q2lORldGUXRXQzFGVGtSTVNWTlVDZz09Cg==",
+              "mp4_low": "https://files.slack.com/files-tmb/T02AGMUUR-F09J61NNTDH-6ded2744a7/screen_recording_2025-10-02_at_13.20.08_trans.mp4",
+              "duration_ms": 46913,
+              "media_display_type": "video",
+              "thumb_video": "https://files.slack.com/files-tmb/T02AGMUUR-F09J61NNTDH-6ded2744a7/screen_recording_2025-10-02_at_13.20.08_thumb_video.jpeg",
+              "thumb_video_w": 2560,
+              "thumb_video_h": 1440,
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09J61NNTDH/screen_recording_2025-10-02_at_13.20.08.mov",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09J61NNTDH-fcf6cdac19",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0251UW1YUE",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "emkhv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hmmm it works normally on my end "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking_face",
+                      "unicode": "1f914"
+                    },
+                    {
+                      "type": "text",
+                      "text": " couldn't reproduce it"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1759404113.399179",
+          "client_msg_id": "40311fd7-d6e0-403c-b632-4bf51bb02d35",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1759404122.121359",
+          "client_msg_id": "530af279-5154-4e79-bda3-737011501e8f",
+          "text": "also doesn't  look like we got any errors on our homepage queries\n\n<https://ui.honeycomb.io/hellofresh/board/AungoRMdx2t/good-chop-Homepage-Health-Check>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ied1R",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "also doesn't  look like we got any errors on our homepage queries\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://ui.honeycomb.io/hellofresh/board/AungoRMdx2t/good-chop-Homepage-Health-Check"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1759404124.535959",
+          "client_msg_id": "3e30f495-600d-4c3b-9028-83ea097b7a8d",
+          "text": "now it works again? :hmm:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SN5yX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "now it works again? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hmm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1759404131.710329",
+          "client_msg_id": "c2e7990b-4fb3-4402-a609-b476dfc3b068",
+          "text": ":ghost:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NUO9z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "ghost",
+                      "unicode": "1f47b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "\"good chop\"",
+          "files": [
+            {
+              "id": "F09J901KLG5",
+              "created": 1759404161,
+              "timestamp": 1759404161,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U0251UW1YUE",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 369656,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09J901KLG5/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09J901KLG5/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09J901KLG5-45cb01133e/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09J901KLG5-45cb01133e/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09J901KLG5-45cb01133e/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 259,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09J901KLG5-45cb01133e/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 345,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09J901KLG5-45cb01133e/image_160.png",
+              "original_w": 563,
+              "original_h": 405,
+              "thumb_tiny": "AwAjADDPpO9OHOaUDJ6UhidBkinMsgXJTAPtToxl1HvU87/LyMZ4oHYp5BpKP4jS4oEPhXdmplTnNQRSbARjNTtKfLGDgk5pNAMQbWBx9KSZwSApzgYpQ2GBz0pv334GD1GfWmFxEAK54pdvP401xh8jjIp0bkyAHnJpMaIh1qZvup9KhHWpm+6n0piGH+tJkgqQeR0pT/WmmmIkuf8AWH61HEcSKfepLn/WH61HH/rE+opdB9T/2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09J901KLG5/image.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09J901KLG5-ff181a3c16",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0251UW1YUE",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UW6yF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\"good chop\""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1759404166.669789",
+          "client_msg_id": "87012b8d-f779-40df-afb6-1c1a8df00bfc",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759404172.662279",
+          "client_msg_id": "244d433f-3b4a-4c74-a145-164a5ba6f2b3",
+          "text": "this is the same case i flagged yesterday with Pame",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "weyE1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "this is the same case i flagged yesterday with Pame"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759404287.583409",
+          "client_msg_id": "3ee4b555-29cd-4975-bf05-90ba61fe8ad8",
+          "text": "<@UE4HG114J> I know Pame spoke to you about it\n\nin our internal <https://hellofresh.slack.com/archives/C02TNH94UR1/p1759325384556549?thread_ts=1759309178.966669&amp;cid=C02TNH94UR1|thread> she mentioned\n&gt; because JS is not loading we don’t have traces or sentry errors\nIs there really no way for us to track how often this error is occurring?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "k3CWv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UE4HG114J"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I know Pame spoke to you about it\n\nin our internal "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C02TNH94UR1/p1759325384556549?thread_ts=1759309178.966669&cid=C02TNH94UR1",
+                      "text": "thread"
+                    },
+                    {
+                      "type": "text",
+                      "text": " she mentioned\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_quote",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "because JS is not loading we don’t have traces or sentry errors"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nIs there really no way for us to track how often this error is occurring?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759404310.101089",
+          "client_msg_id": "f81505ac-64ba-4f23-9c5c-00e8995e48a5",
+          "text": "It is difficult to interpret onlythe general metrics of traffic to homepage / plans because it's heavily influenced by marketing",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zZe92",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It is difficult to interpret onlythe general metrics of traffic to homepage / plans because it's heavily influenced by marketing"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1759405969.703659",
+          "edited": {
+            "user": "U027201FQSV",
+            "ts": "1759405975.000000"
+          },
+          "client_msg_id": "44cde390-1620-4e0f-9d83-550cca1fbaf9",
+          "text": "<@U03TY4YJU4X> are you still able to reproduce the issue?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XKJri",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " are you still able to reproduce the issue?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759406005.711019",
+          "client_msg_id": "454c3f32-4484-451f-a6f0-290963672a03",
+          "text": "Alex I could reproduce it with Pame but then at some point it just randomly worked again",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "b9YDi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Alex I could reproduce it with Pame but then at some point it just randomly worked again"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759406034.238589",
+          "client_msg_id": "e74bcc03-b29f-4650-89c9-7ffece8ee6c3",
+          "text": "<@U01AKGWGLC8> yeah, all our metric tools are JS-based so if it fails, we have no way to track those errors. What we can is to monitor \"missing traffic\" as Pame suggested.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "g6zVQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " yeah, all our metric tools are JS-based so if it fails, we have no way to track those errors. What we can is to monitor \"missing traffic\" as Pame suggested."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759406097.126809",
+          "client_msg_id": "4554c8ff-f64c-48d4-8616-9c22a52d2b65",
+          "text": "here is a query we built with Pame - <https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/rw4PyqvKg8e?vs=timeshiftOverlay&amp;cs_0=omitMissingValues>\nseems the traffic is not different from last week",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZynXc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "here is a query we built with Pame - "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/result/rw4PyqvKg8e?vs=timeshiftOverlay&cs_0=omitMissingValues"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nseems the traffic is not different from last week"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759406278.522389",
+          "client_msg_id": "d0cc39fa-ed99-4b5c-8580-79ff254b06a4",
+          "text": "If you change the comparison view to a longer time horizon though, it's a higher discrepancy \n\nBut still hard to draw conclusions from it depending on what channels and budget marketing is using for campaigns across weeks",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yJJSt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you change the comparison view to a longer time horizon though, it's a higher discrepancy \n\nBut still hard to draw conclusions from it depending on what channels and budget marketing is using for campaigns across weeks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759406303.853429",
+          "client_msg_id": "af5ceb37-f03a-4c09-8418-42e1c60afc07",
+          "text": "maybe we can try to check from the ELB perspective :thinking_face:\nlet me try",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6K3YM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "maybe we can try to check from the ELB perspective "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking_face",
+                      "unicode": "1f914"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nlet me try"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1759406362.401879",
+          "client_msg_id": "ebe1ff1d-09d1-46a8-a5ad-8647e8e78cef",
+          "text": "<@U027201FQSV> right now I can reproduce it again",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JaSxo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " right now I can reproduce it again"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1759406366.133739",
+          "client_msg_id": "a9b7e410-bd8b-4192-9e52-4e484318e38c",
+          "text": "it's intermittent",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vLKDw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it's intermittent"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759408560.781859",
+          "client_msg_id": "21120939-bd8d-46ed-a310-d0277803a792",
+          "text": "Ok, so it seems to be the same old problem of having a new deployment - at this point, the assets that belong to old deployments stop existing and you can't get them anymore if you are in the middle of something (like loading a page).\nI thought we should have this issue fixed after moving to Vercel, but seems we didn't because it requires some extra functionality turned on and it costs some money that we decided not to pay :dunno:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jeVMM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ok, so it seems to be the same old problem of having a new deployment - at this point, the assets that belong to old deployments stop existing and you can't get them anymore if you are in the middle of something (like loading a page).\nI thought we should have this issue fixed after moving to Vercel, but seems we didn't because it requires some extra functionality turned on and it costs some money that we decided not to pay "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "dunno"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U0251UW1YUE",
+                "U044SKGT4R5",
+                "U03EN3N4KM4"
+              ],
+              "count": 3
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759408687.372889",
+          "client_msg_id": "8d899dba-2e0f-4102-bd4c-b0a9df8969b2",
+          "text": "I'm checking Cloudflare logs to see if we can see any spikes of 404s",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iZY91",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm checking Cloudflare logs to see if we can see any spikes of 404s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Looks like on average, there are around 1k failed requests to JS assets a day. The rate seems stable (apart from some spike last weekend)",
+          "files": [
+            {
+              "id": "F09JGBMB528",
+              "created": 1759408816,
+              "timestamp": 1759408816,
+              "name": "Screenshot 2025-10-02 at 14.40.08.png",
+              "title": "Screenshot 2025-10-02 at 14.40.08.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "UE4HG114J",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 81527,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09JGBMB528/screenshot_2025-10-02_at_14.40.08.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09JGBMB528/download/screenshot_2025-10-02_at_14.40.08.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 294,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 392,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 588,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09JGBMB528-a3f6a33937/screenshot_2025-10-02_at_14.40.08_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 653,
+              "original_w": 958,
+              "original_h": 782,
+              "thumb_tiny": "AwAoADDRwSx+Y9uOKUKR1Yn64oIPOD9BQu7+IAfQ5oAXp1ooooAPXk0gBz94/pS0UAFFHrxRQAUmBnOBmlooAKKDntRQAUUUUAFFFFABRRRQB//Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09JGBMB528/screenshot_2025-10-02_at_14.40.08.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09JGBMB528-5f913ba07f",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "UE4HG114J",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WUYY6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Looks like on average, there are around 1k failed requests to JS assets a day. The rate seems stable (apart from some spike last weekend)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1759408898.280259",
+          "client_msg_id": "63c9500d-35e0-4586-8e7c-39dae5fce2e8",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "text": "Looking at the last 24 hours though doesn't give a clear picture of 404s spiking during working hours (and more frequent deployments) :thinking_face:",
+          "files": [
+            {
+              "id": "F09J9C0NQS1",
+              "created": 1759409096,
+              "timestamp": 1759409096,
+              "name": "Screenshot 2025-10-02 at 14.44.19.png",
+              "title": "Screenshot 2025-10-02 at 14.44.19.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "UE4HG114J",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 82206,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09J9C0NQS1/screenshot_2025-10-02_at_14.44.19.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09J9C0NQS1/download/screenshot_2025-10-02_at_14.44.19.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 293,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 391,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 587,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 652,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09J9C0NQS1-797aaf4b01/screenshot_2025-10-02_at_14.44.19_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 782,
+              "original_w": 962,
+              "original_h": 784,
+              "thumb_tiny": "AwAoADC60m2QgtgZHfp+lO68iR/wH/1qk/GigBu9RnOeOvFKrBhlTmlooAQg8kE/SkUvnDDgd89adRQAYA/Gik5z0paACjA9PekJwCRyaM84/CgBaKO+KM84oAQjJyaNvNLRQAhGcc0Fc9falooAKQDk80tFAH//2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09J9C0NQS1/screenshot_2025-10-02_at_14.44.19.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09J9C0NQS1-ebc3ee2149",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "UE4HG114J",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8Cm6o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Looking at the last 24 hours though doesn't give a clear picture of 404s spiking during working hours (and more frequent deployments) "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking_face",
+                      "unicode": "1f914"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1759409101.718289",
+          "client_msg_id": "4de9cacd-91eb-445e-9c09-3733507a7679",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1759409125.650489",
+          "client_msg_id": "D77C4923-6E91-43D4-B9E0-DB1561D60943",
+          "text": "Thanks for validating, Max! Do you know if <#C0125D6G44U|> is aware of the issue?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HiNiF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for validating, Max! Do you know if "
+                    },
+                    {
+                      "type": "channel",
+                      "channel_id": "C0125D6G44U"
+                    },
+                    {
+                      "type": "text",
+                      "text": " is aware of the issue?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759409154.309749",
+          "client_msg_id": "b0d2f10a-4ed8-4710-9be9-deebe7ebf425",
+          "text": "I think yes, they should be",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qbg/j",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think yes, they should be"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1759409184.077759",
+          "client_msg_id": "1903a65e-0627-40af-bb70-42f0ea222450",
+          "text": "I mean, this problem was there forever, and we brought it up multiple times",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759403521.945789",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kCfAb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I mean, this problem was there forever, and we brought it up multiple times"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1759395376.443679",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1759395376.443679",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1759406509.288499",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U03UN2C25UL",
+        "U044SKGT4R5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U0184T48L74>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Archive experiment`\n*Topic:* `Other`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey team, I got pinged by experimentation core regarding the cadence experiment, the decision was made but the experiment hasn't been cleaned. I think the code was removed. Please follow the instructions in this document <https://docs.google.com/spreadsheets/d/10ZjFfSFMqzzGnB-V7UKnz8sfKCeSJzf2skK_eSSaB0k/edit?gid=1550945425#gid=1550945425&amp;range=A174> to archive it if necessary otherwise they will do it automatically on Oct 9th`\n*Expected behaviour:* `Desicion is made: the experiment should or shouldn't be archived`\n*Actual behaviour:* `The experiment is listed on stale entities by experimentation core\n`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U0184T48L74>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Archive experiment`\n*Topic:* `Other`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey team, I got pinged by experimentation core regarding the cadence experiment, the decision was made but the experiment hasn't been cleaned. I think the code was removed. Please follow the instructions in this document <https://docs.google.com/spreadsheets/d/10ZjFfSFMqzzGnB-V7UKnz8sfKCeSJzf2skK_eSSaB0k/edit?gid=1550945425#gid=1550945425&amp;range=A174> to archive it if necessary otherwise they will do it automatically on Oct 9th`\n*Expected behaviour:* `Desicion is made: the experiment should or shouldn't be archived`\n*Actual behaviour:* `The experiment is listed on stale entities by experimentation core\n`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U044SKGT4R5"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1759395376.795179",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1759395376.443679",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UN2C25UL",
+          "type": "message",
+          "ts": "1759395496.122769",
+          "client_msg_id": "6bd8d20c-e691-4487-9b2f-c718c44f9f0f",
+          "text": "hey team, I'm hijacking Claudia's post as I also got pinged by the experimentation team about:\n`goc_2358_mr_price_value_funnel_test`: <https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/goc_2358_mr_price_value_funnel_test>\nCan you check it as well please?\nThank you",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759395376.443679",
+          "parent_user_id": "U018UCEFJ65",
+          "attachments": [
+            {
+              "image_url": "https://console.statsig.com/img/console_og_image.png",
+              "image_width": 1200,
+              "image_height": 630,
+              "image_bytes": 267121,
+              "from_url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/goc_2358_mr_price_value_funnel_test",
+              "service_icon": "https://console.statsig.com/favicons/Statsig_Favicon_Light.png",
+              "id": 1,
+              "original_url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/goc_2358_mr_price_value_funnel_test",
+              "fallback": "goc_2358_mr_price_value_funnel_test | Statsig",
+              "text": "Create an Account or Sign In | Statsig Product Experimentation Console",
+              "title": "goc_2358_mr_price_value_funnel_test | Statsig",
+              "title_link": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/goc_2358_mr_price_value_funnel_test",
+              "service_name": "console.statsig.com"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ucN2X",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey team, I'm hijacking Claudia's post as I also got pinged by the experimentation team about:\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "goc_2358_mr_price_value_funnel_test",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ": "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/goc_2358_mr_price_value_funnel_test"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nCan you check it as well please?\nThank you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "wave::skin-tone-4",
+              "users": [
+                "U0184T48L74"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1759395612.077269",
+          "client_msg_id": "a4549a29-b843-48b4-8feb-24a39ef97ed7",
+          "text": "Hi Andrea and Claudia,\nThanks for reaching out. Let me discuss with the team in standup and get back to you guys",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759395376.443679",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "I9iCl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Andrea and Claudia,\nThanks for reaching out. Let me discuss with the team in standup and get back to you guys"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "thank_you",
+              "users": [
+                "U03UN2C25UL",
+                "U0184T48L74"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1759406495.970699",
+          "client_msg_id": "0cba24c5-933b-458c-8208-c45561991c2f",
+          "text": "As discussed in standup, I have marked both the experiment and feature flag as 'archieve for me' in the <https://docs.google.com/spreadsheets/d/10ZjFfSFMqzzGnB-V7UKnz8sfKCeSJzf2skK_eSSaB0k/edit?gid=1550945425#gid=1550945425|doc>.\ncc: <@U01AKGWGLC8>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759395376.443679",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FfKbr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "As discussed in standup, I have marked both the experiment and feature flag as 'archieve for me' in the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/10ZjFfSFMqzzGnB-V7UKnz8sfKCeSJzf2skK_eSSaB0k/edit?gid=1550945425#gid=1550945425",
+                      "text": "doc"
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\ncc: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U0184T48L74",
+                "U03UN2C25UL"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U044SKGT4R5",
+          "type": "message",
+          "ts": "1759406509.288499",
+          "client_msg_id": "385a6d00-d743-403a-a07e-7886fc043590",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759395376.443679",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            },
+            {
+              "name": "partying_face",
+              "users": [
+                "U044SKGT4R5"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U0184T48L74",
+      "text": "<@U0184T48L74> has joined the channel",
+      "type": "message",
+      "ts": "1759394754.661369"
+    },
+    {
+      "subtype": "channel_join",
+      "user": "U03UN2C25UL",
+      "text": "<@U03UN2C25UL> has joined the channel",
+      "type": "message",
+      "ts": "1759324120.312689"
+    },
+    {
+      "subtype": "channel_leave",
+      "user": "U0184T48L74",
+      "text": "<@U0184T48L74> has left the channel",
+      "type": "message",
+      "ts": "1759245392.401889"
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1759226353.844589",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1759226353.844589",
+      "reply_count": 8,
+      "reply_users_count": 5,
+      "latest_reply": "1759297996.088899",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U01AKGWGLC8",
+        "U046DDU7UG7",
+        "U03EN3N4KM4",
+        "U0251UW1YUE"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U01AKGWGLC8>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Update redirect URL for Direct Mail campaign`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `Message from Marketing:\n\nCan you please create the following redirect for an upcoming direct mail campaign?\n<http://goodchop.com/th25|goodchop.com/th25> --&gt; <https://get.goodchop.com/th25>`\n*Expected behaviour:* `Redirection to <https://get.goodchop.com/th25>`\n*Actual behaviour:* `No redirection`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U01AKGWGLC8>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Update redirect URL for Direct Mail campaign`\n*Topic:* `Other`\n*Priority:* `Medium priority 🟡`\n*Description:* `Message from Marketing:\n\nCan you please create the following redirect for an upcoming direct mail campaign?\n<http://goodchop.com/th25|goodchop.com/th25> --&gt; <https://get.goodchop.com/th25>`\n*Expected behaviour:* `Redirection to <https://get.goodchop.com/th25>`\n*Actual behaviour:* `No redirection`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1759226354.189339",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759226399.582509",
+          "client_msg_id": "ab246a88-c181-4df4-8c38-f7319c968bb6",
+          "text": "<@U046DDU7UG7> can you clarify when the drop date is for the campaign? when should this be updated by?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mhCya",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046DDU7UG7"
+                    },
+                    {
+                      "type": "text",
+                      "text": " can you clarify when the drop date is for the campaign? when should this be updated by?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U046DDU7UG7",
+          "type": "message",
+          "ts": "1759241287.282649",
+          "client_msg_id": "882620CA-12B5-48AB-A365-325C6ACA745E",
+          "text": "By end of day tm would be great",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8Ovia",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "By end of day tm would be great"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1759243732.161119",
+          "client_msg_id": "8b9e7e7b-69cd-4b49-9e0f-da02e5537844",
+          "text": "quick update: <@U0251UW1YUE> already raised a PR to add the redirection Bea, waiting for approval from web foundation team",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kD5Ne",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "quick update: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0251UW1YUE"
+                    },
+                    {
+                      "type": "text",
+                      "text": " already raised a PR to add the redirection Bea, waiting for approval from web foundation team"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "blob-salute",
+              "users": [
+                "U0251UW1YUE"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1759246289.552469",
+          "client_msg_id": "06be21c8-cb99-4913-b443-7ccaed0a6c56",
+          "text": "the PR with the new redirection is merged now",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jcQpk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "the PR with the new redirection is merged now"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "woohoo",
+              "users": [
+                "U0251UW1YUE",
+                "U046DDU7UG7"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759246784.017219",
+          "client_msg_id": "faf335b2-ad63-4918-ab1f-0f4326c16d4b",
+          "text": "great thank you!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zMbcg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "great thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1759246831.503719",
+          "client_msg_id": "ce7ae432-7660-4291-a54d-f810b03b2d4a",
+          "text": "<@U046DDU7UG7> redirection seems to work, maybe you can test that it directs to Plans correctly with a voucher code",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5l7KO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046DDU7UG7"
+                    },
+                    {
+                      "type": "text",
+                      "text": " redirection seems to work, maybe you can test that it directs to Plans correctly with a voucher code"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1759297996.088899",
+          "client_msg_id": "67f8af71-089c-4d3a-b0d2-304a265e75c8",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759226353.844589",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0251UW1YUE",
+      "type": "message",
+      "ts": "1759167195.002189",
+      "client_msg_id": "601f826d-717c-47b9-88d4-c4c63f12cf36",
+      "text": "Hello :wave:\n\nWe're substituting the Good Chop Support Slack Workflow (that green button we had) to the Slack Commander :robot_face:\n\nFrom now on, please use `/new_issue` or `/new_question` to submit your support request to our squad and fill up the form. We will get back to you as soon as possible as always. Same as before but with a new, well-known, and more powerful tool.\n\nThank you! :goodchop_fan:",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6WPqm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nWe're substituting the Good Chop Support Slack Workflow (that green button we had) to the Slack Commander "
+                },
+                {
+                  "type": "emoji",
+                  "name": "robot_face",
+                  "unicode": "1f916"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nFrom now on, please use "
+                },
+                {
+                  "type": "text",
+                  "text": "/new_issue",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "text",
+                  "text": "/new_question",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " to submit your support request to our squad and fill up the form. We will get back to you as soon as possible as always. Same as before but with a new, well-known, and more powerful tool.\n\nThank you! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pinned_to": [
+        "C03DDD4R537"
+      ],
+      "pinned_info": {
+        "channel": "C03DDD4R537",
+        "pinned_by": "U0251UW1YUE",
+        "pinned_ts": 1759167203
+      },
+      "reactions": [
+        {
+          "name": "robot_face",
+          "users": [
+            "U03EN3N4KM4",
+            "U0184T48L74"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1759166846.082829",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "name": "Slack Commander",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "deleted": false,
+        "updated": 1622031459,
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1759166846.082829",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1759166860.509939",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U0251UW1YUE"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U0251UW1YUE>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `This is a Slack Commander test `\n*Topic:* `Other`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey, I'm a test. Please ignore me :)`\n*Expected behaviour:* `To be a test`\n*Actual behaviour:* `I'm really a test 👍`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U0251UW1YUE>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `This is a Slack Commander test `\n*Topic:* `Other`\n*Priority:* `Low priority 🟢`\n*Description:* `Hey, I'm a test. Please ignore me :)`\n*Expected behaviour:* `To be a test`\n*Actual behaviour:* `I'm really a test 👍`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1759166846.429589",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Other Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1759166846.082829",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Other. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Other Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Other+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1759166860.509939",
+          "client_msg_id": "f2248dd1-925a-4149-a3a7-c59735f910fc",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759166846.082829",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtype": "channel_topic",
+      "user": "U0251UW1YUE",
+      "topic": "Our squad is responsible for Good Chop initiatives. Please submit issues via /new_issue and questions via /new_question\n\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s firefighter.",
+      "text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit issues via /new_issue and questions via /new_question\n\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s firefighter.",
+      "type": "message",
+      "ts": "1759166746.098399"
+    },
+    {
+      "subtype": "channel_topic",
+      "user": "U02P4F23YJ0",
+      "topic": "Our squad is responsible for Good Chop initiatives. Please submit questions via /new_question, and issues via /new_issue!\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s on-call person.",
+      "text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit questions via /new_question, and issues via /new_issue!\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s on-call person.",
+      "type": "message",
+      "ts": "1759159277.865219"
+    },
+    {
+      "subtype": "bot_message",
+      "text": "Hey team, *<@U0251UW1YUE>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* Code Review\n\n\n:mag: *Issue reported:*\ntesting - please ignore\n\n\n:footprints: *Steps to reproduce:*\ntesting - please ignore",
+      "username": "Good Chop Support",
+      "type": "message",
+      "ts": "1759150022.766169",
+      "bot_id": "B086MRXMQ0J",
+      "app_id": "A086QB7UYCC",
+      "trigger_id": "Ft0870GEL3FT",
+      "workflow_id": "Wf086MRG3MGA",
+      "thread_ts": "1759150022.766169",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1759150142.673569",
+      "reply_users": [
+        "B086MRXMQ0J",
+        "U0251UW1YUE",
+        "U03EN3N4KM4"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aY5Ms",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0251UW1YUE",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " needs support! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "goodchop_fan"
+                },
+                {
+                  "type": "text",
+                  "text": "Please check the details.\n---------------------------------------------------------------------------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Priority:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Low "
+                },
+                {
+                  "type": "emoji",
+                  "name": "large_green_circle",
+                  "unicode": "1f7e2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Topic: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Code Review"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mag",
+                  "unicode": "1f50d",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Issue reported:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "testing - please ignore"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "footprints",
+                  "unicode": "1f463",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Steps to reproduce:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "testing - please ignore"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "subtype": "bot_message",
+          "text": ":alert: PLEASE CHECK THE MESSAGE BELOW! :alert:\n\n\n:arrow_right: If your request is related to a *failing test*, please *<https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E|check this doc first>* for quick troubleshooting/assessment before raising the actual request.\n\n\n:alert: *PLEASE* FOLLOW THE DOC ABOVE *BEFORE* RAISING THE REQUEST :alert:",
+          "username": "Good Chop Support",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "actions",
+                  "block_id": "ubxKk",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "77e9cb64-d97f-4d19-8841-423ec1de05de",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "I still need help",
+                        "emoji": true
+                      },
+                      "style": "primary",
+                      "value": "button",
+                      "third_party_auth": {
+                        "enable_dynamic_auth": true
+                      }
+                    }
+                  ]
+                }
+              ],
+              "fallback": "[no preview available]"
+            }
+          ],
+          "type": "message",
+          "ts": "1759150029.849889",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1759150022.766169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "isJ2D",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    },
+                    {
+                      "type": "text",
+                      "text": " PLEASE CHECK THE MESSAGE BELOW! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n\n"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "arrow_right",
+                      "unicode": "27a1-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " If your request is related to a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "failing test",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", please "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E",
+                      "text": "check this doc first",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for quick troubleshooting/assessment before raising the actual request.\n\n\n"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " PLEASE",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " FOLLOW THE DOC ABOVE "
+                    },
+                    {
+                      "type": "text",
+                      "text": "BEFORE",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " RAISING THE REQUEST "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "alert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtype": "bot_message",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our <https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos|How-To section>. It might help you speed up the process depending on the type of the request.\n\ncc: <!subteam^S06KVDQ9HND>",
+          "username": "Good Chop Support",
+          "type": "message",
+          "ts": "1759150051.605779",
+          "bot_id": "B086MRXMQ0J",
+          "app_id": "A086QB7UYCC",
+          "trigger_id": "Ft0870GEL3FT",
+          "workflow_id": "Wf086MRG3MGA",
+          "thread_ts": "1759150022.766169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oKaT8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the report! We will get back to you as soon as possible "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nMeanwhile, please check our "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos",
+                      "text": "How-To section"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". It might help you speed up the process depending on the type of the request.\n\ncc: "
+                    },
+                    {
+                      "type": "usergroup",
+                      "usergroup_id": "S06KVDQ9HND"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0251UW1YUE",
+          "type": "message",
+          "ts": "1759150064.686719",
+          "client_msg_id": "abd100b6-f7f7-472e-ae98-0a0963af5f90",
+          "text": "<@U03EN3N4KM4> just testing, sorry to bother. please ignore :blobthumbsup:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759150022.766169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "m0mXL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03EN3N4KM4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " just testing, sorry to bother. please ignore "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blobthumbsup"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03EN3N4KM4",
+          "type": "message",
+          "ts": "1759150142.673569",
+          "client_msg_id": "2e2609b2-4d24-4185-bb32-4e2c1078694a",
+          "text": "all good",
+          "team": "T02AGMUUR",
+          "thread_ts": "1759150022.766169",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vCaU6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "all good"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W50",
+  "extracted_at": "2026-01-02T10:44:04.772641Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "UE4HG114J",
+      "type": "message",
+      "ts": "1765554735.929599",
+      "client_msg_id": "55b58e61-b09a-4c64-bff5-5cc556fb6cda",
+      "text": "In case you missed it, here is the most important:\n&gt; ...from December 19 through January 1.\n&gt; ...accessible office space...\n&gt; • Prinzenstr on the 4th and 5th floors\n&gt; • Reuchlinstr  Haus P\n&gt; All other areas/floors cannot be accessed during this time.\n(for full text read \"Berlin Offices holiday closures\" e-mail)",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Mfz5y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "In case you missed it, here is the most important:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "...from December 19 through January 1.\n...accessible office space..."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Prinzenstr on the 4th and 5th floors"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Reuchlinstr  Haus P"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 1
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "All other areas/floors cannot be accessed during this time."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "(for full text read \"Berlin Offices holiday closures\" e-mail)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "wfh1",
+          "users": [
+            "U7SJ525DE",
+            "U03TY4YJU4X"
+          ],
+          "count": 2
+        },
+        {
+          "name": "announcement",
+          "users": [
+            "U0184T48L74",
+            "U02KQF884CT",
+            "U03EN3N4KM4",
+            "U03TY4YJU4X"
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "user": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1765384345.685909",
+      "client_msg_id": "e2ff57d1-73ce-4bbf-b947-d3f5b08ba892",
+      "text": "Hey team,\n\nA little late but I was finally able to figure out our issues with our <mailto:tribe-nv@hellofresh.com|tribe-nv@hellofresh.com> group alias not receiving external emails and was able to set a password for us to access Lokalise according to this <https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers|guide>. Linking the credentials here <https://whisper.hellofresh.com/#/s/eb7a310f-8542-40ba-a846-7b0898f00af5/IcXUtnqovO80bAP7IUwwpx>, which expire in a week but feel free to reach out to me in the future if you need them again :writing_hand:",
+      "team": "T02AGMUUR",
+      "thread_ts": "1765384345.685909",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1765447426.676789",
+      "reply_users": [
+        "U03UMPD2NNS",
+        "UEZ4PRFKM"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "page:{\"contentId\":\"5664342087\",\"instanceId\":\"Confluence:5678449836\",\"spaceKey\":\"UW\"}",
+              "text": {
+                "type": "mrkdwn",
+                "text": "*<https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers?atlOrigin=eyJpIjoiNjE4ZGE1OTgxOThmNDI4ZDgwNWZlNDdlYmE0NGUzNTUiLCJwIjoiY29uZmx1ZW5jZS1jaGF0cy1pbnQifQ|Lokalise Access for Engineers>*",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "context",
+              "block_id": "6XKOf",
+              "elements": [
+                {
+                  "type": "image",
+                  "image_url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:33126823-874c-4909-aaa8-25b3a4531fbc/55c55878-d22f-4dac-8628-cc6c45cbf013/128",
+                  "alt_text": "images"
+                },
+                {
+                  "type": "mrkdwn",
+                  "text": "Owned by: Enzo Brandi | 1 comment | 95 people viewed",
+                  "verbatim": false
+                }
+              ]
+            },
+            {
+              "type": "actions",
+              "block_id": "interactivity:{\"contentType\":\"page\",\"instanceId\":\"Confluence:5678449836\",\"id\":\"5664342087\",\"source\":\"unfurl\",\"isSpaceLink\":false,\"spaceId\":\"1341522474\"}",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "view",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "View page",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers?atlOrigin=eyJpIjoiYzU4ZWQ2YzE3YjNkNDZkYTliNmIxNzMyMWJkZjMwY2EiLCJwIjoiY29uZmx1ZW5jZS1jaGF0cy1pbnQifQ"
+                },
+                {
+                  "type": "button",
+                  "action_id": "saveContentForLater",
+                  "text": {
+                    "type": "plain_text",
+                    "text": ":star: Bookmark",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "static_select",
+                  "action_id": "overflowActions",
+                  "placeholder": {
+                    "type": "plain_text",
+                    "text": "More actions...",
+                    "emoji": true
+                  },
+                  "options": [
+                    {
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Watch page",
+                        "emoji": true
+                      },
+                      "value": "watchContent"
+                    },
+                    {
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Like page",
+                        "emoji": true
+                      },
+                      "value": "like"
+                    },
+                    {
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Comment",
+                        "emoji": true
+                      },
+                      "value": "addComment"
+                    },
+                    {
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Share page",
+                        "emoji": true
+                      },
+                      "value": "shareContent"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "color": "#2684ff",
+          "fallback": "Lokalise Access for Engineers",
+          "bot_id": "BLD8HA4JK",
+          "bot_team_id": "T02AGMUUR",
+          "app_unfurl_url": "https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers",
+          "is_app_unfurl": true,
+          "app_id": "AC23SDS77"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "P8h0r",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team,\n\nA little late but I was finally able to figure out our issues with our "
+                },
+                {
+                  "type": "link",
+                  "url": "mailto:tribe-nv@hellofresh.com",
+                  "text": "tribe-nv@hellofresh.com"
+                },
+                {
+                  "type": "text",
+                  "text": " group alias not receiving external emails and was able to set a password for us to access Lokalise according to this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.atlassian.net/wiki/spaces/UW/pages/5664342087/Lokalise+Access+for+Engineers",
+                  "text": "guide"
+                },
+                {
+                  "type": "text",
+                  "text": ". Linking the credentials here "
+                },
+                {
+                  "type": "link",
+                  "url": "https://whisper.hellofresh.com/#/s/eb7a310f-8542-40ba-a846-7b0898f00af5/IcXUtnqovO80bAP7IUwwpx"
+                },
+                {
+                  "type": "text",
+                  "text": ", which expire in a week but feel free to reach out to me in the future if you need them again "
+                },
+                {
+                  "type": "emoji",
+                  "name": "writing_hand",
+                  "unicode": "270d-fe0f"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "smiling_imp",
+          "users": [
+            "UE4HG114J"
+          ],
+          "count": 1
+        },
+        {
+          "name": "thank_you",
+          "users": [
+            "U02KQF884CT",
+            "U02BYQ8CHT7"
+          ],
+          "count": 2
+        },
+        {
+          "name": "ty",
+          "users": [
+            "U0184T48L74",
+            "U08E2S3V5D1"
+          ],
+          "count": 2
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1765445940.325919",
+          "client_msg_id": "f69b8a2b-3378-4b55-8d3b-cc67085a47bb",
+          "text": "<@U0184T48L74> FYI:up-arrow:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765384345.685909",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FH2il",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0184T48L74"
+                    },
+                    {
+                      "type": "text",
+                      "text": " FYI"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "up-arrow"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1765446299.819609",
+          "client_msg_id": "f8b30ec1-572e-47e5-b5f0-b518bca78719",
+          "text": "<@UEZ4PRFKM> So we should always use the tribe email to login?\nAnd what happens if the password expires??",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765384345.685909",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t4FCn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " So we should always use the tribe email to login?\nAnd what happens if the password expires??"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1765447426.676789",
+          "client_msg_id": "377a83dd-937b-442a-8bb2-dba367189b63",
+          "text": "Yes always use our tribe email to log in pls. The password won't expire, only the Whisper link I shared it via will. Teams can reach out to me again if they need it in the future",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765384345.685909",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GFwn0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes always use our tribe email to log in pls. The password won't expire, only the Whisper link I shared it via will. Teams can reach out to me again if they need it in the future"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03UMPD2NNS"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

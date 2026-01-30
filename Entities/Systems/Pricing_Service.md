@@ -1,0 +1,62 @@
+---
+$schema: brain://entity/system/v1
+$id: entity/system/pricing-service
+$type: system
+$version: 2
+$created: '2026-01-22T08:31:01.623827Z'
+$updated: '2026-01-30T13:57:19.372039+00:00'
+$confidence: 0.36
+$source: unknown
+$status: active
+$relationships: []
+$tags: []
+$aliases: []
+$events:
+- event_id: evt-migration-20260122
+  timestamp: '2026-01-22T08:31:01.623827Z'
+  type: entity_create
+  actor: system/schema_migrator
+  changes:
+  - field: $schema
+    operation: set
+    value: brain://entity/system/v1
+  message: Migrated from v1 to v2 schema
+name: Pricing Service
+---
+
+# Pricing_Service
+
+**Type:** system
+**Created:** 2026-01-02
+**Source:** gdocs extraction
+
+## Overview
+
+[Auto-generated - needs manual review]
+
+## Context
+
+- [2026-01-02] Migration needed mid-October (from: Roadmap - Good Chop 2026)
+
+## Related Entities
+
+[To be filled]
+
+## Notes
+
+- Created automatically from gdocs analysis
+- Review and enrich manually
+
+---
+*Last updated: 2026-01-02 16:51*
+
+## Gdocs Context
+
+- [2026-01-02] Migration needed mid-October (from: Roadmap - Good Chop 2026)
+
+
+- [2026-01-02] Migration needed mid-October 2025 (from: Roadmap - Good Chop 2026)
+
+- [2026-01-02] Migration needed mid-October (from: Roadmap - Good Chop 2026)
+
+- [2026-01-02] Migration needed mid-October (from: Roadmap - Good Chop 2026)

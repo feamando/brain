@@ -1,0 +1,334 @@
+{
+  "batch_id": "jira_0004",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 19,
+    "Bug": 2,
+    "Sub-task": 1,
+    "Epic": 3
+  },
+  "date_range": {
+    "oldest": "2025-12-29",
+    "newest": "2025-12-30"
+  },
+  "analyzed_at": "2026-01-02T18:07:23.821001",
+  "summary": "The work spans multiple product teams working on OTP (One-Time Purchase) features, dashboard improvements, and funnel optimization. Key focus areas include implementing OTP banners and graduation components, improving funnel navigation and plan selection UX, and addressing test quarantine issues. Several teams are also working on product detail pages, reviews, and experiment health monitoring.",
+  "decisions": [
+    {
+      "what": "Display new portion options UI based on feedingPlanType quiz answer instead of triggering allocation event from plans-selection screen",
+      "issue_key": "TPT-2530",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "Avoid triggering allocation events from the plans-selection screen while still showing appropriate UI",
+      "date": "2025"
+    },
+    {
+      "what": "Use Figma MCP to create graduation component",
+      "issue_key": "GOC-3215",
+      "who": [
+        "Himash Tehan",
+        "Marina Guthmann"
+      ],
+      "rationale": "Leverage Figma integration for component creation",
+      "date": "2025"
+    },
+    {
+      "what": "Contact us/FAQ CTA marked as not a blocker to release but quick improvement",
+      "issue_key": "GOC-3406",
+      "who": [
+        "Beatrice Dimarucut"
+      ],
+      "rationale": "Prioritization decision to not block release while acknowledging value",
+      "date": "2025"
+    },
+    {
+      "what": "Cancel Price-Menu Experiment epic",
+      "issue_key": "GOC-1471",
+      "who": [],
+      "rationale": "S-Box downgrade experiment marked as Won't do",
+      "date": "2025"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "OTP (One-Time Purchase) Dashboard & Funnel",
+      "description": "Implement complete OTP experience including dashboard components, banner logic, data fetching, and graduation flows for customers without subscriptions",
+      "status": "active",
+      "key_issues": [
+        "GOC-3413",
+        "GOC-3215",
+        "GOC-3406",
+        "GOC-3419",
+        "GOC-3427"
+      ]
+    },
+    {
+      "name": "Funnel Navigation Improvements",
+      "description": "Enhance user experience in funnel by improving back button behavior, pre-selecting previously chosen plans, and optimizing navigation flow",
+      "status": "active",
+      "key_issues": [
+        "TPT-2416",
+        "TPT-2531"
+      ]
+    },
+    {
+      "name": "Different Portions Feature (GD)",
+      "description": "Implement quiz and plan selection changes to support different portion percentages for pet food plans",
+      "status": "active",
+      "key_issues": [
+        "TPT-2525",
+        "TPT-2526",
+        "TPT-2530",
+        "TPT-2533",
+        "TPT-2354"
+      ]
+    },
+    {
+      "name": "Product Detail Page Enhancement (TPT)",
+      "description": "Add reviews, scroll-to-top functionality, and improved tracking to product detail pages",
+      "status": "active",
+      "key_issues": [
+        "TPT-2216",
+        "TPT-2215",
+        "TPT-2213"
+      ]
+    },
+    {
+      "name": "Test Quarantine System",
+      "description": "Prevent flaky tests from executing by quarantining problematic test specs with low success rates",
+      "status": "active",
+      "key_issues": [
+        "TPT-2529",
+        "TPT-2528"
+      ]
+    },
+    {
+      "name": "Price-Menu Experiment",
+      "description": "New experimentation initiative for price and menu optimization",
+      "status": "blocked",
+      "key_issues": [
+        "GOC-3437",
+        "GOC-3438",
+        "GOC-3439"
+      ]
+    },
+    {
+      "name": "Improve Value Communication",
+      "description": "Lower cancellation rates by improving benefit communication in Dashboard and Cancellation Deflection, supporting all benefit types",
+      "status": "active",
+      "key_issues": [
+        "GOC-3434"
+      ]
+    },
+    {
+      "name": "OTP Discount Comms (FJ VMS)",
+      "description": "Add discount communications and voucher support for OTP on Factor Japan VMS",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2384",
+        "RTEVMS-2411"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "mr_charge_at_checkout experiment showing as unhealthy in Statsig dashboard with 'No Values Checks' issue",
+      "issue_key": "GOC-3440",
+      "owner": "Alexander Matlin",
+      "impact": "Experiment health monitoring and reliability"
+    },
+    {
+      "description": "Returning OTP customers get redirected to subscription-loading when trying to make another one-time purchase",
+      "issue_key": "GOC-3427",
+      "owner": "Pamela Elisabeth Plúas Guerra",
+      "impact": "Re-ordering flow broken for existing OTP customers"
+    },
+    {
+      "description": "Scope unclear until design is finalized for hiding My Deliveries Dashboard",
+      "issue_key": "GOC-3413",
+      "owner": "Unassigned",
+      "impact": "Technical implementation cannot proceed"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Beatrice Dimarucut",
+      "type": "person",
+      "context": "Product owner/manager asking for technical details and making prioritization decisions",
+      "issues": [
+        "GOC-3413",
+        "GOC-3406"
+      ]
+    },
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Technical lead providing scope clarification and suggesting Figma MCP usage",
+      "issues": [
+        "GOC-3413",
+        "GOC-3215"
+      ]
+    },
+    {
+      "name": "Marina Guthmann",
+      "type": "person",
+      "context": "Confirming Figma MCP approach for component creation",
+      "issues": [
+        "GOC-3215"
+      ]
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "CMS used for benefit text, reviews data, and content management",
+      "issues": [
+        "GOC-3215",
+        "TPT-2216"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Experimentation platform showing health issues for mr_charge_at_checkout experiment",
+      "issues": [
+        "GOC-3440"
+      ]
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Brand for OTP dashboard features and cancellation deflection",
+      "issues": [
+        "GOC-3413",
+        "GOC-3215",
+        "GOC-3406",
+        "GOC-1471"
+      ]
+    },
+    {
+      "name": "Factor Japan (FJ VMS)",
+      "type": "brand",
+      "context": "Brand receiving OTP discount comms and lokalise key updates",
+      "issues": [
+        "RTEVMS-2384",
+        "RTEVMS-2411"
+      ]
+    },
+    {
+      "name": "GD (likely Good Dog/Pet product)",
+      "type": "project",
+      "context": "Project code for pet food features including multipet flow and different portions",
+      "issues": [
+        "TPT-2354",
+        "TPT-2216",
+        "TPT-2215",
+        "TPT-2213",
+        "TPT-2525",
+        "TPT-2526"
+      ]
+    },
+    {
+      "name": "Figma MCP",
+      "type": "system",
+      "context": "Tool for creating components from Figma designs",
+      "issues": [
+        "GOC-3215"
+      ]
+    },
+    {
+      "name": "Lokalise",
+      "type": "system",
+      "context": "Localization platform for managing translation keys",
+      "issues": [
+        "RTEVMS-2411",
+        "RTEVMS-2384"
+      ]
+    },
+    {
+      "name": "Quarantine System",
+      "type": "system",
+      "context": "System to prevent flaky tests from executing, targeting 77% success rate tests",
+      "issues": [
+        "TPT-2529",
+        "TPT-2528"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Feature flag driven development",
+      "context": "Reviews rendered under feature flag, new UI displayed based on quiz answers"
+    },
+    {
+      "pattern": "Error boundary implementation",
+      "context": "Required for graduation component with Contentful content and config-based voucher values"
+    },
+    {
+      "pattern": "Test quarantine for flaky tests",
+      "context": "Systematic approach to handle tests with ~77% success rates and high retry counts"
+    },
+    {
+      "pattern": "Experiment health monitoring",
+      "context": "Using Statsig diagnostics to track experiment health and address 'No Values Checks' issues"
+    },
+    {
+      "pattern": "Content-driven UI with CMS",
+      "context": "Using Contentful for benefit text, reviews data, and dynamic content management"
+    },
+    {
+      "pattern": "State preservation in funnel",
+      "context": "Pre-selecting previously selected plans when users navigate back in funnel"
+    },
+    {
+      "pattern": "Conditional UI rendering based on quiz state",
+      "context": "Displaying portion options based on feedingPlanType answer availability"
+    },
+    {
+      "pattern": "Event tracking reuse and extension",
+      "context": "Reusing existing tracking events where applicable and adding new ones for new interactions"
+    }
+  ],
+  "work_themes": [
+    "OTP (One-Time Purchase) feature development",
+    "Funnel optimization and navigation improvements",
+    "Test stability and quarantine management",
+    "Product detail page enhancements",
+    "Experiment health and monitoring",
+    "Multi-brand localization and content management",
+    "Pet food product customization (portions, multipet)",
+    "Value communication and cancellation deflection"
+  ],
+  "dependencies": [
+    {
+      "from": "Engineering",
+      "to": "Design",
+      "context": "Scope clarity needed for My Deliveries Dashboard implementation"
+    },
+    {
+      "from": "Engineering",
+      "to": "Contentful",
+      "context": "Benefit text, reviews data, and content retrieval for multiple features"
+    },
+    {
+      "from": "Engineering",
+      "to": "Statsig",
+      "context": "Experiment allocation and health monitoring for multiple experiments"
+    },
+    {
+      "from": "QA",
+      "to": "Engineering",
+      "context": "E2E test validation for different portions quiz and change plan flows"
+    },
+    {
+      "from": "Engineering",
+      "to": "Lokalise",
+      "context": "Translation keys for OTP free shipping text and discount comms"
+    },
+    {
+      "from": "OTP Dashboard",
+      "to": "Subscription System",
+      "context": "Need to determine subscription presence to show/hide dashboard components"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "batch_id": "C06CT0185T3_1751384371.954219",
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "message_count": 15,
+  "thread_count": 15,
+  "avg_importance": 77.4,
+  "tag_summary": {
+    "notable": 2,
+    "question": 9,
+    "action": 3,
+    "update": 3,
+    "discussion": 4,
+    "high_engagement": 1,
+    "deadline": 1
+  },
+  "time_range": {
+    "start": "1751384371.954219",
+    "end": "1758565081.232429"
+  },
+  "messages": [
+    {
+      "ts": "1751384371.954219",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "@channel IT CAP :woo:  is now available! Let’s get this done (ironic YAY!): https://docs.google.com/spreadsheets/d/1g-k-sB2aQbTk_qv5x9-q2j88RgeugvL3gTNyGuApB9Q/edit?usp=sharing",
+      "raw_text": "<!channel> IT CAP :woo:  is now available! Let’s get this done (ironic YAY!): <https://docs.google.com/spreadsheets/d/1g-k-sB2aQbTk_qv5x9-q2j88RgeugvL3gTNyGuApB9Q/edit?usp=sharing>",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W27",
+      "tags": [
+        "notable",
+        "question"
+      ],
+      "importance": 77,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ew",
+          "users": [
+            "U0MBX09UZ"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U0MBX09UZ",
+            "U01TQGXG9D3"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1751384371.954219",
+      "thread_replies": [
+        {
+          "ts": "1751385759.540639",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Done for\n• Cross Selling (@U05BNQPJX4K @U01KPB90WQM)\n• ABBA (@U02M8QB04HE @U01DE9ENHG9)\n@UEZ4PRFKM please add for @U05RQJKBAFJ"
+        },
+        {
+          "ts": "1751450059.294999",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "NVS :completed-stamp:"
+        }
+      ]
+    },
+    {
+      "ts": "1751639550.280899",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Following up on the disco with Yury: @U07VDFEFBQU @U01AKGWGLC8 @U027201FQSV let’s see what we want to do with the next spint - perhaps increase the allocation on bugs OR do a micro-sprint focused on observbility and cleanup: open for both",
+      "raw_text": "Following up on the disco with Yury: <@U07VDFEFBQU> <@U01AKGWGLC8> <@U027201FQSV> let’s see what we want to do with the next spint - perhaps increase the allocation on bugs OR do a micro-sprint focused on observbility and cleanup: open for both",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W27",
+      "tags": [
+        "action"
+      ],
+      "importance": 83,
+      "reply_count": 4,
+      "reactions": [],
+      "thread_ts": "1751639550.280899",
+      "thread_replies": [
+        {
+          "ts": "1751639941.300279",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "This and next sprint we're focusing on persisting the add-on for Wallet (ticket), it should solve the TR issue that we've been having.\n\nAlso focusing on completing all P0 monitoring and alerting first, so that we note the issues first rather than hearing this from stakeholders/ sprig\nhttps://docs.google.com/spreadsheets/d/18F9yFI3xeN0GL6q95sKTJLvLKBsZGSNm675zfn0CTmA/edit?gid=927887069#gid=927887069\n\nBut aside from that, open for discussion on how to systematically tackling overall instability and bugs."
+        },
+        {
+          "ts": "1751640042.731679",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Personally I think it might be easier to do this in a consolidated way: dedicate a smaller sprint or a sprint to increase observability; clean up outstanding bugs etc. We could consider simple increasing the % for bugs and KTLO in the next several sprints."
+        },
+        {
+          "ts": "1751640120.139789",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "@U027201FQSV wdyt? We only have 2 weeks cadence experiment for next sprint, and that can be tackled by 2 engineers. Maybe the rest can focus on improve stability?"
+        },
+        {
+          "ts": "1751878771.594159",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Yes, this sounds good to me! :+1:"
+        }
+      ]
+    },
+    {
+      "ts": "1751981627.625949",
+      "user": "UFE79GKFC",
+      "user_name": "UFE79GKFC",
+      "text": "Hey folks, just wanted to bring up an increasing overlap of meetings on Tuesdays afternoon, right now we have Bi-Weekly gen AI, NVE engineering leads and All Paws all happening at the same time. I’m getting confused which one I should prioritise :smile:",
+      "raw_text": "Hey folks, just wanted to bring up an increasing overlap of meetings on Tuesdays afternoon, right now we have Bi-Weekly gen AI, NVE engineering leads and All Paws all happening at the same time. I’m getting confused which one I should prioritise :smile:",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W28",
+      "tags": [
+        "update",
+        "discussion"
+      ],
+      "importance": 98,
+      "reply_count": 9,
+      "reactions": [],
+      "thread_ts": "1751981627.625949",
+      "thread_replies": [
+        {
+          "ts": "1751981750.579749",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Good call, Oli!\n\nIf I'm not mistaken `Bi-Weekly gen AI` and `NVE engineering leads` are on different weeks and don't conflict with each other."
+        },
+        {
+          "ts": "1751982018.045469",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "I got all of them today"
+        },
+        {
+          "ts": "1751982161.298179",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "I see. You have a different Bi-Weekly gen AI meeting :slightly_smiling_face: I don't have it in my calendar.\n\nOur general `TAM GenAI Bi-weekly sync` is on the next week."
+        },
+        {
+          "ts": "1751982192.165759",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "Ach sooooo"
+        },
+        {
+          "ts": "1751982197.672569",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "Sorry I guess I got confused there :smile:"
+        },
+        {
+          "ts": "1751982217.340649",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "Should ask Gemini to organise all my AI meetings :smile:"
+        },
+        {
+          "ts": "1751982797.914599",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "@UEZ4PRFKM we want to cancel today’s leads meeting right?"
+        },
+        {
+          "ts": "1751982862.324529",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "but lets have the next one around aligning on scope &amp; importance of it moving forward. If we keep it I would want all our leads to prioritize it over other meetings"
+        }
+      ]
+    },
+    {
+      "ts": "1752244305.823099",
+      "user": "U03UMPD2NNS",
+      "user_name": "U03UMPD2NNS",
+      "text": "Hey Team,\n\nFYI: https://hellofresh.slack.com/archives/C08KM5T319V/p1752243112599489\n\nWe were informed to delay the FTC changes in cancellation funnel for now.\nOn Monday we will be only implementing changes in the conversion funnel (checkbox on checkout).",
+      "raw_text": "Hey Team,\n\nFYI: <https://hellofresh.slack.com/archives/C08KM5T319V/p1752243112599489>\n\nWe were informed to delay the FTC changes in cancellation funnel for now.\nOn Monday we will be only implementing changes in the conversion funnel (checkbox on checkout).",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W28",
+      "tags": [
+        "update",
+        "discussion"
+      ],
+      "importance": 96,
+      "reply_count": 8,
+      "reactions": [],
+      "thread_ts": "1752244305.823099",
+      "thread_replies": [
+        {
+          "ts": "1752245924.799699",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "@U07VDFEFBQU @U027201FQSV - the checkbox on checkout for GoC is not behind the Feature Flag, correct?\n\nFor TPT, given have our own checkout page, we had to work on the checkbox separately. This is why we will need to extract the Conversion funnel changes from the FF."
+        },
+        {
+          "ts": "1752246503.622769",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hi @U03UMPD2NNS!\n\nThe checkbox on the payments page is under a feature flag inside our code base (not Statsig).\n• https://github.com/hellofresh/web/blob/master/app/unified-spaces/checkout-payment/config/config.ts (`enableTermsAndConditionsCheckbox`)\n"
+        },
+        {
+          "ts": "1752246984.370059",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "is it a separate one from the FTC FF?"
+        },
+        {
+          "ts": "1752247155.558839",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "@U7SJ525DE could you please help if TPT uses a different component on the Payments page?"
+        },
+        {
+          "ts": "1752247718.031489",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "*New update* :update1: :annoucement: \n\nAfter aligning with Legal, TPT got approval to delay checkout page changes until *18th August* (reason being a different initiative in the funnel which we are launching this week, so launching FTC can impact the results).\n\nSo to confirm from TPT's side:\n• Checkout changes will be implemented on the 18th of Aug\n• Cancellation funnel changes will be delayed until the further notice \n"
+        },
+        {
+          "ts": "1752247800.738329",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "I'll suggest we do the same in Good chop. I'll open the conversation with Yury and Seb"
+        },
+        {
+          "ts": "1752250287.486909",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Over communicating here, HF and other brands already launched checkbox on 7th July\nhttps://hellofresh.slack.com/archives/C04BLF3PYKD/p1752079031629539"
+        },
+        {
+          "ts": "1752478913.271619",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Good morning, Yury also aligned with Thomas to follow TPT's timeline on these launches."
+        }
+      ]
+    },
+    {
+      "ts": "1752502970.490869",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks please note the weekly updates for the standup: https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing\n\n@channel",
+      "raw_text": "Hey folks please note the weekly updates for the standup: <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing>\n\n<!channel>",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W29",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 78,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1752502970.490869",
+      "thread_replies": [
+        {
+          "ts": "1752503291.230239",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "It seems like recent squad updates are in W28"
+        },
+        {
+          "ts": "1752504187.035239",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "yeah, need to move that up"
+        },
+        {
+          "ts": "1752507137.464709",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Sorry, had a conflicting meeting :slightly_smiling_face:"
+        }
+      ]
+    },
+    {
+      "ts": "1752503044.882139",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "also who's on call?",
+      "raw_text": "also who's on call?",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W29",
+      "tags": [
+        "question"
+      ],
+      "importance": 61,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1752503044.882139",
+      "thread_replies": [
+        {
+          "ts": "1752503120.934609",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "@U05BNQPJX4K for New ventures"
+        },
+        {
+          "ts": "1752503170.716059",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Updated in the doc :white_check_mark:"
+        }
+      ]
+    },
+    {
+      "ts": "1752590322.852289",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Heya @U027201FQSV @U8F7ZDAPM @U7SJ525DE\n\nYou might have seen a ping on this https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359 from Consumer Core but tldr; they are looking to deprecate the use of `PATCH /subscriptions/{subscriptionId}` for editting delivery information as they rollout CDPS. Is this work we already have on our roadmaps as we adopt CDPS?\n\nIf not, we ideally have to prioritize it in the next 2 sprints. Technically they asked for this to be done by end of July but IMO this is unrealistic. I have aligned on a mid Aug deadline instead but want to confirm that we can make this change for our TPT and GoC brands before then. The change itself looks pretty straightforward to me",
+      "raw_text": "Heya <@U027201FQSV> <@U8F7ZDAPM> <@U7SJ525DE>\n\nYou might have seen a ping on this <https://hellofresh.slack.com/archives/C087X11S06A/p1752221071377359|channel> from Consumer Core but tldr; they are looking to deprecate the use of `PATCH /subscriptions/{subscriptionId}` for editting delivery information as they rollout CDPS. Is this work we already have on our roadmaps as we adopt CDPS?\n\nIf not, we ideally have to prioritize it in the next 2 sprints. Technically they asked for this to be done by end of July but IMO this is unrealistic. I have aligned on a mid Aug deadline instead but want to confirm that we can make this change for our TPT and GoC brands before then. The change itself looks pretty straightforward to me",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W29",
+      "tags": [
+        "high_engagement",
+        "deadline",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 14,
+      "reactions": [],
+      "thread_ts": "1752590322.852289",
+      "thread_replies": [
+        {
+          "ts": "1752590661.979359",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "I wasn't aware of this so we do not have it in the roadmap for TPT"
+        },
+        {
+          "ts": "1752647936.976109",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Yes, as Desi said we were not aware of this migration, but it looks straightforward.\n@U07VDFEFBQU @U01AKGWGLC8 we might consider to include this work into the next sprint (in 2 weeks)."
+        },
+        {
+          "ts": "1752650614.403959",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U027201FQSV would you be able to create the ticket when you have time?"
+        },
+        {
+          "ts": "1753112243.883329",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Thanks Alex and Beatrice! FYI here are some more https://hellofresh.atlassian.net/wiki/spaces/DPLAT/pages/5490737211/PATCH+subscription+for+Delivery+updates+End+of+Life#Change about the API change needed.\n\n@U8F7ZDAPM @U03UMPD2NNS can we also try to fit this into the next sprint for TPT pls?"
+        },
+        {
+          "ts": "1753113193.671169",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "@UEZ4PRFKM will try but can’t guarantee yet because we got another request to also deprecate the /calculate/batch endpoint which also seems to be high prio https://hellofresh.slack.com/archives/C04FVDBJZCK/p1752477967084729"
+        },
+        {
+          "ts": "1753113394.421719",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Ah ok thanks for the visibility - I was also under the impression when we Himash fixed for GoC it also included TPT"
+        },
+        {
+          "ts": "1753113502.254259",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "ok lets prioritize this one see if we can tackle the subscription call after. The code where we call “PATCH /subscription” to change delivery information isnt shared with GoC is it?"
+        },
+        {
+          "ts": "1753113949.289209",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Yes GoC made the change but there still seems to be some calls coming from TPT, there might be some TPT specific components making calls still but havent dug into it yet"
+        },
+        {
+          "ts": "1753114132.578789",
+          "user": "U7SJ525DE",
+          "user_name": "U7SJ525DE",
+          "text": "the batch is due to a reactivation component only used by TPT"
+        },
+        {
+          "ts": "1753114207.086419",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "got it thanks - but for editting delivery dates using the PATCH subscription API, is this also separate across the 2 brands?"
+        },
+        {
+          "ts": "1753718615.692169",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "I have created https://hellofresh.atlassian.net/browse/GOC-3035 to handle migration for GoC.\n\nWe were able to find two cases, when we call `PATCH /subscriptions/{id}` API endpoint:\n1. Delivery Information change on the `/settings/plan`\n2. Reactivation on the `/settings/plan/reactivate`\nI guess the first place is common between GoC and TPT."
+        },
+        {
+          "ts": "1753719444.113669",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@UEZ4PRFKM were you able to buy more time for us to change the end-point? does W33/W34 work?"
+        }
+      ]
+    },
+    {
+      "ts": "1753102549.851239",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks re: Weekly Updates: https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing are these the ones for this week? I am not sure... :hmm: it seems like a mix.",
+      "raw_text": "Hey folks re: Weekly Updates: <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?usp=sharing> are these the ones for this week? I am not sure... :hmm: it seems like a mix.",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W30",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 92,
+      "reply_count": 6,
+      "reactions": [],
+      "thread_ts": "1753102549.851239",
+      "thread_replies": [
+        {
+          "ts": "1753104914.344249",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Hi Nikita, I think confusion comes from the fact that  originally format was to fill in the document and send an email on Fridays with the updates on what we achieved last week. Where now we are sharing this information in tribe standup at the beginning of the week.\nI believe all the squads filled the squad wins in W29."
+        },
+        {
+          "ts": "1753105217.704889",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Got it, so the W29 updates are the actual updates, but not the above content around socials, correct?"
+        },
+        {
+          "ts": "1753105305.049949",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "Yes correct. Squad wins should be Week 29 and people updates and social should be W30 :smile:"
+        },
+        {
+          "ts": "1753106364.856649",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "@U03TY4YJU4X You are filling in the template section"
+        },
+        {
+          "ts": "1753106403.927759",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "moved to yours :slightly_smiling_face:"
+        },
+        {
+          "ts": "1753107289.830519",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "@UEZ4PRFKM :eyes: :upvote:"
+        }
+      ]
+    },
+    {
+      "ts": "1754662506.605559",
+      "user": null,
+      "user_name": "",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: General Tribe &amp; Social Updates: @U03TY4YJU4X @UEZ4PRFKM \n• :dog: The Pets Table Squad Updates: @U03UMPD2NNS @U8F7ZDAPM \n• :meat: GoodChop Squad Updates: @U01AKGWGLC8 @U07VDFEFBQU @U027201FQSV \n• :gear: New Ventures Systems Squad Updates: @U2D54V0UV \n• :crossed_swords: Cross-selling &amp; PUMA Squad Updates: @U01TQGXG9D3 @U03R6F2AG9K ",
+      "raw_text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: General Tribe &amp; Social Updates: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad Updates: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad Updates: <@U01AKGWGLC8> <@U07VDFEFBQU> <@U027201FQSV> \n• :gear: New Ventures Systems Squad Updates: <@U2D54V0UV> \n• :crossed_swords: Cross-selling &amp; PUMA Squad Updates: <@U01TQGXG9D3> <@U03R6F2AG9K> ",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W32",
+      "tags": [
+        "action"
+      ],
+      "importance": 83,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "hehe",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1754662506.605559",
+      "thread_replies": [
+        {
+          "ts": "1754662867.892329",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Should I delete the calendar reminders then?"
+        },
+        {
+          "ts": "1754662878.330409",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "IMO yes"
+        }
+      ]
+    },
+    {
+      "ts": "1754662899.678599",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "I also setup an IT cap reminder starting next month",
+      "raw_text": "I also setup an IT cap reminder starting next month",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W32",
+      "tags": [],
+      "importance": 54,
+      "reply_count": 1,
+      "reactions": [
+        {
+          "name": "frogyay",
+          "users": [
+            "U03TY4YJU4X"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1754662899.678599",
+      "thread_replies": [
+        {
+          "ts": "1754663534.461229",
+          "user": "U01KKT2P7FY",
+          "user_name": "U01KKT2P7FY",
+          "text": "How VERY DARE you! Taking away my :lightning-strike: thunder...."
+        }
+      ]
+    },
+    {
+      "ts": "1755600358.711619",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "@U027201FQSV @U8F7ZDAPM - hey folks, we have the opportunity to have a Kiro test license runnign for 14 days. How much of a disruption/appetite would the teams/members have for it.\n\nAll participating members would need to provide feedback on this as well past the trial period",
+      "raw_text": "<@U027201FQSV> <@U8F7ZDAPM> - hey folks, we have the opportunity to have a Kiro test license runnign for 14 days. How much of a disruption/appetite would the teams/members have for it.\n\nAll participating members would need to provide feedback on this as well past the trial period",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W34",
+      "tags": [],
+      "importance": 62,
+      "reply_count": 1,
+      "reactions": [],
+      "thread_ts": "1755600358.711619",
+      "thread_replies": [
+        {
+          "ts": "1755601678.908669",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hey Nikita, at this point of time I think it would be disruptive for the team to use Kiro."
+        }
+      ]
+    },
+    {
+      "ts": "1756741973.141409",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks IT cap is upon us! :alert2: Let's get the https://docs.google.com/spreadsheets/d/1uoKdPXeIqjh5l2MhUMfzb-Yd67CQFmQyFCkYRQTeRAw/edit?gid=1125151938#gid=1125151938 done! :woo:",
+      "raw_text": "Hey folks IT cap is upon us! :alert2: Let's get the <https://docs.google.com/spreadsheets/d/1uoKdPXeIqjh5l2MhUMfzb-Yd67CQFmQyFCkYRQTeRAw/edit?gid=1125151938#gid=1125151938|report> done! :woo:",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W36",
+      "tags": [
+        "notable",
+        "question"
+      ],
+      "importance": 79,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U0MBX09UZ",
+            "UE4HG114J",
+            "U07VDFEFBQU",
+            "U01TQGXG9D3",
+            "U2D54V0UV"
+          ],
+          "count": 5
+        }
+      ],
+      "thread_ts": "1756741973.141409",
+      "thread_replies": [
+        {
+          "ts": "1756806601.597449",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Done for\n• Cross Selling (@U05BNQPJX4K @U01KPB90WQM @U05RQJKBAFJ)\n• ABBA (@U02M8QB04HE @U01DE9ENHG9)\ncc: @UEZ4PRFKM"
+        },
+        {
+          "ts": "1756806645.625709",
+          "user": "U2D54V0UV",
+          "user_name": "U2D54V0UV",
+          "text": "NVS :approved-by-je:"
+        }
+      ]
+    },
+    {
+      "ts": "1757675692.070269",
+      "user": "U0MBX09UZ",
+      "user_name": "U0MBX09UZ",
+      "text": "hi team, do you know what's the process to create a github team?",
+      "raw_text": "hi team, do you know what's the process to create a github team?",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W37",
+      "tags": [
+        "question"
+      ],
+      "importance": 57,
+      "reply_count": 1,
+      "reactions": [],
+      "thread_ts": "1757675692.070269",
+      "thread_replies": [
+        {
+          "ts": "1757676393.202259",
+          "user": "U0MBX09UZ",
+          "user_name": "U0MBX09UZ",
+          "text": "never mind, I found a service desk form to request a new team"
+        }
+      ]
+    },
+    {
+      "ts": "1758057954.873209",
+      "user": "U03UMPD2NNS",
+      "user_name": "U03UMPD2NNS",
+      "text": "Hey folks,\nAny thoughts on the *Anomaly Detection?* Would this be something we as NV could easily pick up?  https://hellofresh.slack.com/archives/C02C8NDMA/p1757936886188899",
+      "raw_text": "Hey folks,\nAny thoughts on the *Anomaly Detection?* Would this be something we as NV could easily pick up?  <https://hellofresh.slack.com/archives/C02C8NDMA/p1757936886188899>",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W38",
+      "tags": [
+        "question"
+      ],
+      "importance": 65,
+      "reply_count": 5,
+      "reactions": [],
+      "thread_ts": "1758057954.873209",
+      "thread_replies": [
+        {
+          "ts": "1758100217.616449",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Hey Maria, @U027201FQSV and team actually already implemented this for GoodChop for some events as part of our wider https://docs.google.com/document/d/1HyYeuaQH7RQtyQsg7Mta_0xQnV5O6Ti8-yHX2PWYJq0/edit?tab=t.0 for improved debugging of criticals\n\nYou can see GoCs dashboard https://prdhellofresh.grafana.net/d/dpTxA52n0VMFFg8eCFyZeTfyUuntcr0KNDU67A2Q/google-analytics-anomaly-detection?orgId=1&amp;from=2025-09-01T07:33:06.371Z&amp;to=2025-09-02T07:33:06.371Z&amp;timezone=browser&amp;var-metrics_ds=de5wlory5e8lcd&amp;var-platform=$__all&amp;var-country=$__all&amp;var-event_groups=&amp;var-event_name=Addon_FreeAddOnImpression&amp;var-event_name=Load_Funnel_Step_Address&amp;var-event_name=Load_Funnel_Step_Payment&amp;var-event_name=Reactivate_Success&amp;var-event_name=Signup_OrderConfirmation&amp;var-event_name=Voucher_ApplyVoucherNotificationError&amp;var-group_by=platform,%20country,%20brand,%20event_name&amp;var-brand=GoodChop&amp;var-anomaly_direction=both"
+        },
+        {
+          "ts": "1758100372.387599",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "I can actually see that there are 2 https://prdhellofresh.grafana.net/d/dpTxA52n0VMFFg8eCFyZeTfyUuntcr0KNDU67A2Q/google-analytics-anomaly-detection?orgId=1&amp;from=2025-09-01T07:33:06.371Z&amp;to=2025-09-02T07:33:06.371Z&amp;timezone=browser&amp;var-metrics_ds=de5wlory5e8lcd&amp;var-platform=$__all&amp;var-country=$__all&amp;var-event_groups=&amp;var-event_name=CheckoutAddress_ChangeFirstDeliveryDay&amp;var-group_by=platform,%20country,%20brand,%20event_name&amp;var-brand=The%20Pets%20Table&amp;var-anomaly_direction=decrease also set up for TPT( but no Slack channel to send alerts) - `CheckoutAddress_ZipcodeValid` and `CheckoutAddress_ChangeFirstDeliveryDay`"
+        },
+        {
+          "ts": "1758526776.509439",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hey @U03UMPD2NNS\n\nFeel free to contact @U068H5475SP (who leads this initiative) to set up it for TPT.\n\nI'm happy to give you move context too if you have any questions."
+        },
+        {
+          "ts": "1758787662.990469",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03UMPD2NNS I can also share more context with you Maria\n\nI think it's a good start but so far also questioning the detection mechanism"
+        },
+        {
+          "ts": "1758802437.041879",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "To not forget I will schedule sth for after my vacation :slightly_smiling_face:"
+        }
+      ]
+    },
+    {
+      "ts": "1758565081.232429",
+      "user": "UEZ4PRFKM",
+      "user_name": "UEZ4PRFKM",
+      "text": "Heya team,\n\nJust a heads up that in a leadership channel this bug https://hellofresh.atlassian.net/browse/DPLAT-2364 was raised, and although it mentions that it only affects Factor &amp; HF, in the discovery it was mentioned that https://hellofresh.slack.com/archives/C04QG9G93S9/p1758228319684479?thread_ts=1758119183.297329&amp;cid=C04QG9G93S9 brands are affected so I'm thinking this might be related to some of the cadence issues we have been seeing across GoodChop &amp; TPT in the past.\n\n@U027201FQSV @U8F7ZDAPM @U03UMPD2NNS @U01AKGWGLC8 Have we gotten complaints about this flow in the past and could we take a moment to quickly confirm if this is an issue for our brands pls? :pray:",
+      "raw_text": "Heya team,\n\nJust a heads up that in a leadership channel this bug <https://hellofresh.atlassian.net/browse/DPLAT-2364|ticket> was raised, and although it mentions that it only affects Factor &amp; HF, in the discovery it was mentioned that <https://hellofresh.slack.com/archives/C04QG9G93S9/p1758228319684479?thread_ts=1758119183.297329&amp;cid=C04QG9G93S9|more> brands are affected so I'm thinking this might be related to some of the cadence issues we have been seeing across GoodChop &amp; TPT in the past.\n\n<@U027201FQSV> <@U8F7ZDAPM> <@U03UMPD2NNS> <@U01AKGWGLC8> Have we gotten complaints about this flow in the past and could we take a moment to quickly confirm if this is an issue for our brands pls? :pray:",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W39",
+      "tags": [
+        "update",
+        "question"
+      ],
+      "importance": 76,
+      "reply_count": 3,
+      "reactions": [],
+      "thread_ts": "1758565081.232429",
+      "thread_replies": [
+        {
+          "ts": "1758614268.245409",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "interesting\nI'll review the flows in the afternoon"
+        },
+        {
+          "ts": "1758619080.833289",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "I think, thanks to Endless Pause we might be safe in here. I just tested changing the address and the delivery is still expected in the same week."
+        },
+        {
+          "ts": "1758739435.429769",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Tested and no issue for Good Chop"
+        }
+      ]
+    }
+  ]
+}

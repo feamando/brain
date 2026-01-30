@@ -1,0 +1,465 @@
+{
+  "batch_id": "C03DDD4R537_1762865413.094159",
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "message_count": 11,
+  "thread_count": 4,
+  "avg_importance": 74.81818181818181,
+  "tag_summary": {
+    "question": 2,
+    "high_engagement": 1,
+    "action": 8,
+    "discussion": 1
+  },
+  "time_range": {
+    "start": "1762865413.094159",
+    "end": "1759167195.002189"
+  },
+  "messages": [
+    {
+      "ts": "1762865413.094159",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "FYI team the https://hellofresh.slack.com/archives/C023RDEC65R/p1762858069607949?thread_ts=1756296647.183979&amp;cid=C023RDEC65R on staging for GoC, this means that right now on staging the first order is no longer being created on checkout, instead it will be created on cut-off. Would be great to validate that everything works as expected on staging for a newly created subscription",
+      "raw_text": "FYI team the <https://hellofresh.slack.com/archives/C023RDEC65R/p1762858069607949?thread_ts=1756296647.183979&amp;cid=C023RDEC65R|initial order deprecation was enabled again> on staging for GoC, this means that right now on staging the first order is no longer being created on checkout, instead it will be created on cut-off. Would be great to validate that everything works as expected on staging for a newly created subscription",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W46",
+      "tags": [
+        "question"
+      ],
+      "importance": 77,
+      "reply_count": 5,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U044SKGT4R5"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1762865413.094159",
+      "thread_replies": [
+        {
+          "ts": "1763568965.173739",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Hey @U8F7ZDAPM @UFE79GKFC!\n\nToday we found out that initial order deprecation blocks Charge at Checkout for MR and KN.\n\nPlans Squad enabled it again for both brands now."
+        },
+        {
+          "ts": "1763569958.064089",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "Blocks it in what way? Are they incompatible?"
+        },
+        {
+          "ts": "1763570133.280199",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "With disabled initial order Payments doesn't receive required Description field from intfood."
+        },
+        {
+          "ts": "1763570216.370859",
+          "user": "UFE79GKFC",
+          "user_name": "UFE79GKFC",
+          "text": "Is that something we can sort out?"
+        },
+        {
+          "ts": "1763570252.979329",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Yes, Plans squad will sort it out. For now they enabled initial orders for us"
+        }
+      ]
+    },
+    {
+      "ts": "1763681323.270059",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U09JSMTMA5A* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle:\n*Topic:* Other\n\n\n:mag: *Issue reported:*\nI need redirects for our 2026 Direct Mail landing pages:\n• http://get.goodchop.com/mymove → http://goodchop.com/mymove\n• http://get.goodchop.com/jan26 → http://goodchop.com/jan26\n• http://get.goodchop.com/feb26 → http://goodchop.com/feb26\n• http://get.goodchop.com/mar26 → http://goodchop.com/mar26\n• http://get.goodchop.com/apr26 → http://goodchop.com/apr26\n• http://get.goodchop.com/may26 → http://goodchop.com/may26\n• http://get.goodchop.com/jun26 → http://goodchop.com/jun26\n• http://get.goodchop.com/jul26 → http://goodchop.com/jul26\n• http://get.goodchop.com/aug26 → http://goodchop.com/aug26\n• http://get.goodchop.com/sep26 → http://goodchop.com/sep26\n• http://get.goodchop.com/oct26 → http://goodchop.com/oct26\n• http://get.goodchop.com/nov26 → http://goodchop.com/nov26\n• http://get.goodchop.com/dec26 → http://goodchop.com/dec26\n\n\n:footprints: *Steps to reproduce:*\nPlease redirect the above links",
+      "raw_text": "Hey team, *<@U09JSMTMA5A>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Medium :large_yellow_circle:\n*Topic:* Other\n\n\n:mag: *Issue reported:*\nI need redirects for our 2026 Direct Mail landing pages:\n• <http://get.goodchop.com/mymove|get.goodchop.com/mymove> → <http://goodchop.com/mymove|goodchop.com/mymove>\n• <http://get.goodchop.com/jan26|get.goodchop.com/jan26> → <http://goodchop.com/jan26|goodchop.com/jan26>\n• <http://get.goodchop.com/feb26|get.goodchop.com/feb26> → <http://goodchop.com/feb26|goodchop.com/feb26>\n• <http://get.goodchop.com/mar26|get.goodchop.com/mar26> → <http://goodchop.com/mar26|goodchop.com/mar26>\n• <http://get.goodchop.com/apr26|get.goodchop.com/apr26> → <http://goodchop.com/apr26|goodchop.com/apr26>\n• <http://get.goodchop.com/may26|get.goodchop.com/may26> → <http://goodchop.com/may26|goodchop.com/may26>\n• <http://get.goodchop.com/jun26|get.goodchop.com/jun26> → <http://goodchop.com/jun26|goodchop.com/jun26>\n• <http://get.goodchop.com/jul26|get.goodchop.com/jul26> → <http://goodchop.com/jul26|goodchop.com/jul26>\n• <http://get.goodchop.com/aug26|get.goodchop.com/aug26> → <http://goodchop.com/aug26|goodchop.com/aug26>\n• <http://get.goodchop.com/sep26|get.goodchop.com/sep26> → <http://goodchop.com/sep26|goodchop.com/sep26>\n• <http://get.goodchop.com/oct26|get.goodchop.com/oct26> → <http://goodchop.com/oct26|goodchop.com/oct26>\n• <http://get.goodchop.com/nov26|get.goodchop.com/nov26> → <http://goodchop.com/nov26|goodchop.com/nov26>\n• <http://get.goodchop.com/dec26|get.goodchop.com/dec26> → <http://goodchop.com/dec26|goodchop.com/dec26>\n\n\n:footprints: *Steps to reproduce:*\nPlease redirect the above links",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W47",
+      "tags": [
+        "high_engagement",
+        "action",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 15,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1763681323.270059",
+      "thread_replies": [
+        {
+          "ts": "1763681326.639389",
+          "user": null,
+          "user_name": "",
+          "text": ":alert: PLEASE CHECK THE MESSAGE BELOW! :alert:\n\n\n:arrow_right: If your request is related to a *failing test*, please *https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E* for quick troubleshooting/assessment before raising the actual request.\n\n\n:alert: *PLEASE* FOLLOW THE DOC ABOVE *BEFORE* RAISING THE REQUEST :alert:"
+        },
+        {
+          "ts": "1763681382.952879",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request.\n\ncc: @group"
+        },
+        {
+          "ts": "1763681385.628279",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request.\n\ncc: @group"
+        },
+        {
+          "ts": "1763711706.906169",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "Hey @U09JSMTMA5A, sure, I will take a look today, is there any deadline for this?"
+        },
+        {
+          "ts": "1763723657.782769",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "@U03EN3N4KM4 Hi Pamela, just need these by January! "
+        },
+        {
+          "ts": "1763723946.015889",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "oh perfect, I will spend some time EOD today and I will keep you updated when it's done, probably Monday"
+        },
+        {
+          "ts": "1763739793.002159",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "@U09JSMTMA5A, just out of curiosity, is there any benefit to keep the redirections from previous years?\nI noticed we have some like this: `/jan24*` or `/jan25`"
+        },
+        {
+          "ts": "1763739827.881869",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "For tracking purposes "
+        },
+        {
+          "ts": "1763748615.605059",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "@U03EN3N4KM4 Hi! The re-directs were wrong in the first comment."
+        },
+        {
+          "ts": "1763748712.539179",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "@U03EN3N4KM4 It should be like this:"
+        },
+        {
+          "ts": "1763748721.890979",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "http://goodchop.com/mymove → http://get.goodchop.com/mymove\nhttp://goodchop.com/jan26 → http://get.goodchop.com/jan26\nhttp://goodchop.com/feb26 → http://get.goodchop.com/feb26\nhttp://goodchop.com/mar26 → http://get.goodchop.com/mar26\nhttp://goodchop.com/apr26 → http://get.goodchop.com/apr26\nhttp://goodchop.com/may26 → http://get.goodchop.com/may26\nhttp://goodchop.com/jun26 → http://get.goodchop.com/jun26\nhttp://goodchop.com/jul26 → http://get.goodchop.com/jul26\nhttp://goodchop.com/aug26 → http://get.goodchop.com/aug26\nhttp://goodchop.com/sep26 → http://get.goodchop.com/sep26\nhttp://goodchop.com/oct26 → http://get.goodchop.com/oct26\nhttp://goodchop.com/nov26 → http://get.goodchop.com/nov26\nhttp://goodchop.com/dec26 → http://get.goodchop.com/dec26"
+        },
+        {
+          "ts": "1763975843.386889",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "Hey @U09JSMTMA5A, the PR for this is merged, could you please take a look and confirm it is working as expected?"
+        },
+        {
+          "ts": "1764686688.057559",
+          "user": "U09JSMTMA5A",
+          "user_name": "U09JSMTMA5A",
+          "text": "@U03EN3N4KM4 Confirming that they are all working as expected. Thank you so much!"
+        },
+        {
+          "ts": "1764686797.953679",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "nice, thanks for confirming"
+        }
+      ]
+    },
+    {
+      "ts": "1765790413.400279",
+      "user": "U03EN3N4KM4",
+      "user_name": "U03EN3N4KM4",
+      "text": "Good morning @U01B2LBUPND :hello_wave:\nDuring the weekend, we were seeing some customers trying to select trial boxes menus for week 2026-W01, 2026-W02 , but checking CCM there are not trial-box menus configured in CCM for those weeks. Could you please support us with that? cc @U07VDFEFBQU @U027201FQSV",
+      "raw_text": "Good morning <@U01B2LBUPND> :hello_wave:\nDuring the weekend, we were seeing some customers trying to select trial boxes menus for week 2026-W01, 2026-W02 , but checking CCM there are not trial-box menus configured in CCM for those weeks. Could you please support us with that? cc <@U07VDFEFBQU> <@U027201FQSV>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W50",
+      "tags": [
+        "action",
+        "question"
+      ],
+      "importance": 90,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1765790413.400279",
+      "thread_replies": [
+        {
+          "ts": "1765883330.059599",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Hey @U01B2LBUPND @U027201FQSV bumping if you can help to check this?"
+        },
+        {
+          "ts": "1765884108.233619",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "We got an alert last night again"
+        },
+        {
+          "ts": "1765896637.764369",
+          "user": "U01B2LBUPND",
+          "user_name": "U01B2LBUPND",
+          "text": "Thanks that's fixed now @U03EN3N4KM4 @U07VDFEFBQU"
+        },
+        {
+          "ts": "1765896717.008049",
+          "user": "U03EN3N4KM4",
+          "user_name": "U03EN3N4KM4",
+          "text": "thanks a lot @U01B2LBUPND for your help! :thanks:\nI'm keeping an eye to the alerts, just in case"
+        }
+      ]
+    },
+    {
+      "ts": "1766514574.817329",
+      "user": null,
+      "user_name": "",
+      "text": "Hey team, *@U09JSMTMA5A* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* General Support Request\n\n\n:mag: *Issue reported:*\nI would like to create a slack channel with our external agency partners.\n\n\n:footprints: *Steps to reproduce:*\nI would like to create a slack channel with the following emails:\nyt@hellofresh.com\nkelly.abrams@goodchop.com\nnvarall@milemarkeragency.com\ncleone@milemarkeragency.com\nmnatoli@milemarkeragency.com\ncisgro@milemarkeragency.com\nksaez@milemarkeragency.com\nsgroome@milemarkeragency.com\nsroscoe@milemarkeragency.com",
+      "raw_text": "Hey team, *<@U09JSMTMA5A>* needs support! :goodchop_fan:Please check the details.\n---------------------------------------------------------------------------\n\n*Priority:* Low :large_green_circle: \n*Topic:* General Support Request\n\n\n:mag: *Issue reported:*\nI would like to create a slack channel with our external agency partners.\n\n\n:footprints: *Steps to reproduce:*\nI would like to create a slack channel with the following emails:\n<mailto:yt@hellofresh.com|yt@hellofresh.com>\n<mailto:kelly.abrams@goodchop.com|kelly.abrams@goodchop.com>\n<mailto:nvarall@milemarkeragency.com|nvarall@milemarkeragency.com>\n<mailto:cleone@milemarkeragency.com|cleone@milemarkeragency.com>\n<mailto:mnatoli@milemarkeragency.com|mnatoli@milemarkeragency.com>\n<mailto:cisgro@milemarkeragency.com|cisgro@milemarkeragency.com>\n<mailto:ksaez@milemarkeragency.com|ksaez@milemarkeragency.com>\n<mailto:sgroome@milemarkeragency.com|sgroome@milemarkeragency.com>\n<mailto:sroscoe@milemarkeragency.com|sroscoe@milemarkeragency.com>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W52",
+      "tags": [
+        "action"
+      ],
+      "importance": 83,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1766514574.817329",
+      "thread_replies": [
+        {
+          "ts": "1766514577.803699",
+          "user": null,
+          "user_name": "",
+          "text": ":alert: PLEASE CHECK THE MESSAGE BELOW! :alert:\n\n\n:arrow_right: If your request is related to a *failing test*, please *https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/5613486237/Failing+E2E* for quick troubleshooting/assessment before raising the actual request.\n\n\n:alert: *PLEASE* FOLLOW THE DOC ABOVE *BEFORE* RAISING THE REQUEST :alert:"
+        },
+        {
+          "ts": "1766514608.642099",
+          "user": null,
+          "user_name": "",
+          "text": "Thanks for the report! We will get back to you as soon as possible :blobthumbsup:\n\nMeanwhile, please check our https://hellofresh.atlassian.net/wiki/spaces/TNV/pages/4049372305/How+tos. It might help you speed up the process depending on the type of the request.\n\ncc: @group"
+        },
+        {
+          "ts": "1766603877.117619",
+          "user": "U046DDU7UG7",
+          "user_name": "U046DDU7UG7",
+          "text": "@U09JSMTMA5A this request does not go to this team. Ill get you that info Friday "
+        }
+      ]
+    },
+    {
+      "ts": "1753435349.247409",
+      "user": "U01B2LBUPND",
+      "user_name": "U01B2LBUPND",
+      "text": "Good morning, just FYI i'm starting a bulk migration of 11k Good Chop subscriptions right now",
+      "raw_text": "Good morning, just FYI i'm starting a bulk migration of 11k Good Chop subscriptions right now",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W30",
+      "tags": [],
+      "importance": 54,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U02BA3VS7H8",
+            "U027201FQSV"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1755000936.796909",
+      "user": "U047SAC2PPV",
+      "user_name": "U047SAC2PPV",
+      "text": "There seems to be an issue related to recurring selection. I'm going to disable KRS on *staging* :slightly_smiling_face:",
+      "raw_text": "There seems to be an issue related to recurring selection. I'm going to disable KRS on *staging* :slightly_smiling_face:",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W33",
+      "tags": [],
+      "importance": 54,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U02BA3VS7H8"
+          ],
+          "count": 1
+        },
+        {
+          "name": "back",
+          "users": [
+            "U047SAC2PPV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1757599218.938819",
+      "user": "UB87A2MJ7",
+      "user_name": "UB87A2MJ7",
+      "text": "Hey hey!\nWe are switching 30% of *live* PCS traffic to FTCP cluster. As always if you see sth wrong please let us know in <#C088GTM8QTF|>",
+      "raw_text": "Hey hey!\nWe are switching 30% of *live* PCS traffic to FTCP cluster. As always if you see sth wrong please let us know in <#C088GTM8QTF|>",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W37",
+      "tags": [
+        "action"
+      ],
+      "importance": 69,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U0251UW1YUE"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1::skin-tone-4",
+          "users": [
+            "U0184T48L74"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1757675872.945039",
+      "user": null,
+      "user_name": "",
+      "text": "If your request is not related to tests or you checked the doc but still require assistance with a failing tests, please hit the continue button",
+      "raw_text": "If your request is not related to tests or you checked the doc but still require assistance with a failing tests, please hit the continue button",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W37",
+      "tags": [
+        "action"
+      ],
+      "importance": 67,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "test_tube",
+          "users": [
+            "U0251UW1YUE"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759159277.865219",
+      "user": "U02P4F23YJ0",
+      "user_name": "U02P4F23YJ0",
+      "text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit questions via /new_question, and issues via /new_issue!\nYou can also use @group to reach this week’s on-call person.",
+      "raw_text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit questions via /new_question, and issues via /new_issue!\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s on-call person.",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W40",
+      "tags": [
+        "action"
+      ],
+      "importance": 75,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759166746.098399",
+      "user": "U0251UW1YUE",
+      "user_name": "U0251UW1YUE",
+      "text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit issues via /new_issue and questions via /new_question\n\nYou can also use @group to reach this week’s firefighter.",
+      "raw_text": "set the channel topic: Our squad is responsible for Good Chop initiatives. Please submit issues via /new_issue and questions via /new_question\n\nYou can also use <!subteam^S08KVQVNV6U> to reach this week’s firefighter.",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W40",
+      "tags": [
+        "action"
+      ],
+      "importance": 75,
+      "reply_count": 0,
+      "reactions": [],
+      "thread_ts": null
+    },
+    {
+      "ts": "1759167195.002189",
+      "user": "U0251UW1YUE",
+      "user_name": "U0251UW1YUE",
+      "text": "Hello :wave:\n\nWe're substituting the Good Chop Support Slack Workflow (that green button we had) to the Slack Commander :robot_face:\n\nFrom now on, please use `/new_issue` or `/new_question` to submit your support request to our squad and fill up the form. We will get back to you as soon as possible as always. Same as before but with a new, well-known, and more powerful tool.\n\nThank you! :goodchop_fan:",
+      "raw_text": "Hello :wave:\n\nWe're substituting the Good Chop Support Slack Workflow (that green button we had) to the Slack Commander :robot_face:\n\nFrom now on, please use `/new_issue` or `/new_question` to submit your support request to our squad and fill up the form. We will get back to you as soon as possible as always. Same as before but with a new, well-known, and more powerful tool.\n\nThank you! :goodchop_fan:",
+      "channel_id": "C03DDD4R537",
+      "channel_name": "squad-nv-good-chop",
+      "week": "2025-W40",
+      "tags": [
+        "action"
+      ],
+      "importance": 79,
+      "reply_count": 0,
+      "reactions": [
+        {
+          "name": "robot_face",
+          "users": [
+            "U03EN3N4KM4",
+            "U0184T48L74"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": null
+    }
+  ]
+}

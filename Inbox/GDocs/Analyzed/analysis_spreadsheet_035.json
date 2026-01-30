@@ -1,0 +1,74 @@
+{
+  "batch_id": "spreadsheet_035",
+  "doc_type": "spreadsheet",
+  "doc_count": 1,
+  "results": [
+    {
+      "doc_title": "YF Retail Customer Order Metadata - Merged Sheet",
+      "doc_id": "1G4Ko1oTvB3Mu7t6NuLd3yhrHPa0L_U2glURJHIGYIvo",
+      "doc_type": "spreadsheet",
+      "purpose": "Master assumptions and metadata management for all retail customers, feeding into ODS (Operational Data Store) and weekly sales reporting",
+      "data_type": "tracker",
+      "key_data_points": [
+        "ODS refreshes hourly with this data",
+        "Edit window restriction: avoid last 15 minutes of each hour to prevent data sync issues",
+        "Tab 1: Customer mapping with details (columns A-E), payment info (column G), retail finance mapping (columns H-K), sales team mapping (columns L-Z)",
+        "Tab 2: Flags new customers missing from Tab 1, refreshes overnight",
+        "24% abandonment rate on signup page (from meeting notes)",
+        "Q1 OKR deadline: February 9th for CVR program micro-conversion targets"
+      ],
+      "entities": [
+        {
+          "name": "ODS (Operational Data Store)",
+          "type": "system",
+          "context": "Primary data destination that syncs hourly with the retail customer metadata"
+        },
+        {
+          "name": "Retail Finance",
+          "type": "system",
+          "context": "Uses mapping in orange columns (H-K) for weekly retail revenue data and calculations"
+        },
+        {
+          "name": "Sales Team",
+          "type": "system",
+          "context": "Uses mapping in blue columns (L-Z) for customer data"
+        },
+        {
+          "name": "Prateek Jajoo",
+          "type": "person",
+          "context": "Working on signup page optimization, CVR program, and Project LEGO implementation"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Leading CVR program, setting Q1 OKRs for micro-conversion targets by Feb 9th"
+        },
+        {
+          "name": "The Pets Table (TPT)",
+          "type": "project",
+          "context": "Active development with 18 open PRs focusing on funnel navigation, portions, add-ons, and PDP improvements"
+        },
+        {
+          "name": "Factor Form (RTEVMS)",
+          "type": "project",
+          "context": "OTP (One-Time Purchase) launch in UAT with multiple pricing, copy, and discount issues flagged"
+        },
+        {
+          "name": "Project LEGO",
+          "type": "project",
+          "context": "Implementation for social login and potential unified layout across Good Shop and Pet Stable"
+        }
+      ],
+      "insights": [
+        "Critical operational constraint: 15-minute editing blackout each hour to prevent ODS sync conflicts",
+        "Two-tab workflow: Tab 1 for active customer metadata, Tab 2 for overnight detection of new customers",
+        "Data feeds multiple downstream systems with different mapping requirements (finance vs sales)",
+        "High-priority issues in Factor Form OTP launch: incorrect free shipping threshold, 0% discount display for Whey/Hydration products",
+        "CVR program focus: reducing 24% abandonment rate through passwordless login and CTA optimization",
+        "The Pets Table has significant development velocity with 18 concurrent PRs covering funnel improvements, portions logic, and add-ons migration",
+        "Cross-functional dependencies: DAS team involvement needed for Q1 OKR definition by Feb 9th"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:16:48.265012"
+}

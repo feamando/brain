@@ -1,0 +1,384 @@
+{
+  "batch_id": "jira_0013",
+  "issue_count": 25,
+  "issue_types": {
+    "Sub-task": 9,
+    "Task": 13,
+    "Story": 1,
+    "Bug": 2
+  },
+  "date_range": {
+    "oldest": "2025-12-10",
+    "newest": "2025-12-15"
+  },
+  "analyzed_at": "2026-01-02T18:13:30.007391",
+  "summary": "This batch represents infrastructure and platform work across multiple teams, with a major focus on BFF (Backend for Frontend) architecture setup for meal-plans including deployment manifests, observability modules, and shared infrastructure. Additionally, there's ongoing work on OTP (One-Time Purchase) features for Good Chop, Factorform migration to Shopify, and team reorganization under the new MIO (Market Innovation and Optimization) structure.",
+  "decisions": [
+    {
+      "what": "Adopt OpenTelemetry for distributed tracing across BFFs",
+      "issue_key": "TPT-2469",
+      "who": [
+        "nv-bff team"
+      ],
+      "rationale": "Standardize tracing infrastructure for observability across all Backend for Frontend services",
+      "date": null
+    },
+    {
+      "what": "Use Prometheus for metrics collection with prom-client library",
+      "issue_key": "TPT-2468",
+      "who": [
+        "nv-bff team"
+      ],
+      "rationale": "Standardize metrics exposure across BFF services for monitoring",
+      "date": null
+    },
+    {
+      "what": "Implement Pino logger for structured JSON logging with correlation IDs",
+      "issue_key": "TPT-2467",
+      "who": [
+        "nv-bff team"
+      ],
+      "rationale": "Enable structured logging with automatic correlation tracking across distributed systems",
+      "date": null
+    },
+    {
+      "what": "Use OAM (Open Application Model) manifests for FTCP deployment",
+      "issue_key": "TPT-2476",
+      "who": [
+        "mio-dep team"
+      ],
+      "rationale": "Standardize deployment configuration for meal-plans BFF across environments",
+      "date": null
+    },
+    {
+      "what": "Redirect legacy Factorform users to Shopify site",
+      "issue_key": "MIO-20",
+      "who": [
+        "Ameek Singh",
+        "MIO team"
+      ],
+      "rationale": "Migrate Factorform platform from legacy to Shopify",
+      "date": null
+    },
+    {
+      "what": "NVS team does not require Sentry configuration updates",
+      "issue_key": "MIO-34",
+      "who": [
+        "Davor Juric"
+      ],
+      "rationale": "No existing references or alerts found for NVS in Sentry",
+      "date": null
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "BFF Infrastructure & Observability Setup",
+      "description": "Create shared NestJS modules for logging, metrics, tracing, error handling, and documentation to standardize BFF architecture across services",
+      "status": "active",
+      "key_issues": [
+        "TPT-2467",
+        "TPT-2468",
+        "TPT-2469",
+        "TPT-2470",
+        "TPT-2473"
+      ]
+    },
+    {
+      "name": "FTCP Meal-Plans BFF Deployment",
+      "description": "Set up deployment infrastructure for meal-plans BFF including OAM manifests for staging and production with environment-specific configurations",
+      "status": "active",
+      "key_issues": [
+        "TPT-2475",
+        "TPT-2476",
+        "TPT-2477",
+        "TPT-2336"
+      ]
+    },
+    {
+      "name": "Factorform Shopify Migration",
+      "description": "Migrate Factorform from legacy platform to Shopify including redirects, SEO updates, and user flow changes",
+      "status": "active",
+      "key_issues": [
+        "MIO-20",
+        "MIO-22",
+        "MIO-57",
+        "MIO-13"
+      ]
+    },
+    {
+      "name": "One-Time Purchase (OTP) Feature Development",
+      "description": "Build out OTP functionality including dashboard order views, tracking, address persistence, and order totals display",
+      "status": "active",
+      "key_issues": [
+        "GOC-3402",
+        "GOC-3403",
+        "GOC-3404",
+        "GOC-3405",
+        "GOC-3352",
+        "RTEVMS-2363",
+        "GOC-3059"
+      ]
+    },
+    {
+      "name": "MIO Team Formation & Configuration",
+      "description": "Update tooling and configurations to reflect the newly formed Market Innovation and Optimization team structure",
+      "status": "active",
+      "key_issues": [
+        "MIO-34",
+        "MIO-35",
+        "MIO-14"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Waiting for RTE Platform team confirmation on Sentry configuration",
+      "issue_key": "MIO-35",
+      "owner": "Davor Juric",
+      "impact": "Cannot complete Sentry team updates for RTE Systems"
+    }
+  ],
+  "entities": [
+    {
+      "name": "MIO",
+      "type": "squad",
+      "context": "Market Innovation and Optimization - newly formed team replacing NVS and RTE Systems squads",
+      "issues": [
+        "MIO-34",
+        "MIO-35",
+        "MIO-20",
+        "MIO-22",
+        "MIO-57",
+        "MIO-50",
+        "MIO-14",
+        "MIO-13",
+        "MIO-1"
+      ]
+    },
+    {
+      "name": "NVS",
+      "type": "squad",
+      "context": "New Ventures Systems - previous squad name being replaced by MIO",
+      "issues": [
+        "MIO-34"
+      ]
+    },
+    {
+      "name": "RTE Systems",
+      "type": "squad",
+      "context": "Previous squad being replaced by MIO team",
+      "issues": [
+        "MIO-35"
+      ]
+    },
+    {
+      "name": "Factorform",
+      "type": "feature",
+      "context": "Product being migrated from legacy platform to Shopify",
+      "issues": [
+        "MIO-20",
+        "MIO-22",
+        "MIO-57",
+        "MIO-13"
+      ]
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Brand receiving OTP features and dashboard improvements",
+      "issues": [
+        "GOC-3402",
+        "GOC-3403",
+        "GOC-3404",
+        "GOC-3405",
+        "GOC-3352",
+        "GOC-3060",
+        "GOC-3059",
+        "GOC-3421",
+        "GOC-3415",
+        "GOC-3414",
+        "GOC-2462"
+      ]
+    },
+    {
+      "name": "FTCP",
+      "type": "system",
+      "context": "Deployment platform for meal-plans BFF using OAM manifests",
+      "issues": [
+        "TPT-2475",
+        "TPT-2476",
+        "TPT-2477"
+      ]
+    },
+    {
+      "name": "Ameek Singh",
+      "type": "person",
+      "context": "Developer working on Factorform migration and iOS setup",
+      "issues": [
+        "MIO-20",
+        "MIO-22",
+        "MIO-57",
+        "MIO-50"
+      ]
+    },
+    {
+      "name": "Davor Juric",
+      "type": "person",
+      "context": "Developer handling Sentry team configuration updates",
+      "issues": [
+        "MIO-34",
+        "MIO-35"
+      ]
+    },
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Developer working on OTP address persistence and checkout integration",
+      "issues": [
+        "GOC-3352",
+        "GOC-3414",
+        "GOC-2462"
+      ]
+    },
+    {
+      "name": "Pamela Elisabeth Plúas Guerra",
+      "type": "person",
+      "context": "Developer fixing surcharge calculations and investigating reactivation issues",
+      "issues": [
+        "GOC-3421",
+        "GOC-3415"
+      ]
+    },
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Developer working on OTP order totals display",
+      "issues": [
+        "RTEVMS-2363"
+      ]
+    },
+    {
+      "name": "Sentry",
+      "type": "system",
+      "context": "Error tracking and alerting platform being reconfigured for MIO team",
+      "issues": [
+        "MIO-34",
+        "MIO-35"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "Target platform for Factorform migration",
+      "issues": [
+        "MIO-20",
+        "MIO-22",
+        "MIO-57"
+      ]
+    },
+    {
+      "name": "OpenTelemetry",
+      "type": "system",
+      "context": "Distributed tracing framework being adopted for BFF observability",
+      "issues": [
+        "TPT-2469"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "type": "system",
+      "context": "Metrics collection system being integrated into BFF modules",
+      "issues": [
+        "TPT-2468"
+      ]
+    },
+    {
+      "name": "NestJS",
+      "type": "system",
+      "context": "Framework for BFF services with shared modules being created",
+      "issues": [
+        "TPT-2467",
+        "TPT-2468",
+        "TPT-2469",
+        "TPT-2470",
+        "TPT-2473"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Shared module architecture for cross-cutting concerns",
+      "context": "Creating reusable NestJS modules for logging, metrics, tracing, error handling, and documentation to ensure consistency across all BFF services"
+    },
+    {
+      "pattern": "Environment-specific configuration overrides",
+      "context": "Using separate YAML override files for staging and production to manage environment-specific settings like URLs, feature flags, and log levels"
+    },
+    {
+      "pattern": "Correlation ID propagation",
+      "context": "Implementing automatic correlation ID extraction from headers and generation for request tracing across distributed systems"
+    },
+    {
+      "pattern": "OAM (Open Application Model) for deployment",
+      "context": "Standardizing Kubernetes deployments using OAM manifests with environment-specific resource configurations"
+    },
+    {
+      "pattern": "Structured JSON logging with Pino",
+      "context": "Adopting structured logging format for better log parsing and analysis in distributed systems"
+    },
+    {
+      "pattern": "OpenAPI/Swagger auto-documentation",
+      "context": "Generating API documentation automatically from NestJS decorators to maintain up-to-date API specs"
+    },
+    {
+      "pattern": "Address persistence alongside Redux flow",
+      "context": "Running new address-saving hook in parallel with existing Redux implementation for OTP checkout to enable gradual migration"
+    },
+    {
+      "pattern": "SEO canonical URL updates for platform migration",
+      "context": "Updating meta tags and canonical URLs to guide search engines to prioritize new Shopify site over legacy platform"
+    }
+  ],
+  "work_themes": [
+    "Platform infrastructure and observability standardization",
+    "BFF architecture and shared module development",
+    "Deployment automation and environment configuration",
+    "E-commerce platform migration (Factorform to Shopify)",
+    "One-Time Purchase feature development",
+    "Team reorganization and tooling updates",
+    "Bug fixes for pricing and order calculations",
+    "Mobile and native app environment setup"
+  ],
+  "dependencies": [
+    {
+      "from": "nv-bff team",
+      "to": "mio-dep team",
+      "context": "BFF modules (logging, tracing, metrics) need to be integrated with FTCP deployment infrastructure"
+    },
+    {
+      "from": "MIO team",
+      "to": "RTE Platform team",
+      "context": "Waiting for confirmation on Sentry configuration for RTE Systems"
+    },
+    {
+      "from": "Good Chop OTP development",
+      "to": "RCS (Recipe Configuration Service)",
+      "context": "OTP features depend on RCS for addon SKU subscription validation"
+    },
+    {
+      "from": "Factorform migration",
+      "to": "Shopify platform",
+      "context": "Legacy Factorform redirects and SEO updates depend on Shopify site being ready"
+    },
+    {
+      "from": "Good Chop dashboard",
+      "to": "Tracking service",
+      "context": "Order tracking functionality depends on tracking link availability and tracking page configuration"
+    },
+    {
+      "from": "OTP checkout",
+      "to": "Address persistence service",
+      "context": "Delivery page integration requires address-saving hook for OTP order submission"
+    }
+  ]
+}

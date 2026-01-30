@@ -1,0 +1,2781 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W48",
+  "extracted_at": "2026-01-02T10:39:58.186695Z",
+  "message_count": 6,
+  "messages": [
+    {
+      "subtype": "bot_message",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: Shared Team Members: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad: <@U01AKGWGLC8> <@U027201FQSV> \n• :world: Market Innovation &amp; Optimization Squad:  <@U02CRDYF2NL>  <@U01BT6RE4JG>\n• :muscle:  Factor Form Squad: <@U09D8BZ9891>  <@U01V9SX5NG5> \nWeekly Standup Notes for the New Ventures Tribe can be found <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0|here>",
+      "username": "New Ventures Tribe Weekly Notes Reminder",
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "actions",
+              "block_id": "RZ6md",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "b5fa9f0a-aa2e-4a2a-8460-f5a1bd18e6b7",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Go To Notes",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "third_party_auth": {
+                    "enable_dynamic_auth": true
+                  }
+                }
+              ]
+            }
+          ],
+          "fallback": "[no preview available]"
+        }
+      ],
+      "type": "message",
+      "ts": "1764318608.465959",
+      "bot_id": "B099C38L3GE",
+      "app_id": "A098ZUFML9M",
+      "trigger_id": "Ft099E45M2R3",
+      "workflow_id": "Wf098ZUFPLG7",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RQbKm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya New Ventures leads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This is your weekly reminder to please update the Weekly Team Update ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Notes",
+                  "style": {
+                    "bold": true,
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " before standup on Monday:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Shared Team Members: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Pets Table Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "meat"
+                    },
+                    {
+                      "type": "text",
+                      "text": " GoodChop Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "world"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Market Innovation & Optimization Squad:  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02CRDYF2NL"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BT6RE4JG"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "muscle",
+                      "unicode": "1f4aa"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  Factor Form Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01V9SX5NG5"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nWeekly Standup Notes for the New Ventures Tribe can be found "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "text": "here"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01AKGWGLC8",
+            "U2D54V0UV"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "subtype": "thread_broadcast",
+      "user": "U027201FQSV",
+      "thread_ts": "1763997054.960619",
+      "root": {
+        "text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+        "files": [
+          {
+            "id": "F09V13G7M2Q",
+            "created": 1763997049,
+            "timestamp": 1763997049,
+            "name": "CleanShot 2025-11-24 at 16.10.14.png",
+            "title": "CleanShot 2025-11-24 at 16.10.14.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U027201FQSV",
+            "user_team": "T02AGMUUR",
+            "editable": false,
+            "size": 17387,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": false,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+            "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/download/cleanshot_2025-11-24_at_16.10.14.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 48,
+            "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 64,
+            "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 95,
+            "original_w": 732,
+            "original_h": 97,
+            "thumb_tiny": "AwAHADC88e843SqD3DdOtO3tjPlP9Mj/ABp9FACZOR8ppNxyPkbkdeOKdRQA3ccA7G+nH+NKDz0IpaKAP//Z",
+            "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+            "permalink_public": "https://slack-files.com/T02AGMUUR-F09V13G7M2Q-2e42d5d3d3",
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "upload": false,
+        "user": "U027201FQSV",
+        "display_as_bot": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "CS2xG",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Hey "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "UEZ4PRFKM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas & New Year). Correct?\n\nWe are getting this message in our PRs in web repo."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "message",
+        "ts": "1763997054.960619",
+        "client_msg_id": "9ca6f034-eb6d-46f2-9a0a-7917c00023d1",
+        "thread_ts": "1763997054.960619",
+        "reply_count": 12,
+        "reply_users_count": 4,
+        "latest_reply": "1764262630.233489",
+        "reply_users": [
+          "U2D54V0UV",
+          "UEZ4PRFKM",
+          "U027201FQSV",
+          "U03TY4YJU4X"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "language": {
+          "locale": "en",
+          "is_reliable": true
+        }
+      },
+      "type": "message",
+      "ts": "1764248050.521299",
+      "client_msg_id": "25e019ce-a7fd-4477-a92f-0912ea0f3b4f",
+      "text": "Another question whom should we add as \"Stakeholder approval form\" for our PRs? Is PM enough?\n\n```Use the Updated PR Template: The frontend developers MUST include the following information in the description of every PR:\n- Potential risk section\n- Potential business impact\t\n- Potential customer impact\n- Stakeholder approval form```",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Qz+wy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Another question whom should we add as \"Stakeholder approval form\" for our PRs? Is PM enough?\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Use the Updated PR Template: The frontend developers MUST include the following information in the description of every PR:\n- Potential risk section\n- Potential business impact\t\n- Potential customer impact\n- Stakeholder approval form"
+                }
+              ],
+              "border": 0
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "subtype": "thread_broadcast",
+      "user": "U027201FQSV",
+      "thread_ts": "1763997054.960619",
+      "root": {
+        "text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+        "files": [
+          {
+            "id": "F09V13G7M2Q",
+            "created": 1763997049,
+            "timestamp": 1763997049,
+            "name": "CleanShot 2025-11-24 at 16.10.14.png",
+            "title": "CleanShot 2025-11-24 at 16.10.14.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U027201FQSV",
+            "user_team": "T02AGMUUR",
+            "editable": false,
+            "size": 17387,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": false,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+            "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/download/cleanshot_2025-11-24_at_16.10.14.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 48,
+            "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 64,
+            "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 95,
+            "original_w": 732,
+            "original_h": 97,
+            "thumb_tiny": "AwAHADC88e843SqD3DdOtO3tjPlP9Mj/ABp9FACZOR8ppNxyPkbkdeOKdRQA3ccA7G+nH+NKDz0IpaKAP//Z",
+            "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+            "permalink_public": "https://slack-files.com/T02AGMUUR-F09V13G7M2Q-2e42d5d3d3",
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "upload": false,
+        "user": "U027201FQSV",
+        "display_as_bot": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "CS2xG",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Hey "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "UEZ4PRFKM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas & New Year). Correct?\n\nWe are getting this message in our PRs in web repo."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "message",
+        "ts": "1763997054.960619",
+        "client_msg_id": "9ca6f034-eb6d-46f2-9a0a-7917c00023d1",
+        "thread_ts": "1763997054.960619",
+        "reply_count": 12,
+        "reply_users_count": 4,
+        "latest_reply": "1764262630.233489",
+        "reply_users": [
+          "U2D54V0UV",
+          "UEZ4PRFKM",
+          "U027201FQSV",
+          "U03TY4YJU4X"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "language": {
+          "locale": "en",
+          "is_reliable": true
+        }
+      },
+      "type": "message",
+      "ts": "1764246721.636899",
+      "client_msg_id": "4887eb67-b933-418d-b8e3-83b65455011e",
+      "text": "Hi <@UEZ4PRFKM> <@U03TY4YJU4X>!\n\nOn Monday we have an Approved Deployment day.\n\n*Approved Deployment Days:* Allows merges for services using Progressive Delivery or not on Opt-In list. For any service not using Progressive Delivery or that is on the Opt-In list, a Tribe Lead (Engineering or Product) must explicitly approve and a “*peak-approved*” label must be added to the PR in Github.\n\nDo you want us to send you the list of PRs or how would you prefer?",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "uuake",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UEZ4PRFKM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03TY4YJU4X"
+                },
+                {
+                  "type": "text",
+                  "text": "!\n\nOn Monday we have an Approved Deployment day.\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Approved Deployment Days:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Allows merges for services using Progressive Delivery or not on Opt-In list. For any service not using Progressive Delivery or that is on the Opt-In list, a Tribe Lead (Engineering or Product) must explicitly approve and a “"
+                },
+                {
+                  "type": "text",
+                  "text": "peak-approved",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "” label must be added to the PR in Github.\n\nDo you want us to send you the list of PRs or how would you prefer?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1764163191.918429",
+      "client_msg_id": "69454b33-af6d-4562-a880-ff71e8604974",
+      "text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost *Panna Cotta* and *Gulab Jamun*.\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management <https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469|isn't responding to our team's request>.  <@UEZ4PRFKM> <@U03TY4YJU4X> You are probably in the best position to raise this issue and ask office management for solutions.",
+      "team": "T02AGMUUR",
+      "thread_ts": "1764163191.918429",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1764853508.845869",
+      "reply_users": [
+        "UEZ4PRFKM",
+        "U03TY4YJU4X",
+        "UE4HG114J",
+        "U03UMPD2NNS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+          "ts": "1763459311.701469",
+          "author_id": "U031W44QB41",
+          "channel_id": "C046QQ3TVJ5",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C046QQ3TVJ5",
+              "ts": "1763459311.701469",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "ttx2c",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "emoji",
+                            "name": "loudspeaker",
+                            "unicode": "1f4e2",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " Meeting Room Update – Ritterstraße",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Gulab Jamun",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " and "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Panna Cotta",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": " are now "
+                          },
+                          {
+                            "type": "text",
+                            "text": "exclusively reserved for the WoCo",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": ", effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n "
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "point_right",
+                            "unicode": "1f449"
+                          },
+                          {
+                            "type": "text",
+                            "text": " Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+          "fallback": "[November 18th, 2025 1:48 AM] hf.workplace.office: :loudspeaker: *Meeting Room Update – Ritterstraße*\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms *Gulab Jamun* and *Panna Cotta* are now *exclusively reserved for the WoCo*, effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n :point_right: Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week.",
+          "text": ":loudspeaker: *Meeting Room Update – Ritterstraße*\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms *Gulab Jamun* and *Panna Cotta* are now *exclusively reserved for the WoCo*, effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n :point_right: Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week.",
+          "author_name": "HelloFresh Workplace",
+          "author_link": "https://hellofresh.slack.com/team/U031W44QB41",
+          "author_icon": "https://avatars.slack-edge.com/2024-10-18/7924271477824_dfeaa4ddd0ed46f66188_48.png",
+          "author_subname": "HelloFresh Workplace",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack Conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OpjEi",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost "
+                },
+                {
+                  "type": "text",
+                  "text": "Panna Cotta",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " and "
+                },
+                {
+                  "type": "text",
+                  "text": "Gulab Jamun",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ".\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+                  "text": "isn't responding to our team's request"
+                },
+                {
+                  "type": "text",
+                  "text": ".  "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UEZ4PRFKM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03TY4YJU4X"
+                },
+                {
+                  "type": "text",
+                  "text": " You are probably in the best position to raise this issue and ask office management for solutions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1num",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764176882.628579",
+          "client_msg_id": "6732d6d0-3e3f-4cec-ab34-c4b407fdce0e",
+          "text": "Thanks for the visibility, I hadnt seen this. Let me raise this and align with Nikita when he is back next week around escalating. But i agree that it doesn't make sense for a WoCo team of less than 6 people to reserve the largest rooms on the floor",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WxPor",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the visibility, I hadnt seen this. Let me raise this and align with Nikita when he is back next week around escalating. But i agree that it doesn't make sense for a WoCo team of less than 6 people to reserve the largest rooms on the floor"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1764179695.557419",
+          "client_msg_id": "167accac-a816-4715-9bc9-a9ea3fc195d4",
+          "text": "Noted. We can make the argument that they take the back room in the Mezzanine, it's unbookable, not used and perfect for a 6 person team IMO. \n\n<@UEZ4PRFKM> fyi",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QC2ln",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Noted. We can make the argument that they take the back room in the Mezzanine, it's unbookable, not used and perfect for a 6 person team IMO. \n\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " fyi"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1764838183.533389",
+          "client_msg_id": "89f51f83-19f7-4e98-99ea-4d5a6b024d4b",
+          "text": "I also have a feeling that the smaller rooms are booked out almost always (probably because the bigger ones are unavailable), which makes the overall rooms situation quite frustrating (just like it used to be in the other building).",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zx3Kt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I also have a feeling that the smaller rooms are booked out almost always (probably because the bigger ones are unavailable), which makes the overall rooms situation quite frustrating (just like it used to be in the other building)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1764838322.917119",
+          "client_msg_id": "b085872d-c2bd-438d-97c2-525e4ca5fc43",
+          "text": "to make it clear - I'm not talking about the 3rd floor only, it's across the whole building",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mBg7P",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "to make it clear - I'm not talking about the 3rd floor only, it's across the whole building"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "subtype": "thread_broadcast",
+          "user": "U03TY4YJU4X",
+          "thread_ts": "1764163191.918429",
+          "root": {
+            "user": "U03UMPD2NNS",
+            "type": "message",
+            "ts": "1764163191.918429",
+            "client_msg_id": "69454b33-af6d-4562-a880-ff71e8604974",
+            "text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost *Panna Cotta* and *Gulab Jamun*.\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management <https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469|isn't responding to our team's request>.  <@UEZ4PRFKM> <@U03TY4YJU4X> You are probably in the best position to raise this issue and ask office management for solutions.",
+            "team": "T02AGMUUR",
+            "thread_ts": "1764163191.918429",
+            "reply_count": 7,
+            "reply_users_count": 4,
+            "latest_reply": "1764853508.845869",
+            "reply_users": [
+              "UEZ4PRFKM",
+              "U03TY4YJU4X",
+              "UE4HG114J",
+              "U03UMPD2NNS"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "attachments": [
+              {
+                "from_url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+                "ts": "1763459311.701469",
+                "author_id": "U031W44QB41",
+                "channel_id": "C046QQ3TVJ5",
+                "channel_team": "T02AGMUUR",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "message_blocks": [
+                  {
+                    "team": "T02AGMUUR",
+                    "channel": "C046QQ3TVJ5",
+                    "ts": "1763459311.701469",
+                    "message": {
+                      "blocks": [
+                        {
+                          "type": "rich_text",
+                          "block_id": "ttx2c",
+                          "elements": [
+                            {
+                              "type": "rich_text_section",
+                              "elements": [
+                                {
+                                  "type": "emoji",
+                                  "name": "loudspeaker",
+                                  "unicode": "1f4e2",
+                                  "style": {
+                                    "bold": true
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Meeting Room Update – Ritterstraße",
+                                  "style": {
+                                    "bold": true
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms "
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "Gulab Jamun",
+                                  "style": {
+                                    "bold": true
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " and "
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "Panna Cotta",
+                                  "style": {
+                                    "bold": true
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " are now "
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "exclusively reserved for the WoCo",
+                                  "style": {
+                                    "bold": true
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": ", effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n "
+                                },
+                                {
+                                  "type": "emoji",
+                                  "name": "point_right",
+                                  "unicode": "1f449"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "id": 1,
+                "original_url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+                "fallback": "[November 18th, 2025 1:48 AM] hf.workplace.office: :loudspeaker: *Meeting Room Update – Ritterstraße*\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms *Gulab Jamun* and *Panna Cotta* are now *exclusively reserved for the WoCo*, effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n :point_right: Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week.",
+                "text": ":loudspeaker: *Meeting Room Update – Ritterstraße*\n\nHi everyone,\nA quick heads-up regarding meeting room availability on the 3rd floor:\n\nWith the Works Council (WoCo) moving into their new space, the meeting rooms *Gulab Jamun* and *Panna Cotta* are now *exclusively reserved for the WoCo*, effective immediately.\n\nAll existing and future bookings in these two rooms have been removed.\n :point_right: Please update any recurring meetings you may have scheduled there.\nAll other 3rd-floor rooms remain available as usual.\n\nKeep a look out in your email for more information on larger company seating changes coming later this week.",
+                "author_name": "HelloFresh Workplace",
+                "author_link": "https://hellofresh.slack.com/team/U031W44QB41",
+                "author_icon": "https://avatars.slack-edge.com/2024-10-18/7924271477824_dfeaa4ddd0ed46f66188_48.png",
+                "author_subname": "HelloFresh Workplace",
+                "mrkdwn_in": [
+                  "text"
+                ],
+                "footer": "Thread in Slack Conversation"
+              }
+            ],
+            "blocks": [
+              {
+                "type": "rich_text",
+                "block_id": "OpjEi",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "Quick heads-up on a growing problem: the new room assignment for WoCo means that our tribe + the AX folks on the 3rd floor are essentially out of meeting space,  since we lost "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Panna Cotta",
+                        "style": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": " and "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Gulab Jamun",
+                        "style": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": ".\n\nFinding a spot for a simple standup is already a challenge (we are having a room on a 4th floor), and it's going to be a disaster when everyone is back in 2026.\nOffice Management "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://hellofresh.slack.com/archives/C046QQ3TVJ5/p1763459311701469",
+                        "text": "isn't responding to our team's request"
+                      },
+                      {
+                        "type": "text",
+                        "text": ".  "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "UEZ4PRFKM"
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U03TY4YJU4X"
+                      },
+                      {
+                        "type": "text",
+                        "text": " You are probably in the best position to raise this issue and ask office management for solutions."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "language": {
+              "locale": "en",
+              "is_reliable": true
+            }
+          },
+          "type": "message",
+          "ts": "1764844722.347389",
+          "client_msg_id": "8af0e6a5-6049-495c-a271-308ec985aecb",
+          "text": "*tl;dr:* Folks, unfortunately, there is no quick solution to the issue at hand.\n\n*Context:* Unfortunately, for cost-saving reasons, the ground floor quiet area will be subleased to another company, which means that that space will become unavailable for HF. Unfortunately, legally, WoCo does need access to secure, private rooms. Furthermore, because it's a \"smart building\" it's impossible to create additional meeting rooms quickly.\n\n*Immediate Solution:* We increase the usage of Mezzanine, the meeting room in the Mezzanine and the long table in the corridor on the other side of our room.\n\n*Mid-Term Solution:* The mezzanine space will be improved and separated into sections to increase access and utilization of the space. There will be a conference space, a individual meeting space and an easy way to get to the meeting room without disturbing participants in the conference space. The workspace team will consider increasing the quantity of phonebooths as well to compensate partially.",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rMypS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "tl;dr: ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "Folks, unfortunately, there is no quick solution to the issue at hand.\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Context: ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "Unfortunately, for cost-saving reasons, the ground floor quiet area will be subleased to another company, which means that that space will become unavailable for HF. Unfortunately, legally, WoCo does need access to secure, private rooms. Furthermore, because it's a \"smart building\" it's impossible to create additional meeting rooms quickly.\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Immediate Solution:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " We increase the usage of Mezzanine, the meeting room in the Mezzanine and the long table in the corridor on the other side of our room.\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Mid-Term Solution: ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "The mezzanine space will be improved and separated into sections to increase access and utilization of the space. There will be a conference space, a individual meeting space and an easy way to get to the meeting room without disturbing participants in the conference space. The workspace team will consider increasing the quantity of phonebooths as well to compensate partially."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1764846679.688039",
+          "client_msg_id": "3cb98aea-d29d-4bee-919c-857d9e3a722a",
+          "text": "Does WoCo need the 2 big rooms on the 3rd floor?\nAs of now there is no room that is enough for our squad to meet.\n\nMy proposal:\n• free up gulab jamun (so that our teams have space for standups / groomings etc. and change it to a small room e.g. Brownie. \n• any chances that we could make the nursing room available to take meetings? It can be booked for all times it is needed for mothers, but most of the times the room is empty anyways. ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PhHv7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Does WoCo need the 2 big rooms on the 3rd floor?\nAs of now there is no room that is enough for our squad to meet.\n\nMy proposal:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "free up gulab jamun (so that our teams have space for standups / groomings etc. and change it to a small room e.g. Brownie. "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "any chances that we could make the nursing room available to take meetings? It can be booked for all times it is needed for mothers, but most of the times the room is empty anyways. "
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1764853508.845869",
+          "client_msg_id": "3be588b4-6eac-4cff-820f-098315eefb58",
+          "text": "That does seem to be the case, as they host parallel meetings, and they do have a legal entitlement for a specific space. BUT, why don't we want to use the big room in the back of the mezzanine? It should fit the whole team actually? + there is the big 10 person table in the corridor (there is nobody there, so can/should be used for grooming/planninbg for sure?\n\nNursing - yeah it's a good point, I don't think it's used for that; but worth checking with the broader team.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764163191.918429",
+          "parent_user_id": "U03UMPD2NNS",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lAl4f",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That does seem to be the case, as they host parallel meetings, and they do have a legal entitlement for a specific space. BUT, why don't we want to use the big room in the back of the mezzanine? It should fit the whole team actually? + there is the big 10 person table in the corridor (there is nobody there, so can/should be used for grooming/planninbg for sure?\n\nNursing - yeah it's a good point, I don't think it's used for that; but worth checking with the broader team."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        }
+      ]
+    },
+    {
+      "text": "Hey eng leads <@U027201FQSV> <@U8F7ZDAPM> <@U01BT6RE4JG> <@U01V9SX5NG5>,\n\nAs part of peak prep for our TRE, we are being asked by the platform team to fill out this peak readiness <https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1356933285#gid=1356933285|checklist> per squad outlining our alerts and monitoring dashboards. Its also a good exercise to confirm we have adequate observability and alerting to ensure system stability during peak\n\nAlex has already started this for GoC but can I ask the other leads to take a look and add their alerts/current dashboards pls- we ideally want this filled out by the end of next week Dec 5th. If dashboards don't exist, lets align how we can quickly leverage existing telemetry to create something in HoneyComb",
+      "files": [
+        {
+          "id": "F0A05E0UDRP",
+          "created": 1764087488,
+          "timestamp": 1764087488,
+          "name": "Screenshot 2025-11-25 at 17.09.43.png",
+          "title": "Screenshot 2025-11-25 at 17.09.43.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "UEZ4PRFKM",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 46721,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A05E0UDRP/screenshot_2025-11-25_at_17.09.43.png",
+          "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A05E0UDRP/download/screenshot_2025-11-25_at_17.09.43.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 44,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 58,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 87,
+          "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 97,
+          "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 117,
+          "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A05E0UDRP-111064cef2/screenshot_2025-11-25_at_17.09.43_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 124,
+          "original_w": 1153,
+          "original_h": 140,
+          "thumb_tiny": "AwAGADC9mIybSgzu64HXr/SkAhG4CJf3Yz90d/8A9VMH/H1/wL+hpf4rj/dH9abVhImRw4JGeDjmlBzUdv8Adf8A3zUi9PxpDIxNvGQOOOv0zSiQl9uPSoYf9WPov8hTk/15+g/maRVj/9k=",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A05E0UDRP/screenshot_2025-11-25_at_17.09.43.png",
+          "permalink_public": "https://slack-files.com/T02AGMUUR-F0A05E0UDRP-efb23a730b",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F09U89X9MSB",
+          "created": 1763879460,
+          "timestamp": 1763879460,
+          "name": "2026 Peak Prep - Web & React Native Clients Checklist",
+          "title": "2026 Peak Prep - Web &amp; React Native Clients Checklist",
+          "mimetype": "application/vnd.google-apps.spreadsheet",
+          "filetype": "gsheet",
+          "pretty_type": "Google Sheets",
+          "user": "U03Q88SG67L",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 0,
+          "mode": "external",
+          "is_external": true,
+          "external_type": "gdrive",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "external_id": "11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk",
+          "external_url": "https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1149519748#gid=1149519748",
+          "url_private": "https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1149519748#gid=1149519748",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_360.png",
+          "thumb_360_w": 254,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_480.png",
+          "thumb_480_w": 339,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_720.png",
+          "thumb_720_w": 509,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1132,
+          "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_960.png",
+          "thumb_960_w": 678,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09U89X9MSB-b754ad4290/2026_peak_prep_-_web___react_native_clients_checklist_1024.png",
+          "thumb_1024_w": 724,
+          "thumb_1024_h": 1024,
+          "original_w": 1024,
+          "original_h": 1449,
+          "thumb_tiny": "AwAwACLRYuD8qqR7tj+lJmX+4n/fZ/wp/ekoAaWkH8C/99f/AFqaJHLAFFx/vf8A1qkP3TUKn5x9aBMnooooGNJ+cDjpQDkLgjmlKqeoB+opNif3V/KgBpYbX5HHvTVPzdB1qTYn91fyoCIDkKv5UAOooooAKKKKACiiigAooooA/9k=",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09U89X9MSB/2026_peak_prep_-_web___react_native_clients_checklist",
+          "is_starred": false,
+          "skipped_shares": true,
+          "app_id": "A6NL8MJ6Q",
+          "has_rich_preview": true,
+          "file_access": "visible",
+          "entity_id": "W:A6NL8MJ6Q:11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk",
+          "full_size_preview_supported": true
+        }
+      ],
+      "upload": false,
+      "user": "UEZ4PRFKM",
+      "x_files": [
+        "F09U89X9MSB"
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Yti0k",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey eng leads "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U027201FQSV"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01BT6RE4JG"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01V9SX5NG5"
+                },
+                {
+                  "type": "text",
+                  "text": ",\n\nAs part of peak prep for our TRE, we are being asked by the platform team to fill out this peak "
+                },
+                {
+                  "type": "text",
+                  "text": "readiness",
+                  "style": {
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1356933285#gid=1356933285",
+                  "text": "checklist"
+                },
+                {
+                  "type": "text",
+                  "text": " per squad outlining our alerts and monitoring dashboards. Its also a good exercise to confirm we have adequate observability and alerting to ensure system stability during peak\n\nAlex has already started this for GoC but can I ask the other leads to take a look and add their alerts/current dashboards pls- we ideally want this filled out by the end of next week Dec 5th. If dashboards don't exist, lets align how we can quickly leverage existing telemetry to create something in HoneyComb"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1764087812.729749",
+      "client_msg_id": "6327c080-bfd6-49d8-b8c8-252c07e2d86d",
+      "thread_ts": "1764087812.729749",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1764345486.657219",
+      "reply_users": [
+        "U01BT6RE4JG",
+        "UEZ4PRFKM",
+        "U027201FQSV",
+        "U01V9SX5NG5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1356933285#gid=1356933285",
+          "id": 828658347,
+          "bot_id": "B79TAGCE4",
+          "is_app_unfurl": true,
+          "app_unfurl_url": "https://docs.google.com/spreadsheets/d/11cl2poqrYjnT9DIxyPTRZunzRD-FlVZoG1wf_AxT7jk/edit?gid=1149519748#gid=1149519748"
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1764112055.286979",
+          "client_msg_id": "c3d47621-df9a-4255-8fb5-acee5791170e",
+          "text": "I don't have permission to edit the docs.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uajX2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I don't have permission to edit the docs."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764161473.996499",
+          "client_msg_id": "1cad8789-6f68-400b-bd65-15bf2734a543",
+          "text": "<@U0MBX09UZ> asked we put in our links as comments as he is helping validate the data quality of them.\n\nThis is also for FE TRE it looks like so for MIO/NV systems i would put mostly FE projects we worked on recently, like OTP",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3sWT9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0MBX09UZ"
+                    },
+                    {
+                      "type": "text",
+                      "text": " asked we put in our links as comments as he is helping validate the data quality of them.\n\nThis is also for FE TRE it looks like so for MIO/NV systems i would put mostly FE projects we worked on recently, like OTP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1764162962.068309",
+          "client_msg_id": "0B797D64-B485-4B18-B7BF-560FCCAB1181",
+          "text": "Sure but the OTP work has been handed off to <@U01TQGXG9D3> . MIO or NVS afaik do not own any FE. ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Z+0mx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sure but the OTP work has been handed off to "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01TQGXG9D3"
+                    },
+                    {
+                      "type": "text",
+                      "text": " . MIO or NVS afaik do not own any FE"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "UEZ4PRFKM",
+                "U2D54V0UV"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764163701.546339",
+          "client_msg_id": "0CB85A60-DBDD-4A59-A982-ECCB7B7E48E4",
+          "text": "Maybe just add a comment for Fede pls",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2fKa6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Maybe just add a comment for Fede pls"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1764164567.165819",
+          "client_msg_id": "71980da7-22d2-4a30-9d9c-e6fed9640742",
+          "text": "Done.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "U5pFO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Done."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1764172049.584769",
+          "client_msg_id": "94a9dc44-d5c5-4cef-b812-4930a12bc38e",
+          "text": "Have a blocker this Friday :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2mNfr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Have a blocker this Friday "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01V9SX5NG5",
+          "type": "message",
+          "ts": "1764175019.857409",
+          "client_msg_id": "997728a0-c5f4-4b1a-a60b-36113f35f813",
+          "text": "On it this afternoon, thanks gang :sal:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UNilK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "On it this afternoon, thanks gang "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "heart_hands",
+              "users": [
+                "UEZ4PRFKM"
+              ],
+              "count": 1
+            },
+            {
+              "name": "done_",
+              "users": [
+                "U01V9SX5NG5"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1764345486.657219",
+          "client_msg_id": "319cb5b9-47cb-4810-a166-569a23d60159",
+          "text": "Done for Good Chop :white_check_mark:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764087812.729749",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iOX1b",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Done for Good Chop "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "white_check_mark",
+                      "unicode": "2705"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+      "files": [
+        {
+          "id": "F09V13G7M2Q",
+          "created": 1763997049,
+          "timestamp": 1763997049,
+          "name": "CleanShot 2025-11-24 at 16.10.14.png",
+          "title": "CleanShot 2025-11-24 at 16.10.14.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U027201FQSV",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 17387,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+          "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/download/cleanshot_2025-11-24_at_16.10.14.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 48,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 64,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 95,
+          "original_w": 732,
+          "original_h": 97,
+          "thumb_tiny": "AwAHADC88e843SqD3DdOtO3tjPlP9Mj/ABp9FACZOR8ppNxyPkbkdeOKdRQA3ccA7G+nH+NKDz0IpaKAP//Z",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+          "permalink_public": "https://slack-files.com/T02AGMUUR-F09V13G7M2Q-2e42d5d3d3",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U027201FQSV",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CS2xG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UEZ4PRFKM"
+                },
+                {
+                  "type": "text",
+                  "text": " would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas & New Year). Correct?\n\nWe are getting this message in our PRs in web repo."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1763997054.960619",
+      "client_msg_id": "9ca6f034-eb6d-46f2-9a0a-7917c00023d1",
+      "thread_ts": "1763997054.960619",
+      "reply_count": 12,
+      "reply_users_count": 4,
+      "latest_reply": "1764262630.233489",
+      "reply_users": [
+        "U2D54V0UV",
+        "UEZ4PRFKM",
+        "U027201FQSV",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "text": "Hi Alex, based from the calendar provided by Platform that is correct. You can check it out <https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0|here>. Thanks!",
+          "files": [
+            {
+              "id": "F09K1207E5T",
+              "created": 1759830013,
+              "timestamp": 1759830013,
+              "name": "Peak 2026 - Release Calendars and Opt-In List",
+              "title": "Peak 2026 - Release Calendars and Opt-In List",
+              "mimetype": "application/vnd.google-apps.spreadsheet",
+              "filetype": "gsheet",
+              "pretty_type": "Google Sheets",
+              "user": "U0D081F38",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 0,
+              "mode": "external",
+              "is_external": true,
+              "external_type": "gdrive",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "external_id": "1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA",
+              "external_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+              "url_private": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_360.png",
+              "thumb_360_w": 254,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_480.png",
+              "thumb_480_w": 339,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_720.png",
+              "thumb_720_w": 509,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 1132,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_960.png",
+              "thumb_960_w": 678,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_1024.png",
+              "thumb_1024_w": 724,
+              "thumb_1024_h": 1024,
+              "original_w": 1024,
+              "original_h": 1449,
+              "thumb_tiny": "AwAwACLQeTadqqWY4wM4/wA9KjFw2wM8e0Yyfmzj0oc/6WgwOn+NIYTJGAWwDg/pQJCm4IIBUZboM9f0pyS732gAMOoz0prW+XjbP3AB+VLHDsmaTOd2eKBk1FFFACMit95QfqKSJWWNVdgzDqQMU6igAooooAKKKKACiiigAooooAKKKKAP/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09K1207E5T/peak_2026_-_release_calendars_and_opt-in_list",
+              "is_starred": false,
+              "skipped_shares": true,
+              "app_id": "A6NL8MJ6Q",
+              "has_rich_preview": true,
+              "file_access": "visible",
+              "entity_id": "W:A6NL8MJ6Q:1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA",
+              "full_size_preview_supported": true
+            }
+          ],
+          "upload": false,
+          "user": "U2D54V0UV",
+          "display_as_bot": false,
+          "x_files": [
+            "F09K1207E5T"
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iZkP7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Alex, based from the calendar provided by Platform that is correct. You can check it out "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1763998001.937289",
+          "client_msg_id": "6072feba-b15a-4470-b570-71d3e23df26d",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "attachments": [
+            {
+              "from_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+              "id": 332687726,
+              "bot_id": "B79TAGCE4",
+              "is_app_unfurl": true,
+              "app_unfurl_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0"
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "text": "Yes the web repo isnt opted out for <https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=1476633874#gid=1476633874|restrictions> during No Deployment Days so I would plan for our squads to respect these days and schedule deployments around them",
+          "files": [
+            {
+              "id": "F09K1207E5T",
+              "created": 1759830013,
+              "timestamp": 1759830013,
+              "name": "Peak 2026 - Release Calendars and Opt-In List",
+              "title": "Peak 2026 - Release Calendars and Opt-In List",
+              "mimetype": "application/vnd.google-apps.spreadsheet",
+              "filetype": "gsheet",
+              "pretty_type": "Google Sheets",
+              "user": "U0D081F38",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 0,
+              "mode": "external",
+              "is_external": true,
+              "external_type": "gdrive",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "external_id": "1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA",
+              "external_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+              "url_private": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_360.png",
+              "thumb_360_w": 254,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_480.png",
+              "thumb_480_w": 339,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_720.png",
+              "thumb_720_w": 509,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 1132,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_960.png",
+              "thumb_960_w": 678,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09K1207E5T-38508bfd4d/peak_2026_-_release_calendars_and_opt-in_list_1024.png",
+              "thumb_1024_w": 724,
+              "thumb_1024_h": 1024,
+              "original_w": 1024,
+              "original_h": 1449,
+              "thumb_tiny": "AwAwACLQeTadqqWY4wM4/wA9KjFw2wM8e0Yyfmzj0oc/6WgwOn+NIYTJGAWwDg/pQJCm4IIBUZboM9f0pyS732gAMOoz0prW+XjbP3AB+VLHDsmaTOd2eKBk1FFFACMit95QfqKSJWWNVdgzDqQMU6igAooooAKKKKACiiigAooooAKKKKAP/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09K1207E5T/peak_2026_-_release_calendars_and_opt-in_list",
+              "is_starred": false,
+              "skipped_shares": true,
+              "app_id": "A6NL8MJ6Q",
+              "has_rich_preview": true,
+              "file_access": "visible",
+              "entity_id": "W:A6NL8MJ6Q:1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA",
+              "full_size_preview_supported": true
+            }
+          ],
+          "upload": false,
+          "user": "UEZ4PRFKM",
+          "display_as_bot": false,
+          "x_files": [
+            "F09K1207E5T"
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xPfCn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes the web repo isnt opted out for "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=1476633874#gid=1476633874",
+                      "text": "restrictions"
+                    },
+                    {
+                      "type": "text",
+                      "text": " during No Deployment Days so I would plan for our squads to respect these days and schedule deployments around them"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1763998084.694329",
+          "edited": {
+            "user": "UEZ4PRFKM",
+            "ts": "1763998143.000000"
+          },
+          "client_msg_id": "07caa779-aef8-44e8-91e3-fb040c93090b",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "attachments": [
+            {
+              "from_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=1476633874#gid=1476633874",
+              "id": 1371087153,
+              "bot_id": "B79TAGCE4",
+              "is_app_unfurl": true,
+              "app_unfurl_url": "https://docs.google.com/spreadsheets/d/1Avh8zRWqjN1fELJQeEUZ1CgD6QLwFqDPoJl84maiknA/edit?gid=0#gid=0"
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1763998098.673259",
+          "client_msg_id": "11c18101-0657-4851-9e22-b88e91ab0e10",
+          "text": "woops -I forgot to hit send. Davor also shared :sweat_smile:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NHXkr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "woops -I forgot to hit send. Davor also shared "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "unicode": "1f605"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "handshake",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            },
+            {
+              "name": "+1",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1763998193.628349",
+          "client_msg_id": "f78b2ea7-fc6a-487d-a966-9776c7531d04",
+          "text": "Thank you both :handshake:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BZg27",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you both "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "handshake",
+                      "unicode": "1f91d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "np",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "subtype": "thread_broadcast",
+          "user": "U027201FQSV",
+          "thread_ts": "1763997054.960619",
+          "root": {
+            "text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+            "files": [
+              {
+                "id": "F09V13G7M2Q",
+                "created": 1763997049,
+                "timestamp": 1763997049,
+                "name": "CleanShot 2025-11-24 at 16.10.14.png",
+                "title": "CleanShot 2025-11-24 at 16.10.14.png",
+                "mimetype": "image/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U027201FQSV",
+                "user_team": "T02AGMUUR",
+                "editable": false,
+                "size": 17387,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+                "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/download/cleanshot_2025-11-24_at_16.10.14.png",
+                "media_display_type": "unknown",
+                "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_64.png",
+                "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_80.png",
+                "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_360.png",
+                "thumb_360_w": 360,
+                "thumb_360_h": 48,
+                "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_480.png",
+                "thumb_480_w": 480,
+                "thumb_480_h": 64,
+                "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_160.png",
+                "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_720.png",
+                "thumb_720_w": 720,
+                "thumb_720_h": 95,
+                "original_w": 732,
+                "original_h": 97,
+                "thumb_tiny": "AwAHADC88e843SqD3DdOtO3tjPlP9Mj/ABp9FACZOR8ppNxyPkbkdeOKdRQA3ccA7G+nH+NKDz0IpaKAP//Z",
+                "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+                "permalink_public": "https://slack-files.com/T02AGMUUR-F09V13G7M2Q-2e42d5d3d3",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+              }
+            ],
+            "upload": false,
+            "user": "U027201FQSV",
+            "display_as_bot": false,
+            "blocks": [
+              {
+                "type": "rich_text",
+                "block_id": "CS2xG",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "Hey "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "UEZ4PRFKM"
+                      },
+                      {
+                        "type": "text",
+                        "text": " would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas & New Year). Correct?\n\nWe are getting this message in our PRs in web repo."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "type": "message",
+            "ts": "1763997054.960619",
+            "client_msg_id": "9ca6f034-eb6d-46f2-9a0a-7917c00023d1",
+            "thread_ts": "1763997054.960619",
+            "reply_count": 12,
+            "reply_users_count": 4,
+            "latest_reply": "1764262630.233489",
+            "reply_users": [
+              "U2D54V0UV",
+              "UEZ4PRFKM",
+              "U027201FQSV",
+              "U03TY4YJU4X"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "language": {
+              "locale": "en",
+              "is_reliable": true
+            }
+          },
+          "type": "message",
+          "ts": "1764246721.636899",
+          "client_msg_id": "4887eb67-b933-418d-b8e3-83b65455011e",
+          "text": "Hi <@UEZ4PRFKM> <@U03TY4YJU4X>!\n\nOn Monday we have an Approved Deployment day.\n\n*Approved Deployment Days:* Allows merges for services using Progressive Delivery or not on Opt-In list. For any service not using Progressive Delivery or that is on the Opt-In list, a Tribe Lead (Engineering or Product) must explicitly approve and a “*peak-approved*” label must be added to the PR in Github.\n\nDo you want us to send you the list of PRs or how would you prefer?",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uuake",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!\n\nOn Monday we have an Approved Deployment day.\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Approved Deployment Days:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " Allows merges for services using Progressive Delivery or not on Opt-In list. For any service not using Progressive Delivery or that is on the Opt-In list, a Tribe Lead (Engineering or Product) must explicitly approve and a “"
+                    },
+                    {
+                      "type": "text",
+                      "text": "peak-approved",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "” label must be added to the PR in Github.\n\nDo you want us to send you the list of PRs or how would you prefer?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "subtype": "thread_broadcast",
+          "user": "U027201FQSV",
+          "thread_ts": "1763997054.960619",
+          "root": {
+            "text": "Hey <@UEZ4PRFKM> would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas &amp; New Year). Correct?\n\nWe are getting this message in our PRs in web repo.",
+            "files": [
+              {
+                "id": "F09V13G7M2Q",
+                "created": 1763997049,
+                "timestamp": 1763997049,
+                "name": "CleanShot 2025-11-24 at 16.10.14.png",
+                "title": "CleanShot 2025-11-24 at 16.10.14.png",
+                "mimetype": "image/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U027201FQSV",
+                "user_team": "T02AGMUUR",
+                "editable": false,
+                "size": 17387,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+                "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09V13G7M2Q/download/cleanshot_2025-11-24_at_16.10.14.png",
+                "media_display_type": "unknown",
+                "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_64.png",
+                "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_80.png",
+                "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_360.png",
+                "thumb_360_w": 360,
+                "thumb_360_h": 48,
+                "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_480.png",
+                "thumb_480_w": 480,
+                "thumb_480_h": 64,
+                "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_160.png",
+                "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09V13G7M2Q-c0816c812f/cleanshot_2025-11-24_at_16.10.14_720.png",
+                "thumb_720_w": 720,
+                "thumb_720_h": 95,
+                "original_w": 732,
+                "original_h": 97,
+                "thumb_tiny": "AwAHADC88e843SqD3DdOtO3tjPlP9Mj/ABp9FACZOR8ppNxyPkbkdeOKdRQA3ccA7G+nH+NKDz0IpaKAP//Z",
+                "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09V13G7M2Q/cleanshot_2025-11-24_at_16.10.14.png",
+                "permalink_public": "https://slack-files.com/T02AGMUUR-F09V13G7M2Q-2e42d5d3d3",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+              }
+            ],
+            "upload": false,
+            "user": "U027201FQSV",
+            "display_as_bot": false,
+            "blocks": [
+              {
+                "type": "rich_text",
+                "block_id": "CS2xG",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "Hey "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "UEZ4PRFKM"
+                      },
+                      {
+                        "type": "text",
+                        "text": " would like to double check that we don't merge any code on Nov 26–28 (Black Friday / Cyber Monday) and Dec 24–Jan 4 (Christmas & New Year). Correct?\n\nWe are getting this message in our PRs in web repo."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "type": "message",
+            "ts": "1763997054.960619",
+            "client_msg_id": "9ca6f034-eb6d-46f2-9a0a-7917c00023d1",
+            "thread_ts": "1763997054.960619",
+            "reply_count": 12,
+            "reply_users_count": 4,
+            "latest_reply": "1764262630.233489",
+            "reply_users": [
+              "U2D54V0UV",
+              "UEZ4PRFKM",
+              "U027201FQSV",
+              "U03TY4YJU4X"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "language": {
+              "locale": "en",
+              "is_reliable": true
+            }
+          },
+          "type": "message",
+          "ts": "1764248050.521299",
+          "client_msg_id": "25e019ce-a7fd-4477-a92f-0912ea0f3b4f",
+          "text": "Another question whom should we add as \"Stakeholder approval form\" for our PRs? Is PM enough?\n\n```Use the Updated PR Template: The frontend developers MUST include the following information in the description of every PR:\n- Potential risk section\n- Potential business impact\t\n- Potential customer impact\n- Stakeholder approval form```",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qz+wy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Another question whom should we add as \"Stakeholder approval form\" for our PRs? Is PM enough?\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_preformatted",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Use the Updated PR Template: The frontend developers MUST include the following information in the description of every PR:\n- Potential risk section\n- Potential business impact\t\n- Potential customer impact\n- Stakeholder approval form"
+                    }
+                  ],
+                  "border": 0
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1764248090.877719",
+          "client_msg_id": "b8715360-19b5-4ed9-aa1c-244248b9dc63",
+          "text": "This is only for peak, right?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8lSII",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is only for peak, right?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1764248104.763669",
+          "client_msg_id": "492a6eea-ee61-479b-85a0-dbc66adc02b0",
+          "text": "Yes",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZHR45",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764250600.694479",
+          "client_msg_id": "65150f0c-d7fc-4cdb-814a-3644ee870ed3",
+          "text": "Yes send me a list of PRs and I can approve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "47ViD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes send me a list of PRs and I can approve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764250624.123239",
+          "client_msg_id": "c0225e28-8541-4ffc-8314-91a22a1eda70",
+          "text": "Is `Stakeholder approval form`  an actual form or is that a typo for \"from\"",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "y3Tlj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Stakeholder approval form",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "  an actual form or is that a typo for \"from\""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1764250669.404809",
+          "client_msg_id": "e9ced01f-0e68-4ed7-930d-7bb152ad6cc1",
+          "text": "I guess it's just a typo for \"from\"",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YMf4o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I guess it's just a typo for \"from\""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1764262630.233489",
+          "client_msg_id": "4d359fe3-50c7-41ab-969d-5016255d7df5",
+          "text": "You can just add me as the stakeholder when you send them over for approval. Not seeing much info elsewhere around who it should be",
+          "team": "T02AGMUUR",
+          "thread_ts": "1763997054.960619",
+          "parent_user_id": "U027201FQSV",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gn41G",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can just add me as the stakeholder when you send them over for approval. Not seeing much info elsewhere around who it should be"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

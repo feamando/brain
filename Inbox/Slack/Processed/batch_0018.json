@@ -1,0 +1,613 @@
+{
+  "batch_id": "C08KU0F8EF4_1756731575.096479",
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "message_count": 9,
+  "thread_count": 9,
+  "avg_importance": 90.33333333333333,
+  "tag_summary": {
+    "update": 1,
+    "high_engagement": 2,
+    "discussion": 6,
+    "question": 7,
+    "decision": 1,
+    "action": 1,
+    "deadline": 1
+  },
+  "time_range": {
+    "start": "1756731575.096479",
+    "end": "1760604050.843159"
+  },
+  "messages": [
+    {
+      "ts": "1756731575.096479",
+      "user": "U03UMPD2NNS",
+      "user_name": "U03UMPD2NNS",
+      "text": "@U07VDFEFBQU @U01AKGWGLC8 FYI: We had a significant drop in CVR after launching the checkbox on checkout. After Laurent aligned with Thomas, we implemented a state-based logic and the checkbox is required only for California.",
+      "raw_text": "<@U07VDFEFBQU> <@U01AKGWGLC8> FYI: We had a significant drop in CVR after launching the checkbox on checkout. After Laurent aligned with Thomas, we implemented a state-based logic and the checkbox is required only for California.",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W36",
+      "tags": [
+        "update"
+      ],
+      "importance": 77,
+      "reply_count": 5,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01AKGWGLC8"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1756731575.096479",
+      "thread_replies": [
+        {
+          "ts": "1756731600.261869",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "FYI, maybe you can apply the same rule in GoC"
+        },
+        {
+          "ts": "1756731626.700139",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "We will roll out 100% to California and do 50/50 split for other states to check the impact"
+        },
+        {
+          "ts": "1756731634.885579",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Then Yury will decide how to proceed"
+        },
+        {
+          "ts": "1756732512.565419",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "@U03UMPD2NNS did you do pre-post?"
+        },
+        {
+          "ts": "1756732591.706249",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "This is the number from GA from Marketing, I didnt have the chance to run the numbers myself yet"
+        }
+      ]
+    },
+    {
+      "ts": "1757070982.476459",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "@U03UMPD2NNS @U01AKGWGLC8 - do you folks ha e a link to the venmo experiement overview?",
+      "raw_text": "<@U03UMPD2NNS> <@U01AKGWGLC8> - do you folks ha e a link to the venmo experiement overview?",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W36",
+      "tags": [
+        "high_engagement",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 13,
+      "reactions": [],
+      "thread_ts": "1757070982.476459",
+      "thread_replies": [
+        {
+          "ts": "1757071479.292109",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/pcon_3625_enable_venmo_for_upm_us_brands/results"
+        },
+        {
+          "ts": "1757071501.450309",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "https://docs.google.com/document/d/1qick2Xk2Ur6ahKxV2B4VBWF1s0pbjpuSy9hCmCFNbA0/edit?tab=t.0#heading=h.mryunuq1uk7y the very first time they tested it (HF &amp; ER only)"
+        },
+        {
+          "ts": "1757071539.374199",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "and then https://hellofresh.slack.com/archives/C066YCULXE0/p1757002034689139?thread_ts=1755526055.963189&amp;cid=C066YCULXE0 is where they said we had 107 people trying to checkout with venmo, none of which were successful"
+        },
+        {
+          "ts": "1757072371.736509",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X when is the MAR meeting and with which group?\n\ncc'ing you @U07VDFEFBQU potentially we could include it as a hotly debated topic depending when it is and if further escalation is required beyond Daniel about 0weekly for OTP MVP"
+        },
+        {
+          "ts": "1757072629.137939",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "the meeting is on the15th"
+        },
+        {
+          "ts": "1757072638.924929",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "what do you mean with the 0 weekly?"
+        },
+        {
+          "ts": "1757072649.422349",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "I'll add it together with Leo"
+        },
+        {
+          "ts": "1757073171.759849",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X just quickly aligned with Daniel he said we should first just try to escalate with Cho directly, so we'll do that"
+        },
+        {
+          "ts": "1757073207.308799",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "but also still discussing if the way xsell plans to do it should work for us"
+        },
+        {
+          "ts": "1757073246.990859",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "it should (and the current solution also works - you just set it to 12 or 16 week cadence for the experiment)"
+        }
+      ]
+    },
+    {
+      "ts": "1757074221.627099",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":alert2: IMPORTANT: Big Rocks for TAM confirmed: Good Chop, The Pets Table, Factor Form, Cross-Selling, Programs :alert2:\n\nBudgeting for Big Rocks: Assumed ~70% of FTE allocation\nBudgeting for KTLO (including Special Projects) ~30% (assume Marketplace experimentation/launch)",
+      "raw_text": ":alert2: IMPORTANT: Big Rocks for TAM confirmed: Good Chop, The Pets Table, Factor Form, Cross-Selling, Programs :alert2:\n\nBudgeting for Big Rocks: Assumed ~70% of FTE allocation\nBudgeting for KTLO (including Special Projects) ~30% (assume Marketplace experimentation/launch)",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W36",
+      "tags": [
+        "decision",
+        "discussion"
+      ],
+      "importance": 100,
+      "reply_count": 6,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01AKGWGLC8",
+            "U07VDFEFBQU"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1757074221.627099",
+      "thread_replies": [
+        {
+          "ts": "1757075355.450999",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "is this not just the whole TAM team :smile:"
+        },
+        {
+          "ts": "1757075447.853739",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Does OTP includes in one of the special projects? I'll need that priority to push other teams next year"
+        },
+        {
+          "ts": "1757075450.920229",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "It's to confirm funding for the stuff we had outside of the brands, and provide a view on the allocation"
+        },
+        {
+          "ts": "1757075477.430339",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "OTP and other special projects go into the newly redefined \"KTLO\" bucket"
+        },
+        {
+          "ts": "1757075492.478659",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "OK lets talk more next week"
+        },
+        {
+          "ts": "1757075515.920619",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "we will have some thing like a SpecOps team or something"
+        }
+      ]
+    },
+    {
+      "ts": "1757503124.381039",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "@U01AKGWGLC8 @U07VDFEFBQU @U03UMPD2NNS - the charge at checkout - what's the CVA impact on it potentially for GoC and TPT?",
+      "raw_text": "<@U01AKGWGLC8> <@U07VDFEFBQU> <@U03UMPD2NNS> - the charge at checkout - what's the CVA impact on it potentially for GoC and TPT?",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W37",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 84,
+      "reply_count": 7,
+      "reactions": [],
+      "thread_ts": "1757503124.381039",
+      "thread_replies": [
+        {
+          "ts": "1757503459.783469",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "I can do a quick BC later"
+        },
+        {
+          "ts": "1757503473.870499",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "but the CVR uplift would be essentially most of our empty activation rate"
+        },
+        {
+          "ts": "1757503546.313229",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "and also depends if we're able to still let customers add addons post-checkout (which can be charged later)\n\nif the condition for charge at checkout is that we cannot let people add addons then there will be a negative AOV impact to consider"
+        },
+        {
+          "ts": "1757504313.133299",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "of course, although... not sure if the impact is gonna be that prinounced, it's a separate payment flow for add-ons anyway, if we can simply maintain that one"
+        },
+        {
+          "ts": "1757508647.929949",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Besides the empty conversion rate, please consider also CAC improvement, as we wont be paying Native partners for these empties."
+        },
+        {
+          "ts": "1757520339.945429",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "https://docs.google.com/spreadsheets/d/19fhZpcx4lnO5kO0Q1Y__OCNXP0MQOMUx3MQjM5_Erzg/edit?gid=1687350365#gid=1687350365"
+        }
+      ]
+    },
+    {
+      "ts": "1757943103.507069",
+      "user": "U01AKGWGLC8",
+      "user_name": "U01AKGWGLC8",
+      "text": "I'm looking to understand how preference migrations were done for brands previously. Anyone know which EM that worked with Claire/Kat back then would know about this?",
+      "raw_text": "I'm looking to understand how preference migrations were done for brands previously. Anyone know which EM that worked with Claire/Kat back then would know about this?",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W38",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 88,
+      "reply_count": 9,
+      "reactions": [],
+      "thread_ts": "1757943103.507069",
+      "thread_replies": [
+        {
+          "ts": "1757943120.805159",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X / @U03R6F2AG9K"
+        },
+        {
+          "ts": "1758037100.254879",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "hey hey, hm... preference migrations, didn't we do this this year on TPT @U03UMPD2NNS?"
+        },
+        {
+          "ts": "1758038161.166919",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Hey, we are planning to do it, we havent picked it up, as we needed more confidence that meal selections are reliable and robust.\n\nContext: we used to use preferences for meal selection (preference would define which recipes you receive) and as part of the \"Deprecating preferences\" we started relying on recipe selection only. In case something backfired, we needed to have the preferences as our backup.\n\nAs far as I know we will own this migration internally."
+        },
+        {
+          "ts": "1758039872.561189",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "just to make sure we're talking about the same thing -- you also set up your preferences on CCM right? So eg in the screenshot `keto` preferences will order the recipes according to the sequence of the numbers"
+        },
+        {
+          "ts": "1758039967.690359",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "\"Deprecating preferences\" so it means you'd actually move away from the logic above?\n\nI'm trying to understand not how to deprecate preferences but how to move people from one preference to another\n\nEg if customers were previously on `keto` , how it works to migrate them to another preference such as `caloriesmart` if we choose to deprecate `keto`"
+        },
+        {
+          "ts": "1758040285.645459",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "The goal of this initiative was to not determine meals based on preferences.\n\nWe havent completed the migrations, but we will move users from preferences such as dry-chickenXdry-beef to one default preference for all plans and all recipes.\n\nEvery user will still have a preference, but we will not be using this data anywhere."
+        },
+        {
+          "ts": "1758040465.586569",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Overall, my recommendation will be to take these changes gradually, and not remove completely a preference, because if sth backfires, there wont be a way to revert it.\n\nSo maybe first you can migrate the users to calorie smart, monitor for a couple of weeks and only then fully deprecate them (if required)"
+        },
+        {
+          "ts": "1758041159.289379",
+          "user": "U03R6F2AG9K",
+          "user_name": "U03R6F2AG9K",
+          "text": "@U1GA9435H might be a valid POC I vaguely remember her doing something in the past but @U01AKGWGLC8 what are you trying to migrate specifically? I'm sure we can work out a simple script to actually do the migration itself, but the only thing to watch out for potentially is whether future manual selections are persisted after this change. Might not be relevant in GoC if you aren't seeing multiple future weeks"
+        },
+        {
+          "ts": "1758210125.300289",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03R6F2AG9K ill explain in our catchup"
+        }
+      ]
+    },
+    {
+      "ts": "1758529956.869479",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks, please add the respective OKRs that you had been working on here: https://docs.google.com/spreadsheets/d/1fBWqb6Dl7dzuqV_IHYwmPEJc4TEdOSJmfWgWfhXw2Cs/edit?usp=sharing\n\nI've added the draft Objectives from the YP that I am drafting right now, feel free to comment/add/change and add your measurable KRs.",
+      "raw_text": "Hey folks, please add the respective OKRs that you had been working on here: <https://docs.google.com/spreadsheets/d/1fBWqb6Dl7dzuqV_IHYwmPEJc4TEdOSJmfWgWfhXw2Cs/edit?usp=sharing>\n\nI've added the draft Objectives from the YP that I am drafting right now, feel free to comment/add/change and add your measurable KRs.",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W38",
+      "tags": [
+        "action",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 9,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01AKGWGLC8"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1758529956.869479",
+      "thread_replies": [
+        {
+          "ts": "1758730479.516449",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X\nyou can find our draft https://docs.google.com/document/d/1RM1wyjNVN-FOSZnlPZwQOLZhvaqWaiGxbL0LKPhmnac/edit?tab=t.0\n\nnotes:\n• the listed initiatives are not Q1-specific but all the potential future initiatives which can also fall under the same OKR\n• we are least sure on KRs for OKR 3"
+        },
+        {
+          "ts": "1758733153.572939",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Will go through tonight folks, looks good BUT: comment number 1 for the next iteration let's get the focus back on Q1 and then frame out Q2. I want _your_ view and OKRs to be specific for the period\\"
+        },
+        {
+          "ts": "1758749410.431469",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "OK, went briefly through I think we need a discussion a but more on the KR1, KR3 (we're being not direct enough - why aren't we looking at ARPU?"
+        },
+        {
+          "ts": "1758786783.179889",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "If this is for Q1 only, I suggest we focus to a maximum 2 OKRs only. I don't think we have the capacity to work on multiple big projects in Q1 especially at the back of OTP"
+        },
+        {
+          "ts": "1758789808.197379",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Agreed, I would be comfortable reducing it further if we are to focus on Q1 :+1:"
+        },
+        {
+          "ts": "1758791148.930359",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "cool let's discuss later but we are aligned on focusing on 1 &amp; 2"
+        },
+        {
+          "ts": "1758806687.111239",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Hey hey! @U03TY4YJU4X Do we need the similar document as Bea created for TPT as well? I am out starting tomorrow till the 6th of Oct\n\nFrom our side, we currently have the https://docs.google.com/spreadsheets/d/1fBWqb6Dl7dzuqV_IHYwmPEJc4TEdOSJmfWgWfhXw2Cs/edit?gid=1343705227#gid=1343705227 draft and the https://docs.google.com/spreadsheets/d/1Y9ZsoBL6vLG_HwEfAKSleYNHIslCTlEeAaJpU1c0evg/edit?gid=1803439232#gid=1803439232"
+        },
+        {
+          "ts": "1758807905.475449",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "If you are up for it (I assume no) so no; but that doesn't take away that I am thankful for it haha"
+        }
+      ]
+    },
+    {
+      "ts": "1758615266.009009",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":alert2: Hey folks. I would like your comments on this by EOW :alert2:\n\n1. *Problem*: with GenAI being proliferated through the organization and analyzing it's capabilities, the role of the product manager, their daily work is expected to shift and adapt. Product managers across HelloTech lack a definition of their new role, processes and ways to practically apply GenAI and its' capabilities in their daily/core work.\n2. *Goal*: provide a new ways of working for product managers within the organization, based on what is available right now, offering a platform to build into the future to accelerate customer problem identificaiton, resolution and achieve business objectives.\n3. *Approach*:\n    a. Documented known use cases and flows, attempting to be tool agnostic where possible, avoid investment into tools that are \"wrappers\" on core models as much as possible\n    b. Define new role and core tasks for a product manager within a GenAI augmented organization\n    c. Provide tools and workflows that would support problem identification, prioritization, solutioning, execution and launch of software products with their teams\n4. *Ask*: Feel free to review and comment the \"Cheat Sheet\" and experiment with the NotebookLM based on captured sources\n    a. Feel free to go through the full source document\n5. *Resources*:\n    a. https://docs.google.com/document/d/1kui7j2A6Ry2s1RbzRqBTWmH3GUWw5Ba3cLlOLAQO60Q/edit?usp=sharing (cheat sheet)\n    b. https://docs.google.com/document/d/1OM-lmUzYlIijXk5F2_WwkoY4n0BHVoN733m8V_aO0Ew/edit?usp=sharing\n    c. https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0\n6. *Next* *steps*: work together with the AI Assemble and the UX/Engineering efforts on GenAI integration to augment and adapt the role and proposed approaches based on evolving capabilities.\n",
+      "raw_text": ":alert2: Hey folks. I would like your comments on this by EOW :alert2:\n\n1. *Problem*: with GenAI being proliferated through the organization and analyzing it's capabilities, the role of the product manager, their daily work is expected to shift and adapt. Product managers across HelloTech lack a definition of their new role, processes and ways to practically apply GenAI and its' capabilities in their daily/core work.\n2. *Goal*: provide a new ways of working for product managers within the organization, based on what is available right now, offering a platform to build into the future to accelerate customer problem identificaiton, resolution and achieve business objectives.\n3. *Approach*:\n    a. Documented known use cases and flows, attempting to be tool agnostic where possible, avoid investment into tools that are \"wrappers\" on core models as much as possible\n    b. Define new role and core tasks for a product manager within a GenAI augmented organization\n    c. Provide tools and workflows that would support problem identification, prioritization, solutioning, execution and launch of software products with their teams\n4. *Ask*: Feel free to review and comment the \"Cheat Sheet\" and experiment with the NotebookLM based on captured sources\n    a. Feel free to go through the full source document\n5. *Resources*:\n    a. <https://docs.google.com/document/d/1kui7j2A6Ry2s1RbzRqBTWmH3GUWw5Ba3cLlOLAQO60Q/edit?usp=sharing|Context Driven Product Management> (cheat sheet)\n    b. <https://docs.google.com/document/d/1OM-lmUzYlIijXk5F2_WwkoY4n0BHVoN733m8V_aO0Ew/edit?usp=sharing|Full Context>\n    c. <https://notebooklm.google.com/notebook/f18e8213-e69b-41fd-999d-5036b8bb85a0|Notebook>\n6. *Next* *steps*: work together with the AI Assemble and the UX/Engineering efforts on GenAI integration to augment and adapt the role and proposed approaches based on evolving capabilities.\n",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W39",
+      "tags": [
+        "deadline",
+        "question"
+      ],
+      "importance": 91,
+      "reply_count": 3,
+      "reactions": [],
+      "thread_ts": "1758615266.009009",
+      "thread_replies": [
+        {
+          "ts": "1758819853.406939",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X you need to give access to the NotebookLM"
+        },
+        {
+          "ts": "1758822737.316459",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "When will they fix the access issues :melting_face:"
+        },
+        {
+          "ts": "1758834803.764889",
+          "user": "U03R6F2AG9K",
+          "user_name": "U03R6F2AG9K",
+          "text": "@U03TY4YJU4X Try sharing with `hellotech@hellofresh.com`  :slightly_smiling_face:\nthat's what I did for the ABBA Notebook"
+        }
+      ]
+    },
+    {
+      "ts": "1758722431.198229",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":alert2: Hey folks, we have ~$*4000 in L&D* that we need to spend before the end of the year*!*\n\nGot a cool course? Books? *TOOLS!* Submit here: https://docs.google.com/spreadsheets/d/1Pw1Lem2YMIQzvRRqHbVmXSm_Ma1yhTnQ7W64L3nGDPE/edit?usp=sharing ",
+      "raw_text": ":alert2: Hey folks, we have ~$*4000 in L&D* that we need to spend before the end of the year*!*\n\nGot a cool course? Books? *TOOLS!* Submit here: <https://docs.google.com/spreadsheets/d/1Pw1Lem2YMIQzvRRqHbVmXSm_Ma1yhTnQ7W64L3nGDPE/edit?usp=sharing> ",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W39",
+      "tags": [
+        "high_engagement",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 16,
+      "reactions": [],
+      "thread_ts": "1758722431.198229",
+      "thread_replies": [
+        {
+          "ts": "1758722484.676569",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "@U07VDFEFBQU @U03R6F2AG9K @U03UMPD2NNS @U01AKGWGLC8 @U023F53GS21"
+        },
+        {
+          "ts": "1758793178.188329",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "Do you have good recommendations for AI courses? That could be an interesting one"
+        },
+        {
+          "ts": "1760613576.178209",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "@U03TY4YJU4X I added some GenAI intro courses from Coursera, completely going off CGPT's suggestions but open to other ideas\n\n*Question*: does the same budget renew for 2026?\none of the courses is a monthly charge but realistically probably will only get to this next year"
+        },
+        {
+          "ts": "1760613792.778599",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "and let me know if I can already by the other courses"
+        },
+        {
+          "ts": "1760619361.319559",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Unfortunately I don't know about 2026 rn, so at least for 2025 we can fund that\\"
+        },
+        {
+          "ts": "1760619418.768789",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "can I book the courses already? or i need to submit somewhere else?"
+        },
+        {
+          "ts": "1760619442.486099",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "you can and we should cover that through Oracle"
+        },
+        {
+          "ts": "1760687637.999329",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "@U01AKGWGLC8 what course are you taking?"
+        },
+        {
+          "ts": "1760687828.665079",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "I put it on the sheet Nikita linked -- are you already taking another one?"
+        },
+        {
+          "ts": "1760687838.674659",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Haven't bought it yet so can't say how good it is"
+        },
+        {
+          "ts": "1760688539.592369",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "I see this on every course you linked?"
+        },
+        {
+          "ts": "1760709222.333039",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "if you click on it and sign up it then says it's 42eur"
+        },
+        {
+          "ts": "1760796035.437709",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "I think the GenAI for Everyone course is too basic I would skip it"
+        }
+      ]
+    },
+    {
+      "ts": "1760604050.843159",
+      "user": "U03UMPD2NNS",
+      "user_name": "U03UMPD2NNS",
+      "text": "Hey Leute,\n@U03TY4YJU4X - cool initiative with the Product Team lunch, how strict is this day? Any chance to push it to Friday?\nIt's Pedro's Bday on Thu, I was planning to organize a Squad lunch then.",
+      "raw_text": "Hey Leute,\n<@U03TY4YJU4X> - cool initiative with the Product Team lunch, how strict is this day? Any chance to push it to Friday?\nIt's Pedro's Bday on Thu, I was planning to organize a Squad lunch then.",
+      "channel_id": "C08KU0F8EF4",
+      "channel_name": "tribe-new-ventures-product",
+      "week": "2025-W42",
+      "tags": [
+        "question"
+      ],
+      "importance": 73,
+      "reply_count": 4,
+      "reactions": [],
+      "thread_ts": "1760604050.843159",
+      "thread_replies": [
+        {
+          "ts": "1760604154.669189",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Ah, damn, it's kinda strict? I can check with Prateek, but that's when he's available, the idea was to meet the new team member :confused: let me check with him"
+        },
+        {
+          "ts": "1760613289.416929",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Yeah, would be great to move push it by 1 day or 1 week"
+        },
+        {
+          "ts": "1761028995.338599",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Is it confirmed for this Thursday or are we moving?"
+        },
+        {
+          "ts": "1761033479.700409",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "we are confirmed Thursday, will book :+1:"
+        }
+      ]
+    }
+  ]
+}

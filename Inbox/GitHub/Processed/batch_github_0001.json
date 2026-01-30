@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0001",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "2326fecb",
+      "message": "[RTEVMS-2277] Factor Form | Cancellation Flash Fix (#62288)\n\n* add check for vmssubscription\n\n* add check for grandtotal",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-23T17:59:48Z",
+      "url": "https://github.com/hellofresh/web/commit/2326fecb79c6f99efacc18cf8e3543d04f346ac7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "5a609733",
+      "message": "[TPT-2214] Implement Select this recipe CTA (#62271)\n\n* [TPT-2214] select recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA\n\n* [TPT-2214] Implement Select this recipe CTA",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-12-23T16:06:26Z",
+      "url": "https://github.com/hellofresh/web/commit/5a6097334f4876d80b1b53e98c5c996228ea9999",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b2778cb1",
+      "message": "[GOC-3399] one-time-deliveries page (#62151)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-23T15:33:33Z",
+      "url": "https://github.com/hellofresh/web/commit/b2778cb19fb72770d58e8f3f80d6b0e8b37159d1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "26c4e2c3",
+      "message": "[GOC-3399] Rewrites regroups (#62147)\n\n* Constants renames and reorg\n\n* Regroups and renames\n\n* Add test for conflicts and resolve them",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-23T14:25:55Z",
+      "url": "https://github.com/hellofresh/web/commit/26c4e2c32714357b75686a5a4e6a1ccf0b61aade",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "3312489c",
+      "message": "[TPT-2516] 75% portion option removed for 226+ calories for funnel (#62137)\n\n* [TPT-2516] 75% portion option removed for 226+ calories for funnel\n\n* [TPT-2516] The calorie range includes values greater than or equal to 88\n\n* [TPT-2516] minor update\n\n* [TPT-2516] Use 100% equivalent calories for portion filtering in active experience (#62159)\n\n---------\n\nCo-authored-by: Guhan Sundararajan <gsun@hellofresh.com>",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-23T12:32:10Z",
+      "url": "https://github.com/hellofresh/web/commit/3312489c49c43370e44007afab7ce616690e0206",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "1dc1c793",
+      "message": "[TPT-2522] F4L feature flag clean-up (#62249)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-23T11:29:20Z",
+      "url": "https://github.com/hellofresh/web/commit/1dc1c793910d3c974fcbdd3050390e8ac9316916",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "43b99021",
+      "message": "[GOC-3399] Fix sqf-validate-questions-ES-GB-IE (#62269)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-23T10:41:37Z",
+      "url": "https://github.com/hellofresh/web/commit/43b990213b04e5ed1eab5cfa4f824fd2bec6e455",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "abe3cf42",
+      "message": "[TPT-2507] Updating adjust calories config for new portions (#62206)\n\n* [TPT-2507] Updating adjust calories config for new portions\n\n* [TPT-2507] Updated filter logic to cover if both excludeSKUs and customRange available",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-23T10:27:24Z",
+      "url": "https://github.com/hellofresh/web/commit/abe3cf424a553bf3120544f3d10b5f51e7fddfe6",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8ab43b83",
+      "message": "[TPT-2367] Deprecate cadence from delivery options (#62236)\n\n* adds cadance deprecation logic\n\n* fix test",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-12-23T10:19:46Z",
+      "url": "https://github.com/hellofresh/web/commit/8ab43b83f5e11a7adda0e975dffd799851ca84f8",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "3d722825",
+      "message": "[TPT-2214] contentful keys for Select this recipe CTA (#62267)",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-12-23T09:47:53Z",
+      "url": "https://github.com/hellofresh/web/commit/3d722825f5781fa570c3a45c91460d7f3e9eda23",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "b1834715",
+      "message": "[RTEVMS-2261] Factor Form | OTP: Calculate Migration Cleanup (#62255)\n\n* add todo\n\n* update to only use batch for now\n\n* remove feature flag\n\n* update tests",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-22T20:46:21Z",
+      "url": "https://github.com/hellofresh/web/commit/b18347152eee99bba6e54a994e8c5365a758f960",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "8c6d71af",
+      "message": "[TPT-2521] Unquarantine allergens E2E (#62220)\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-12-22T14:12:35Z",
+      "url": "https://github.com/hellofresh/web/commit/8c6d71afc6fed1a822554e5ef5d1d0d973d13850",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "684298a5",
+      "message": "[GOC-3433] Unquarantine: EditDeliveryAddress-NV.spec.ts (#62211)\n\n* [GOC-3433] Fixes submit button selector\n\n* [GOC-3433] Non needed file",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-22T13:40:27Z",
+      "url": "https://github.com/hellofresh/web/commit/684298a5468f43fff4767d50bd7ce06c8f8e785e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "99a5432d",
+      "message": "[GOC-3362] add otp detection for SubscriptionLoading (#62059)\n\n* add otp detection\n\n* fix the sequence of steps\n\n* added tests to loading subsciption\n\n* fix the steps\n\n* change heading\n\n* change heading",
+      "author": "nvyer",
+      "author_email": "nvard.yeritsyan@ext.hellofresh.com",
+      "date": "2025-12-22T13:37:34Z",
+      "url": "https://github.com/hellofresh/web/commit/99a5432d63d5ed62b36ca3a87d712be403f77dea",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "82c888be",
+      "message": "[TPT-2520] Add .should('be.visible') to helper functions (#62210)\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-12-22T10:44:20Z",
+      "url": "https://github.com/hellofresh/web/commit/82c888be7960f7d2f4ce45ecd98e315213c913e7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2610bcbd",
+      "message": "[GOC-3428] Adds statsig tracking on handleOTPCheckoutSubmit (#62153)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-22T10:10:07Z",
+      "url": "https://github.com/hellofresh/web/commit/2610bcbdcf1173d54d20375f3d530682461e86d3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "d30645b3",
+      "message": "[GOC-3426] Clear localStorage OTP address keys after successful order (#62064)\n\nClear wl-shipping-address-id and wl-billing-address-id from localStorage\nafter successful OTP order creation to prevent stale address data from\ncausing 403 Forbidden errors on subsequent orders.\n\nImplementation:\n- Add clearAddresses() function to usePersistOTPAddresses hook\n- Call clearAddresses() in onCheckoutSuccessMinimal after order success\n- Add telemetry tracking (otp.addressKeysCleared: true)\n- Add comprehensive unit tests for cleanup logic and timing\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-authored-by: Claude Sonnet 4.5 <noreply@anthropic.com>",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-12-22T09:23:19Z",
+      "url": "https://github.com/hellofresh/web/commit/d30645b34b4cc624e7740753e8ea2db8e32bce6a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "053e7929",
+      "message": "[TPT-2305] Fix checkout header plans selection redirection (#62082)\n\n* [TPT-2305] Fix checkout header redirection\n\n* [TPT-2305] Fix race condition\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-12-22T09:08:13Z",
+      "url": "https://github.com/hellofresh/web/commit/053e792999e3323cd0ce2803573a83ee3bde0504",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "9a19e07c",
+      "message": "[TPT-2441]: tests for price in reactivation (#62055)\n\n* [TPT-2441]: tests for price in reactivation\n\n* review fixes",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-12-22T09:07:30Z",
+      "url": "https://github.com/hellofresh/web/commit/9a19e07ced5d47acb75195fc4f751b900b3b3d83",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "437d3573",
+      "message": "[RTEVMS-2392] Factor Form | OTP: add checkout_type to ecommerce event (#62156)\n\n* add checkout_type\n\n* add checkout type\n\n* add checkoutType to test:\n\n* fix checkouttype\n\n* add hardcoded subscription checkouttype",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-19T21:17:49Z",
+      "url": "https://github.com/hellofresh/web/commit/437d35739e4f68f27582448db4ecd41fc74a5501",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-19T21:17:49Z",
+    "newest": "2025-12-23T17:59:48Z"
+  }
+}

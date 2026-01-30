@@ -1,0 +1,1106 @@
+{
+  "channel_id": "C06CE7FB951",
+  "channel_name": "tribe-new-ventures-internal",
+  "week": "2025-W33",
+  "extracted_at": "2026-01-02T10:42:56.431539Z",
+  "message_count": 3,
+  "messages": [
+    {
+      "text": "Actually, to speed things up for IT, can I get folks to add your names with some details about your Macbook to this <https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0|sheet> please? You can find these details by going to *About this Mac* on the top left",
+      "files": [
+        {
+          "id": "F09A2A0HD2P",
+          "created": 1755102258,
+          "timestamp": 1755102258,
+          "name": "New Ventures Tribe - Replacement Macbooks",
+          "title": "New Ventures Tribe - Replacement Macbooks 2025",
+          "mimetype": "application/vnd.google-apps.spreadsheet",
+          "filetype": "gsheet",
+          "pretty_type": "Google Sheets",
+          "user": "UEZ4PRFKM",
+          "user_team": "T02AGMUUR",
+          "editable": false,
+          "size": 0,
+          "mode": "external",
+          "is_external": true,
+          "external_type": "gdrive",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "external_id": "12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y",
+          "external_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+          "url_private": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_360.png",
+          "thumb_360_w": 254,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_480.png",
+          "thumb_480_w": 339,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_720.png",
+          "thumb_720_w": 509,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1132,
+          "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_960.png",
+          "thumb_960_w": 678,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_1024.png",
+          "thumb_1024_w": 724,
+          "thumb_1024_h": 1024,
+          "thumb_tiny": "AwAwACLRbfkbSoHuM/1puZQwBdOenyn/ABqSigBn7zP3l/75/wDr0DzNwBZf++f/AK9PooAKKKKACikJoyPWgBaKTI9aMigBaKKKACiiigAooooAKKKKAP/Z",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09A2A0HD2P/new_ventures_tribe_-_replacement_macbooks",
+          "is_starred": false,
+          "skipped_shares": true,
+          "app_id": "A6NL8MJ6Q",
+          "has_rich_preview": true,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "UEZ4PRFKM",
+      "display_as_bot": false,
+      "x_files": [
+        "F09A2A0HD2P"
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "s5T8c",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Actually, to speed things up for IT, can I get folks to add your names with some details about your Macbook to this "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+                  "text": "sheet"
+                },
+                {
+                  "type": "text",
+                  "text": " please? You can find these details by going to "
+                },
+                {
+                  "type": "text",
+                  "text": "About this Mac ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "on the top left"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subtype": "thread_broadcast",
+      "root": {
+        "user": "UEZ4PRFKM",
+        "type": "message",
+        "ts": "1755101802.888629",
+        "client_msg_id": "b42b95a6-8f8f-416b-b6e5-cd9a793c32d4",
+        "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if *I could get anyone who is on a 16GB RAM Macbook* to please emoji :me: or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n<@U8F7ZDAPM> <@U027201FQSV> <@U01TQGXG9D3> <@U2D54V0UV> if you could iterate to your teams in standup please",
+        "team": "T02AGMUUR",
+        "thread_ts": "1755101802.888629",
+        "reply_count": 14,
+        "reply_users_count": 6,
+        "latest_reply": "1755160104.655919",
+        "reply_users": [
+          "U0MBX09UZ",
+          "UEZ4PRFKM",
+          "U01TQGXG9D3",
+          "U027201FQSV",
+          "U2D54V0UV",
+          "U0958HM93B3"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "9xwQc",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if "
+                  },
+                  {
+                    "type": "text",
+                    "text": "I could get anyone who is on a 16GB RAM Macbook",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " to please emoji "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "me"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n"
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U8F7ZDAPM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U027201FQSV"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U01TQGXG9D3"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U2D54V0UV"
+                  },
+                  {
+                    "type": "text",
+                    "text": " if you could iterate to your teams in standup please"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "type": "message",
+      "ts": "1755102255.026119",
+      "client_msg_id": "a34b8351-0117-49a0-b009-333bdb1c493c",
+      "thread_ts": "1755101802.888629",
+      "parent_user_id": "UEZ4PRFKM",
+      "attachments": [
+        {
+          "from_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+          "id": 1406510252,
+          "bot_id": "B79TAGCE4",
+          "is_app_unfurl": true,
+          "app_unfurl_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U03EN3N4KM4",
+            "U02BA3VS7H8"
+          ],
+          "count": 2
+        },
+        {
+          "name": "blob-thanks",
+          "users": [
+            "U03EN3N4KM4"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1755101802.888629",
+      "client_msg_id": "b42b95a6-8f8f-416b-b6e5-cd9a793c32d4",
+      "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if *I could get anyone who is on a 16GB RAM Macbook* to please emoji :me: or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n<@U8F7ZDAPM> <@U027201FQSV> <@U01TQGXG9D3> <@U2D54V0UV> if you could iterate to your teams in standup please",
+      "team": "T02AGMUUR",
+      "thread_ts": "1755101802.888629",
+      "reply_count": 14,
+      "reply_users_count": 6,
+      "latest_reply": "1755160104.655919",
+      "reply_users": [
+        "U0MBX09UZ",
+        "UEZ4PRFKM",
+        "U01TQGXG9D3",
+        "U027201FQSV",
+        "U2D54V0UV",
+        "U0958HM93B3"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9xwQc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if "
+                },
+                {
+                  "type": "text",
+                  "text": "I could get anyone who is on a 16GB RAM Macbook",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " to please emoji "
+                },
+                {
+                  "type": "emoji",
+                  "name": "me"
+                },
+                {
+                  "type": "text",
+                  "text": " or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U027201FQSV"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01TQGXG9D3"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U2D54V0UV"
+                },
+                {
+                  "type": "text",
+                  "text": " if you could iterate to your teams in standup please"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "clapping",
+          "users": [
+            "U2D54V0UV",
+            "U01PE2S4ZL6",
+            "U03EN3N4KM4",
+            "U01DE9ENHG9"
+          ],
+          "count": 4
+        },
+        {
+          "name": "panic-kermit",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "blob-pray-pensive",
+          "users": [
+            "U01TQGXG9D3"
+          ],
+          "count": 1
+        },
+        {
+          "name": "nice",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "jgm-hackerbongocat",
+          "users": [
+            "U027201FQSV",
+            "U03EN3N4KM4"
+          ],
+          "count": 2
+        }
+      ],
+      "_thread_replies": [
+        {
+          "text": "does 18GB count as 16GB? and I got this computer a couple of months ago, as top of the line :hide-the-pain:",
+          "files": [
+            {
+              "id": "F09A7L6M5HB",
+              "created": 1755101897,
+              "timestamp": 1755101897,
+              "name": "Screenshot 2025-08-13 at 18.17.46.png",
+              "title": "Screenshot 2025-08-13 at 18.17.46.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U0MBX09UZ",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 57759,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F09A7L6M5HB/screenshot_2025-08-13_at_18.17.46.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F09A7L6M5HB/download/screenshot_2025-08-13_at_18.17.46.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09A7L6M5HB-97d020c239/screenshot_2025-08-13_at_18.17.46_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09A7L6M5HB-97d020c239/screenshot_2025-08-13_at_18.17.46_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09A7L6M5HB-97d020c239/screenshot_2025-08-13_at_18.17.46_360.png",
+              "thumb_360_w": 239,
+              "thumb_360_h": 343,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09A7L6M5HB-97d020c239/screenshot_2025-08-13_at_18.17.46_160.png",
+              "original_w": 239,
+              "original_h": 343,
+              "thumb_tiny": "AwAwACK9VZ52DEbBwf73/wBarNU3kj3t869fWnFJ7kybWwec/wDcX/vr/wCtUqncoOMVBvj/AL6/nU8eCgIII9qJpLYItvcdRS4oxWZZIyhhhgCPQ1GYYv8Anmn/AHyKlqExYOQ7n2J4qxCeVH/zzX8qVUVc7VAz6Cm7cNksTxjk0o4HUn61LGPopuaM0gJScHoaYc55I/I1JUb8Hhc+9UIhJOeQ3+fxpQaQ/ePyY96WgBc0ZpKKQz//2Q==",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09A7L6M5HB/screenshot_2025-08-13_at_18.17.46.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F09A7L6M5HB-67619df637",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U0MBX09UZ",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3YS7z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "does 18GB count as 16GB? and I got this computer a couple of months ago, as top of the line "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hide-the-pain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1755101913.357009",
+          "client_msg_id": "9f490c58-9262-4b50-970d-3ec7f71366d9",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM"
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1755101968.002569",
+          "client_msg_id": "8fd08aae-c73f-454c-9840-934f60479b19",
+          "text": "it is way faster than my 2019 macbook pro though, so I can't complain :stuck_out_tongue:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QMvmv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it is way faster than my 2019 macbook pro though, so I can't complain "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "stuck_out_tongue",
+                      "unicode": "1f61b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Actually, to speed things up for IT, can I get folks to add your names with some details about your Macbook to this <https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0|sheet> please? You can find these details by going to *About this Mac* on the top left",
+          "files": [
+            {
+              "id": "F09A2A0HD2P",
+              "created": 1755102258,
+              "timestamp": 1755102258,
+              "name": "New Ventures Tribe - Replacement Macbooks",
+              "title": "New Ventures Tribe - Replacement Macbooks 2025",
+              "mimetype": "application/vnd.google-apps.spreadsheet",
+              "filetype": "gsheet",
+              "pretty_type": "Google Sheets",
+              "user": "UEZ4PRFKM",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 0,
+              "mode": "external",
+              "is_external": true,
+              "external_type": "gdrive",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "external_id": "12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y",
+              "external_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+              "url_private": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_360.png",
+              "thumb_360_w": 254,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_480.png",
+              "thumb_480_w": 339,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_720.png",
+              "thumb_720_w": 509,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 1132,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_960.png",
+              "thumb_960_w": 678,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F09A2A0HD2P-803e7de24b/new_ventures_tribe_-_replacement_macbooks_1024.png",
+              "thumb_1024_w": 724,
+              "thumb_1024_h": 1024,
+              "thumb_tiny": "AwAwACLRbfkbSoHuM/1puZQwBdOenyn/ABqSigBn7zP3l/75/wDr0DzNwBZf++f/AK9PooAKKKKACikJoyPWgBaKTI9aMigBaKKKACiiigAooooAKKKKAP/Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F09A2A0HD2P/new_ventures_tribe_-_replacement_macbooks",
+              "is_starred": false,
+              "skipped_shares": true,
+              "app_id": "A6NL8MJ6Q",
+              "has_rich_preview": true,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "UEZ4PRFKM",
+          "display_as_bot": false,
+          "x_files": [
+            "F09A2A0HD2P"
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s5T8c",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Actually, to speed things up for IT, can I get folks to add your names with some details about your Macbook to this "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+                      "text": "sheet"
+                    },
+                    {
+                      "type": "text",
+                      "text": " please? You can find these details by going to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "About this Mac ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "on the top left"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subtype": "thread_broadcast",
+          "root": {
+            "user": "UEZ4PRFKM",
+            "type": "message",
+            "ts": "1755101802.888629",
+            "client_msg_id": "b42b95a6-8f8f-416b-b6e5-cd9a793c32d4",
+            "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if *I could get anyone who is on a 16GB RAM Macbook* to please emoji :me: or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n<@U8F7ZDAPM> <@U027201FQSV> <@U01TQGXG9D3> <@U2D54V0UV> if you could iterate to your teams in standup please",
+            "team": "T02AGMUUR",
+            "thread_ts": "1755101802.888629",
+            "reply_count": 14,
+            "reply_users_count": 6,
+            "latest_reply": "1755160104.655919",
+            "reply_users": [
+              "U0MBX09UZ",
+              "UEZ4PRFKM",
+              "U01TQGXG9D3",
+              "U027201FQSV",
+              "U2D54V0UV",
+              "U0958HM93B3"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+              {
+                "type": "rich_text",
+                "block_id": "9xwQc",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "Hey everyone,\n\nI have been given priority access before the general rollout of improved Macbooks for HelloTech as our teams are working heavily with AI and mobile development so if "
+                      },
+                      {
+                        "type": "text",
+                        "text": "I could get anyone who is on a 16GB RAM Macbook",
+                        "style": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": " to please emoji "
+                      },
+                      {
+                        "type": "emoji",
+                        "name": "me"
+                      },
+                      {
+                        "type": "text",
+                        "text": " or comment on this thread and I can get you on the list for rollout in DE in the next 2 weeks. For anyone in CA, you will also get improved hardware from the CA IT team but this will be closer to 3 weeks until they are in stock over there.\n\n"
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U8F7ZDAPM"
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U027201FQSV"
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U01TQGXG9D3"
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U2D54V0UV"
+                      },
+                      {
+                        "type": "text",
+                        "text": " if you could iterate to your teams in standup please"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "message",
+          "ts": "1755102255.026119",
+          "client_msg_id": "a34b8351-0117-49a0-b009-333bdb1c493c",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "attachments": [
+            {
+              "from_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0",
+              "id": 1406510252,
+              "bot_id": "B79TAGCE4",
+              "is_app_unfurl": true,
+              "app_unfurl_url": "https://docs.google.com/spreadsheets/d/12lQFrvQRR0r3akumrwenewQg6rB9fRH1H4OM-uJhq-Y/edit?gid=0#gid=0"
+            }
+          ],
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U2D54V0UV"
+              ],
+              "count": 1
+            },
+            {
+              "name": "white_check_mark",
+              "users": [
+                "U03EN3N4KM4",
+                "U02BA3VS7H8"
+              ],
+              "count": 2
+            },
+            {
+              "name": "blob-thanks",
+              "users": [
+                "U03EN3N4KM4"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1755102338.001229",
+          "client_msg_id": "303fecfa-c558-4a8a-b522-4564d699161c",
+          "text": "Yea <@U0MBX09UZ> add yourself and we will see what they say, they gave me the same one as you and I got it less than 3 months ago",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Z7Pmp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yea "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0MBX09UZ"
+                    },
+                    {
+                      "type": "text",
+                      "text": " add yourself and we will see what they say, they gave me the same one as you and I got it less than 3 months ago"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01TQGXG9D3",
+          "type": "message",
+          "ts": "1755105095.528569",
+          "client_msg_id": "c2b7633b-17a2-4c19-ac78-5cb2f5befc81",
+          "text": "Cc: <@U01DE9ENHG9> <@U02M8QB04HE> for when you are back",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "a1wo+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Cc: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01DE9ENHG9"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02M8QB04HE"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for when you are back"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1755109600.470939",
+          "client_msg_id": "1331e648-e506-4559-b37b-5a41ba7a32f5",
+          "text": "I have 32GB with M1 Pro Chip. I guess I'm not applicable for the replacement :hide_the_pain:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fxwlq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I have 32GB with M1 Pro Chip. I guess I'm not applicable for the replacement "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "hide_the_pain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1755116535.755559",
+          "client_msg_id": "3610fdc0-80f7-4407-9876-b4df3ddc8505",
+          "text": "<@U01TQGXG9D3> the ABBA team is on another list as well and their exchange lined up already but I added them to this list as well",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eWGJh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01TQGXG9D3"
+                    },
+                    {
+                      "type": "text",
+                      "text": " the ABBA team is on another list as well and their exchange lined up already but I added them to this list as well"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1755116704.498899",
+          "edited": {
+            "user": "UEZ4PRFKM",
+            "ts": "1755156118.000000"
+          },
+          "client_msg_id": "cacb5d33-4551-446d-b5bc-8974b5d4b17c",
+          "text": "If folks are having general performance issues or their machine is 2022 or older, add yourself to the list and we will try to get these swapped as well, I just know we are prioritizing 16 GB hardware first",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K9D7R",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If folks are having general performance issues or their machine is 2022 or older, add yourself to the list and we will try to get these swapped as well, I just know we are prioritizing 16 GB hardware first"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1755155536.506569",
+          "client_msg_id": "6d2c8601-ec53-414b-910a-b0466a4024c5",
+          "text": "HI <@UEZ4PRFKM> I already got emailed by IT to schedule an appointment for a replacement. Should I still add my name to the list for tracking purposes? Thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OwSRY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "HI "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I already got emailed by IT to schedule an appointment for a replacement. Should I still add my name to the list for tracking purposes? Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1755156024.654819",
+          "client_msg_id": "2f5f0362-e248-4ef2-b0d7-817b749c1ca0",
+          "text": "yes pls",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8N+Fw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes pls"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1755156482.841779",
+          "client_msg_id": "0f5d4e41-5904-41c9-843d-c76c39390acb",
+          "text": "i'm going to wait a bit before I ask for a new computer, even though mine is not very powerful, it's still much better than everyone that signed up in that list",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4dmCA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i'm going to wait a bit before I ask for a new computer, even though mine is not very powerful, it's still much better than everyone that signed up in that list"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0MBX09UZ",
+          "type": "message",
+          "ts": "1755156492.169479",
+          "client_msg_id": "965f9939-d9e3-421d-b4dd-849f9715529b",
+          "text": "maybe next time I go to Berlin",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Xl8zS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "maybe next time I go to Berlin"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U0958HM93B3",
+          "type": "message",
+          "ts": "1755158343.231369",
+          "client_msg_id": "779732a5-bf65-405b-ad3c-e6fbc46899a4",
+          "text": "Should I put my name on the list? I'm using a 16GB M1 Pro, but since I'll only be here 1 more month, I don't want to get in the way of others who may need it more than me.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LIJag",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Should I put my name on the list? I'm using a 16GB M1 Pro, but since I'll only be here 1 more month, I don't want to get in the way of others who may need it more than me."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1755160104.655919",
+          "client_msg_id": "10f0ea8d-d14e-4630-9916-0df0a68bf945",
+          "text": "Yea sorry troy for you it likely wouldnt make too much sense - for when you come back next summer though :wink:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755101802.888629",
+          "parent_user_id": "UEZ4PRFKM",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SdZIM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yea sorry troy for you it likely wouldnt make too much sense - for when you come back next summer though "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wink",
+                      "unicode": "1f609"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U0958HM93B3"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U027201FQSV",
+      "type": "message",
+      "ts": "1755077117.068089",
+      "client_msg_id": "9dbd61fe-6b05-40ee-a060-cad5346c4540",
+      "text": "Hey team, we have noticed that some team members didn't see \"TAM Quarterly All Hands Meeting\" at 16:00-17:15 CET today. Please let us know if someone still can't see it in your calendars.",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Tdo5i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey team, we have noticed that some team members didn't see \"TAM Quarterly All Hands Meeting\" at 16:00-17:15 CET today. Please let us know if someone still can't see it in your calendars."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U01PE2S4ZL6",
+            "U02BA3VS7H8"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

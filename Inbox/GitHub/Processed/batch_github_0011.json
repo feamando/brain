@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0011",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "7d6b3ded",
+      "message": "[GOC-3195] update free-addon banner and dropdown styles (#60815)\n\n* add styles of banners and dropdowns\n\n* add styling to static configs\n\n* create zest component and migrate goodchop styles from config\n\n* change good chop custom styles flag name\n\n* fix: voucher e2e selectors\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-12-02T13:08:29Z",
+      "url": "https://github.com/hellofresh/web/commit/7d6b3ded4f9cdb932cdd0b728e25d92ebee88d89",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "b9094179",
+      "message": "[GOC-3357] skip PCS call for OTP users (#61082)\n\n* skip PCS call for OTP users\n\n* fix changes after conflict resolution\n\n---------\n\nCo-authored-by: Nvard Yeritsyan <nvard.yeritsyan@ext.hellofresh.com>",
+      "author": "nvyer",
+      "author_email": "nyeritsian@gmail.com",
+      "date": "2025-12-02T12:36:16Z",
+      "url": "https://github.com/hellofresh/web/commit/b90941791e01147658cfbc8d9401f73fc832ef37",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "9f380142",
+      "message": "TPT-2211 - add contentful key for storage and preps title (#61258)",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-02T11:13:41Z",
+      "url": "https://github.com/hellofresh/web/commit/9f3801428d8f51256c68b5ad06821f51a1e4dda0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "7737b71a",
+      "message": "[TPT-2174]: recipe product pages improvement (#61078)\n\n* initial commit\n\n* [TPT-2208] - Key Ingredients section Add constants (#61001)\n\n* TPT-2208 - add recipeIds constant and keyIngredientMapping\n\n* TPT-2208 - add keyIngredientMapping constant\n\n* [TPT-2207]: create header section for new pdp and hook for data flow (#61072)\n\n* TPT-2207: create header section for new pdp and hook for data flow\n\n* TPT-2207: fix tests for recipe drawer\n\n* TPT-2207: add tests for recipe details header and hooks\n\n* TPT-2207: review fixes\n\n* TPT-2207: fix test\n\n* TPT-2207: update title to h2\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* [TPT-2378] - [GD] Adjust identifier for recipe content to be recipe slug instead of ID (#61080)\n\n* TPT-2378 - add recipeSlugs constant\n\n* TPT-2378 - refactor names in recipe slugs\n\n* [TPT-2208] - Key Ingredients section Update mapping (#61084)\n\n* TPT-2208 - update contentful keys\n\n* TPT-2208 - remove dictionary from key ingredients mapping, update to use slugs instead of IDs\n\n* TPT-2208 - update ingredients to be a constant\n\n* TPT-2378 - update slugs to be unique (#61111)\n\n* [TPT-2209]: create accordion wrapper and hook for allergens data (#61109)\n\n* TPT-2209: create accordion wrapper and hook for allergens data\n\n* TPT-2209: add new contentful key\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* [TPT-2208] - [GD] Implement Key ingredients section (#61101)\n\n* TPT-2208 - add key ingredients component\n\n* TPT-2208 - add key ingredients mapping\n\n* TPT-2208 - add useKeyIngredients hook\n\n* TPT-2208 - add tests to KeyIngredients component\n\n* TPT-2208 - add tests to useKeyIngredients hook\n\n* TPT-2208 - rafactor hook\n\n* TPT-2208 - update mapping and key ingredients to use slugs instead of id\n\n* TPT-2208 - update mapping logic to avoid dictionary and dynamically generate contentful key\n\n* TPT-2208 - update recipeData to use keyIngredients\n\n* TPT-2208 - update useKeyIngredients hook and test\n\n* TPT-2208 - move divider inside KeyIngredients component\n\n* TPT-2208 - delete commented code\n\n* TPT-2208 - fix gap to be 16px\n\n* TPT-2208 - fix padding for drawer to be 32px, update key ingredients title to be h3\n\n* TPT-2208 - update padding for mobile\n\n* TPT-2208 - change for loop to reduce for better readability\n\n* TPT-2208 - refactor key ingredients\n\n* TPT-2208 - add data-testids\n\n* [TPT-2209]: create ingredients and allergens section (#61139)\n\n* TPT-2209: create ingredients and allergens section\n\n* TPT-2209: review fixes\n\n* TPT-2209: return margin after rebase\n\n* TPT-2209: add test for Allergens\n\n* TPT-2209: update token\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* TPT-2209: update accordion test (#61168)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* TPT-2209: update recipeDetailsDrawer test (#61170)\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n---------\n\nCo-authored-by: Mariia Oleksiuk <moleksiuk@griddynamics.com>\nCo-authored-by: Mariia Oleksiuk <155674255+moleksiuk-gd@users.noreply.github.com>\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-12-02T10:19:07Z",
+      "url": "https://github.com/hellofresh/web/commit/7737b71aea68a26697971c2264ccdcd134fc2df4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "66077f53",
+      "message": "[TPT-2152]: create payment method update drawer (#60382)\n\n* TPT-2152: create payment method update drawer\n\n* TPT-2152: review fixes\n\n* TPT-2152: add polling for payment status\n\n* TPT-2152: increase interval for polling\n\n* TPT-2152: remove extra optional chaining\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-12-02T10:14:48Z",
+      "url": "https://github.com/hellofresh/web/commit/66077f53e5c0c9803d470899dc6420bf30c08ad3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "dd30549f",
+      "message": "[GOC-3292] Fix checkout with order confirmation test (#61096)",
+      "author": "Romina Nicastro",
+      "author_email": "rominicastro@gmail.com",
+      "date": "2025-12-02T09:33:41Z",
+      "url": "https://github.com/hellofresh/web/commit/dd30549fe7d7bcabd421a06f5df5e2e29df283b3",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "5b1ab7cc",
+      "message": "[GOC-2140] Remove unified payments feature flag for Good Chop (#61186)\n\nRemove the `web_payment-page_goodchop_unified-payments` feature flag\nand enable unified payments by default for Good Chop (MR).\n\nChanges:\n- Set isUMKPaymentEnabled to true in config for Good Chop US\n- Remove feature flag checks from Payment.js and withCheckoutPayment.js\n- Update E2E tests to remove feature flag enablement\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "author": "Alexander Matlin",
+      "author_email": "alexander.matlin@hellofresh.com",
+      "date": "2025-12-02T08:49:05Z",
+      "url": "https://github.com/hellofresh/web/commit/5b1ab7cc6dc146c804ba4e44888b1bc7e61e83d7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "f75d9af3",
+      "message": "[GOC-3350] Add usePersistOTPAddresses hook and tests (#61148)\n\nAdd hook to persist OTP addresses in checkout flow with comprehensive test coverage.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-12-02T08:18:51Z",
+      "url": "https://github.com/hellofresh/web/commit/f75d9af3ccc0178f67886df23b861389bd0e26e1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "2762da1b",
+      "message": "[GOC-3390] Returns premium shipping in whitelabel lib/prices (#61087)\n\n* [GOC-3390] Returns premium shipping in reactivation prices\n\n* [GOC-3390] Renames from premiumShipping to shippingPremiumNonDiscounted\n\n* [GOC-3390] Moves premium shipping into Price interface\n\n* [GOC-3390] Removes redundant override",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-02T07:48:27Z",
+      "url": "https://github.com/hellofresh/web/commit/2762da1b39970e81fa383aad5125141c25e8bc6e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "185844b9",
+      "message": "[GOC-3295] Migrate prices in Reactivation Plan Summary  (#60847)\n\n* [GOC-3295] Replaces prices in Plan Summary\n\n* [GOC-3295] Fixes ts errors keeping previous types in Plan Summary\n\n* [GOC-3295] Moves hook directory\n\n* [GOC-3295] Fixes tests and remove deprecated hook\n\n* [GOC-3295] Fixes tests and remove deprecated hook\n\n* [GOC-3295] Fixes tests ReactivationContent tests\n\n* [GOC-3295] Adds new interceptor\n\n* [GOC-3295] Fixes prices interceptor for other tests\n\n* [GOC-3295] Removes comment\n\n* [GOC-3295] Fixes e2e\n\n* [GOC-3295] Updates useGetReactivationDetailedPrices\n\n* [GOC-3295] Returns null when free shipping\n\n* [GOC-3295] Fixes prices to match previous logic\n\n* [GOC-3295] Returns null when no price in useGetDetailedReactivationPrices\n\n* [GOC-3295] Returns false when no price available\n\n* [GOC-3295] Returns FREE when discounted price per serving is less than zero\n\n* [GOC-3295] Fixes 'FREE' logic for discounted price per serving\n\n* [GOC-3295] Adds comment\n\n* [GOC-3295] Returns false for productDiscount when no discount or less than zero to avoid rendering 0.00\n\n* [GOC-3390] Updates price mock with correct product\n\n* [GOC-3390] Fixes reactivation MR e2e adding prices mock\n\n* [GOC-3390] Fixes reactivation MR e2e adding prices mock",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-02T07:35:11Z",
+      "url": "https://github.com/hellofresh/web/commit/185844b95ae15ffe6c6110e8fb0e666013e307f7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "cb8afcde",
+      "message": "[RTEVMS-2321] Multi-Cadence: O11y traces and UI fixes (#61214)\n\n* fine tune next delivery modifiers cta on mobile\n\n* trace span for networking and mount monitoring\n\n* remove hardcoded width\n\n* fix space between buttons\n\n* remove marging",
+      "author": "Jan Cássio",
+      "author_email": "110180472+jancassiohf@users.noreply.github.com",
+      "date": "2025-12-01T21:19:42Z",
+      "url": "https://github.com/hellofresh/web/commit/cb8afcdecac4d13f035e91707c2733872a5d7690",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "8f623485",
+      "message": "feat(RTEVMS-2230): added hooks for placing VMS OTP order (#61054)\n\nfeat(RTEVMS-2230): updated unit tests\n\nfeat(RTEVMS-2230): applied suggested changes in code review",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-01T14:50:17Z",
+      "url": "https://github.com/hellofresh/web/commit/8f6234853fae831c9d838466e7fa00afebdd2ce5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "2005c9d6",
+      "message": "[RTEVMS-2292]: Updating RAF tests (#61104)\n\n* RTEVMS-2292: updating RAF tests\n\n* RTEVMS-2292: Removing comment",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-01T14:08:23Z",
+      "url": "https://github.com/hellofresh/web/commit/2005c9d62e60cc153163425dce50254bf2fe5c33",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "f254fc19",
+      "message": "[RTEVMS-2320] Factor Form | OTP: block alt flow (#61095)\n\n* add get current checkout type\n\n* update frequency > checkout type for clarity\n\n* update old vars\n\n* fix unit test\n\n* fix checkout type on PDP V2\n\n* change const value",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-01T13:45:03Z",
+      "url": "https://github.com/hellofresh/web/commit/f254fc195809cb4bea9df44cdec6593dab27503d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "2d9ab911",
+      "message": "[TPT-2237]: Show message for top breeds and default message for other breeds (#60658)\n\n* TPT-2237: Show message for top breeds and default message for other breeds [Cursor_Code]\n\n* TPT-2237: Code cleanup and formatting improvements [Cursor_Code]\n\n* Update QuizBreedBreedMessageCard.spec.tsx to be breed-agnostic [Cursor_Code]\n\n* Simplify breed message card rendering conditions [Cursor_Code]\n\n* cr refinements\n\n* TPT-2237: Show message for all breeds\n\n- Update test cases to support messages for non-top breeds\\n- Add null check in BreedMessageCard component\\n- Update American Pit Bull Terrier number\\n\\n[Cursor_Code]\n\n---------\n\nCo-authored-by: matborowiak <mateusz.borowiak@hellofresh.com>",
+      "author": "pedroávila",
+      "author_email": "91055415+pedroavilahello@users.noreply.github.com",
+      "date": "2025-12-01T10:19:04Z",
+      "url": "https://github.com/hellofresh/web/commit/2d9ab911c8c045af375ed93196da7620b24c6431",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "742bb030",
+      "message": "[TPT-2327] migrates notifications to ts (#61086)\n\n* migrates notifications to ts\n\n* fixes test",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-12-01T09:35:37Z",
+      "url": "https://github.com/hellofresh/web/commit/742bb03057704f22b3b4a2a217130cd166b2c396",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "02648c41",
+      "message": "[RTEVMS-2309] Factor Form: Bug Fix to Add Reschedule Order Tooltip on Cancellation Page (#61025)\n\n* RTEVMS-2309: Bug fix for cancellation page tooltip\n\n* RTEVMS-2309: Fixing accessibility bug\n\n* RTEVMS-2309: Accessibility updates to tooltip\n\n* RTEVMS-2309: Accessibility updates to tooltip\n\n* RTEVMS-2309: Accessibility updates to tooltip",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-25T20:39:25Z",
+      "url": "https://github.com/hellofresh/web/commit/02648c41d5fc8d47ddaa74471241f3d375e652ec",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "1226989a",
+      "message": "feat(RTEVMS-2230): extending params to support systemCountry in cart and order for OTP (#61035)",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-11-25T18:23:00Z",
+      "url": "https://github.com/hellofresh/web/commit/1226989ad17a0dee422c27ed82ac0fc58774c248",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "9bc3e8f2",
+      "message": "[RTEVMS-2250] Multi-Cadence GTM Events (#60982)\n\n* add change delivery frequency cta GTM events\n\n* add new delivery frequency select event and refactor buttons to zest segmented button\n\n* add new delivery frequency confirm gtm event\n\n* add new delivery frequency done gtm event\n\n* add done and dismiss gtm events\n\n* fix tests\n\n* memoize ctx to minimize re-render\n\n* reset selection on hiding the modal",
+      "author": "Jan Cássio",
+      "author_email": "110180472+jancassiohf@users.noreply.github.com",
+      "date": "2025-11-25T18:19:44Z",
+      "url": "https://github.com/hellofresh/web/commit/9bc3e8f23b952f5db2ae898796e371ee33d1223c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "0ff3026a",
+      "message": "[TPT-2301] Enabling future weeks override for /cart price request for TPT (#61043)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-25T17:31:40Z",
+      "url": "https://github.com/hellofresh/web/commit/0ff3026ae3ef5f63711ed402da75ae3bcf576f3c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-25T17:31:40Z",
+    "newest": "2025-12-02T13:08:29Z"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "batch_id": "C06CT0185T3_1758634535.889829",
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "message_count": 10,
+  "thread_count": 10,
+  "avg_importance": 83.3,
+  "tag_summary": {
+    "high_engagement": 2,
+    "discussion": 4,
+    "question": 9,
+    "deadline": 1,
+    "notable": 2,
+    "action": 1
+  },
+  "time_range": {
+    "start": "1758634535.889829",
+    "end": "1763756537.581979"
+  },
+  "messages": [
+    {
+      "ts": "1758634535.889829",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks :alert2: from Assaf's presentation last week we're kicking off the product demos next week to present in front of the company: *who would be open to present something on LIVE from our tribe?* ",
+      "raw_text": "Hey folks :alert2: from Assaf's presentation last week we're kicking off the product demos next week to present in front of the company: *who would be open to present something on LIVE from our tribe?* ",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W39",
+      "tags": [
+        "high_engagement",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 18,
+      "reactions": [],
+      "thread_ts": "1758634535.889829",
+      "thread_replies": [
+        {
+          "ts": "1758637078.736219",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "Cross selling MVP?\nI am happy to volunteer :slightly_smiling_face:"
+        },
+        {
+          "ts": "1758638103.492089",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "that would be pretty ace for sure :smile:"
+        },
+        {
+          "ts": "1758638288.352919",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": ":challenge_accepted: cc: @U03R6F2AG9K want to co-demo?"
+        },
+        {
+          "ts": "1758656928.021459",
+          "user": "U03R6F2AG9K",
+          "user_name": "U03R6F2AG9K",
+          "text": "I don't think the demo day is finalized yet right? I'm planning to take PTO mon/tues next week but I can probably join for the demo lets do it!"
+        },
+        {
+          "ts": "1758656946.253939",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "https://hellofresh.slack.com/archives/C051JSUAE10/p1758656808897379?thread_ts=1758656658.437339&amp;cid=C051JSUAE10"
+        },
+        {
+          "ts": "1758656971.028539",
+          "user": "U01TQGXG9D3",
+          "user_name": "U01TQGXG9D3",
+          "text": "The sheet says Tuesday"
+        },
+        {
+          "ts": "1758721939.594179",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "@U8F7ZDAPM @U027201FQSV - anything from TPT/GoC?\n\nAllergens? Although it's a bit old for a prodeuct demo"
+        },
+        {
+          "ts": "1758723469.302669",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "@U01AKGWGLC8 @U07VDFEFBQU should we demo https://hellofresh.atlassian.net/browse/GOC-3130?"
+        },
+        {
+          "ts": "1758724433.976519",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "nah, not the legal confirmation I think, it's not really a customer problem we addressed"
+        },
+        {
+          "ts": "1758725110.515729",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "We used this opportunity to https://www.figma.com/design/tO47CVdCoIDgyvTsMCrJjJ/GoC--SBD-2313----Legal-confirmation-checkbox?node-id=8385-6399&amp;p=f&amp;m=dev the payments page overall"
+        },
+        {
+          "ts": "1758725492.802649",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "try https://www.figma.com/design/tO47CVdCoIDgyvTsMCrJjJ/GoC--SBD-2313----Legal-confirmation-checkbox?node-id=8385-6399&amp;t=IW5BzmegFRa7rIer-1"
+        },
+        {
+          "ts": "1758729577.808569",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "is it a presentation within the tribe or external as well?\n&gt; We used this opportunity to https://www.figma.com/design/tO47CVdCoIDgyvTsMCrJjJ/GoC--SBD-2313----Legal-confirmation-checkbox?node-id=8385-6399&amp;p=f&amp;m=dev the payments page overall\nyes this is true but these improvements are essentially what HF already has so I would not say it's novel enough, depending on who the audience is"
+        },
+        {
+          "ts": "1758730945.491839",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "this is across HelloTech :smile:"
+        },
+        {
+          "ts": "1758730967.800589",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "agreed, I think the imrovements are good for the TAM product reviews tomorrow!"
+        },
+        {
+          "ts": "1758787549.380749",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "^I mean our improvements are almost live so a bit late to get feedback from TAM product review :smile:\n\nWe did already talk about the improvements in the Sprint demo though"
+        },
+        {
+          "ts": "1758793015.770809",
+          "user": "U07VDFEFBQU",
+          "user_name": "U07VDFEFBQU",
+          "text": "We can talk about OTP?"
+        },
+        {
+          "ts": "1758794783.227829",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "We need to demo from production. So we will demo OTP when it's live :wink:"
+        }
+      ]
+    },
+    {
+      "ts": "1759305754.039979",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Morning :sun: folks and don't forget about https://docs.google.com/spreadsheets/d/1YJQCsHkPrR5j_3nWRk6LozJvaW1LvwQw__MaFlcn7bw/edit?usp=sharing :blob-love: deadline: *08.10*",
+      "raw_text": "Morning :sun: folks and don't forget about <https://docs.google.com/spreadsheets/d/1YJQCsHkPrR5j_3nWRk6LozJvaW1LvwQw__MaFlcn7bw/edit?usp=sharing|IT Cap> :blob-love: deadline: *08.10*",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W40",
+      "tags": [
+        "deadline",
+        "notable",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "roger",
+          "users": [
+            "U2D54V0UV",
+            "U03R6F2AG9K"
+          ],
+          "count": 2
+        },
+        {
+          "name": "done_",
+          "users": [
+            "UE4HG114J",
+            "U03R6F2AG9K",
+            "U2D54V0UV",
+            "UEZ4PRFKM"
+          ],
+          "count": 4
+        },
+        {
+          "name": "approve",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1759305754.039979",
+      "thread_replies": [
+        {
+          "ts": "1759309744.938099",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "FYI, my \"days worked\" were not correct (19), as my leaves with the sick note are still not approved. I changed the number to 12.\ncc: @UEZ4PRFKM"
+        },
+        {
+          "ts": "1759309846.977579",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "Oh, actually it's 14 I guess, because conference days are not considered absences, right?"
+        },
+        {
+          "ts": "1759309918.645069",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "hmmm lets consider them here as those were days we couldnt work but yea not reflected since we dont report anything in workday"
+        }
+      ]
+    },
+    {
+      "ts": "1759737849.201999",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": ":importanttt: Hey folks, can we push the IT Cap - *TAM is at 33%*: https://docs.google.com/spreadsheets/d/1YJQCsHkPrR5j_3nWRk6LozJvaW1LvwQw__MaFlcn7bw/edit?usp=sharing",
+      "raw_text": ":importanttt: Hey folks, can we push the IT Cap - *TAM is at 33%*: <https://docs.google.com/spreadsheets/d/1YJQCsHkPrR5j_3nWRk6LozJvaW1LvwQw__MaFlcn7bw/edit?usp=sharing>",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W40",
+      "tags": [
+        "question"
+      ],
+      "importance": 65,
+      "reply_count": 3,
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U01TQGXG9D3",
+            "U2D54V0UV"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1759737849.201999",
+      "thread_replies": [
+        {
+          "ts": "1759838535.843339",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "NV is looking better now with 97% of folks reported and 79% of IT Cap days. Only obvious person we are missing data for is Maria @U03TY4YJU4X"
+        },
+        {
+          "ts": "1759838570.733899",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "There is some discrepancies of folks who left still being marked as working in Sept which I flagged to Portfolio team"
+        },
+        {
+          "ts": "1759843091.964169",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "~Ah, damn, will go through and add Maria, thank you Danie~l! Added!"
+        }
+      ]
+    },
+    {
+      "ts": "1760943631.670259",
+      "user": "U0MBX09UZ",
+      "user_name": "U0MBX09UZ",
+      "text": "hi team, I'm back from vacation - Im going to be spending the day catching up with emails and slack threads, and tackling some important things that require  my attention. If there's anything important you need from me please let me know.",
+      "raw_text": "hi team, I'm back from vacation - Im going to be spending the day catching up with emails and slack threads, and tackling some important things that require  my attention. If there's anything important you need from me please let me know.",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W42",
+      "tags": [
+        "action"
+      ],
+      "importance": 85,
+      "reply_count": 4,
+      "reactions": [
+        {
+          "name": "sun",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1760943631.670259",
+      "thread_replies": [
+        {
+          "ts": "1760943836.468369",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Welcome back, Fede :hugging_face:"
+        },
+        {
+          "ts": "1760945926.823009",
+          "user": "UE4HG114J",
+          "user_name": "UE4HG114J",
+          "text": "I need at least one dad joke asap :pray:"
+        }
+      ]
+    },
+    {
+      "ts": "1762350076.545519",
+      "user": "U8F7ZDAPM",
+      "user_name": "U8F7ZDAPM",
+      "text": "@U027201FQSV @U01V9SX5NG5 @U01BT6RE4JG should we cancel today's operations review meeting? There are currently no slides for October and I think we need to revisit it after the latest re-org",
+      "raw_text": "<@U027201FQSV> <@U01V9SX5NG5> <@U01BT6RE4JG> should we cancel today's operations review meeting? There are currently no slides for October and I think we need to revisit it after the latest re-org",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W45",
+      "tags": [
+        "discussion",
+        "notable",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 6,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U027201FQSV",
+            "U01V9SX5NG5",
+            "U2D54V0UV"
+          ],
+          "count": 3
+        },
+        {
+          "name": "agreed",
+          "users": [
+            "U027201FQSV",
+            "U01V9SX5NG5"
+          ],
+          "count": 2
+        }
+      ],
+      "thread_ts": "1762350076.545519",
+      "thread_replies": [
+        {
+          "ts": "1762350227.632239",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "Thanks for raising - yeah that seems reasonable given the re-org. I was going to toss some slides together but VMS doesn’t have much of interest (maybe just the reactivation cadence issue that spans all NV)"
+        },
+        {
+          "ts": "1762351530.356069",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "@U01V9SX5NG5 could you do me a favor and reschedule it to 1 month from now? I tried to remove it but it just removed it from my calendar, I think rescheduling it will work though"
+        },
+        {
+          "ts": "1762351545.325449",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "Yep taking a look now"
+        },
+        {
+          "ts": "1762351668.571449",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "Rescheduled :+1:\nbut I accidentally doubled it up onto Dec 3 so there's 2 invites for that date now and removing it (same as you) removed it from just my calendar :frog_facepalm:"
+        },
+        {
+          "ts": "1762351905.099639",
+          "user": "U8F7ZDAPM",
+          "user_name": "U8F7ZDAPM",
+          "text": "ok I think it's fine for now, this is a problem for future us"
+        },
+        {
+          "ts": "1762352925.169229",
+          "user": "U01V9SX5NG5",
+          "user_name": "U01V9SX5NG5",
+          "text": "I was going to tag Alex and see if we can find the answer to `how many EMs/ADs does it take to reschedule a meeting` but that might be too painful to know :hehe:"
+        }
+      ]
+    },
+    {
+      "ts": "1762357096.750089",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "ah, folks, what are we demoing tomorrow for the company-wide demo?",
+      "raw_text": "ah, folks, what are we demoing tomorrow for the company-wide demo?",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W45",
+      "tags": [
+        "discussion",
+        "question"
+      ],
+      "importance": 88,
+      "reply_count": 9,
+      "reactions": [],
+      "thread_ts": "1762357096.750089",
+      "thread_replies": [
+        {
+          "ts": "1762357155.186259",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "No recent roll outs on the vms side at this point"
+        },
+        {
+          "ts": "1762357651.752589",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "@U02CRDYF2NL @U07VDFEFBQU - are we on the list with occ. boxes?"
+        },
+        {
+          "ts": "1762358048.282989",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "We were on the list but got pushed out in favour of a recording. I have requested to add us to do a live test instead. Recordings will not get the same visibility "
+        },
+        {
+          "ts": "1762358277.632479",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "gonna check with Hailey, we did position it incorrectly, it's Global Rollout of Occasion Boxes via OTP"
+        },
+        {
+          "ts": "1762358285.862279",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "with ANZ being the first exp"
+        },
+        {
+          "ts": "1762358408.548839",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "https://hellofresh.slack.com/archives/C09PZNHBH9D/p1762357369113719?thread_ts=1762269123.698679&amp;cid=C09PZNHBH9D"
+        },
+        {
+          "ts": "1762362139.478059",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "Thank you"
+        }
+      ]
+    },
+    {
+      "ts": "1762425679.717099",
+      "user": "U027201FQSV",
+      "user_name": "U027201FQSV",
+      "text": "@U03TY4YJU4X @U01BT6RE4JG do you know who owns https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/4171334975/Credit+Auto+Cancel+Service?",
+      "raw_text": "<@U03TY4YJU4X> <@U01BT6RE4JG> do you know who owns <https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/4171334975/Credit+Auto+Cancel+Service|Credit Auto Cancel Service>?",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W45",
+      "tags": [
+        "question"
+      ],
+      "importance": 61,
+      "reply_count": 3,
+      "reactions": [],
+      "thread_ts": "1762425679.717099",
+      "thread_replies": [
+        {
+          "ts": "1762430917.939359",
+          "user": "U027201FQSV",
+          "user_name": "U027201FQSV",
+          "text": "Great! I will route @UBDB3FVGS to you, Wander :handshake: She has some questions."
+        },
+        {
+          "ts": "1762437498.188169",
+          "user": "U01BT6RE4JG",
+          "user_name": "U01BT6RE4JG",
+          "text": "<#C044FCN7C6P|>"
+        }
+      ]
+    },
+    {
+      "ts": "1762530230.884149",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks can y'all check the New Ventures All group and add any missing people? I went through all folks I believe but worth double ckecking: tribe-nv",
+      "raw_text": "Hey folks can y'all check the New Ventures All group and add any missing people? I went through all folks I believe but worth double ckecking: tribe-nv",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W45",
+      "tags": [
+        "question"
+      ],
+      "importance": 61,
+      "reply_count": 2,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U09D8BZ9891"
+          ],
+          "count": 1
+        }
+      ],
+      "thread_ts": "1762530230.884149",
+      "thread_replies": [
+        {
+          "ts": "1762810131.287819",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "@U03TY4YJU4X comparing the Group vs. Miro, the only missing one is Prateek Jajoo"
+        },
+        {
+          "ts": "1762810308.297189",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "who starts Dec 1 :slightly_smiling_face: perfect, thank you!"
+        }
+      ]
+    },
+    {
+      "ts": "1762937520.974529",
+      "user": "U01AKGWGLC8",
+      "user_name": "U01AKGWGLC8",
+      "text": "Regarding the next demo Nov 18\n\nPortfolio team messaged me to ask if Good Chop wanted to demo instead. Are there other teams that also wanted to demo for this upcoming session?\n\nNikita is on pat leave already so let's just align how many of us wanted to sign up and see if we can all fit in @U03UMPD2NNS @U8F7ZDAPM @U01BT6RE4JG @U09D8BZ9891 cc @UEZ4PRFKM",
+      "raw_text": "Regarding the next demo Nov 18\n\nPortfolio team messaged me to ask if Good Chop wanted to demo instead. Are there other teams that also wanted to demo for this upcoming session?\n\nNikita is on pat leave already so let's just align how many of us wanted to sign up and see if we can all fit in <@U03UMPD2NNS> <@U8F7ZDAPM> <@U01BT6RE4JG> <@U09D8BZ9891> cc <@UEZ4PRFKM>",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W46",
+      "tags": [
+        "high_engagement",
+        "discussion",
+        "question"
+      ],
+      "importance": 100,
+      "reply_count": 18,
+      "reactions": [],
+      "thread_ts": "1762937520.974529",
+      "thread_replies": [
+        {
+          "ts": "1762937552.195839",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "Good Chop would demo the Multi-SKU free cut selection on the Reactivation page"
+        },
+        {
+          "ts": "1762937674.059579",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Exciting! I wont be there on 18th of Nov + I am not sure if our current initiaitves are worth demoing"
+        },
+        {
+          "ts": "1762937699.458469",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "what about the Allergies?"
+        },
+        {
+          "ts": "1762937704.757929",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "didn't you want to demo that"
+        },
+        {
+          "ts": "1762937843.313229",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "tbh, we launched it so long ago... I am not sure how relevant it is, @U8F7ZDAPM wdyt?"
+        },
+        {
+          "ts": "1762938192.341379",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "It should be fine to have 1 demo from NV for every session. If goodchop is good to do the next one we can plan with VMS and TPT for the ones after. @U03UMPD2NNS how about project heaven?"
+        },
+        {
+          "ts": "1762939876.163569",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "ok just let me know and I will confirm with Haley re Good Chop if TPT doesn't want to present"
+        },
+        {
+          "ts": "1762940992.896029",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Project Heaven might be a bit hard for people outside of the HF world to understand, it' a TPT specific problem."
+        },
+        {
+          "ts": "1762941002.868159",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "We could do it, I wonder only how relevant it is?"
+        },
+        {
+          "ts": "1762941010.520839",
+          "user": "U03UMPD2NNS",
+          "user_name": "U03UMPD2NNS",
+          "text": "Also the impact is quite low"
+        },
+        {
+          "ts": "1762943524.668119",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "For sure, but it’s more around the variety in functionality that is outside of the every teams norm that they might find interesting, not just impact. But all good, let’s brainstorm some projects in the next week for both VMS and TPT (it could also be some of the initiatives GD helped us deliver)"
+        },
+        {
+          "ts": "1762943574.483579",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "OK I will confirm spot for Good Chop on Nov 18 then"
+        },
+        {
+          "ts": "1762955316.159719",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "VMS hasn't had a recent rollout, so nothing to demo for Nov 18, but we'll hopefully be able to demo the multi cadense project for the one after that"
+        },
+        {
+          "ts": "1762955620.533229",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "@U09D8BZ9891 i know VMS has launches for the OTP in early Dec and Shopify mid Dec - these could be good candidates?"
+        },
+        {
+          "ts": "1762955763.215109",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "OTP is planned to go live on W51, and Shopify will probably be in early Jan. Do we want to demo on production? If not, we can demo on staging to the extent possible"
+        },
+        {
+          "ts": "1762955820.738649",
+          "user": "U01AKGWGLC8",
+          "user_name": "U01AKGWGLC8",
+          "text": "OTP Good Chop go live is also planned for W51 tentatively just FYI @UEZ4PRFKM"
+        },
+        {
+          "ts": "1762956240.993959",
+          "user": "UEZ4PRFKM",
+          "user_name": "UEZ4PRFKM",
+          "text": "Yea ideally it should be launched or at least in some stage of beta or alpha testing before we demo. @U09D8BZ9891 but I got a ping from @U01VC869ZBP today https://hellofresh.slack.com/archives/C09STR7LE81/p1762952190536379 Shopify launch is mid Dec, is this aligned?"
+        },
+        {
+          "ts": "1762956930.884179",
+          "user": "U09D8BZ9891",
+          "user_name": "U09D8BZ9891",
+          "text": "Ohh, maybe it's been accelerated. I'm not leading the Shopify project so I might not be up to date. It's being led by Laura and Sameer "
+        }
+      ]
+    },
+    {
+      "ts": "1763756537.581979",
+      "user": "U03TY4YJU4X",
+      "user_name": "U03TY4YJU4X",
+      "text": "Hey folks, while I am still out next week (back the week after) could I ask you to update the *https://docs.google.com/spreadsheets/d/1xVd6ekO65jLAWf3LYSzViVzqqdPOA5TrsthVxv-xXYE/edit?usp=sharing* with the progress and ongoign fires, so I can jump right into the fray when back?\n\nThank you and huuuuuge thanks for having my back during this period - you are the absolute best! :thank-you: :hugs:",
+      "raw_text": "Hey folks, while I am still out next week (back the week after) could I ask you to update the *<https://docs.google.com/spreadsheets/d/1xVd6ekO65jLAWf3LYSzViVzqqdPOA5TrsthVxv-xXYE/edit?usp=sharing|ongoing list>* with the progress and ongoign fires, so I can jump right into the fray when back?\n\nThank you and huuuuuge thanks for having my back during this period - you are the absolute best! :thank-you: :hugs:",
+      "channel_id": "C06CT0185T3",
+      "channel_name": "tribe-new-ventures-leads-internal",
+      "week": "2025-W47",
+      "tags": [
+        "question"
+      ],
+      "importance": 73,
+      "reply_count": 4,
+      "reactions": [],
+      "thread_ts": "1763756537.581979",
+      "thread_replies": [
+        {
+          "ts": "1763758830.893419",
+          "user": "U01KKT2P7FY",
+          "user_name": "U01KKT2P7FY",
+          "text": "I see my name on there and would like more context as to what you need of me, when able. Please note that I start a month long PTO 2nd week of Dec."
+        },
+        {
+          "ts": "1763899607.320999",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "Hey @U01KKT2P7FY - if you remember we were discussing on the incremental steps to get from current state to desired and identifying (which you have already begun) additional opportunities for automation."
+        },
+        {
+          "ts": "1763995947.035039",
+          "user": "U03TY4YJU4X",
+          "user_name": "U03TY4YJU4X",
+          "text": "So basically change management :-)"
+        },
+        {
+          "ts": "1764118532.818949",
+          "user": "U01KKT2P7FY",
+          "user_name": "U01KKT2P7FY",
+          "text": "https://hellofresh.slack.com/archives/C08S46TPQCE/p1764118440588989"
+        }
+      ]
+    }
+  ]
+}

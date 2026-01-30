@@ -1,0 +1,655 @@
+{
+  "channel_id": "C09QXQC2C7Q",
+  "channel_name": "squad-rte-vms-business-metrics",
+  "week": "2025-W47",
+  "extracted_at": "2026-01-02T10:59:38.628239Z",
+  "message_count": 7,
+  "messages": [
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763903322.119589",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-22 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-22/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 405 views       | -5.6%        | -48.2%        \nProducts Page      | 1,087 views     | +44.5%       | -25.1%        \nSignup Page        | 38 views        | -20.8%       | -50.0%        \nCheckout Page      | 39 views        | -2.5%        | -45.8%        \nSuccessful Orders  | 4 orders        | -20.0%       | -55.6%        \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on 2025-11-22 shows concerning declines across the conversion funnel, with landing page views down 24 from yesterday and 377 from the previous week, ultimately resulting in only 4 successful orders (down 1 from yesterday and 5 from the previous week). Despite a notable 335-user increase in products page views, the funnel exhibits poor conversion with significant drop-offs at the signup and checkout stages, indicating potential user experience or product positioning issues. *Key Insights:*\n• Successful orders remain critically low at only 4 on 2025-11-22, representing a 20% decrease from yesterday and a 56% decline from the previous week, highlighting urgent revenue concerns\n• Conversion funnel shows severe leakage with only 0.37% of landing page visitors (405) ultimately completing orders, indicating major optimization opportunities in the user journey\n• Products page views surged 335 users day-over-day to 1,087, but this increased interest failed to translate to downstream conversions, suggesting potential product-market fit or pricing issues\n• Landing page traffic continues its downward trend (-377 week-over-week), indicating potential marketing or acquisition challenges that compound the conversion problems\n• Signup and checkout page views remain disproportionately low compared to products page engagement, with checkout views at only 39 (down 33 from previous week), suggesting significant barriers in the purchase process",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "deleted": false,
+        "name": "Client Platform Bot",
+        "updated": 1759828449,
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "+/5VK",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-22",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "p0lXh",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-22/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "8SMBR"
+        },
+        {
+          "type": "section",
+          "block_id": "M7/ZC",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "+7LN3",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 405 views       | -5.6%        | -48.2%        \nProducts Page      | 1,087 views     | +44.5%       | -25.1%        \nSignup Page        | 38 views        | -20.8%       | -50.0%        \nCheckout Page      | 39 views        | -2.5%        | -45.8%        \nSuccessful Orders  | 4 orders        | -20.0%       | -55.6%        \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "rQANc"
+        },
+        {
+          "type": "section",
+          "block_id": "UAmkX",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on 2025-11-22 shows concerning declines across the conversion funnel, with landing page views down 24 from yesterday and 377 from the previous week, ultimately resulting in only 4 successful orders (down 1 from yesterday and 5 from the previous week). Despite a notable 335-user increase in products page views, the funnel exhibits poor conversion with significant drop-offs at the signup and checkout stages, indicating potential user experience or product positioning issues.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "R8J5x",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Successful orders remain critically low at only 4 on 2025-11-22, representing a 20% decrease from yesterday and a 56% decline from the previous week, highlighting urgent revenue concerns\n• Conversion funnel shows severe leakage with only 0.37% of landing page visitors (405) ultimately completing orders, indicating major optimization opportunities in the user journey\n• Products page views surged 335 users day-over-day to 1,087, but this increased interest failed to translate to downstream conversions, suggesting potential product-market fit or pricing issues\n• Landing page traffic continues its downward trend (-377 week-over-week), indicating potential marketing or acquisition challenges that compound the conversion problems\n• Signup and checkout page views remain disproportionately low compared to products page engagement, with checkout views at only 39 (down 33 from previous week), suggesting significant barriers in the purchase process",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763816940.640419",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-21 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-21/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 422 views       | -27.0%       | -51.4%        \nProducts Page      | 752 views       | -10.6%       | -39.0%        \nSignup Page        | 48 views        | -36.8%       | -40.0%        \nCheckout Page      | 40 views        | -24.5%       | -46.7%        \nSuccessful Orders  | 5 orders        | 0.0%         | -64.3%        \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on 2025-11-21 shows concerning declines across the entire funnel, with landing page views dropping 27% day-over-day to 422 and successful orders remaining flat at 5 despite significant upstream traffic decreases. The conversion funnel maintained relatively stable conversion rates from checkout to orders (12.5%), but upstream engagement dropped substantially with week-over-week declines ranging from 32% to 64% across all page views. *Key Insights:*\n• Successful orders held steady at 5 on 2025-11-21 (unchanged from previous day) but declined 64% week-over-week, indicating deteriorating weekly performance despite maintaining checkout-to-order conversion efficiency at 12.5% (5 orders from 40 checkout views)\n• Significant upstream funnel deterioration with landing page views dropping 37% day-over-day (-156 to 422) and 51% week-over-week (-447), suggesting major traffic acquisition or retention issues\n• Products page engagement declined more moderately at 11% day-over-day but 39% week-over-week, indicating that while fewer users reach the landing page, those who do continue to browse products at reasonable rates\n• Signup page views experienced the steepest decline of 37% day-over-day and 40% week-over-week, creating a potential bottleneck in the middle of the funnel that could impact future order volume\n• Overall funnel conversion from landing page to successful orders remained relatively stable at 1.2% (5 orders from 422 landing views), but the dramatic reduction in top-of-funnel traffic threatens future business sustainability",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "0WDb1",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-21",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "2e2aj",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-21/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "qsR3v"
+        },
+        {
+          "type": "section",
+          "block_id": "ip6Ni",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "vaMRo",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 422 views       | -27.0%       | -51.4%        \nProducts Page      | 752 views       | -10.6%       | -39.0%        \nSignup Page        | 48 views        | -36.8%       | -40.0%        \nCheckout Page      | 40 views        | -24.5%       | -46.7%        \nSuccessful Orders  | 5 orders        | 0.0%         | -64.3%        \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "66u3B"
+        },
+        {
+          "type": "section",
+          "block_id": "w/L+Z",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on 2025-11-21 shows concerning declines across the entire funnel, with landing page views dropping 27% day-over-day to 422 and successful orders remaining flat at 5 despite significant upstream traffic decreases. The conversion funnel maintained relatively stable conversion rates from checkout to orders (12.5%), but upstream engagement dropped substantially with week-over-week declines ranging from 32% to 64% across all page views.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "mxCTd",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Successful orders held steady at 5 on 2025-11-21 (unchanged from previous day) but declined 64% week-over-week, indicating deteriorating weekly performance despite maintaining checkout-to-order conversion efficiency at 12.5% (5 orders from 40 checkout views)\n• Significant upstream funnel deterioration with landing page views dropping 37% day-over-day (-156 to 422) and 51% week-over-week (-447), suggesting major traffic acquisition or retention issues\n• Products page engagement declined more moderately at 11% day-over-day but 39% week-over-week, indicating that while fewer users reach the landing page, those who do continue to browse products at reasonable rates\n• Signup page views experienced the steepest decline of 37% day-over-day and 40% week-over-week, creating a potential bottleneck in the middle of the funnel that could impact future order volume\n• Overall funnel conversion from landing page to successful orders remained relatively stable at 1.2% (5 orders from 422 landing views), but the dramatic reduction in top-of-funnel traffic threatens future business sustainability",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763730769.257969",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-20 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-20/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 578 views       | -7.2%        | -41.2%        \nProducts Page      | 841 views       | -14.3%       | -29.3%        \nSignup Page        | 76 views        | +65.2%       | +15.2%        \nCheckout Page      | 53 views        | +15.2%       | -11.7%        \nSuccessful Orders  | 5 orders        | -16.7%       | -50.0%        \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 20, 2025, the VMS business showed concerning performance with only 5 successful orders (down 1 from previous day and down 5 from the previous week), representing the lowest conversion in the analyzed period. The funnel experienced significant deterioration with landing page views dropping 45 day-over-day to 578 (-405 vs previous week) and products page views declining to 841 (-140 day-over-day, -348 vs previous week), indicating serious traffic acquisition and retention challenges. *Key Insights:*\n• Conversion funnel severely underperformed with only 5 successful orders on 11/20, marking a 50% decline from the previous week and representing just 0.86% conversion from landing page views, well below the ~1.5-2% range seen in stronger periods\n• Landing page traffic hit a critical low of 578 views, down 405 from the previous week, suggesting significant issues with marketing channels or customer acquisition strategies that require immediate attention\n• Products page engagement dropped substantially to 841 views (-348 vs previous week), indicating poor user progression through the funnel and potential issues with landing page conversion or product appeal\n• Checkout page views (53) remained relatively stable week-over-week (-7), but the conversion from checkout to orders dropped dramatically from 14.3% to 9.4%, suggesting payment processing issues or last-minute customer hesitation\n• The consistent downward trend across all funnel stages over the past week indicates systemic issues rather than isolated problems, requiring comprehensive review of marketing spend, website performance, and customer experience",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "2WEd5",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-20",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "cD2Pq",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-20/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "kQEx4"
+        },
+        {
+          "type": "section",
+          "block_id": "UptN+",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "9QKLe",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 578 views       | -7.2%        | -41.2%        \nProducts Page      | 841 views       | -14.3%       | -29.3%        \nSignup Page        | 76 views        | +65.2%       | +15.2%        \nCheckout Page      | 53 views        | +15.2%       | -11.7%        \nSuccessful Orders  | 5 orders        | -16.7%       | -50.0%        \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "WRqf+"
+        },
+        {
+          "type": "section",
+          "block_id": "ET6ew",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 20, 2025, the VMS business showed concerning performance with only 5 successful orders (down 1 from previous day and down 5 from the previous week), representing the lowest conversion in the analyzed period. The funnel experienced significant deterioration with landing page views dropping 45 day-over-day to 578 (-405 vs previous week) and products page views declining to 841 (-140 day-over-day, -348 vs previous week), indicating serious traffic acquisition and retention challenges.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "JwSTN",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Conversion funnel severely underperformed with only 5 successful orders on 11/20, marking a 50% decline from the previous week and representing just 0.86% conversion from landing page views, well below the ~1.5-2% range seen in stronger periods\n• Landing page traffic hit a critical low of 578 views, down 405 from the previous week, suggesting significant issues with marketing channels or customer acquisition strategies that require immediate attention\n• Products page engagement dropped substantially to 841 views (-348 vs previous week), indicating poor user progression through the funnel and potential issues with landing page conversion or product appeal\n• Checkout page views (53) remained relatively stable week-over-week (-7), but the conversion from checkout to orders dropped dramatically from 14.3% to 9.4%, suggesting payment processing issues or last-minute customer hesitation\n• The consistent downward trend across all funnel stages over the past week indicates systemic issues rather than isolated problems, requiring comprehensive review of marketing spend, website performance, and customer experience",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "grimacing",
+          "users": [
+            "U09CP1WMFJ9"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763644431.443949",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-19 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-19/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 623 views       | -2.0%        | -33.7%        \nProducts Page      | 981 views       | -15.4%       | -30.0%        \nSignup Page        | 46 views        | -25.8%       | +15.0%        \nCheckout Page      | 46 views        | -25.8%       | -8.0%         \nSuccessful Orders  | 6 orders        | -33.3%       | -33.3%        \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on November 19th showed concerning declines across the entire funnel, with successful orders dropping to just 6 (-50% vs. previous week), representing the lowest conversion rate in the 15-day period. While landing page views remained relatively stable with only a moderate weekly decline (-316), the products page experienced a significant 42% drop week-over-week, indicating weakening user engagement and funnel progression. *Key Insights:*\n• Conversion funnel severely deteriorated on 2025-11-19 with only 6 successful orders (down from 9 previous week), representing a 0.96% conversion rate from landing page views - the worst performance in the analyzed period\n• Products page views dropped 42.9% week-over-week (981 vs 1,402), suggesting major issues with user engagement or marketing effectiveness after the initial landing page interaction\n• Checkout abandonment worsened significantly with checkout-to-order conversion falling to just 13% (6 orders from 46 checkout views) compared to 16.7% the previous week\n• Weekly trends show consistent underperformance across all metrics compared to the same day previous week, with particularly concerning drops in products page views (-421) and successful orders (-3)\n• The funnel shows a critical bottleneck between landing page and products page, with only 57.5% of landing page visitors progressing to products - well below healthy e-commerce conversion standards",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "YyU/r",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-19",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "vNqTH",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-19/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "9vGTO"
+        },
+        {
+          "type": "section",
+          "block_id": "Y/LEA",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "kdWMS",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 623 views       | -2.0%        | -33.7%        \nProducts Page      | 981 views       | -15.4%       | -30.0%        \nSignup Page        | 46 views        | -25.8%       | +15.0%        \nCheckout Page      | 46 views        | -25.8%       | -8.0%         \nSuccessful Orders  | 6 orders        | -33.3%       | -33.3%        \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "9o7tU"
+        },
+        {
+          "type": "section",
+          "block_id": "ocOdR",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nVMS business performance on November 19th showed concerning declines across the entire funnel, with successful orders dropping to just 6 (-50% vs. previous week), representing the lowest conversion rate in the 15-day period. While landing page views remained relatively stable with only a moderate weekly decline (-316), the products page experienced a significant 42% drop week-over-week, indicating weakening user engagement and funnel progression.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "8UQsK",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Conversion funnel severely deteriorated on 2025-11-19 with only 6 successful orders (down from 9 previous week), representing a 0.96% conversion rate from landing page views - the worst performance in the analyzed period\n• Products page views dropped 42.9% week-over-week (981 vs 1,402), suggesting major issues with user engagement or marketing effectiveness after the initial landing page interaction\n• Checkout abandonment worsened significantly with checkout-to-order conversion falling to just 13% (6 orders from 46 checkout views) compared to 16.7% the previous week\n• Weekly trends show consistent underperformance across all metrics compared to the same day previous week, with particularly concerning drops in products page views (-421) and successful orders (-3)\n• The funnel shows a critical bottleneck between landing page and products page, with only 57.5% of landing page visitors progressing to products - well below healthy e-commerce conversion standards",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763558068.869439",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-18 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-18/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 636 views       | +4.6%        | -41.8%        \nProducts Page      | 1,157 views     | -17.3%       | -24.5%        \nSignup Page        | 62 views        | -12.7%       | +10.7%        \nCheckout Page      | 62 views        | 0.0%         | -8.8%         \nSuccessful Orders  | 9 orders        | -30.8%       | +28.6%        \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 18, 2025, the VMS business showed mixed performance with 636 landing page views and 9 successful orders, representing stable checkout-to-order conversion but concerning drops in upper funnel metrics. While daily performance remained relatively flat, week-over-week comparisons reveal significant declines across most funnel stages, with landing page views down 456 (-42%) and products page views down 375 (-24%) compared to the previous week. *Key Insights:*\n• Conversion funnel performance remains strong in lower stages with checkout-to-order conversion at 14.5% (9 orders from 62 checkout views), but upper funnel metrics show concerning weekly declines\n• Landing page views dropped significantly week-over-week (-456, -42%) while maintaining modest daily growth (+28), indicating a broader traffic acquisition challenge\n• Products page engagement declined both daily (-242, -17%) and weekly (-375, -24%), suggesting reduced interest or effectiveness in the landing page conversion\n• Signup page views showed resilience with positive weekly growth (+6, +11%) despite daily decline (-9), indicating maintained interest among engaged users\n• Order volume remained stable at 9 units with slight weekly improvement (+2, +29%), demonstrating strong conversion efficiency among users who reach the checkout stage",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "M4678",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-18",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "yF1lF",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-18/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "DPQJr"
+        },
+        {
+          "type": "section",
+          "block_id": "1Z/4y",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "bDhxd",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 636 views       | +4.6%        | -41.8%        \nProducts Page      | 1,157 views     | -17.3%       | -24.5%        \nSignup Page        | 62 views        | -12.7%       | +10.7%        \nCheckout Page      | 62 views        | 0.0%         | -8.8%         \nSuccessful Orders  | 9 orders        | -30.8%       | +28.6%        \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "wlS4x"
+        },
+        {
+          "type": "section",
+          "block_id": "bXSMF",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 18, 2025, the VMS business showed mixed performance with 636 landing page views and 9 successful orders, representing stable checkout-to-order conversion but concerning drops in upper funnel metrics. While daily performance remained relatively flat, week-over-week comparisons reveal significant declines across most funnel stages, with landing page views down 456 (-42%) and products page views down 375 (-24%) compared to the previous week.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "K4366",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Conversion funnel performance remains strong in lower stages with checkout-to-order conversion at 14.5% (9 orders from 62 checkout views), but upper funnel metrics show concerning weekly declines\n• Landing page views dropped significantly week-over-week (-456, -42%) while maintaining modest daily growth (+28), indicating a broader traffic acquisition challenge\n• Products page engagement declined both daily (-242, -17%) and weekly (-375, -24%), suggesting reduced interest or effectiveness in the landing page conversion\n• Signup page views showed resilience with positive weekly growth (+6, +11%) despite daily decline (-9), indicating maintained interest among engaged users\n• Order volume remained stable at 9 units with slight weekly improvement (+2, +29%), demonstrating strong conversion efficiency among users who reach the checkout stage",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763471664.959209",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-17 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-17/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 608 views       | +9.7%        | -45.3%        \nProducts Page      | 1,395 views     | -27.1%       | -35.7%        \nSignup Page        | 71 views        | +47.9%       | +24.6%        \nCheckout Page      | 62 views        | -12.7%       | -7.5%         \nSuccessful Orders  | 13 orders       | -48.0%       | -7.1%         \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 17, 2025, the VMS business showed mixed performance with successful orders at 13 units (-12 from previous day, -1 from previous week), indicating relatively stable weekly conversion despite daily volatility. The funnel experienced significant drops in landing page views (-503 week-over-week) and products page views (-773 week-over-week), but maintained reasonable conversion rates through the signup and checkout stages. *Key Insights:*\n• Conversion funnel performance remained resilient with 13 successful orders on 2025-11-17, showing only a -1 decline week-over-week despite substantial drops in top-of-funnel traffic, indicating improved conversion efficiency\n• Landing page traffic declined significantly (-503 week-over-week to 608 views), representing the lowest performance in the 15-day period and suggesting potential issues with traffic acquisition or external factors\n• Products page engagement dropped substantially (-773 week-over-week to 1,395 views) but signup page views increased (+14 week-over-week to 71), indicating better qualification of interested prospects\n• Checkout completion showed stability with 62 views (-5 week-over-week) and maintained a strong order conversion rate of approximately 21% (13 orders from 62 checkout views)\n• The dramatic day-over-day swings in successful orders (+16 on Nov 16, -12 on Nov 17) suggest potential optimization opportunities in the final conversion stages to reduce volatility",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "DOh08",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-17",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "F8ljt",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-17/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "kGYl0"
+        },
+        {
+          "type": "section",
+          "block_id": "1fJ44",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "rNy+o",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 608 views       | +9.7%        | -45.3%        \nProducts Page      | 1,395 views     | -27.1%       | -35.7%        \nSignup Page        | 71 views        | +47.9%       | +24.6%        \nCheckout Page      | 62 views        | -12.7%       | -7.5%         \nSuccessful Orders  | 13 orders       | -48.0%       | -7.1%         \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "4zDkt"
+        },
+        {
+          "type": "section",
+          "block_id": "XCzl4",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 17, 2025, the VMS business showed mixed performance with successful orders at 13 units (-12 from previous day, -1 from previous week), indicating relatively stable weekly conversion despite daily volatility. The funnel experienced significant drops in landing page views (-503 week-over-week) and products page views (-773 week-over-week), but maintained reasonable conversion rates through the signup and checkout stages.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "Nbsb4",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• Conversion funnel performance remained resilient with 13 successful orders on 2025-11-17, showing only a -1 decline week-over-week despite substantial drops in top-of-funnel traffic, indicating improved conversion efficiency\n• Landing page traffic declined significantly (-503 week-over-week to 608 views), representing the lowest performance in the 15-day period and suggesting potential issues with traffic acquisition or external factors\n• Products page engagement dropped substantially (-773 week-over-week to 1,395 views) but signup page views increased (+14 week-over-week to 71), indicating better qualification of interested prospects\n• Checkout completion showed stability with 62 views (-5 week-over-week) and maintained a strong order conversion rate of approximately 21% (13 orders from 62 checkout views)\n• The dramatic day-over-day swings in successful orders (+16 on Nov 16, -12 on Nov 17) suggest potential optimization opportunities in the final conversion stages to reduce volatility",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U08MATAG2TW",
+      "type": "message",
+      "ts": "1763385265.095019",
+      "bot_id": "B08MATADPRA",
+      "app_id": "A08M0MN2DSS",
+      "text": ":factor-form: VMS Business Metrics Report - 2025-11-16 <https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-16/|:page_facing_up: View Raw Data> *:bar_chart: VMS Funnel Metrics (Target Date)* ```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 554 views       | -29.0%       | -50.4%        \nProducts Page      | 1,914 views     | +31.8%       | -19.2%        \nSignup Page        | 48 views        | -36.8%       | -28.4%        \nCheckout Page      | 71 views        | -1.4%        | -11.3%        \nSuccessful Orders  | 25 orders       | +177.8%      | +108.3%       \n``` *:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 16, 2025, the VMS business showed mixed performance with a significant drop in landing page views (-226 day-over-day, -562 week-over-week) but strong conversion recovery, achieving 25 successful orders (+16 from previous day, +13 from previous week). Despite the 48% decline in top-of-funnel traffic, the business demonstrated improved conversion efficiency with orders increasing 178% day-over-day, suggesting better quality traffic or optimized conversion processes. *Key Insights:*\n• **Strong Order Performance**: Successful orders spiked to 25 on 11/16, the highest in the 15-day period, representing a 178% increase from the previous day and 108% increase from the previous week, indicating excellent conversion optimization despite reduced traffic volume.\n• **Top-of-Funnel Traffic Decline**: Landing page views dropped dramatically to 554 (-41% day-over-day, -50% week-over-week), marking the lowest traffic day in the dataset, which could signal issues with marketing campaigns, SEO, or external traffic sources requiring immediate investigation.\n• **Conversion Funnel Resilience**: Despite the landing page decline, products page views increased (+32% day-over-day) and checkout views remained stable (-1% day-over-day), suggesting that users who do enter the funnel are highly engaged and more likely to convert.\n• **Weekly Trend Concerns**: The week-over-week comparison shows declining performance across most funnel stages except orders, with landing pages down 50% and signup pages down 28%, indicating a need to address traffic acquisition strategies while maintaining the improved conversion mechanisms.\n• **Conversion Rate Optimization Success**: The dramatic improvement in order conversion rate (from 1.2% on 11/15 to 4.5% on 11/16 based on checkout-to-order ratio) suggests successful optimization of the final conversion steps, presenting an opportunity to scale these improvements with increased traffic volume.",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B08MATADPRA",
+        "app_id": "A08M0MN2DSS",
+        "user_id": "U08MATAG2TW",
+        "name": "Client Platform Bot",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_36.jpg",
+          "image_48": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_48.jpg",
+          "image_72": "https://avatars.slack-edge.com/2025-10-07/9635418104199_7a216e45b677a0de270b_72.jpg"
+        },
+        "deleted": false,
+        "updated": 1759828449,
+        "team_id": "T02AGMUUR"
+      },
+      "blocks": [
+        {
+          "type": "header",
+          "block_id": "yHu7q",
+          "text": {
+            "type": "plain_text",
+            "text": ":factor-form: VMS Business Metrics Report - 2025-11-16",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "94p1t",
+          "text": {
+            "type": "mrkdwn",
+            "text": "<https://github.com/hellofresh/tam-expansion-crons/blob/reports/reports/vms-daily-business-metrics-report/2025-11-16/|:page_facing_up: View Raw Data>",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "umdW3"
+        },
+        {
+          "type": "section",
+          "block_id": "E/f8W",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:bar_chart: VMS Funnel Metrics (Target Date)*",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "snJcy",
+          "text": {
+            "type": "mrkdwn",
+            "text": "```\nMetric             | Current Value   | Day-over-Day | Week-over-Week\n────────────────── | ─────────────── | ──────────── | ──────────────\nLanding Page       | 554 views       | -29.0%       | -50.4%        \nProducts Page      | 1,914 views     | +31.8%       | -19.2%        \nSignup Page        | 48 views        | -36.8%       | -28.4%        \nCheckout Page      | 71 views        | -1.4%        | -11.3%        \nSuccessful Orders  | 25 orders       | +177.8%      | +108.3%       \n```",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "divider",
+          "block_id": "jzEX2"
+        },
+        {
+          "type": "section",
+          "block_id": "r1+bg",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*:robot_face: AI Analysis*\n\n*Executive Summary:*\nOn November 16, 2025, the VMS business showed mixed performance with a significant drop in landing page views (-226 day-over-day, -562 week-over-week) but strong conversion recovery, achieving 25 successful orders (+16 from previous day, +13 from previous week). Despite the 48% decline in top-of-funnel traffic, the business demonstrated improved conversion efficiency with orders increasing 178% day-over-day, suggesting better quality traffic or optimized conversion processes.",
+            "verbatim": false
+          }
+        },
+        {
+          "type": "section",
+          "block_id": "pIjGX",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Key Insights:*\n• **Strong Order Performance**: Successful orders spiked to 25 on 11/16, the highest in the 15-day period, representing a 178% increase from the previous day and 108% increase from the previous week, indicating excellent conversion optimization despite reduced traffic volume.\n• **Top-of-Funnel Traffic Decline**: Landing page views dropped dramatically to 554 (-41% day-over-day, -50% week-over-week), marking the lowest traffic day in the dataset, which could signal issues with marketing campaigns, SEO, or external traffic sources requiring immediate investigation.\n• **Conversion Funnel Resilience**: Despite the landing page decline, products page views increased (+32% day-over-day) and checkout views remained stable (-1% day-over-day), suggesting that users who do enter the funnel are highly engaged and more likely to convert.\n• **Weekly Trend Concerns**: The week-over-week comparison shows declining performance across most funnel stages except orders, with landing pages down 50% and signup pages down 28%, indicating a need to address traffic acquisition strategies while maintaining the improved conversion mechanisms.\n• **Conversion Rate Optimization Success**: The dramatic improvement in order conversion rate (from 1.2% on 11/15 to 4.5% on 11/16 based on checkout-to-order ratio) suggests successful optimization of the final conversion steps, presenting an opportunity to scale these improvements with increased traffic volume.",
+            "verbatim": false
+          }
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    }
+  ]
+}

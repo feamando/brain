@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0024",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "76ef7ec1",
+      "message": "[TPT-2261] unquarantained petFoodCheckoutInfo.spec.ts (#59472)",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-10-27T14:56:10Z",
+      "url": "https://github.com/hellofresh/web/commit/76ef7ec10701cfaa34f3062481067a9ac656581c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "f9768da1",
+      "message": "[TPT-2232] Add disabled state to custom dropdown (#59446)\n\n* [TPT-2232] Add disabled state to custom dropdown\n\n* [TPT-2232] Fix accessibility issues\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-10-27T14:36:04Z",
+      "url": "https://github.com/hellofresh/web/commit/f9768da1a02d936a7e297808a02182184b86435f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "9e500855",
+      "message": "[TPT-2258] Add data-testids for quiz steps (#59464)\n\n* Add data-testid for each quiz step",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-10-27T14:29:30Z",
+      "url": "https://github.com/hellofresh/web/commit/9e5008552488405461c9512f788bfabb3637ba6a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "85861691",
+      "message": "[TPT-2173]: create reactivation page drawer and js->ts migration (#59349)\n\n* TPT-2173: create reactivation page drawer and js->ts migration\n\n* TPT-2173: remove type assertion\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-10-27T13:27:05Z",
+      "url": "https://github.com/hellofresh/web/commit/85861691d9b3fe76bbfff2ff2fb75e929288b32a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "eb46e2ee",
+      "message": "[TPT-2241] tracking events added for checkout confirmation page (#59245)\n\n* [TPT-2241] tracking events added for checkout confirmation page\n\n* [TPT-2241] useCheckoutConfirmationData hook optimized\n\n* [TPT-2241] tracking events updated\n\n* [TPT-2241] query added for determining the correct funnel\n\n* [TPT-2241] useCheckoutConfirmationTracking minor rfc\n\n* [TPT-2241] minor ref update\n\n* [TPT-2241] test updates\n\n* [TPT-2241] PR comments fixed\n\n* [TPT-2241] ts errors fixed\n\n* [TPT-2241] accessibility issues fixed\n\n* [TPT-2241] minor update",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-10-27T12:48:08Z",
+      "url": "https://github.com/hellofresh/web/commit/eb46e2eeb9019743207b1fb4f8adcdbf5763dfc5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ae32d08c",
+      "message": "[TPT-2260] update week source (#59444)\n\n* update week source\n\n* ts errors",
+      "author": "sfilipowska",
+      "author_email": "82662345+sfilipowska@users.noreply.github.com",
+      "date": "2025-10-27T12:42:41Z",
+      "url": "https://github.com/hellofresh/web/commit/ae32d08c1cb419d0bd4049a320079f62613cedbf",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "5ab62d7e",
+      "message": "[TPT-2202] Selected recipes hook (#59330)\n\n* Create hook for recipe index logic\n\n* Simplify mock",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-10-27T11:05:46Z",
+      "url": "https://github.com/hellofresh/web/commit/5ab62d7e045024d665bbb19df5aacc23bf8ea3a2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "80480fd1",
+      "message": "[TPT-2243] - New reusable quiz step methods #59321 (#59323)\n\n* New reusable quiz step methods\n\n* Switch to using enums",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-10-27T09:49:15Z",
+      "url": "https://github.com/hellofresh/web/commit/80480fd1cff440b09072b9aa17060069245136c1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "eb4725fd",
+      "message": "[GOC-3192] Hide Voucher Input Form on Order Summary Components (#59283)\n\n* Invalidate voucher logic when OTP sku\n\n* hide the voucher inputs on OTP summaries\n\n* remove comment",
+      "author": "Madeeha Hasan",
+      "author_email": "33419910+madeeha96@users.noreply.github.com",
+      "date": "2025-10-27T08:53:10Z",
+      "url": "https://github.com/hellofresh/web/commit/eb4725fd28877e276aa0d4e70be6eb8381e74b8e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "48c189e0",
+      "message": "[TPT-2081]: build reactivation success modal (#58726)\n\n* TPT-2081: build reactivation success modal\n\n* TPT-2081: test fix\n\n* TPT-2081: add confetti animation and sizes fixes\n\n* TPT-2081: return h3\n\n* TPT-2081: success modal fixes\n\n* TPT-2081: return query param\n\n* TPT-2081: remove setReactivationSuccessModalStorage from reactivation process\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-10-24T13:10:46Z",
+      "url": "https://github.com/hellofresh/web/commit/48c189e01e49f8090558722f47d4dd20d2b8480e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "0778e881",
+      "message": "[TPT-2203] rendeirng FREE copy when total price in summary is 0 (#59368)",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-10-24T12:42:55Z",
+      "url": "https://github.com/hellofresh/web/commit/0778e88199bc08b4d4a78a77bf7632982b361f54",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2e47a70b",
+      "message": "[TPT-2203] migrated price calculation endpoint in price summery component (#59126)\n\n* [TPT-2203] migrated price calculation endpoint in price summery component\n\n* pricing domain adjustments\n\n* fixed test\n\n* bringing back shipping address to activation prices payload\n\n* test",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-10-24T10:22:26Z",
+      "url": "https://github.com/hellofresh/web/commit/2e47a70b93fef2d46f969462e585df95e93f6e8b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "746668b8",
+      "message": "[TPT-2155] - [GD] Update DashboardPlaceholder component  (#59279)\n\n* TPT-2155 - update dashboard placeholder for tpt, fix tests\n\n* TPT-2155 - cleanup\n\n* TPT-2155 - fix spacing for dashboard placeholder on desktop\n\n* TPT-2155 - update markup on placeholder to correspond to our actual markup",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-10-24T09:45:10Z",
+      "url": "https://github.com/hellofresh/web/commit/746668b8980ac0262fd562a2223a0ab2fd832da1",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "f7e71ff7",
+      "message": "[GOC-3319] Adds logic to pre-select single sku benefit in Reactivation flow (#59292)\n\n* [GOC-3319] Adds logic to preselect single sku benefit\n\n* [GOC-3319] Refactor tests\n\n* [GOC-3319] Refactor tests\n\n* [GOC-3319] Minor refactor\n\n* [GOC-3319] Use available addons from popup state\n\n* [GOC-3319] Minor refactor test\n\n* [GOC-3319] Adds FF condition to select single sku automatically",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-10-24T09:38:53Z",
+      "url": "https://github.com/hellofresh/web/commit/f7e71ff7cdc3c2ab30546330eb97d04c0a433d99",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "59e893c0",
+      "message": "[TPT-2226] order summary integration on checkout-confirmation page (#59149)\n\n* [TPT-2226] CartItemsV2 mock value removed\n\n* [TPT-2226] cartItems duplicated to avoid customization\n\n* [TPT-2226] useGetStarterSkuByRegularSku hook added\n\n* [TPT-2226] tests added\n\n* [TPT-2226] tests fixed\n\n* [TPT-2226] PR failing steps fixed\n\n* [TPT-2226] PR comments fixed\n\n* [TPT-2226] minor updates",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-10-24T08:22:28Z",
+      "url": "https://github.com/hellofresh/web/commit/59e893c05741d6ef865096f886c5c85e9e03d690",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "e2d581b8",
+      "message": "[RTEVMS-2193] Factor Forn | Add feature flag for calculate prospect batch endpoint (#59343)\n\n* feat(RTEVMS-2193): add feature flag for calculate prospect batch endpoint migration\n\n* feat(RTEVMS-2193): updated constant for feature flag",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-10-23T20:00:13Z",
+      "url": "https://github.com/hellofresh/web/commit/e2d581b8ecf7aea842ed632eb813c7bad77265ec",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "7cab8e1e",
+      "message": "[TPT-2203] refined pricing domain for order summary data source migration (#59309)",
+      "author": "matborowiak",
+      "author_email": "mateusz.borowiak@hellofresh.com",
+      "date": "2025-10-23T13:49:06Z",
+      "url": "https://github.com/hellofresh/web/commit/7cab8e1ed54340c9e78b21b689cc97ec7bb5ab4e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "343aefd5",
+      "message": "[TPT-2192] roll out allergies experiment (#59239)\n\n* roll out allergies experiment\n\n* fixes cypress tests\n\n* fixes voucher test\n\n* removes only",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-10-23T13:33:00Z",
+      "url": "https://github.com/hellofresh/web/commit/343aefd50e467163354827f353bd0d0ebbe62dab",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8ffd2d81",
+      "message": "[TPT-1976] checkout flow navigation update (#58894)\n\n* [TPT-1976] FF added, checkout navigation updated\n\n* [TPT-1976] feature flag name update, change revert\n\n* [TPT-1976] pipeline trigger",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-10-23T12:41:47Z",
+      "url": "https://github.com/hellofresh/web/commit/8ffd2d81b2863fc30acdd24badb97b5acb24f739",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "fbe6fe63",
+      "message": "[GOC-3313] Refactor Reactivation Content for MR (#59253)\n\n* [GOC-3310] Moves local storage operation inside function\n\n* [GOC-3313] Adds tests for new component\n\n* [GOC-3313] Fixes reminder flow moving\n\n* [GOC-3313] Removes type",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-10-23T10:08:47Z",
+      "url": "https://github.com/hellofresh/web/commit/fbe6fe630af95e58be1459db65f10e71e2ff48bd",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-10-23T10:08:47Z",
+    "newest": "2025-10-27T14:56:10Z"
+  }
+}

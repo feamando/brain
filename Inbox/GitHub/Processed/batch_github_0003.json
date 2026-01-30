@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0003",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "7a2f64bc",
+      "message": "[TPT-2358] Box Model Builder: new overrides (#61999)\n\n* New fresh packs overrides\n\n* Optimization rule: 2x16oz + 1x8oz -> 48oz\n\n* Add generic optimization rules (which got lost)",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-18T14:06:39Z",
+      "url": "https://github.com/hellofresh/web/commit/7a2f64bcca9994c8c1e77fcfcc189fddb1accbf2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "9af97251",
+      "message": "[GOC-3383] Removes delivery interval for MR on changePlanDeliveryDetails (#61929)\n\n* [GOC-3383] Removes delivery interval for MR on changePlanDeliveryDetails\n\n* [GOC-3383] Add middleware with new config\n\n* [GOC-3383] Uses createSimpleProject instead of createProject\n\n* [GOC-3383] Updates config attribute to avoid double negations\n\n* [GOC-3383] Minor refactor in config",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-18T13:53:45Z",
+      "url": "https://github.com/hellofresh/web/commit/9af972512c074e7298a9e12d688e1bc2119bbb46",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "80094f11",
+      "message": "[GOC-3397] Adds e-commerce traces and experiment mapping for OTP (#62006)\n\n* [GOC-3397] Adds ecommerce traces and experiment mapping in useTrackCheckoutSuccess\n\n* [GOC-3397] Minor refactor\n\n* [GOC-3397] Minor update\n\n* [GOC-3397] Minor update\n\n* [GOC-3397] Update comment\n\n* [GOC-3397] Adds tests\n\n* [GOC-3397] Updates comments",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-18T13:14:39Z",
+      "url": "https://github.com/hellofresh/web/commit/80094f114123eb9e7e75c7d2fb299ee18066efd4",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "e19d1b57",
+      "message": "[GOC-3389] Handle cart de-duplication (#61705)\n\n* [GOC-3389] Implement OTP cart de-duplication with PATCH support\n\nImplements cart de-duplication for one-time purchase (OTP) to ensure a single cart ID per session, with PATCH support for updating existing carts.\n\n## Core Implementation\n\n- **Cart Session Management**\n  - Created `useOTPCartSession` hook with Jotai atom for persistent storage\n  - Stores `cartId` and `productSku` in localStorage (`wl_otp_cart_session`)\n  - Auto-syncs across tabs via `atomWithStorage`\n  - Provides `setCartSession()` and `clearCartSession()` methods\n\n- **PATCH Logic** (`useCreateOTPCartForCheckout`)\n  - Renamed `createOTPCart` → `createOrUpdateOTPCart`\n  - Cart exists → PATCH existing cart (any product)\n  - No cart → POST new cart\n  - PATCH 404/403 → Clear session + fallback to POST\n  - Updates `productSku` in session after PATCH (handles product changes)\n\n## Test Coverage\n\n- Fixed failing `useCreateOTPCartForCheckout.spec.ts` (18/18 tests passing)\n  - Added mocks for `usePatchOneTimePurchaseCart` and `useOTPCartSession`\n  - Added 4 new tests: PATCH success, 404 fallback, 403 fallback, error handling\n  - Updated all tests to use `createOrUpdateOTPCart`\n\n- Created `useOTPCartSession.spec.ts` (5/5 tests passing)\n  - Tests for `setCartSession`, `clearCartSession`, and state updates\n  - Organized into logical describe blocks\n  - Fixed TypeScript errors with proper `jest.Mock` casting\n\n## File Organization\n\n- Moved session management files to feature directory:\n  - From: `checkout/src/pages/hooks/`\n  - To: `funnel/.../one_time_purchase_mvp/hooks/`\n- Merged `otpCartSessionAtoms.ts` into `useOTPCartSession.ts` (single file)\n- Updated all imports to use relative paths\n- Updated `Payment.js` and `Payment.spec.tsx` for future integration (GOC-3360)\n\n## Technical Details\n\n- Added explicit return type annotation to `useOTPCartSession`\n- Reduced code comments for cleaner codebase\n- Updated localStorage key: `hf_otp_cart_session` → `wl_otp_cart_session`\n- All tests passing: 25/25 (18 useCreateOTPCartForCheckout + 5 useOTPCartSession + 2 Payment.spec)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\n\n* Update useCreateOTPCartForCheckout.spec.ts\n\n* [GOC-3360] Enable cart session clearing for OTP orders\n\nUncommented the TODO GOC-3360 sections to enable cart session clearing:\n- Added useOTPCartSession import and hook usage\n- Integrated clearCartSession() into onCheckoutSuccessMinimal handler\n- Ensures cart session is cleared after successful OTP order creation to prevent reuse\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\n\n* Fix TypeScript error in Payment.spec.tsx\n\nUpdated mock to use createOrUpdateOTPCart instead of createOTPCart\nto match the renamed function in the implementation.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Sonnet 4.5 <noreply@anthropic.com>",
+      "author": "Himash Tehan",
+      "author_email": "himash.tehan@hellofresh.com",
+      "date": "2025-12-18T11:08:38Z",
+      "url": "https://github.com/hellofresh/web/commit/e19d1b572711141e65f7265e4d7f0a1846b07a3d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "b9672228",
+      "message": "[TPT-2513] - [GD] - Fix price update on portion change (#62031)\n\n* TPT-2513 - pass down showPortions prop\n\n* TPT-2513 - fix failing test PlansGrid\n\n* TPT-2513 - fix ts error",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-18T11:07:31Z",
+      "url": "https://github.com/hellofresh/web/commit/b96722287dd2400048fefdc1b3877b6333a71917",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "8180dcc7",
+      "message": "[TPT-2452] Voucher tests for dashboard (#61986)",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-12-18T10:23:07Z",
+      "url": "https://github.com/hellofresh/web/commit/8180dcc7138cace7a4dbd29333544d4a0be68ebb",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "0075feff",
+      "message": "[TPT-2290] Fix plan selection with portions and align starter box portion config (#61984)\n\n* [TPT-2290] plan cards are selected only if Select CTA is clicked on the card\n\n* [TPT-2290] Align portionedFamilyListAll with typed config",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-12-18T08:21:56Z",
+      "url": "https://github.com/hellofresh/web/commit/0075feff0d30475cb52ca0704aee9d9585621664",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ace87784",
+      "message": "[GOC-3236] Add OTP product families into static config live. (#62019)\n\n* Add OTP product families into static config live.\n\n* Add OTP product families live.",
+      "author": "Alexander Matlin",
+      "author_email": "alexander.matlin@hellofresh.com",
+      "date": "2025-12-17T22:14:16Z",
+      "url": "https://github.com/hellofresh/web/commit/ace8778492df9f9ea372f40f895e29cbedbbcc9a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "2256941f",
+      "message": "feat(RTEVMS-2380): added checkoutType param to schema for price (#61943)",
+      "author": "Edwin Torres",
+      "author_email": "edwin.torres@hellofresh.ca",
+      "date": "2025-12-17T20:03:45Z",
+      "url": "https://github.com/hellofresh/web/commit/2256941f4dc54434837a6c7f6bc9fb52694d75c9",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "28a1076c",
+      "message": "[RTEVMS-2258] Factor Form | OTP: SnS Discount (#61947)\n\n* update checkout selector\n\n* key is working now\n\n* fix tests\n\n* update to use other hook\n\n* fix ts\n\n* fix unit tests\n\n* create otp specific discount comms hook\n\n* fix integration tests\n\n* fix unit tests\n\n* fix test\n\n* add a11y\n\n* update inline discount logic\n\n* fix unit test",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-12-17T19:23:09Z",
+      "url": "https://github.com/hellofresh/web/commit/28a1076c117acf283d4401c2671c2423842412bc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "5b02d681",
+      "message": "[RTEVMS-2373] Factor Form: Making CTAs on Select Frequency Modals Sticky (#61955)\n\n* RTEVMS-2373: Making CTAs on ordertype modals sticky\n\n* RTEVMS-2373: Updating padding and adding comments",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-12-17T15:54:24Z",
+      "url": "https://github.com/hellofresh/web/commit/5b02d681266682fa6097685520f7d04472dc2939",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "354b5509",
+      "message": "[TPT-2358] Box Model Builder: dry packs optimization (#61996)\n\n* Add dryPacksOptimization overrides dictionary\n\n* Replace inline packs optimization (2x8oz) with the new applyDryPacksOptimization",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-12-17T15:18:34Z",
+      "url": "https://github.com/hellofresh/web/commit/354b5509bf9c7bbb12040144e6ef284a8713e85b",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "4f68e241",
+      "message": "[TPT-2206] Build carousel in PDP header (#61992)\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* initial commit\n\n* [TPT-2208] - Key Ingredients section Add constants (#61001)\n\n* TPT-2208 - add recipeIds constant and keyIngredientMapping\n\n* TPT-2208 - add keyIngredientMapping constant\n\n* [TPT-2207]: create header section for new pdp and hook for data flow (#61072)\n\n* TPT-2207: create header section for new pdp and hook for data flow\n\n* TPT-2207: fix tests for recipe drawer\n\n* TPT-2207: add tests for recipe details header and hooks\n\n* TPT-2207: review fixes\n\n* TPT-2207: fix test\n\n* TPT-2207: update title to h2\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* [TPT-2378] - [GD] Adjust identifier for recipe content to be recipe slug instead of ID (#61080)\n\n* TPT-2378 - add recipeSlugs constant\n\n* TPT-2378 - refactor names in recipe slugs\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n---------\n\nCo-authored-by: Mariia Oleksiuk <moleksiuk@griddynamics.com>\nCo-authored-by: Mariia Oleksiuk <155674255+moleksiuk-gd@users.noreply.github.com>\nCo-authored-by: alugovtsev-hf <andrey.lugovtsev@ext.hellofresh.com>\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-12-17T15:02:55Z",
+      "url": "https://github.com/hellofresh/web/commit/4f68e2414e970edab0211bf7ebe22af068836b4f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "824ce9a1",
+      "message": "[RTEVMS-2383] Fix VMS discount fallback communication (#61958)\n\n* ensure attributtin a discount comm to notify in the banner\n\n* fix infinity loop on voucher notification update\n\n* fix tests",
+      "author": "Jan Cássio",
+      "author_email": "110180472+jancassiohf@users.noreply.github.com",
+      "date": "2025-12-17T14:28:39Z",
+      "url": "https://github.com/hellofresh/web/commit/824ce9a12e1aab619a8dada852a56d22a80e6a2a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "8072085c",
+      "message": "[TPT-2376] Funnel Navigation: displaying users previous meal selections (#61786)\n\n* restore meal selections from localStorage for funnel users\n\n* fix test\n\n* removes test\n\n* fixes meal selection with multiple indexes\n\n* refactor meal selection inference using transformProductSelectionIndexess\n\n* clean up\n\n* fixes type",
+      "author": "Claudia Lagos",
+      "author_email": "cllagosr@gmail.com",
+      "date": "2025-12-17T14:22:33Z",
+      "url": "https://github.com/hellofresh/web/commit/8072085c3235a55cce23a77a5f6234812d3856bc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ce46dc07",
+      "message": "[GOC-3397] Uses delivery form data to get fname and lname (#61985)",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-17T14:03:18Z",
+      "url": "https://github.com/hellofresh/web/commit/ce46dc0713bc899065b7c6d193924d5841de12c0",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "bf727658",
+      "message": "[TPT-2289] - [GD] Update plan card price on portion change (#61967)\n\n* TPT-2289 - update plan content mapping, update hook to include portion percentage flag\n\n* TPT-2289 - update tests",
+      "author": "Mariia Oleksiuk",
+      "author_email": "155674255+moleksiuk-gd@users.noreply.github.com",
+      "date": "2025-12-17T13:43:36Z",
+      "url": "https://github.com/hellofresh/web/commit/bf727658a571ee33bacfe64ca1366a774f6b33ef",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ef225960",
+      "message": "[TPT-2428] Remove redundant meal selection code (#61979)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-12-17T13:18:01Z",
+      "url": "https://github.com/hellofresh/web/commit/ef2259601a41870bf156e297be2a6e866f20b53c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "836f2ee3",
+      "message": "[TPT-2206] Build carousel in PDP header (#61644)\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* initial commit\n\n* [TPT-2208] - Key Ingredients section Add constants (#61001)\n\n* TPT-2208 - add recipeIds constant and keyIngredientMapping\n\n* TPT-2208 - add keyIngredientMapping constant\n\n* [TPT-2207]: create header section for new pdp and hook for data flow (#61072)\n\n* TPT-2207: create header section for new pdp and hook for data flow\n\n* TPT-2207: fix tests for recipe drawer\n\n* TPT-2207: add tests for recipe details header and hooks\n\n* TPT-2207: review fixes\n\n* TPT-2207: fix test\n\n* TPT-2207: update title to h2\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>\n\n* [TPT-2378] - [GD] Adjust identifier for recipe content to be recipe slug instead of ID (#61080)\n\n* TPT-2378 - add recipeSlugs constant\n\n* TPT-2378 - refactor names in recipe slugs\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] carousel-in-PDP-header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] revert change\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n* [TPT-2206] Build carousel in PDP header\n\n---------\n\nCo-authored-by: Mariia Oleksiuk <moleksiuk@griddynamics.com>\nCo-authored-by: Mariia Oleksiuk <155674255+moleksiuk-gd@users.noreply.github.com>\nCo-authored-by: alugovtsev-hf <andrey.lugovtsev@ext.hellofresh.com>\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "kkhalatyan",
+      "author_email": "khachatur.khalatyan@ext.hellofresh.com",
+      "date": "2025-12-17T13:09:37Z",
+      "url": "https://github.com/hellofresh/web/commit/836f2ee3c1ddcefc4f815d5ffe4664007e2a9b0c",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "246a7c46",
+      "message": "[GOC-3397] Calls GTM and Statsig event on onCheckoutSuccessMinimal (#61978)\n\n* [GOC-3397] Tracks GTM and Statsig event on onCheckoutSuccessMinimal\n\n* [GOC-3397] Adds missing mocks",
+      "author": "Pamela Plúas",
+      "author_email": "pamepluas@gmail.com",
+      "date": "2025-12-17T12:44:44Z",
+      "url": "https://github.com/hellofresh/web/commit/246a7c46119621e58a2ed6c75d64a89afdfaeeae",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-17T12:44:44Z",
+    "newest": "2025-12-18T14:06:39Z"
+  }
+}

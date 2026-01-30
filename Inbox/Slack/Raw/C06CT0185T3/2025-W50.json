@@ -1,0 +1,3286 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W50",
+  "extracted_at": "2026-01-02T10:40:09.629135Z",
+  "message_count": 7,
+  "messages": [
+    {
+      "subtype": "bot_message",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: Shared Team Members: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad: <@U01AKGWGLC8> <@U027201FQSV> \n• :world: Market Innovation &amp; Optimization Squad:  <@U02CRDYF2NL>  <@U01BT6RE4JG>\n• :muscle:  Factor Form Squad: <@U09D8BZ9891>  <@U08E2S3V5D1> \nWeekly Standup Notes for the New Ventures Tribe can be found <https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0|here>",
+      "username": "New Ventures Tribe Weekly Notes Reminder",
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "actions",
+              "block_id": "RZ6md",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "b5fa9f0a-aa2e-4a2a-8460-f5a1bd18e6b7",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Go To Notes",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "third_party_auth": {
+                    "enable_dynamic_auth": true
+                  }
+                }
+              ]
+            }
+          ],
+          "fallback": "[no preview available]"
+        }
+      ],
+      "type": "message",
+      "ts": "1765528207.155499",
+      "bot_id": "B099C38L3GE",
+      "app_id": "A098ZUFML9M",
+      "trigger_id": "Ft099E45M2R3",
+      "workflow_id": "Wf098ZUFPLG7",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oZBst",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya New Ventures leads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This is your weekly reminder to please update the Weekly Team Update ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Notes",
+                  "style": {
+                    "bold": true,
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " before standup on Monday:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Shared Team Members: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Pets Table Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "meat"
+                    },
+                    {
+                      "type": "text",
+                      "text": " GoodChop Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "world"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Market Innovation & Optimization Squad:  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U02CRDYF2NL"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BT6RE4JG"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "muscle",
+                      "unicode": "1f4aa"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  Factor Form Squad: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": "  "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U08E2S3V5D1"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nWeekly Standup Notes for the New Ventures Tribe can be found "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "text": "here"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      }
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1765501929.268799",
+      "client_msg_id": "577a7c99-ba2d-4a93-9c60-7ad33287fbe4",
+      "text": "<!channel> for the AHM we're asked to present a consolidated view on the 2025 year past :slightly_smiling_face: for this I want to solicit candidates for the following content:\n• Biggest win\n• Biggest learning\n• One unexpected moment\n*Deadline:* please submit your candidates by 14:00 tomorrow (unfortunately this is a bit time sensitive)\n*Note:* only *one* of each will be highlighted (so one win, learning and moment)",
+      "team": "T02AGMUUR",
+      "thread_ts": "1765501929.268799",
+      "reply_count": 15,
+      "reply_users_count": 6,
+      "latest_reply": "1765895067.309649",
+      "reply_users": [
+        "U03UMPD2NNS",
+        "U027201FQSV",
+        "U03TY4YJU4X",
+        "U02CRDYF2NL",
+        "U01AKGWGLC8",
+        "UE4HG114J"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WxSiT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " for the AHM we're asked to present a consolidated view on the 2025 year past "
+                },
+                {
+                  "type": "emoji",
+                  "name": "slightly_smiling_face",
+                  "unicode": "1f642"
+                },
+                {
+                  "type": "text",
+                  "text": " for this I want to solicit candidates for the following content:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Biggest win"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Biggest learning"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "One unexpected moment"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Deadline: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "please submit your candidates by 14:00 tomorrow (unfortunately this is a bit time sensitive)\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Note: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "only "
+                },
+                {
+                  "type": "text",
+                  "text": "one ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "of each will be highlighted (so one win, learning and moment)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "thinking_face",
+          "users": [
+            "U01BT6RE4JG"
+          ],
+          "count": 1
+        },
+        {
+          "name": "blob_sleepless",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1765529866.680419",
+          "client_msg_id": "7d20b014-f039-4232-a3c2-851765e92a4c",
+          "text": "For now 1 win from my side:\n• Biggest win: Completing our 1st Tech OKR in the first 2 weeks of the year (25% gross CVR improvement after launching Free Items in the order summary) ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xfaSh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For now 1 win from my side:\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Biggest win: Completing our 1st Tech OKR in the first 2 weeks of the year (25% gross CVR improvement after launching Free Items in the order summary) "
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765539545.644959",
+          "client_msg_id": "cdc8ba1f-38f0-4e4e-99db-bd5dcf55eb39",
+          "text": "• Biggest win\n    ◦ :robot_face: *Made AI a team sport in 2025:* embedded an end-to-end workflow across Product, Design, and Engineering _—_ moving from ad-hoc prompting to a repeatable workflow that scales.\n• Biggest learning\n    ◦ :wallet: *Wallet Migration:* Migrating to scaleable technical architecture like Wallet supposed to speed up innovation, instead it costs us ~30% of eng capacity this year just to fit Good Chop unique requirements and customer behavior.\n• One unexpected moment\n    ◦ :cut_of_meat: *Showing and choosing free cut on reactivation:* One of the biggest impact this year comes from a simple change to show and let customer choose free add-on in the reactivation page. It allows marketing to push more aggressive campaigns and nearly double CR YoY.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Umo1/",
+              "elements": [
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Biggest win"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "emoji",
+                          "name": "robot_face",
+                          "unicode": "1f916",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Made AI a team sport in 2025:",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " embedded an end-to-end workflow across Product, Design, and Engineering"
+                        },
+                        {
+                          "type": "text",
+                          "text": " — ",
+                          "style": {
+                            "italic": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "moving from ad-hoc prompting to a repeatable workflow that scales."
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 1,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Biggest learning"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "emoji",
+                          "name": "wallet",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Wallet Migration: ",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "Migrating to scaleable technical architecture like Wallet supposed to speed up innovation, instead it costs us ~30% of eng capacity this year just to fit Good Chop unique requirements and customer behavior."
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 1,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "One unexpected moment"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "emoji",
+                          "name": "cut_of_meat",
+                          "unicode": "1f969",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Showing and choosing free cut on reactivation:",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " One of the biggest impact this year comes from a simple change to show and let customer choose free add-on in the reactivation page. It allows marketing to push more aggressive campaigns and nearly double CR YoY."
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 1,
+                  "border": 0
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1765545795.350409",
+          "client_msg_id": "687b3664-50a0-4fd5-8ced-eeb019241e23",
+          "text": "Once unexpected moment: Just last year, 5 people were contributing to The Pets Table code. In Q4 we got to *14* (Contractors included) :crazy_blob:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VCRoZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Once unexpected moment: Just last year, 5 people were contributing to The Pets Table code. In Q4 we got to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "14",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " (Contractors included) "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "crazy_blob"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765547862.208339",
+          "client_msg_id": "793e98ae-6129-4409-b6af-43ef7a6d19dc",
+          "text": "Nice folks, keep it coming :slightly_smiling_face: I think I am seeing a pattern here - I can consolidate free cuts on reactivation/welcome kits etc. into one major win, AI as a learning (maybe I am trying to just avoid mentioning Wallet) and moment... but yeah success in team scaling is one... but maybe there are some intersting things also on VMS :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kzSCR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Nice folks, keep it coming "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I think I am seeing a pattern here - I can consolidate free cuts on reactivation/welcome kits etc. into one major win, AI as a learning (maybe I am trying to just avoid mentioning Wallet) and moment... but yeah success in team scaling is one... but maybe there are some intersting things also on VMS "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "wallet",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U02CRDYF2NL",
+          "type": "message",
+          "ts": "1765562833.123979",
+          "client_msg_id": "79cca479-015a-4736-a56a-57cbd5cef530",
+          "text": "Biggest win\n• :christmas_tree: *Christmas box launch for AU, NZ and CA:* Launched a special limited-time Christmas experience across AU and NZ that lets customers order a festive one-time box — no subscription required. This opens a new seasonal revenue stream, an acquisition channel for new customers and a re-engagement path for former or inactive customers.\nWill think through if there is something I can add for learning and unexpected moment. :+1::skin-tone-2:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "czbgF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Biggest win\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "emoji",
+                          "name": "christmas_tree",
+                          "unicode": "1f384",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Christmas box launch for AU, NZ and CA:",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Launched a special limited-time Christmas experience across AU and NZ that lets customers order a festive one-time box — no subscription required. This opens a new seasonal revenue stream, an acquisition channel for new customers and a re-engagement path for former or inactive customers."
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nWill think through if there is something I can add for learning and unexpected moment. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "+1",
+                      "unicode": "1f44d-1f3fb",
+                      "skin_tone": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "fire",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765564084.645069",
+          "client_msg_id": "e0f01399-c22a-4144-8e8d-34f7f83a22a9",
+          "text": "Nice one:fire:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aiSJ/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Nice one"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "fire",
+                      "unicode": "1f525"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765610071.680629",
+          "client_msg_id": "11cb8456-b072-4d13-8da1-196b7366bf75",
+          "text": "I've decided to compile a couple of topics together so that we have a solid representation: <https://docs.google.com/presentation/d/1OIhPYjr_T5CvaIGz30QJ8PE-Aoj0Bsf3SeJnMYl2WnM/edit?usp=sharing>\n\nI will be pinging some for data, but generally should be good.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uxzdm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I've decided to compile a couple of topics together so that we have a solid representation: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/presentation/d/1OIhPYjr_T5CvaIGz30QJ8PE-Aoj0Bsf3SeJnMYl2WnM/edit?usp=sharing"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nI will be pinging some for data, but generally should be good."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765810584.741189",
+          "client_msg_id": "b96fbab0-22d6-4511-b537-2e0a692922bf",
+          "text": "Content generally added here: <https://docs.google.com/presentation/d/1OIhPYjr_T5CvaIGz30QJ8PE-Aoj0Bsf3SeJnMYl2WnM/edit?usp=sharing> now let's fill out as much as we can and the numbers (<@U01AKGWGLC8>) screenshots (<@U03UMPD2NNS> <@U01AKGWGLC8> <@U08AXBW1CAZ>) and the content (<@UE4HG114J> <@UEZ4PRFKM> on slide 3 esp)\n\nI'll be monitoring how the rest of the presentation is shaping up and adjust content as wneeded",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "capg8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Content generally added here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/presentation/d/1OIhPYjr_T5CvaIGz30QJ8PE-Aoj0Bsf3SeJnMYl2WnM/edit?usp=sharing"
+                    },
+                    {
+                      "type": "text",
+                      "text": " now let's fill out as much as we can and the numbers ("
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": ") screenshots ("
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U08AXBW1CAZ"
+                    },
+                    {
+                      "type": "text",
+                      "text": ") and the content ("
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UE4HG114J"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " on slide 3 esp)\n\nI'll be monitoring how the rest of the presentation is shaping up and adjust content as wneeded"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1765826755.585609",
+          "client_msg_id": "9980b25d-d7c4-422f-959e-d03b40004965",
+          "text": "<@U03TY4YJU4X> I added some corrections on the slide; not sure why Reactivations is bundled with Welcome gifts - we only did this in the funnel",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "J7DUi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I added some corrections on the slide; not sure why Reactivations is bundled with Welcome gifts - we only did this in the funnel"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1765826801.284939",
+          "edited": {
+            "user": "U01AKGWGLC8",
+            "ts": "1765826982.000000"
+          },
+          "client_msg_id": "aeca6d03-717b-4ce2-9c30-0124afb1dc12",
+          "text": "In terms of general Reactivations we do see a YoY increase but no pre-post has been done (sample too low + coincides with big marketing campaigns push). We can't definitively attribute the entire increase to Product changes only",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2680n",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In terms of general Reactivations we do see a YoY increase but no pre-post has been done (sample too low + coincides with big marketing campaigns push). We can't definitively attribute the entire increase to Product changes only"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765827710.214399",
+          "client_msg_id": "a438eae0-0c8f-4ee4-af54-e49eaa6b1f6c",
+          "text": "Wait, now I am confused a bit <@U027201FQSV> what did you mean with you suggestion? :-)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "y7LGd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Wait, now I am confused a bit "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " what did you mean with you suggestion? :-)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1765827981.671689",
+          "client_msg_id": "ed115cce-b288-409e-8bdb-91ee90417fd5",
+          "text": "&gt; *Showing and choosing free cut on reactivation:* One of the biggest impact this year comes from a simple change to show and let customer choose free add-on in the reactivation page. It allows marketing to push more aggressive campaigns and nearly double CR YoY.\nfree cuts",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QBHY4",
+              "elements": [
+                {
+                  "type": "rich_text_quote",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Showing and choosing free cut on reactivation:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " One of the biggest impact this year comes from a simple change to show and let customer choose free add-on in the reactivation page. It allows marketing to push more aggressive campaigns and nearly double CR YoY."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "free cuts"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "this",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1765828052.228079",
+          "edited": {
+            "user": "U01AKGWGLC8",
+            "ts": "1765828176.000000"
+          },
+          "client_msg_id": "a9960ff4-aaa9-4ba7-a30b-8735ce219ebd",
+          "text": "but I would not say the increase in gross RR is not attributable to that; there are many changes we did including a bug fix and strong marketing push",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mKRUA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but I would not say the increase in gross RR is not attributable to that; there are many changes we did including a bug fix and strong marketing push"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UE4HG114J",
+          "type": "message",
+          "ts": "1765893870.108849",
+          "client_msg_id": "af2d2bfb-81f6-455d-aaf3-336c4f0b34d2",
+          "text": "I put a couple of comments on the \"Limits of HF SKU\" slide",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Oe0lL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I put a couple of comments on the \"Limits of HF SKU\" slide"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765895067.309649",
+          "client_msg_id": "da67545c-03d7-41da-81e4-3b11ec8d6a85",
+          "text": "Will check out!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765501929.268799",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QtuMW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Will check out!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1765453562.578709",
+      "client_msg_id": "83f296fd-8781-47d2-be93-f70a4c1a038e",
+      "text": "hey folks our stuff for tpt, goc, vms etc. are all in the /web repo, correct?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1765453562.578709",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1765455221.021109",
+      "reply_users": [
+        "UEZ4PRFKM",
+        "U03TY4YJU4X",
+        "U8F7ZDAPM"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KW0ws",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hey folks our stuff for tpt, goc, vms etc. are all in the /web repo, correct?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1765453778.724909",
+          "client_msg_id": "1b00de39-8e70-499f-9e95-c6cc6c5d4ca1",
+          "text": "Yes for the most part but VMS might have some code in the <https://github.com/hellofresh/shared-mobile-modules/tree/master> repo to account for its entry points and redirect VMS-only customers back to web on the Factor app",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765453562.578709",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vgo3o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes for the most part but VMS might have some code in the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/hellofresh/shared-mobile-modules/tree/master"
+                    },
+                    {
+                      "type": "text",
+                      "text": " repo to account for its entry points and redirect VMS-only customers back to web on the Factor app"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765453950.865569",
+          "client_msg_id": "0895198d-c46d-4820-8bc0-8f36529f07ab",
+          "text": "got it, thanks!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765453562.578709",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wyHRe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "got it, thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U8F7ZDAPM",
+          "type": "message",
+          "ts": "1765454742.815679",
+          "client_msg_id": "0a8d6069-94eb-41b9-8005-5ffad4cc0db1",
+          "text": "if only FE then yes",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765453562.578709",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jASt3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "if only FE then yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765455221.021109",
+          "client_msg_id": "da2086d2-7464-4190-97ae-600c312feeaa",
+          "text": "ty",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765453562.578709",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QWEd5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ty"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "UEZ4PRFKM",
+      "type": "message",
+      "ts": "1765448369.718629",
+      "client_msg_id": "51d7be82-e67c-4a9d-ae1b-e2e94c3ccf4b",
+      "text": "Also a heads up that apart from the Sprint reporting and demo changes that Nikita mentioned above, we want to align the sprint <https://hellofresh.slack.com/archives/C09TT61MF0C/p1765360580832989|schedules> in 2026 across all of HelloTech, meaning that *Sprint 1 in 2026 should begin on Mon Jan 5th. P*lease align schedules accordingly across squads if this wasn't already the case :pray:\n\ncc: <@U8F7ZDAPM> <@U03UMPD2NNS> <@U01AKGWGLC8> <@U027201FQSV> <@U09D8BZ9891> <@U08E2S3V5D1> <@U02CRDYF2NL> <@U01BT6RE4JG>",
+      "team": "T02AGMUUR",
+      "attachments": [
+        {
+          "from_url": "https://hellofresh.slack.com/archives/C09TT61MF0C/p1765360580832989",
+          "ts": "1765360580.832989",
+          "author_id": "U092EPL1VBQ",
+          "channel_id": "C09TT61MF0C",
+          "channel_team": "T02AGMUUR",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T02AGMUUR",
+              "channel": "C09TT61MF0C",
+              "ts": "1765360580.832989",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "QTIki",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "(CMA – Sprint Report & Demo Cadence) Hi Team, We’re kicking off the new bi-weekly sprint report and demo cadence for the Consumer Mega Alliance. We’ll use the December sprint as a pilot, and from January 5th all CMA squads will start Sprint 1 together under a unified sprint calendar for consistent reporting.\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "How it works:",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n • Tribe lead is the driver\n • At the end of each sprint, a recorded demo is saved under "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://drive.google.com/drive/folders/1Rvb1s2OTJM5CjwdnwADN3f6uFpOoVFqb",
+                            "text": "/ConsumerMegaAlliance/TribeDemos/2026",
+                            "style": {
+                              "underline": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n • Automated Slack summaries of CMA tribe demos will be shared here in "
+                          },
+                          {
+                            "type": "text",
+                            "text": "#consumer-mega-alliance",
+                            "style": {
+                              "code": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\nSharing the "
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?tab=t.0",
+                            "text": "1-pager"
+                          },
+                          {
+                            "type": "text",
+                            "text": " outlining the bi-weekly CMA sprint and demo cadence for visibility as we get started."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "files": [
+            {
+              "id": "F0A1TPZSAAU",
+              "created": 1764670310,
+              "timestamp": 1764670310,
+              "name": "CMA KPI Sprint Report Process",
+              "title": "CMA KPI Sprint Report Process",
+              "mimetype": "application/vnd.google-apps.document",
+              "filetype": "gdoc",
+              "pretty_type": "Google Docs",
+              "user": "U092EPL1VBQ",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 0,
+              "mode": "external",
+              "is_external": true,
+              "external_type": "gdrive",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "external_id": "1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA",
+              "external_url": "https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?tab=t.0#heading=h.tidvak6n26jd",
+              "url_private": "https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?tab=t.0#heading=h.tidvak6n26jd",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_360.png",
+              "thumb_360_w": 233,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_480.png",
+              "thumb_480_w": 311,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_720.png",
+              "thumb_720_w": 466,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 1236,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_960.png",
+              "thumb_960_w": 621,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A1TPZSAAU-716cff2c0a/cma_kpi_sprint_report_process_1024.png",
+              "thumb_1024_w": 663,
+              "thumb_1024_h": 1024,
+              "original_w": 800,
+              "original_h": 1236,
+              "thumb_tiny": "AwAwACDRcuCNiqfq2P6GlGe4A+hob8+OgpiEnA4Gcng+/wD9egCSikAIxk5NLQAHpTUQJnAwT7k0OAwwc88dM0g28jnGem3j+VAD6KTaM9BS0ABAPUZowPSiigA6UUUUAf/Z",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A1TPZSAAU/cma_kpi_sprint_report_process",
+              "comments_count": 0,
+              "is_starred": false,
+              "skipped_shares": true,
+              "app_id": "A6NL8MJ6Q",
+              "has_rich_preview": true,
+              "file_access": "visible",
+              "entity_id": "W:A6NL8MJ6Q:1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA",
+              "full_size_preview_supported": true
+            }
+          ],
+          "id": 1,
+          "original_url": "https://hellofresh.slack.com/archives/C09TT61MF0C/p1765360580832989",
+          "fallback": "[December 10th, 2025 1:56 AM] abdallah.ibrahim: (CMA – Sprint Report &amp; Demo Cadence) Hi Team, We’re kicking off the new bi-weekly sprint report and demo cadence for the Consumer Mega Alliance. We’ll use the December sprint as a pilot, and from January 5th all CMA squads will start Sprint 1 together under a unified sprint calendar for consistent reporting.\n*How it works:*\n • Tribe lead is the driver\n • At the end of each sprint, a recorded demo is saved under <https://drive.google.com/drive/folders/1Rvb1s2OTJM5CjwdnwADN3f6uFpOoVFqb|/ConsumerMegaAlliance/TribeDemos/2026>\n • Automated Slack summaries of CMA tribe demos will be shared here in `#consumer-mega-alliance`\nSharing the <https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?tab=t.0|1-pager> outlining the bi-weekly CMA sprint and demo cadence for visibility as we get started.",
+          "text": "(CMA – Sprint Report &amp; Demo Cadence) Hi Team, We’re kicking off the new bi-weekly sprint report and demo cadence for the Consumer Mega Alliance. We’ll use the December sprint as a pilot, and from January 5th all CMA squads will start Sprint 1 together under a unified sprint calendar for consistent reporting.\n*How it works:*\n • Tribe lead is the driver\n • At the end of each sprint, a recorded demo is saved under <https://drive.google.com/drive/folders/1Rvb1s2OTJM5CjwdnwADN3f6uFpOoVFqb|/ConsumerMegaAlliance/TribeDemos/2026>\n • Automated Slack summaries of CMA tribe demos will be shared here in `#consumer-mega-alliance`\nSharing the <https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?tab=t.0|1-pager> outlining the bi-weekly CMA sprint and demo cadence for visibility as we get started.",
+          "author_name": "Abdallah Ibrahim",
+          "author_link": "https://hellofresh.slack.com/team/U092EPL1VBQ",
+          "author_icon": "https://avatars.slack-edge.com/2025-07-02/9133494646870_a232b7f41b9124c1a368_48.jpg",
+          "author_subname": "Abdallah Ibrahim",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack Conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RMhZm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Also a heads up that apart from the Sprint reporting and demo changes that Nikita mentioned above, we want to align the sprint "
+                },
+                {
+                  "type": "link",
+                  "url": "https://hellofresh.slack.com/archives/C09TT61MF0C/p1765360580832989",
+                  "text": "schedules"
+                },
+                {
+                  "type": "text",
+                  "text": " in 2026 across all of HelloTech, meaning that "
+                },
+                {
+                  "type": "text",
+                  "text": "Sprint 1 in 2026 should begin on Mon Jan 5th. P",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "lease align schedules accordingly across squads if this wasn't already the case "
+                },
+                {
+                  "type": "emoji",
+                  "name": "pray",
+                  "unicode": "1f64f"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\ncc: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U027201FQSV"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09D8BZ9891"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08E2S3V5D1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U02CRDYF2NL"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01BT6RE4JG"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U09D8BZ9891"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1765368452.031259",
+      "client_msg_id": "433ebbc7-c5d4-425a-8089-53d02b14c38f",
+      "text": "OT: <@UEZ4PRFKM> <@U01BT6RE4JG> - whats the MIO jira project name?",
+      "team": "T02AGMUUR",
+      "thread_ts": "1765368452.031259",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1766180526.479729",
+      "reply_users": [
+        "U01BT6RE4JG",
+        "U03TY4YJU4X",
+        "UEZ4PRFKM",
+        "U027201FQSV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kMyY8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "OT: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UEZ4PRFKM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01BT6RE4JG"
+                },
+                {
+                  "type": "text",
+                  "text": " - whats the MIO jira project name?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765370972.831129",
+          "client_msg_id": "77E470C4-3F40-4B4C-9397-1F4B5BB3FE47",
+          "text": "MIO Market Innovation and Optimization— soon to drop the optimization part to match squad name ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zz8LG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "MIO Market Innovation and Optimization"
+                    },
+                    {
+                      "type": "text",
+                      "text": "—"
+                    },
+                    {
+                      "type": "text",
+                      "text": " soon to drop the optimization part to match squad name "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765371186.604429",
+          "client_msg_id": "8f4f2221-d004-4272-b7f0-191437aadc10",
+          "text": "Hm, can you send the jira link?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7scaz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hm, can you send the jira link?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1765371510.238709",
+          "client_msg_id": "9422d292-c1a3-4312-86a3-830c35fa75f4",
+          "text": "should be <https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "id": 1,
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": ":unfurl:22078::57aead9d81734dba965b03e9cbd92655",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*<https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541?atlOrigin=eyJpIjoiYzMzN2MzN2I3NjQ4NDUxOWJmMzJkZGVkMTVjMjk4NmQiLCJwIjoiamlyYS1zbGFjay1pbnQifQ| Market Innovation &amp; Optimization>*",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "actions",
+                  "block_id": "projectFooterActions:{\"issueId\":\"\",\"instanceId\":\"jira:644873fd-ceb4-4f39-a2aa-320afbd120b8\",\"projectId\":\"22078\",\"messageType\":\"uf\",\"nType\":\"PROJECT_UNFURL\",\"contentType\":\"jiraBoard\",\"projectTypeKey\":\"software\"}",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "action_id": "notify",
+                      "text": {
+                        "type": "plain_text",
+                        "text": ":bell: Receive updates in channel",
+                        "emoji": true
+                      },
+                      "value": "{\"issueKey\":\"\",\"projectId\":\"22078\",\"projectKey\":\"MIO\",\"projectName\":\"Market Innovation & Optimization\",\"instanceId\":\"jira:644873fd-ceb4-4f39-a2aa-320afbd120b8\",\"messageType\":\"uf\",\"nType\":\"PROJECT_UNFURL\",\"contentType\":\"jiraBoard\",\"projectTypeKey\":\"software\"}"
+                    }
+                  ]
+                }
+              ],
+              "color": "#2684FF",
+              "fallback": "[no preview available]",
+              "bot_id": "B4S36RHS8",
+              "bot_team_id": "T02AGMUUR",
+              "app_unfurl_url": "https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541",
+              "is_app_unfurl": true,
+              "app_id": "A2RPP3NFR"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+uTew",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "should be "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765384087.570869",
+          "client_msg_id": "765597b5-328a-4fba-a77f-9e752a2ad78c",
+          "text": "that's why: The space might have been deleted or you don't have permission.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9e9U9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "that's why: The space might have been deleted or you don't have permission."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1765384412.981029",
+          "client_msg_id": "9477adf8-2786-4b96-a823-10a92ce83e43",
+          "text": "yea its private by default - <@U01BT6RE4JG> might have to add you",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/600u",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yea its private by default - "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BT6RE4JG"
+                    },
+                    {
+                      "type": "text",
+                      "text": " might have to add you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765385709.950229",
+          "client_msg_id": "66616722-49c7-4a20-b194-b497b917380f",
+          "text": "added you <@U03TY4YJU4X> - please retry",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gG3kX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "added you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " - please retry"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765386073.952989",
+          "client_msg_id": "40fe4f23-9c2c-402d-970c-df6172c1bdcb",
+          "text": "nice! I see it, thank you!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jAums",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "nice! I see it, thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1766180526.479729",
+          "edited": {
+            "user": "U027201FQSV",
+            "ts": "1766180574.000000"
+          },
+          "client_msg_id": "13dc2abc-3314-417d-9bed-5be6afedfde5",
+          "text": "Hey guys, please add me as well to <https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368452.031259",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gkBk/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey guys, please add me as well to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.atlassian.net/jira/software/c/projects/MIO/boards/8541"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Here's a suggested solutions plan.",
+      "files": [
+        {
+          "id": "F0A2NC7UZ2S",
+          "created": 1765368426,
+          "timestamp": 1765368426,
+          "name": "PLAN_Sprint_Report_Automation.md",
+          "title": "PLAN_Sprint_Report_Automation.md",
+          "mimetype": "text/plain",
+          "filetype": "markdown",
+          "pretty_type": "Markdown (raw)",
+          "user": "U03TY4YJU4X",
+          "user_team": "T02AGMUUR",
+          "editable": true,
+          "size": 6322,
+          "mode": "snippet",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NC7UZ2S/plan_sprint_report_automation.md",
+          "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NC7UZ2S/download/plan_sprint_report_automation.md",
+          "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A2NC7UZ2S/plan_sprint_report_automation.md",
+          "permalink_public": "https://slack-files.com/T02AGMUUR-F0A2NC7UZ2S-24afb9a45d",
+          "edit_link": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A2NC7UZ2S/plan_sprint_report_automation.md/edit",
+          "preview": "# Automation Plan: CMA KPI Sprint Reporting\n\n**Status:** Draft | **Date:** 2025-12-10 | **Author:** Gemini (PM-OS Agent)\n\n## 1. Executive Summary",
+          "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\">#</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\">u</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">m</span><span class=\"cm-header cm-header-1\">a</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">P</span><span class=\"cm-header cm-header-1\">l</span><span class=\"cm-header cm-header-1\">a</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">:</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">C</span><span class=\"cm-header cm-header-1\">M</span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">K</span><span class=\"cm-header cm-header-1\">P</span><span class=\"cm-header cm-header-1\">I</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">S</span><span class=\"cm-header cm-header-1\">p</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">R</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">p</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">g</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">S</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">a</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">u</span><span class=\"cm-strong\">s</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> Draft | <span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">D</span><span class=\"cm-strong\">a</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">e</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> 2025-12-10 | <span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">A</span><span class=\"cm-strong\">u</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">h</span><span class=\"cm-strong\">o</span><span class=\"cm-strong\">r</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> Gemini (PM-OS Agent)</pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">1</span><span class=\"cm-header cm-header-2\">.</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">E</span><span class=\"cm-header cm-header-2\">x</span><span class=\"cm-header cm-header-2\">e</span><span class=\"cm-header cm-header-2\">c</span><span class=\"cm-header cm-header-2\">u</span><span class=\"cm-header cm-header-2\">t</span><span class=\"cm-header cm-header-2\">i</span><span class=\"cm-header cm-header-2\">v</span><span class=\"cm-header cm-header-2\">e</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">S</span><span class=\"cm-header cm-header-2\">u</span><span class=\"cm-header cm-header-2\">m</span><span class=\"cm-header cm-header-2\">m</span><span class=\"cm-header cm-header-2\">a</span><span class=\"cm-header cm-header-2\">r</span><span class=\"cm-header cm-header-2\">y</span></pre></div>\n</div>\n</div>\n",
+          "lines": 114,
+          "lines_more": 109,
+          "preview_is_truncated": true,
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U03TY4YJU4X",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NvFc1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Here's a suggested solutions plan."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1765368436.946479",
+      "client_msg_id": "ff82fa1f-2979-4c8e-817c-ebdf82061022"
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1765368418.388899",
+      "client_msg_id": "eac72f0b-dc06-4156-bf85-1de7f581c2b3",
+      "text": ":wave: hey folks, please see the update that I pinged you about.\n\n*tl;dr:* we're asked to follow the *<https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?usp=sharing|sprint reporting>*, basically to fill out *<https://docs.google.com/spreadsheets/d/1TFvUQFbFKG4k5Y819UqVpxIVN9ebXJFkiMXTvzcb8ak/edit?usp=sharing|this>* every sprint.\n*Opinion:* personally I hate this whole idea, but there isn't anything we can do; it's a waste of time for an unclear reason (I don't know who would be reading this, and if it's for AI cointext building this can be done without a separate file).\n\n*Solution:* we automate the whole setup. We have the following things to fill out:\n1. KPI movement based on our north star KPIs: <@U087178ACSD> could you work with your team to get this automatically (I am assuming this is part of the 2026 P0 work) \n2. What was delivered in the last sprint: it's a list of deliverables, I am assuming on an Epic level + small improvements done within the sprint: <@U027201FQSV> - can you lead this to support <@U8F7ZDAPM> <@U01BT6RE4JG> <@U08E2S3V5D1> to automate the capture from the sprints? \n3. Key Learnings since last sprint: Hm, this one is a bit tricky, as it's unclear as to what can be a learning (virtually anything). Suggestion: once the automation for the sprint deliverables is done, we simply create an automation via my PM-OS that runs through existing context to create an update from our discussions and updates. This one I feel is trickier.\n4. Planned for Next Sprint: <@U027201FQSV> - same process here just for future sprint. \n5. Video :eye-roll: : No ideas here. \n",
+      "team": "T02AGMUUR",
+      "thread_ts": "1765368418.388899",
+      "reply_count": 22,
+      "reply_users_count": 5,
+      "latest_reply": "1766075443.655249",
+      "reply_users": [
+        "UEZ4PRFKM",
+        "U027201FQSV",
+        "U01BT6RE4JG",
+        "U03TY4YJU4X",
+        "U08E2S3V5D1"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8Plpu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": " hey folks, please see the update that I pinged you about.\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "tl;dr: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "we're asked to follow the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1rmoBu68La_UdWDzb_ioa3bM2kgfR_c_Bf4AHEplsEEA/edit?usp=sharing",
+                  "text": "sprint reporting",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", basically to fill out "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1TFvUQFbFKG4k5Y819UqVpxIVN9ebXJFkiMXTvzcb8ak/edit?usp=sharing",
+                  "text": "this",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " every sprint.\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Opinion: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "personally I hate this whole idea, but there isn't anything we can do; it's a waste of time for an unclear reason (I don't know who would be reading this, and if it's for AI cointext building this can be done without a separate file).\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Solution: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "we automate the whole setup. We have the following things to fill out:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "KPI movement based on our north star KPIs: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U087178ACSD"
+                    },
+                    {
+                      "type": "text",
+                      "text": " could you work with your team to get this automatically (I am assuming this is part of the 2026 P0 work) "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What was delivered in the last sprint: it's a list of deliverables, I am assuming on an Epic level + small improvements done within the sprint: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " - can you lead this to support "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BT6RE4JG"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U08E2S3V5D1"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to automate the capture from the sprints? "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Key Learnings since last sprint: Hm, this one is a bit tricky, as it's unclear as to what can be a learning (virtually anything). Suggestion: once the automation for the sprint deliverables is done, we simply create an automation via my PM-OS that runs through existing context to create an update from our discussions and updates. This one I feel is trickier."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Planned for Next Sprint: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " - same process here just for future sprint. "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Video "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eye-roll"
+                    },
+                    {
+                      "type": "text",
+                      "text": " : No ideas here. "
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U027201FQSV"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1765371699.610309",
+          "client_msg_id": "56cd82aa-5427-4084-9f44-a479c9006c26",
+          "text": "Agreed that its a bit combursome to fill this out every 2 weeks but if we can automate it should remove some of the effort.\n\nFor point 3 might be harder to automate but we can ask Miro AI to summarize take-aways from squad retros, as I believe most squads should be using Miro\n\nFor point 5 video, is was mentioned in the meeting that most tribes will have internal demos and can just attach a recording. The other option is we try to pull any videos that are attached to PRs or tickets after completion or merge",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "91rXA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Agreed that its a bit combursome to fill this out every 2 weeks but if we can automate it should remove some of the effort.\n\nFor point 3 might be harder to automate but we can ask Miro AI to summarize take-aways from squad retros, as I believe most squads should be using Miro\n\nFor point 5 video, is was mentioned in the meeting that most tribes will have internal demos and can just attach a recording. The other option is we try to pull any videos that are attached to PRs or tickets after completion or merge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765372368.255389",
+          "client_msg_id": "bb42e928-5b5a-4eba-a6be-8d5eb2d4483c",
+          "text": "Yes, I will help to automate with 2 and 4 :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rpVl1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, I will help to automate with 2 and 4 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765372460.070769",
+          "edited": {
+            "user": "U027201FQSV",
+            "ts": "1765372503.000000"
+          },
+          "client_msg_id": "7e0ca178-a5d7-476a-9604-257d190a1732",
+          "text": "For point 3: We can automate this through Gemini notes for Retros. AI Agent would take those notes and create a summary of learnings. We should apply some guards there to not expose names for example.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ucUkg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For point 3: We can automate this through Gemini notes for Retros. AI Agent would take those notes and create a summary of learnings. We should apply some guards there to not expose names for example."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765372573.540579",
+          "client_msg_id": "461e5bcf-9fad-4ecc-91b2-42277ba62178",
+          "text": "I don't use Miro or Sprints. lol",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4cAbG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I don't use Miro or Sprints. lol"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765372632.823299",
+          "client_msg_id": "07fff2e4-f5da-494b-b1c7-ed96da5d6593",
+          "text": "Do you use Kanban? <@U01BT6RE4JG>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "R6AiA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Do you use Kanban? "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BT6RE4JG"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765372637.474309",
+          "client_msg_id": "cda7882a-eef6-4bda-867b-1a544c394422",
+          "text": "Also, no retros :shrug::skin-tone-2:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OG+sv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Also, no retros "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "shrug",
+                      "unicode": "1f937-1f3fb",
+                      "skin_tone": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765372661.646639",
+          "client_msg_id": "5eb41d35-a7df-4a20-bde0-3b9c78051436",
+          "text": "<@U027201FQSV> yes but even that is overkill atm",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NxCxM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " yes but even that is overkill atm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01BT6RE4JG",
+          "type": "message",
+          "ts": "1765372843.835119",
+          "client_msg_id": "ec96d4e6-0ee7-4e9e-8736-513eda2b1aaf",
+          "text": "We should just move to waterfall model!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HZPcP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We should just move to waterfall model!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "cry",
+              "users": [
+                "U027201FQSV",
+                "U03TY4YJU4X",
+                "U2D54V0UV"
+              ],
+              "count": 3
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765373243.637969",
+          "client_msg_id": "11063416-c86d-469f-8b5e-87244efbe2aa",
+          "text": "For point three we can extract from a meeting recording/notes actually. That should be pretty good IMO",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "T4LKl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For point three we can extract from a meeting recording/notes actually. That should be pretty good IMO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765373275.009109",
+          "client_msg_id": "aa49614c-b103-47aa-9c8d-686300421172",
+          "text": "Ah, didn't see the proposal from Alex",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "P8EpH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ah, didn't see the proposal from Alex"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "handshake",
+              "users": [
+                "U027201FQSV"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765377968.774359",
+          "client_msg_id": "c95f1eff-89c9-4b9b-8970-b68ab301510e",
+          "text": "<@U027201FQSV> check the .md plan that I'm proposing. Generally we can have this as a standalone tool that we trigger through some cron/actions. My only question was - should we automate so far as to directly edit the proposed sheet or should we just create our own sheets in the same format and copyspace it.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GpzWV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " check the .md plan that I'm proposing. Generally we can have this as a standalone tool that we trigger through some cron/actions. My only question was - should we automate so far as to directly edit the proposed sheet or should we just create our own sheets in the same format and copyspace it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765382447.754729",
+          "client_msg_id": "8f247d59-ce44-4917-a92f-ebf36c69036a",
+          "text": "<@U03TY4YJU4X> where can I find the .md file?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "n/m7F",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " where can I find the .md file?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1765383624.395839",
+          "client_msg_id": "3d04ff01-c30c-4fab-b1a2-308d7d53a759",
+          "text": "<https://hellofresh.slack.com/archives/C06CT0185T3/p1765368436946479>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C06CT0185T3/p1765368436946479",
+              "ts": "1765368436.946479",
+              "author_id": "U03TY4YJU4X",
+              "channel_id": "C06CT0185T3",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C06CT0185T3",
+                  "ts": "1765368436.946479",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "NvFc1",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Here's a suggested solutions plan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "files": [
+                {
+                  "id": "F0A2NC7UZ2S",
+                  "created": 1765368426,
+                  "timestamp": 1765368426,
+                  "name": "PLAN_Sprint_Report_Automation.md",
+                  "title": "PLAN_Sprint_Report_Automation.md",
+                  "mimetype": "text/plain",
+                  "filetype": "markdown",
+                  "pretty_type": "Markdown (raw)",
+                  "user": "U03TY4YJU4X",
+                  "user_team": "T02AGMUUR",
+                  "editable": true,
+                  "size": 6322,
+                  "mode": "snippet",
+                  "is_external": false,
+                  "external_type": "",
+                  "is_public": false,
+                  "public_url_shared": false,
+                  "display_as_bot": false,
+                  "username": "",
+                  "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NC7UZ2S/plan_sprint_report_automation.md",
+                  "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NC7UZ2S/download/plan_sprint_report_automation.md",
+                  "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A2NC7UZ2S/plan_sprint_report_automation.md",
+                  "permalink_public": "https://slack-files.com/T02AGMUUR-F0A2NC7UZ2S-24afb9a45d",
+                  "edit_link": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A2NC7UZ2S/plan_sprint_report_automation.md/edit",
+                  "preview": "# Automation Plan: CMA KPI Sprint Reporting\n\n**Status:** Draft | **Date:** 2025-12-10 | **Author:** Gemini (PM-OS Agent)\n\n## 1. Executive Summary",
+                  "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\">#</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\">u</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">m</span><span class=\"cm-header cm-header-1\">a</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">P</span><span class=\"cm-header cm-header-1\">l</span><span class=\"cm-header cm-header-1\">a</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">:</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">C</span><span class=\"cm-header cm-header-1\">M</span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">K</span><span class=\"cm-header cm-header-1\">P</span><span class=\"cm-header cm-header-1\">I</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">S</span><span class=\"cm-header cm-header-1\">p</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">R</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">p</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\">t</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">g</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">S</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">a</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">u</span><span class=\"cm-strong\">s</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> Draft | <span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">D</span><span class=\"cm-strong\">a</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">e</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> 2025-12-10 | <span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">A</span><span class=\"cm-strong\">u</span><span class=\"cm-strong\">t</span><span class=\"cm-strong\">h</span><span class=\"cm-strong\">o</span><span class=\"cm-strong\">r</span><span class=\"cm-strong\">:</span><span class=\"cm-strong\">*</span><span class=\"cm-strong\">*</span> Gemini (PM-OS Agent)</pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">1</span><span class=\"cm-header cm-header-2\">.</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">E</span><span class=\"cm-header cm-header-2\">x</span><span class=\"cm-header cm-header-2\">e</span><span class=\"cm-header cm-header-2\">c</span><span class=\"cm-header cm-header-2\">u</span><span class=\"cm-header cm-header-2\">t</span><span class=\"cm-header cm-header-2\">i</span><span class=\"cm-header cm-header-2\">v</span><span class=\"cm-header cm-header-2\">e</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">S</span><span class=\"cm-header cm-header-2\">u</span><span class=\"cm-header cm-header-2\">m</span><span class=\"cm-header cm-header-2\">m</span><span class=\"cm-header cm-header-2\">a</span><span class=\"cm-header cm-header-2\">r</span><span class=\"cm-header cm-header-2\">y</span></pre></div>\n</div>\n</div>\n",
+                  "lines": 114,
+                  "lines_more": 109,
+                  "preview_is_truncated": true,
+                  "comments_count": 0,
+                  "is_starred": false,
+                  "skipped_shares": true,
+                  "has_rich_preview": false,
+                  "file_access": "visible"
+                }
+              ],
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C06CT0185T3/p1765368436946479",
+              "fallback": "[December 10th, 2025 4:07 AM] nikita.gorshkov: Here's a suggested solutions plan.",
+              "text": "Here's a suggested solutions plan.",
+              "author_name": "Nikita Gorshkov",
+              "author_link": "https://hellofresh.slack.com/team/U03TY4YJU4X",
+              "author_icon": "https://avatars.slack-edge.com/2024-05-18/7124322667623_d5fe2b97666e0831ce66_48.jpg",
+              "author_subname": "Nikita Gorshkov",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZNyG6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C06CT0185T3/p1765368436946479"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "<@U027201FQSV> I think I got to a good state here. Can you check and see what you would want to improve?",
+          "files": [
+            {
+              "id": "F0A34G2SCM8",
+              "created": 1765504435,
+              "timestamp": 1765504435,
+              "name": "Sprint_Report_Generator.zip",
+              "title": "Sprint_Report_Generator.zip",
+              "mimetype": "application/zip",
+              "filetype": "zip",
+              "pretty_type": "Zip",
+              "user": "U03TY4YJU4X",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 10614,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": false,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A34G2SCM8/sprint_report_generator.zip",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A34G2SCM8/download/sprint_report_generator.zip",
+              "media_display_type": "unknown",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A34G2SCM8/sprint_report_generator.zip",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A34G2SCM8-89367e64f5",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03TY4YJU4X",
+          "display_as_bot": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tu20Y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I think I got to a good state here. Can you check and see what you would want to improve?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "message",
+          "ts": "1765504451.983119",
+          "client_msg_id": "d6aab960-7c13-4877-9779-d3b00ac414d4",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1765527905.807039",
+          "client_msg_id": "937fa1c9-161a-4ef0-b521-6ddaa6e1c3f9",
+          "text": "Hi <@U03TY4YJU4X>! Cool! I will take a look :eyes:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qzRuw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! Cool! I will take a look "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes",
+                      "unicode": "1f440"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U08E2S3V5D1",
+          "type": "message",
+          "ts": "1766067620.368249",
+          "client_msg_id": "a5f8ee9e-c76d-4433-8e86-897de854fefc",
+          "text": "Sorry team I was on leave and missed a lot of this. I would think that an approach worth considering is to use the automation in Jira when a sprint is completed, it will generate a webhook or an automation (or both). Pulling data can be challenging if a team complete a sprint later the expected, especially with the different time zones.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6/h/G",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sorry team I was on leave and missed a lot of this. I would think that an approach worth considering is to use the automation in Jira when a sprint is completed, it will generate a webhook or an automation (or both). Pulling data can be challenging if a team complete a sprint later the expected, especially with the different time zones."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "UEZ4PRFKM"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U08E2S3V5D1",
+          "type": "message",
+          "ts": "1766067854.110599",
+          "client_msg_id": "dc4983ad-ed2a-464b-a929-544e805b0546",
+          "text": "If it's Kanban the we can track Jira releases that clear the done column rather than checking the last 14 days.  Teams do this. a little different that may throw off the script, this will cause more prescriptive ways to start and complete sprint. We should drive policy based on scripting needs.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jUfYv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If it's Kanban the we can track Jira releases that clear the done column rather than checking the last 14 days.  Teams do this. a little different that may throw off the script, this will cause more prescriptive ways to start and complete sprint. We should drive policy based on scripting needs."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766075124.993639",
+          "client_msg_id": "661855a8-770b-428a-86dd-e1f985d2cc32",
+          "text": "ooh that would be nice! But wouldn't the webhook be based on the action? so TZ doesn't really matter?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s9N66",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ooh that would be nice! But wouldn't the webhook be based on the action? so TZ doesn't really matter?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U08E2S3V5D1",
+          "type": "message",
+          "ts": "1766075166.801109",
+          "client_msg_id": "41e2196c-85df-4ee5-8298-93dcae11e036",
+          "text": "Yes exactly, where as running the script manually timezone matters",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mfo6V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes exactly, where as running the script manually timezone matters"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766075229.685549",
+          "client_msg_id": "6566ed73-5424-4703-a7fa-e99b13ce7a11",
+          "text": "that's true! I mean if I run it it would be a day later anyway; but point taken",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1EsX0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "that's true! I mean if I run it it would be a day later anyway; but point taken"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U08E2S3V5D1",
+          "type": "message",
+          "ts": "1766075390.494559",
+          "client_msg_id": "8ffde391-d544-4398-80ec-0183737c14d5",
+          "text": "But then you take the last 14 days of kanban, based on which date? Created, last activity, completed, won't -fix, etc. It's much simplex to let the team decide the grouping. Also, when ever you run the script it's time based, so what if you're not there and you have to run it two days later, or 3, etc. This is why event driven is all the rage",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1mMIB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "But then you take the last 14 days of kanban, based on which date? Created, last activity, completed, won't -fix, etc. It's much simplex to let the team decide the grouping. Also, when ever you run the script it's time based, so what if you're not there and you have to run it two days later, or 3, etc. This is why event driven is all the rage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1766075443.655249",
+          "client_msg_id": "bb311429-61f4-4131-9bba-fa5321da7ab9",
+          "text": "But with aligned sprint dates across the company it should be straightforward no?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1765368418.388899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s2RKf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "But with aligned sprint dates across the company it should be straightforward no?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2664 @@
+{
+  "project_key": "RTEVMS",
+  "squad_name": "Factor Form",
+  "extracted_at": "2026-01-02T16:30:41.693390+00:00Z",
+  "issue_count": 100,
+  "issues": [
+    {
+      "key": "RTEVMS-2452",
+      "summary": "[KTLO] Adjust lead capture modal for the 50% off campaign",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nThe lead capture modal doesn’t reflect the 50% off campaign.\n\n!image-20260102-140524.png|width=2952,height=1874,alt=\"image-20260102-140524.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# If the 50% off voucher is applied, replace the “Get 40% off your first order” copy with “Get 50% off”.\n## The 50% off vouchers include {{FJ-VMS-50OFF1YR-RTE-ORGANIC}} and {{FJ-VMS-50OFF1YR-RTE-PEAK}}\n# If the 50% off voucher is not applied, replace the “Get 40% off your first order” copy with “Get 40% off”.\n# when someone submits their email address to that field in the popup, it triggers the {{newsletter_subscription_confirmation}} event. we receive a value called {{origin: vms_lead_capture_all}} currently. change {{vms_lead_capture_all}} to {{vms_lead_capture_40}} and {{vms_lead_capture_50}} based on the discount comm id/voucher so that the related email communications could be triggered. \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nThe following files need to be modified\n\n* Lokalise key to change the image if we need it (in this case I don’t think the background image is changing)\n** [https://app.lokalise.com/project/202510906716731c2f05d8.10164546/?view=multi&search=subBrand.homepage.leadCapture.generic.image|https://app.lokalise.com/project/202510906716731c2f05d8.10164546/?view=multi&search=subBrand.homepage.leadCapture.generic.image]\n** The `{{subBrand.homepage.leadCapture.generic.title`}} needs to be migrated because it does not exist on Lokalise\n* Events\n** We need to add a new constant to use a different text from `{{vms_lead_capture_all`}} to `{{vms_lead_capture_50`}}\n*** [https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-shared/sub-brand-leads-capture/CONSTANTS.ts|https://github.com/hellofresh/web/blob/master/app/spa",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Hamed Karimian",
+      "created": "2026-01-02",
+      "updated": "2026-01-02",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2415",
+      "summary": "[OTP][UAT] Whey and Hydration products show 0% off discount text for SNS orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nSNS on Whey and Hydration shows 0% off first order above $65. It should read “20% off first order, 10% off afterwards”.\n\n!Screenshot 2025-12-30 at 11.23.14 AM.png|width=568,height=465,alt=\"Screenshot 2025-12-30 at 11.23.14 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* On the whey and hydration pages the discount should read “20% off first order, 10% off afterwards”.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nThis one needs validation when *voucher service fails*. If solution cannot be found quickly, then just hide the incorrect discount text.\n{panel}",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-31",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2420",
+      "summary": "[OTP][UAT] Price update based on product quantity for SNS and OTP orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nSubscribe/OTP price not updating when a different QTY is selected. Ex: I have selected “double” for $82.79, however, the SNS and OTP still displays the single order price.\n\n!Screenshot 2025-12-30 at 11.26.08 AM.png|width=562,height=680,alt=\"Screenshot 2025-12-30 at 11.26.08 AM.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Ensure that price in OTP/SNS section reflects selected quantity on all product pages (greens, protein, hydration)\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "In Review",
+      "priority": "High",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-31",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2245",
+      "summary": "Internal Service Error when placing order",
+      "description": "{panel:bgColor=#fffae6}\nTime box:\n\n* 2 hours to identify further detail pre-emptively before escalating to plans squad\n{panel}\n\n{panel:bgColor=#deebff}\n*Description:*\n\nIt was discovered that {{vms-place-order}} trace has had some occurrences of “Internal Service Error” since ~ Aug 30\n\n*Steps to Reproduce:*\nN/A - unable to reproduce on staging, only 38/1105 calls on live\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n* No internal Service error on checkout\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n* began occurring on ~ Aug 30\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev Notes*\n\nSome direction in how we can investigate this:\n\n* Identify if this is isolated to VMS or if this {{: Internal Server Error}} is occurring across brands/markets\n* We need to trace this through to Grafana (Order Processing Service logs) and try to identify where the error originates\n** We should reach out to plans-squad for further debugging help / to raise the issue for resolution\n\n\nSlack Thread: [https://hellofresh.slack.com/archives/C06AT2BC72R/p1761578828591669|https://hellofresh.slack.com/archives/C06AT2BC72R/p1761578828591669|smart-link] \n\nBreakdown of calls: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board/to17wcMaZGn/board-query/new/result/mJESa7Quosg|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board/to17wcMaZGn/board-query/new/result/mJESa7Quosg]\nNumber of occurrences: [https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board/to17wcMaZGn/board-query/new/result/3HXhts6j9y?cstype_0=stat|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/board/to17wcMaZGn/board-query/new/result/3HXhts6j9y?cstype_0=stat]\n{panel}",
+      "issue_type": "Bug",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-10-27",
+      "updated": "2025-12-31",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2296",
+      "parent_summary": "[Bugs] Escaped Defects",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "sus PR: [https://github.com/hellofresh/web/commit/152a492a1c1c5b863d8d144d5cd2acabf8479c17|https://github.com/hellofresh/web/commit/152a492a1c1c5b863d8d144d5cd2acabf8479c17|smart-link] ",
+          "created": "2025-12-08"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "Created thread in #squad-plans channel here: [https://hellofresh.slack.com/archives/C01S71LM1L5/p1766587651937329|https://hellofresh.slack.com/archives/C01S71LM1L5/p1766587651937329|smart-link] ",
+          "created": "2025-12-24"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "Created thread in #squad-vouchers channel here: [https://hellofresh.slack.com/archives/CQQNMEPK2/p1766590701525399|https://hellofresh.slack.com/archives/CQQNMEPK2/p1766590701525399|smart-link] \n\nEdit: This thread was closed due to no response - opened a new one here: [https://hellofresh.slack.com/archives/CQQNMEPK2/p1767016936527309|https://hellofresh.slack.com/archives/CQQNMEPK2/p1767016936527309|smart-link] ",
+          "created": "2025-12-24"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "Moving to blocked as I am not getting a response in the slack thread I opened. Will follow up further when more people are back online after the holidays.",
+          "created": "2025-12-31"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2422",
+      "summary": "[OTP][UAT] Clicking on bundles causes page to crash when user only has an OTP order",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nOn /my-deliveries when I only have a OTP order, if a click any of the “bundles” (try now) the page crashes with an ErrorBoundary not managed properly. It should allow the user to add the bundle items to the cart to finish the order and then get a subscription with those items added. This should function the same as the product cards.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* When a user only has an OTP order, they should be able to add bundles to their cart without an error as either OTP or SNS\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "In Review",
+      "priority": "Urgent",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-31",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2312",
+      "summary": "[OTP] Get and show active customer orders history with OTP",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a customer I want to see my OTP orders on /factorform/settings/orders \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n* Verify if OTP orders are properly billed\n* Verify if SNS orders are properly billed\n* Verify if both type of orders are billed after I did my first order and order a different type of order.\n\n*Affected Brands:* \n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Endpoint: [http://localhost:3000/gw/api/customers/me/orders?country=FJ&limit=100&locale=en-US|http://localhost:3000/gw/api/customers/me/orders?country=FJ&limit=100&locale=en-US]\n* whitelabel-web/packages/pages/settings/src/components/OrderHistory/OrderHistory.tsx \n{panel}\n\n\n\n*References*:\n\n*Manage Subscriptions:* \n\n* What to show when a customer does not have any subscription?\n\n!image-20251128-212434.png|width=1153,height=1129,alt=\"image-20251128-212434.png\"!\n\n\n\n*Order History*\n\n* Currently OTP orders are not shown\n\n!image-20251128-212532.png|width=1267,height=1015,alt=\"image-20251128-212532.png\"!",
+      "issue_type": "Story",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-11-25",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Updating UI with provided designs thanks to [~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] \n\n[https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=2GrW9PBI6Yz1nDWP-0|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=2GrW9PBI6Yz1nDWP-0|smart-link] ",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2328",
+          "summary": "[OTP] Show Checkout Success content after OTP order is placed"
+        },
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2345",
+          "summary": "[OTP] Show pending OTP orders for shipping on My Deliveries"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2450",
+      "summary": "[Quick win] Modify 'Add to cart' behaviour",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a shopper, I want to see my cart when clicking on the ‘Add to cart’ button. However, I’m currently taken to the check out page.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# All ‘Add to cart’ CTAs should open the sliding cart. \n## On /products page\n## On modals for bundles\n## On PDPs\n## On dashboard\n\n*Testing Requirements:*\n\n# No ‘Add to cart’ CTA should take the user to the check out flow. \n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2451",
+      "parent_summary": "[Delivery] Quick Wins - Q1 2026",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2435",
+      "summary": "Update existing and new vouchers with new product SKU",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2434",
+      "summary": "Add price information for new products in price-service",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2429",
+          "summary": "Update SKU representation in spreadsheet and generate list for product-service"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2429",
+      "summary": "Update SKU representation in spreadsheet and generate list for product-service",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Generate the SKU sheet running the macro\n# Review the file and create a csv file for other services\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2430",
+          "summary": "Create new SKUs in products-service with the required schema for new products"
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2431",
+          "summary": "Create new SKUs in catalog (MongoDB) with specs and links to images "
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2433",
+          "summary": "Add information for new products on CCM"
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2434",
+          "summary": "Add price information for new products in price-service"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2433",
+      "summary": "Add information for new products on CCM",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Create recipe for new products on *CCM*\n* Create menus for new products on *CCM*\n* Update menu slot selections for new products on *CCM*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2429",
+          "summary": "Update SKU representation in spreadsheet and generate list for product-service"
+        },
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2430",
+          "summary": "Create new SKUs in products-service with the required schema for new products"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2430",
+      "summary": "Create new SKUs in products-service with the required schema for new products",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2429",
+          "summary": "Update SKU representation in spreadsheet and generate list for product-service"
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2431",
+          "summary": "Create new SKUs in catalog (MongoDB) with specs and links to images "
+        },
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2433",
+          "summary": "Add information for new products on CCM"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2432",
+      "summary": "Create feature flag to enable and disable the render of new products",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Create in statsig\n# create the hook in the code\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2431",
+      "summary": "Create new SKUs in catalog (MongoDB) with specs and links to images ",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2429",
+          "summary": "Update SKU representation in spreadsheet and generate list for product-service"
+        },
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2430",
+          "summary": "Create new SKUs in products-service with the required schema for new products"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2428",
+      "summary": "Create copy sections for new products in lokalise",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nTBD - Blocked until the designs are finalized.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2427",
+      "summary": "Upload images to AWS bucket to render through CDN",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAdd images on this folder:\n\n* [https://eu-west-1.console.aws.amazon.com/s3/buckets/hf-website-live?prefix=fj%2Ffactorform%2F&region=eu-west-1&bucketType=general&tab=objects|https://eu-west-1.console.aws.amazon.com/s3/buckets/hf-website-live?prefix=fj%2Ffactorform%2F&region=eu-west-1&bucketType=general&tab=objects]\n* Using *main-it* role\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2426",
+      "summary": "Upload new product images to Google Drive",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAdd images to the following Google Drive Folder\n\n[https://drive.google.com/drive/folders/1YrWgR_PA9JQcE4EnO6yUt-ezyHx8pbfR|https://drive.google.com/drive/folders/1YrWgR_PA9JQcE4EnO6yUt-ezyHx8pbfR|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Use placeholder images until the actual images are ready.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2410",
+      "summary": "[KTLO] Update the images for Greens PDP",
+      "description": "{color:#bf2600}FLAGGED until the assets are available. {color}\n\n{panel:bgColor=#deebff}\n*User Story / Description:*\n\nThe commercial team has provided new images for Greens product, so we should update them accordingly.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Update the Greens images on product tiles on the /products page\n## Greens - Jar\n## Greens - packets\n## All bundle \n# Update the images on the /products/greens page \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-23",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2409",
+      "summary": "[KTLO] Prop 65: Show legally required disclaimers for related products",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs per California regulations, we should warn our users if some ingredients exceed a certain limit. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Add a “California residents only“ disclaimer to the bottom of the greens, whey protein, and creatine PDP pages as per [figma designs|https://www.figma.com/design/bybh4HYm7NI8qgIRGZtnhp/Creatine---Meal-Shake-PDP-re-design?node-id=269-11462&t=5cqpKAcWpvIVi6jT-0]. \n## Creatine page can be updated later on once we have the PDP ready.\n# Show the additional warning as per figma if the users click on the chevron to expand the disclaimer. \n# The hyperlink should open in a new tab and land on [https://www.p65warnings.ca.gov/fact-sheets/foods-and-beverages|https://www.p65warnings.ca.gov/fact-sheets/foods-and-beverages]\n\n*Testing Requirements:*\n\n# Make sure the implemented version complies with the limitations described in [https://docs.google.com/document/d/1MzqqxKx6EchlFtJ-nTx_XGuAC0vQe6gClkMwUEDOjTo/edit?tab=t.0|https://docs.google.com/document/d/1MzqqxKx6EchlFtJ-nTx_XGuAC0vQe6gClkMwUEDOjTo/edit?tab=t.0|smart-link] \n# It only applies to greens, whey protein, and creatine products, so other products should not show this disclaimer.\n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-23",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2424",
+      "summary": "[OTP] Allow VMS subscribers to buy OTP",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a VMS subscriber, I want to be able to buy OTP items. (Currently, VMS subscribers are not allowed to buy OTP items due to checkout restrictions in place.) \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Modify checkout restrictions to allow VMS subscribers to buy OTP items.\n\n*Testing Requirements:*\n\n# VMS subscribers should not be able to create an additional VMS subscription. (They should still be able to modify their subscription.)\n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2423",
+      "summary": "[OTP][UAT] Dashboard shows past OTP orders in \"shipping\" status",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDashboard shows past orders in the ‘shipping’ status. Only orders non-shipped orders should show up under the shipping section on the {{my-deliveries}} page.\n\n!Screenshot 2025-12-30 at 11.48.37 AM.png|width=711,height=285,alt=\"Screenshot 2025-12-30 at 11.48.37 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Orders that have not shipped yet should show up on the {{my-deliveries}} page\n* Orders that have shipped should not show up on the {{my-deliveries}} page\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* It was happening on live environment. We want to confirm the assumption the shipping state will change when the order is delivered.\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2421",
+      "summary": "[OTP][UAT] Jar selection is deselected when quantity is set to double",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nJar selection becomes deselected when the QTY is set to double. The packaging type (jar/packet) should remain selected regardless of the QTY.\n\n!Screenshot 2025-12-30 at 11.45.45 AM.png|width=530,height=612,alt=\"Screenshot 2025-12-30 at 11.45.45 AM.png\"!\n\n!Screenshot 2025-12-30 at 11.45.57 AM.png|width=520,height=603,alt=\"Screenshot 2025-12-30 at 11.45.57 AM.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* On the {{/product/greens}} page, when changing product quantity, the monthly jar selection should remain selected\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Bug",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2419",
+      "summary": "[OTP][UAT] OTP checkout success message update",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAfter placing an OTP order the copy is incorrect.\n\n!Screenshot 2025-12-30 at 11.43.34 AM.png|width=569,height=491,alt=\"Screenshot 2025-12-30 at 11.43.34 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* *“In your box* You can make changes by Tue, Dec 30” should be removed\n* *“One-time purchases”* text should be added\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* [+Figma for correct copy+|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1384-42866&t=gIgb5b2cOibd0HyW-1]\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2418",
+      "summary": "[OTP][UAT] Update Welcome Kit copy for SNS orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDaily Greens *Welcome Kit* sections should be updated to communicate that this is for SNS orders only.\n\nCopy should be updated to SNS orders only in the following places:\n\n* Section on {{/products}} page\n* Greens product cards on {{/products}} page\n* Section on {{/products/greens}} page\n* Section on {{/signup}} page\n\n!Screenshot 2025-12-30 at 10.02.00 AM.png|width=321,height=431,alt=\"Screenshot 2025-12-30 at 10.02.00 AM.png\"!\n\n!Screenshot 2025-12-30 at 10.02.11 AM.png|width=448,height=191,alt=\"Screenshot 2025-12-30 at 10.02.11 AM.png\"!\n\n!Screenshot 2025-12-23 at 10.08.51 AM.png|width=939,height=762,alt=\"Screenshot 2025-12-23 at 10.08.51 AM.png\"!\n\n!Screenshot 2025-12-30 at 10.01.46 AM.png|width=1032,height=565,alt=\"Screenshot 2025-12-30 at 10.01.46 AM.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Ensure the Welcome Kit copy is updated on Section on the following pages\n** {{/products}} page\n** Greens product cards on {{/products}} page\n** Section on {{/products/greens}} page\n** Section on {{/signup}} page\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Mendelson",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] we will need the updated copy for this ticket (but this is not high priority)",
+          "created": "2025-12-30"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2417",
+      "summary": "[OTP][UAT] Discount comms copy update for SNS orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDiscount comms say 40% off first order, but it only applies to SNS orders. It should read “40% off first subscription order.”\n\n[~accountid:5c069c3db5881d1b2e50d167] to update the discount comms.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Discount comms read “40% off first subscription order.”\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* We need to change this specifically on [+discount comms+|https://cui-staging.hellofresh.io/discount-communications/7e6a6f43-0db8-46ae-8aa9-b4aa320ead87] (cui)\n* No code required\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2416",
+      "summary": "[OTP][UAT] \"Delay or cancel anytime\" text is present for OTP orders",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\n“Delay or cancel anytime” text is shown in cart for OTP orders. This should be removed for OTP orders.\n\n!Screenshot 2025-12-30 at 9.55.28 AM.png|width=470,height=952,alt=\"Screenshot 2025-12-30 at 9.55.28 AM.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* “Delay or cancel anytime” text is removed from cart for OTP orders \n* “Delay or cancel anytime” text is visible within cart for SNS orders \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Low",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2413",
+      "summary": "[OTP][UAT] OTP option is not visible on mobile screens without scrolling on modal",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nOTP is not visible on mobile screens without scrolling on modals.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* No scrolling required to view the OTP option on the bundle modals\n* Labels are removed from bundle modals on mobile\n* Labels are still visible on bundle modals on desktop\n\nExpected UI after updates:\n\n!Screenshot 2025-12-30 at 11.34.17 AM.png|width=285,height=660,alt=\"Screenshot 2025-12-30 at 11.34.17 AM.png\"!\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Low",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2412",
+      "summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "description": "{panel:bgColor=#deebff}\n*Overview:* \n\nWe are aiming to add Meal Shake and Creatine products to the VMS offerings.\n\nPRD with additional background: [https://docs.google.com/document/d/1eqT49tTHK2BG_RIUvEM_7uT6ShaeF5RSZuVP1zXtAFk/edit?tab=t.4w9mu9dyzkup|https://docs.google.com/document/d/1eqT49tTHK2BG_RIUvEM_7uT6ShaeF5RSZuVP1zXtAFk/edit?tab=t.4w9mu9dyzkup|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Goals:* \n\n* Update All Products page to include \n** Meal Shake - Vanilla\n** Meal Shake - Lemon\n** Creatine - Unflavoured\n** Creatine - Peach Mango \n* Create a PDP for Creatine\n* Create a PDP for Meal Shake  \n{panel}\n\n{panel:bgColor=#eae6ff}\n*Resources:* \n\nFigma: [https://www.figma.com/design/bybh4HYm7NI8qgIRGZtnhp/Creatine---Meal-Shake-PDP-re-design?node-id=91-14341&t=5cqpKAcWpvIVi6jT-0|https://www.figma.com/design/bybh4HYm7NI8qgIRGZtnhp/Creatine---Meal-Shake-PDP-re-design?node-id=91-14341&t=5cqpKAcWpvIVi6jT-0|smart-link] \n\nProduct Intake Forms: [https://docs.google.com/spreadsheets/d/1rxz1-lOki6j0_XBV73pmogQDjvcLhZQCf2p7XVqxjDo/edit?gid=1539850972#gid=1539850972|https://docs.google.com/spreadsheets/d/1rxz1-lOki6j0_XBV73pmogQDjvcLhZQCf2p7XVqxjDo/edit?gid=1539850972#gid=1539850972|smart-link] \n\n[https://docs.google.com/spreadsheets/d/1y8IAysj0jpPYbNxi9DMHaSjafcMCplnpFiSoTicnUV4/edit?gid=840021641#gid=840021641|https://docs.google.com/spreadsheets/d/1y8IAysj0jpPYbNxi9DMHaSjafcMCplnpFiSoTicnUV4/edit?gid=840021641#gid=840021641|smart-link] \n\nTech Investigation for new products: [https://docs.google.com/document/d/1OpXwkZuJzFZQR3LC4bYf_VmI_rkvOMSXXNN3ICQuQeg/edit?tab=t.0#heading=h.pux3nhnhqrt7|https://docs.google.com/document/d/1OpXwkZuJzFZQR3LC4bYf_VmI_rkvOMSXXNN3ICQuQeg/edit?tab=t.0#heading=h.pux3nhnhqrt7|smart-link] \n{panel}",
+      "issue_type": "Epic",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-29",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2449",
+      "summary": "[NPD] Create PDP for Meal Shake",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a shopper, I want to see a comprehensive product details page to check out all the details about the product before making a purchase decision.\n\nreferences:\n[+Product Intake Form - Meal Shake+|https://docs.google.com/spreadsheets/d/1rxz1-lOki6j0_XBV73pmogQDjvcLhZQCf2p7XVqxjDo/edit?gid=1539850972#gid=1539850972] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Create the PDP for Meal shake as per [Figma Designs|https://www.figma.com/design/bybh4HYm7NI8qgIRGZtnhp/Creatine---Meal-Shake-PDP-re-design?node-id=84-65159&t=5cqpKAcWpvIVi6jT-0]. \n## User can select quantity from the quantity picker.\n## User can add items to their cart.\n# Copies, images, descriptions, and prices should reflect the product intake form.\n\n*Testing Requirements:*\n\n# \n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-2436",
+          "summary": "[NPD] Create PDP for Creatines"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2436",
+      "summary": "[NPD] Create PDP for Creatines",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a shopper, I want to see a comprehensive product details page to check out all the details about the product before making a purchase decision.\n\nreferences:\n[+Product Intake Form - Creatine+|https://docs.google.com/spreadsheets/d/1y8IAysj0jpPYbNxi9DMHaSjafcMCplnpFiSoTicnUV4/edit?gid=840021641#gid=840021641]\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Create the PDP for Creatine as per [Figma Designs|https://www.figma.com/design/bybh4HYm7NI8qgIRGZtnhp/Creatine---Meal-Shake-PDP-re-design?node-id=84-65159&t=5cqpKAcWpvIVi6jT-0]. \n## User can select quantity from the quantity picker.\n## User can add items to their cart.\n# Copies, images, descriptions, and prices should reflect the product intake form.\n\n*Testing Requirements:*\n\n# \n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2449",
+          "summary": "[NPD] Create PDP for Meal Shake"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2425",
+      "summary": "[NPD] Create product tiles for Meal Shake & Creatine",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a shopper, I want to see all products and their flavours on /products page.\n\nreferences:\n[Product Intake Form - Meal Shake|https://docs.google.com/spreadsheets/d/1rxz1-lOki6j0_XBV73pmogQDjvcLhZQCf2p7XVqxjDo/edit?gid=1539850972#gid=1539850972] \n[Product Intake Form - Creatine|https://docs.google.com/spreadsheets/d/1y8IAysj0jpPYbNxi9DMHaSjafcMCplnpFiSoTicnUV4/edit?gid=840021641#gid=840021641]\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*For Meal Shake:*\n\n# Create 2 product tiles on the /products page as per designs ([~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] to update the designs)\n## _Meal Shake - Vanilla_\n## _Meal Shake - Lemon_\n# Link both tiles to the PDP page for the Meal Shake\n\n*For Creatine:*\n\n# Create 2 product tiles on the /products page as per designs ([~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] to update the designs)\n#* _Creatine - Unflavoured_\n#* _Creatine - Peach Mango_\n# Link both tiles to the PDP page for the Creatine\n\n*Testing Requirements:*\n\n# Prices, images, titles, and descriptions should reflect the related Product Intake Forms\n\n*Affected Brands:*\n\nFactor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2414",
+      "summary": "[OTP][UAT] OTP free shipping threshold is incorrect",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nOTP free shipping threshold seems to be set to $50 instead of $65. When order total is <$65 but >$50, free shipping is shown in the order summary and cart.\n\n!Screenshot 2025-12-30 at 9.49.36 AM.png|width=371,height=671,alt=\"Screenshot 2025-12-30 at 9.49.36 AM.png\"!\n\n!Screenshot 2025-12-30 at 9.49.03 AM.png|width=476,height=520,alt=\"Screenshot 2025-12-30 at 9.49.03 AM.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* When an OTP order is <$65, shipping should be applied in the cart and order summary\n* When and OTP order is >$65, shipping should be free in the cart and order summary\n* Shipping should always be free for OTP orders\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\n* Factor Form\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* We need to update the *price-set* used updating that specific sku: FJ-VMSU-2-2000-0\n* Review list from here: [https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "High",
+      "assignee": "Unassigned",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2357",
+      "summary": "[Order History Fallback] Show empty state when there's no orders to show",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a Factor Form and/or Factor customer, I should see a fallback content when order history has no items to show.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Display fallback content as consequence of no order history items to show\n\n*Testing Requirements:*\n\n* Unit tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nDesign: [https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=Gt3k9Q4NbicxV0Od-1|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1511-25938&t=Gt3k9Q4NbicxV0Od-1|smart-link] \n\nOTP Orders service: [https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts|https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts] \n\nPS: Should request if only the feature flag is enabled.\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Jan Leite",
+      "created": "2025-12-08",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2312",
+      "parent_summary": "[OTP] Get and show active customer orders history with OTP",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2376",
+      "summary": "[All Products Page] update banner discount copy on product cards based on the discount type",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a RTE active customer who lands on Factor Form products page with a 50% year voucher applied, I should have consistent discount info over all voucher discount communications along the funnel.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Voucher offer should be properly contextualized over the all offer elements in all products and product details pages.\n* The {{FJ-VMS-50OFF1YR-RTE-PEAK}} should present 1 Year 50% discount communication for RTE actives in the banner and other offer banners (product cards in all products page and quantity option in PDP greens)\n* The communication for the fallback voucher, 40% off first order, should also be in conformance over all offer communication elements.\n\n*Testing Requirements:*\n\n* Offer presented by product cards should be the same provided by PPS service\n* Offer presented by quantity options in the Greens page, should be the same given by the PPS service\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nThis update enables discount banners in the card to present custom discount communication based on the discount communication ID provided in the URL.\n\nTo enable retro compatibility, we should ensure to handle cases where no discount communication id is attributed or when it does, to do not show the incorrect discount communication.\n\nRequired changes: \n\n* CUI → Discount Communication: Use some suitable key to provide the copy and add the placeholder for discount.\n** We should use some not used field that is suitable for this purpose on VMS, or request support from owners (not found yet) to include the fields we need in the page\n** Currently, this communication is done via Applanga only\n* On Web, consolidate all SKUs that shows discount banner in the {{price-presentation/v2/discount_communication/voucher/}} service to obtain the copy for the given discount communication.\n{pane",
+      "issue_type": "Task",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Jan Leite",
+      "created": "2025-12-11",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:62d18d3c078104d0866dc9b0] can you please update the ticket to also address the fallback mechanism we discussed yesterday?  i.e., if user is not an active Factor customer, all banners should properly fallback on the default “Limited time offer: 40% off first order!“ ",
+          "created": "2025-12-17"
+        },
+        {
+          "author": "Jan Leite",
+          "body": "Consider it done [~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb], thanks for highlight it.",
+          "created": "2025-12-17"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Comments after validation:\n\n# The {{defaultDiscountCommId: '7e6a6f43-0db8-46ae-8aa9-b4aa320ead87',}} needs to support the new {{6744ac0f-e6d7-4332-a3bd-70a1cafd1b15}} that contains the year message. – I'll work on that extension in the existing an Open PR.\n# There is an issue with a copy on dashboard, it shows like {{500%}} somewhere with a wrong calculus. – I'll work on that one too separately.",
+          "created": "2025-12-24"
+        }
+      ],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "RTEVMS-2384",
+          "summary": "[OTP] Discount Comms and voucher on live"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2451",
+      "summary": "[Delivery] Quick Wins - Q1 2026",
+      "description": "",
+      "issue_type": "Epic",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2408",
+      "summary": "[KTLO] Update the shipping fee on the sign up page",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\n*Steps to Reproduce:* \n\n# Add an item to your cart as an anonymous user.\n# Try to checkout and land on the sign up page.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\nThe shipping fee should reflect the cart details. \n\n# If cart is empty, has subscription items, or includes both OTP & subscription orders --> title should read “Free delivery“ and helper text should read “Get free delivery for all orders with a subscription.“\n## Note: at this time, cart won’t have both OTP and subscription items at the same time, but we’ll introduce it in the future.\n# If cart has only OTP items, the title should read “Free delivery above $65“ and the helper text should read “Get free delivery for one-time purchase orders above $65.“\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:* \n\nThe shipping fee reads “Free delivery above $50“\n\n!image-20251223-201332.png|width=1878,height=1590,alt=\"image-20251223-201332.png\"!\n\n\n{panel}",
+      "issue_type": "Bug",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-23",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2448",
+      "summary": "[DEV] Add new products to /my-deliveries",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2447",
+      "summary": "[DEV] Update price presentation to support new products",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2446",
+      "summary": "[DEV] Integrate new product selections into cart",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2445",
+      "summary": "[DEV] Integrate individual product cards in /factorform/products page",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2444",
+      "summary": "[DEV] Create product card for Creatine",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2443",
+      "summary": "[DEV] Create product card for meal shake",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2442",
+      "summary": "[DEV] Create new entry point and page for /factorform/products/creatine",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2441",
+      "summary": "[DEV] Create new entry point and page for /factorform/products/mealshake",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2440",
+      "summary": "[DEV] Add translations for new products in codebase (keys)",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2439",
+      "summary": "[DEV] Update encoding decoding for new products",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2438",
+      "summary": "[DEV] Update core product schema and types",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2437",
+      "summary": "[NPD] Create PDP for Meal Shake",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-30",
+      "updated": "2025-12-30",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2412",
+      "parent_summary": "Introduce Meal Shake & Creatine to VMS assortment",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2411",
+      "summary": "Add lokalise keys for sign up page free shipping text",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAdd updated lokalise keys for sign up page free shipping section.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nKeys to be added:\n\n{code:json}    \"subBrand.signUp.page.freeDelivery.otp.title\",\n    \"subBrand.signUp.page.freeDelivery.otp.description\",\n    \"subBrand.signUp.page.freeDelivery.sns.title\",\n    \"subBrand.signUp.page.freeDelivery.sns.description\"{code}\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "In Review",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-12-29",
+      "updated": "2025-12-29",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2408",
+      "parent_summary": "[KTLO] Update the shipping fee on the sign up page",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2384",
+      "summary": "[OTP] Discount Comms and voucher on live",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDiscount comms ID is added to our Lokalize key for fallback\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# add discount comms id to Lokalize key\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\nFJ VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* depending on the blocked ticket - we may no longer need this ticket, or we may need to refactor to use the new method proposed in the blocking tickets PR\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-17",
+      "updated": "2025-12-29",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2376",
+          "summary": "[All Products Page] update banner discount copy on product cards based on the discount type"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2315",
+      "summary": "[OTP] Review traceability for OTP orders in Katana and meal selection on BOB / Owl",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a Customer Care Ops, I want to get information about the orders created for OTP and I need to identify clearly the process to review the orders on OWL.\n\n*Goal*:\n\n* To document the process about how can we trace and check the orders and deliveries after they are scheduled or their status change\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n* Take some OTP orders and using the document review if everything looks good \n\n*Affected Brands:*\n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n\n* N/A\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-11-25",
+      "updated": "2025-12-24",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Data will be documented here:\n\n\n\n[https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.orf8jyk5l8hg#heading=h.e9sfloofs2no|https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.orf8jyk5l8hg#heading=h.e9sfloofs2no|smart-link] ",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Raised ticket and issue on the following slack threads. Given the orders are not being identified on Katana.\n\n[https://hellofresh.slack.com/archives/C07RG6TURU7/p1765919647486549|https://hellofresh.slack.com/archives/C07RG6TURU7/p1765919647486549|smart-link] \n\n\n\n[https://hellofresh.slack.com/archives/C09BKAQFKDM/p1766437332456229|https://hellofresh.slack.com/archives/C09BKAQFKDM/p1766437332456229|smart-link] ",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Added ticket that  fixes the error with refund in payments \n\n[https://hellofresh.atlassian.net/browse/FINCC-7238|https://hellofresh.atlassian.net/browse/FINCC-7238|smart-link] ",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Created follow up message on slack, probably we will need to delay the rollout until we solve those 3 topics.\n\n\n\n[https://hellofresh.slack.com/archives/C07RG6TURU7/p1766518535040739|https://hellofresh.slack.com/archives/C07RG6TURU7/p1766518535040739|smart-link] ",
+          "created": "2025-12-24"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2407",
+      "summary": "Highlight Christmas 2025 shipping delays",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nSince ProPac will be closed/not packing or shipping orders on {{2025-12-24}}-{{2025-12-25}}, so any customers with a cutoff on {{2025-12-22}} {{2025-12-23}} will have their ship date delayed to Friday {{2025-12-26}}\n\nIn lieu of a full holiday adjustment to shipping dates, we’d like to highlight in *my-deliveries* and *checkout* that shipping dates of  {{2025-12-24}}-{{2025-12-25}}will be shipped on {{2024-12-26}} instead.\n\nalso, hide the “your Factor Form box has been shipped” banner in my-deliveries for these customers with a cutoff on  {{2025-12-22}} {{2025-12-23}} will have their ship date delayed to Monday\n\n!image-20241119-185300.png|width=2910,height=504,alt=\"image-20241119-185300.png\"!\n\nSimilarly, propac will be closed on {{2026-01-01}}& {{2025-12-31}}, so customers with cutoff dates {{2025-12-29}}-{{2025-12-30}} will have their orders shipped on {{2026-01-02}}. \nHere’s the working schedule for propac:\n\n!image-20251223-151918.png|width=719,height=195,alt=\"image-20251223-151918.png\"!\n\n\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nAdd a banner to *my-deliveries* and *checkout* that communicates delivery delays due to Christmas holidays.\n\n* banner should only display if ship-date is among the above dates.\n* at Checkout: \n** only display banner on the cut off dates.\n* in My Deliveries: \n** display banner {{2025-12-23}} through - {{2026-01-02}}\n** “your Factor Form box has been shipped” banner should be hidden for customers with a cutoff on above dates. \n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev Notes*\n\n[https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-dashboard/shared/shifted-delivery-notification/README.md|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-dashboard/shared/shifted-delivery-notification/README.md|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Emily Stanek",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-23",
+      "updated": "2025-12-23",
+      "resolved": "2025-12-23",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1168",
+      "parent_summary": "[Q4/24 Post Launch] Active Experience Updates",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "[https://github.com/hellofresh/web/pull/45005/files#diff-7b02e57a26a0e614cce3130e37ea6b43e74a98ef7861ff588db757940c93fbf8|https://github.com/hellofresh/web/pull/45005/files#diff-7b02e57a26a0e614cce3130e37ea6b43e74a98ef7861ff588db757940c93fbf8] ",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-1186",
+          "summary": "Highlight Thanksgiving shipping delays"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2277",
+      "summary": "Order total is flashing on the Cancellation page",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nWhen navigating to the Cancellation page, the order total number re-renders many times. This bug only occurs sometimes and is resolved by refreshing the page.\n\nSee this Slack thread for more details/context:\n[https://hellofresh.slack.com/archives/C0374928SNN/p1762454253222599|https://hellofresh.slack.com/archives/C0374928SNN/p1762454253222599|smart-link] \n\n*Steps to Reproduce:*\n\n* Navigate to the account settings page (/factorform/settings/subscriptions/supplements) \n* Click the “Cancel supplement subscription” button within the Status box.\n* Select a reason for cancelling and then select the “Cancel subscription” button.\n* Enter feedback and then click the “Submit feedback” button\n* Look at the “Restart you supplement subscription box” and view the order total\n** This may or may not be re-rendering\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n* The order total does not re-render and flash on the screen\n\n*Testing Requirements:*\n\n* Tested in staging on desktop\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n* The order total is re-rendering and flashing on the screen\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Mendelson",
+      "created": "2025-11-07",
+      "updated": "2025-12-23",
+      "resolved": "2025-12-23",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2296",
+      "parent_summary": "[Bugs] Escaped Defects",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2396",
+      "summary": "[Cleanup] Add new hook for non-checkout use (dashboard + card drawer)",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nWe should be separating concerns depending on checkout summary (includes tax) and others\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# a new hook is created for non-checkout order summary (dashboard, cart)\n# [this existing hook|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/sub-brand/product/index.ts] is only used for checkout\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n[https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-checkout/express-checkout/hooks/useOrderSummaryProps.ts|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-checkout/express-checkout/hooks/useOrderSummaryProps.ts|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-22",
+      "updated": "2025-12-23",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1168",
+      "summary": "[Q4/24 Post Launch] Active Experience Updates",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nUpdates made to the FactorForm active customer experience after initial launch\n{panel}",
+      "issue_type": "Epic",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2024-11-15",
+      "updated": "2025-12-23",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1186",
+      "summary": "Highlight Thanksgiving shipping delays",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nSince ProPac will be closed/not packing or shipping orders on {{2024-11-28}}-{{2024-11-29}}, any customers with a cutoff on {{2024-11-27}} {{2024-11-28}} will have their ship date delayed to Monday\n\nIn lieu of a full holiday adjustment to shipping dates, we’d like to highlight in *my-deliveries* and *checkout* that shipping dates of  {{2024-11-28}}-{{2024-11-29}} will be shipped on {{2024-12-02}} instead.\n\nalso, hide the “your Factor Form box has been shipped” banner in my-deliveries for these customers with a cutoff on {{2024-11-27}} {{2024-11-28}} will have their ship date delayed to Monday\n\n!image-20241119-185300.png|width=2910,height=504,alt=\"image-20241119-185300.png\"!\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nAdd a banner to *my-deliveries* and *checkout* that communicates delivery delays due to Thanksgiving holidays \n\nbanner should only display if ship-date is {{2024-11-28}}-{{2024-11-29}} \n\n* at Checkout: \n** only display banner on {{2024-11-27}}-{{2024-11-28}}\n* in My Deliveries: \n** display banner {{2024-11-27}} through - {{2024-12-06}}\n** “your Factor Form box has been shipped” banner should be hidden for customers with a cutoff on Nov 27 and Nov 28, during Nov 27-Dec 6.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Emily Stanek",
+      "reporter": "Jordon Smith",
+      "created": "2024-11-19",
+      "updated": "2025-12-23",
+      "resolved": "2024-11-27",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1168",
+      "parent_summary": "[Q4/24 Post Launch] Active Experience Updates",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Charlotte Winokur",
+          "body": "Can we use this:\n\nDue to the Thanksgiving holiday, your box will now be shipped on *Monday, December 2nd.*",
+          "created": "2024-11-26"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:60e71f020dd4f60076b4e332] confirmed that this notification will not be dismissable",
+          "created": "2024-11-26"
+        }
+      ],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2407",
+          "summary": "Highlight Christmas 2025 shipping delays"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2194",
+      "summary": "[StatSig Metrics] Emit add-to-cart event to statsig",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nIn order to populate the {{statsig forward events}} data source we need to emit custom events in the customer experience that match the metric source [https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/metrics/metrics_catalog/VMS%20add%20to%20cart/user_warehouse/setup?unitType=user_id|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/metrics/metrics_catalog/VMS%20add%20to%20cart/user_warehouse/setup?unitType=user_id|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nGiven that a customer adds a product to cart\n\nand an event would be emitted for tracking purposes\n\nthat event should also be emitted to statsig for experimentation purposes\n\n*Testing Requirements:*\n\n* event emit should match the events we already track to GA for add-to-cart\n* verify that the event is actually populating into statsig before marking as done\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-09-23",
+      "updated": "2025-12-23",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] do we still need this ticket? or is it fair to mark it as won’t do?",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] we need it.",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1965",
+      "summary": "Checkout e2e test should click the \"view dashboard\" CTA on checkout-success",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nBoth E2E vms tests running on funnel are flaky.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Nice to have: Fix current flaky items (see Honeycomb query below)\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Flaky tests query in Honeycomb: [https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/board-query/cqMYVEemu1x/result/scZxbY4KkWC?cstype_0=tsbar&tab=overview|https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/board-query/cqMYVEemu1x/result/scZxbY4KkWC?cstype_0=tsbar&tab=overview]\n** Blocking PR ocurrences:\n*** [https://hellofresh.slack.com/archives/C06AT2BC72R/p1762346887561249|https://hellofresh.slack.com/archives/C06AT2BC72R/p1762346887561249|smart-link]  \n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-06-26",
+      "updated": "2025-12-23",
+      "resolved": "",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] do we still need this ticket? or is it fair to mark it as won’t do?",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] I’m not sure, so I think we should keep it so someone can look into it.",
+          "created": "2025-12-23"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-744",
+      "summary": "[Relic] FactorForm \"meal selection\"",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nFactorForm uses a non-standard model of making meal selections for customers.\n\nSince other brands sell a box for a price and allow customers to select their order, the meal choice process is something that happens organically & is supported by preferences for “preselection”\n\nFor us, we leverage a few services, and bake meal choice into the customer experience as something implicit:\n\n* At checkout we use CRS (customer-recurring-selections) to set up a monthly automatic meal-choice\n* When a customer edits the contents of their order we _tbd_ in order to propagate updates\n* in other words, interaction with menus does still exist but it happens under the hood\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nDocument the manner in which meal choice is communicated to the backend and how it is preserved month-over-month.\n\nHighlight any/all known services involved in the process.\n\nSuggestion: [https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/4808933482/Engineering+Relics|https://hellofresh.atlassian.net/wiki/spaces/TTH/pages/4808933482/Engineering+Relics|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Jordon Smith",
+      "created": "2024-08-18",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:712020:ccb92f31-45f1-4cd0-9684-a794e556a72e] do we still need this ticket? or is it fair to mark it as won’t do?",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] I don’t think we need it anymore. Actually the meal index is using the same approach as we have been using so far.\n\nJust to provide a quick test from {{live}} \n\n\n\n!image-20251222-215343.png|width=1812,height=1136,alt=\"image-20251222-215343.png\"!\n\n!image-20251222-215649.png|width=1731,height=1132,alt=\"image-20251222-215649.png\"!\n\n!image-20251222-215938.png|width=1999,height=891,alt=\"image-20251222-215938.png\"!",
+          "created": "2025-12-22"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1994",
+      "summary": "[e2e improvement] Verify that product page carousel is rendered and visible",
+      "description": "{panel:bgColor=#deebff}\n*Context*\n\nWe raised [an incident|https://hellofresh.slack.com/archives/C094G3TAQHM] because the zest carousel stopped rendering on our product pages.\n\nGiven that we recognize the importance of this component, we want to validate that it does not get broken or removed from view in our e2e tests so that breaking changes could be caught in CI.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\nAt least 1 existing e2e test that visits the Factor Form product pages is updated to include:\n\n* Product Page product hero carousel component must be visible\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-07-11",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1975",
+      "summary": "Checkout e2e test should validate legal text is shown & have a mobile variation",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-07-02",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1985",
+      "summary": "Add tracking to individual card selectors",
+      "description": "Implement tracking for the individual card selectors to understand customer interactions. Refer to the definitions provided by Lydia in PA-23186.\n\n[https://hellofresh.atlassian.net/browse/PA-23186?atlOrigin=eyJpIjoiNGFmNDk3NzliNTlkNDA2Yjk0NGFjY2I2MDg0NWNkNzYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|https://hellofresh.atlassian.net/browse/PA-23186?atlOrigin=eyJpIjoiNGFmNDk3NzliNTlkNDA2Yjk0NGFjY2I2MDg0NWNkNzYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|smart-link] \n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C06AW0AA9NE/p1751987165822419?thread_ts=1751986442.292239&cid=C06AW0AA9NE]_._",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Low",
+      "assignee": "Unassigned",
+      "reporter": "Claire Wang",
+      "created": "2025-07-08",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "We can track jar vs. packet popularity through #of sold items [here|https://docs.google.com/spreadsheets/d/1ZLf5mCeNdcfUP9W3z-xamtR7YyIfga29L1dD_SpBdi4/edit?gid=1921689388#gid=1921689388], so marking this ticket as won’t do",
+          "created": "2025-12-22"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-1955",
+      "summary": "[Multi-cadence] As an active customer on my-deliveries, I wish to see a section describing details of my subscription",
+      "description": "h1. Display Delivery Frequency in Plan Settings\n\nPriority: *Wish*\n\nh2. User Story / Description:\n\nAs an active Factor Form user, I need to see my current delivery frequency in the Plan Settings section of My Deliveries page, so that I can easily access and update this information when needed.\n\nh2. Acceptance Criteria:\n\n* Add a “Plan Settings” panel at the bottom of My Deliveries page\n* Add a \"Delivery Frequency\" section to the Plan Settings panel in My Deliveries page\n* Display the current delivery frequency (4, 6, or 8 weeks)\n* Provide a way to update the delivery frequency from this section\n* Use the same frequency change modal as in the Manage Delivery section\n\nh2. Testing Requirements:\n\n* Verify that the delivery frequency is correctly displayed in Plan Settings\n* Verify that clicking the update option opens the frequency change modal\n* Confirm that changes made in this modal are reflected in the Plan Settings section\n* Test that the UI is responsive and looks good on both mobile and desktop\n* Ensure the feature works for users with different current delivery frequencies\n\nh2. AI Developer Suggestions:\n\n# Add a Plan Settings component to My Deliveries and include a section for delivery frequency:\n{noformat}// Example component structure\n<PlanSettingsSection title=\"Delivery Frequency\">\n  <DeliveryFrequencyDisplay\n    frequency={deliveryFrequency}\n    onUpdateClick={openFrequencyModal}\n  />\n</PlanSettingsSection>{noformat}\n# Create a display component for the current delivery frequency:\n{noformat}const DeliveryFrequencyDisplay = ({ frequency, onUpdateClick }) => (\n  <Box display=\"flex\" justifyContent=\"space-between\" alignItems=\"center\">\n    <Text>Every {frequency} weeks</Text>\n    <Button\n      variant=\"text\"\n      onClick={onUpdateClick}\n      data-testid=\"update-frequency-btn\"\n    >\n      Update\n    </Button>\n  </Box>\n);{noformat}\n# Share the frequency change modal between the Plan Settings and Manage Delivery sections:\n{noformat}// In the parent component\nconst ",
+      "issue_type": "Story",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Jordon Smith",
+      "created": "2025-06-25",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "KR:TAM-T-20",
+        "dev&implementation"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1914",
+      "parent_summary": "[TAM-T-20] Multiple Cadences",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Hamed Karimian",
+          "body": "The user can change frequency and see their frequency on the my-deliveries page, so marking this ticket as won’t do. \n\n\n!image-20251222-211242.png|width=1191,height=895,alt=\"image-20251222-211242.png\"!",
+          "created": "2025-12-22"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2261",
+      "summary": "[OTP][Clean Up] - Calculate Price Migration after 100% rollout and stability",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAs part of the {{calculate price}} migration done on [https://hellofresh.atlassian.net/browse/RTEVMS-2193|https://hellofresh.atlassian.net/browse/RTEVMS-2193|smart-link]  and [https://hellofresh.atlassian.net/browse/RTEVMS-2260|https://hellofresh.atlassian.net/browse/RTEVMS-2260|smart-link] , we need to clean up the conditions added into the codebase to have the 100% pointing to the new endpoint.\n\n* *Statsig feature gate*: [https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2193_calculate_prospect_batch_vms_otp|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2193_calculate_prospect_batch_vms_otp|smart-link] \n* [HoneyComb Dashboard for Calculate Price Migration|https://ui.honeycomb.io/hellofresh/board/v9WMr5igyNe/VMS-Calculate-Price-Migration?endTime=0&startTime=-604800]\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# After making team decision, we need to agree on when to apply the clean up for the given feature flag.\n# Changes should not impact the current logic\n# After the clean up the statsig references will be removed \n\n*Testing Requirements:*\n\n* Check the statsig %\n\n*Affected Brands:*\n\n* FJ VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n[https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2205-cart-service-migration|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2205-cart-service-migration|smart-link] \n\n[https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-one-time-purchase/feature-flags/price-calculation-prospects/useIsCalculateProspectBatchVms.ts|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/sub-brand-one-time-purchase/feature-flags/price-calculation-prospects/useIsCalculateProspectBatchVms.ts|smart-link] \n{panel}",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Edwin Torres",
+      "created": "2025-11-04",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-2260",
+          "summary": "[Calculate Price Migration] Increment exposure of feature on live"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2282",
+      "summary": "Components within \"Complete your wellness routine\" section on my-deliveries page are re-rendering",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\nWhen navigating to the my-deliveries page, components under the “Complete your wellness routine” section are re-rendering.\n\nSee this slack thread for additional context:\n[https://hellofresh.slack.com/archives/C0374928SNN/p1763053435311579|https://hellofresh.slack.com/archives/C0374928SNN/p1763053435311579|smart-link] \n\n*Steps to Reproduce:*\n1. On staging, login with the following credentials:\nuser: [edwin+sub@hellofresh.ca|mailto:edwin+sub@hellofresh.ca]\npass: factor1Test$\n2. Navigate to {{/my-deliveries}}\n3. View the components under the “Complete your wellness routine” section re-rendering\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n* Components do not re-render\n\n*Testing Requirements:*\n\n* Staging env\n* User details\n** user: [edwin+sub@hellofresh.ca|mailto:edwin+sub@hellofresh.ca]\n** pass: factor1Test$\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n\n* Component re-render\n{panel}",
+      "issue_type": "Bug",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Mendelson",
+      "created": "2025-11-14",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2296",
+      "parent_summary": "[Bugs] Escaped Defects",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Mendelson",
+          "body": "Myself and [~accountid:712020:ccb92f31-45f1-4cd0-9684-a794e556a72e] confirmed that we are no longer able to reproduce this bug so moving it to “Won’t do”",
+          "created": "2025-12-22"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2397",
+      "summary": "test",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Pantelis Chatzinikolis",
+      "created": "2025-12-22",
+      "updated": "2025-12-22",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2378",
+      "summary": "Create a new discount communication property to present voucher discounts in VMS product cards",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nTo full integrate discount communication w/ the banner discounts presented in products and bundle cards in All Products page, we should include new properties in the PPS.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* PPS should return a new discount communication property segmented by SKU\n* CUI should display a new field to make edits to the new discount communication property created for VMS product cards\n\n*Testing Requirements:*\n\n* The discount_comm_id should match the discount along with the Voucher used\n\n*Affected Brands:*\n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nRepository: [https://github.com/hellofresh/price-presentation-service|https://github.com/hellofresh/price-presentation-service|smart-link] \n\nSource: [https://github.com/hellofresh/price-presentation-service/blob/master/default-template-config.yml|https://github.com/hellofresh/price-presentation-service/blob/master/default-template-config.yml|smart-link] \n\nReference: [https://github.com/hellofresh/price-presentation-service/pull/690|https://github.com/hellofresh/price-presentation-service/pull/690/changes]\n\nTest Path (staging): {{/factorform/products?attrCode=FJ-VMS-50OFF1YR-RTE-PEAK&discount_comm_id=6744ac0f-e6d7-4332-a3bd-70a1cafd1b15}}\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-12",
+      "updated": "2025-12-22",
+      "resolved": "2025-12-22",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2376",
+      "parent_summary": "[All Products Page] update banner discount copy on product cards based on the discount type",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jan Leite",
+          "body": "PR blocked by pending approval in the following threads:\n\n1. [https://hellofresh.slack.com/archives/C07N15CDC77/p1765557839996769|https://hellofresh.slack.com/archives/C07N15CDC77/p1765557839996769] \n\n# [https://hellofresh.slack.com/archives/C09TT7624G3/p1765994778227189|https://hellofresh.slack.com/archives/C09TT7624G3/p1765994778227189] \n\nPull Request: [https://github.com/hellofresh/price-presentation-service/pull/693|https://github.com/hellofresh/price-presentation-service/pull/693] ",
+          "created": "2025-12-20"
+        },
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:712020:68e42490-ff00-4b18-92ee-409adc2e7b1e]  [~accountid:712020:ccb92f31-45f1-4cd0-9684-a794e556a72e] can either of you take this ticket to the finish line? Let me know if walking through the case could be helpful\ncc: [~accountid:62d18d3c078104d0866dc9b0] [~accountid:712020:cf592fae-9ca0-434a-bc22-ca2852a99913] ",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] Sure - it looks like it is pending approval from the benefits usage squad, I will request a review from them\n\n*Edit:* Added a new CR request to the #squad-rewards channel and tagged a few members of the team: [https://hellofresh.slack.com/archives/C09TT7624G3/p1766425044599139?thread_ts=1765994778.227189&cid=C09TT7624G3|https://hellofresh.slack.com/archives/C09TT7624G3/p1766425044599139?thread_ts=1765994778.227189&cid=C09TT7624G3|smart-lin",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Emily Mendelson",
+          "body": "Approved by member of benefits pricing squad",
+          "created": "2025-12-22"
+        },
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:712020:68e42490-ff00-4b18-92ee-409adc2e7b1e] seems like it’s merged now, thanks",
+          "created": "2025-12-22"
+        }
+      ],
+      "links": [
+        {
+          "type": "is duplicated by",
+          "key": "RTEVMS-2385",
+          "summary": "[Chore] Include fields in discount communication service for offers in product cards and PDPs"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2382",
+      "summary": "[OTP][Live] Create Customer Price Migration Batch files for VMSU",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a result of the spike [https://hellofresh.atlassian.net/browse/RTEVMS-2299|https://hellofresh.atlassian.net/browse/RTEVMS-2299|smart-link]  and the test made for price migration strategy for VMS customers, we need to prepare the data and create properly the migrations on LIVE\n\nIn order to succeed on this task, is important to follow the same steps performed on Staging but for Live environment.\n\n[https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Create DataBricks query with all customers that have a subscription in VMS and they are using the VMS skus\n* price_migration_factor75_us files are created\n* Once the OTP and VMSU feature flags are ON, we need to perform the migrations\n** By default new customers using the VMSU will not need to be migrated, as they are already using the new VMSU product family\n\n*Testing Requirements:*\n\n* Follow guide documented\n\n*Affected Brands:*\n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* Document the additional steps and databricks query here: \n** [https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|smart-link] \n* Upload the files generated to the Drive folder we use for VMS\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-16",
+      "updated": "2025-12-22",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2390",
+      "summary": "Anatta | Post Launch Support Fixes for Factor Form",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Debabrata Sen",
+      "reporter": "Jason Halberstadt",
+      "created": "2025-12-18",
+      "updated": "2025-12-22",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2366",
+      "summary": "[Peak] Add new RTE XSELL voucher to fallback peak voucher set",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAdd a new peak promotion voucher code for RTE actives to the peak fallback set.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* As a RTE active, when landing on Factor From with the voucher code {{FJ-VMS-50OFF1YR-RTE-PEAK}}, I should get 50% discount on subscribe.\n\n*Testing Requirements:*\n\n* Voucher should apply for RTE actives only\n* Fallback to {{FJ-VMS-40OFF-NOTRTEFALLBACK}} voucher for everyone else.\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nSource: [https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/sub-brand/vouchers/constants.ts|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/sub-brand/vouchers/constants.ts] \n\nIncluding the new voucher code {{FJ-VMS-50OFF1YR-RTE-PEAK to the SUBSCRIPTION_RESTRICTED_VOUCHERS}}Set might complete this task.\n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "High",
+      "assignee": "Unassigned",
+      "reporter": "Jan Leite",
+      "created": "2025-12-11",
+      "updated": "2025-12-20",
+      "resolved": "2025-12-20",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2283",
+      "parent_summary": "[Q4/25] - Factor Form Peak Prep",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "is duplicated by",
+          "key": "RTEVMS-2379",
+          "summary": "[Peak] RTE-active Voucher Filter"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2379",
+      "summary": "[Peak] RTE-active Voucher Filter",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nFor 2025/2026 peak, the marketing team is targeting Factor Actives with an email blast offering 50% off of Form for a year\nHowever, vouchers will need to be set up as “any” customer type vouchers and run the risk of leaking to new VMS customers also.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* apply a client-side filter to prevent prospects without an active RTE subscription from applying the 50%OFF voucher\n** if a RTE active applies the voucher it should apply\n** if a RTE former applies the voucher it should apply a fallback instead\n** if a net new prospect applies the voucher it should apply a fallback instead\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* 50% off 12 orders for RTE Actives: {{FJ-VMS-50OFF1YR-RTE-PEAK}}\n* Fallback 40% off on orders: $65+: {{FJ-VMS-40OFF-NOTRTEFALLBACK}}\n{panel}",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-12",
+      "updated": "2025-12-20",
+      "resolved": "2025-12-15",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "relates to",
+          "key": "RTEVMS-2307",
+          "summary": "[Black Friday] RTE-active Voucher Filter"
+        },
+        {
+          "type": "duplicates",
+          "key": "RTEVMS-2366",
+          "summary": "[Peak] Add new RTE XSELL voucher to fallback peak voucher set"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2368",
+      "summary": "[Order History] Upload new translation keys",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nKey-values\n\n{noformat}| key                                                  | value                                                                                                                                 |\n| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |\n| susubBrand.settings.orderHistory.title               | OrderHistory                                                                                                                          |\n| susubBrand.settings.orderHistory.subtitle            | View your complete supplement purchase history and download past invoices.                                                            |\n| susubBrand.settings.orderHistory.section.otp.title   | One-time-purchase                                                                                                                     |\n| susubBrand.settings.orderHistory.section.sns.title   | Subscription                                                                                                                          |\n| susubBrand.settings.orderHistory.orders.deliveryDate | Delivery Date                                                                                                                         |\n| susubBrand.settings.orderHistory.orders.description  | Description                                                                                                                           |\n| susubBrand.settings.orderHistory.orders.price        | Price                                                                                                       ",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-11",
+      "updated": "2025-12-20",
+      "resolved": "2025-12-20",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2312",
+      "parent_summary": "[OTP] Get and show active customer orders history with OTP",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2392",
+      "summary": "ecommerce event update (add checkout_type)",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-18",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2386",
+      "parent_summary": "[OTP] Add GTM events",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2386",
+      "summary": "[OTP] Add GTM events",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAs a product manager, I want to see the GTM events for VMS OTP to track metrics.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Add GTM events as per specs provided in [https://hellofresh.atlassian.net/browse/PA-25451|https://hellofresh.atlassian.net/browse/PA-25451|smart-link] \n\n*Testing Requirements:*\n\nunit tests \n\n*Affected Brands:*\n\nFJ VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-17",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2394",
+      "summary": "[OTP] Cart Drawer Pricing update",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAs a user viewing the cart drawer, my price should reflect the {{subTotal}} (without tax), not {{grandTotal}} (with tax) since pre-checkout does not have post-code to determine tax amount\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Cart drawer pulls total value from {{subTotal}}\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n[https://hellofresh.slack.com/archives/C09NWGEJ0F4/p1766160417958239?thread_ts=1765969460.982689&cid=C09NWGEJ0F4|https://hellofresh.slack.com/archives/C09NWGEJ0F4/p1766160417958239?thread_ts=1765969460.982689&cid=C09NWGEJ0F4|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-19",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2364",
+      "summary": "[Multi-Cadence] Update and include GTM events",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nUpdate some GTM events created on Iris for multi-cadence flow.\n\nSimon should answer soon in the thread mentioned below, the changes we should make. At glance:\n\n# Include {{event_label}} to some events that does not have it\n# Create a new events for the modal dissmis *before* submit delivery frequency changes\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Update GTM events to be in conformance with Iris (see dev notes)\n\n*Testing Requirements:*\n\n* Review and update GTM tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nFor acceptance, the review should be done based on the comments of this ticket: [https://hellofresh.atlassian.net/browse/PA-25602|https://hellofresh.atlassian.net/browse/PA-25602|smart-link] \n\nThread: [https://hellofresh.slack.com/archives/C06AW0AA9NE/p1765210282111279|https://hellofresh.slack.com/archives/C06AW0AA9NE/p1765210282111279|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Jan Leite",
+      "created": "2025-12-11",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [
+        "KR:TAM-T-20",
+        "dev&implementation"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1914",
+      "parent_summary": "[TAM-T-20] Multiple Cadences",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "created by",
+          "key": "PA-25602",
+          "summary": "[VMS] Multi-Cadence Event Review"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2070",
+      "summary": "[Pre-Checkout] Cleanup remaining sub-brand PCSv1 dependencies",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nOnce the migration to PCSv2 is fully complete, the sub-brand can eliminate all remaining dead code associated with PCSv1.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* Remove any dead code related to PCSv1 for sub-brand, including tests.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nMapped code to be removed\n\n* [https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/sub-brand/customer-recurring-selections/index.ts|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/sub-brand/customer-recurring-selections/index.ts] \n{panel}",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "Low",
+      "assignee": "Unassigned",
+      "reporter": "Jan Leite",
+      "created": "2025-08-13",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [
+        "rte-tech-debt",
+        "rte-vms-tech-debt"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1637",
+      "parent_summary": "[Long Term] Technical Debt",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pantelis Chatzinikolis",
+          "body": "This was already completed.",
+          "created": "2025-12-19"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2391",
+      "summary": "SelectPlan_VMSFunnelStepLoaded",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Sub-task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-18",
+      "updated": "2025-12-19",
+      "resolved": "2025-12-19",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2386",
+      "parent_summary": "[OTP] Add GTM events",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2393",
+      "summary": "[KTLO] Add 50% off voucher to all RTE subscribers",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a marketing person, I want to run a campaign to give 50% off for 1 year to all RTE active subscribers. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# All Factor active subscribers (who don’t have a Factor Form subscription) should get a 50% discount with the {{FJ-VMS-50OFF1YR-RTE-ORGANIC}} voucher and {{c0850411-0a43-47c4-88bf-3bbf97d08095}} discount comm ID.\n## All the banners (product cards, checkout page, and top banner on homepage, all products page, PDPs) should reflect the voucher and discount comm ID. \n## Product prices, order summary, and cart details should reflect the discounted prices. \n# Other users (Factor non-active customers, Factor Form subscribers, logged-out users, etc.) should NOT get this discount.\n## In these cases, the voucher should fallback on the default 40% off discount for first order. \n# Add GTM events and trace spans to monitor the activities. \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-19",
+      "updated": "2025-12-19",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2388",
+      "summary": "[OTP] Disable 'Place Order' CTA when address is not saved",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nWhen buying OTP items, if address is not saved yet:\n\n* Actual behaviour: ‘Place order’ button is enabled but doesn’t work.\n\n!Screen Recording 2025-12-17 at 12.12.19 PM.mov|width=41.66666666666667%,alt=\"Screen Recording 2025-12-17 at 12.12.19 PM.mov\"!\n\n* Expected behaviour: The checkout page should work the same way as it does for SNS orders. \n** The ‘Place order’ should be disabled until address & payment details are provided by the user. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Emily Mendelson",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-17",
+      "updated": "2025-12-18",
+      "resolved": "2025-12-18",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2389",
+      "summary": "[OTP] Full width sticky CTA on bundles dialog",
+      "description": "!Screenshot 2025-12-18 at 11.38.50 AM.png|width=753,height=379,alt=\"Screenshot 2025-12-18 at 11.38.50 AM.png\"!\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n# Ensure the sticky CTA container is full width for drawer and dialog (web/mobile)\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-18",
+      "updated": "2025-12-18",
+      "resolved": "2025-12-18",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2377",
+      "summary": "[OTP][UAT] Design Tweaks",
+      "description": "{panel:bgColor=#deebff}*User Story / Description:*\n{panel}{panel:bgColor=#e3fcef}*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}{panel:bgColor=#deebff}*Accessibility Requirements:*\n{panel}{panel:bgColor=#eae6ff}*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Michael James Clarke",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-18",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2271",
+      "summary": "[PM - Action Item] Setup Payment methods anomaly detection",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a short-term action item for the Apple Pay incident, we should use anomaly detection to identify inconsistencies in payment methods checkout submissions.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* As a stakeholder, I should be notified about anomalies in payment method attempts.\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nPM: [https://docs.google.com/document/d/17MNsz8ziB-RKP-pKhRSiKRMV78hFMVavFTsPtjVFdKE/edit?usp=sharing|https://docs.google.com/document/d/17MNsz8ziB-RKP-pKhRSiKRMV78hFMVavFTsPtjVFdKE/edit?usp=sharing|smart-link]\n\n*Anomaly Detection*\n\n* Setup: [https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/custom-metrics-anomaly-detection/|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/custom-metrics-anomaly-detection/]\n* Service: [https://github.com/hellofresh/anomaly-detection-service/tree/master|https://github.com/hellofresh/anomaly-detection-service/tree/master|smart-link] \n* How it works: [https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/what-is-anomaly-detection/|https://hellodev.hellofresh.io/project/metrics-automation/docs/metrics-automation/user-journey-monitoring/anomaly-detection/what-is-anomaly-detection/] \n\n\n{panel}",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-11-06",
+      "updated": "2025-12-17",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2283",
+      "parent_summary": "[Q4/25] - Factor Form Peak Prep",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jan Leite",
+          "body": "Support HN Dashboard: [https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6|https://ui.honeycomb.io/hellofresh/board/snpnbrS3LW6]",
+          "created": "2025-12-04"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2370",
+      "summary": "[E2E] Funnel E2E tests are failing due to OTP feature flag be enabled on test envs",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\nE2E tests running funnel flow are failing due to OTP experience including extra elements that are not previously mapped in the test script.\n\n*Steps to Reproduce:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\n* Cancellation and Sign up tests should pass\n\n*Testing Requirements:*\n\n* Test Funnel without OTP feature flag on (must)\n* Test Funnel with OTP flag on (have to)\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev Notes*\n\nThere’s a Cypress helper that we can use to force the feature flag to be off in certain tests.\nCommand: [https://github.com/hellofresh/web/blob/master/app/scripts/cypress/commands/addEnableFeatureFlag.ts|https://github.com/hellofresh/web/blob/master/app/scripts/cypress/commands/addEnableFeatureFlag.ts] \n\nReference: (not found)\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Jan Leite",
+      "created": "2025-12-11",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2387",
+      "summary": "[OTP] Add SFMC events",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\nAs a CRM expert, I want to receive OTP-related events in SFMC to be able to trigger emails accordingly. \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Add SFMC events\n## OTP send_checkout_confirmation\n## other related events [TBD by [~accountid:5c18c32c7d0c1a2f011149c8] ]\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Blocked",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Hamed Karimian",
+      "created": "2025-12-17",
+      "updated": "2025-12-17",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "flagging until we have event info from Tyler",
+          "created": "2025-12-17"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "waiting on details from Tyler",
+          "created": "2025-12-17"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2380",
+      "summary": "[OTP] Send checkoutType in /activations/checkout/price endpoint to get correct price-sets",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nDuring tests I noticed the {{checkoutType}} param into the payload is is not being sent to the {{/activations/checkout/price}}, which generates an issue to get the correct price-set created.\n\nTo provide more context and details, I’m adding an example from a POSTMAN request.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* By sending the checkoutType we expect to see a different shipping discount\n** OTP => 5.99\n** Subscription => 0.00\n\n*Testing Requirements:*\n\n*Affected Brands:*\n\nFactor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}\n\n\n\n!image-20251216-152152.png|width=915,height=973,alt=\"image-20251216-152152.png\"!\n\n\n\n!image-20251216-152215.png|width=983,height=924,alt=\"image-20251216-152215.png\"!\n\n\n\n\n\n!image-20251216-152018.png|width=1621,height=1056,alt=\"image-20251216-152018.png\"!",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-16",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2258",
+      "summary": "[OTP] Pricing communication for all frequency selectors",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a user, I want to understand subscription savings vs OTP \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# determine and implement how we will get discounts communicated in frequency selector component\n\n[https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=799-51200&t=ee4JzhYoYKMX3NhM-0|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=799-51200&t=ee4JzhYoYKMX3NhM-0|smart-link] \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n[https://cui-staging.hellofresh.io/discount-communications/7e6a6f43-0db8-46ae-8aa9-b4aa320ead87|https://cui-staging.hellofresh.io/discount-communications/7e6a6f43-0db8-46ae-8aa9-b4aa320ead87]\n\n!Screenshot 2025-12-05 at 3.21.42 PM.png|width=333,height=75,alt=\"Screenshot 2025-12-05 at 3.21.42 PM.png\"!\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Stanek",
+      "created": "2025-11-03",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] [~accountid:6085dabd5426330072a8e0a8] [~accountid:712020:38043296-ca6a-4308-9af2-173a9f590a4b] \nflagging this until we know how we will be implementing discount communication in this component",
+          "created": "2025-11-03"
+        },
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] we should have an answer after we meet Laura later today",
+          "created": "2025-11-03"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] was the solution to this to use the discount communication service?",
+          "created": "2025-12-11"
+        },
+        {
+          "author": "Hamed Karimian",
+          "body": "[~accountid:6123c40c3ef46a00704cafda] Using that is one possibility but it’d be really cumbersome to configure it properly for all products/combinations. what are ways do we have to address this? ",
+          "created": "2025-12-11"
+        },
+        {
+          "author": "Emily Stanek",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] discount comms would be the only way to make it dynamic, since it would pull in the first box vs second box discount properly",
+          "created": "2025-12-12"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2374",
+      "summary": "[OTP][UAT] Copy changes",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nCopy changes needed for release\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*OTP Cart:*\n\nCheckout Page:\n\n# Checkout page has “Your first order will ship…”, should read “Your order will ship…”\n# Shipping info section:\n## Replace “Replace deliveries with ease“ with “No future commitments“\n## Replace “Cancel anytime“ with “Refill when you’re ready“\n\nCheckout Success Page:\n\n# Checkout success page has “Your first order will ship…”, should read “Your order will ship…”\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-16",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2385",
+      "summary": "[Chore] Include fields in discount communication service for offers in product cards and PDPs",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nInclude two more fields in CUI / Discount communication to present offers in product cards at the all product pages and to the quanity options in Greens PDP\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nChanges should be done here: [https://github.com/hellofresh/price-presentation-service|https://github.com/hellofresh/price-presentation-service|smart-link] \n{panel}",
+      "issue_type": "Story",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-17",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [
+        "rte-ktlo"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-2252",
+      "parent_summary": "[KTLO] Keep The Lights On",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "duplicates",
+          "key": "RTEVMS-2378",
+          "summary": "Create a new discount communication property to present voucher discounts in VMS product cards"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2371",
+      "summary": "[OTP][UAT] SnS Discount Should Show",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs an SNS user, discount is not shown to the user in checkout\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Discount applied section is shown\n\n*Testing Requirements:*\n\nadd unit tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}\n\n!Screenshot 2025-12-11 at 2.51.18 PM.png|width=223,height=881,alt=\"Screenshot 2025-12-11 at 2.51.18 PM.png\"!",
+      "issue_type": "Task",
+      "status": "Won't do",
+      "priority": "High",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Mendelson",
+          "body": "Moving ticket to won’t do as issue has been resolved by other vmsu work by [~accountid:712020:ccb92f31-45f1-4cd0-9684-a794e556a72e]. \n\nLink to relevant slack thread: [https://hellofresh.slack.com/archives/C0374928SNN/p1765835727526909|https://hellofresh.slack.com/archives/C0374928SNN/p1765835727526909|smart-link] ",
+          "created": "2025-12-17"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2373",
+      "summary": "[OTP][UAT] CTAs on modals should be sticky",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a user, I want to be able to see the CTAs in the modal at all times\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# CTAs should be sticky \n\n*Testing Requirements:*\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Emily Mendelson",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2383",
+      "summary": "[Discount Communication] VMS discount communication fallback not working",
+      "description": "{panel:bgColor=#deebff}*Description:*\n\n*Steps to Reproduce:*\n\n{panel}{panel:bgColor=#e3fcef}*Expected result:*\n\n*Testing Requirements:*\n\n{panel}\n{panel:bgColor=#e3fcef}*Actual result:*\n{panel}",
+      "issue_type": "Bug",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Jan Leite",
+      "reporter": "Jan Leite",
+      "created": "2025-12-16",
+      "updated": "2025-12-17",
+      "resolved": "2025-12-17",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2296",
+      "parent_summary": "[Bugs] Escaped Defects",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "created by",
+          "key": "RTEVMS-2346",
+          "summary": "[Price Presentation Service] Investigate why discount comms aren't rendering"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2346",
+      "summary": "[Price Presentation Service] Investigate why discount comms aren't rendering",
+      "description": "{panel:bgColor=#deebff}\n*Description:*\n\n  [https://hellofresh.slack.com/archives/C064U9QAS6L/p1764785862589759|https://hellofresh.slack.com/archives/C064U9QAS6L/p1764785862589759|smart-link] \n\n*Steps to Reproduce:*\n\n# discount comms arent showing, could be related to the PR linked: [https://github.com/hellofresh/web/pull/60959|https://github.com/hellofresh/web/pull/60959|smart-link] \n{panel}\n\n{panel:bgColor=#e3fcef}\n*Expected result:*\n\nDiscount commms are dynamic\n\n*Testing Requirements:*\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Actual result:*\n{panel}",
+      "issue_type": "Bug",
+      "status": "Won't do",
+      "priority": "Normal",
+      "assignee": "Jan Leite",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-03",
+      "updated": "2025-12-16",
+      "resolved": "2025-12-03",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2296",
+      "parent_summary": "[Bugs] Escaped Defects",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jan Leite",
+          "body": "Changed to {color:#36B37E}*[ WON'T DO ]*{color} \n\n\nCurrently, there is a 40% black friday voucher that is applied as fallback when a prospect is not a RTE active, so the behaviour is the expected.",
+          "created": "2025-12-03"
+        }
+      ],
+      "links": [
+        {
+          "type": "created",
+          "key": "RTEVMS-2383",
+          "summary": "[Discount Communication] VMS discount communication fallback not working"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2285",
+      "summary": "Implement SLOs for Factor Form experience indicators",
+      "description": "{panel:bgColor=#deebff}\n*Info*\n\nAs a layer of our observability approach, having a service-level-objective can cover situations where a sustained drop in success can be automatically identified.\n\nThis can be achieved by calculating the success rate of customers completing expected actions on the website and reporting when that dips below an expected threshold.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\nCreate SLOs for {{checkout success}} \n[example SLO|https://ui.honeycomb.io/hellofresh/datasets/traces-frontend-live/slo/zJsQxNhWg3R/RTE-Checkout-Success]\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Jordon Smith",
+      "reporter": "Jordon Smith",
+      "created": "2025-11-14",
+      "updated": "2025-12-16",
+      "resolved": "2025-12-16",
+      "labels": [],
+      "components": [],
+      "parent_key": "RTEVMS-2283",
+      "parent_summary": "[Q4/25] - Factor Form Peak Prep",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2372",
+      "summary": "[OTP][UAT] Checkout Type Selectors not shown to active SnS users",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs an actively subscribed user, I should not see the checkout type selectors, i should only be able to add subscription items to my order\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# Checkout type selectors should not render on bundles modals\n# Checkout type selectors should not render on PDPs\n\n*Testing Requirements:*\n\nadd unit tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Emily Stanek",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-16",
+      "resolved": "2025-12-16",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2375",
+      "summary": "[OTP][UAT] Checkout success dashboard does not render on 2nd OTP order",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a user, I am able to successfully checkout an OTP order more than once\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# logic in the checkout success page guard is updated to allow for users who are making another OTP checkout\n\n*Testing Requirements:*\n\nupdate tests\n\n*Affected Brands:*\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Emily Stanek",
+      "created": "2025-12-11",
+      "updated": "2025-12-16",
+      "resolved": "2025-12-16",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Edwin Torres",
+          "body": "Added details on Pull Request.",
+          "created": "2025-12-15"
+        }
+      ],
+      "links": []
+    },
+    {
+      "key": "RTEVMS-2299",
+      "summary": "[Spike] Migrate existing customers to the VMSU product family",
+      "description": "{panel:bgColor=#deebff}\n*Info*\n\nPrior to rolling out one-time-purchase and migrating existing customers over to OTP pricing we’ll need to prepare a rollout (and roll-back) plan for handling the changes.\nWe’ve identified several topics (SKU migration, voucher attachment) as key for the success of the rollout and need to make clear how each of these will be achieved + what our exit plan is in case we encounter challenges and need to revert.\n{panel}\n\n{panel:bgColor=#fffae6}\n*Additional details*\n\ncustomers have to be  notified via email that their subscription will change (and include price info)\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria*\n\ndetail how we will achieve each of these:\n\n* all customers with a vms subscription are migrated to the VMSU equivalent of their current order\n* the new voucher for OTP is attached to their subscription (to ensure they get correct 40/20% off)\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev notes*\n\nMight need to engage pricing squad and potentially vouchers/benefits \n\n* scripts should already exist to migrate\n* Customers to new product sku / family\n* attach the new (perpetual 20%) vouchers to a large group of customers\n* Spreadsheet with prices: [https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|smart-link] \n* Spreadsheet with OTP vs SNS: [https://docs.google.com/spreadsheets/d/1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg/edit?gid=1586317447#gid=1586317447|https://docs.google.com/spreadsheets/d/1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg/edit?gid=1586317447#gid=1586317447|smart-link] \n\n\n{panel}\n\n\n\n!image-20251203-193408.png|width=1072,height=912,alt=\"image-20251203-193408.png\"!",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Jordon Smith",
+      "created": "2025-11-18",
+      "updated": "2025-12-16",
+      "resolved": "2025-12-16",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Jordon Smith",
+          "body": "[~accountid:712020:4b6a0b29-53dc-45ce-82fb-0ac6a91e6feb] - we need to coordinate with [~accountid:5c18c32c7d0c1a2f011149c8] [~accountid:5c069c3db5881d1b2e50d167] on the comms and migration\n",
+          "created": "2025-11-18"
+        },
+        {
+          "author": "Jordon Smith",
+          "body": "[~accountid:6085dabd5426330072a8e0a8] there is a price change for hydration and proteins\n\nand there is a new discount that accompanies the move to sns",
+          "created": "2025-11-18"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Added context with the pricing team on Slack.\n\n\n\n[https://hellofresh.slack.com/archives/C09NWGEJ0F4/p1764703410596749|https://hellofresh.slack.com/archives/C09NWGEJ0F4/p1764703410596749|smart-link] ",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Vitor will share the documentation for the new tooling for migrating existing customers, and we will test it on Staging during the week and have a schedule for follow up on {{2025-12-08}} ",
+          "created": "2025-12-03"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Pending to review the self-serve guide:\n\n[https://hellofresh.atlassian.net/browse/BM-3202|https://hellofresh.atlassian.net/browse/BM-3202|smart-link] ",
+          "created": "2025-12-04"
+        }
+      ],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "RTEVMS-2381",
+          "summary": "[OTP][Live] Create customer migration for existing customers to use VMSU family"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2381",
+      "summary": "[OTP][Live] Create customer migration for existing customers to use VMSU family",
+      "description": "{panel:bgColor=#deebff}\n*Info*\n\nPrior to rolling out one-time-purchase and migrating existing customers over to OTP pricing we’ll need to prepare a rollout (and roll-back) plan for handling the changes.\n\n\nThe migration steps have been documented as follows\n\n* [https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|https://docs.google.com/document/d/1gmUgitE31-hBHjZ8fXeJB4HCEA3szf9DzdIN4aobDOQ/edit?tab=t.c2pbo0nfidei|smart-link] \n{panel}\n\n{panel:bgColor=#fffae6}\n*Additional details*\n\ncustomers have to be  notified via email that their subscription will change (and include price info)\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance criteria*\n\ndetail how we will achieve each of these:\n\n* all customers with a vms subscription are migrated to the VMSU equivalent of their current order\n* the new voucher for OTP is attached to their subscription (to ensure they get correct 40/20% off)\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Dev notes*\n\nMight need to engage pricing squad and potentially vouchers/benefits \n\n* scripts should already exist to migrate\n* Customers to new product sku / family\n* attach the new (perpetual 20%) vouchers to a large group of customers\n* Spreadsheet with prices: [https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|https://docs.google.com/spreadsheets/d/1Yq8tvrCbP1tPkDaCEDDFu1Q3X55XJTIzo2Wci3TgYkE/edit?gid=345937757#gid=345937757|smart-link] \n* Spreadsheet with OTP vs SNS: [https://docs.google.com/spreadsheets/d/1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg/edit?gid=1586317447#gid=1586317447|https://docs.google.com/spreadsheets/d/1wF7gMGH866fxGp0BwpAhFPuNwKDhhVsDapbH9Bg1fGg/edit?gid=1586317447#gid=1586317447|smart-link] \n\n\n{panel}",
+      "issue_type": "Task",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-16",
+      "updated": "2025-12-16",
+      "resolved": "",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-2299",
+          "summary": "[Spike] Migrate existing customers to the VMSU product family"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2256",
+      "summary": "[OTP] VMSU product family",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs an active subscribed user, with a VMS family SKU, withOTP experience enabled or disabled, I should see VMS family based sku calculation.\n\nAs a new user, with OTP experience enabled, I should see VMSU price set sku calculations.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n# VMS + VMSU price sets/families should both work\n# SKU calculations should be based on whats in a *customer's cart OR subscription*\n## if OTP feature flag is enabled: VMSU family should be used for new sign-ups\n\n⚠️  Updating the {{VMS}} prefix we have hardcode now ⚠️ \n\n*Testing Requirements:*\n\nunit/integration\n\n*Affected Brands:*\n\nFJ VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\nit’s likely in web we use the prefix {{FJ-VMS}} in several places and will need to support {{FJ-VMSU}} also\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Edwin Torres",
+      "reporter": "Emily Stanek",
+      "created": "2025-11-03",
+      "updated": "2025-12-15",
+      "resolved": "2025-12-15",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Emily Stanek",
+          "body": "blocked by RTEVMS-2186",
+          "created": "2025-11-25"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Adding changes to select VMSU product family and toggle it",
+          "created": "2025-12-10"
+        },
+        {
+          "author": "Edwin Torres",
+          "body": "Created feature gate to enable the vmsu family\n\n[https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2256_vmsu_family?newGate=true|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/rtevms-2256_vmsu_family?newGate=true|smart-link] ",
+          "created": "2025-12-10"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2186",
+          "summary": "[OTP] Create new product family to support OTP and Subscription product SKUs - Staging"
+        },
+        {
+          "type": "is blocked by",
+          "key": "RTEVMS-2362",
+          "summary": "[OTP] Create new product family to support OTP and Subscription product SKUs - LIVE"
+        }
+      ]
+    },
+    {
+      "key": "RTEVMS-2363",
+      "summary": "[OTP] Show OTP orders total similarly to SNS when pop over order button is clicked",
+      "description": "{panel:bgColor=#deebff}\n*User Story / Description:*\n\nAs a customer when I have OTP orders on my-deliveries, I want to see the order total for my OTP order placed before.\n\nAs reference this should look similar to the SNS order total we have today.\n\n\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria:*\n\n* We need to get the order on /factorform/my-deliveries \n\n*Testing Requirements:*\n\n*Affected Brands:* \n\n* Factor Form VMS\n{panel}\n\n{panel:bgColor=#deebff}\n*Accessibility Requirements:*\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Developer Notes:*\n\n* [https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1519-53903&t=TR8J85TjdMdGeQDb-0|https://www.figma.com/design/rfbEDEqTFGKJvJyBOuwUxk/F-Form---OTP?node-id=1519-53903&t=TR8J85TjdMdGeQDb-0|smart-link] \n{panel}\n\n\n\n!image-20251211-161108.png|width=935,height=604,alt=\"image-20251211-161108.png\"!\n\n\n\n!image-20251211-161421.png|width=769,height=587,alt=\"image-20251211-161421.png\"!\n\n!image-20251211-161446.png|width=359,height=725,alt=\"image-20251211-161446.png\"!",
+      "issue_type": "Story",
+      "status": "Done",
+      "priority": "Low",
+      "assignee": "Emily Mendelson",
+      "reporter": "Edwin Torres",
+      "created": "2025-12-11",
+      "updated": "2025-12-12",
+      "resolved": "2025-12-12",
+      "labels": [
+        "KR:TAM-A-14"
+      ],
+      "components": [],
+      "parent_key": "RTEVMS-1323",
+      "parent_summary": "[TAM-A-14] One Time Purchase",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "RTEVMS-2345",
+          "summary": "[OTP] Show pending OTP orders for shipping on My Deliveries"
+        }
+      ]
+    }
+  ]
+}

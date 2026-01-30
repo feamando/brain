@@ -1,0 +1,227 @@
+{
+  "batch_id": "C06CE7FB951_1764553726.533319",
+  "channel_name": "tribe-new-ventures-internal",
+  "channel_id": "C06CE7FB951",
+  "message_count": 34,
+  "analyzed_at": "2026-01-02T13:00:15.485507",
+  "decisions": [
+    {
+      "what": "Treat subscription SKU update issue as separate initiative rather than bug fix",
+      "who": [
+        "U01AKGWGLC8",
+        "UE4HG114J"
+      ],
+      "date": "during conversation thread",
+      "context": "Investigation revealed the behavior where deliveries don't update SKU when subscription changes is expected behavior, not a bug. Requires customer experience changes to fix.",
+      "confidence": "high"
+    },
+    {
+      "what": "L2 New Ventures on-call rotation will combine with another rotation to support all TAM-owned backend services",
+      "who": [
+        "UEZ4PRFKM"
+      ],
+      "date": "Q4 (next couple of weeks from message)",
+      "context": "To make escalating and mitigating criticals for new ventures dependent services more streamlined and available",
+      "confidence": "high"
+    },
+    {
+      "what": "Berlin offices will have limited access during holiday closure December 19 through January 1",
+      "who": [
+        "HelloFresh facilities"
+      ],
+      "date": "December 19 - January 1",
+      "context": "Only Prinzenstr 4th/5th floors and Reuchlinstr Haus P will be accessible during holiday period",
+      "confidence": "high"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Prateek (U09UKDH3AA0)",
+      "type": "person",
+      "context": "New Staff Product Manager joining to support The Pets Table",
+      "relationships": [
+        "The Pets Table",
+        "U03TY4YJU4X"
+      ]
+    },
+    {
+      "name": "The Pets Table",
+      "type": "brand",
+      "context": "Pet food service offering across US, experiencing subscription SKU update issues",
+      "relationships": [
+        "HelloFresh",
+        "Prateek",
+        "GoodChop",
+        "KRS"
+      ]
+    },
+    {
+      "name": "GoodChop",
+      "type": "brand",
+      "context": "Experiencing same subscription SKU update issues as TPT, investigating Select Cuts page performance optimization",
+      "relationships": [
+        "The Pets Table",
+        "MR",
+        "HelloFresh"
+      ]
+    },
+    {
+      "name": "Troy Edwards (U0958HM93B3)",
+      "type": "person",
+      "context": "Intern joining New Ventures tribe until Sept 19, working on AI initiatives",
+      "relationships": [
+        "UEZ4PRFKM",
+        "New Ventures tribe"
+      ]
+    },
+    {
+      "name": "KRS",
+      "type": "system",
+      "context": "System that TPT was onboarded to this year, handles meal selection and SKU management",
+      "relationships": [
+        "The Pets Table",
+        "GoodChop"
+      ]
+    },
+    {
+      "name": "ABBA",
+      "type": "project",
+      "context": "Project being demoed at company-wide HelloTech Demo Session",
+      "relationships": [
+        "U01TQGXG9D3",
+        "U01KKT2P7FY",
+        "U03R6F2AG9K",
+        "Cross Selling"
+      ]
+    },
+    {
+      "name": "Cross Selling",
+      "type": "project",
+      "context": "Project being demoed at HelloTech Demo Session if time permits",
+      "relationships": [
+        "ABBA",
+        "U01TQGXG9D3"
+      ]
+    },
+    {
+      "name": "Shujath Khan (U02U39Z9XA9)",
+      "type": "person",
+      "context": "Leaving after 3.5 years with the tribe, based in Berlin",
+      "relationships": [
+        "New Ventures tribe"
+      ]
+    },
+    {
+      "name": "U02KQF884CT",
+      "type": "person",
+      "context": "New team member joining New Ventures and Ecosystems tribe",
+      "relationships": [
+        "New Ventures tribe",
+        "U027201FQSV"
+      ]
+    },
+    {
+      "name": "Lokalise",
+      "type": "system",
+      "context": "Translation/localization system that tribe now has access to via tribe-nv@hellofresh.com",
+      "relationships": [
+        "UEZ4PRFKM",
+        "tribe-nv@hellofresh.com"
+      ]
+    },
+    {
+      "name": "Fresh Chat",
+      "type": "system",
+      "context": "Tool that now indexes New Ventures confluence space for documentation search",
+      "relationships": [
+        "Confluence",
+        "U01AKGWGLC8"
+      ]
+    },
+    {
+      "name": "New Ventures tribe",
+      "type": "squad",
+      "context": "Tribe supporting GoodChop, The Pets Table, and other ventures",
+      "relationships": [
+        "The Pets Table",
+        "GoodChop",
+        "TAM",
+        "HelloFresh"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Subscription SKU changes don't update upcoming deliveries due to customer recurring selection behavior",
+      "owner": "Product teams (GoodChop and The Pets Table)",
+      "status": "active",
+      "impact": "Customers changing plan size (e.g., 6 cuts to 8 cuts) see incorrect number of items in upcoming deliveries until they manually reselect meals"
+    },
+    {
+      "description": "Select Cuts page performance on GoodChop first-box flow taking 600-700ms instead of target 300-500ms",
+      "owner": "U01AKGWGLC8 and team",
+      "status": "active",
+      "impact": "Slower customer experience during pre-checkout cut selection, likely related to new product cards rollout"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Investigate optimization for Select Cuts page performance on GoodChop first-box flow",
+      "owner": "U01AKGWGLC8 and team",
+      "due": "upcoming Sprint",
+      "status": "pending"
+    },
+    {
+      "task": "Connect U027201FQSV with VMS team (U08E2S3V5D1, U09D8BZ9891) to support OTP work",
+      "owner": "U03TY4YJU4X",
+      "due": "Monday next week",
+      "status": "pending"
+    },
+    {
+      "task": "Submit questions for Mega Alliances AMA via Slido",
+      "owner": "Team members",
+      "due": "before Thursday AMA",
+      "status": "pending"
+    },
+    {
+      "task": "Sign up for L2 New Ventures on-call rotation",
+      "owner": "Available team members",
+      "due": "unspecified",
+      "status": "pending"
+    },
+    {
+      "task": "Fill out form for New Ventures merch",
+      "owner": "Team members",
+      "due": "unspecified",
+      "status": "pending"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "Subscription SKU update technical issue",
+      "summary": "Both GoodChop and The Pets Table have an issue where changing subscription plan size doesn't update upcoming deliveries due to how customer recurring selection works. This is expected system behavior, not a bug, and requires product/UX changes to fix properly.",
+      "relevance": "Affects customer experience when changing plans and requires cross-team coordination between product and engineering to resolve"
+    },
+    {
+      "topic": "Team changes and promotions",
+      "summary": "Multiple team changes including Prateek joining as Staff PM for The Pets Table, Troy joining as intern for AI initiatives, promotions for U03TY4YJU4X and UEZ4PRFKM, Shujath Khan leaving after 3.5 years, and U02KQF884CT joining the tribe.",
+      "relevance": "Significant team composition changes affecting project ownership and team dynamics"
+    },
+    {
+      "topic": "Performance optimization initiative",
+      "summary": "GoodChop team investigating why Select Cuts page performance degraded from 300-500ms to 600-700ms, likely due to new product cards rollout. Need to find optimization solutions without rolling back the feature.",
+      "relevance": "Impacts customer conversion and experience during critical pre-checkout flow"
+    },
+    {
+      "topic": "On-call rotation consolidation",
+      "summary": "L2 New Ventures on-call will combine with another rotation in Q4 to support all TAM-owned backend services, making incident response more streamlined.",
+      "relevance": "Changes operational support model and improves incident response capabilities"
+    },
+    {
+      "topic": "Organizational changes - Mega Alliances",
+      "summary": "Company implementing 'Mega Alliances' and Ways of Working changes. Team having AMA to discuss specific impacts on New Ventures tribe.",
+      "relevance": "Structural organizational changes that will affect how the tribe operates and collaborates"
+    }
+  ],
+  "summary": "New Ventures tribe messages covering team changes (new hires, promotions, departures), technical issues with subscription SKU updates affecting GoodChop and The Pets Table, performance optimization work, and organizational changes around on-call rotations and Mega Alliances structure."
+}

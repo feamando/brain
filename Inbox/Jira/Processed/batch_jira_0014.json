@@ -1,0 +1,785 @@
+{
+  "batch_id": "jira_0014",
+  "source": "jira",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 24,
+    "Bug": 1
+  },
+  "issues": [
+    {
+      "key": "MIO-40",
+      "summary": "RTE Systems - Ensure new team labels and comply files are linked and aggregated in DORA dashboards",
+      "description": "Ensure that the newly formed *Market Innovation and Optimization (MIO)* team labels and Comply files are correctly linked and aggregated within the *DORA dashboards*, replacing the previous RTE Systems squad (RTE Systems) details. This will help maintain accurate tracking of key performance indicators such as deployment frequency, lead time for changes, change failure rate, and mean time to recovery.\n\n*Action Items:*\n\n* Review the current DORA dashboard configuration and identify existing RTE Systems references.\n* Update team labels to reflect the MIO team across all relevant dashboards.\n* Ensure Comply files are correctly linked and aggregated within DORA metrics.\n* Validate that all key metrics are accurately displayed and aligned with the new team structure.\n* Conduct a review with stakeholders to confirm proper tracking.\n\n*Reference:*\n\n* [DORA Metrics |https://hellofresh.atlassian.net/wiki/spaces/PLAT/pages/3903685457/How+to+correctly+get+assigned+DORA+dashboard+metrics+into+your+squad]\n\n*Acceptance Criteria:*\n\n* All MIO team labels and Comply files are correctly linked and aggregated within the DORA dashboards.\n* The [DORA dashboard|https://tableau.hellofresh.io/#/views/DORAmetrics/Overview?:iid=1] display accurate metrics aligned with the new team structure.\n* Confirmation from stakeholders that the updates meet reporting requirements.",
+      "issue_type": "Task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-39",
+      "summary": "NVS - Ensure new team labels and comply files are linked and aggregated in DORA dashboards",
+      "description": "Ensure that the newly formed *Market Innovation and Optimization (MIO)* team labels and Comply files are correctly linked and aggregated within the *DORA dashboards*, replacing the previous New Ventures Systems squad (NVS) details. This will help maintain accurate tracking of key performance indicators such as deployment frequency, lead time for changes, change failure rate, and mean time to recovery.\n\n*Action Items:*\n\n* Review the current DORA dashboard configuration and identify existing NVS references.\n* Update team labels to reflect the MIO team across all relevant dashboards.\n* Ensure Comply files are correctly linked and aggregated within DORA metrics.\n* Validate that all key metrics are accurately displayed and aligned with the new team structure.\n* Conduct a review with stakeholders to confirm proper tracking.\n\n*Reference:*\n\n* [DORA Metrics |https://hellofresh.atlassian.net/wiki/spaces/PLAT/pages/3903685457/How+to+correctly+get+assigned+DORA+dashboard+metrics+into+your+squad]\n\n*Acceptance Criteria:*\n\n* All MIO team labels and Comply files are correctly linked and aggregated within the DORA dashboards.\n* The [DORA dashboard|https://tableau.hellofresh.io/#/views/DORAmetrics/Overview?:iid=1] display accurate metrics aligned with the new team structure.\n* Confirmation from stakeholders that the updates meet reporting requirements.",
+      "issue_type": "Task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-30",
+      "summary": "NVS - Update team & Claim JSON files with proper team details on applicable repos",
+      "description": "Update the *team and Claim JSON files* across applicable repositories to reflect the correct team details for the newly formed *Market Innovation & Optimization (MIO)* team, previously managed under the New Ventures Systems squad (NVS).\n\nThis task involves modifying ownership information and ensuring that all relevant repositories accurately represent the updated team structure.\n\n*Action Items:*\n\n* Review the provided payload to identify necessary updates.\n* Update team and Claim JSON files with the correct MIO team details.\n* Ensure consistency and accuracy across all applicable repositories.\n* Submit pull requests for review and approval.\n\n*Reference:*\n\n* Use the provided [PR|https://github.com/hellofresh/web/blob/master/.teams/market-launch.json] as a guideline for implementing the changes.\n\n{noformat}{\n  \"name\": \"market-innovation\",\n  \"githubTeam\": \"hellofresh/market-innovation-and-optimization\",\n  \"tribe\": \"new-ventures\",\n  \"alliance\": \"consumer-mega\",\n  \"jiraPrefix\": \"MIO\",\n  \"slackChannel\": \"#squad-market-io\",\n  \"slackAlertsChannel\": \"#mio-live-alerts\",\n  \"skipLabelsOnPR\": false\n}{noformat}\n\n*Acceptance Criteria:*\n\n* All relevant repositories have updated team and Claim JSON files.\n* PRs are submitted, reviewed, and approved.\n* Changes are validated to ensure accuracy and compliance with internal guidelines.",
+      "issue_type": "Task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Davor Juric",
+          "body": "This ticket is blocked until the github-automation changes are merged so that the CODEOWNERS files can be updated.",
+          "created": "2025-12-02"
+        },
+        {
+          "author": "Wanderley Teixeira",
+          "body": "[~accountid:557058:1b19be97-e47d-4a8d-9fab-d5ab114cf190] Sure, moving it back to backlog. ",
+          "created": "2025-12-09"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-31",
+      "summary": "RTE Systems - Update team & Claim JSON files with proper team details on applicable repos",
+      "description": "Update the *team and Claim JSON files* across applicable repositories to reflect the correct team details for the newly formed *Market Innovation & Optimization (MIO)* team, previously managed under the RTE Systems squad (RTE Systems).\n\nThis task involves modifying ownership information and ensuring that all relevant repositories accurately represent the updated team structure.\n\n*Action Items:*\n\n* Review the provided payload to identify necessary updates.\n* Update team and Claim JSON files with the correct MIO team details.\n* Ensure consistency and accuracy across all applicable repositories.\n* Submit pull requests for review and approval.\n\n*Reference:*\n\n* Use the provided [PR|https://github.com/hellofresh/web/blob/master/.teams/market-launch.json] as a guideline for implementing the changes.\n\n{noformat}{\n  \"name\": \"market-innovation-and-optimization\",\n  \"githubTeam\": \"hellofresh/market-innovation-and-optimization\",\n  \"tribe\": \"new-ventures\",\n  \"alliance\": \"consumer-mega\",\n  \"jiraPrefix\": \"MIO\",\n  \"slackChannel\": \"#squad-market-io\",\n  \"slackAlertsChannel\": \"#mio-live-alerts\",\n  \"skipLabelsOnPR\": false\n}{noformat}\n\n*Acceptance Criteria:*\n\n* All relevant repositories have updated team and Claim JSON files.\n* PRs are submitted, reviewed, and approved.\n* Changes are validated to ensure accuracy and compliance with internal guidelines.",
+      "issue_type": "Task",
+      "status": "Open",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-23",
+      "summary": "Backend services handover documentation",
+      "description": "We need to document and align with all stakeholders on the handover and/or deprecation of backend services.\n\n* Complete operational service handovers to other domains following the TRE guidelines.\n* Develop a high-level  [+New Ventures: Backend services Ownership and Future plans+|https://docs.google.com/document/d/1shgXBKw6Mfz2uRnHWvSIBnlLmDxi1f71s5SZUqlJWEk/edit?tab=t.0] outlining the deprecation of all TAM backend services.\n* Create TRE Handover Guides (e.g.,[+[RTE Manufacturing - Youfoodz] B2B Ownership TRE Handover Guide+|https://docs.google.com/document/d/1ySmlmm15SnFye3yB1Fo_TJOuRKaMIB0Nd0uoQR1zEy0/edit?tab=t.0]) by end of 2025. Attach to this ticket and create separate tasks for each.\n* *Schedule & Sync:* Finalize by Week 2–3 of 2026.\n* *Kickoff:* Begin in Week 4 of 2026, with completion targeted for Q1 2026.\n\nBackend service list:\n\n{adf:display=block}\n{\"type\":\"table\",\"attrs\":{\"isNumberColumnEnabled\":false,\"layout\":\"center\",\"localId\":\"323183c1-7583-428a-b685-b57bc23a9b78\"},\"content\":[{\"type\":\"tableRow\",\"content\":[{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Tribe\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[414]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Service\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Tier\",\"marks\":[{\"type\":\"em\"},{\"type\":\"strong\"}]}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[110]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Handover Guide\"}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[140]},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"Status\"}]}]}]},{\"type\":\"tableRow\",\"content\":[{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[48],\"rowspan\":10},\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"RTE\"}]}]},{\"type\":\"tableCell\",\"attrs\":{\"colwidth\":[4",
+      "issue_type": "Task",
+      "status": "In Progress",
+      "priority": "Normal",
+      "assignee": "Davor Juric",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-11-26",
+      "updated": "2025-12-09",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-7",
+      "parent_summary": "Handover & Deprecation - TAM BE Services",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-33",
+      "summary": "RTE Systems - Update team details in HF Inspector",
+      "description": "Update the *team details in the HF Inspector tool* to reflect the newly formed *Market Innovation & Optimization (MIO)* team, consolidating ownership previously managed by the RTE Systems squad (RTE Systems).\n\nThis task involves updating the team information within the HF Inspector tool to ensure accurate representation and proper tracking of services under the new team structure.\n\n*Action Items:*\n\n* Access the HF Inspector tool and locate existing RTE Systems team details.\n* Update the team name, ownership, and any relevant metadata to reflect the MIO team.\n* Verify that all associated services and dependencies are correctly linked to the updated team.\n* Conduct a review to ensure all changes align with organizational standards.\n\nReference [doc|https://hellodev.hellofresh.io/project/hf-inspector/docs/slack-bot/]\n\nTeam name: Market Innovation & Optimization\n\nSlack channel: #squad-market-io\n\n*Acceptance Criteria:*\n\n* HF Inspector tool reflects the correct MIO team details.\n* All relevant services and components are updated accordingly.\n* Changes are reviewed and confirmed by stakeholders.",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "2025-12-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Davor Juric",
+          "body": "Done as a part of MIO-32 ticket",
+          "created": "2025-12-09"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-32",
+      "summary": "NVS - Update team details in HF Inspector",
+      "description": "Update the *team details in the HF Inspector tool* to reflect the newly formed *Market Innovation & Optimization (MIO)* team, consolidating ownership previously managed by the New Ventures Systems squad (NVS).\n\nThis task involves updating the team information within the HF Inspector tool to ensure accurate representation and proper tracking of services under the new team structure.\n\n*Action Items:*\n\n* Access the HF Inspector tool and locate existing NVS team details.\n* Update the team name, ownership, and any relevant metadata to reflect the MIO team.\n* Verify that all associated services and dependencies are correctly linked to the updated team.\n* Conduct a review to ensure all changes align with organizational standards.\n\nReference [doc|https://hellodev.hellofresh.io/project/hf-inspector/docs/slack-bot/]\n\nTeam name: Market Innovation & Optimization\n\nSlack channel: #squad-market-io\n\n*Acceptance Criteria:*\n\n* HF Inspector tool reflects the correct MIO team details.\n* All relevant services and components are updated accordingly.\n* Changes are reviewed and confirmed by stakeholders.",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-09",
+      "resolved": "2025-12-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3356",
+      "summary": "[Checkout/Payment] Integrate useCreateOTPCartForCheckout into Payment Page (cart creation)",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIntegrate the {{useCreateOTPCartForCheckout}} hook (from GOC-3354) into the Payment page to create OTP carts during the checkout flow. This includes calling the hook, storing the cart response data for downstream order creation, and handling errors appropriately.\n\n*Background*\n\n* GOC-3354 creates a hook that wraps {{useCreateOneTimePurchaseCart}} and handles parameter gathering\n* This ticket integrates that hook into the Payment page\n* Cart data is required for:\n** Order creation API call (needs cart_uuid)\n*** Cart must be created and data preserved before order creation can happen\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\nh3. *File to Modify*\n\n* {{app/spaces/whitelabel/modules/whitelabel-web/packages/pages/checkout/src/pages/Payment.js}} \n\nh4. *Import the Cart Creation Hook*\n\n{noformat}import { useCreateOTPCartForCheckout } from './hooks/useCreateOTPCartForCheckout';\n\n// Inside Payment component (around line 282)\nconst { createOTPCart, isCreating: isCreatingCart, error: cartError } = useCreateOTPCartForCheckout();{noformat}\n\nh4. *2. Use Hook in OTP Checkout Flow*\n\nThe hook will be called from {{handleOTPCheckoutSubmit}} (created in separate ticket):\n\n{noformat}// This function will be created in a separate ticket\nconst handleOTPCheckoutSubmit = async () => {\n  const paymentSpan = tracer.startSpan('payment.otp-checkout');\n  const checkoutSpan = tracer.startSpan('checkout.otp-checkout');\n  \n  try {\n    // ✅ Call the hook from GOC-3354\n    const cartResponse = await createOTPCart();\n    \n    console.log('[OTP] Cart created:', {\n      cartId: cartResponse.cart_uuid,\n      itemCount: cartResponse.items?.length,\n      total: cartResponse.total,\n    });\n    \n    // TODO: Order creation will be added in GOC-3360\n    \n  } catch (error) {\n    console.error('[OTP] Cart creation failed:', error);\n    onCheckoutError(error, paymentSpan, checkoutSpan, null);\n  } finally {\n    paymentSpan.end();\n    checkoutSpan.end();\n  }\n};{nofor",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2025-12-09",
+      "resolved": "2025-12-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "Flag : Make sure we create one cartID per session",
+          "created": "2025-11-18"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "GOC-3357",
+          "summary": "[Checkout/Payment] Skip PCS Call for OTP Products"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3354",
+          "summary": "[Checkout/Payment] Create Hook useCreateOTPCartForCheckout hook"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3360",
+          "summary": "[Checkout/Payment] Integrate OTP Order Creation in Payment Page - Iteration 1"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-3396",
+          "summary": "[Checkout/Payment] Create and wire handleOTPCheckoutSubmit function"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3396",
+      "summary": "[Checkout/Payment] Create and wire handleOTPCheckoutSubmit function",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate the {{handleOTPCheckoutSubmit}} function that triggers the OTP (One-Time Purchase) checkout flow from the Payment page. This function will detect OTP carts, extract payment details, create OTP carts/orders, and handle the checkout flow separately from the subscription checkout path.\n\n*Background*\n\n* Current Payment.js only handles subscription checkout via {{handleCheckoutSubmit}}\n* OTP checkout requires a different flow:\n** Cart creation (if not already created)\n** Order creation (different API endpoint)\n** Different payload structure\n** Same or similar success/error handling patterns\n*** Should try to reuse existing success/error handlers for consistency\n* Must integrate with existing payment processor and form validation\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\nh3. *File to Modify*\n\n* {{app/spaces/whitelabel/modules/whitelabel-web/packages/pages/checkout/src/pages/Payment.js}}\n\nh3. *Implementation Steps*\n\nh4. *1. Detect OTP Cart*\n\nCreate a helper to detect if the current cart is OTP:\n\n{noformat}import { useHasOTPInCart } from '@/whitelabel-pages/funnel/src/modules/pages/plans/PlansMonthlySubscription/experiments/one_time_purchase_mvp/hooks/useHasOTPInCart';\n\n// Inside Payment component\nconst hasOTPInCart = useHasOTPInCart();{noformat}\n\nh4. *2. Import Required Hooks*\n\n{noformat}import { useCreateOTPOrderForCheckout } from './hooks/useCreateOTPOrderForCheckout';\nimport { useCreateOTPCart } from '@/data-access/one-time-purchase'; // or wherever cart creation lives\nimport { useClientTracer } from '@/libs/tracing';{noformat}\n\nh4. *3. Initialize Hooks in Component*\n\n{noformat}// Inside Payment component\nconst { createOTPOrder, isCreating: isCreatingOrder } = useCreateOTPOrderForCheckout();\nconst { mutateAsync: createOTPCart, isLoading: isCreatingCart } = useCreateOTPCart();\nconst tracer = useClientTracer();{noformat}\n\nh4. *4. Create* {{handleOTPCheckoutSubmit}} *Function*\n\n{noformat}const handleOTPCheckoutSubmit ",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-24",
+      "updated": "2025-12-09",
+      "resolved": "2025-12-09",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Beatrice Dimarucut",
+          "body": "Link to ticket to clean up removing FF for UPM vs legacy payment step - do before this ticket",
+          "created": "2025-11-27"
+        }
+      ],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3356",
+          "summary": "[Checkout/Payment] Integrate useCreateOTPCartForCheckout into Payment Page (cart creation)"
+        },
+        {
+          "type": "is blocked by",
+          "key": "GOC-2140",
+          "summary": "[Cleanup] Unified Payments - Remove Feature Flag"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "MIO-27",
+      "summary": "[Monitoring] Honeycomb Monitoring Dashboard for Redirection Logic from Legacy FactorForm",
+      "description": "{panel:bgColor=#deebff}\n*User Story*\n\nAs the engineering team, we want to build a monitoring dashboard in HC so that we can actively track the performance, success rate, and failure rate of the new user segmentation and redirection logic implemented on the Legacy Factorform website ({{factor75.com/factorform}}) immediately after launch.\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Acceptance Criteria*\n\n# *Total Checks:* The dashboard must display a metric tracking the Total redirect checks triggered\n# *Successful Redirects :* The dashboard must display the Percentage of successful redirects (i.e., the percentage of unregistered users on legacy FactorForm correctly sent to Shopify FactorForm)\n# *Successful No-Redirects:* The dashboard must display the Successful no-redirects metric (i.e., the percentage of registered users on legacy FactorForm correctly *not* directed to Shopify FactorForm)\n# *API Failures:* The dashboard must display a metric tracking API failures (where the email validation endpoint fails to return either registered or unregistered status)\n# *Dashboard Creation:* A new board must be created in Honeycomb specifically for monitoring the Legacy website redirection metrics mentioned above.\n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Ameek Singh",
+      "created": "2025-12-01",
+      "updated": "2025-12-08",
+      "resolved": "2025-12-08",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Ameek Singh",
+          "body": "PR with the traces is now merged and we can access the dashboard here: https://ui.honeycomb.io/hellofresh/board/yXsRYfxU2ye#fgmiVWbfRc9",
+          "created": "2025-12-08"
+        }
+      ],
+      "links": [
+        {
+          "type": "is blocked by",
+          "key": "MIO-20",
+          "summary": "[Local storage only] Add redirect for customers not in legacy factorform to shopify dev site for fac"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-17",
+      "summary": "Investigate and document service customer-management-service capabilities",
+      "description": "Investigate service customer-management-service to help in migration and create a document outlining the existing capabilities based on the requirements",
+      "issue_type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Liman Labaran",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-11-18",
+      "updated": "2025-12-08",
+      "resolved": "2025-12-08",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Wanderley Teixeira",
+          "body": "https://hellofresh.atlassian.net/browse/MIO-19",
+          "created": "2025-12-08"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3417",
+      "summary": "Quarantine System: checkoutWithOrderConfirmation.spec.ts",
+      "description": "Quarantined System\nSpec: checkoutWithOrderConfirmation.spec.ts\nhttps://github.com/hellofresh/web/pull/61496\n153 test runs, 23 test failures, 6 test retries, 85.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/61496 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #good-chop-alerts or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Romina Nicastro",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2025-12-08",
+      "updated": "2025-12-08",
+      "resolved": "2025-12-08",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3330",
+      "summary": "Saving meals/addons throwing errors when multiple free cuts",
+      "description": "We are having some errors when saving meals and add-ons and those requests have with more than 1 free cut per category.\nAbout the last Add-ons and Mealswap errors, I started a thread with cart foundation\n\n[https://hellofresh.slack.com/archives/C049H9UE22X/p1761907342389579|https://hellofresh.slack.com/archives/C049H9UE22X/p1761907342389579]\nand I will create a bug for our team to investigate why we're sending two free cuts when saving meals/addons\n\nMore Grafana examples:\n\n[https://prdhellofresh.grafana.net/goto/df2pcp4ryckcga?orgId=1|https://prdhellofresh.grafana.net/goto/df2pcp4ryckcga?orgId=1]\n\n[https://prdhellofresh.grafana.net/goto/cf2pb71fhaq68e?orgId=1|https://prdhellofresh.grafana.net/goto/cf2pb71fhaq68e?orgId=1]\n\n\n\nSlack thread with cart foundation team about max units type: [https://hellofresh.slack.com/archives/C049H9UE22X/p1761907342389579|https://hellofresh.slack.com/archives/C049H9UE22X/p1761907342389579|smart-link] \n\n\n\n_Issue created in Slack from a_ [_message_|https://hellofresh.slack.com/archives/C01UK69PSH5/p1761907435394509?thread_ts=1761872421.817469&cid=C01UK69PSH5]_._",
+      "issue_type": "Bug",
+      "status": "Backlog",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Pamela Elisabeth Plúas Guerra",
+      "created": "2025-10-31",
+      "updated": "2025-12-08",
+      "resolved": "",
+      "labels": [],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "relates to",
+          "key": "TPT-2310",
+          "summary": "Fix failing carts request"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3391",
+      "summary": "Quarantine System: checkoutWithPaymentFreeCutsPopup.spec.ts",
+      "description": "Quarantined System\nSpec: checkoutWithPaymentFreeCutsPopup.spec.ts\nhttps://github.com/hellofresh/web/pull/60905\n316 test runs, 41 test failures, 125 test retries, 87.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/60905 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #good-chop-alerts or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Madeeha Hasan",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2025-11-24",
+      "updated": "2025-12-08",
+      "resolved": "2025-12-08",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "Looking at the error messages returned from this [query|https://ui.honeycomb.io/hellofresh/datasets/gha-cypress-metrics/result/FQsM5nYA8Uk?tab=overview], it looks like we have two main issues,\n\n# *Order creation returning 500, expected 200* → need to check with orders-processing-service\nlogs if the service was indeed returning 500 for the requests from the tests\n#  *Your test is taking too long, exceeded test file duration of 300000ms* → Need to restructure the test possibly? \n\n",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Himash Tehan",
+          "body": "Ticket created for refactoring this test [https://hellofresh.atlassian.net/browse/GOC-3411|https://hellofresh.atlassian.net/browse/GOC-3411|smart-link] ",
+          "created": "2025-12-01"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3392",
+      "summary": "Quarantine System: checkoutWithAddOnForLife.spec.ts",
+      "description": "Quarantined System\nSpec: checkoutWithAddOnForLife.spec.ts\nhttps://github.com/hellofresh/web/pull/60921\n158 test runs, 21 test failures, 56 test retries, 87.00% test success rate\n\nQuarantine System is a system that is used to prevent flaky tests from being executed. It is designed to be used in conjunction with the following best practices:\n- Test data is not deterministic: Avoid relying solely on random values for testing. Instead, consider using deterministic test data that consistently align with the expected outcomes. This approach ensures more predictable and reliable test results.\n- DOM Selector Reliability: Pay attention to the reliability of DOM selectors used in tests. Duplicate selectors or selectors that appear after a delay can lead to flaky tests. Aim to use unique and stable selectors to ensure consistent test behavior.\n- Test Execution Time: Avoid making assumptions about specific times in tests. Test scenarios should be designed to handle different time frames and dynamically adapt to the current date/time. This approach increases the flexibility and resilience of the tests.\n- Following the Cypress best practices https://docs.cypress.io/guides/references/best-practices\n\nYou can use the https://github.com/hellofresh/web/pull/60921 to revert the changes and add your fixes to the spec.\n\nFind more information about the quarantined system here: https://hellofresh.atlassian.net/wiki/spaces/FI/pages/3949987114/Reduce+the+flakiness+for+web+tests\n\nYou can also reach out to the team at #good-chop-alerts or #squad-web-foundation s to discuss the quarantined system.",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Urgent",
+      "assignee": "Himash Tehan",
+      "reporter": "Atlassian Bots - Squad Frontend Infra",
+      "created": "2025-11-24",
+      "updated": "2025-12-08",
+      "resolved": "2025-12-08",
+      "labels": [
+        "quarantine",
+        "web"
+      ],
+      "components": [],
+      "parent_key": null,
+      "parent_summary": null,
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "MIO-41",
+      "summary": "Onboard Sneha ",
+      "description": "Onboard Sneha and validate initial mobile estimates for iOS and Android. ",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Wanderley Teixeira",
+      "created": "2025-12-02",
+      "updated": "2025-12-05",
+      "resolved": "2025-12-05",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-42",
+      "summary": "Klaviyo - Update DNS records for emails",
+      "description": "To support *Klaviyo* set up, we need to add a new record in our DNS zone file for each type. \n\n{{NS | hi |  ns1.klaviyo.com}}\n\n{{NS | hi | ns2.klaviyo.com}}\n\n{{NS | hi | ns3.klaviyo.com}}\n\n{{NS | hi | ns4.klaviyo.com}}\n\n{{TXT | @ | klaviyo-site-verification=UkJRq9}}\n\n!Screenshot 2025-12-02 at 3.44.41 PM.png|width=1970,height=1354,alt=\"Screenshot 2025-12-02 at 3.44.41 PM.png\"!\n\n\n\nPlease reach out to @Tyler Epidy or [~accountid:5bb75b00e441cd77203a981e] / [~accountid:6123c41746c815007004b822] for additional support / questions, if needed, \n\nFor reference: [https://help.klaviyo.com/hc/en-us/articles/115000357752|https://help.klaviyo.com/hc/en-us/articles/115000357752|smart-link] ",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Wanderley Teixeira",
+      "reporter": "Alison Ryan",
+      "created": "2025-12-03",
+      "updated": "2025-12-05",
+      "resolved": "2025-12-05",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "clones",
+          "key": "MIO-18",
+          "summary": "Authenticate custom domain for emails - Shopify Factor Form"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-44",
+      "summary": "[Improvements] Prototype a new flow for the change email step of the two step login",
+      "description": "{panel:bgColor=#eae6ff}\n*User Story*\n\nThe current existing change email journey in the two step flow was found to be a bit unexpected, since the user was transitioned back to step 1 on clicking the email input in step 2.\nAs part of this ticket, we’d like to come with alternative approaches for this user journey in collaboration with design.\n\nCurrent approach:\n\n!two-step-login-email-change.mov|width=4090,height=2304,alt=\"two-step-login-email-change.mov\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*Success Criteria*\n\n* Create an alternative change email flow \n* Decide on which of the two (current and new) we prefer\n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Ameek Singh",
+      "reporter": "Ameek Singh",
+      "created": "2025-12-04",
+      "updated": "2025-12-05",
+      "resolved": "2025-12-05",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Ameek Singh",
+          "body": "Two flows were created and shared for review here: https://hellofresh.slack.com/archives/C09NFRM8V6E/p1764878737585639 \r\nThe current flow was preferred, therefore this ticket is marked as complete.",
+          "created": "2025-12-05"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "MIO-43",
+      "summary": "Add Statsig feature flag for GreenChef migration",
+      "description": "{panel:bgColor=#e3fcef}\nCreate Statsig team “Market Innovation” and feature gate for GreenChef NL migration.\n{panel}\n\n{panel:bgColor=#deebff}\nTeam: [https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/settings/teams/4tB6ARTSB61Kzj1tg6yDxm|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/settings/teams/4tB6ARTSB61Kzj1tg6yDxm|smart-link] \nFeature Gate: [https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/greenchef_nl_migration?newGate=true|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/gates/greenchef_nl_migration?newGate=true|smart-link] \n{panel}",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Sneha Gupta",
+      "reporter": "Sneha Gupta",
+      "created": "2025-12-04",
+      "updated": "2025-12-05",
+      "resolved": "2025-12-05",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-1",
+      "parent_summary": "Benelux Premium Pricing",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3388",
+      "summary": "[SubscriptionLoading] Create useOrderConfirmationData hook",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate a UI hook {{useOrderConfirmationData}} that wraps the existing useCustomerOneTimeOrder data-access [hook|https://github.com/hellofresh/web/blob/master/app/data-access/customer-orders/one-time-orders.ts#L117] with UI-specific logic for the subscription-loading/order-confirmation flow.\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n*Hook Name:* {{useOrderConfirmationData}}\n\n*Location:* {{app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/pages/loading-subscription-content/order-confirmation/hooks/useOneTimeOrderConfirmationData.ts}}\n\n*Hook Responsibilities:*\n\n* Extract {{orderId}} from URL query parameters or localStorage\n* Call {{useCustomerOneTimeOrder}} with required params\n* Transform response into UI-ready format\n\nAPI Doc [https://reactivation-bff.staging-k8s.hellofresh.io/docs/#/OneTimeOrders/one-time-order-by-id|https://reactivation-bff.staging-k8s.hellofresh.io/docs/#/OneTimeOrders/one-time-order-by-id]\n*Request to /one-time-order/{id)*\n\n{code:json}//Path Parameters\n\"orderId\": 019a9e13-099a-70c2-8229-1ae4e7d19358 (UUID format)\n\n//Query Parameters\n\"locale\": \"en-US\" //set by default\n\"country\": \"US\" //set by default\n\"brand\": \"goodchop\" {code}\n\n*Hook Structure*\nThe {{useOneTimeOrderConfirmationData}} hook returns a UI-optimized object with:\n\n* *Core Data (ready to display):*\n** {{recipes}} - Flat array of transformed recipes with images, names & quantities\n** {{deliveryDate}} - ISO date string for delivery\n** {{orderId}} - The order identifier\n** {{price}} - price information including item_total_price, shipping _price &_ grand_total\n* *Additional Info:*\n** {{deliveryAddress}} - City, street, and postcode\n* *State Flags:*\n** {{isLoading}} - True while fetching data\n** {{isError}} - True if any API call failed\n** {{isEmpty}} - True when no recipes (after loading)\n** {{hasOrderId}} - True when orderId is available\n** {{error}} - Error object for debugging\n{panel}\n\n{panel:bg",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Nvard Yeritsyan",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-20",
+      "updated": "2025-12-05",
+      "resolved": "2025-12-05",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Himash Tehan",
+          "body": "[~accountid:712020:e005e0a8-ae39-48bb-a368-97337c08fa0f] lets do the recipe transformation as a subtask for this ticket since we are blocked by this backend [ticket|https://hellofresh.atlassian.net/browse/XSELL-419?atlOrigin=eyJpIjoiMDQzZTI4MDIzNzcwNDcxNzg2MWRiMTkwYTczMjUxMGYiLCJwIjoiamlyYS1zbGFjay1pbnQifQ]. We can work on the rest of the data transformation in this ticket.",
+          "created": "2025-11-28"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3408",
+      "summary": "[Reactivation] Migrate premium shipping",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nThe PlanSummary component uses Redux selector to get premium shipping price from the [selectSubscriptionDeliveryOptionPrice|https://github.com/hellofresh/web/blob/90ad3fc2e067feaaaaf9ec0db39f35b64af16c77/app/spaces/whitelabel/modules/whitelabel-web/packages/libraries/store/src/customer/subscription/index.js] \n\nWe need to migrate the component to consume pricing information from [POST /reactivations/checkout/price|https://hellodev.hellofresh.io/project/price-service/api#/default/post_reactivations_checkout_price] API endpoint ([useCalculatedReactivationPrices|https://github.com/hellofresh/web/blob/master/app/data-access/calculate-reactivation/calculateReactivationPrices.ts]).\n{panel}\n\n||*Location*||*Page*||*UI*||*Component*||\n|Reactivate (Order Summary)|/settings/plan/reactivate|!image-20251201-101210.png|width=954,height=666,alt=\"image-20251201-101210.png\"!|[CartSummary|https://github.com/hellofresh/web/blob/master/app/spaces/whitelabel/modules/whitelabel-web/packages/components/plan-summary/src/CartSummary/index.js]|\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* The Plan Pricing on Plan Reactivation page (Order Summary) is consumed from {{POST /reactivations/checkout/price}} API endpoint.\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Pamela Elisabeth Plúas Guerra",
+      "reporter": "Pamela Elisabeth Plúas Guerra",
+      "created": "2025-12-01",
+      "updated": "2025-12-04",
+      "resolved": "2025-12-04",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3270",
+      "parent_summary": "Price Deprecation from products-service",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "{noformat}🛒 useGetProspectPrices: /calculate/prospect/batch (GET) → price-service\n🔄 useGetReactivationPrices: /reactivations/checkout/price (POST) → price-service\n🛍️ useGetPriceFromCart: /v1/carts/{weekId}/price (POST) → mss-cart-service\n📐 useGetPriceFromCalculate: /calculate (POST) → price-service\n✨ useGetActivationsCheckoutPrices: /activations/checkout/price (POST) → price-service{noformat}",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "{noformat}1️⃣ /app/spaces/whitelabel/modules/whitelabel-web/packages/pages/pet-food-checkout/components/Summary/index.tsx\nWhat to change: Lines 86-93 - Destructure shipping object instead of flat properties\n2️⃣ /app/spaces/whitelabel/modules/whitelabel-web/packages/components/my-deliveries-components/src/pages/loading-subscription-content/order-confirmation/OrderBreakdown.tsx\nWhat to change: Lines 94-102 - Destructure shipping object instead of flat properties\n3️⃣ /app/spaces/whitelabel/modules/",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Pamela Elisabeth Plúas Guerra",
+          "body": "Tested on live w/ Good Chop, everything looks good",
+          "created": "2025-12-04"
+        }
+      ],
+      "links": [
+        {
+          "type": "clones",
+          "key": "GOC-3295",
+          "summary": "[Reactivation] Migrate CartSummary component"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "MIO-18",
+      "summary": "Authenticate custom domain for emails - Shopify Factor Form",
+      "description": "To support task {{Authenticate your custom domain for emails (Failed payment Recovery, etc).}}  from Recharge GuideCX, we need to complete steps outlined [https://support.getrecharge.com/hc/en-us/articles/20715935090199-Authenticating-your-custom-domain-in-Recharge#h_01HMHRV9NFZ2GJMQ2W67Y5C0Y0|https://support.getrecharge.com/hc/en-us/articles/20715935090199-Authenticating-your-custom-domain-in-Recharge#h_01HMHRV9NFZ2GJMQ2W67Y5C0Y0|smart-link]. Specifically, we need support with #4 and #5.\n\n!Screenshot 2025-11-24 at 3.39.49 PM.png|width=988,height=151,alt=\"Screenshot 2025-11-24 at 3.39.49 PM.png\"!\n\nHost {{rec._domainkey.factorform.com}} | Value {{rec.domainkey.u57429299.wl050.sendgrid.net}}\nHost {{rec2._domainkey.factorform.com}} | Value{{rec2.domainkey.u57429299.wl050.sendgrid.net}}\nHost {{em6495.factorform.com}} | Value {{u57429299.wl050.sendgrid.net}}\n\nPlease reach out to [~accountid:5bb75b00e441cd77203a981e]  or [~accountid:6123c41746c815007004b822] for additional support / questions, if needed, ",
+      "issue_type": "Task",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assignee": "Elena Pavlova",
+      "reporter": "Alison Ryan",
+      "created": "2025-11-24",
+      "updated": "2025-12-03",
+      "resolved": "2025-11-26",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-13",
+      "parent_summary": "Shopify | Factor Form",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Elena Pavlova",
+          "body": "{noformat}> dig +short CNAME rec._domainkey.factorform.com\nrec.domainkey.u57429299.wl050.sendgrid.net.\n\n> dig +short CNAME rec2._domainkey.factorform.com\nrec2.domainkey.u57429299.wl050.sendgrid.net.\n\n> dig +short CNAME em6495.factorform.com\nu57429299.wl050.sendgrid.net.{noformat}",
+          "created": "2025-11-26"
+        }
+      ],
+      "links": [
+        {
+          "type": "is cloned by",
+          "key": "MIO-42",
+          "summary": "Klaviyo - Update DNS records for emails"
+        }
+      ],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    },
+    {
+      "key": "GOC-3354",
+      "summary": "[Checkout/Payment] Create Hook useCreateOTPCartForCheckout hook",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nCreate an OTP checkout specific hook {{useCreateOTPCartForCheckout}} that wraps the {{useCreateOneTimePurchaseCart}} data-access [hook|https://github.com/hellofresh/web/blob/master/app/data-access/one-time-purchase/create-one-time-purchase-cart.tsx]. \nThis hook will gather all required parameters from Redux state and localStorage, transform them into the correct format, and provide a simple interface for the Payment page to create OTP carts during checkout.\n\n*Background:*\n\n* OTP (One-Time Purchase) products require cart creation via a different endpoint than subscription products\n* The OTP cart creation requires specific parameters: product handle, delivery date/option, and product selections\n* These parameters are scattered across Redux state, localStorage, and custom hooks\n* This hook centralizes the logic to make Payment.js integration clean and simple\n{panel}\n\n{panel:bgColor=#eae6ff}\n*Technical Notes*\n\n* *Transformed Payload to /v2/cart:*\n{code:json}otp: {\n    productHandle: \"MR-OTP1-6-1-0\",\n    delivery: {\n      optionHandle: \"MR-4-0800-1000-8WEEKLY\",\n      date: \"2025-11-20T12:00:00-0600\"\n    },\n    customerSelection: [\n      { index: 0, quantity: 2 },\n      { index: 1, quantity: 1 },\n      { index: 2, quantity: 3 }\n    ]\n  }{code}\n* *Example Hook Structure:*\n** Reference {{useSavePreCheckoutProducts.ts}} for parameter gathering patterns\n** Reference {{useCreateOTPCart.ts}} in {{app/spaces/one-time-purchase}} for similar implementation\n** Use {{countMealSelectionOccurrences}} utility if needed from {{savePrecheckoutSelectionUtils.ts}}\n** {noformat}export const useCreateOTPCartForCheckout = () => {\n  const { pcsSelectedSku: selectedPlanHandle } = useFunnelSelectedSku();\n  const firstDeliveryDate = useSelector(selectDeliveryFormFirstDelivery);\n  const deliveryFormData = useSelector(selectDeliveryFormData);\n  const [selectedProductIndexes] = useLocalStorage('persist-selection-order');\n  const { mutateAsync } = useCreateOneTi",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Normal",
+      "assignee": "Romina Nicastro",
+      "reporter": "Himash Tehan",
+      "created": "2025-11-17",
+      "updated": "2025-12-03",
+      "resolved": "2025-12-03",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3177",
+      "parent_summary": "[MVP] One Time Purchase - Funnel",
+      "story_points": null,
+      "sprint": null,
+      "comments": [],
+      "links": [
+        {
+          "type": "blocks",
+          "key": "GOC-3355",
+          "summary": "[Checkout/Payment] Add Tracing to useCreateOTPCartForCheckout Hook"
+        },
+        {
+          "type": "blocks",
+          "key": "GOC-3356",
+          "summary": "[Checkout/Payment] Integrate useCreateOTPCartForCheckout into Payment Page (cart creation)"
+        }
+      ],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "GOC-3407",
+      "summary": "Hide the payment banner for the C@C flow",
+      "description": "{panel:bgColor=#deebff}\n*Description*\n\nIf a customer has been allocated to the [C@C experiment|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_one_time_purchase_mvp/setup] variation, we need to hide the payment on the {{checkout/payment}} banner.\n\n!image-20251126-153518.png|width=1246,height=278,alt=\"image-20251126-153518.png\"!\n{panel}\n\n{panel:bgColor=#e3fcef}\n*AC*\n\n* If a customer has been allocated to the [C@C experiment|https://console.statsig.com/VNhnT1dlnFGbNlAloFMfp/experiments/mr_one_time_purchase_mvp/setup] variation, the payment banner is hidden.\n* For BAU the banner is still shown\n{panel}",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Alexander Matlin",
+      "reporter": "Alexander Matlin",
+      "created": "2025-11-26",
+      "updated": "2025-12-03",
+      "resolved": "2025-12-03",
+      "labels": [],
+      "components": [],
+      "parent_key": "GOC-3317",
+      "parent_summary": "Charge at Checkout",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Alexander Matlin",
+          "body": "h2. Clarifying Questions for Implementation Planning\n\nBased on analysis of the codebase and the ticket requirements, I have the following questions:\n\n*1. Which experiment determines banner visibility?*\nThe ticket references the {{mr_one_time_purchase_mvp}} Statsig experiment. I found two related experiments in the codebase:\n\n* {{mr_one_time_purchase_mvp}} (used in plans flow, returns {{isControl}} boolean)\n* {{mr_charge_at_checkout}} (used in payment page, returns {{shouldPerformCharge}})\n\nWhich",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "# {{mr_charge_at_checkout}} (used in payment page, returns {{shouldPerformCharge}})\n# Not sure. Please check which component is used on the Good Chop (MR) {{/checkout/payment}} page\n!CleanShot 2025-12-01 at 11.56.45-20251201-105658.png|width=1119,height=897,alt=\"CleanShot 2025-12-01 at 11.56.45-20251201-105658.png\"!\n# This condition doesn’t control the visibility of the target payment banner. Find a correct way to control it.\n# Use {{useShouldChargeAtCheckout}} hook and check if {{shouldPerformC",
+          "created": "2025-12-01"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "h1. Implementation Specification: Hide PaymentAnxietyBanner for C@C Flow\n\nh2. Goal\n\nHide the {{PaymentAnxietyBanner}} component on the {{/checkout/payment}} page when a customer is allocated to the Charge at Checkout (C@C) experiment variation. This is a temporary experiment that may need to be rolled back.\n\nh2. User Stories\n\n* As a customer in the C@C experiment variation, I should not see the payment anxiety banner on the checkout payment page\n* As a customer in the control group (BAU), I shou",
+          "created": "2025-12-03"
+        },
+        {
+          "author": "Alexander Matlin",
+          "body": "[~accountid:557058:d918bd93-27de-427e-8f73-9426e22ecdfb] Feedback for spec-machine:\n\n* AI Agent didn’t sespect module boundaries - {{unified-spaces}} cannot import from {{whitelabel-web}}\n* Not all tests have been updated/fixed during the implementation - had to catch failed tests in  GitHub Actions and ask Claude Code to fix them (2-3 iterations)",
+          "created": "2025-12-03"
+        }
+      ],
+      "links": [],
+      "project_key": "GOC",
+      "squad_name": "Good Chop"
+    },
+    {
+      "key": "MIO-36",
+      "summary": "NVS - Update Sentry teams & Alerts",
+      "description": "Update the *Sentry teams and alert configurations* to reflect the newly formed *Market Innovation and Optimization (MIO)* team, replacing the previous New Ventures Systems squad (NVS) ownership.\n\nThis task involves modifying Sentry settings to ensure that all error tracking, alerts, and team assignments are correctly aligned with the MIO team structure.\n\n*Action Items:*\n\n* Review current Sentry team configurations and alert rules.\n* Update ownership details to assign MIO as the responsible team.\n* Ensure alert routing and notification settings reflect the new team structure.\n* Validate changes by triggering test alerts where applicable.\n* Document any updates made for future reference.\n\n*Acceptance Criteria:*\n\n* Sentry reflects the updated MIO team ownership.\n* Alerts and notifications are correctly routed to the appropriate MIO channels.\n* Changes are tested and verified for accuracy.",
+      "issue_type": "Task",
+      "status": "Closed",
+      "priority": "Normal",
+      "assignee": "Unassigned",
+      "reporter": "Davor Juric",
+      "created": "2025-12-02",
+      "updated": "2025-12-02",
+      "resolved": "2025-12-02",
+      "labels": [],
+      "components": [],
+      "parent_key": "MIO-14",
+      "parent_summary": "MIO Reteaming transition (Restructuring Tasks)",
+      "story_points": null,
+      "sprint": null,
+      "comments": [
+        {
+          "author": "Davor Juric",
+          "body": "Duplicate off MIO-35 ticket",
+          "created": "2025-12-02"
+        }
+      ],
+      "links": [],
+      "project_key": "MIO",
+      "squad_name": "Market Innovation"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-12-02",
+    "newest": "2025-12-09"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "batch_id": "jira_0001",
+  "issue_count": 25,
+  "issue_types": {
+    "Epic": 1,
+    "Task": 20,
+    "Story": 2,
+    "Bug": 2
+  },
+  "date_range": {
+    "oldest": "2025-12-30",
+    "newest": "2026-01-02"
+  },
+  "analyzed_at": "2026-01-02T18:05:27.182552",
+  "summary": "The work spans three major initiatives: Benelux Premium Pricing migration (moving 6,000 Green Chef NL customers to HelloFresh Premium), One-Time Purchase (OTP) implementation for Factor with checkout and order history features, and The Pet Table portion percentage experiment with funnel and feeding guide updates. Multiple teams are working on web, iOS, and backend components with several UAT issues being resolved.",
+  "decisions": [
+    {
+      "what": "Move graduation banner work to Won't Do status",
+      "issue_key": "GOC-3229",
+      "who": [
+        "Beatrice Dimarucut",
+        "Himash Tehan"
+      ],
+      "rationale": "Deactivated state no longer exists for OTP users, making the banner unnecessary",
+      "date": "2025"
+    },
+    {
+      "what": "Reuse isFirstTimeExposure logic from allergens experiment for portion percentage experiment",
+      "issue_key": "TPT-2433",
+      "who": [
+        "Guhan Sundararajan"
+      ],
+      "rationale": "Statsig experiment setup with publicID has allocation issues out of the box",
+      "date": "2025"
+    },
+    {
+      "what": "Hide payment reassurance banner for OTP variation",
+      "issue_key": "GOC-3431",
+      "who": [],
+      "rationale": "All OTP orders go through Charge at Checkout, making the 'You won't get charged before...' message irrelevant",
+      "date": "2025"
+    },
+    {
+      "what": "Timebox investigation to 2 hours before escalating to plans squad",
+      "issue_key": "RTEVMS-2245",
+      "who": [
+        "Emily Mendelson"
+      ],
+      "rationale": "Internal Service Error needs quick triage to determine ownership",
+      "date": "2025"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Benelux Premium Pricing (MIO-1)",
+      "description": "Phase 1 (M0) focuses on migrating approximately 6,000 active Green Chef Netherlands customers to HelloFresh NL Premium tier due to Green Chef's closure, including plan switching, dynamic pricing, and deprecation notices",
+      "status": "active",
+      "key_issues": [
+        "MIO-1",
+        "MIO-64",
+        "MIO-63",
+        "MIO-62",
+        "MIO-56",
+        "MIO-51",
+        "MIO-49",
+        "MIO-46"
+      ]
+    },
+    {
+      "name": "One-Time Purchase (OTP) for Factor",
+      "description": "Implementing OTP functionality including checkout flow, cart creation, order history display, pricing updates, and SNS/OTP discount handling",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-1323",
+        "RTEVMS-2312",
+        "RTEVMS-2415",
+        "RTEVMS-2420",
+        "RTEVMS-2422",
+        "GOC-3431",
+        "GOC-3355"
+      ]
+    },
+    {
+      "name": "The Pet Table Portion Percentage Experiment (TPT-2175)",
+      "description": "Implementing portion percentage experiment across funnel, plans selection, and feeding guides with proper allocation handling and default selections",
+      "status": "active",
+      "key_issues": [
+        "TPT-2175",
+        "TPT-2532",
+        "TPT-2433",
+        "TPT-2524",
+        "TPT-2519",
+        "TPT-2403"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Internal Service Error in vms-place-order trace occurring since Aug 30",
+      "issue_key": "RTEVMS-2245",
+      "owner": "Emily Mendelson",
+      "impact": "Order placement failures, escalated to plans squad"
+    },
+    {
+      "description": "Plan size does not correctly update in Plan Settings after modification",
+      "issue_key": "GOC-3416",
+      "owner": "Unassigned",
+      "impact": "Dashboard and meal selection show old plan despite success banner, subscription modified but not reflected"
+    },
+    {
+      "description": "Waiting for updated feeding guide files from Jasmine and Anisha",
+      "issue_key": "TPT-2403",
+      "owner": "Mateusz Borowiak",
+      "impact": "Cannot update PDF feeding guides to include portion percentage until files are ready"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Green Chef NL",
+      "type": "brand",
+      "context": "Being sunset and migrated to HelloFresh NL Premium, approximately 6,000 active customers affected",
+      "issues": [
+        "MIO-1",
+        "MIO-56",
+        "MIO-51",
+        "MIO-49",
+        "MIO-46"
+      ]
+    },
+    {
+      "name": "HelloFresh NL",
+      "type": "brand",
+      "context": "Target brand for Green Chef migration with Premium tier offering",
+      "issues": [
+        "MIO-1",
+        "MIO-64",
+        "MIO-63",
+        "MIO-62"
+      ]
+    },
+    {
+      "name": "Factor",
+      "type": "brand",
+      "context": "Implementing OTP (One-Time Purchase) functionality for non-subscription orders",
+      "issues": [
+        "RTEVMS-1323",
+        "RTEVMS-2312",
+        "RTEVMS-2415",
+        "RTEVMS-2420",
+        "RTEVMS-2422"
+      ]
+    },
+    {
+      "name": "The Pet Table",
+      "type": "brand",
+      "context": "Pet food service implementing portion percentage experiment and feeding guide updates",
+      "issues": [
+        "TPT-2175",
+        "TPT-2532",
+        "TPT-2433",
+        "TPT-2524",
+        "TPT-2519",
+        "TPT-2403",
+        "TPT-2217",
+        "TPT-2410"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Experimentation platform used for feature flags and A/B testing, has allocation issues with publicID setup",
+      "issues": [
+        "MIO-51",
+        "TPT-2433",
+        "TPT-2532"
+      ]
+    },
+    {
+      "name": "squad-plans",
+      "type": "squad",
+      "context": "Team responsible for plan-related functionality, escalation point for service errors",
+      "issues": [
+        "RTEVMS-2245",
+        "GOC-3416"
+      ]
+    },
+    {
+      "name": "Philip Tauro",
+      "type": "person",
+      "context": "Working on Premium Upgrade Benefits Modal with dynamic data",
+      "issues": [
+        "MIO-64"
+      ]
+    },
+    {
+      "name": "Ameek Singh",
+      "type": "person",
+      "context": "Assigned to multiple iOS and Web tasks for Benelux Premium Pricing",
+      "issues": [
+        "MIO-63",
+        "MIO-56",
+        "MIO-51",
+        "MIO-62"
+      ]
+    },
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Working on multiple OTP UAT issues and investigating service errors",
+      "issues": [
+        "RTEVMS-2415",
+        "RTEVMS-2420",
+        "RTEVMS-2245",
+        "RTEVMS-2422"
+      ]
+    },
+    {
+      "name": "Guhan Sundararajan",
+      "type": "person",
+      "context": "Handling portion percentage experiment allocation and rendering logic",
+      "issues": [
+        "TPT-2532",
+        "TPT-2433"
+      ]
+    },
+    {
+      "name": "Beatrice Dimarucut",
+      "type": "person",
+      "context": "Product decision maker for OTP graduation banner and plan settings",
+      "issues": [
+        "GOC-3229",
+        "GOC-3416"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Feature flag gating for brand migration",
+      "context": "Using Statsig gates to control Green Chef deprecation notice visibility before full migration"
+    },
+    {
+      "pattern": "Reusing allocation logic across experiments",
+      "context": "Leveraging isFirstTimeExposure pattern from allergens experiment to work around Statsig publicID allocation issues"
+    },
+    {
+      "pattern": "Avoiding duplicate allocation events",
+      "context": "Identifying experiment variation from previous page allocation rather than triggering new events on funnel plans-selection page"
+    },
+    {
+      "pattern": "Adding comprehensive tracing to hooks",
+      "context": "Instrumenting useCreateOTPCartForCheckout hook for monitoring, debugging, and performance tracking in production"
+    },
+    {
+      "pattern": "Custom redirect rules via Terraform",
+      "context": "Managing campaign redirects (mail60, hellofresh) through infrastructure as code"
+    },
+    {
+      "pattern": "Conditional rendering based on order type",
+      "context": "Hiding payment reassurance banners and adjusting UI elements based on OTP vs SNS (Subscribe and Save) context"
+    },
+    {
+      "pattern": "S3-hosted dynamic content",
+      "context": "Feeding guide PDFs named after SKUs and hosted on S3 for easy updates"
+    }
+  ],
+  "work_themes": [
+    "Brand migration and consolidation",
+    "One-time purchase vs subscription model expansion",
+    "Experimentation and A/B testing infrastructure",
+    "Pricing transparency and dynamic pricing display",
+    "Cross-platform consistency (Web, iOS)",
+    "UAT bug fixing and quality assurance",
+    "Customer communication during transitions"
+  ],
+  "dependencies": [
+    {
+      "from": "Web team",
+      "to": "Backend/API",
+      "context": "Plan type switching requires backend persistence and subscription modification APIs"
+    },
+    {
+      "from": "iOS team",
+      "to": "Statsig platform",
+      "context": "Feature flag consumption for Green Chef deprecation notice"
+    },
+    {
+      "from": "TPT development team",
+      "to": "Product/Design (Jasmine and Anisha)",
+      "context": "Waiting for updated feeding guide files before implementing portion percentage updates"
+    },
+    {
+      "from": "Factor OTP team",
+      "to": "squad-plans",
+      "context": "Escalation path for vms-place-order service errors and plan modification issues"
+    },
+    {
+      "from": "Frontend teams",
+      "to": "Experimentation platform (Statsig)",
+      "context": "Multiple experiments depend on Statsig allocation working correctly, workarounds needed for publicID issues"
+    },
+    {
+      "from": "Campaign team",
+      "to": "Infrastructure/DevOps",
+      "context": "Campaign redirects (mail60) require Terraform configuration updates"
+    }
+  ]
+}

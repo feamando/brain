@@ -1,0 +1,443 @@
+{
+  "batch_id": "spreadsheet_056",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, negative return indicated",
+        "Tracking spans approximately 3+ years of marketing data"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign or category with documented spend of $1,053"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 3+ years (2021-2024) with weekly granularity",
+        "WoW analysis capability added midway through tracking period (Week 36 of 2022)",
+        "Sparse data visible in extract suggests either incomplete data or filtered view",
+        "Self-Improvement campaign shows negative return (indicated by '$-'), suggesting unprofitable marketing effort",
+        "Structure indicates multiple marketing channels/campaigns tracked simultaneously across consistent weekly periods"
+      ]
+    },
+    {
+      "doc_title": "Food Influencers for Interviews",
+      "doc_id": "19A-paP1BG184CJkDhJDB5_XKAq5h7g8MLxe2Ie7rqd4",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage outreach to food influencers for interview opportunities, including contact information, follower counts, and engagement status",
+      "data_type": "tracker",
+      "key_data_points": [
+        "43 food influencers tracked across Instagram, YouTube, TikTok, and Pinterest",
+        "Follower ranges: Micro (under 100K) to Mega (1M+)",
+        "12 influencers contacted (Outreach Phase 1-2)",
+        "8 follow-up emails sent",
+        "4 'Not Interested' responses received",
+        "1 requested 2nd interview (Vegan Richa)",
+        "Multiple cookbook authors identified (at least 9)",
+        "Geographic diversity: US, Canada, UK, Italy, Greece, Austria, Portugal"
+      ],
+      "entities": [
+        {
+          "name": "Vegan Richa",
+          "type": "person",
+          "context": "Mega influencer (1.1M followers), requested 2nd interview, cookbook author specializing in plant-based Indian cooking"
+        },
+        {
+          "name": "Tiffy Chen (Tiffy.Cooks)",
+          "type": "person",
+          "context": "Mega influencer (2.1M Instagram, 3.4M TikTok), cookbook author, Asian comfort dishes"
+        },
+        {
+          "name": "Luke Brown (cookinginthemidwest)",
+          "type": "person",
+          "context": "Mega influencer (1.8M), cookbook author, responded 'Not Interested'"
+        },
+        {
+          "name": "Corre Larkin (cocolarkincooks)",
+          "type": "person",
+          "context": "Mega influencer (1M), upcoming cookbook, responded 'Not Interested'"
+        },
+        {
+          "name": "Lindsay Ostrom (Pinch of Yum)",
+          "type": "person",
+          "context": "Mega influencer (1.7M), cookbook author, not yet contacted"
+        },
+        {
+          "name": "Helena Faustin (ThatNurseCanCook)",
+          "type": "person",
+          "context": "Macro influencer (779K), cookbook author, Jamaican home-cooking"
+        },
+        {
+          "name": "Liv Biermann (itslivb)",
+          "type": "person",
+          "context": "Macro influencer (586K YouTube), Canada-based, responded to outreach"
+        }
+      ],
+      "insights": [
+        "Low response rate: Only 12 of 43 influencers contacted, with 4 declining participation",
+        "Mega influencers (1M+ followers) appear less interested - 2 out of 3 contacted declined",
+        "Multi-platform presence is common: Many influencers maintain Instagram, TikTok, YouTube, and Pinterest accounts",
+        "Cookbook authors are specifically targeted, suggesting credibility is important for the interview series",
+        "Geographic focus on North America (US/Canada) with some European representation",
+        "Contact information varies widely: some have professional emails, others only accessible via social media",
+        "Outreach is in early stages with most influencers not yet contacted",
+        "Customized email approach being used based on influencer's specific content style and niche"
+      ]
+    },
+    {
+      "doc_title": "TPT App: Discovery",
+      "doc_id": "1njFgQemZhGmDz-TTDX75BckUov66opHGp1Ay3gE8U8k",
+      "doc_type": "spreadsheet",
+      "purpose": "Feature scope and technical implementation planning for TPT App discovery phase",
+      "data_type": "planning",
+      "key_data_points": [
+        "Total features tracked: 60+",
+        "Features in scope: ~35 (58%)",
+        "Features out of scope: ~25 (42%)",
+        "Primary tech stack: React Native and Web View",
+        "Main feature categories: Static Pages, Quiz, Plan Selection, Checkout, Dashboard, Add-On Market, Account Management, Notifications, Reactivations"
+      ],
+      "entities": [
+        {
+          "name": "TPT App",
+          "type": "project",
+          "context": "Mobile application being planned/developed for pet food subscription service"
+        },
+        {
+          "name": "MC",
+          "type": "person",
+          "context": "Reviewer providing comments and technical recommendations (appears in 3 comments questioning implementation choices)"
+        },
+        {
+          "name": "WSAVA",
+          "type": "system",
+          "context": "Guidelines referenced in static pages (not in scope)"
+        }
+      ],
+      "insights": [
+        "Hybrid approach: Mix of React Native (native features) and Web View (existing web content) to optimize development",
+        "Static pages mostly excluded from app scope - strategy is to avoid direct entry points for logged-out content",
+        "Core subscription management features prioritized: delivery management, plan changes, add-ons marketplace all in scope",
+        "Onboarding quiz (pet profiling) currently out of scope - significant feature gap",
+        "Checkout flow not in scope for this phase - suggests app targets existing customers rather than new acquisitions",
+        "Technical debate evident: MC questioning React Native choices, suggesting Web View alternatives for efficiency",
+        "Multi-pet functionality included, indicating support for customers with multiple pets",
+        "Profile Tab appears to be main navigation hub for various features"
+      ]
+    },
+    {
+      "doc_title": "Business Cases - TPT",
+      "doc_id": "1TYD8z1slu_L0QW3d5hO2xVXckfGq4jeaQd51QBrT2AM",
+      "doc_type": "spreadsheet",
+      "purpose": "Business case analysis comparing baseline performance metrics against multipet issue impact for TPT (likely a subscription box service)",
+      "data_type": "metrics",
+      "key_data_points": [
+        "150,000 gross conversions over 52 weeks",
+        "Average Order Rate (AOR): 3.20",
+        "Trial Box AOV: $80.00",
+        "Regular Box AOV: $176.50",
+        "Gross AOV: $146.34",
+        "Customer Acquisition Cost (CAC): $150 per conversion",
+        "Customer Conversion Value (CCV): $216.33",
+        "CCV/CAC (ROI): 1.04 - identified as north star metric",
+        "Annual Gross Revenue: $70,245,000",
+        "Customer Value Added (CVA): $1,248,825",
+        "Estimated discount: $58.00",
+        "PC2% Gross Revenue Trial: 35.0%",
+        "PC2% Gross Revenue Regular: 48.5%"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Company/brand being analyzed in the business case"
+        },
+        {
+          "name": "Multipet issue",
+          "type": "project",
+          "context": "Scenario being tested against baseline metrics to measure impact"
+        }
+      ],
+      "insights": [
+        "The ROI (CCV/CAC ratio) of 1.04 is designated as the 'north star metric' for measuring test success",
+        "Currently no expected changes are populated - this appears to be a template for scenario planning",
+        "The business model includes both trial boxes ($80) and regular boxes ($176.50) with different conversion rates",
+        "Regular boxes have higher PC2% gross revenue (48.5%) compared to trial boxes (35.0%)",
+        "The multipet issue scenario shows 0% change from baseline, suggesting either no impact or the analysis is incomplete",
+        "The spreadsheet is designed to automatically calculate certain metrics (Gross AOV and Marginal PC2%) based on other inputs"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "WoW (Week-over-Week) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, negative return indicated",
+        "Tracking spans approximately 3+ years of marketing data"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign with documented spend of $1,053 and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term marketing tracker covering 3+ years (2021-2024) with consistent weekly monitoring",
+        "WoW analysis capability added midway through tracking period (Week 36 of 2022)",
+        "Sparse data visible in extract suggests either incomplete data or filtered view",
+        "Self-Improvement campaign shows negative ROI (indicated by '$-' in return column)",
+        "Structure suggests multiple marketing channels/campaigns tracked in parallel columns",
+        "Weekly granularity indicates active performance monitoring and optimization focus"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, ratings, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.69",
+        "Max meal costs from $2.54 to $4.85",
+        "Calorie range: 450-530 calories per meal",
+        "L3 Run Ratings between 0.65% and 1.19%",
+        "Nutrition scores: 0-4.125",
+        "Dietary fiber: 5-16g",
+        "Protein content: 27-44g per meal",
+        "Multiple recipe variants (A-F) for same base meal"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Greek Isle Caper Salmon recipe"
+        },
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Greek-Style Market Chicken Bowl and Red Pepper Bruschetta recipes"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef recipe"
+        }
+      ],
+      "insights": [
+        "Chicken & Mushroom Marsala has 6 recipe variants (F00002A-F) with slight cost and nutritional differences, all marked as 'Graveyard' status",
+        "Newer recipes (F01905-F01908) are marked as 'New' status with approval date of 10/21/2025 and 'Pending' shelf life status",
+        "All meals are designed to be Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free, and Low Carb",
+        "European/Italian cuisine dominates the sample, with chicken and salmon as primary proteins",
+        "Most recipes use combination cooking methods: Marinade/Brine + Oven/Braiser, with some requiring Grill or Shredder",
+        "GLP-1 Balance and Mediterranean diet compatibility are tracked as emerging dietary categories",
+        "Container type correlates with protein: Yellow sleeve for chicken, Blue for salmon, Red for beef",
+        "Recipe costs are significantly below max meal costs, suggesting healthy profit margins"
+      ]
+    },
+    {
+      "doc_title": "Business Cases - TPT",
+      "doc_id": "1TYD8z1slu_L0QW3d5hO2xVXckfGq4jeaQd51QBrT2AM",
+      "doc_type": "spreadsheet",
+      "purpose": "Business case analysis comparing baseline performance metrics against multipet issue impact for TPT (likely a subscription box service)",
+      "data_type": "metrics",
+      "key_data_points": [
+        "150,000 gross conversions over 52 weeks",
+        "Average Order Rate (AOR): 3.20",
+        "Trial Box AOV: $80.00",
+        "Regular Box AOV: $176.50",
+        "Gross AOV: $146.34",
+        "Customer Acquisition Cost (CAC): $150 per conversion",
+        "Customer Conversion Value (CCV): $216.33",
+        "CCV/CAC (ROI): 1.04 - identified as north star metric",
+        "Annual Gross Revenue: $70,245,000",
+        "Customer Value Added (CVA): $1,248,825",
+        "Estimated discount: $58.00",
+        "PC2% Gross Revenue Trial: 35.0%",
+        "PC2% Gross Revenue Regular: 48.5%"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Company/brand being analyzed in the business case"
+        },
+        {
+          "name": "Multipet issue",
+          "type": "project",
+          "context": "Scenario being tested against baseline metrics to measure impact"
+        }
+      ],
+      "insights": [
+        "The ROI (CCV/CAC ratio of 1.04) is the north star metric for measuring test success",
+        "Currently no expected changes are populated - this appears to be a template for scenario planning",
+        "The business model includes both trial boxes ($80) and regular boxes ($176.50) with different conversion rates",
+        "Regular boxes have higher PC2% gross revenue (48.5%) compared to trial boxes (35.0%)",
+        "The multipet issue scenario shows identical values to baseline, suggesting impact analysis has not yet been completed",
+        "Some metrics are calculated automatically (Gross AOV, Marginal PC2%) while others require manual input",
+        "The business operates on a 52-week annual cycle with significant scale ($70M+ annual revenue)"
+      ]
+    },
+    {
+      "doc_title": "TPT App: Discovery",
+      "doc_id": "1njFgQemZhGmDz-TTDX75BckUov66opHGp1Ay3gE8U8k",
+      "doc_type": "spreadsheet",
+      "purpose": "Feature discovery and scoping document for a TPT (pet food) mobile app, tracking which features will be implemented natively vs web view, and what's in/out of scope",
+      "data_type": "planning",
+      "key_data_points": [
+        "Total features tracked: ~70",
+        "Features in scope: ~40",
+        "Features out of scope: ~30",
+        "Primary tech approaches: React Native, Web View, or Not Available",
+        "Main feature categories: Static Pages, Quiz, Plan Selection, Checkout, Dashboard, Add-On Market, Account Management, Notifications, Reactivations"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Pet food subscription service developing mobile app"
+        },
+        {
+          "name": "MC",
+          "type": "person",
+          "context": "Reviewer providing comments and questions on technical decisions (appears in Comments column)"
+        },
+        {
+          "name": "WSAVA",
+          "type": "system",
+          "context": "Guidelines referenced in static pages (World Small Animal Veterinary Association)"
+        }
+      ],
+      "insights": [
+        "Heavy focus on subscription management features (delivery scheduling, plan changes, add-ons) - all marked as 'Yes' for in-scope",
+        "Most customer acquisition features (Quiz, initial Checkout) are marked 'No' for scope, suggesting app targets existing customers",
+        "Hybrid approach: Core subscription features built in React Native, account management uses Web Views for efficiency",
+        "Static marketing pages mostly excluded from app, aligning with logged-in user focus",
+        "Some inconsistency noted by reviewer MC regarding tech choices (e.g., questioning React Native for notifications, suggesting Web View for pet profile updates)",
+        "Dashboard and delivery management are the most feature-rich areas with 100% in-scope rate",
+        "Add-On Market fully in scope with comprehensive CRUD operations"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and workstream responsibilities for the 2025 ANZ (Australia/New Zealand) Christmas Offering business initiative across XMB+XMO brands",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams already in progress (Ideation done, Project set up, Recipes created, NID onboarding started)",
+        "Cross-functional team spanning Product, Engineering, Operations, Marketing, Finance, FSQA, and more"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead AU for ANZ Product Strategy"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "ANZ Project Manager Lead"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Stakeholder for multiple workstreams (Culinary Innovation, CIO Dev, Editorial, Digital Ops)"
+        },
+        {
+          "name": "Francois Lubrano",
+          "type": "person",
+          "context": "Stakeholder for Project Management, Procurement Ops, Menu Planning"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "brand",
+          "context": "Target brands for 2025 Christmas Offering"
+        },
+        {
+          "name": "2025 Christmas Offering",
+          "type": "project",
+          "context": "Main project being tracked across ANZ markets"
+        }
+      ],
+      "insights": [
+        "Project shows clear regional separation with dedicated AU and NZ leads for most operational functions (Logistics, Procurement, Production, FSQA)",
+        "Some workstreams are already in execution phase (recipes created/developed, onboarding started) suggesting project is mid-flight",
+        "Strategic Procurement has multiple named leads for different categories (PTN, PHF, PCK, GRO) indicating complex supplier management",
+        "Several positions marked 'TBD' indicating team is not fully staffed yet",
+        "High stakeholder involvement from Hannah Gilbert and Francois Lubrano suggests central coordination roles",
+        "Duplication noted for Marketing campaigns, recipe booklets, and website content - likely for market-specific customization"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "Meal planning and recipe database for a meal delivery service, tracking nutritional information, costs, ratings, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $3.65",
+        "L3 Run Ratings between 3.32 and 3.46",
+        "Swap Out % ranging from 0.57% to 1.21%",
+        "Calorie counts from 340 to 660 per meal",
+        "Nutrition scores from 0 to 4.125",
+        "Max meal costs from $2.54 to $3.49",
+        "Multiple recipe versions (A-F) for same meals"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        }
+      ],
+      "insights": [
+        "Chicken & Mushroom Marsala has 6 recipe variations (F00002A-F) with slight cost and nutritional differences, all marked as 'Graveyard' status",
+        "Newer recipes (F01906-F01932) are marked as 'New' or 'Pending' status with approval dates in October-November 2025",
+        "Most meals are designed to meet multiple dietary preferences: Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free",
+        "European-Italian cuisine is the most common, followed by North American-Southwestern and Asian-Chinese",
+        "Chicken breast is the most frequent protein type, with variations including shredded and diced preparations",
+        "Lower swap out percentages (0.57%-1.21%) suggest good customer satisfaction with newer recipes",
+        "All meals use color-coded sleeves (Yellow or Red) for operational organization",
+        "Fiber content ranges from 6-7g, with GLP-1 support indicated for some recipes"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:05:07.619900"
+}

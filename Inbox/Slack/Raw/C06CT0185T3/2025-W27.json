@@ -1,0 +1,438 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W27",
+  "extracted_at": "2026-01-02T10:38:30.496316Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1751639550.280899",
+      "client_msg_id": "8ac05f08-4206-4077-970e-d13027fd8352",
+      "text": "Following up on the disco with Yury: <@U07VDFEFBQU> <@U01AKGWGLC8> <@U027201FQSV> let’s see what we want to do with the next spint - perhaps increase the allocation on bugs OR do a micro-sprint focused on observbility and cleanup: open for both",
+      "team": "T02AGMUUR",
+      "thread_ts": "1751639550.280899",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1751878771.594159",
+      "reply_users": [
+        "U07VDFEFBQU",
+        "U03TY4YJU4X",
+        "U027201FQSV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UBYki",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Following up on the disco with Yury: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U07VDFEFBQU"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01AKGWGLC8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U027201FQSV"
+                },
+                {
+                  "type": "text",
+                  "text": " let’s see what we want to do with the next spint - perhaps increase the allocation on bugs OR do a micro-sprint focused on observbility and cleanup: open for both"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751639941.300279",
+          "client_msg_id": "14c3525e-2381-452e-a2db-6cfa233f1a1f",
+          "text": "This and next sprint we're focusing on persisting the add-on for Wallet (ticket), it should solve the TR issue that we've been having.\n\nAlso focusing on completing all P0 monitoring and alerting first, so that we note the issues first rather than hearing this from stakeholders/ sprig\n<https://docs.google.com/spreadsheets/d/18F9yFI3xeN0GL6q95sKTJLvLKBsZGSNm675zfn0CTmA/edit?gid=927887069#gid=927887069>\n\nBut aside from that, open for discussion on how to systematically tackling overall instability and bugs.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751639550.280899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Sl10X",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This and next sprint we're focusing on persisting the add-on for Wallet (ticket), it should solve the TR issue that we've been having.\n\nAlso focusing on completing all P0 monitoring and alerting first, so that we note the issues first rather than hearing this from stakeholders/ sprig\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/spreadsheets/d/18F9yFI3xeN0GL6q95sKTJLvLKBsZGSNm675zfn0CTmA/edit?gid=927887069#gid=927887069"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nBut aside from that, open for discussion on how to systematically tackling overall instability and bugs."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1751640042.731679",
+          "client_msg_id": "46d32d63-bb51-4c90-b353-3ce4a9229125",
+          "text": "Personally I think it might be easier to do this in a consolidated way: dedicate a smaller sprint or a sprint to increase observability; clean up outstanding bugs etc. We could consider simple increasing the % for bugs and KTLO in the next several sprints.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751639550.280899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AM87a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Personally I think it might be easier to do this in a consolidated way: dedicate a smaller sprint or a sprint to increase observability; clean up outstanding bugs etc. We could consider simple increasing the % for bugs and KTLO in the next several sprints."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U07VDFEFBQU",
+          "type": "message",
+          "ts": "1751640120.139789",
+          "client_msg_id": "8cedf10c-381a-4651-a7e5-888815f7fae0",
+          "text": "<@U027201FQSV> wdyt? We only have 2 weeks cadence experiment for next sprint, and that can be tackled by 2 engineers. Maybe the rest can focus on improve stability?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751639550.280899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PCXBa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " wdyt? We only have 2 weeks cadence experiment for next sprint, and that can be tackled by 2 engineers. Maybe the rest can focus on improve stability?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U027201FQSV",
+          "type": "message",
+          "ts": "1751878771.594159",
+          "client_msg_id": "92338e47-33e5-46ce-af70-1f7686a0a8e3",
+          "text": "Yes, this sounds good to me! :+1:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751639550.280899",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nqMjk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, this sounds good to me! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "unicode": "1f44d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1751384371.954219",
+      "client_msg_id": "f9a0da58-f208-4832-b7a0-27cdc7830320",
+      "text": "<!channel> IT CAP :woo:  is now available! Let’s get this done (ironic YAY!): <https://docs.google.com/spreadsheets/d/1g-k-sB2aQbTk_qv5x9-q2j88RgeugvL3gTNyGuApB9Q/edit?usp=sharing>",
+      "team": "T02AGMUUR",
+      "thread_ts": "1751384371.954219",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1751450059.294999",
+      "reply_users": [
+        "U01TQGXG9D3",
+        "U2D54V0UV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GfiHH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " IT CAP "
+                },
+                {
+                  "type": "emoji",
+                  "name": "woo"
+                },
+                {
+                  "type": "text",
+                  "text": "  is now available! Let’s get this done (ironic YAY!): "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1g-k-sB2aQbTk_qv5x9-q2j88RgeugvL3gTNyGuApB9Q/edit?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U2D54V0UV"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ew",
+          "users": [
+            "U0MBX09UZ"
+          ],
+          "count": 1
+        },
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U0MBX09UZ",
+            "U01TQGXG9D3"
+          ],
+          "count": 2
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01TQGXG9D3",
+          "type": "message",
+          "ts": "1751385759.540639",
+          "client_msg_id": "6ee87c33-f77e-4c18-b352-cd997a35855e",
+          "text": "Done for\n• Cross Selling (<@U05BNQPJX4K> <@U01KPB90WQM>)\n• ABBA (<@U02M8QB04HE> <@U01DE9ENHG9>)\n<@UEZ4PRFKM> please add for <@U05RQJKBAFJ>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751384371.954219",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CRaFg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Done for\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Cross Selling ("
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U05BNQPJX4K"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U01KPB90WQM"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ABBA ("
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U02M8QB04HE"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U01DE9ENHG9"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "bullet",
+                  "indent": 0,
+                  "border": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " please add for "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U05RQJKBAFJ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "UEZ4PRFKM",
+                "U03TY4YJU4X"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "user": "U2D54V0UV",
+          "type": "message",
+          "ts": "1751450059.294999",
+          "client_msg_id": "e912bf55-1313-44e9-90fb-89c70e65ef8a",
+          "text": "NVS :completed-stamp:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1751384371.954219",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lkeSe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "NVS "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "completed-stamp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U03TY4YJU4X"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

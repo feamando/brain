@@ -1,0 +1,211 @@
+{
+  "batch_id": "github_0015",
+  "source": "github",
+  "commit_count": 20,
+  "commits": [
+    {
+      "sha": "87e5d880",
+      "message": "[RTEVMS-2232] Factor Form | OTP: create cart (#60641)\n\n* update API endpoint for OTP create cart\n\n* update subbrand impl\n\n* create checkout page call\n\n* checkout page impl\n\n* update signup + checkout guards for OTP\n\n* add logic to determine which sku\n\n* revert change to cart\n\n* update add delivery address call to get otp sku\n\n* add optional onsuccess/onerror\n\n* fix infinite loop",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-18T20:18:38Z",
+      "url": "https://github.com/hellofresh/web/commit/87e5d8809914d6fa427d35a28fcb0d823e94839e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "bf30582a",
+      "message": "[RTEVMS-2267] Factor Form: Multi Cadence my-deliveries UI (#60571)\n\n* feature/RTEVMS-2269 Multi Cadence account settings UI in progress\n\n* feature/RTEVMS-2269: cleaning up multi cadence account settings UI\n\n* feature/RTEVMS-2269: adding unit tests\n\n* feature/RTEVMS-2275: Adding in multi cadence ui to cancellation page\n\n* feature/RTEVMS-2269: Updating components according to design\n\n* feature/RTEVMS-2269: Adding in mobile styling/functionality\n\n* feature/RTEVMS-2269: customSegmentedButton updates\n\n* Fix conditional logic for dialog display after merge [Cursor_Code]\n\n* feature/RTEVMS-2269: Adding in custom icon components and error dialog\n\n* feature/RTEVMS-2275: Adding in custom icons and cancellation page styling updates\n\n* feature/RTEVMS: Adding in additional box to change frequency dialog\n\n* feature/RTEVMS-2269: Updating CSS\n\n* feature/RTEVMS-2269: multi-cadence updated segmentedButtons custom component\n\n* feature/RTEVMS-2269: fixing feature flag\n\n* feature/RTEVMS-2275: Updating styling on cancellation page\n\n* feature/RTEVMS-2275: Adding feature flag to cancellation page\n\n* feature/RTEVMS-2267: UI updates for multi cadence feature on dashboard page\n\n* feature/RTEVMS-2269: Removing duplicate icon\n\n* feature/RTEVMS-2269: type error fix\n\n* feature/RTEVMS-2269: moving icons into different folder\n\n* feature/RTEVMS-2269: moving icons into different folder\n\n* feature/RTEVMS-2267: styling updates\n\n* feature/RTEVMS-2267: removing unnecessary changes\n\n* feature/RTEVMS-2267: removing cancellation page changes from this branch\n\n* RTEVMS-2267: adding lokalise translations\n\n* RTEVMS-2267: Updating button width\n\n* RTEVMS-2267: adding change for flaky test",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-18T19:02:36Z",
+      "url": "https://github.com/hellofresh/web/commit/bf30582aa0ccf3a28455514ddec6ad978debbf25",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "2be35d7e",
+      "message": "[TPT-2315] Cleaning up tests (#60699)",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-18T16:40:34Z",
+      "url": "https://github.com/hellofresh/web/commit/2be35d7e10f43ff499ed9425646323e287ceb4a2",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "aaac77cd",
+      "message": "[TPT-2350] Migrate product family proteins config (#60630)\n\n* Change product family proteins config to simple config\n\n* Add type",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-18T15:43:18Z",
+      "url": "https://github.com/hellofresh/web/commit/aaac77cd04d6a5b079a3f003776711a7d5962acc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "fcddccf8",
+      "message": "[TPT-2293]: refactor test file names (#60690)",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-18T15:24:56Z",
+      "url": "https://github.com/hellofresh/web/commit/fcddccf823e8134194bead6ad728b7f92e568a90",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "54455a48",
+      "message": "[TPT-2299] render plan price in settings (#60687)\n\n* render plan price in settings\n\n* remove comment",
+      "author": "sfilipowska",
+      "author_email": "82662345+sfilipowska@users.noreply.github.com",
+      "date": "2025-11-18T15:20:06Z",
+      "url": "https://github.com/hellofresh/web/commit/54455a48628f32ea8293b07e4f9c374964ac2f30",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "fe2a8705",
+      "message": "[GOC-3293] Price migration: MonthlyPlanOption (#60110)\n\n* Replace product prices in MonthlyPlanOption.tsx\n\n* Address a11y issues\n\n* Fix e2e test (locator and mock API)\n\n* Add spinner for loading state",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-18T15:01:15Z",
+      "url": "https://github.com/hellofresh/web/commit/fe2a870596ff6e4df578c0bce77e8620658ec8de",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "afb44025",
+      "message": "[TPT-2205]: create new PDP template (#60587)\n\n* TPT-2205: create new PDP template\n\n* TPT-2205: rename drawer\n\n* show new pdp template for all recipes\n\n* TPT-2205: fix animation for drawer closing\n\n---------\n\nCo-authored-by: alugovtsev <Andrey.Lugovtsev@macys.com>",
+      "author": "alugovtsev-hf",
+      "author_email": "andrey.lugovtsev@ext.hellofresh.com",
+      "date": "2025-11-18T13:29:19Z",
+      "url": "https://github.com/hellofresh/web/commit/afb44025cd94d264c2220f5110309e9cbe50c949",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "e628182c",
+      "message": "[GOC-3296] ProductPriceSummary price migration (#60657)\n\n* Don't use product prices in ProductPriceSummary\n\n* Fix integration tests\n\n* Use useCurrentSubscription\n\n* An endless burden of integration tests...",
+      "author": "Max Burov",
+      "author_email": "mabu@hellofresh.com",
+      "date": "2025-11-18T13:14:40Z",
+      "url": "https://github.com/hellofresh/web/commit/e628182cc261b7d8c8d8dd0f63a93afe6d40e80d",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "4c19a061",
+      "message": "[GOC-3201] Adds OTP attributes to zipCodeValidation event and Payment Errors on checkout Page (#60512)\n\n* Adds CheckoutAddress_ChangeFirstDeliveryDay event\n\n* adds checkout_error event attributes\n\n* adjust tests\n\n* adjust ts lint errors\n\n* remove redundant params\n\n* remove extra params\n\n* tweaks\n\n* tweaks\n\n* tweak finale :')",
+      "author": "Madeeha Hasan",
+      "author_email": "33419910+madeeha96@users.noreply.github.com",
+      "date": "2025-11-18T12:54:45Z",
+      "url": "https://github.com/hellofresh/web/commit/4c19a061d2b67299b64d5a2ebdc33c9af1ba649f",
+      "repo": "hellofresh/web",
+      "matched_prefix": "GOC-"
+    },
+    {
+      "sha": "a9ed8ffa",
+      "message": "[TPT-2286] Add cash credits message to Order Summary + Refactoring (#60588)\n\n* [TPT-2286] Refactor TPT Order Summary and add cash credits message\n\n* [TPT-2286] Fix failing test\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-18T12:05:10Z",
+      "url": "https://github.com/hellofresh/web/commit/a9ed8ffa1e622a179e6c9ada9da3df196804078e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "da12e1c5",
+      "message": "[TPT-2315] Remove deprecated starterBoxMap from static configs (#60413)\n\n* [TPT-2315] Remove deprecated starterBoxMap from static configs\n\n* [TPT-2315] Removing unused static config clone\n\n* [TPT-2315] Fix TypeScript error in test mock",
+      "author": "Guhan Sundararajan",
+      "author_email": "gsun@hellofresh.com",
+      "date": "2025-11-18T07:56:02Z",
+      "url": "https://github.com/hellofresh/web/commit/da12e1c5b663ecb35fe0f02370382a4c21dfbc8a",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "2fd722f6",
+      "message": "[RTEVMS-2275] Factor Form: Multi Cadence Cancellation UI (#60482)\n\n* feature/RTEVMS-2269 Multi Cadence account settings UI in progress\n\n* feature/RTEVMS-2269: cleaning up multi cadence account settings UI\n\n* feature/RTEVMS-2269: adding unit tests\n\n* feature/RTEVMS-2275: Adding in multi cadence ui to cancellation page\n\n* feature/RTEVMS-2269: Updating components according to design\n\n* feature/RTEVMS-2269: Adding in mobile styling/functionality\n\n* feature/RTEVMS-2269: customSegmentedButton updates\n\n* Fix conditional logic for dialog display after merge [Cursor_Code]\n\n* feature/RTEVMS-2269: Adding in custom icon components and error dialog\n\n* feature/RTEVMS-2275: Adding in custom icons and cancellation page styling updates\n\n* feature/RTEVMS: Adding in additional box to change frequency dialog\n\n* feature/RTEVMS-2269: Updating CSS\n\n* feature/RTEVMS-2269: multi-cadence updated segmentedButtons custom component\n\n* feature/RTEVMS-2269: fixing feature flag\n\n* feature/RTEVMS-2275: Updating styling on cancellation page\n\n* feature/RTEVMS-2275: Adding feature flag to cancellation page\n\n* feature/RTEVMS-2269: Removing duplicate icon\n\n* feature/RTEVMS-2269: type error fix\n\n* feature/RTEVMS-2269: moving icons into different folder\n\n* feature/RTEVMS-2269: moving icons into different folder\n\n* feature/RTEVMS-2275: disabling reschedule order button as needed\n\n* feature/RTEVMS-2275: unit test fix\n\n* feature/RTEVMS-2275: moving icons into correct folder\n\n* feature/RTEVMS-2275: adding bold text to success modal\n\n* feature/RTEVMS-2275: adding comments\n\n* feature/RTEVMS-2275: updating unit tests\n\n* Update app/spaces/whitelabel/modules/whitelabel-web/packages/pages/cancellation/src/components/DeliveryFrequencyChange.tsx\n\nCo-authored-by: Emily Stanek <89855438+eshellofresh@users.noreply.github.com>\n\n* Update app/spaces/whitelabel/modules/whitelabel-web/packages/pages/cancellation/src/components/RescheduleOrder.tsx\n\nCo-authored-by: Emily Stanek <89855438+eshellofresh@users.noreply.github.com>\n\n* RTEVMS-2275: adding var to contactUs component\n\n* Update multi-cadence feature flag and subscription active components [Cursor_Code]\n\n* RTEVMS-2275: removing lokalise\n\n* RTEVMS-2275: lint and jest errors fix\n\n* RTEVMS-2275: fixing type error\n\n---------\n\nCo-authored-by: Emily Stanek <89855438+eshellofresh@users.noreply.github.com>",
+      "author": "Emily Mendelson",
+      "author_email": "65842728+emilymendelson@users.noreply.github.com",
+      "date": "2025-11-17T20:30:18Z",
+      "url": "https://github.com/hellofresh/web/commit/2fd722f69e20214b95c668afd19e48cea12d1b7e",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "19d977c1",
+      "message": "[RTEVMS-2287] Factor Form | OTP: State (#60621)\n\n* add OTP state\n\n* update CTAs to update OTP atom\n\n* add frequency param\n\n* fix v2",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-17T20:22:03Z",
+      "url": "https://github.com/hellofresh/web/commit/19d977c155a376a77dd32b566094d87f91a780d7",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "d9950fe6",
+      "message": "[TPT-2153] Order Summary RFC (#60192)\n\n* [TPT-2153] order summary plan box integration\n\n* [TPT-2153] additional refactor\n\n* [TPT-2153] empty commit\n\n* [TPT-2153] accessibility issues fixed\n\n* [TPT-2153] minor update\n\n* [TPT-2153] contentful entry key added\n\n* [TPT-2153] Order summary price components integrated\n\n* [TPT-2153] minor update in formatCurrency\n\n* [TPT-2153] PR comments fixed\n\n* [TPT-2153] price formattings integrated to the component\n\n* [TPT-2153] tax percent removed\n\n* [TPT-2153] tests fixed\n\n* [TPT-2153] accessibility issues fixed\n\n* [TPT-2153] useReactivationPricing hook moved to OrderSummary\n\n* [TPT-2153] minor updates\n\n* [TPT-2153] pr comments fixed\n\n* [TPT-2153] resolved conflicts with master\n\n* [TPT-2153] original and formatted prices passed to shipping\n\n* [TPT-2153] original price passed to shipping component\n\n* [TPT-2153] voucher input logic integrated\n\n* [TPT-2153] skipAutoReplacement flag added to useReactivationVoucher\n\n* [TPT-2153] skipAutoReplacement flag added to useReactivationVoucher\n\n* [TPT-2153] minor update\n\n* [TPT-2153] tests fixed\n\n* [TPT-2153] minor style fix\n\n* [TPT-2153] accessibility issue fixed\n\n* [TPT-2153] PR comments fixed\n\n* [TPT-2153] ts issue fixed\n\n* [TPT-2153] resolved conflicts\n\n* [TPT-2153] tests fixed\n\n* [TPT-2153] skipAutoReplacement removed\n\n* [TPT-2153] sku props removed\n\n* [TPT-2153] CartTotal component created with fixed styles\n\n* [TPT-2153] ts issue fix\n\n* [TPT-2153] aria label added\n\n* [TPT-2153] PR comment fix\n\n* [TPT-2153] negative margins removed",
+      "author": "vmanukyan03",
+      "author_email": "vmanukyan@griddynamics.com",
+      "date": "2025-11-17T17:40:17Z",
+      "url": "https://github.com/hellofresh/web/commit/d9950fe64302edc2262e9b4dc03b5ffe55826b73",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "00bc8e60",
+      "message": "Enable MSS flag for TPT (#60622)",
+      "author": "Désirée Lima",
+      "author_email": "dmordine@gmail.com",
+      "date": "2025-11-17T16:47:21Z",
+      "url": "https://github.com/hellofresh/web/commit/00bc8e602a1063342581be61b2867d40091983dc",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "ef811ce7",
+      "message": "[RTEVMS-2286] Factor Form | OTP feature gate update (#60610)\n\n* update OTP hook to have isReady\n\n* update unit tests\n\n* fix references to hook",
+      "author": "Emily Stanek",
+      "author_email": "89855438+eshellofresh@users.noreply.github.com",
+      "date": "2025-11-17T15:44:08Z",
+      "url": "https://github.com/hellofresh/web/commit/ef811ce7be5f8620ede32e4d626e24ebdc07e225",
+      "repo": "hellofresh/web",
+      "matched_prefix": "RTEVMS-"
+    },
+    {
+      "sha": "969ee0d9",
+      "message": "[TPT-2126]: Refactor adjust calories test (#60591)\n\n* [TPT-2126]: refactor adjust calories test\n\n* review fixes",
+      "author": "anastasiiaaiuvdzhy-hf",
+      "author_email": "anastasiia.aiuvdzhy@ext.hellofresh.com",
+      "date": "2025-11-17T15:28:04Z",
+      "url": "https://github.com/hellofresh/web/commit/969ee0d9c8de010243333b377ad1740ee4e8a723",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "9739ab53",
+      "message": "[TPT-2323] [Multi-pet] Redirect to active subscription when cancelled due to pet death via CC (#60461)\n\n* [TPT-2323] Move logic to pet switcher\n\n* [TPT-2323] Fix failing test\n\n* [TPT-2323] Remove router from dependency array\n\n* [TPT-2323] Replace router.reload with window.location.replace\n\n---------\n\nCo-authored-by: “Andrea <“andrea.costa@hellofresh.com”>",
+      "author": "Andrea Martins",
+      "author_email": "115021178+andreamartinsdacosta@users.noreply.github.com",
+      "date": "2025-11-17T15:16:03Z",
+      "url": "https://github.com/hellofresh/web/commit/9739ab53a75107249fe7a95affd69b0535f988d5",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    },
+    {
+      "sha": "d7c5b8d0",
+      "message": "[TPT-2349] Fix allergens test (#60612)",
+      "author": "Ellen",
+      "author_email": "elen.margaryan@ext.hellofresh.com",
+      "date": "2025-11-17T14:53:37Z",
+      "url": "https://github.com/hellofresh/web/commit/d7c5b8d092f426fc0688cb5bda00b72afba44e99",
+      "repo": "hellofresh/web",
+      "matched_prefix": "TPT-"
+    }
+  ],
+  "date_range": {
+    "oldest": "2025-11-17T14:53:37Z",
+    "newest": "2025-11-18T20:18:38Z"
+  }
+}

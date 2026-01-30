@@ -1,0 +1,441 @@
+{
+  "channel_id": "C08KU0F8EF4",
+  "channel_name": "tribe-new-ventures-product",
+  "week": "2025-W34",
+  "extracted_at": "2026-01-02T10:44:48.035545Z",
+  "message_count": 6,
+  "messages": [
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1755526902.040429",
+      "client_msg_id": "260b0438-c249-4dc1-9b95-398ffa784d64",
+      "text": "added! thanks Maria!",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SlC4i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "added! thanks Maria!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1755526318.587479",
+      "client_msg_id": "956a6dc5-4a62-471d-8a23-b7f7979513e3",
+      "text": "TPT plans to initiate a price testing in Q4. To do this, we need to collaborate with the Pricing team to enable price sets. We are currently discussing priotization of TPT in the BE implementation roadmap.",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LkHdE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "TPT plans to initiate a price testing in Q4. To do this, we need to collaborate with the Pricing team to enable price sets. We are currently discussing priotization of TPT in the BE implementation roadmap."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U03TY4YJU4X"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03UMPD2NNS",
+      "type": "message",
+      "ts": "1755526155.207519",
+      "client_msg_id": "5c0160b6-febc-4d7d-bfb3-c1aa52d08149",
+      "text": "hot debates - how about mentioning price testing in TPT?",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qGizV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "hot debates - how about mentioning price testing in TPT?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1755525620.244689",
+      "client_msg_id": "dac66030-c51f-4f5b-9884-77aba9f456c4",
+      "text": "need perhaps another bullet point",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UTFlO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "need perhaps another bullet point"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1755525606.841549",
+      "client_msg_id": "c8d793bc-a635-46d8-9b02-df282d3198c9",
+      "text": "Apart from that do we have any key decisions/hot debates for the MAR?",
+      "team": "T02AGMUUR",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WN3B1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Apart from that do we have any key decisions/hot debates for the MAR?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U03TY4YJU4X",
+      "type": "message",
+      "ts": "1755525587.842289",
+      "client_msg_id": "4dec8555-da54-4cdf-9548-fd6868b3f6f5",
+      "text": "<!channel> reminding a bit prior to the next OKR cycle - let's make sure we have some movement on the cuimulative OKRs across brands",
+      "team": "T02AGMUUR",
+      "thread_ts": "1755525587.842289",
+      "reply_count": 8,
+      "reply_users_count": 2,
+      "latest_reply": "1756463686.690159",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03TY4YJU4X"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2cutA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " reminding a bit prior to the next OKR cycle - let's make sure we have some movement on the cuimulative OKRs across brands"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1::skin-tone-3",
+          "users": [
+            "U03UMPD2NNS"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U07VDFEFBQU"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1755681110.197329",
+          "client_msg_id": "03f7d018-1e8e-4e0c-82ec-2d962c53acad",
+          "text": "<@U03TY4YJU4X> let's discuss how we want to measure welcome gifts impact\n\nIn the end we do have concrete numbers based on marketing channels but it's also a marketing decision on how they scale these campaigns - scaling is always gradual so it won't make sense to do a pre-post",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TpqaG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " let's discuss how we want to measure welcome gifts impact\n\nIn the end we do have concrete numbers based on marketing channels but it's also a marketing decision on how they scale these campaigns - scaling is always gradual so it won't make sense to do a pre-post"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1755681166.859179",
+          "client_msg_id": "a0a043f4-87d7-41b0-8d50-3b671112fbd2",
+          "text": "do we have to translate impact to a CVA number or can we not just report CVR/CAC improvements vs BAU in certain channels?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2qgxU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "do we have to translate impact to a CVA number or can we not just report CVR/CAC improvements vs BAU in certain channels?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1755681290.090849",
+          "client_msg_id": "ce0e137f-b429-446f-8027-52764f54dbbb",
+          "text": "or we translate the uplifts on specific marketing campaigns into a CVA value but it would not amount to much yet if it's only a few campaigns in a few channels",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+WLKm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "or we translate the uplifts on specific marketing campaigns into a CVA value but it would not amount to much yet if it's only a few campaigns in a few channels"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1755682099.541409",
+          "client_msg_id": "89e31420-898f-47aa-ab2c-deab7d40bb84",
+          "text": "1. We need to have a CVA number as it's in the KR definition\n2. We can calculate the CVA by CVR/CAC impacts on known channels and scale it to all (and add a comment on the calculation) ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EDAjY",
+              "elements": [
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "We need to have a CVA number as it's in the KR definition"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "We can calculate the CVA by CVR/CAC impacts on known channels and scale it to all (and add a comment on the calculation) "
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0,
+                  "border": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1755682442.349609",
+          "client_msg_id": "e42b5574-94e3-46c1-87f3-9d074d308d7a",
+          "text": "ok - when do you need it by?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "F+zHL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok - when do you need it by?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1755682496.799769",
+          "client_msg_id": "d359eb80-0039-468e-bb67-740ff63f52fb",
+          "text": "31 of August",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OZ0ZX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "31 of August"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1756463584.410639",
+          "client_msg_id": "5330392d-4be8-4d8d-b5c4-eafefc7b98cd",
+          "text": "<@U03TY4YJU4X> I updated\n\nCrucial point to mention for welcome gift:\n\nthe CVA &amp; CVR uplift is only considering that welcome gift campaigns &lt;10% of marketing mix*. This is expected to increase as welcome gift campaigns are further scaled\n\n*checking with marketing for a more precise number based on spend",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ASb3I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I updated\n\nCrucial point to mention for welcome gift:\n\nthe CVA & CVR uplift is only considering that welcome gift campaigns <10% of marketing mix*. This is expected to increase as welcome gift campaigns are further scaled\n\n*checking with marketing for a more precise number based on spend"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03TY4YJU4X",
+          "type": "message",
+          "ts": "1756463686.690159",
+          "client_msg_id": "97a636cb-3072-4710-9559-b4010e23739f",
+          "text": "nice, thank you!",
+          "team": "T02AGMUUR",
+          "thread_ts": "1755525587.842289",
+          "parent_user_id": "U03TY4YJU4X",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "T3S54",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "nice, thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

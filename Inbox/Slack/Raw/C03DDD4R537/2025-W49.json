@@ -1,0 +1,340 @@
+{
+  "channel_id": "C03DDD4R537",
+  "channel_name": "squad-nv-good-chop",
+  "week": "2025-W49",
+  "extracted_at": "2026-01-02T10:48:57.748458Z",
+  "message_count": 1,
+  "messages": [
+    {
+      "user": "U018UCEFJ65",
+      "type": "message",
+      "ts": "1764949428.990579",
+      "bot_id": "B018G032BR9",
+      "app_id": "A018EBV0SJZ",
+      "text": "",
+      "team": "T02AGMUUR",
+      "bot_profile": {
+        "id": "B018G032BR9",
+        "deleted": false,
+        "name": "Slack Commander",
+        "updated": 1622031459,
+        "app_id": "A018EBV0SJZ",
+        "user_id": "U018UCEFJ65",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+          "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+          "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+        },
+        "team_id": "T02AGMUUR"
+      },
+      "thread_ts": "1764949428.990579",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1764950636.527169",
+      "reply_users": [
+        "U018UCEFJ65",
+        "U03QCR5AT6U",
+        "U02P4F23YJ0"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "fallback": "<@U03QCR5AT6U>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Incorrect copy in the checkout success page after checkout OTP`\n*Topic:* `Bug Report`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team,\n\nI just noticed OTP checkout is showing an incorrect copy:\n\n... Afterward, you'll receive a box every 8 weeks.\n\nI only did test on staging, if it's not on live, just ignore my message :) \n\nThanks`\n*Expected behaviour:* `Checkout success copy related to OTP`\n*Actual behaviour:* `Copy for a subscription checkout success`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue",
+          "text": "<@U03QCR5AT6U>: Hi, I want to report a new Good Chop issue. Please check the details.\n*Issue:* `Incorrect copy in the checkout success page after checkout OTP`\n*Topic:* `Bug Report`\n*Priority:* `Medium priority 🟡`\n*Description:* `Hi team,\n\nI just noticed OTP checkout is showing an incorrect copy:\n\n... Afterward, you'll receive a box every 8 weeks.\n\nI only did test on staging, if it's not on live, just ignore my message :) \n\nThanks`\n*Expected behaviour:* `Checkout success copy related to OTP`\n*Actual behaviour:* `Copy for a subscription checkout success`\n*Category:* squad-nv-good-chop\n*Command:* goodchop-issue"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "users": [
+            "U018UCEFJ65"
+          ],
+          "count": 1
+        }
+      ],
+      "_thread_replies": [
+        {
+          "user": "U018UCEFJ65",
+          "type": "message",
+          "ts": "1764949429.298299",
+          "bot_id": "B018G032BR9",
+          "app_id": "A018EBV0SJZ",
+          "text": "Use the button below to see from the Questions and Answers, that are related to Bug Report. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n Bug Report Q &amp; A button",
+          "team": "T02AGMUUR",
+          "bot_profile": {
+            "id": "B018G032BR9",
+            "app_id": "A018EBV0SJZ",
+            "user_id": "U018UCEFJ65",
+            "name": "Slack Commander",
+            "icons": {
+              "image_36": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_36.png",
+              "image_48": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_48.png",
+              "image_72": "https://avatars.slack-edge.com/2021-05-26/2117931614737_c87ec9c43aa9fe978720_72.png"
+            },
+            "deleted": false,
+            "updated": 1622031459,
+            "team_id": "T02AGMUUR"
+          },
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "section",
+              "block_id": "discussions-text-block",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Use the button below to see from the Questions and Answers, that are related to Bug Report. \n\n:star: *New feature:* Please try searching discussions by labels as well! :star:\n",
+                "verbatim": false
+              }
+            },
+            {
+              "type": "actions",
+              "block_id": "discussions-button-block",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "discussions-button-clicked",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Bug Report Q &amp; A",
+                    "emoji": false
+                  },
+                  "style": "primary",
+                  "url": "https://github.com/hellofresh/slack-commander/discussions?discussions_q=Bug+Report+in%3Atitle+sort%3Atop"
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "text": "",
+          "files": [
+            {
+              "id": "F0A2NQJKQLQ",
+              "created": 1764949440,
+              "timestamp": 1764949440,
+              "name": "Screenshot 2025-12-05 at 10.40.31 AM.png",
+              "title": "Screenshot 2025-12-05 at 10.40.31 AM.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U03QCR5AT6U",
+              "user_team": "T02AGMUUR",
+              "editable": false,
+              "size": 117160,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NQJKQLQ/screenshot_2025-12-05_at_10.40.31___am.png",
+              "url_private_download": "https://files.slack.com/files-pri/T02AGMUUR-F0A2NQJKQLQ/download/screenshot_2025-12-05_at_10.40.31___am.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 227,
+              "thumb_480": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 302,
+              "thumb_160": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 454,
+              "thumb_800": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 504,
+              "thumb_960": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 605,
+              "thumb_1024": "https://files.slack.com/files-tmb/T02AGMUUR-F0A2NQJKQLQ-8125ccb472/screenshot_2025-12-05_at_10.40.31___am_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 645,
+              "original_w": 1594,
+              "original_h": 1004,
+              "thumb_tiny": "AwAfADDTpMjOM0tJnPSgBAwPIIK9jSb+5Uge5Ht7/wCcU+igBMjOM8+lLRRQAUUUUAFFRTLMxXyWC+ue/wChpIlnDkyOCuOB/kCgCUjIwelLRRQB/9k=",
+              "permalink": "https://hellofresh.slack.com/files/U0A6YEJ4MR6/F0A2NQJKQLQ/screenshot_2025-12-05_at_10.40.31___am.png",
+              "permalink_public": "https://slack-files.com/T02AGMUUR-F0A2NQJKQLQ-6f5ac7bc2f",
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "upload": false,
+          "user": "U03QCR5AT6U",
+          "display_as_bot": false,
+          "type": "message",
+          "ts": "1764949445.742119",
+          "client_msg_id": "80d46446-ce90-47fa-8f2c-e2670833380a",
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65"
+        },
+        {
+          "user": "U02P4F23YJ0",
+          "type": "message",
+          "ts": "1764950586.461069",
+          "edited": {
+            "user": "U02P4F23YJ0",
+            "ts": "1764950618.000000"
+          },
+          "client_msg_id": "596344D5-5457-4322-9858-449558E1CF89",
+          "text": "Thanks <@U03QCR5AT6U> , indeed OTP is only on staging and we do have a different UI for OTP checkout.  It's still to be worked on.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GqUqF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03QCR5AT6U"
+                    },
+                    {
+                      "type": "text",
+                      "text": " , indeed OTP is only on staging and we do have a different UI for OTP checkout.  "
+                    },
+                    {
+                      "type": "text",
+                      "text": "It's still to be worked on."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "ty",
+              "users": [
+                "U03QCR5AT6U"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "U03QCR5AT6U",
+          "type": "message",
+          "ts": "1764950612.704069",
+          "client_msg_id": "c20f5e5e-8dda-4f2e-bec2-868e69957384",
+          "text": ":phew_obama:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NCLFw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "phew_obama"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03QCR5AT6U",
+          "type": "message",
+          "ts": "1764950621.071489",
+          "client_msg_id": "fc026bbe-c162-4fc3-9a4f-427cef7ead90",
+          "text": "Thanks letting me know :slightly_smiling_face:",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EKt7J",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks letting me know "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "unicode": "1f642"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03QCR5AT6U",
+          "type": "message",
+          "ts": "1764950636.527169",
+          "client_msg_id": "b623df40-878c-4445-a16e-c80383d3dbe1",
+          "text": "<@U018UCEFJ65> /resolve",
+          "team": "T02AGMUUR",
+          "thread_ts": "1764949428.990579",
+          "parent_user_id": "U018UCEFJ65",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vdZQc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018UCEFJ65"
+                    },
+                    {
+                      "type": "text",
+                      "text": " /resolve"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U018UCEFJ65"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "batch_id": "github_0023",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-10-27T15:02:20Z",
+    "newest": "2025-10-29T10:25:25Z"
+  },
+  "analyzed_at": "2026-01-02T15:42:01.766215",
+  "changes_summary": "These commits primarily focus on three areas: Factor Form migration work (cart-service and calculate endpoints), Good Chop/Pet Food reactivation features (free cuts popup, banners, OTP data), and The Purple Table (TPT) meal selection improvements. Multiple commits involve refactoring, test updates, and bug fixes related to price breakdowns, delivery options, and reactivation flows.",
+  "features": [
+    {
+      "name": "Preselect chosen recipes in change meals",
+      "description": "Allows users to see their previously selected recipes pre-selected when changing meals",
+      "commits": [
+        "f6cb8ea7",
+        "4e455269",
+        "a49d4394"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Reactivation banner entry point",
+      "description": "Adds a banner for reactivation entry point functionality",
+      "commits": [
+        "662ec0f2"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Payment page free cuts popup",
+      "description": "Displays popup for free cuts promotion on payment page for Good Chop",
+      "commits": [
+        "9a00c992",
+        "2ea67154"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Factor Form OTP frequency selector UI",
+      "description": "User interface for selecting delivery frequency in Factor Form one-time purchase flow",
+      "commits": [
+        "9c6f272e"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "PetFood PriceBreakDown on Dashboard",
+      "description": "Renders branched out PetFood price breakdown component only on dashboard view",
+      "commits": [
+        "0d54519c"
+      ],
+      "status": "modified"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Migrate price item component to Zest design system",
+      "rationale": "Standardization on Zest component library",
+      "ticket": "TPT-2233"
+    },
+    {
+      "what": "Migrate calculate endpoint to calculate prospect batch in VMS",
+      "rationale": "Part of Factor Form cart-service migration effort",
+      "ticket": "RTEVMS-2193"
+    },
+    {
+      "what": "Update source of customerPlanId for fetchPriceBreakdown logic",
+      "rationale": "Correct data source for price breakdown calculations",
+      "ticket": "TPT-2234"
+    },
+    {
+      "what": "Unify redirection logic",
+      "rationale": "Consolidate multiple redirection implementations into single logic",
+      "ticket": "TPT-2252"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Reactivation Good Chop tests",
+      "reason": "Update test coverage for reactivation flow",
+      "impact": "GOC-3312 test suite"
+    },
+    {
+      "area": "Step locators and retries",
+      "reason": "Improve test reliability and maintainability",
+      "impact": "Test automation framework"
+    },
+    {
+      "area": "Redirection logic",
+      "reason": "Consolidate multiple implementations",
+      "impact": "Navigation flow across application"
+    },
+    {
+      "area": "Free cuts popup minor refactor",
+      "reason": "Code cleanup and organization",
+      "impact": "GOC-3313 component"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Default cadence params on reactivation not working correctly",
+      "ticket": "RTEVMS-2244"
+    },
+    {
+      "issue": "Factor Form cart-service migration issues",
+      "ticket": "RTEVMS-2235"
+    },
+    {
+      "issue": "Preselect recipes feature reverted and re-implemented",
+      "ticket": "TPT-2202"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor Form",
+      "type": "feature",
+      "context": "Undergoing cart-service migration with multiple commits for OTP flow and calculate endpoint changes"
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Reactivation flow enhancements including free cuts popup, OTP data attributes, and test updates"
+    },
+    {
+      "name": "The Purple Table (TPT)",
+      "type": "brand",
+      "context": "Meal selection improvements, price item migration to Zest, and price breakdown updates"
+    },
+    {
+      "name": "PetFood",
+      "type": "feature",
+      "context": "Price breakdown component rendering logic updated for dashboard-specific display"
+    },
+    {
+      "name": "cart-service",
+      "type": "api",
+      "context": "Target of Factor Form migration effort"
+    },
+    {
+      "name": "VMS (Vendor Management System)",
+      "type": "system",
+      "context": "Calculate prospect batch endpoint being integrated"
+    },
+    {
+      "name": "Zest",
+      "type": "system",
+      "context": "Design system being adopted for price item component"
+    }
+  ],
+  "key_patterns": [
+    "Incremental migration pattern: Multiple commits show gradual migration of Factor Form to cart-service",
+    "Feature toggle/branching: PetFood price breakdown uses conditional rendering based on context",
+    "Revert and re-implement: TPT-2202 was reverted and reimplemented, suggesting iterative refinement",
+    "Cross-brand consistency: Similar patterns applied across Good Chop, Factor Form, and TPT (reactivation flows, price breakdowns)",
+    "Test-driven changes: Multiple commits include test updates alongside feature changes",
+    "GTM/Analytics integration: OTP data attributes added for tracking user behavior",
+    "Payload enrichment: Additional data added to delivery option updates for better tracking/functionality"
+  ]
+}

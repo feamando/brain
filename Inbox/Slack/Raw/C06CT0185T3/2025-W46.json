@@ -1,0 +1,1101 @@
+{
+  "channel_id": "C06CT0185T3",
+  "channel_name": "tribe-new-ventures-leads-internal",
+  "week": "2025-W46",
+  "extracted_at": "2026-01-02T10:39:48.923620Z",
+  "message_count": 2,
+  "messages": [
+    {
+      "subtype": "bot_message",
+      "text": "Heya New Ventures leads :wave:\n\n*This is your weekly reminder to please update the Weekly Team Update Notes before standup on Monday:*\n\n• :dance: General Tribe &amp; Social Updates: <@U03TY4YJU4X> <@UEZ4PRFKM> \n• :dog: The Pets Table Squad Updates: <@U03UMPD2NNS> <@U8F7ZDAPM> \n• :meat: GoodChop Squad Updates: <@U01AKGWGLC8> <@U07VDFEFBQU> <@U027201FQSV> \n• :gear: New Ventures Systems Squad Updates: <@U2D54V0UV> \n• :crossed_swords: Cross-selling &amp; PUMA Squad Updates: <@U01TQGXG9D3> <@U03R6F2AG9K> ",
+      "username": "New Ventures Tribe Weekly Notes Reminder",
+      "attachments": [
+        {
+          "id": 1,
+          "blocks": [
+            {
+              "type": "actions",
+              "block_id": "RZ6md",
+              "elements": [
+                {
+                  "type": "button",
+                  "action_id": "b5fa9f0a-aa2e-4a2a-8460-f5a1bd18e6b7",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Go To Notes",
+                    "emoji": true
+                  },
+                  "style": "primary",
+                  "url": "https://docs.google.com/document/d/1w_XOLs9WPoFBbz3GNjOxDpXGYVGlq7noplV26ZILCEU/edit?tab=t.0",
+                  "third_party_auth": {
+                    "enable_dynamic_auth": true
+                  }
+                }
+              ]
+            }
+          ],
+          "fallback": "[no preview available]"
+        }
+      ],
+      "type": "message",
+      "ts": "1763109005.794539",
+      "bot_id": "B099C38L3GE",
+      "app_id": "A098ZUFML9M",
+      "trigger_id": "Ft099E45M2R3",
+      "workflow_id": "Wf098ZUFPLG7",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SCIBY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Heya New Ventures leads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "unicode": "1f44b"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This is your weekly reminder to please update the Weekly Team Update ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Notes",
+                  "style": {
+                    "bold": true,
+                    "unlink": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " before standup on Monday:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dance"
+                    },
+                    {
+                      "type": "text",
+                      "text": " General Tribe & Social Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03TY4YJU4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "dog",
+                      "unicode": "1f436"
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Pets Table Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "meat"
+                    },
+                    {
+                      "type": "text",
+                      "text": " GoodChop Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01AKGWGLC8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U07VDFEFBQU"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U027201FQSV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "gear",
+                      "unicode": "2699-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " New Ventures Systems Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U2D54V0UV"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "crossed_swords",
+                      "unicode": "2694-fe0f"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Cross-selling & PUMA Squad Updates: "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01TQGXG9D3"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03R6F2AG9K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "reactions": [
+        {
+          "name": "check",
+          "users": [
+            "U09D8BZ9891"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U01AKGWGLC8",
+      "type": "message",
+      "ts": "1762937520.974529",
+      "edited": {
+        "user": "U01AKGWGLC8",
+        "ts": "1762937592.000000"
+      },
+      "client_msg_id": "3182f6af-1323-472b-a9f0-f7e7baf4ab80",
+      "text": "Regarding the next demo Nov 18\n\nPortfolio team messaged me to ask if Good Chop wanted to demo instead. Are there other teams that also wanted to demo for this upcoming session?\n\nNikita is on pat leave already so let's just align how many of us wanted to sign up and see if we can all fit in <@U03UMPD2NNS> <@U8F7ZDAPM> <@U01BT6RE4JG> <@U09D8BZ9891> cc <@UEZ4PRFKM>",
+      "team": "T02AGMUUR",
+      "thread_ts": "1762937520.974529",
+      "reply_count": 18,
+      "reply_users_count": 4,
+      "latest_reply": "1762956930.884179",
+      "reply_users": [
+        "U01AKGWGLC8",
+        "U03UMPD2NNS",
+        "UEZ4PRFKM",
+        "U09D8BZ9891"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "pxTsN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Regarding the next demo Nov 18\n\nPortfolio team messaged me to ask if Good Chop wanted to demo instead. Are there other teams that also wanted to demo for this upcoming session?\n\nNikita is on pat leave already so let's just align how many of us wanted to sign up and see if we can all fit in "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03UMPD2NNS"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U8F7ZDAPM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01BT6RE4JG"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U09D8BZ9891"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "UEZ4PRFKM"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "language": {
+        "locale": "en",
+        "is_reliable": true
+      },
+      "_thread_replies": [
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762937552.195839",
+          "client_msg_id": "33111542-4ffc-4d18-a824-cc9a4e673883",
+          "text": "Good Chop would demo the Multi-SKU free cut selection on the Reactivation page",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lYb/2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Good Chop would demo the Multi-SKU free cut selection on the Reactivation page"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1762937674.059579",
+          "client_msg_id": "ab13dbea-d761-4e7b-a5ad-3a829c41f0f2",
+          "text": "Exciting! I wont be there on 18th of Nov + I am not sure if our current initiaitves are worth demoing",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ok8Ae",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Exciting! I wont be there on 18th of Nov + I am not sure if our current initiaitves are worth demoing"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762937699.458469",
+          "client_msg_id": "32d1a9e6-26db-40a0-b3e3-4637a8e292d1",
+          "text": "what about the Allergies?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rAIsO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "what about the Allergies?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762937704.757929",
+          "client_msg_id": "32418d30-0b9c-4a9b-a3c4-18c5347aac9b",
+          "text": "didn't you want to demo that",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZS1fT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "didn't you want to demo that"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1762937843.313229",
+          "client_msg_id": "65bee921-4779-476f-9d2d-f31c4f3adf03",
+          "text": "tbh, we launched it so long ago... I am not sure how relevant it is, <@U8F7ZDAPM> wdyt?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d9SBp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "tbh, we launched it so long ago... I am not sure how relevant it is, "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U8F7ZDAPM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " wdyt?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1762938192.341379",
+          "client_msg_id": "DD1DC341-C6F7-4338-88F9-CCC165AA7297",
+          "text": "It should be fine to have 1 demo from NV for every session. If goodchop is good to do the next one we can plan with VMS and TPT for the ones after. <@U03UMPD2NNS> how about project heaven?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "i4hCW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It should be fine to have 1 demo from NV for every session. If goodchop is good to do the next one we can plan with VMS and TPT for the ones after. "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03UMPD2NNS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " how about project heaven?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762939876.163569",
+          "client_msg_id": "0d3c8ccb-ad8f-43dd-8f3a-6792bfc6e848",
+          "text": "ok just let me know and I will confirm with Haley re Good Chop if TPT doesn't want to present",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B9p/L",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ok just let me know and I will confirm with Haley re Good Chop if TPT doesn't want to present"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1762940992.896029",
+          "client_msg_id": "09c1975a-e5c2-4d90-80e8-3426285d5826",
+          "text": "Project Heaven might be a bit hard for people outside of the HF world to understand, it' a TPT specific problem.",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "swSJn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Project Heaven might be a bit hard for people outside of the HF world to understand, it' a TPT specific problem."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1762941002.868159",
+          "client_msg_id": "1a5b59ad-68ec-4b3b-9e79-5d89b7630070",
+          "text": "We could do it, I wonder only how relevant it is?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5vzhB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We could do it, I wonder only how relevant it is?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U03UMPD2NNS",
+          "type": "message",
+          "ts": "1762941010.520839",
+          "client_msg_id": "fdba16d4-925a-4ccc-8ea2-ea0874508f9b",
+          "text": "Also the impact is quite low",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EK0gA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Also the impact is quite low"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1762943524.668119",
+          "client_msg_id": "B46128A1-235F-4F1B-8BD2-70FF611C7866",
+          "text": "For sure, but it’s more around the variety in functionality that is outside of the every teams norm that they might find interesting, not just impact. But all good, let’s brainstorm some projects in the next week for both VMS and TPT (it could also be some of the initiatives GD helped us deliver)",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "p9ypD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For sure, but "
+                    },
+                    {
+                      "type": "text",
+                      "text": "it’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " more around the variety in functionality that is outside of the every teams norm that they might find interesting, not just impact. But all good, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "let’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " brainstorm some projects in the next week for both VMS and TPT (it could also be some of the initiatives GD helped us deliver)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762943574.483579",
+          "client_msg_id": "27511419-21f2-416f-a070-ee8b2a0bb474",
+          "text": "OK I will confirm spot for Good Chop on Nov 18 then",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "A9aJP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK I will confirm spot for Good Chop on Nov 18 then"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1762955316.159719",
+          "client_msg_id": "F8F5DB50-E92B-4EBE-A5B0-FD2A93CD0A38",
+          "text": "VMS hasn't had a recent rollout, so nothing to demo for Nov 18, but we'll hopefully be able to demo the multi cadense project for the one after that",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "irJJZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "VMS hasn't had a recent rollout, so nothing to demo for Nov 18, but we'll hopefully be able to demo the multi cadense project for the one after that"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1762955620.533229",
+          "client_msg_id": "c8385d23-6b62-4f9f-8e4c-2ceff91c57d9",
+          "text": "<@U09D8BZ9891> i know VMS has launches for the OTP in early Dec and Shopify mid Dec - these could be good candidates?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7Qd3R",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": " i know VMS has launches for the OTP in early Dec and Shopify mid Dec - these could be good candidates?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1762955763.215109",
+          "client_msg_id": "4195D814-0E48-4CEA-BE32-64319E562B4E",
+          "text": "OTP is planned to go live on W51, and Shopify will probably be in early Jan. Do we want to demo on production? If not, we can demo on staging to the extent possible",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "y5D1a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OTP is planned to go live on W51, and Shopify will probably be in early Jan. Do we want to demo on production? If not, we can demo on staging to the extent possible"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U01AKGWGLC8",
+          "type": "message",
+          "ts": "1762955820.738649",
+          "client_msg_id": "4743002a-fc2e-40a8-82a4-ac6aa4498f68",
+          "text": "OTP Good Chop go live is also planned for W51 tentatively just FYI <@UEZ4PRFKM>",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aL01r",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OTP Good Chop go live is also planned for W51 tentatively just FYI "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "UEZ4PRFKM"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          },
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "UEZ4PRFKM"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "user": "UEZ4PRFKM",
+          "type": "message",
+          "ts": "1762956240.993959",
+          "client_msg_id": "4ca3c883-5de4-4ce3-b55b-23d63417f2cd",
+          "text": "Yea ideally it should be launched or at least in some stage of beta or alpha testing before we demo. <@U09D8BZ9891> but I got a ping from <@U01VC869ZBP> today <https://hellofresh.slack.com/archives/C09STR7LE81/p1762952190536379|saying> Shopify launch is mid Dec, is this aligned?",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "attachments": [
+            {
+              "from_url": "https://hellofresh.slack.com/archives/C09STR7LE81/p1762952190536379",
+              "ts": "1762952190.536379",
+              "author_id": "U01VC869ZBP",
+              "channel_id": "C09STR7LE81",
+              "channel_team": "T02AGMUUR",
+              "is_msg_unfurl": true,
+              "message_blocks": [
+                {
+                  "team": "T02AGMUUR",
+                  "channel": "C09STR7LE81",
+                  "ts": "1762952190.536379",
+                  "message": {
+                    "blocks": [
+                      {
+                        "type": "rich_text",
+                        "block_id": "GObzV",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "Hi team - creating a channel for us to keep track of launch topics outside of just what Anatta is delivering.\n\nOur launch date is "
+                              },
+                              {
+                                "type": "text",
+                                "text": "December 15",
+                                "style": {
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "text": ", which is only a month away, so it’s critical for us to be communicating and aware of what each of us owns.\n\nI set up a weekly call on Mondays for us to run through topics and statuses so we can unblock each other as needed. \n\nLooking forward to delivering this together!"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "private_channel_prompt": true,
+              "id": 1,
+              "original_url": "https://hellofresh.slack.com/archives/C09STR7LE81/p1762952190536379",
+              "fallback": "[November 12th, 2025 4:56 AM] laura.loughran: Hi team - creating a channel for us to keep track of launch topics outside of just what Anatta is delivering.\n\nOur launch date is *December 15*, which is only a month away, so it’s critical for us to be communicating and aware of what each of us owns.\n\nI set up a weekly call on Mondays for us to run through topics and statuses so we can unblock each other as needed. \n\nLooking forward to delivering this together!",
+              "text": "Hi team - creating a channel for us to keep track of launch topics outside of just what Anatta is delivering.\n\nOur launch date is *December 15*, which is only a month away, so it’s critical for us to be communicating and aware of what each of us owns.\n\nI set up a weekly call on Mondays for us to run through topics and statuses so we can unblock each other as needed. \n\nLooking forward to delivering this together!",
+              "author_name": "Laura Loughran",
+              "author_link": "https://hellofresh.slack.com/team/U01VC869ZBP",
+              "author_icon": "https://avatars.slack-edge.com/2023-10-24/6074623702471_737fc2836a4cecc9b3a9_48.jpg",
+              "author_subname": "Laura Loughran",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "footer": "Slack Conversation"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "biJ4W",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yea ideally it should be launched or at least in some stage of beta or alpha testing before we demo. "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U09D8BZ9891"
+                    },
+                    {
+                      "type": "text",
+                      "text": " but I got a ping from "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01VC869ZBP"
+                    },
+                    {
+                      "type": "text",
+                      "text": " today "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hellofresh.slack.com/archives/C09STR7LE81/p1762952190536379",
+                      "text": "saying"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Shopify launch is mid Dec, is this aligned?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        },
+        {
+          "user": "U09D8BZ9891",
+          "type": "message",
+          "ts": "1762956930.884179",
+          "client_msg_id": "58C7AFB1-B383-4816-B138-E682D08FF0B4",
+          "text": "Ohh, maybe it's been accelerated. I'm not leading the Shopify project so I might not be up to date. It's being led by Laura and Sameer ",
+          "team": "T02AGMUUR",
+          "thread_ts": "1762937520.974529",
+          "parent_user_id": "U01AKGWGLC8",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "z32g/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ohh, maybe it's been accelerated. I'm not leading the Shopify project so I might not be up to date. It's being led by Laura and Sameer "
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": {
+            "locale": "en",
+            "is_reliable": true
+          }
+        }
+      ]
+    }
+  ]
+}

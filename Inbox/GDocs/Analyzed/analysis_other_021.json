@@ -1,0 +1,726 @@
+{
+  "batch_id": "other_021",
+  "doc_type": "other",
+  "doc_count": 7,
+  "results": [
+    {
+      "doc_title": "HelloTech FAQ: HelloTech employee hub in Poland",
+      "doc_id": "1blbnYkSAP-T8E7E-7wDCSwei2Uj9BUIa9njDG--AdqM",
+      "doc_type": "other",
+      "summary": "HelloTech is establishing a new employee hub in Wrocław, Poland as part of a cost-reduction strategy. The hub will be staffed through natural attrition to maintain development capacity while reducing costs, with Berlin remaining as HelloTech's headquarters. The move is driven by financial goals to achieve sustainable cost savings that can be reinvested into product development.",
+      "key_points": [
+        "New HelloTech employee hub opening in Wrocław, Poland to reduce Cost to Serve",
+        "Roles will be filled through natural attrition, not affecting current employees' roles or responsibilities",
+        "Poland employees will follow same 3-day in-office hybrid work policy as other sites",
+        "Berlin will continue as HelloTech headquarters",
+        "Wrocław chosen for strong talent pool, cost efficiency, location stability, and growth potential",
+        "iOS app homepage issue reported and being investigated via Slack",
+        "Lokalise translation tasks created and deleted for HelloFresh Homepage Order cards experiment"
+      ],
+      "decisions": [
+        "Opening new employee hub in Wrocław, Poland",
+        "Backfilling roles in Poland through natural attrition",
+        "Maintaining 3-day in-office hybrid work policy for Poland hub",
+        "Berlin remains as HelloTech HQ"
+      ],
+      "action_items": [
+        "Line managers should reach out to Juliana de Carvalho Nogueira for open roles or recruitment questions about Poland",
+        "Work with Alliance leaders to determine logistical next steps for Poland recruitment",
+        "iOS app homepage issue being investigated in Slack channel C0A3ESS0SEB",
+        "Leaders may need to travel between locations for hybrid team-building activities"
+      ],
+      "entities": [
+        {
+          "name": "HelloTech",
+          "type": "brand",
+          "context": "Company establishing new hub in Poland"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company, mentioned in iOS app issue and line management context"
+        },
+        {
+          "name": "Wrocław",
+          "type": "project",
+          "context": "Location of new employee hub in Poland"
+        },
+        {
+          "name": "Berlin",
+          "type": "project",
+          "context": "Current and continuing headquarters of HelloTech"
+        },
+        {
+          "name": "Poland",
+          "type": "project",
+          "context": "Country where new hub is being established"
+        },
+        {
+          "name": "Juliana de Carvalho Nogueira",
+          "type": "person",
+          "context": "Contact person for recruitment questions about Poland"
+        },
+        {
+          "name": "Elena Pavlova",
+          "type": "person",
+          "context": "Responded to iOS app homepage issue"
+        },
+        {
+          "name": "Gabriel Range",
+          "type": "person",
+          "context": "Director Engineering who reported iOS app homepage issue"
+        },
+        {
+          "name": "Lokalise",
+          "type": "system",
+          "context": "Translation/localization platform sending task notifications"
+        },
+        {
+          "name": "HelloFresh iOS App",
+          "type": "system",
+          "context": "Mobile application experiencing homepage display issue"
+        }
+      ]
+    },
+    {
+      "doc_title": "Alexander Matlin - Handover - Vacation Coverage (31.12.2025 - 11.01.2026)",
+      "doc_id": "1_vZ6NC6grV-WHgqfvrsyWeCrYewTiqgmtVuAiwMybFE",
+      "doc_type": "other",
+      "summary": "This is a handover document for Alexander Matlin's vacation coverage from December 31, 2025 to January 11, 2026. It outlines four ongoing projects with their current status, assigned owners, and pending actions. All items are currently in 'To Do' status and require attention during the vacation period.",
+      "key_points": [
+        "Charge at Checkout experiment was stopped on Dec 29, 2025 due to Statsig health issues and 8% error rate in 500 errors",
+        "OTP project needs ticket updates to reflect new approach using OTP API endpoint instead of reactivation flow",
+        "Three internal candidates are pending approval for Good Chop hiring positions (Senior Frontend, Frontend, and Senior Backend Engineer)",
+        "New York expenses are awaiting approval from Daniel Arias"
+      ],
+      "decisions": [
+        "Charge at Checkout experiment allocation was stopped on Dec 29, 2025",
+        "OTP approach changed to use OTP API endpoint instead of reactivation flow"
+      ],
+      "action_items": [
+        "Beatrice Dimarucut to escalate Charge at Checkout issues to Daniel Arias or Nikita Gorshkov if needed",
+        "Experimentation Core team to start investigation on Jan 7, 2025 when developer returns from vacation",
+        "Beatrice Dimarucut to ask Himash Tehan to update OTP tickets",
+        "Daniel Arias to get approval from Holger Hammel for three hiring positions and officially open them",
+        "Daniel Arias to approve New York expenses"
+      ],
+      "entities": [
+        {
+          "name": "Alexander Matlin",
+          "type": "person",
+          "context": "Document author on vacation from Dec 31, 2025 to Jan 11, 2026"
+        },
+        {
+          "name": "Beatrice Dimarucut",
+          "type": "person",
+          "context": "Assignee for Charge at Checkout and OTP projects"
+        },
+        {
+          "name": "Daniel Arias",
+          "type": "person",
+          "context": "Escalation contact and assignee for Good Chop hiring approval and expense approval"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Alternative escalation contact for Charge at Checkout issues"
+        },
+        {
+          "name": "Himash Tehan",
+          "type": "person",
+          "context": "Responsible for updating OTP tickets"
+        },
+        {
+          "name": "Holger Hammel",
+          "type": "person",
+          "context": "Approval authority for three hiring positions"
+        },
+        {
+          "name": "Jaussman Sanchez",
+          "type": "person",
+          "context": "Internal candidate for Senior Frontend Engineer position"
+        },
+        {
+          "name": "Vinh Nguyen",
+          "type": "person",
+          "context": "Internal candidate for Frontend Engineer position"
+        },
+        {
+          "name": "Liubov Fomicheva",
+          "type": "person",
+          "context": "Internal candidate for Senior Backend Engineer position"
+        },
+        {
+          "name": "Vinicius Fernandes de Jesus",
+          "type": "person",
+          "context": "Will facilitate technical interview for Senior Backend Engineer position"
+        },
+        {
+          "name": "Charge at Checkout",
+          "type": "project",
+          "context": "Experiment stopped due to Statsig health issues and 8% error rate"
+        },
+        {
+          "name": "OTP",
+          "type": "project",
+          "context": "Project requiring ticket updates for new API endpoint approach"
+        },
+        {
+          "name": "Good Chop",
+          "type": "project",
+          "context": "Hiring initiative with three positions pending approval"
+        },
+        {
+          "name": "Statsig",
+          "type": "system",
+          "context": "Experimentation platform experiencing group assignment health issues"
+        },
+        {
+          "name": "Experimentation Core",
+          "type": "system",
+          "context": "Team responsible for investigating Statsig issues starting Jan 7, 2025"
+        }
+      ]
+    },
+    {
+      "doc_title": "LEGO: Unified Prospects Checkout Features and Layout for Meal Brands",
+      "doc_id": "1dnd_dG5JhrqzfoYcS5ZteosMyOzs6jgaUPmBc8GMpts",
+      "doc_type": "other",
+      "summary": "LEGO is an initiative to create a unified prospects checkout experience across all HelloFresh Group meal brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate, Factor, and Youfoodz). The project involves refactoring checkout into modular, reusable features to reduce code duplication across 31 distinct codebases and improve development velocity. As of the document date, most core features have been rolled out, with the unified layout implementation in progress for H1-2025.",
+      "key_points": [
+        "HelloFresh Group operates 8 brands across 18 countries with 31 distinct checkout codebases that need standardization",
+        "Checkout ownership was transferred to Growth Alliance in January 2025 to centralize management",
+        "Core checkout features (Order Summary, Register Form, Address Form, Delivery Details, Payment Methods) are being modularized and unified across brands",
+        "Most features have been successfully rolled out to HelloFresh and RTE/WLMK brands, with some experiments still in progress",
+        "The unified 'Lego Checkout' layout has been rolled out across brands",
+        "2025 objective is to accelerate product development velocity for RTE brands by distributing ownership across consumer-facing alliances"
+      ],
+      "decisions": [
+        "Social Logins Feature showed neutral results for RTE/WLMK brands and will not be rolled out",
+        "Delivery Details Feature showed neutral results for RTE/WLMK mobile",
+        "Register Form Feature experiment to be re-launched for HelloFresh",
+        "Rollout decision for US experiment to be made mid-March"
+      ],
+      "action_items": [
+        "UFI-9680: Integrate with New Progress bar (Completed ETA Mar 28, 2025)",
+        "UFI-9678: Remove invalid voucher before making OPS call/query params (Completed ETA Mar 28, 2025)",
+        "UFI-9682: Add check for logged-in user/cart-id and redirect (Completed ETA Mar 28, 2025)",
+        "UFI-9686: Add lego-checkout applanga group for caching (Completed)",
+        "UFI-9693: Check requirement for CTA sticky-ness (Not Started)",
+        "@anupam.maurya@hellofresh.com to add tickets for items to be moved to Features",
+        "@anupam.maurya@hellofresh.com to consider layout work requirements in broken down tickets",
+        "@anupam.maurya@hellofresh.com to add a spike",
+        "@harneet.singh@hellofresh.com to provide status update"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary mealkit brand with original checkout being refactored"
+        },
+        {
+          "name": "GreenChef",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "EveryPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "ChefsPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand included in unified checkout"
+        },
+        {
+          "name": "Youfoodz",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand included in unified checkout"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not included in current scope"
+        },
+        {
+          "name": "Pets Table",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not included in current scope"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Team that received checkout ownership in January 2025"
+        },
+        {
+          "name": "TAM Alliance",
+          "type": "system",
+          "context": "Previous owner of activation user journey scope"
+        },
+        {
+          "name": "LEGO Checkout",
+          "type": "project",
+          "context": "Unified prospects checkout layout initiative"
+        },
+        {
+          "name": "Modular Checkout",
+          "type": "project",
+          "context": "Checkout code setup with independent, reusable unified features"
+        },
+        {
+          "name": "Single Page Checkout",
+          "type": "project",
+          "context": "Initiative that created technical format for new checkout layout"
+        },
+        {
+          "name": "anupam.maurya@hellofresh.com",
+          "type": "person",
+          "context": "Assigned multiple action items related to feature tickets and layout work"
+        },
+        {
+          "name": "harneet.singh@hellofresh.com",
+          "type": "person",
+          "context": "Assigned to provide status update"
+        },
+        {
+          "name": "nikita.gorshkov@hellofresh.com",
+          "type": "person",
+          "context": "Mentioned in discussion about NV brand integration"
+        }
+      ]
+    },
+    {
+      "doc_title": "LEGO: Unified Prospects Checkout Features and Layout for Meal Brands",
+      "doc_id": "1dnd_dG5JhrqzfoYcS5ZteosMyOzs6jgaUPmBc8GMpts",
+      "doc_type": "other",
+      "summary": "LEGO is an initiative to create a unified prospects checkout experience across all HelloFresh Group meal brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate, Factor, and Youfoodz). The project involves refactoring checkout into modular, reusable features to reduce development effort and enable centralized management of 31 distinct codebases across 8 brands and 18 countries. The goal for H1-2025 is to complete feature modularization and unify checkout layouts for all meal brands.",
+      "key_points": [
+        "Unified checkout will work across all Mealkit brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate) and RTE brands (Factor, Youfoodz)",
+        "Checkout ownership transferred from TAM Alliance to Growth Alliance in January 2025, expanding scope to 31 distinct codes",
+        "Most checkout features (Order Summary, Register Form, Address Form, Delivery Details, Payment Methods) have been rolled out across brands",
+        "Unified Layout (Lego Checkout) has been rolled out for HelloFresh and other brands",
+        "Initiative aims to accelerate product development velocity and reduce isolated work efforts across brands",
+        "Social Logins Feature showed neutral results for RTE/WLMK brands with no rollout planned",
+        "NV (accounting for ~$250M annual revenue) was not included in original scope but could potentially adopt Lego with additional work"
+      ],
+      "decisions": [
+        "Social Logins Feature will not be rolled out to RTE/WLMK brands due to neutral experiment results",
+        "Rollout decision for US experiment to be made mid-March",
+        "Delivery Details Feature showed neutral results for RTE/WLMK mobile rollout"
+      ],
+      "action_items": [
+        "UFI-9680: Integrate with New Progress bar (Completed ETA Mar 28, 2025)",
+        "UFI-9678: Remove invalid voucher before making OPS call/query params (Completed ETA Mar 28, 2025)",
+        "UFI-9682: Add check for logged-in user/cart-id and redirect (Completed ETA Mar 28, 2025)",
+        "UFI-9686: Add lego-checkout applanga group for caching (Completed)",
+        "UFI-9693: Check requirement for CTA sticky-ness (Not Started)",
+        "@anupam.maurya@hellofresh.com to add tickets for items to be moved to Features",
+        "@anupam.maurya@hellofresh.com to confirm layout work considerations in broken down tickets",
+        "@anupam.maurya@hellofresh.com to add a spike",
+        "@harneet.singh@hellofresh.com to provide status update"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary mealkit brand with completed feature rollouts"
+        },
+        {
+          "name": "GreenChef",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "EveryPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "ChefsPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand with rolled out features"
+        },
+        {
+          "name": "Youfoodz",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand included in unified checkout"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not transferred to Growth Alliance"
+        },
+        {
+          "name": "Pets Table",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not transferred to Growth Alliance"
+        },
+        {
+          "name": "NV",
+          "type": "brand",
+          "context": "Not included in original scope despite $250M+ annual revenue, potential future addition"
+        },
+        {
+          "name": "LEGO",
+          "type": "project",
+          "context": "Main initiative name for unified prospects checkout"
+        },
+        {
+          "name": "Modular Checkout",
+          "type": "system",
+          "context": "Checkout code setup with independent, reusable unified features"
+        },
+        {
+          "name": "Single Page Checkout",
+          "type": "project",
+          "context": "Previous initiative that created technical format for new checkout layout"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Team that received checkout ownership in January 2025"
+        },
+        {
+          "name": "TAM Alliance",
+          "type": "system",
+          "context": "Team that previously owned activation user journey scope"
+        },
+        {
+          "name": "anupam.maurya@hellofresh.com",
+          "type": "person",
+          "context": "Assigned multiple action items related to feature tickets and layout work"
+        },
+        {
+          "name": "harneet.singh@hellofresh.com",
+          "type": "person",
+          "context": "Assigned to provide status update"
+        },
+        {
+          "name": "nikita.gorshkov@hellofresh.com",
+          "type": "person",
+          "context": "Mentioned in discussion about NV brand integration"
+        }
+      ]
+    },
+    {
+      "doc_title": "LEGO: Unified Prospects Checkout Features and Layout for Meal Brands",
+      "doc_id": "1dnd_dG5JhrqzfoYcS5ZteosMyOzs6jgaUPmBc8GMpts",
+      "doc_type": "other",
+      "summary": "LEGO is an initiative to create a unified prospects checkout experience across all HelloFresh Group meal brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate, Factor, and Youfoodz). The project involves refactoring checkout into modular, reusable features to reduce development effort and enable centralized management of 31 distinct codebases across 8 brands and 18 countries. The goal for H1-2025 is to complete feature modularization and unify checkout layouts for all meal brands.",
+      "key_points": [
+        "Unified checkout will work across all Mealkit brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate) and RTE brands (Factor, Youfoodz)",
+        "Checkout ownership transferred from TAM Alliance to Growth Alliance in January 2025, expanding scope to 31 distinct codes",
+        "Most checkout features (Order Summary, Register Form, Address Form, Delivery Details, Payment Methods) have been rolled out across brands",
+        "Unified Layout (Lego Checkout) has been rolled out for HelloFresh and other brands",
+        "Initiative aims to accelerate product development velocity and reduce isolated work efforts across brands",
+        "Social Logins Feature showed neutral results for RTE/WLMK brands with no rollout planned",
+        "NV (accounting for ~$250M annual revenue) was not included in original scope but could potentially adopt Lego with additional work"
+      ],
+      "decisions": [
+        "Social Logins Feature will not be rolled out to RTE/WLMK brands due to neutral experiment results",
+        "Rollout decision for US experiment to be made mid-March",
+        "Delivery Details Feature showed neutral results for RTE/WLMK mobile rollout"
+      ],
+      "action_items": [
+        "UFI-9680: Integrate with New Progress bar (Completed ETA Mar 28, 2025)",
+        "UFI-9678: Remove invalid voucher before making OPS call/query params (Completed ETA Mar 28, 2025)",
+        "UFI-9682: Add check for logged-in user/cart-id and redirect (Completed ETA Mar 28, 2025)",
+        "UFI-9686: Add lego-checkout applanga group for caching (Completed)",
+        "UFI-9693: Check requirement for CTA sticky-ness (Not Started)",
+        "@anupam.maurya@hellofresh.com to add tickets for items to be moved to Features",
+        "@anupam.maurya@hellofresh.com to confirm layout work considerations in broken down tickets",
+        "@anupam.maurya@hellofresh.com to add a spike",
+        "@harneet.singh@hellofresh.com to provide status update"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary mealkit brand with completed feature rollouts"
+        },
+        {
+          "name": "GreenChef",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "EveryPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "ChefsPlate",
+          "type": "brand",
+          "context": "WLMK/New Mealkit brand included in unified checkout"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand with rolled out features"
+        },
+        {
+          "name": "Youfoodz",
+          "type": "brand",
+          "context": "RTE (Ready-to-Eat) brand included in unified checkout"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not transferred to Growth Alliance"
+        },
+        {
+          "name": "Pets Table",
+          "type": "brand",
+          "context": "Brand remaining in TAM Alliance, not transferred to Growth Alliance"
+        },
+        {
+          "name": "NV",
+          "type": "brand",
+          "context": "Not included in original scope despite $250M+ annual revenue, potential future adoption"
+        },
+        {
+          "name": "LEGO",
+          "type": "project",
+          "context": "Main initiative name for unified prospects checkout"
+        },
+        {
+          "name": "Modular Checkout",
+          "type": "project",
+          "context": "Technical approach using independent, reusable unified features"
+        },
+        {
+          "name": "Single Page Checkout",
+          "type": "project",
+          "context": "Previous initiative that created technical format for new checkout layout"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Team that received checkout ownership in January 2025"
+        },
+        {
+          "name": "TAM Alliance",
+          "type": "system",
+          "context": "Team that previously owned activation user journey scope"
+        },
+        {
+          "name": "anupam.maurya@hellofresh.com",
+          "type": "person",
+          "context": "Assigned multiple action items related to feature tickets and layout work"
+        },
+        {
+          "name": "harneet.singh@hellofresh.com",
+          "type": "person",
+          "context": "Assigned to provide status update"
+        },
+        {
+          "name": "nikita.gorshkov@hellofresh.com",
+          "type": "person",
+          "context": "Mentioned in discussion about NV brand integration"
+        }
+      ]
+    },
+    {
+      "doc_title": "LEGO: Unified Prospects Checkout Features and Layout for Meal Brands",
+      "doc_id": "1dnd_dG5JhrqzfoYcS5ZteosMyOzs6jgaUPmBc8GMpts",
+      "doc_type": "other",
+      "summary": "LEGO is an initiative to create a unified prospects checkout experience across all HelloFresh Group meal brands (HelloFresh, GreenChef, EveryPlate, ChefsPlate, Factor, and Youfoodz). The project involves refactoring checkout into modular, reusable features to reduce code duplication across 31 distinct codebases and improve development velocity. The goal for H1-2025 is to complete feature modularization and unify checkout layouts for all meal brands.",
+      "key_points": [
+        "HelloFresh Group operates 8 brands across 18 countries with 31 distinct checkout codebases to manage",
+        "Checkout ownership was transferred from TAM Alliance to Growth Alliance in January 2025 to centralize management",
+        "Most checkout features (Order Summary, Register Form, Address Form, Delivery Details, Payment Methods) have been rolled out across brands",
+        "The unified layout (Lego Checkout) has been rolled out for HelloFresh, RTE, and New Mealkits brands",
+        "Initiative aims to accelerate product development velocity and ensure consistency across brands by using shared, reusable components",
+        "NV brand (accounting for ~$250M annual revenue) was not included in original scope but may need integration"
+      ],
+      "decisions": [
+        "Social Logins Feature showed neutral results for RTE/WLMK brands and will not be rolled out",
+        "Delivery Details Feature showed neutral results for RTE/WLMK mobile",
+        "Rollout decision for US experiment to be made mid-March",
+        "Growth Alliance now owns checkout for all brands except GoodChop and Pets Table (remaining with TAM)"
+      ],
+      "action_items": [
+        "Complete feature modularization and unify layouts for all meal brands by H1-2025",
+        "Re-launch Register Form Feature experiment for HelloFresh",
+        "Re-launch Social Logins Feature experiment for HelloFresh",
+        "Anupam Maurya to add tickets for items that need to be moved to Features",
+        "Anupam Maurya to confirm layout work includes specific component and add spike",
+        "Harneet Singh to provide status update on specific item",
+        "Complete UFI-9693: Check requirement for CTA sticky-ness (Not Started)",
+        "Integrate with new progress bar (UFI-9680, ETA Mar 28, 2025)",
+        "Remove invalid voucher from payload after first checkout attempt (UFI-9678, ETA Mar 28, 2025)",
+        "Add check for logged-in user/cart-id and redirect (UFI-9682, ETA Mar 28, 2025)"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary mealkit brand with original modular checkout implementation"
+        },
+        {
+          "name": "GreenChef",
+          "type": "brand",
+          "context": "Mealkit brand included in WLMK/New Mealkits group"
+        },
+        {
+          "name": "EveryPlate",
+          "type": "brand",
+          "context": "Mealkit brand included in WLMK/New Mealkits group"
+        },
+        {
+          "name": "ChefsPlate",
+          "type": "brand",
+          "context": "Mealkit brand included in WLMK/New Mealkits group"
+        },
+        {
+          "name": "Factor",
+          "type": "brand",
+          "context": "Ready-to-Eat (RTE) brand"
+        },
+        {
+          "name": "Youfoodz",
+          "type": "brand",
+          "context": "Ready-to-Eat (RTE) brand"
+        },
+        {
+          "name": "GoodChop",
+          "type": "brand",
+          "context": "Brand remaining with TAM Alliance, not in Growth Alliance scope"
+        },
+        {
+          "name": "Pets Table",
+          "type": "brand",
+          "context": "Brand remaining with TAM Alliance, not in Growth Alliance scope"
+        },
+        {
+          "name": "NV",
+          "type": "brand",
+          "context": "Brand with ~$250M annual revenue not included in original scope, potential future integration"
+        },
+        {
+          "name": "LEGO",
+          "type": "project",
+          "context": "Main initiative name for unified checkout"
+        },
+        {
+          "name": "Modular Checkout",
+          "type": "project",
+          "context": "Technical approach using independent, reusable unified features"
+        },
+        {
+          "name": "Single Page Checkout",
+          "type": "project",
+          "context": "Previous initiative that created technical format for new checkout layout"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Team that received checkout ownership in January 2025"
+        },
+        {
+          "name": "TAM Alliance",
+          "type": "system",
+          "context": "Team that previously owned activation user journey, still owns GoodChop and Pets Table"
+        },
+        {
+          "name": "Anupam Maurya",
+          "type": "person",
+          "context": "Assigned multiple action items related to feature tickets and layout work"
+        },
+        {
+          "name": "Harneet Singh",
+          "type": "person",
+          "context": "Assigned to provide status update"
+        },
+        {
+          "name": "Nikita Gorshkov",
+          "type": "person",
+          "context": "Mentioned in discussion about NV brand integration"
+        }
+      ]
+    },
+    {
+      "doc_title": "IXI Results: Creator Marketplace Customer Interviews",
+      "doc_id": "1TQbbdGdYmSTYpNycSvHsAW8JP8l0EWBi--vW7X0CbU0",
+      "doc_type": "other",
+      "summary": "Research participants responded positively to HelloFresh's Influencer Marketplace concept, which addresses friction points in sourcing niche ingredients and managing saved recipes. However, trust is driven by practical signals rather than influencer status, with users expecting HelloFresh to vet recipes or provide transparent community ratings. The marketplace is viewed as an occasion-based solution favoring one-time purchases over subscriptions, with food-first discovery preferred over creator-led browsing.",
+      "key_points": [
+        "Concept addresses two major pain points: difficulty sourcing niche ingredients and forgotten saved recipes",
+        "Trust driven by practical signals (visuals, instructions, verification) rather than influencer status alone",
+        "Users expect HelloFresh to ensure recipe quality through testing/approval or transparent community ratings",
+        "Marketplace perceived as occasion-based (weekends, hosting, dinner) rather than everyday meal planning",
+        "Strong preference for one-time purchases over subscription requirements to lower barrier to trial",
+        "Discovery should be food-first (ingredient/cuisine search) rather than creator-led",
+        "Need for robust recipe management tools including custom organization and scheduling features",
+        "Participants skeptical about unverified creator recipes without HelloFresh vetting"
+      ],
+      "decisions": [
+        "Include direct links to original social media videos on recipe pages (supported by 4 out of 8 participants)",
+        "Implement verified badge system for HelloFresh-tested recipes",
+        "Create unfiltered review system with ratings, feedback, and photos",
+        "Add recipe comments or Q&A section separate from reviews",
+        "Avoid forced subscription model as it creates financial and psychological barriers"
+      ],
+      "action_items": [
+        "Forward idea to DAU team (mentioned by katheryn.eckles)",
+        "Implement digital curation/personalization to address recipe engagement issues",
+        "Consider clean-up process for recipes with no engagement over time",
+        "Create video clips documenting: sentiment/reactions, main barriers to cooking influencer recipes, trust mechanisms, usage scenarios, subscription expectations, navigation preferences, and saved recipe features"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Company conducting research on Influencer/Creator Marketplace concept; expected to vet recipes and ensure quality"
+        },
+        {
+          "name": "Influencer Marketplace / Creator Marketplace",
+          "type": "project",
+          "context": "New concept being researched to allow users to purchase recipes from social media influencers with ingredient delivery"
+        },
+        {
+          "name": "Epicurious",
+          "type": "brand",
+          "context": "Referenced as example of valuable recipe commentary"
+        },
+        {
+          "name": "katheryn.eckles@hellofresh.com",
+          "type": "person",
+          "context": "Team member mentioned in comments, forwarding ideas to DAU team"
+        },
+        {
+          "name": "linnea.siersma@hellofresh.ca",
+          "type": "person",
+          "context": "Team member tagged multiple times in comments for follow-up"
+        },
+        {
+          "name": "cole@hellofresh.ca",
+          "type": "person",
+          "context": "Team member tagged regarding interesting ideas"
+        },
+        {
+          "name": "Annette MvdE",
+          "type": "person",
+          "context": "Team member who reacted to various comments with emojis"
+        },
+        {
+          "name": "DAU",
+          "type": "system",
+          "context": "Team or system that ideas are being forwarded to"
+        }
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T13:37:46.122102"
+}

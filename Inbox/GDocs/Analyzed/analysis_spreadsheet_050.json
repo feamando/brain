@@ -1,0 +1,620 @@
+{
+  "batch_id": "spreadsheet_050",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "Demo Session Sign-Up Sheet",
+      "doc_id": "1KNq8OJm2YC8NSgDee2NY5Sdz3EtOI89AfIjM3EmrgZY",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks demo sessions for product features and technical implementations across HelloFresh teams, including project details, presenters, and production status",
+      "data_type": "tracker",
+      "key_data_points": [
+        "11 demo sessions scheduled (10 for 12/2/2025, 1 for 1/13/2026)",
+        "9 projects already in production",
+        "1 project in UAT (Databricks & Unity Catalog)",
+        "1 project in experimental phase (P500 Funnel & Menu Personalization)",
+        "Multiple mega alliances represented: Customer, Growth, Operations, Consumer, Foundations"
+      ],
+      "entities": [
+        {
+          "name": "Thomas Gamper Feitoza",
+          "type": "person",
+          "context": "Presenter for Merchandising Widgets"
+        },
+        {
+          "name": "Shruti Patil",
+          "type": "person",
+          "context": "Co-presenter for Merchandising Widgets"
+        },
+        {
+          "name": "Lobna Naguib",
+          "type": "person",
+          "context": "Presenter for multi-variant pipeline deployment"
+        },
+        {
+          "name": "Richard Palm",
+          "type": "person",
+          "context": "Co-presenter for multi-variant pipeline deployment"
+        },
+        {
+          "name": "Karunai Ragavan S",
+          "type": "person",
+          "context": "Presenter for Databricks automation"
+        },
+        {
+          "name": "Harneet Singh",
+          "type": "person",
+          "context": "Presenter for ad progression customization"
+        },
+        {
+          "name": "Priyank Khanna",
+          "type": "person",
+          "context": "Presenter for CCM bulk upload feature"
+        },
+        {
+          "name": "Stefano Palazzo",
+          "type": "person",
+          "context": "Presenter for Menu Search"
+        },
+        {
+          "name": "Elysium store",
+          "type": "system",
+          "context": "Platform for merchandising widgets"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Data platform being automated with Unity Catalog"
+        },
+        {
+          "name": "CCM (Content Configuration Management)",
+          "type": "system",
+          "context": "System receiving bulk upload capability for recipe information"
+        },
+        {
+          "name": "FreshChat",
+          "type": "system",
+          "context": "ChatGPT integration for HelloFresh being added to Hellodev"
+        },
+        {
+          "name": "Hellodev",
+          "type": "system",
+          "context": "Developer platform receiving FreshChat integration"
+        },
+        {
+          "name": "P500",
+          "type": "project",
+          "context": "Product initiative involving funnel personalization and menu search"
+        },
+        {
+          "name": "Olympus",
+          "type": "project",
+          "context": "Image RAG system for Concorde"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent company for all projects"
+        },
+        {
+          "name": "Chefs Plate",
+          "type": "brand",
+          "context": "Market where menu search was launched"
+        },
+        {
+          "name": "Customer Mega Alliance",
+          "type": "system",
+          "context": "Organizational unit for Shopping Journey"
+        },
+        {
+          "name": "Growth Alliance",
+          "type": "system",
+          "context": "Organizational unit for conversion and funnel work"
+        },
+        {
+          "name": "Foundations Alliance",
+          "type": "system",
+          "context": "Organizational unit for infrastructure and platform work"
+        },
+        {
+          "name": "Operations Mega Alliance",
+          "type": "system",
+          "context": "Organizational unit for operational intelligence"
+        }
+      ],
+      "insights": [
+        "Strong focus on personalization: Multiple projects (ad progression, menu personalization, menu search) aim to customize user experience",
+        "Infrastructure modernization is a priority: Databricks automation, multi-region deployments, and platform tooling improvements",
+        "Self-service capabilities being expanded: Merchandising widgets and CCM bulk upload enable teams to work independently",
+        "Cross-functional collaboration: Most projects involve multiple squads, tribes, or alliances working together",
+        "Production-ready bias: 82% of demos are for features already in production, suggesting demos are for knowledge sharing rather than approval",
+        "Geographic expansion focus: Multi-region pipeline supports Europe, North America, and Oceania deployments",
+        "AI/ML integration: FreshChat (ChatGPT), Image RAG, and personalization algorithms show investment in AI capabilities",
+        "Developer experience improvements: Hellodev enhancements and automation tools aim to reduce friction for internal teams",
+        "Data-driven approach: Multiple projects mention experiments, A/B testing (Statsig), and behavioral data collection"
+      ]
+    },
+    {
+      "doc_title": "The Pets Table - 2026 BP v1 (Internal)",
+      "doc_id": "1338-4j5sMaG0A90gX-aeM_nsY8QSIgR4zAtP2E1in_s",
+      "doc_type": "spreadsheet",
+      "purpose": "Business planning document for The Pets Table for fiscal year 2026",
+      "data_type": "planning",
+      "key_data_points": [
+        "2026 fiscal year budget/plan (version 1)",
+        "Internal document (confidential)"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "Primary subject of the business plan document"
+        }
+      ],
+      "insights": [
+        "This is an internal business planning document, suggesting confidential financial or strategic information",
+        "Version 1 indicates this is likely an initial draft or first iteration of the 2026 business plan",
+        "The 'BP' designation suggests this is a formal Business Plan document",
+        "Document appears to be forward-looking, planning for fiscal year 2026"
+      ]
+    },
+    {
+      "doc_title": "Good Chop: Tests Control Center (TCC)",
+      "doc_id": "14sn_hOcxcYDSqIyPnf37UUAqXWQVxzgY24Mu4SqFBzs",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing test campaigns and A/B tests for Good Chop across different channels (SEM, Facebook, CRM, Direct Mail) with various promotional offers and discount structures",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Campaign naming convention: [Quarter] [Channel] [Offer Description]",
+        "Discount structures: $100, $110, $120, $140, $150 with various payment splits (50-30-20, 50-30-20-20, etc.)",
+        "Common offers: Welcome Kits, Free Ground Beef, Free Ribeyes, Choose Your Offer/Meat/Protein",
+        "Test periods spanning 2023 Q1-Q2 and 2025 Q2-Q3",
+        "Geographic variants: Standard US and Canada (CA) specific tests"
+      ],
+      "entities": [
+        {
+          "name": "kelly.abrams@goodchop.com",
+          "type": "person",
+          "context": "Owner of SEM (Search Engine Marketing) campaign tests for both New Business (NB), Competitor (Comp), and Brand channels"
+        },
+        {
+          "name": "yukie.yamamoto@goodchop.com",
+          "type": "person",
+          "context": "Owner of Facebook (FB) advertising campaign tests"
+        },
+        {
+          "name": "yt@hellofresh.com",
+          "type": "person",
+          "context": "Owner of CRM (Customer Relationship Management) and Direct Mail (DM) campaign tests; appears to be from HelloFresh organization"
+        },
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Meat delivery/subscription service running promotional campaigns and A/B tests"
+        },
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Parent or partner organization, indicated by email domain of one test owner"
+        }
+      ],
+      "insights": [
+        "Tests follow A/B or multi-variant format (indicated by __ separators and [3] for 3-way tests)",
+        "Heavy focus on promotional discount testing with structured payment plans (likely installment-based discounts)",
+        "Multiple marketing channels tested simultaneously: SEM (NB/Comp/Brand), Facebook, CRM, and Direct Mail",
+        "Product focus on premium meat items: ribeyes, ground beef, ground sirloin, and curated welcome kits",
+        "Geographic expansion testing with Canada-specific variants (CRM-CA)",
+        "Discount amounts range from $30 to $150, with $100-$120 being most common",
+        "Payment structure notation (e.g., 50-30-20) likely represents discount distribution across multiple orders",
+        "Recent activity concentrated in Q2-Q3 2025 with last modified dates in June-July 2025",
+        "Some legacy tests from 2023 still tracked in the system",
+        "SEM tests differentiate between New Business (NB), Competitor (Comp), and Brand campaigns",
+        "One test references 'Tariff-Proof Copy' suggesting response to economic/trade conditions"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions after 5+ failed attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Cancellation threshold: 5+ canceled orders",
+        "Reset period: 4 weeks maximum before cancellation",
+        "Current tracking week: 2025-W48",
+        "Trial SKU pattern: KN-T%",
+        "Customer loyalty level: 0 (new customers)",
+        "Cancellation reason code: CC-Failed-Payments"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT customers",
+          "type": "customer_segment",
+          "context": "New pet food trial customers entitled to smaller, lower-priced trial boxes"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "System used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "team",
+          "context": "Slack channel for requesting engineer support for subscription resets"
+        }
+      ],
+      "insights": [
+        "Process runs on a bi-weekly schedule: Tuesdays (covering Sat-Tue deliveries) and Fridays (covering Wed-Fri deliveries)",
+        "Two-tier approach: subscriptions with 5+ failed payments are canceled, while those with fewer failures are reset to trial status",
+        "Payment failures are tracked across multiple statuses: 'canceled', 'clarify_payment_error', and dunning_decision = 'cancel'",
+        "Only unshipped boxes (box_shipped = 0) and active subscriptions (canceled_at IS NULL) are considered",
+        "Trial boxes are identified by specific SKU pattern (KN-T%) and is_trialbox flag",
+        "Process requires manual coordination between operations team and engineering team via Slack",
+        "Weekly tabs are created to track historical reset requests"
+      ]
+    },
+    {
+      "doc_title": "Research Roadmap & Project Tracking (GCI + IXI + USCI + GCX)",
+      "doc_id": "1QAxLwMFAAeMbVev8ZWgcQCCJyJJaZsy3Zlvmk974YXA",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks research projects and initiatives across multiple brands (HelloFresh, Factor_, Green Chef) and regions, managing project status, ownership, timelines, and strategic alignment",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "4 project statuses tracked: Requested, Planned, In Flight, Complete",
+        "3 primary team flags: GCI-led, IXI-led, USCI-led, Prod Analytics-led",
+        "Multiple brands: HelloFresh, Factor_, Green Chef, Internal tools",
+        "Geographic coverage: US, Canada, Sweden, Global",
+        "6 strategic anchors: Foundational Insights, Cultural Relevance, Consumer Closeness, Value Perception, Efficiency, Creative & Campaign Evaluation, Menu Expansion",
+        "Project timeline spans from 2025 Q1 through 2026 Q2"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary brand with most projects across multiple markets"
+        },
+        {
+          "name": "Factor_",
+          "type": "brand",
+          "context": "Focus on health-oriented meal offerings and athlete-targeted products"
+        },
+        {
+          "name": "Green Chef",
+          "type": "brand",
+          "context": "Subject of loyalty deep dive research"
+        },
+        {
+          "name": "Bassem Elhelaly",
+          "type": "person",
+          "context": "Primary driver for GCI-led projects including GCS reporting and customer closeness campaigns"
+        },
+        {
+          "name": "Anne Laesecke",
+          "type": "person",
+          "context": "Driver for USCI-led projects focused on menu expansion and product testing"
+        },
+        {
+          "name": "Patrick Roney",
+          "type": "person",
+          "context": "Approver for multiple USCI-led initiatives"
+        },
+        {
+          "name": "Dan-Octavian Balica",
+          "type": "person",
+          "context": "Approver for GCI-led projects"
+        },
+        {
+          "name": "Joanna Lindenberg",
+          "type": "person",
+          "context": "Approver and consultant on multiple projects"
+        },
+        {
+          "name": "GCS (Global Customer Survey)",
+          "type": "system",
+          "context": "Quarterly tracking survey undergoing 2026 revamp"
+        },
+        {
+          "name": "Influencer Marketplace",
+          "type": "project",
+          "context": "Strategic initiative to create 'Shopify for Food' platform"
+        },
+        {
+          "name": "Customer Closeness Campaign",
+          "type": "project",
+          "context": "Weekly drop-in sessions for employees to hear from customers"
+        }
+      ],
+      "insights": [
+        "GCI-led projects dominate the roadmap, indicating centralized research operations",
+        "Strong focus on 'Consumer Closeness' with multiple ongoing customer listening initiatives across brands",
+        "Menu Expansion (#2) is a recurring strategic anchor, particularly for Factor_ brand with health/wellness focus",
+        "Several projects are in 'Planned' status for Q1-Q2 2026, suggesting forward-looking research pipeline",
+        "Factor_ research heavily emphasizes health positioning: longevity, food as medicine, athlete nutrition, gluten preferences",
+        "GCS (Global Customer Survey) is a foundational tool with quarterly reporting cadence and planned 2026 revamp",
+        "Cross-functional collaboration evident with multiple stakeholders (Consulted/Informed) on most projects",
+        "Geographic expansion research includes market-specific studies (Sweden Customer Safari)",
+        "Mix of strategic innovation (Influencer Marketplace) and operational tracking (GCS reporting)",
+        "Some critical questions remain in 'Requested' status without assigned owners (customer cancellation analysis)"
+      ]
+    },
+    {
+      "doc_title": "TPT_Pricing Model_vFinal (Live)",
+      "doc_id": "1kvptwKYox5VQdxqFq2Rq451KvCVYfRnhDnoLhCME9_M",
+      "doc_type": "spreadsheet",
+      "purpose": "Pet food subscription pricing strategy and model for different product plans (Fresh, Mixed, Topper, Dry, Air Dried) with competitive benchmarking and margin optimization",
+      "data_type": "planning",
+      "key_data_points": [
+        "Max box price: $250",
+        "Max freezer fill: 1/3 of small NYC apartment freezer",
+        "Fresh plan: Match TFD prices (excluding shipping)",
+        "Mixed plan: 5-15% below Fresh price",
+        "Topper plan: 55-62.5% of Fresh price for 50% of product",
+        "Dry plan: 38% margins target",
+        "Free shipping on first order",
+        "PC2 margins and ROI are key performance metrics"
+      ],
+      "entities": [
+        {
+          "name": "TFD (The Farmer's Dog)",
+          "type": "brand",
+          "context": "Primary competitor benchmark for Fresh plan pricing"
+        },
+        {
+          "name": "Ollie",
+          "type": "brand",
+          "context": "Competitor for Fresh plan pricing comparison"
+        },
+        {
+          "name": "Pantry Fresh",
+          "type": "brand",
+          "context": "Competitor reference point for Mixed plan positioning"
+        },
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Company creating this pricing model (likely The Pet Table or similar)"
+        }
+      ],
+      "insights": [
+        "Pricing strategy is hierarchical: Fresh (highest) → Mixed → Topper → Dry/Air Dried (lowest)",
+        "Fresh plan serves as the 'headline price' anchor for all other plans",
+        "Company prioritizes larger dogs due to higher ROI potential",
+        "Pricing model went through 6-step methodology: import costs → benchmark → scenarios → smoothing → margin checks → price matching",
+        "Key architectural principle: same quantity of food should always cost the same across SKUs",
+        "Price testing focuses on three areas: architecture issues, competitor positioning, and customer segment optimization",
+        "Shipping is charged separately but waived for first order to reduce acquisition friction",
+        "Company is willing to sacrifice some price-per-pound consistency to maintain target margins (PC2)"
+      ]
+    },
+    {
+      "doc_title": "The Pets Table - 2026 BP v1 (Internal)",
+      "doc_id": "1338-4j5sMaG0A90gX-aeM_nsY8QSIgR4zAtP2E1in_s",
+      "doc_type": "spreadsheet",
+      "purpose": "Business planning document for The Pets Table for fiscal year 2026",
+      "data_type": "planning",
+      "key_data_points": [
+        "2026 fiscal year budget/plan (version 1)",
+        "Internal document (confidential)"
+      ],
+      "entities": [
+        {
+          "name": "The Pets Table",
+          "type": "brand",
+          "context": "Primary subject of the business plan document"
+        }
+      ],
+      "insights": [
+        "This is an internal business planning document, suggesting confidential financial or strategic information",
+        "Version 1 indicates this is likely an initial draft or first iteration of the 2026 business plan",
+        "The 'BP' designation suggests this is a formal Business Plan document",
+        "Document appears to be forward-looking, planning for fiscal year 2026"
+      ]
+    },
+    {
+      "doc_title": "TPT_Pricing Model_vFinal (Live)",
+      "doc_id": "1kvptwKYox5VQdxqFq2Rq451KvCVYfRnhDnoLhCME9_M",
+      "doc_type": "spreadsheet",
+      "purpose": "Pet food subscription pricing strategy and model for different product plans (Fresh, Mixed, Topper, Dry, Air Dried) with competitive benchmarking and margin optimization",
+      "data_type": "planning",
+      "key_data_points": [
+        "Max box price: $250",
+        "Max freezer fill: 1/3 of small NYC apartment freezer",
+        "Fresh plan: Match TFD prices (excluding shipping)",
+        "Mixed plan: 5-15% below Fresh price",
+        "Topper plan: 55-62.5% of Fresh price for 50% of product",
+        "Dry plan: 38% margins target",
+        "Free shipping on first order",
+        "PC2 margins and ROI are key performance metrics"
+      ],
+      "entities": [
+        {
+          "name": "TFD (The Farmer's Dog)",
+          "type": "brand",
+          "context": "Primary competitor benchmark for Fresh plan pricing"
+        },
+        {
+          "name": "Ollie",
+          "type": "brand",
+          "context": "Competitor for Fresh plan pricing comparison"
+        },
+        {
+          "name": "Pantry Fresh",
+          "type": "brand",
+          "context": "Competitor consideration for Mixed plan positioning"
+        },
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Company developing this pricing model (likely The Pet Table or similar)"
+        }
+      ],
+      "insights": [
+        "Pricing strategy uses Fresh plan as anchor/headline price with other plans positioned relative to it",
+        "Company prioritizes consistent pricing for same quantity of product across SKUs",
+        "Six-step pricing methodology: import costs → benchmark competitors → create scenarios → smooth pricing → check margins → create price steps",
+        "Strategic focus on larger dogs due to higher ROI potential",
+        "Price testing agenda focuses on three areas: architecture issues (internal consistency), competitor positioning, and customer segment optimization",
+        "Shipping is charged separately but waived for first order as acquisition strategy",
+        "Price per pound generally decreases with higher calorie/quantity tiers within same plan"
+      ]
+    },
+    {
+      "doc_title": "Research Roadmap & Project Tracking (GCI + IXI + USCI + GCX)",
+      "doc_id": "1QAxLwMFAAeMbVev8ZWgcQCCJyJJaZsy3Zlvmk974YXA",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks research projects and strategic initiatives across multiple HelloFresh Group brands (HelloFresh, Green Chef, Factor_) in various global markets",
+      "data_type": "roadmap",
+      "key_data_points": [
+        "22 total projects tracked",
+        "4 projects completed (status: 4. Complete)",
+        "8 projects planned (status: 2. Planned)",
+        "1 project in flight (status: 3. In Flight)",
+        "2 projects deprioritized",
+        "1 project requested",
+        "Project timelines spanning from Q1 2025 through Q2 2026",
+        "6 strategic anchor categories: Foundational Insights, Cultural Relevance, Value Perception, Consumer Closeness, Menu Expansion"
+      ],
+      "entities": [
+        {
+          "name": "HelloFresh",
+          "type": "brand",
+          "context": "Primary brand with most projects (17 projects)"
+        },
+        {
+          "name": "Factor_",
+          "type": "brand",
+          "context": "Secondary brand focused on meal offerings and health initiatives (7 projects)"
+        },
+        {
+          "name": "Green Chef",
+          "type": "brand",
+          "context": "Brand with completed loyalty deep dive project (2 projects)"
+        },
+        {
+          "name": "Joanna Lindenberg",
+          "type": "person",
+          "context": "Most frequent approver across multiple projects"
+        },
+        {
+          "name": "Anne Laesecke",
+          "type": "person",
+          "context": "Primary driver for USCI-led projects (6 projects)"
+        },
+        {
+          "name": "Bassem Elhelaly",
+          "type": "person",
+          "context": "Driver for GCI-led completed projects including GCS Reporting"
+        },
+        {
+          "name": "Patrick Roney",
+          "type": "person",
+          "context": "Approver for USCI-led projects"
+        },
+        {
+          "name": "Dan-Octavian Balica",
+          "type": "person",
+          "context": "Driver for global value perception studies"
+        },
+        {
+          "name": "GCI",
+          "type": "system",
+          "context": "Team leading 11 projects (GCI-led)"
+        },
+        {
+          "name": "USCI",
+          "type": "system",
+          "context": "Team leading 8 projects (USCI-led)"
+        },
+        {
+          "name": "IXI",
+          "type": "system",
+          "context": "Team leading 2 projects (IXI-led)"
+        },
+        {
+          "name": "Influencer Marketplace",
+          "type": "project",
+          "context": "Strategic initiative to create 'Shopify for Food' platform"
+        }
+      ],
+      "insights": [
+        "Value Perception (#1) is the most common strategic anchor with 8 projects, indicating a major organizational focus on demonstrating customer value",
+        "Strong emphasis on health-related initiatives: Health Claims Validation, Health Claims Behavioral Study, 'Eat Like an Athlete', and longevity/food-as-medicine concepts",
+        "US market has the highest concentration of projects (9 projects), followed by Global initiatives (8 projects)",
+        "GCI-led team has the most completed projects (6 out of 11), showing strong execution",
+        "Menu Expansion (#2) projects are all in planned status for Factor_ brand, suggesting upcoming product development phase",
+        "Quarterly GCS Reporting shows consistent foundational tracking across Q1-Q3 2025",
+        "Two projects deprioritized (Green Box Survey Template and Efficient Inspired Need Gap Analysis), indicating strategic reprioritization",
+        "Influencer Marketplace project represents significant strategic pivot toward platform-based business model",
+        "Customer retention and loyalty are emerging concerns with multiple projects exploring 'why customers cancel' and 'super loyal customers'",
+        "Cross-functional collaboration is evident with multiple stakeholders (Driver, Approver, Consulted, Informed) on most projects"
+      ]
+    },
+    {
+      "doc_title": "KN - Reset To Trial Customers",
+      "doc_id": "1Ii2Oj1Kqa17eyF9htI-jT86mA3bivy_sJKVjgM227ek",
+      "doc_type": "spreadsheet",
+      "purpose": "Track and manage trial box subscription resets for TPT (pet food) customers in KN (Kenya) market who experienced payment failures, and cancel subscriptions after 5+ failed attempts",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Country: KN (Kenya)",
+        "Cancellation threshold: 5+ canceled orders",
+        "Reset timeframe: 4 weeks maximum before cancellation",
+        "Current tracking week: 2025-W48",
+        "Delivery date filter: <= 2025-11-25",
+        "Customer loyalty filter: 0 (new customers)",
+        "SKU pattern: KN-T% (trial boxes)",
+        "Order statuses tracked: 'canceled', 'clarify_payment_error'",
+        "Cancellation reason code: CC-Failed-Payments"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures Tech team",
+          "type": "team",
+          "context": "Responsible for manually resetting subscriptions back to trial SKU"
+        },
+        {
+          "name": "TPT customers",
+          "type": "customer_segment",
+          "context": "New pet food customers entitled to smaller, lower-priced trial boxes"
+        },
+        {
+          "name": "BOB (Back Office Backend)",
+          "type": "system",
+          "context": "System used for bulk subscription cancellations and management"
+        },
+        {
+          "name": "#squad-nv-pet-food",
+          "type": "team",
+          "context": "Slack channel for requesting engineer support for reset tasks"
+        },
+        {
+          "name": "Databricks",
+          "type": "system",
+          "context": "Database platform where queries are executed"
+        }
+      ],
+      "insights": [
+        "Two-tier process: subscriptions with 5+ failed payments are canceled immediately, while those with fewer failures are reset to trial status",
+        "Bi-weekly schedule: Tuesday runs cover Saturday-Tuesday deliveries, Friday runs cover Wednesday-Friday deliveries",
+        "Payment failures are the primary issue causing trial box cancellations, requiring manual intervention",
+        "Process includes both automated query-based identification and manual reset/cancellation steps",
+        "Trial boxes are identified by specific SKU pattern (KN-T%) and trialbox flag in product dimension",
+        "Only unshipped boxes with dunning_decision='cancel' are considered for reset",
+        "Workflow involves cross-functional coordination between operations team and engineering squad"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T15:45:41.273277"
+}

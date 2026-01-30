@@ -1,0 +1,375 @@
+{
+  "batch_id": "C08KU0F8EF4_1751374218.535039",
+  "channel_name": "tribe-new-ventures-product",
+  "channel_id": "C08KU0F8EF4",
+  "message_count": 11,
+  "analyzed_at": "2026-01-02T13:04:38.980043",
+  "decisions": [
+    {
+      "what": "CVA tracking should be based on actual Statsig results applied to baseline numbers, not business case projections",
+      "who": [
+        "U03TY4YJU4X",
+        "U01AKGWGLC8",
+        "U07VDFEFBQU"
+      ],
+      "date": "First thread",
+      "context": "Clarifying methodology after confusion about whether CVA values should use business case estimates or actual experimental results. Team agreed to duplicate BC and add 'Results' suffix to track estimations vs actuals.",
+      "confidence": "high"
+    },
+    {
+      "what": "Welcome gift CVA impact will be calculated based on CVR/CAC improvements in known channels and scaled to all channels",
+      "who": [
+        "U03TY4YJU4X",
+        "U01AKGWGLC8"
+      ],
+      "date": "Later thread about OKR updates",
+      "context": "Needed to translate welcome gift's strong marketing campaign performance into overall CVA number for KR definition, noting it's currently <10% of marketing mix",
+      "confidence": "high"
+    },
+    {
+      "what": "OTP MVP will be presented at product review, followed by reactivations experience later",
+      "who": [
+        "U07VDFEFBQU",
+        "U01AKGWGLC8",
+        "U03R6F2AG9K"
+      ],
+      "date": "Product review thread",
+      "context": "Team selecting which products to showcase at upcoming product review session",
+      "confidence": "high"
+    },
+    {
+      "what": "TPT does not use plan_type as a separate subscription-level entity; it's baked into SKU",
+      "who": [
+        "U03TY4YJU4X",
+        "U03UMPD2NNS"
+      ],
+      "date": "Plan types discussion",
+      "context": "Clarifying data model differences between brands after PA reported plan_types aren't used at subscription level",
+      "confidence": "high"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Good Chop (GoC)",
+      "type": "brand",
+      "context": "Subscription service being discussed for CVA tracking, OKR metrics, and OTP v2 development",
+      "relationships": [
+        "U03TY4YJU4X",
+        "U01AKGWGLC8",
+        "U07VDFEFBQU",
+        "Yury",
+        "OTP MVP"
+      ]
+    },
+    {
+      "name": "The Pets Table (TPT)",
+      "type": "brand",
+      "context": "Pet food subscription service with plan types, SKU mapping, and funnel mixing work",
+      "relationships": [
+        "U03UMPD2NNS",
+        "Ahmed",
+        "plan_type",
+        "Lovable"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Mentioned by Ed at all-hands as challenging subscription model",
+      "relationships": [
+        "Ed",
+        "Good Chop",
+        "The Pets Table"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Experimentation platform providing actual results for CVA calculations",
+      "relationships": [
+        "CVA tracking",
+        "business case",
+        "U01AKGWGLC8"
+      ]
+    },
+    {
+      "name": "Adaptive",
+      "type": "system",
+      "context": "Financial system tracking revenue metrics and financial statements",
+      "relationships": [
+        "Yury",
+        "revenue per Paid Conversion",
+        "OKR tracking"
+      ]
+    },
+    {
+      "name": "Lovable",
+      "type": "system",
+      "context": "Development platform being used for TPT funnel revamp",
+      "relationships": [
+        "U03UMPD2NNS",
+        "The Pets Table",
+        "contractors"
+      ]
+    },
+    {
+      "name": "Welcome Gift",
+      "type": "project",
+      "context": "Marketing initiative showing +80% CVR improvement in campaigns, being gradually scaled",
+      "relationships": [
+        "U01AKGWGLC8",
+        "CVA tracking",
+        "marketing campaigns",
+        "Good Chop"
+      ]
+    },
+    {
+      "name": "OTP MVP (One-Time Purchase)",
+      "type": "project",
+      "context": "Good Chop feature being developed and presented at product review",
+      "relationships": [
+        "U07VDFEFBQU",
+        "U01AKGWGLC8",
+        "Good Chop",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Best Value",
+      "type": "project",
+      "context": "Initiative that achieved definitive +2.5% increase in CVR",
+      "relationships": [
+        "U01AKGWGLC8",
+        "CVA tracking"
+      ]
+    },
+    {
+      "name": "Seasonal Boxes",
+      "type": "project",
+      "context": "Product with CVA tracked in separate spreadsheet",
+      "relationships": [
+        "U07VDFEFBQU",
+        "U03TY4YJU4X"
+      ]
+    },
+    {
+      "name": "U03TY4YJU4X",
+      "type": "person",
+      "context": "Product lead coordinating OKR tracking, CVA methodology, and PO AI integration planning",
+      "relationships": [
+        "U07VDFEFBQU",
+        "U01AKGWGLC8",
+        "U03UMPD2NNS",
+        "Good Chop",
+        "The Pets Table"
+      ]
+    },
+    {
+      "name": "U01AKGWGLC8",
+      "type": "person",
+      "context": "Analyst working on CVA calculations, welcome gift analysis, and OKR tracking",
+      "relationships": [
+        "U03TY4YJU4X",
+        "U07VDFEFBQU",
+        "Statsig",
+        "Good Chop"
+      ]
+    },
+    {
+      "name": "U07VDFEFBQU",
+      "type": "person",
+      "context": "Product manager handling OTP development, reactivations, and CVA tracking",
+      "relationships": [
+        "U03TY4YJU4X",
+        "U01AKGWGLC8",
+        "Good Chop",
+        "OTP MVP"
+      ]
+    },
+    {
+      "name": "U03UMPD2NNS",
+      "type": "person",
+      "context": "Product manager for The Pets Table working on funnel mixing and Lovable revamp",
+      "relationships": [
+        "U03TY4YJU4X",
+        "The Pets Table",
+        "Ahmed",
+        "Lovable"
+      ]
+    },
+    {
+      "name": "Yury",
+      "type": "person",
+      "context": "Leader who set domain objective for Good Chop 12-month net revenue per Paid Conversion to $550",
+      "relationships": [
+        "U03TY4YJU4X",
+        "U01AKGWGLC8",
+        "Good Chop",
+        "Adaptive"
+      ]
+    },
+    {
+      "name": "Ed",
+      "type": "person",
+      "context": "Executive who mentioned new ventures brands at all-hands meeting",
+      "relationships": [
+        "Good Chop",
+        "The Pets Table",
+        "Factor Form"
+      ]
+    },
+    {
+      "name": "Jama",
+      "type": "person",
+      "context": "Requested OKR status update during QAR",
+      "relationships": [
+        "U01AKGWGLC8",
+        "Good Chop OKR"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Welcome gift analysis needs to be completed to calculate overall CVR uplift impact, not just marketing campaign-specific results",
+      "owner": "U01AKGWGLC8",
+      "status": "resolved",
+      "impact": "Cumulative OKR tracking and CVA reporting"
+    },
+    {
+      "description": "No dashboard readily available to track Good Chop 12-month net revenue per Paid Conversion metric",
+      "owner": "U01AKGWGLC8",
+      "status": "active",
+      "impact": "OKR/domain objective tracking and QAR reporting"
+    },
+    {
+      "description": "Search & prod cards too early for CVA analysis",
+      "owner": "U01AKGWGLC8",
+      "status": "active",
+      "impact": "Cumulative OKR updates"
+    },
+    {
+      "description": "No recent releases to update CVA tracker",
+      "owner": "U01AKGWGLC8",
+      "status": "active",
+      "impact": "Spreadsheet updates and OKR tracking"
+    },
+    {
+      "description": "TPT waiting for retention results from air dried cadence test (conversion was negative as expected)",
+      "owner": "U03UMPD2NNS",
+      "status": "active",
+      "impact": "TPT OKR updates and cumulative tracker"
+    },
+    {
+      "description": "Welcome gift campaigns currently <10% of marketing mix, limiting overall CVA impact",
+      "owner": "Marketing team",
+      "status": "active",
+      "impact": "CVA calculations and scaling potential"
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Delete non-actual CVA values from spreadsheet",
+      "owner": "U01AKGWGLC8",
+      "due": "First thread",
+      "status": "done"
+    },
+    {
+      "task": "Update spreadsheet with actual results",
+      "owner": "U07VDFEFBQU",
+      "due": "First thread",
+      "status": "done"
+    },
+    {
+      "task": "Review PO AI integration flows on Miro and add comments/questions",
+      "owner": "U07VDFEFBQU, U01AKGWGLC8, U03UMPD2NNS",
+      "due": "Throughout next week",
+      "status": "pending"
+    },
+    {
+      "task": "Update cumulative OKRs with latest results/analyses",
+      "owner": "U07VDFEFBQU, U01AKGWGLC8, U03UMPD2NNS",
+      "due": "Before next OKR cycle",
+      "status": "done"
+    },
+    {
+      "task": "Calculate welcome gift CVA by scaling CVR/CAC impacts from known channels",
+      "owner": "U01AKGWGLC8",
+      "due": "For OKR update",
+      "status": "done"
+    },
+    {
+      "task": "Get precise number from marketing on welcome gift campaign spend proportion",
+      "owner": "U01AKGWGLC8",
+      "due": "Ongoing",
+      "status": "pending"
+    },
+    {
+      "task": "Present OTP MVP at product review",
+      "owner": "U07VDFEFBQU",
+      "due": "Next week",
+      "status": "done"
+    },
+    {
+      "task": "Present reactivations experience at product review (after OTP)",
+      "owner": "U07VDFEFBQU",
+      "due": "Future product review",
+      "status": "pending"
+    },
+    {
+      "task": "Consider presenting Lovable revamp or funnel mixing at product review",
+      "owner": "U03UMPD2NNS",
+      "due": "Product review",
+      "status": "pending"
+    },
+    {
+      "task": "Fill out requested form",
+      "owner": "Channel members",
+      "due": "Same day",
+      "status": "pending"
+    },
+    {
+      "task": "Record OTP product review presentation",
+      "owner": "U07VDFEFBQU",
+      "due": "Product review day",
+      "status": "done"
+    }
+  ],
+  "key_context": [
+    {
+      "topic": "CVA Tracking Methodology",
+      "summary": "Team clarified that CVA should be calculated using actual Statsig experiment results applied to baseline numbers, not business case projections. They duplicate business cases and add 'Results' suffix to compare estimations with actuals.",
+      "relevance": "Critical for accurate OKR tracking and ensuring data integrity across all new ventures brands"
+    },
+    {
+      "topic": "Welcome Gift Performance",
+      "summary": "Welcome gift campaigns show +80% CVR improvement vs BAU marketing campaigns, but currently represent <10% of marketing mix. CVA impact calculated by scaling known channel improvements, expected to grow as campaigns scale.",
+      "relevance": "Major potential revenue driver for Good Chop that needs careful tracking as it scales"
+    },
+    {
+      "topic": "Good Chop Revenue Metric Tracking Gap",
+      "summary": "No readily available dashboard tracks the domain objective of $550 12-month net revenue per Paid Conversion. Adaptive is likely source of truth but not easily accessible for regular tracking.",
+      "relevance": "Impacts ability to report on key business metrics during QARs and track progress on Yury's domain objectives"
+    },
+    {
+      "topic": "Plan Type Data Model Differences",
+      "summary": "TPT uses plan types (Fresh, Dry, Mixed) but they're baked into SKUs, not separate subscription-level entities. Good Chop doesn't use plan types, only number of cuts.",
+      "relevance": "Important for data architecture decisions and understanding product analytics across brands"
+    },
+    {
+      "topic": "New Ventures All-Hands Recognition",
+      "summary": "Ed mentioned Pets Table, Good Chop, and Factor Form at all-hands as challenging the subscription model, alongside genAI hackathon recognition.",
+      "relevance": "Shows executive visibility and strategic importance of new ventures initiatives"
+    },
+    {
+      "topic": "Cumulative OKR Update Urgency",
+      "summary": "Team reminded multiple times to update cumulative OKRs before next cycle. Last update was in April, creating significant gap in tracking. Several initiatives lack completed analyses.",
+      "relevance": "Critical for demonstrating progress and maintaining credibility in OKR process"
+    },
+    {
+      "topic": "PO AI Integration Planning",
+      "summary": "U03TY4YJU4X developing PO AI integration model in Miro, requesting team review of flows and identification of areas where unstructured data processing could save time.",
+      "relevance": "Strategic initiative to improve product operations efficiency through AI automation"
+    }
+  ],
+  "summary": "New ventures product team discusses CVA tracking methodology, clarifying that actual experiment results (not business case projections) should be used. Welcome gift shows strong performance (+80% CVR) but needs scaling, while team works to update cumulative OKRs and prepare product review presentations for OTP MVP and other initiatives."
+}

@@ -1,0 +1,468 @@
+{
+  "batch_id": "spreadsheet_062",
+  "doc_type": "spreadsheet",
+  "doc_count": 9,
+  "results": [
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks meal recipes and nutritional information for a meal delivery/preparation service, including costs, ratings, dietary attributes, and operational details",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe costs ranging from $1.94 to $4.17",
+        "Max meal costs from $2.54 to $4.85",
+        "L3 Run Ratings between 3.29 and 3.51",
+        "Swap Out percentages from 0.62% to 1.01%",
+        "Calorie counts ranging from 340 to 680",
+        "Protein content from 12g to 41g per meal",
+        "Nutrition scores from 0 to 4.125",
+        "Dietary fiber from 6g to 14g"
+      ],
+      "entities": [
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey recipes"
+        },
+        {
+          "name": "AL",
+          "type": "person",
+          "context": "Chef's initials for Tomato Caper Salmon Power Bowl"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        },
+        {
+          "name": "F-series recipes",
+          "type": "system",
+          "context": "Recipe ID naming convention (F00002, F01907, F01908, F01912, F01928, F01932)"
+        },
+        {
+          "name": "REC-series codes",
+          "type": "system",
+          "context": "MSKU code system for tracking recipe variations"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variations exist for the same meal (Chicken & Mushroom Marsala has versions A-F with slight cost and nutritional differences)",
+        "Most recipes shown have 'Graveyard' or 'New' status, suggesting lifecycle management",
+        "All meals are marked as 'Chef's Choice' and most are 'Calorie Smart'",
+        "Chicken breast is the most common protein type in the sample",
+        "European/Italian cuisine is prominent, with Asian and North American options also present",
+        "Recent approval dates (October-November 2025) indicate active menu development",
+        "GLP-1 support features are tracked, suggesting targeting of weight management customers",
+        "Meals are designed with multiple dietary accommodations (dairy-free, pork-free, low-carb, high-protein)",
+        "Container types vary (1 CT, 2 CT, 3 CT) based on meal complexity",
+        "Salmon has the highest cost ($4.17) while chicken diced has the lowest ($2.12)"
+      ]
+    },
+    {
+      "doc_title": "Culinary Strategy | Recipe Development",
+      "doc_id": "1V8VPcFcI6fy9OPLgY6UL96aaK9_k5XCs3Ltk2lKtPTc",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe development brainstorming and planning tracker for culinary strategy, tracking new meal concepts across different product lines and dietary preferences",
+      "data_type": "planning",
+      "key_data_points": [
+        "Next brainstorm date: 1/14",
+        "Expected review date: 1/28",
+        "2025 slot assignments",
+        "Multiple recipe concepts per project (Concept 1-4)",
+        "Protein types: Chicken (shredded/breast), Seafood (Sea Bass), Beef & Pork (Meatball)",
+        "Product lines: Add On, Gourmet+, GLP-1 Support, Calorie Smart"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef assigned to Add On grain bowl projects"
+        },
+        {
+          "name": "LH",
+          "type": "person",
+          "context": "Chef assigned to Gourmet+ (Sea Bass) and GLP-1 Support (Meatball) projects"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef potentially assigned to Calorie Smart chicken rework (Steven)"
+        },
+        {
+          "name": "Leonard",
+          "type": "person",
+          "context": "Recommended black rice or wild rice blend for grain bowls"
+        },
+        {
+          "name": "Tricia / Abby",
+          "type": "person",
+          "context": "Confirming if Pesto Cream Chicken & Rice needs rework"
+        },
+        {
+          "name": "Add-ons team",
+          "type": "system",
+          "context": "Requesting grain bowl variety with new rice bases beyond quinoa"
+        },
+        {
+          "name": "Chopt Salad",
+          "type": "brand",
+          "context": "Inspiration source - Sesame Ginger Chicken Salad"
+        },
+        {
+          "name": "Chipotle",
+          "type": "brand",
+          "context": "Inspiration for Chipotle Crema"
+        }
+      ],
+      "insights": [
+        "Focus on diversifying grain bowl bases from quinoa to include black rice and wild rice blends that work cold",
+        "Strong emphasis on Asian-inspired flavors, with Korean cuisine and Asian street food seeing 32% YoY increase in consumer interest",
+        "Multiple dietary guardrails being tracked: Protein Plus, Mediterranean Diet, GLP-1 Support, Calorie Smart, Eat Like an Athlete",
+        "Recipe concepts include 3-4 variations per project for comparison and selection",
+        "Strategic ingredient considerations: avoiding cheese for shelf life, avoiding desserts in bento boxes, using guac cups",
+        "Future-proofing: GLP-1 Support recipes designed with intention to convert beef/pork meatballs to turkey when spec available",
+        "Slot 75 heavily allocated to Gourmet+ Sea Bass products (multiple entries)",
+        "One rework project identified: F01476A Pesto Cream Chicken & Rice (Calorie Smart line)"
+      ]
+    },
+    {
+      "doc_title": "Good Chop Marketing Vouchers",
+      "doc_id": "13VRpw2nqq8rj2gL5AVh7dU35-La0EDoCfMPLFMnUxO8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks marketing voucher codes and promotional offers for Good Chop's food delivery service, mapping promo codes to SKU indexes and customer IDs",
+      "data_type": "tracker",
+      "key_data_points": [
+        "14 different product voucher types (bacon, wings, beef, salmon, steaks, cheesecake)",
+        "Two duration types: 'For Life' and 'For Year' promotions",
+        "SKU indexes ranging from 1-147",
+        "Multiple promo code campaigns: TURKEY, TRK, TRKXA series, GBL",
+        "Customer IDs tracked (ranging from ~900K to ~2.2M)",
+        "ODL customer ID: 11783",
+        "Active email banner status tracked (TRUE/FALSE)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Food delivery company offering meat and seafood subscriptions with promotional vouchers"
+        },
+        {
+          "name": "ODL",
+          "type": "system",
+          "context": "Referenced as source system for adding customer IDs"
+        },
+        {
+          "name": "TURKEY campaigns",
+          "type": "project",
+          "context": "Multiple turkey-related promotional campaigns (ORGANIC TURKEY, TURKEY ACTIVATION NAE, TURKEY REACTIVATION NAE, TURKEY CODE 2023)"
+        }
+      ],
+      "insights": [
+        "Premium products (Ribeyes, Filet Mignon) offered as both lifetime and annual promotions",
+        "Turkey promotions appear to be a major campaign with multiple variants and reactivation efforts",
+        "Most vouchers have active email banners enabled (TRUE), except some Filet Mignon and NY Strip lifetime offers",
+        "Promo codes follow naming patterns: TRKXA series (with numbers/letters), TRK, GBL, and TURKEY",
+        "Each product has a standardized message format: 'We've added your FREE [product]. Enjoy!'",
+        "Large list of customer IDs (60+) in rightmost column suggests bulk promotional distribution",
+        "Product range spans multiple protein types: beef, chicken, salmon, and even dessert (cheesecake)"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipe details, nutritional information, dietary attributes, costs, ratings, and operational data for meal planning and production",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe IDs and meal names with descriptors",
+        "Cost data (meal costs ranging from $1.94 to $4.17, max meal costs from $2.54 to $4.85)",
+        "Nutritional metrics (calories 340-680, protein 12-41g, sodium 610-1080mg)",
+        "Run ratings (L3 Run Ratings: 0.63%-1.01%)",
+        "Dietary classifications (Keto, Calorie Smart, High Protein, Dairy Free, etc.)",
+        "Meal status (Graveyard, New, Pending)",
+        "Chef initials (AL, MJ, NS)",
+        "Preparation methods and cook times",
+        "Cuisine types (European, Asian/Oceanian, North American)"
+      ],
+      "entities": [
+        {
+          "name": "AL",
+          "type": "person",
+          "context": "Chef with initials AL, created Korean-Style Shredded Beef and Tomato Caper Salmon recipes"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef with initials MJ, created Ginger Sesame Chicken recipe"
+        },
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef with initials NS, created Smoky BBQ Shredded Beef recipe"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Recipe in 'Graveyard' status with multiple variants (F00002A-F), costs $1.94-$2.27, 470-480 calories"
+        },
+        {
+          "name": "GLP-1 Support/Balance",
+          "type": "system",
+          "context": "Dietary program tracked across meals for specialized nutrition support"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal (Chicken & Mushroom Marsala has 6 variants: F00002A-F) with slight cost and nutritional differences",
+        "Meals are categorized by status: 'Graveyard' (discontinued/inactive) vs 'New' (recently added)",
+        "Salmon-based meals have significantly higher costs ($4.17) compared to chicken ($2.12-$2.27) and beef ($2.82-$2.87)",
+        "All new meals have approval dates in late 2025 (10/28, 11/4, 11/11, 11/18) suggesting a planned rollout schedule",
+        "Comprehensive dietary tracking includes 16+ dietary attributes (Keto, Vegan, High Protein, Dairy Free, etc.)",
+        "Container types are color-coded (Yellow, Red, Blue) likely for operational/sorting purposes",
+        "Protein types are highly detailed, tracking both general category and specific cut (e.g., 'Chicken - Breast', 'Beef - Shredded')",
+        "Most meals are marked as 'Chef's Choice' and 'Calorie Smart', indicating quality and health-conscious positioning",
+        "Cuisine diversity spans European, Asian/Oceanian, and North American with specific regional subcategories"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign or category with $1,053 budget allocation and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term tracking system covering 3+ years of weekly marketing data",
+        "WoW (Week-over-Week) analysis implemented starting in late 2022, suggesting increased focus on performance monitoring",
+        "Sparse data visible in extract suggests this is a large spreadsheet with most cells empty or containing detailed metrics not shown",
+        "Consistent weekly cadence indicates systematic marketing measurement and reporting",
+        "The presence of campaign-specific tracking (Self-Improvement) suggests multiple marketing initiatives are monitored separately"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project containing multiple teams being tracked"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for tracking KTLO work"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to categorize Keep The Lights On operational work in Jira"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated nightly cron job updates the spreadsheet, reducing manual effort",
+        "System uses resolved date to categorize tickets into specific months",
+        "Requires discipline in labeling (KTLO tag) and story point assignment for accuracy",
+        "Story points should be added retrospectively for accurate overhead calculation",
+        "Provides visibility into how much team capacity is consumed by maintenance vs new work"
+      ]
+    },
+    {
+      "doc_title": "Culinary Strategy | Recipe Development",
+      "doc_id": "1V8VPcFcI6fy9OPLgY6UL96aaK9_k5XCs3Ltk2lKtPTc",
+      "doc_type": "spreadsheet",
+      "purpose": "Recipe development brainstorming and planning tracker for culinary strategy, tracking new meal concepts across different product lines and dietary preferences",
+      "data_type": "planning",
+      "key_data_points": [
+        "Next brainstorm date: 1/14",
+        "Expected review date: 1/28",
+        "2025 slot assignments",
+        "Multiple recipe concepts per project (Concept 1-4)",
+        "Protein types: Chicken (shredded/breast), Seafood (Sea Bass), Beef & Pork (Meatball)",
+        "Product lines: Add On, Gourmet+, GLP-1 Support, Calorie Smart"
+      ],
+      "entities": [
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef assigned to Add On grain bowl projects"
+        },
+        {
+          "name": "LH",
+          "type": "person",
+          "context": "Chef assigned to Gourmet+ (Sea Bass) and GLP-1 Support (Meatball) projects"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef potentially assigned to Calorie Smart chicken rework (Steven)"
+        },
+        {
+          "name": "Leonard",
+          "type": "person",
+          "context": "Recommended black rice or wild rice blend for grain bowls"
+        },
+        {
+          "name": "Tricia / Abby",
+          "type": "person",
+          "context": "Confirming if Pesto Cream Chicken & Rice needs rework"
+        },
+        {
+          "name": "Add-ons team",
+          "type": "system",
+          "context": "Requesting grain bowl variety with new rice bases beyond quinoa"
+        },
+        {
+          "name": "Chopt Salad",
+          "type": "brand",
+          "context": "Inspiration source for Sesame Ginger Chicken Salad"
+        },
+        {
+          "name": "Chipotle",
+          "type": "brand",
+          "context": "Inspiration for Chipotle Crema in Mexican grain bowl"
+        }
+      ],
+      "insights": [
+        "Focus on grain bowl diversification: moving beyond quinoa to include black rice, wild rice blends, and rice/quinoa combinations",
+        "Asian cuisine trend: Korean Cuisine & Asian Street Food seeing surge in popularity with 32% YoY increase in consumer interest",
+        "Multiple dietary guardrails being tracked: Mediterranean Diet, GLP-1 Support, Protein Plus, Calorie Smart, Eat Like an Athlete",
+        "Development format: grain bowls as 1-ct bento, avoiding dessert",
+        "Strategic protein planning: intention to convert beef/pork meatballs to turkey meatballs when spec is available",
+        "Recipe concepts include detailed component breakdowns: base grains, proteins with marinades, vegetables, sauces/dressings",
+        "Shelf life considerations: avoiding cheese in some recipes to increase shelf life success",
+        "Cold consumption requirement: rice must be enjoyable eaten cold for grain bowl applications",
+        "Heavy emphasis on Mexican and Asian flavor profiles for new grain bowl concepts",
+        "Multiple Gourmet+ Sea Bass projects in slot 75 (appears to be placeholder/repeated entries)"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipes, nutritional information, dietary classifications, costs, ratings, and operational details for meal preparation and delivery",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe IDs and meal names with descriptors",
+        "Cost metrics: meal costs ranging from $1.94 to $4.17, max meal costs from $2.54 to $4.85",
+        "Nutritional data: calories (340-680), protein (12-41g), sodium (610-1080mg), carbs (17-54g)",
+        "Run ratings: L3 Run Ratings ranging from 3.29 to 3.51",
+        "Swap Out percentages: 0.63% to 1.01%",
+        "Dietary classifications: Calorie Smart, Chef's Choice, High Protein, Dairy Free, Pork Free, Low Carb, Keto, Vegan, Veggie, GLP-1 Balance, Fiber Filled",
+        "Status categories: Graveyard, New, Pending",
+        "Nutrition scores: 3.25 to 4.125",
+        "Dietary fiber: 5-14g"
+      ],
+      "entities": [
+        {
+          "name": "AL",
+          "type": "person",
+          "context": "Chef's initials for Korean-Style Shredded Beef, Tomato Caper Salmon recipes"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken recipe"
+        },
+        {
+          "name": "NS",
+          "type": "person",
+          "context": "Chef's initials for Smoky BBQ Shredded Beef recipe"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Recipe in Graveyard status with multiple variants (F00002A-F)"
+        },
+        {
+          "name": "Korean-Style Shredded Beef",
+          "type": "product",
+          "context": "New recipe with Asian/Korean cuisine classification"
+        },
+        {
+          "name": "Tomato Caper Salmon Power Bowl",
+          "type": "product",
+          "context": "New recipe with highest cost ($4.17) and rating (3.51)"
+        },
+        {
+          "name": "Ginger Sesame Chicken",
+          "type": "product",
+          "context": "New recipe with lowest cost ($2.12) and rating (3.29)"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal (Chicken & Mushroom Marsala has 6 variants: F00002A-F) with slight cost and nutritional variations",
+        "Graveyard status meals have significantly lower ratings (0.63%) compared to New meals (0.74%-1.01%)",
+        "Salmon-based meals have the highest costs ($4.17) and max meal costs ($4.85), while chicken-based meals are most economical ($2.12-$2.27)",
+        "All displayed meals are marked as Chef's Choice and most are Calorie Smart, indicating premium positioning",
+        "New recipes show diverse cuisine types: Asian/Korean, European/Greek, Asian/Chinese, North American/Midwestern",
+        "Protein types vary: Chicken Breast, Turkey Sliced, Beef Shredded, Salmon Filet, Chicken Diced",
+        "Container types correlate with meal complexity: 1-3 CT containers used",
+        "Cook methods include combinations of Grill, Oven, Braiser, Hotel Pan with various preparation techniques",
+        "GLP-1 Support and Mediterranean diet indicators suggest targeting specific health-conscious consumer segments",
+        "Nutrition scores range from 3.25 to 4.125, with salmon bowl scoring highest",
+        "All new recipes have approval dates in late 2025 (October-November), suggesting forward planning cycle"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign or category with $1,053 budget allocation and 1 unit"
+        }
+      ],
+      "insights": [
+        "Long-term tracking system covering 3+ years of weekly marketing data",
+        "WoW (Week-over-Week) analysis implemented starting in late 2022, suggesting increased focus on performance monitoring",
+        "Sparse data visible in extract suggests this is a large spreadsheet with most cells empty or containing detailed data not shown",
+        "Consistent weekly cadence indicates systematic marketing performance review process",
+        "The presence of budget tracking ($1,053 for Self-Improvement) suggests this tracks campaign spending and ROI"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:20:24.549073"
+}

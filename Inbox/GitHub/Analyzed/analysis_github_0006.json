@@ -1,0 +1,210 @@
+{
+  "batch_id": "github_0006",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-12-10T14:41:51Z",
+    "newest": "2025-12-12T11:14:05Z"
+  },
+  "analyzed_at": "2026-01-02T15:35:01.123292",
+  "changes_summary": "These commits primarily focus on Factor Form/OTP (One-Time Purchase) functionality improvements, subscription management features, and UI enhancements. Multiple teams worked on payment handling, voucher systems, checkout pricing, and test adjustments. Several bug fixes and cleanup tasks were completed alongside new feature additions for e-commerce and subscription platforms.",
+  "features": [
+    {
+      "name": "Config Middlewares",
+      "description": "Added configuration middleware functionality to the system",
+      "commits": [
+        "eaf203a0"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Surcharge Price Display",
+      "description": "Adds surcharge price to show total without conditions in pricing display",
+      "commits": [
+        "fc5ecf0d"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Shopify Redirects Simplification",
+      "description": "Removed requirement of local storage override for Shopify redirects in staging",
+      "commits": [
+        "ffc65078"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Expired Payment Handling",
+      "description": "Handle users with expired payment in GD (likely GetDirect) system",
+      "commits": [
+        "0278a0a6"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "VMSU Family Normalized SKU",
+      "description": "Added normalized SKU for VMSU family in Factor Form with feature gate control",
+      "commits": [
+        "2884f195",
+        "d53cbcc0"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Voucher Entry Point Reactivation",
+      "description": "Added voucher functionality to Entry Point Reactivation flow",
+      "commits": [
+        "b71bcc39"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "OTP Address Persistence",
+      "description": "Support PUT method for OTP address persistence",
+      "commits": [
+        "cdb22d67"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "OTP Checkout Pricing",
+      "description": "Implemented checkout pricing functionality for Factor Form OTP",
+      "commits": [
+        "eb05058f"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "llms.txt Implementation",
+      "description": "Implemented llms.txt file for AI/LLM crawlers",
+      "commits": [
+        "65e4923b"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Structured Markup Data",
+      "description": "Implemented structured markup data for our-products page for SEO",
+      "commits": [
+        "df168929"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Plan Card Image Contentful Keys",
+      "description": "Added Contentful keys for plan card images",
+      "commits": [
+        "f5e8cdce"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Client-side only mounting for PetInfoHeader",
+      "rationale": "Ensuring PetInfoHeader component mounts only on client-side to prevent SSR issues",
+      "ticket": "TPT-2440"
+    },
+    {
+      "what": "Feature gate for VMSU family usage",
+      "rationale": "Controlled rollout of VMSU family normalized SKU functionality",
+      "ticket": "RTEVMS-2256"
+    },
+    {
+      "what": "Remove local storage override requirement",
+      "rationale": "Simplify Shopify redirect logic in staging environment",
+      "ticket": "MIO-57"
+    },
+    {
+      "what": "Support PUT method for OTP address",
+      "rationale": "Enable address updates via PUT requests for better RESTful API design",
+      "ticket": "GOC-3352"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "Endless Pause Cleanup",
+      "reason": "Code cleanup for Factor Form endless pause functionality",
+      "impact": "Factor Form pause feature"
+    },
+    {
+      "area": "Dashboard Entry Point Removal",
+      "reason": "Removes entry point for new dashboard merge request",
+      "impact": "Dashboard navigation and routing"
+    },
+    {
+      "area": "Subscription Loading Page",
+      "reason": "Restore cuts in subscription loading page",
+      "impact": "Subscription loading UI/UX"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "OTP Order Summary not updating correctly",
+      "ticket": "RTEVMS-2356"
+    },
+    {
+      "issue": "Old reactivation test needed adjustment",
+      "ticket": "TPT-2369"
+    },
+    {
+      "issue": "PetInfoHeader mounting issues",
+      "ticket": "TPT-2440"
+    },
+    {
+      "issue": "Size selection component spacing",
+      "ticket": "TPT-2444"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Factor Form",
+      "type": "feature",
+      "context": "Multiple updates including OTP checkout pricing, VMSU family SKU, endless pause cleanup, and order summary fixes"
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Address persistence, checkout pricing, and order summary functionality added/fixed"
+    },
+    {
+      "name": "Shopify",
+      "type": "system",
+      "context": "Redirect logic simplified by removing local storage override requirement"
+    },
+    {
+      "name": "Contentful",
+      "type": "system",
+      "context": "Keys added for plan card images"
+    },
+    {
+      "name": "GD (GetDirect)",
+      "type": "system",
+      "context": "Enhanced to handle users with expired payments"
+    },
+    {
+      "name": "VMSU Family",
+      "type": "feature",
+      "context": "Normalized SKU implementation with feature gate control"
+    },
+    {
+      "name": "Reactivation Flow",
+      "type": "feature",
+      "context": "Voucher functionality added to entry point, tests adjusted"
+    },
+    {
+      "name": "PetInfoHeader",
+      "type": "component",
+      "context": "Modified to mount client-side only"
+    }
+  ],
+  "key_patterns": [
+    "Feature gate pattern used for controlled rollout of new functionality (VMSU family)",
+    "Client-side only rendering pattern for components with SSR issues",
+    "RESTful API improvements with proper HTTP method support (PUT for address updates)",
+    "Test-driven development with dedicated test commits for new features",
+    "SEO optimization through structured markup data and llms.txt implementation",
+    "Modular feature development with multiple PRs for related Factor Form/OTP functionality",
+    "Cleanup and technical debt reduction alongside feature development",
+    "Ticket-driven development with clear Jira references (TPT, GOC, RTEVMS, MIO prefixes)"
+  ]
+}

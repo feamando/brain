@@ -1,0 +1,181 @@
+{
+  "batch_id": "github_0004",
+  "commit_count": 20,
+  "date_range": {
+    "oldest": "2025-12-16T12:35:10Z",
+    "newest": "2025-12-17T11:31:38Z"
+  },
+  "analyzed_at": "2026-01-02T15:34:07.439476",
+  "changes_summary": "These commits primarily focus on OTP (One-Time Purchase) payment integration and related UI/UX improvements across multiple systems. Significant work includes Box Model calorie range updates, meal selection cadence changes, and various refactoring efforts to improve code organization. Multiple bug fixes address validation, GTM tracking, and checkout success flows.",
+  "features": [
+    {
+      "name": "OTP Payment Integration",
+      "description": "Integration of one-time purchase payment functionality with banner, checkout success flow, and GTM tracking",
+      "commits": [
+        "30acb74f",
+        "9a42a57b",
+        "38239153",
+        "3702e3ba"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "OTP Copy Updates",
+      "description": "Updated copy and lokalise keys for Factor Form OTP messaging and inline discount communication",
+      "commits": [
+        "41c2a974",
+        "005174cf",
+        "345c67fd",
+        "a2c37a18"
+      ],
+      "status": "modified"
+    },
+    {
+      "name": "Box Model Calorie Ranges",
+      "description": "New calorie ranges implementation for Box Model with fresh packs overrides",
+      "commits": [
+        "49458fde",
+        "45230b44"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Meal Selection on Cadence Change",
+      "description": "Automatic meal selection when subscription cadence is changed",
+      "commits": [
+        "b7645c56"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Portion Percentage Feature Flag",
+      "description": "Feature flag implementation for portion percentage in non-funnel flows",
+      "commits": [
+        "0adff505"
+      ],
+      "status": "added"
+    },
+    {
+      "name": "Reactivate from Settings Tests",
+      "description": "Test coverage for subscription reactivation from settings page",
+      "commits": [
+        "a5d3fc7c"
+      ],
+      "status": "added"
+    }
+  ],
+  "decisions": [
+    {
+      "what": "Merged usePlanContentMapping into usePlanContents",
+      "rationale": "Code consolidation to reduce duplication and improve maintainability",
+      "ticket": "TPT-2511"
+    },
+    {
+      "what": "Use feature flag for portion percentage in non-funnel flows",
+      "rationale": "Enable controlled rollout and testing of portion percentage functionality",
+      "ticket": "TPT-2433"
+    },
+    {
+      "what": "Removed hard coded SKU calculation logic",
+      "rationale": "Make SKU calculation more dynamic and maintainable",
+      "ticket": "RTEVMS-2256"
+    },
+    {
+      "what": "Refactor error handling in Payment component",
+      "rationale": "Improve fraud detection and error handling robustness",
+      "ticket": "GOC-3394"
+    }
+  ],
+  "refactors": [
+    {
+      "area": "usePlanContents hook",
+      "reason": "Consolidate usePlanContentMapping functionality to reduce code duplication",
+      "impact": "Plan content retrieval logic centralized"
+    },
+    {
+      "area": "Payment component error handling",
+      "reason": "Improve fraud detection and error handling patterns",
+      "impact": "Payment flow and associated tests updated"
+    },
+    {
+      "area": "Whitelabel layout props",
+      "reason": "Clean up and organize layout properties for better maintainability",
+      "impact": "Whitelabel layout component structure"
+    },
+    {
+      "area": "Air Dried Cadence initiative cleanup",
+      "reason": "Remove leftover code from completed initiative",
+      "impact": "Codebase cleanup, reduced technical debt"
+    },
+    {
+      "area": "Factor Form SKU calculation",
+      "reason": "Remove hard-coded logic for more flexible implementation",
+      "impact": "SKU calculation logic in Factor Form"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "Last name field validation not working correctly",
+      "ticket": "TPT-2439"
+    },
+    {
+      "issue": "Box Model operations not functioning properly",
+      "ticket": "TPT-2358"
+    },
+    {
+      "issue": "GTM missing attributes for OTP orders",
+      "ticket": "GOC-3397"
+    },
+    {
+      "issue": "Checkout success not displaying correctly for OTP orders",
+      "ticket": "RTEVMS-2375"
+    }
+  ],
+  "entities": [
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Major integration across payment, checkout, tracking, and UI components"
+    },
+    {
+      "name": "Box Model",
+      "type": "system",
+      "context": "Updated with new calorie ranges, fresh pack overrides, and operations fixes"
+    },
+    {
+      "name": "Factor Form",
+      "type": "component",
+      "context": "Multiple updates for OTP copy, discount communication, and SKU calculation"
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "type": "system",
+      "context": "Fixed to include proper attributes for OTP order tracking"
+    },
+    {
+      "name": "Payment Component",
+      "type": "component",
+      "context": "Refactored error handling and fraud detection logic"
+    },
+    {
+      "name": "Whitelabel",
+      "type": "system",
+      "context": "Layout props groomed for better organization"
+    },
+    {
+      "name": "Meal Selection",
+      "type": "feature",
+      "context": "Enhanced to automatically trigger on cadence changes"
+    }
+  ],
+  "key_patterns": [
+    "Feature flag driven development for gradual rollout of new functionality",
+    "Consolidation of duplicate hooks and utilities to reduce code complexity",
+    "Comprehensive test coverage additions alongside feature development",
+    "Internationalization support through Lokalise key integration",
+    "Separation of concerns between payment flows (OTP vs subscription)",
+    "GTM tracking enhancements for better analytics coverage",
+    "Progressive cleanup of technical debt from completed initiatives",
+    "Component-level refactoring to improve error handling and resilience"
+  ]
+}

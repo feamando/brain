@@ -1,0 +1,515 @@
+{
+  "batch_id": "spreadsheet_057",
+  "doc_type": "spreadsheet",
+  "doc_count": 10,
+  "results": [
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Monthly operational overhead calculations per team"
+      ],
+      "entities": [
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticket tracking system used to label and track KTLO work with story points"
+        },
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Organization or division being tracked for operational overhead"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to identify Keep The Lights On (operational maintenance) work in Jira tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their operational overhead separately",
+        "Automated daily updates via cron job ensure data stays current without manual intervention",
+        "Requires discipline in labeling tickets and assigning story points for accurate tracking",
+        "Uses resolved date to attribute work to specific months for time-based analysis",
+        "Story points should be added retrospectively for accuracy in operational overhead calculations"
+      ]
+    },
+    {
+      "doc_title": "TPT App: Discovery",
+      "doc_id": "1njFgQemZhGmDz-TTDX75BckUov66opHGp1Ay3gE8U8k",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks feature scope and technical implementation decisions for a TPT (pet food) mobile app discovery phase, documenting which features will be included in the app and their technical approach",
+      "data_type": "planning",
+      "key_data_points": [
+        "Total features analyzed: ~70",
+        "Features in scope: ~35 (approximately 50%)",
+        "Primary tech approaches: React Native, Web View, or Not available via app",
+        "Main feature categories: Static Pages, Quiz, Plan Selection, Checkout, Dashboard, Add-On Market, Account Management, Notifications, Reactivations, Multipet Checkout"
+      ],
+      "entities": [
+        {
+          "name": "TPT",
+          "type": "brand",
+          "context": "Pet food subscription service company whose mobile app is being planned"
+        },
+        {
+          "name": "MC",
+          "type": "person",
+          "context": "Commenter providing technical recommendations and questioning implementation decisions (appears in Comments column)"
+        },
+        {
+          "name": "WSAVA",
+          "type": "system",
+          "context": "Guidelines referenced as a static page feature (World Small Animal Veterinary Association)"
+        }
+      ],
+      "insights": [
+        "Most static/informational pages are excluded from the app, with users directed to web views instead",
+        "The entire onboarding Quiz flow (10+ steps) is marked as out of scope for the app",
+        "Core subscription management features (Dashboard, Add-On Market) are prioritized and in scope",
+        "There's debate about implementation approach: MC suggests using Web Views for some features planned as React Native",
+        "Account Management features are split: most are in scope via Web View, but some like Edit Password and Order History are excluded",
+        "Checkout flow is entirely out of scope - suggesting users must complete purchases via web",
+        "The app focuses on post-purchase management rather than acquisition",
+        "Multipet functionality is included, indicating support for customers with multiple pets",
+        "There's inconsistency in the approach to similar features (e.g., Edit Pet Profile appears multiple times with different tech decisions)"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipe details, nutritional information, dietary attributes, costs, ratings, and operational data for meal planning and production",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe IDs and MSKU codes for meal tracking",
+        "Cost data: meal costs ranging from $1.94 to $3.65, with max meal cost targets ($2.54-$3.49)",
+        "Nutritional metrics: calories (340-660), protein (12-41g), sodium (610-1070mg), carbs (17-58g)",
+        "Run ratings: L3 Run Ratings showing performance (0.57%-1.21%)",
+        "Status categories: Graveyard, New, Pending",
+        "Dietary flags: Calorie Smart, Chef's Choice, High Protein, Dairy Free, Keto, Low Carb, GLP-1 Balance",
+        "Nutrition scores: ranging from 3.25 to 4.125",
+        "Dietary fiber content: 6-7g"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        },
+        {
+          "name": "Chicken & Mushroom Marsala",
+          "type": "product",
+          "context": "Multiple recipe variants (F00002A-F) in Graveyard status with consistent nutritional profile"
+        },
+        {
+          "name": "Red Pepper Bruschetta Shredded Chicken",
+          "type": "product",
+          "context": "New status meal with Italian cuisine, approval date 10/21/2025"
+        },
+        {
+          "name": "Garlic Tomato Cream Shredded Beef",
+          "type": "product",
+          "context": "New status meal with Italian cuisine, approval date 10/21/2025"
+        },
+        {
+          "name": "Ají Verde Turkey",
+          "type": "product",
+          "context": "New status meal with Southwestern/Tex-Mex cuisine, approval date 10/28/2025"
+        },
+        {
+          "name": "Ginger Sesame Chicken",
+          "type": "product",
+          "context": "New status meal with Chinese cuisine, approval date 11/11/2025"
+        }
+      ],
+      "insights": [
+        "Multiple recipe variants exist for the same meal (Chicken & Mushroom Marsala has 6 variants F00002A-F), suggesting recipe optimization or testing",
+        "Graveyard status meals are being phased out while New status meals are being introduced with future approval dates (Oct-Nov 2025)",
+        "Strong focus on health-conscious options: most meals are Calorie Smart, High Protein, and Chef's Choice certified",
+        "Protein types vary: chicken (breast, shredded, diced), beef (shredded), and turkey (sliced) with chicken being most common",
+        "European/Italian cuisine dominates the sample, with some Asian and North American options",
+        "Cost efficiency is tracked: actual costs ($1.94-$3.65) are compared against max meal cost targets",
+        "Cooking methods are complex and documented: marinades, grilling, braising, oven cooking, and specialized equipment (shredders, slicers)",
+        "Container specifications and sleeve colors (Yellow, Red) indicate operational/packaging requirements",
+        "GLP-1 Balance and Mediterranean diet flags suggest targeting specific health trends and dietary programs",
+        "Nutrition scores (3.25-4.125) and dietary fiber content are tracked, indicating quality control metrics"
+      ]
+    },
+    {
+      "doc_title": "TPT App: Discovery",
+      "doc_id": "1njFgQemZhGmDz-TTDX75BckUov66opHGp1Ay3gE8U8k",
+      "doc_type": "spreadsheet",
+      "purpose": "Feature scope and technical implementation planning for TPT App discovery phase",
+      "data_type": "planning",
+      "key_data_points": [
+        "Total features tracked: 60+",
+        "Features in scope: ~35 (58%)",
+        "Features out of scope: ~25 (42%)",
+        "Primary tech stack: React Native and Web View",
+        "Main feature categories: Static Pages, Quiz, Plan Selection, Checkout, Dashboard, Add-On Market, Account Management, Notifications, Reactivations"
+      ],
+      "entities": [
+        {
+          "name": "TPT App",
+          "type": "project",
+          "context": "Mobile application being planned/developed for pet food subscription service"
+        },
+        {
+          "name": "MC",
+          "type": "person",
+          "context": "Reviewer providing comments and technical recommendations (appears in 3 comments questioning implementation choices)"
+        },
+        {
+          "name": "WSAVA",
+          "type": "system",
+          "context": "Guidelines referenced in static pages (not in scope)"
+        }
+      ],
+      "insights": [
+        "Hybrid approach: Mix of React Native (native features) and Web View (content pages) for implementation",
+        "Static pages largely excluded from app scope - most marked as 'No' for in-scope",
+        "Core subscription management features prioritized: Dashboard delivery management, plan changes, add-ons all in scope",
+        "Onboarding quiz features (pet profiling) mostly out of scope for this phase",
+        "Checkout flow excluded from initial scope despite being critical user journey",
+        "Technical debate evident: MC questioning React Native choices, suggesting Web View alternatives for efficiency",
+        "Multi-pet functionality partially included (add new pet: Yes, multi-pet checkout: No)",
+        "Account management split between Web View and React Native implementations",
+        "Missing estimation column (FTEW) - no time/effort estimates provided"
+      ]
+    },
+    {
+      "doc_title": "[VIEW ONLY] F_ Meal & Add On Database",
+      "doc_id": "1a1155pX94RJf_pZmz_bWmwFom2bhD3HrRLAqclhs3ZM",
+      "doc_type": "spreadsheet",
+      "purpose": "This spreadsheet tracks a meal database for a food service company, managing recipes, nutritional information, costs, ratings, dietary attributes, and operational details for meal preparation and planning.",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Recipe IDs and MSKU codes for meal tracking",
+        "Meal costs ranging from $1.94 to $3.65",
+        "L3 Run Ratings (performance scores like 3.46, 3.43, 3.40, 3.32)",
+        "Nutritional metrics: calories (340-660), sodium (610-1070mg), protein (12-41g), carbs (17-58g)",
+        "Max meal cost targets ($2.54-$3.49)",
+        "Dietary fiber content (6-7g)",
+        "Nutrition scores (0-4.125)",
+        "Multiple recipe versions per meal (A, B, C, D, E, F variants)"
+      ],
+      "entities": [
+        {
+          "name": "AS",
+          "type": "person",
+          "context": "Chef's initials for Red Pepper Bruschetta Shredded Chicken"
+        },
+        {
+          "name": "SH",
+          "type": "person",
+          "context": "Chef's initials for Garlic Tomato Cream Shredded Beef and Ají Verde Turkey"
+        },
+        {
+          "name": "MJ",
+          "type": "person",
+          "context": "Chef's initials for Ginger Sesame Chicken & Scallion Rice"
+        },
+        {
+          "name": "GLP-1 Balance/Support",
+          "type": "system",
+          "context": "Dietary program category for meal classification"
+        },
+        {
+          "name": "Mediterranean",
+          "type": "system",
+          "context": "Dietary program indicator"
+        }
+      ],
+      "insights": [
+        "Multiple recipe versions exist for the same meal (Chicken & Mushroom Marsala has 6 variants: F00002A-F), suggesting iterative cost and nutritional optimization",
+        "Most meals in the sample are marked as 'Graveyard' or 'New' status, indicating lifecycle management of recipes",
+        "Strong focus on dietary attributes: meals are tagged for Calorie Smart, High Protein, Dairy Free, Pork Free, Low Carb, Keto, and GLP-1 programs",
+        "Chicken breast is the most common protein type in the sample, appearing in multiple preparations (marsala, bruschetta, ginger sesame)",
+        "All meals are marked as available 'All year' for seasonality",
+        "European/Italian cuisine is prominent, with Asian and North American cuisines also represented",
+        "Preparation methods are complex and tracked in detail (marinade, brine, grill, oven, braiser, shredder, slicer)",
+        "Container types are standardized (1 CT, 2 CT, 3 CT) with color-coded sleeves (Yellow, Red)",
+        "Approval dates for new recipes are tracked (October-November 2025)",
+        "Cost variance exists even within the same meal variants ($1.94-$2.27 for Chicken Marsala versions)"
+      ]
+    },
+    {
+      "doc_title": "NV PA contractor interview template",
+      "doc_id": "1fFq2jQNEzXbF1vk7ayVgK1BGKOtFckcvJQOvu6Gu0VI",
+      "doc_type": "spreadsheet",
+      "purpose": "Interview evaluation template for NV PA (Product Analyst) contractor candidates, tracking technical skills, SQL coding abilities, and collaboration mindset",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Hackerrank URL for candidate assessment",
+        "Experimentation/AB testing knowledge evaluation",
+        "SQL live coding performance (3 categories: coding ability, collaboration mindset, style and syntax)",
+        "Scoring rubric: Definitely Not, No, Maybe, Yes, Strong Yes",
+        "Level-based score ranges: Junior/WS (1-8+), Mid (1-9+), Senior (1-9+)",
+        "Total candidate score (sum of technical questions + SQL coding)",
+        "Greenhouse scorecard integration"
+      ],
+      "entities": [
+        {
+          "name": "Greenhouse",
+          "type": "system",
+          "context": "ATS (Applicant Tracking System) where interview scorecard output is pasted"
+        },
+        {
+          "name": "Hackerrank",
+          "type": "system",
+          "context": "Platform used for technical assessment/coding challenges"
+        },
+        {
+          "name": "GoC (Get or Cut)",
+          "type": "product",
+          "context": "Product feature mentioned in experimentation question about item sorting and premium product visibility"
+        }
+      ],
+      "insights": [
+        "Interview focuses heavily on experimentation methodology and AB testing knowledge, including advanced concepts like Bayesian analysis",
+        "SQL evaluation is multi-dimensional: not just correctness but also collaboration, code style, and use of advanced features (CTEs, window functions)",
+        "Template includes specific SQL problems with difficulty ratings: medium (Avg Order Revenue, Orders with TIP, Tip % per day) and hard (Tip distribution, Pair of items)",
+        "Scoring system differentiates between seniority levels with different thresholds for Yes/Strong Yes ratings",
+        "Strong emphasis on collaboration mindset and ability to incorporate feedback during live coding",
+        "Template is designed for standardized evaluation with structured output for ATS integration"
+      ]
+    },
+    {
+      "doc_title": "Good Chop - iTracker (Internal Tracker - Marketing)",
+      "doc_id": "1AH0Czwnrn5LwLauHp24JnrMIRdhpyhYJvDu3D7X2I-E",
+      "doc_type": "spreadsheet",
+      "purpose": "Internal marketing performance tracker for Good Chop, monitoring weekly metrics and campaigns",
+      "data_type": "tracker",
+      "key_data_points": [
+        "Weekly tracking from W30 (2021) through 24-W28 (2024)",
+        "Week-over-Week (WoW) comparison metrics starting from 22-W36",
+        "Self-Improvement campaign: 1 unit, $1,053 spend, $0 return",
+        "Spans approximately 3+ years of marketing data (2021-2024)"
+      ],
+      "entities": [
+        {
+          "name": "Good Chop",
+          "type": "brand",
+          "context": "Company being tracked - likely a food/meal delivery service based on name"
+        },
+        {
+          "name": "Self-Improvement",
+          "type": "project",
+          "context": "Marketing campaign with documented spend of $1,053 and 1 conversion/unit"
+        }
+      ],
+      "insights": [
+        "Long-term tracking system covering 3+ years of weekly marketing data",
+        "WoW (Week-over-Week) analysis implemented starting in late 2022, suggesting increased focus on performance monitoring",
+        "Sparse data visible in extract suggests either incomplete data entry or filtered view",
+        "Self-Improvement campaign shows spend without return, indicating potential underperformance or incomplete data",
+        "Structured weekly format (W## notation) indicates systematic, consistent tracking methodology",
+        "Transition from simple week numbers (W30-W52) to year-prefixed format (22-W01, 23-W01, 24-W01) shows multi-year tracking evolution"
+      ]
+    },
+    {
+      "doc_title": "TPT App: Discovery",
+      "doc_id": "1njFgQemZhGmDz-TTDX75BckUov66opHGp1Ay3gE8U8k",
+      "doc_type": "spreadsheet",
+      "purpose": "Feature scope and technical implementation planning for TPT App discovery phase",
+      "data_type": "planning",
+      "key_data_points": [
+        "Total features tracked: 60+",
+        "Features in scope: ~35 (58%)",
+        "Features out of scope: ~25 (42%)",
+        "Primary tech stack: React Native and Web View",
+        "Main feature categories: Static Pages, Quiz, Plan Selection, Checkout, Dashboard, Add-On Market, Account Management, Notifications, Reactivations"
+      ],
+      "entities": [
+        {
+          "name": "TPT App",
+          "type": "project",
+          "context": "Mobile application being planned/developed for pet food subscription service"
+        },
+        {
+          "name": "MC",
+          "type": "person",
+          "context": "Reviewer providing comments and technical recommendations (appears in 3 comments questioning implementation approaches)"
+        },
+        {
+          "name": "WSAVA",
+          "type": "system",
+          "context": "Guidelines referenced in static pages (not in scope)"
+        }
+      ],
+      "insights": [
+        "Hybrid approach: Mix of React Native (native features) and Web View (content pages) for implementation",
+        "Static pages largely excluded from app scope - preference for web-only access for logged-out content",
+        "Complete quiz flow (10 steps) currently out of scope, with recommendation to use Web View for V1",
+        "Dashboard and delivery management features are prioritized (all in scope)",
+        "Add-On Market fully in scope with comprehensive feature set (6 features)",
+        "Checkout flow mostly out of scope, suggesting phased rollout approach",
+        "Technical debate evident: MC questioning React Native choices, suggesting Web View alternatives for efficiency",
+        "Multi-pet functionality partially scoped (some features in, some out)",
+        "Profile management split between React Native and Web View implementations",
+        "Missing estimation data in FTEW column suggests early planning stage"
+      ]
+    },
+    {
+      "doc_title": "New Ventures - Operational Overhead Calculation",
+      "doc_id": "1U0JsuosUV33kTNDrRMNijBtI_FnazVa_vI6QHGVI_T8",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks the percentage of operational overhead (KTLO - Keep The Lights On work) per month for New Ventures teams",
+      "data_type": "metrics",
+      "key_data_points": [
+        "Percentage of operational overhead per month",
+        "KTLO work story points",
+        "Resolved ticket story points",
+        "Team-specific operational overhead metrics"
+      ],
+      "entities": [
+        {
+          "name": "New Ventures",
+          "type": "project",
+          "context": "Parent organization/project being tracked for operational overhead"
+        },
+        {
+          "name": "Jira",
+          "type": "system",
+          "context": "Ticketing system used as data source for KTLO tracking"
+        },
+        {
+          "name": "KTLO",
+          "type": "system",
+          "context": "Label used to identify Keep The Lights On operational work in tickets"
+        }
+      ],
+      "insights": [
+        "Each team has a dedicated tab for tracking their specific operational overhead",
+        "Automated data collection via nightly cron job ensures up-to-date metrics",
+        "System relies on proper labeling (KTLO) and story point assignment for accuracy",
+        "Uses resolved date to categorize tickets into specific months",
+        "Requires retrospective story point assignment for accurate overhead calculation",
+        "Operational overhead is calculated as a ratio of KTLO work to total work completed"
+      ]
+    },
+    {
+      "doc_title": "2025 ANZ Christmas Offering Business Case | XMB+XMO",
+      "doc_id": "1mAJr8WsEGRAwww18oVheMoCtcjr7tRad3A_dhKDqGVE",
+      "doc_type": "spreadsheet",
+      "purpose": "Tracks project team assignments, leads, and capacity status for the 2025 ANZ (Australia/New Zealand) Christmas Offering business initiative across multiple workstreams",
+      "data_type": "tracker",
+      "key_data_points": [
+        "22 distinct workstreams identified",
+        "Separate AU (Australia) and NZ (New Zealand) leads for most functions",
+        "Multiple workstreams marked as 'TBD' for secondary leads",
+        "Several capacity status notes: 'Ideation done', 'Project has been set up', 'Recipes created', 'Recipes developed', 'NID onboarding process already started', 'Duplicate for campaigns', 'Onboarding SKUs for both markets', 'FSQA needs to onboard SKUs for both markets', 'Duplicate recipe booklets', 'Duplicate website including ingredients, allergens, etc'"
+      ],
+      "entities": [
+        {
+          "name": "Tiffany Zhu",
+          "type": "person",
+          "context": "Lead AU for ANZ Product Strategy"
+        },
+        {
+          "name": "Elyse Hill",
+          "type": "person",
+          "context": "Lead AU for ANZ Project Manager"
+        },
+        {
+          "name": "Vitoria Mantovanni",
+          "type": "person",
+          "context": "Lead AU for Culinary Innovation"
+        },
+        {
+          "name": "Sofia Gill",
+          "type": "person",
+          "context": "Lead AU for CIO Dev Team"
+        },
+        {
+          "name": "Pia Rolandelli",
+          "type": "person",
+          "context": "Lead AU for Culinary"
+        },
+        {
+          "name": "Jenny Cao",
+          "type": "person",
+          "context": "Lead NZ for Culinary"
+        },
+        {
+          "name": "Dallas Morrison",
+          "type": "person",
+          "context": "Lead AU for Engineering"
+        },
+        {
+          "name": "Joel Male",
+          "type": "person",
+          "context": "Lead AU for Engineering"
+        },
+        {
+          "name": "Marcus Thomson",
+          "type": "person",
+          "context": "Lead AU for Logistics"
+        },
+        {
+          "name": "Faye Chen",
+          "type": "person",
+          "context": "Lead NZ for Logistics"
+        },
+        {
+          "name": "Jamie McKay",
+          "type": "person",
+          "context": "Lead AU for Marketing"
+        },
+        {
+          "name": "Hannah Gilbert",
+          "type": "person",
+          "context": "Stakeholder for multiple workstreams including Culinary Innovation, CIO Dev Team, Culinary, Editorial, Digital Ops"
+        },
+        {
+          "name": "XMB+XMO",
+          "type": "project",
+          "context": "Project code/identifier for 2025 ANZ Christmas Offering"
+        },
+        {
+          "name": "SKUs",
+          "type": "system",
+          "context": "Stock Keeping Units being onboarded for both AU and NZ markets"
+        },
+        {
+          "name": "FSQA",
+          "type": "system",
+          "context": "Food Safety and Quality Assurance function"
+        },
+        {
+          "name": "NID",
+          "type": "system",
+          "context": "System/process with onboarding already started"
+        }
+      ],
+      "insights": [
+        "This is a large-scale, cross-functional project spanning 22 workstreams across two markets (Australia and New Zealand)",
+        "Project is in early-to-mid stages with ideation and recipe development completed, but many secondary leads still TBD",
+        "Strong separation of AU and NZ responsibilities, with some functions being market-specific (e.g., AU-only or NZ-only logistics)",
+        "Hannah Gilbert appears as stakeholder in 6 different workstreams, suggesting a central coordination or oversight role",
+        "Several workstreams involve 'duplication' tasks (campaigns, recipe booklets, website), indicating parallel market launches",
+        "Strategic Procurement has multiple named leads for different categories (PTN, PHF, PCK, GRO), suggesting complex supplier management",
+        "FSQA and SKU onboarding are critical path items mentioned as needing completion for both markets",
+        "Engineering workstream has two co-leads, possibly indicating technical complexity or capacity needs"
+      ]
+    }
+  ],
+  "analyzed_at": "2026-01-02T16:07:42.550388"
+}

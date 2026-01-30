@@ -1,0 +1,366 @@
+{
+  "batch_id": "jira_0012",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 8,
+    "Sub-task": 17
+  },
+  "date_range": {
+    "oldest": "2025-12-15",
+    "newest": "2025-12-15"
+  },
+  "analyzed_at": "2026-01-02T18:12:49.656770",
+  "summary": "This batch represents work across multiple product teams including VMS subscription pricing (RTEVMS), Good Chop incident prevention and feature management (GOC), and The Pet's Table infrastructure modernization (TPT). The work includes completing OTP pricing calculations, cleaning up unused feature flags, creating monitoring alerts, and a major initiative to build a new meal-plans BFF service with comprehensive observability and deployment infrastructure.",
+  "decisions": [
+    {
+      "what": "Archive unused feature flag goc_1792_feature_cadence_in_funnel_test_statsig",
+      "issue_key": "GOC-3422",
+      "who": [
+        "Pamela Elisabeth Plúas Guerra"
+      ],
+      "rationale": "Flag has not received traffic in last 7 days and hasn't been modified in over a month, indicating it's no longer needed",
+      "date": "2024"
+    },
+    {
+      "what": "Switch to VMSU product family SKU calculation for VMS family",
+      "issue_key": "RTEVMS-2256",
+      "who": [
+        "Edwin Torres"
+      ],
+      "rationale": "Support different pricing models for active subscribed users vs new users with OTP experience",
+      "date": "2024"
+    },
+    {
+      "what": "Mark serializer and validator configuration as Won't Fix",
+      "issue_key": "TPT-2337",
+      "who": [],
+      "rationale": "Not specified, but likely deprioritized in favor of other implementation approaches",
+      "date": "2024"
+    },
+    {
+      "what": "Mark config interface creation as Won't Fix",
+      "issue_key": "TPT-2339",
+      "who": [],
+      "rationale": "Not specified, but likely replaced by alternative configuration approach",
+      "date": "2024"
+    },
+    {
+      "what": "Mark instrumentation setup as Won't Fix",
+      "issue_key": "TPT-2340",
+      "who": [],
+      "rationale": "Not specified, but instrumentation likely handled differently in the meal-plans BFF architecture",
+      "date": "2024"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Meal-plans BFF Service (TPT-2336)",
+      "description": "Build and deploy a new Backend-for-Frontend service for meal plans with full observability, progressive delivery, monitoring, alerting, and operational documentation",
+      "status": "active",
+      "key_issues": [
+        "TPT-2336",
+        "TPT-2341",
+        "TPT-2478",
+        "TPT-2479",
+        "TPT-2481",
+        "TPT-2482",
+        "TPT-2489",
+        "TPT-2490",
+        "TPT-2491",
+        "TPT-2499",
+        "TPT-2500",
+        "TPT-2501",
+        "TPT-2502",
+        "TPT-2503",
+        "TPT-2504"
+      ]
+    },
+    {
+      "name": "Good Chop Incident Prevention Strategy (GOC-3255)",
+      "description": "Create Databricks SQL alerts to detect anomalies in meal selection patterns and prevent incidents",
+      "status": "active",
+      "key_issues": [
+        "GOC-3255",
+        "GOC-3258",
+        "GOC-3259"
+      ]
+    },
+    {
+      "name": "OTP Experience for VMS Product Family (RTEVMS-1323)",
+      "description": "Implement one-time purchase experience with appropriate SKU calculations for VMS family products",
+      "status": "completed",
+      "key_issues": [
+        "RTEVMS-2256"
+      ]
+    },
+    {
+      "name": "The Pet's Table Reactivation Flow (TPT-1984)",
+      "description": "Build and test reactivation page functionality for deactivated accounts",
+      "status": "completed",
+      "key_issues": [
+        "TPT-2295"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "VMSU product family work blocked by RTEVMS-2186",
+      "issue_key": "RTEVMS-2256",
+      "owner": "Edwin Torres",
+      "impact": "Delayed implementation of VMS family SKU calculation"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Edwin Torres",
+      "type": "person",
+      "context": "Assignee implementing VMSU product family SKU calculations",
+      "issues": [
+        "RTEVMS-2256"
+      ]
+    },
+    {
+      "name": "Emily Stanek",
+      "type": "person",
+      "context": "Identified blocker on VMSU work",
+      "issues": [
+        "RTEVMS-2256"
+      ]
+    },
+    {
+      "name": "Pamela Elisabeth Plúas Guerra",
+      "type": "person",
+      "context": "Working on Good Chop feature flag cleanup and Databricks alerts",
+      "issues": [
+        "GOC-3422",
+        "GOC-3258",
+        "GOC-3259"
+      ]
+    },
+    {
+      "name": "Suzanna Filipowska",
+      "type": "person",
+      "context": "Completed SKU investigation and trial box reset work",
+      "issues": [
+        "TPT-2402",
+        "TPT-2505"
+      ]
+    },
+    {
+      "name": "Anastasiia Aiuvdzhy",
+      "type": "person",
+      "context": "Created E2E tests for reactivation page",
+      "issues": [
+        "TPT-2295"
+      ]
+    },
+    {
+      "name": "Morteza Pourkazemi",
+      "type": "person",
+      "context": "Set up CI/CD for meal-plans BFF",
+      "issues": [
+        "TPT-2341"
+      ]
+    },
+    {
+      "name": "Guhan Sundararajan",
+      "type": "person",
+      "context": "Assigned to investigate product API V2 migration",
+      "issues": [
+        "TPT-2397"
+      ]
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Brand implementing incident prevention strategy with Databricks alerts",
+      "issues": [
+        "GOC-3258",
+        "GOC-3259",
+        "GOC-3422"
+      ]
+    },
+    {
+      "name": "The Pet's Table",
+      "type": "brand",
+      "context": "Pet food brand undergoing infrastructure modernization and feature development",
+      "issues": [
+        "TPT-2295",
+        "TPT-2336",
+        "TPT-2341",
+        "TPT-2397",
+        "TPT-2402",
+        "TPT-2505"
+      ]
+    },
+    {
+      "name": "Pet Food squad",
+      "type": "squad",
+      "context": "Team receiving on-call training for meal-plans BFF operations",
+      "issues": [
+        "TPT-2502"
+      ]
+    },
+    {
+      "name": "VMS",
+      "type": "product",
+      "context": "Product family requiring OTP experience and SKU calculation updates",
+      "issues": [
+        "RTEVMS-2256"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "type": "system",
+      "context": "Platform for SQL alerts monitoring meal selection patterns",
+      "issues": [
+        "GOC-3258",
+        "GOC-3259"
+      ]
+    },
+    {
+      "name": "Statsig",
+      "type": "system",
+      "context": "Feature flag and experimentation platform",
+      "issues": [
+        "GOC-3422"
+      ]
+    },
+    {
+      "name": "ArgoCD",
+      "type": "system",
+      "context": "Deployment platform for progressive delivery and canary rollouts",
+      "issues": [
+        "TPT-2500",
+        "TPT-2503"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "type": "system",
+      "context": "Monitoring dashboard platform for BFF metrics",
+      "issues": [
+        "TPT-2489",
+        "TPT-2502"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "type": "system",
+      "context": "Metrics collection and alerting system",
+      "issues": [
+        "TPT-2490",
+        "TPT-2491"
+      ]
+    },
+    {
+      "name": "OpsGenie",
+      "type": "system",
+      "context": "On-call management and alerting platform",
+      "issues": [
+        "TPT-2491"
+      ]
+    },
+    {
+      "name": "Vault",
+      "type": "system",
+      "context": "Secrets management system for staging and production",
+      "issues": [
+        "TPT-2481"
+      ]
+    },
+    {
+      "name": "Loki",
+      "type": "system",
+      "context": "Log aggregation system for BFF operations",
+      "issues": [
+        "TPT-2501",
+        "TPT-2502"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Progressive delivery with canary deployments",
+      "context": "Using ArgoCD and Argo Rollouts for safe production rollouts with automatic rollback on error thresholds (10% → 50% → 100%)"
+    },
+    {
+      "pattern": "RED method monitoring",
+      "context": "Implementing Rate, Errors, Duration metrics in Grafana dashboards for BFF observability"
+    },
+    {
+      "pattern": "Feature flag driven development",
+      "context": "Using feature flags for gradual traffic shifting and rollout control of BFF endpoints"
+    },
+    {
+      "pattern": "Infrastructure as Code with OAM",
+      "context": "Using OAM manifests for Kubernetes deployment configuration including Vault integration"
+    },
+    {
+      "pattern": "E2E testing with mocks",
+      "context": "Using supertest for API endpoint testing and mocking external services for reactivation flows"
+    },
+    {
+      "pattern": "Secrets management with Vault Secrets Operator",
+      "context": "Injecting secrets from Vault into applications via Kubernetes operators rather than direct API calls"
+    },
+    {
+      "pattern": "Proactive alerting with Prometheus",
+      "context": "Defining alerting rules for error rates, latency thresholds, and resource exhaustion with OpsGenie integration"
+    },
+    {
+      "pattern": "JSON structured logging",
+      "context": "Using NestJS JSON logger for consistent log formatting and querying in Loki"
+    },
+    {
+      "pattern": "API versioning migration",
+      "context": "Investigating compatibility for migrating from product API V1 to V2 before deprecation"
+    },
+    {
+      "pattern": "SQL-based monitoring alerts",
+      "context": "Using Databricks SQL queries to detect anomalies in meal selection patterns for incident prevention"
+    }
+  ],
+  "work_themes": [
+    "Infrastructure modernization and BFF architecture",
+    "Observability and monitoring setup",
+    "Progressive delivery and deployment safety",
+    "Feature flag management and cleanup",
+    "Incident prevention through proactive alerting",
+    "Product pricing and SKU management",
+    "E2E test automation",
+    "On-call readiness and operational documentation"
+  ],
+  "dependencies": [
+    {
+      "from": "RTEVMS-2256",
+      "to": "RTEVMS-2186",
+      "context": "VMSU product family work blocked by another ticket"
+    },
+    {
+      "from": "Pet Food squad",
+      "to": "Meal-plans BFF",
+      "context": "Squad needs on-call training and documentation before taking ownership of BFF operations"
+    },
+    {
+      "from": "Meal-plans BFF",
+      "to": "Vault",
+      "context": "BFF requires secrets from existing Vault namespace for staging and production"
+    },
+    {
+      "from": "Meal-plans BFF",
+      "to": "ArgoCD",
+      "context": "Deployment pipeline depends on ArgoCD for progressive delivery"
+    },
+    {
+      "from": "Good Chop alerts",
+      "to": "Databricks",
+      "context": "Incident prevention alerts depend on Databricks SQL query capabilities"
+    },
+    {
+      "from": "TPT product API",
+      "to": "Product V2 API",
+      "context": "Need to migrate before V1 deprecation, requires compatibility validation"
+    }
+  ]
+}

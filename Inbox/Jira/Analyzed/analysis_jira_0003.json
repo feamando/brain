@@ -1,0 +1,383 @@
+{
+  "batch_id": "jira_0003",
+  "issue_count": 25,
+  "issue_types": {
+    "Task": 10,
+    "Sub-task": 1,
+    "Epic": 1,
+    "Bug": 1,
+    "Story": 12
+  },
+  "date_range": {
+    "oldest": "2025-12-30",
+    "newest": "2025-12-30"
+  },
+  "analyzed_at": "2026-01-02T18:06:44.767611",
+  "summary": "The work spans multiple product teams working on e-commerce improvements including OTP (One-Time Purchase) functionality, Factor Form product expansion, and Good Chop funnel monitoring. Key focus areas include fixing shipping threshold bugs, building new product pages for meal shakes and creatine, implementing order history features, and establishing monitoring infrastructure for critical user journeys.",
+  "decisions": [
+    {
+      "what": "Update discount banner copy to show consistent voucher discount communications across the funnel",
+      "issue_key": "RTEVMS-2376",
+      "who": [
+        "Edwin Torres"
+      ],
+      "rationale": "Ensure RTE active customers with 50% year voucher see consistent discount information throughout their journey",
+      "date": "2025"
+    },
+    {
+      "what": "Add fallback content to product card discount banner",
+      "issue_key": "RTEVMS-2376",
+      "who": [
+        "Hamed Karimian",
+        "Jan Leite"
+      ],
+      "rationale": "Address edge cases where discount information might not be available",
+      "date": "2025"
+    },
+    {
+      "what": "Implement anomaly detection alerts for Good Chop funnel CTAs",
+      "issue_key": "GOC-3374",
+      "who": [
+        "Alexander Matlin"
+      ],
+      "rationale": "Proactively monitor funnel health and enable faster response times to issues",
+      "date": "2025"
+    },
+    {
+      "what": "Add tracing for discount banner component rendering",
+      "issue_key": "GOC-3370",
+      "who": [
+        "Alexander Matlin"
+      ],
+      "rationale": "Track critical path component to catch issues when banner is not displayed for customers with free benefits",
+      "date": "2025"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Factor Form New Product Launch",
+      "description": "Expand Factor Form product catalog with meal shakes and creatine, including new PDPs, product cards, cart integration, and delivery management",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2412",
+        "RTEVMS-2437",
+        "RTEVMS-2438",
+        "RTEVMS-2439",
+        "RTEVMS-2440",
+        "RTEVMS-2441",
+        "RTEVMS-2442",
+        "RTEVMS-2443",
+        "RTEVMS-2444",
+        "RTEVMS-2445",
+        "RTEVMS-2446",
+        "RTEVMS-2447",
+        "RTEVMS-2448"
+      ]
+    },
+    {
+      "name": "OTP Dashboard Enhancement",
+      "description": "Build comprehensive OTP order management dashboard with order listing, details drawer, and graduation banner functionality",
+      "status": "active",
+      "key_issues": [
+        "GOC-3059",
+        "GOC-3400",
+        "GOC-3401",
+        "GOC-3425",
+        "GOC-3245"
+      ]
+    },
+    {
+      "name": "Good Chop Funnel Monitoring",
+      "description": "Establish end-to-end monitoring infrastructure for Good Chop funnel including alerts, tracing, and runbook updates",
+      "status": "active",
+      "key_issues": [
+        "GOC-3334",
+        "GOC-3374",
+        "GOC-3370",
+        "GOC-3371"
+      ]
+    },
+    {
+      "name": "Delivery Quick Wins Q1 2026",
+      "description": "Collection of delivery-related improvements and optimizations planned for Q1 2026",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2451"
+      ]
+    },
+    {
+      "name": "Order History Fallback Implementation",
+      "description": "Implement empty state handling for Factor Form and Factor customers when no order history exists",
+      "status": "active",
+      "key_issues": [
+        "RTEVMS-2312",
+        "RTEVMS-2357"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "description": "OTP free shipping threshold incorrectly set to $50 instead of $65 in UAT environment",
+      "issue_key": "RTEVMS-2414",
+      "owner": "Unassigned",
+      "impact": "Customers seeing incorrect free shipping eligibility in cart and order summary"
+    },
+    {
+      "description": "Shipping fee not reflecting cart details on sign up page",
+      "issue_key": "RTEVMS-2408",
+      "owner": "Emily Mendelson",
+      "impact": "Anonymous users see incorrect shipping costs during checkout"
+    },
+    {
+      "description": "Runbook contains outdated query with deprecated span",
+      "issue_key": "GOC-3371",
+      "owner": "Unassigned",
+      "impact": "Reschedule alert monitoring may not function correctly"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Edwin Torres",
+      "type": "person",
+      "context": "Developer working on order history fallback and discount banner updates",
+      "issues": [
+        "RTEVMS-2357",
+        "RTEVMS-2376"
+      ]
+    },
+    {
+      "name": "Emily Mendelson",
+      "type": "person",
+      "context": "Developer assigned to fix shipping fee bug on sign up page",
+      "issues": [
+        "RTEVMS-2408"
+      ]
+    },
+    {
+      "name": "Hamed Karimian",
+      "type": "person",
+      "context": "Requested fallback content addition to discount banner",
+      "issues": [
+        "RTEVMS-2376"
+      ]
+    },
+    {
+      "name": "Jan Leite",
+      "type": "person",
+      "context": "Confirmed implementation of fallback content for discount banner",
+      "issues": [
+        "RTEVMS-2376"
+      ]
+    },
+    {
+      "name": "Alexander Matlin",
+      "type": "person",
+      "context": "POC for anomaly detection and monitoring infrastructure",
+      "issues": [
+        "GOC-3374",
+        "GOC-3370"
+      ]
+    },
+    {
+      "name": "Himash Tehan",
+      "type": "person",
+      "context": "Involved in OTP dashboard implementation, noting TBD items for skeleton loading and order status logic",
+      "issues": [
+        "GOC-3400",
+        "GOC-3401"
+      ]
+    },
+    {
+      "name": "Beatrice Dimarucut",
+      "type": "person",
+      "context": "Reviewing order status logic and internal state definitions for OTP dashboard",
+      "issues": [
+        "GOC-3401"
+      ]
+    },
+    {
+      "name": "Factor Form",
+      "type": "brand",
+      "context": "Brand receiving new product expansion (meal shakes, creatine) and order history improvements",
+      "issues": [
+        "RTEVMS-2357",
+        "RTEVMS-2412",
+        "RTEVMS-2437",
+        "RTEVMS-2438",
+        "RTEVMS-2439",
+        "RTEVMS-2440",
+        "RTEVMS-2441",
+        "RTEVMS-2442",
+        "RTEVMS-2443",
+        "RTEVMS-2444",
+        "RTEVMS-2445",
+        "RTEVMS-2446",
+        "RTEVMS-2447",
+        "RTEVMS-2448"
+      ]
+    },
+    {
+      "name": "Good Chop",
+      "type": "brand",
+      "context": "Brand receiving funnel monitoring improvements and OTP dashboard enhancements",
+      "issues": [
+        "GOC-3374",
+        "GOC-3370",
+        "GOC-3371",
+        "GOC-3400",
+        "GOC-3401",
+        "GOC-3425",
+        "GOC-3245",
+        "GOC-3232"
+      ]
+    },
+    {
+      "name": "RTE",
+      "type": "brand",
+      "context": "Brand mentioned in context of active customers with voucher discounts",
+      "issues": [
+        "RTEVMS-2376"
+      ]
+    },
+    {
+      "name": "Reactivation BFF",
+      "type": "system",
+      "context": "Backend service providing OTP orders endpoint for dashboard",
+      "issues": [
+        "GOC-3400",
+        "GOC-3401"
+      ]
+    },
+    {
+      "name": "Honeycomb",
+      "type": "system",
+      "context": "Observability platform used for alerts and tracing",
+      "issues": [
+        "GOC-3371"
+      ]
+    },
+    {
+      "name": "Cypress",
+      "type": "system",
+      "context": "Testing framework for pre-checkout journey validation",
+      "issues": [
+        "GOC-3232"
+      ]
+    },
+    {
+      "name": "GTM",
+      "type": "system",
+      "context": "Google Tag Manager for tracking graduation banner events",
+      "issues": [
+        "GOC-3245"
+      ]
+    },
+    {
+      "name": "Meal Shake",
+      "type": "feature",
+      "context": "New product being added to Factor Form catalog with dedicated PDP and product card",
+      "issues": [
+        "RTEVMS-2441",
+        "RTEVMS-2443",
+        "RTEVMS-2437"
+      ]
+    },
+    {
+      "name": "Creatine",
+      "type": "feature",
+      "context": "New product being added to Factor Form catalog with dedicated PDP and product card",
+      "issues": [
+        "RTEVMS-2442",
+        "RTEVMS-2444"
+      ]
+    },
+    {
+      "name": "OTP (One-Time Purchase)",
+      "type": "feature",
+      "context": "Order type requiring dashboard, monitoring, and shipping threshold fixes",
+      "issues": [
+        "RTEVMS-2414",
+        "GOC-3400",
+        "GOC-3401",
+        "GOC-3425",
+        "GOC-3232"
+      ]
+    }
+  ],
+  "technical_patterns": [
+    {
+      "pattern": "Component-level tracing for critical UI elements",
+      "context": "Adding traces to discount banner component rendering to catch display issues and monitor component lifecycle"
+    },
+    {
+      "pattern": "GA anomaly detection for funnel monitoring",
+      "context": "Proactive monitoring approach using Google Analytics anomaly detection for each funnel CTA to enable faster incident response"
+    },
+    {
+      "pattern": "Hook-based data transformation layer",
+      "context": "Creating hooks to request and transform OTP orders data from backend API to make it display-ready for UI components"
+    },
+    {
+      "pattern": "Schema and type updates for product expansion",
+      "context": "Updating core product schema and types to support new product categories (meal shakes, creatine) with proper encoding/decoding"
+    },
+    {
+      "pattern": "Translation key management",
+      "context": "Adding translation keys in codebase for new products to support internationalization"
+    },
+    {
+      "pattern": "Empty state and fallback patterns",
+      "context": "Implementing fallback content for order history and discount banners when data is unavailable"
+    },
+    {
+      "pattern": "Cypress end-to-end testing for checkout flows",
+      "context": "Validating OTP pre-checkout journey including voucher application, SKU validation, and pricing verification"
+    },
+    {
+      "pattern": "Drawer pattern for detailed views",
+      "context": "Using drawer component to display OTP order details and pricing information"
+    }
+  ],
+  "work_themes": [
+    "E-commerce bug fixes and KTLO",
+    "New product catalog expansion",
+    "Observability and monitoring infrastructure",
+    "Order management and dashboard development",
+    "Checkout flow improvements",
+    "Discount and pricing consistency",
+    "Empty state and fallback handling",
+    "Testing automation and coverage"
+  ],
+  "dependencies": [
+    {
+      "from": "Frontend OTP Dashboard",
+      "to": "Reactivation BFF API",
+      "context": "Dashboard page depends on reactivation_bff endpoint for fetching OTP orders data"
+    },
+    {
+      "from": "Factor Form Product Pages",
+      "to": "Translation System",
+      "context": "New product pages require translation keys to be added before implementation"
+    },
+    {
+      "from": "Good Chop Monitoring",
+      "to": "Honeycomb",
+      "context": "Alert infrastructure depends on Honeycomb for trace collection and anomaly detection"
+    },
+    {
+      "from": "Product Card Components",
+      "to": "Core Product Schema",
+      "context": "Product cards depend on updated schema and types to support new product categories"
+    },
+    {
+      "from": "Graduation Banner",
+      "to": "GTM",
+      "context": "Banner tracking depends on GTM event implementation for analytics"
+    },
+    {
+      "from": "Cart Integration",
+      "to": "Product Selection Components",
+      "context": "Cart must integrate new product selections from meal shake and creatine components"
+    }
+  ]
+}
