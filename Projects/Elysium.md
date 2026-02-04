@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/elysium
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.926195Z'
-$updated: '2026-01-30T14:50:43.116592+00:00'
+$updated: '2026-02-04T09:57:55.540871+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

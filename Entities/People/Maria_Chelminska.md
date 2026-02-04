@@ -191,6 +191,7 @@ $events:
     value: brain://entity/person/v1
   message: Migrated from v1 to v2 schema
 name: Maria Chelminska
+team_path: team/reports/maria-chelminska
 ---
 
 # Maria_Chelminska

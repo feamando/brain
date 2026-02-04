@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/product-cards
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.943913Z'
-$updated: '2026-01-30T14:50:43.124120+00:00'
+$updated: '2026-02-04T10:01:26.079152+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

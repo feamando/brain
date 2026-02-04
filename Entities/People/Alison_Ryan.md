@@ -102,6 +102,7 @@ $events:
     value: brain://entity/person/v1
   message: Migrated from v1 to v2 schema
 name: Alison Ryan
+team_path: team/reports/alison-ryan
 ---
 
 # Alison_Ryan

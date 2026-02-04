@@ -31,6 +31,7 @@ $events:
     value: brain://entity/person/v1
   message: Migrated from v1 to v2 schema
 name: Prateek Jajoo
+team_path: team/reports/prateek-jajoo
 ---
 
 # Prateek_Jajoo

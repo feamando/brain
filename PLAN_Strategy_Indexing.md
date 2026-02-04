@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/plan-strategy-indexing
 $type: project
-$version: 10
+$version: 13
 $created: '2026-01-22T08:31:00.693550Z'
-$updated: '2026-01-30T14:50:43.004728+00:00'
+$updated: '2026-02-04T09:56:24.202219+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

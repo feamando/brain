@@ -275,6 +275,7 @@ $events:
     value: brain://entity/person/v1
   message: Migrated from v1 to v2 schema
 name: Beatrice Dimarucut
+team_path: team/reports/beatrice-dimarucut
 ---
 
 # Beatrice_Dimarucut

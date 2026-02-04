@@ -4,11 +4,26 @@ $id: entity/project/consumer-mega-alliance
 $type: project
 $version: 8
 $created: '2026-01-22T08:31:01.080683Z'
-$updated: '2026-01-30T14:33:01.195161+00:00'
+$updated: '2026-02-04T10:55:56.520979'
 $confidence: 0.36
 $source: unknown
 $status: active
-$relationships: []
+$relationships:
+- type: has_contributor
+  target: entity/person/nikita-gorshkov
+  confidence: 0.7
+  last_verified: '2026-02-04'
+  source: gdocs
+- type: has_contributor
+  target: entity/person/evan-weintraub
+  confidence: 0.7
+  last_verified: '2026-02-04'
+  source: gdocs
+- type: has_contributor
+  target: entity/person/jama-musse
+  confidence: 0.7
+  last_verified: '2026-02-04'
+  source: gdocs
 $tags: []
 $aliases: []
 $events:

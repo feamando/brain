@@ -65,6 +65,230 @@ $relationships:
   metadata:
     model: all-MiniLM-L6-v2
     threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-nov25-exp0094-discount-sms-au-longform-105-156
+  confidence: 0.8435
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-nov25-exp0092-discount-sms-seno-choppingboard-4-104
+  confidence: 0.8399
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-sep25-exp0079-segment-cc-incrementality-nordics-4-104
+  confidence: 0.816
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-oct25-exp0078-content-em-npdnewsletter-43-9-104
+  confidence: 0.8094
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-oct25-exp0051-content-em-npdnewsletter-gb-9-104
+  confidence: 0.7984
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-dec25-exp0099-content-em-gb-otp-9-104
+  confidence: 0.7969
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-nov25-exp0096-channel-cc-nl-incrementality-4-104
+  confidence: 0.7927
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-dec25-exp0098-channel-cc-gb-l1-newcc-incrementality-4-104
+  confidence: 0.792
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-nov25-exp0095-channel-cc-be-incrementality-4-104-correct
+  confidence: 0.7915
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-oct25-exp0082-content-em-longform-au-9-104
+  confidence: 0.7899
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-nov25-exp0097-channel-cc-gb-newcc-incrementality-4-104
+  confidence: 0.7863
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-aug24-exp0004-content-em-app-au-former-bau-9-104w-q324partnership-9-104
+  confidence: 0.7753
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-july25-exp0050-content-em-app-bau-revamp-fomo-1-8-kg
+  confidence: 0.7746
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-actives-hfm-uk-no-discount-q3-25
+  confidence: 0.7418
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-react-intl-dec25-exp0101-content-sms-au-lp-incrementality-105-156
+  confidence: 0.7349
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-discount-experiment-test-data-sample-1309-v3
+  confidence: 0.7051
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-px-price-test-25-q3-ch-hf
+  confidence: 0.692
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-px-price-test-24-q3-de
+  confidence: 0.682
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-price-experimentation-testing-hellofresh-dk-q4-25-react-subtype
+  confidence: 0.6752
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-px-price-test-25-q4-de-hf
+  confidence: 0.6749
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-px-price-test-25-q3-ch-hf-clean
+  confidence: 0.673
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-fj-snacksdesserts-price-test-2025w40
+  confidence: 0.6728
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-price-experimentation-testing-hellofresh-dk-q4-25-v2-react-subtype
+  confidence: 0.6719
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-px-price-test-24-q2-us
+  confidence: 0.6709
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-v2aug-28-analysis-hf-unified-checkout-test-au-nz-fr-ie-ca-v3
+  confidence: 0.657
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-dxperiment-009--fr--checked-the-delivery-options-try2
+  confidence: 0.6549
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-fj-indefintepausers-dm-bts2025
+  confidence: 0.6547
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-hfus-w52-surcharge-discount
+  confidence: 0.6503
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
 $tags: []
 $aliases: []
 $events:

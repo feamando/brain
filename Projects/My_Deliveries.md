@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/my-deliveries
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.934323Z'
-$updated: '2026-01-30T14:50:43.121351+00:00'
+$updated: '2026-02-04T09:59:56.024839+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

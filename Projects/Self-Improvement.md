@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/self-improvement
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.944836Z'
-$updated: '2026-01-30T14:50:43.124573+00:00'
+$updated: '2026-02-04T10:01:41.098917+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

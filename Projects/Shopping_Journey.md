@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/shopping-journey
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.921951Z'
-$updated: '2026-01-30T14:50:43.114318+00:00'
+$updated: '2026-02-04T09:57:09.228328+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

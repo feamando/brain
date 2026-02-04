@@ -33,6 +33,22 @@ $relationships:
   metadata:
     model: all-MiniLM-L6-v2
     threshold: 0.85
+- type: similar_to
+  target: entity/experiment/exp-virality-fj-customer-freebie-creatives-experiment-2025w39
+  confidence: 0.7461
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
+- type: similar_to
+  target: entity/experiment/exp-virality-us-customer-cashcreditvsvoucher
+  confidence: 0.6666
+  source: auto_embedding
+  last_verified: '2026-02-04'
+  metadata:
+    model: all-MiniLM-L6-v2
+    threshold: 0.65
 $tags: []
 $aliases: []
 $events:

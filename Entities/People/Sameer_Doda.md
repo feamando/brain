@@ -125,6 +125,7 @@ $events:
     value: brain://entity/person/v1
   message: Migrated from v1 to v2 schema
 name: Sameer Doda
+team_path: team/reports/sameer-doda
 ---
 
 # Sameer_Doda

@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/consumer-mega-alliance
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.936231Z'
-$updated: '2026-01-30T14:50:43.122280+00:00'
+$updated: '2026-02-04T10:00:26.044079+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active

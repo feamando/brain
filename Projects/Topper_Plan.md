@@ -2,9 +2,9 @@
 $schema: brain://entity/project/v1
 $id: entity/project/topper-plan
 $type: project
-$version: 9
+$version: 12
 $created: '2026-01-22T08:31:00.929836Z'
-$updated: '2026-01-30T14:50:43.118423+00:00'
+$updated: '2026-02-04T09:58:55.580456+00:00'
 $confidence: 0.36
 $source: unknown
 $status: active
