@@ -1,153 +1,220 @@
-# Brain: Semantic Knowledge Graph Framework
+# PM-OS Brain
 
-This repository contains the **framework, schemas, and tools** for the PM-OS Brain - a semantic knowledge graph for AI agents.
+[![PyPI version](https://badge.fury.io/py/pmos-brain.svg)](https://badge.fury.io/py/pmos-brain)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Important:** This repo contains the service definition, schemas, and tools. Actual entity data, personal information, and content should remain in your local PM-OS installation and should NOT be committed to this repository.
+**Semantic Knowledge Graph for AI Agents**
 
-## Repository Contents
+A structured knowledge management system that stores entities (people, projects, teams) as markdown files with YAML frontmatter, connected through typed relationships. Part of the [PM-OS](https://github.com/hellofresh/hf-pm-os) ecosystem.
 
-```
-brain/
-├── .schema/           # JSON schemas for entity validation
-├── tools/             # Python tools for Brain operations
-│   ├── enrichers/     # Data enrichment from external sources
-│   └── tests/         # Unit tests
-├── Entities/          # Placeholder (data stays local)
-├── Projects/          # Placeholder (data stays local)
-├── Architecture/      # Placeholder (data stays local)
-├── Strategy/          # Placeholder (data stays local)
-├── Inbox/             # Placeholder (data stays local)
-└── README.md
-```
-
-## What This Repo Contains
-
-### Schemas (`.schema/`)
-JSON schemas defining entity structures:
-- `entity.schema.json` - Base entity schema
-- `person.schema.json` - People entities
-- `team.schema.json` - Team entities
-- `squad.schema.json` - Squad entities
-- `project.schema.json` - Project entities
-- `event.schema.json` - Event entities
-- `registry.schema.json` - Entity registry schema
-- `relationship.schema.json` - Relationship definitions
-
-### Tools (`tools/`)
-
-#### Core Tools
-| Tool | Description |
-|------|-------------|
-| `brain_loader.py` | Load and query Brain entities |
-| `brain_search.py` | Search across all entities |
-| `brain_query.py` | Structured entity queries |
-| `brain_index.py` | Build and maintain search index |
-| `brain_graph.py` | Graph traversal and visualization |
-| `brain_updater.py` | Update entity content |
-| `unified_brain_writer.py` | Create and write entities |
-
-#### Enrichment Tools
-| Tool | Description |
-|------|-------------|
-| `brain_enrich.py` | Main enrichment orchestrator |
-| `brain_enrichment_orchestrator.py` | Multi-source enrichment pipeline |
-| `enrichment_pipeline.py` | Pipeline execution framework |
-| `enrichers/slack_enricher.py` | Enrich from Slack data |
-| `enrichers/jira_enricher.py` | Enrich from Jira tickets |
-| `enrichers/github_enricher.py` | Enrich from GitHub repos |
-| `enrichers/gdocs_enricher.py` | Enrich from Google Docs |
-| `enrichers/context_enricher.py` | Enrich from context files |
-
-#### Relationship Tools
-| Tool | Description |
-|------|-------------|
-| `relationship_builder.py` | Build entity relationships |
-| `relationship_normalizer.py` | Normalize relationship types |
-| `relationship_auditor.py` | Audit relationship integrity |
-| `relationship_decay.py` | Handle stale relationships |
-| `body_relationship_extractor.py` | Extract relationships from content |
-| `embedding_edge_inferrer.py` | Infer relationships via embeddings |
-
-#### Quality & Maintenance
-| Tool | Description |
-|------|-------------|
-| `entity_validator.py` | Validate entities against schemas |
-| `quality_scorer.py` | Score entity completeness |
-| `graph_health.py` | Check graph health metrics |
-| `orphan_analyzer.py` | Find orphaned entities |
-| `orphan_cleaner.py` | Clean up orphaned entities |
-| `stale_entity_detector.py` | Detect stale entities |
-| `reference_validator.py` | Validate entity references |
-
-#### Data Management
-| Tool | Description |
-|------|-------------|
-| `canonical_resolver.py` | Resolve entity aliases |
-| `registry_v2_builder.py` | Build entity registry |
-| `schema_migrator.py` | Migrate schemas between versions |
-| `migration_runner.py` | Run data migrations |
-| `snapshot_manager.py` | Create/restore snapshots |
-| `temporal_query.py` | Query historical states |
-| `event_store.py` | Store entity events |
-| `extraction_hints.py` | Entity extraction hints |
-
-## What This Repo Does NOT Contain
-
-- Entity data (people, projects, teams)
-- Private content or documents
-- State files (registry.yaml, content_index.json, etc.)
-- Inbox data or caches
-
-## Philosophy
-
-- **Markdown is the Database:** All knowledge stored in structured Markdown files
-- **Entity-Oriented:** Files organized by what they *are* (Project, Team, Decision)
-- **Living Documents:** Files meant to be updated, refined, and refactored
-- **Local Data:** Your actual data stays local - only the framework is shared
-
-## Relationship Types
-
-Entities connect via typed relationships in YAML frontmatter:
-
-| Forward | Inverse | Usage |
-|---------|---------|-------|
-| `owner` | `owns` | Person → Project/Domain |
-| `member_of` | `has_member` | Person → Team |
-| `blocked_by` | `blocks` | Project → Project/Issue |
-| `depends_on` | `dependency_for` | Project → Project |
-| `relates_to` | `relates_to` | Generic connection |
-| `part_of` | `has_part` | Sub-component → System |
-
-## Usage
+## Installation
 
 ```bash
-# Load brain context
-python3 tools/brain_loader.py
+# Basic installation
+pip install pmos-brain
+
+# With specific LLM provider
+pip install pmos-brain[anthropic]    # Claude
+pip install pmos-brain[openai]       # GPT-4
+pip install pmos-brain[gemini]       # Gemini
+pip install pmos-brain[mistral]      # Mistral
+pip install pmos-brain[ollama]       # Local models
+
+# With all LLM providers
+pip install pmos-brain[llm]
+
+# With integrations
+pip install pmos-brain[slack]
+pip install pmos-brain[jira]
+pip install pmos-brain[github]
+pip install pmos-brain[integrations]  # All integrations
+
+# Everything
+pip install pmos-brain[all]
+```
+
+## Quick Start
+
+### Python API
+
+```python
+from pmos_brain import Brain, LLMClient
+
+# Initialize brain
+brain = Brain("./my-brain")
 
 # Search entities
-python3 tools/brain_search.py --query "project name"
+results = brain.search("product manager")
+for entity in results:
+    print(f"{entity.name} ({entity.entity_type})")
 
-# Validate entities
-python3 tools/entity_validator.py --path Entities/
+# Get specific entity
+person = brain.get("Entities/Jane_Smith")
+print(person.relationships)
 
-# Run enrichment
-python3 tools/brain_enrich.py --source slack
+# Create new entity
+project = brain.create(
+    name="Mobile App v2",
+    entity_type="project",
+    content="# Mobile App v2\n\nRedesign project...",
+    metadata={"status": "in_progress", "priority": "P1"}
+)
 
-# Check graph health
-python3 tools/graph_health.py
+# Use LLM for entity extraction
+llm = LLMClient()  # Uses ANTHROPIC_API_KEY by default
+response = llm.complete(
+    "Extract all person names from this text: ...",
+    system="Return names as a JSON array."
+)
 ```
 
-## Local Setup
+### CLI
 
-Your local Brain data lives in `user/brain/` within your PM-OS installation. Copy the tools to `common/tools/brain/` and schemas to `user/brain/.schema/`.
+```bash
+# Initialize a new brain
+pmos-brain setup ./my-brain
 
-## Requirements
+# Search entities
+pmos-brain search "product manager" --brain ./my-brain
+
+# List all entities
+pmos-brain list --type person
+
+# Get entity details
+pmos-brain get Entities/Jane_Smith
+
+# Validate brain structure
+pmos-brain validate
+```
+
+## Entity Structure
+
+Entities are markdown files with YAML frontmatter:
+
+```markdown
+---
+type: person
+name: Jane Smith
+aliases: [Jane, J. Smith]
+role: Senior Product Manager
+relationships:
+  member_of:
+    - "[[Entities/Team_Consumer]]"
+  owns:
+    - "[[Projects/Mobile_App]]"
+---
+
+# Jane Smith
+
+Senior Product Manager on the Consumer team.
+
+## Current Focus
+- Mobile App v2 redesign
+- Push notification strategy
+```
+
+## LLM Providers
+
+Brain supports multiple LLM providers with automatic fallback:
+
+| Provider | Models (Latest) | Best For |
+|----------|-----------------|----------|
+| **Anthropic** | claude-sonnet-4-20250514, claude-opus-4-20250514 | Entity extraction, reasoning |
+| **OpenAI** | gpt-4o, o1, o3-mini | General purpose, embeddings |
+| **Gemini** | gemini-2.0-flash-exp, gemini-2.0-pro-exp | Fast summarization |
+| **Mistral** | mistral-large-2411, codestral-2405 | Balanced cost/quality |
+| **Ollama** | llama3.2, qwen2.5, deepseek-r1, phi4 | Local/offline, privacy |
+| **Groq** | llama-3.3-70b-versatile | Ultra-fast inference |
+| **Bedrock** | claude-3-5-sonnet, amazon.nova-pro | Enterprise AWS |
+
+```python
+from pmos_brain import LLMClient
+
+# Uses config/env for provider selection
+client = LLMClient()
+
+# Or specify provider
+client = LLMClient(provider="anthropic")
+
+# With fallback
+client = LLMClient(
+    provider="anthropic",
+    fallback=["openai", "ollama"]
+)
+
+# Generate completion
+response = client.complete("What is 2+2?")
+print(response.content)
+
+# Generate embeddings
+embeddings = client.embed(["text to embed"])
+print(embeddings.dimensions)
+```
+
+## Configuration
+
+Create `config.yaml` in your brain directory:
+
+```yaml
+llm:
+  provider: anthropic
+  fallback: [openai, gemini, ollama]
+  providers:
+    anthropic:
+      model: claude-sonnet-4-20250514
+    openai:
+      model: gpt-4o
+      embedding_model: text-embedding-3-large
+```
+
+Or use environment variables:
+
+```bash
+export LLM_PROVIDER=anthropic
+export ANTHROPIC_API_KEY=sk-ant-...
+export LLM_FALLBACK_ORDER=openai,ollama
+```
+
+## Directory Structure
 
 ```
-pyyaml>=6.0
-jsonschema>=4.0
+my-brain/
+├── Entities/           # People, teams, companies
+│   ├── Jane_Smith.md
+│   └── Team_Consumer.md
+├── Projects/           # Active projects
+│   └── Mobile_App.md
+├── Architecture/       # Technical documentation
+├── Strategy/           # Strategic documents
+├── Decisions/          # ADRs and decisions
+├── Inbox/              # Unprocessed data
+├── .schema/            # Entity schemas
+└── registry.yaml       # Entity index
 ```
+
+## Development
+
+```bash
+# Clone repo
+git clone https://github.com/feamando/brain.git
+cd brain
+
+# Install in development mode
+pip install -e ".[dev]"
+
+# Run tests
+pytest
+
+# Format code
+black src/
+ruff check src/
+```
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-*Part of [PM-OS](https://github.com/hellofresh/hf-pm-os)*
+*Part of [PM-OS](https://github.com/hellofresh/hf-pm-os) - Product Management Operating System*

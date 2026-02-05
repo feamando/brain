@@ -1,0 +1,687 @@
+{
+  "$defs": {
+    "ChangeEvent": {
+      "description": "An immutable record of a change to an entity.\n\nEvents are append-only and enable:\n- Full audit trail\n- Point-in-time reconstruction\n- Change attribution",
+      "examples": [
+        {
+          "actor": "system/daily_context",
+          "changes": [
+            {
+              "field": "current_focus",
+              "operation": "set",
+              "value": "Leading 4 squads across Good Chop, TPT, Factor Form"
+            }
+          ],
+          "correlation_id": "context-2026-01-21",
+          "event_id": "evt-2026-01-21-001",
+          "timestamp": "2026-01-21T13:20:00Z",
+          "type": "field_update"
+        }
+      ],
+      "properties": {
+        "event_id": {
+          "description": "Unique event identifier",
+          "title": "Event Id",
+          "type": "string"
+        },
+        "timestamp": {
+          "description": "When the change occurred (UTC)",
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/EventType",
+          "description": "Type of change"
+        },
+        "actor": {
+          "description": "Who/what made the change (e.g., 'user/nikita', 'system/daily_context')",
+          "examples": [
+            "user/nikita",
+            "system/daily_context",
+            "sync/jira",
+            "sync/github"
+          ],
+          "title": "Actor",
+          "type": "string"
+        },
+        "changes": {
+          "description": "List of field changes in this event",
+          "items": {
+            "$ref": "#/$defs/FieldChange"
+          },
+          "title": "Changes",
+          "type": "array"
+        },
+        "correlation_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ID to correlate related events (e.g., 'context-2026-01-21')",
+          "title": "Correlation Id"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Source system or document that triggered this change",
+          "examples": [
+            "jira:PROJ-123",
+            "gdoc:1abc2def",
+            "slack:C123ABC"
+          ],
+          "title": "Source"
+        },
+        "message": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable description of the change",
+          "title": "Message"
+        }
+      },
+      "required": [
+        "type",
+        "actor"
+      ],
+      "title": "ChangeEvent",
+      "type": "object"
+    },
+    "EntityStatus": {
+      "description": "Entity lifecycle status.",
+      "enum": [
+        "active",
+        "inactive",
+        "archived",
+        "pending"
+      ],
+      "title": "EntityStatus",
+      "type": "string"
+    },
+    "EntityType": {
+      "description": "Supported entity types in PM-OS Brain.",
+      "enum": [
+        "person",
+        "team",
+        "squad",
+        "project",
+        "domain",
+        "experiment",
+        "system",
+        "brand"
+      ],
+      "title": "EntityType",
+      "type": "string"
+    },
+    "EventType": {
+      "description": "Types of changes that can be logged.",
+      "enum": [
+        "field_update",
+        "field_add",
+        "field_remove",
+        "relationship_add",
+        "relationship_remove",
+        "relationship_update",
+        "status_change",
+        "entity_create",
+        "entity_archive",
+        "entity_restore",
+        "confidence_update",
+        "verification"
+      ],
+      "title": "EventType",
+      "type": "string"
+    },
+    "FieldChange": {
+      "description": "A single field change within an event.",
+      "properties": {
+        "field": {
+          "description": "Field path that changed (e.g., 'role', '$relationships')",
+          "title": "Field",
+          "type": "string"
+        },
+        "operation": {
+          "description": "Operation performed: set, append, remove, update",
+          "examples": [
+            "set",
+            "append",
+            "remove",
+            "update"
+          ],
+          "title": "Operation",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "New value (for set/append) or removed value (for remove)",
+          "title": "Value"
+        },
+        "old_value": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Previous value (for audit trail)",
+          "title": "Old Value"
+        }
+      },
+      "required": [
+        "field",
+        "operation"
+      ],
+      "title": "FieldChange",
+      "type": "object"
+    },
+    "Relationship": {
+      "description": "A typed relationship between two entities.\n\nRelationships are stored on entities and support temporal tracking\nto know when relationships started/ended.",
+      "examples": [
+        {
+          "since": "2024-06-01",
+          "target": "entity/person/holger-hammel",
+          "type": "reports_to"
+        },
+        {
+          "role": "product_lead",
+          "since": "2024-01-01",
+          "target": "entity/project/good-chop",
+          "type": "owns"
+        }
+      ],
+      "properties": {
+        "type": {
+          "description": "Relationship type (can be RelationshipType enum or freeform string)",
+          "examples": [
+            "reports_to",
+            "owns",
+            "member_of",
+            "custom_relationship"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "target": {
+          "description": "Target entity $id (e.g., 'entity/person/john-doe')",
+          "examples": [
+            "entity/person/holger-hammel",
+            "entity/team/new-ventures"
+          ],
+          "title": "Target",
+          "type": "string"
+        },
+        "since": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "When this relationship started",
+          "title": "Since"
+        },
+        "until": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "When this relationship ended (null = current)",
+          "title": "Until"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional role context (e.g., 'product_lead', 'tech_lead')",
+          "examples": [
+            "product_lead",
+            "contributor",
+            "stakeholder"
+          ],
+          "title": "Role"
+        },
+        "metadata": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Additional relationship metadata",
+          "title": "Metadata"
+        }
+      },
+      "required": [
+        "type",
+        "target"
+      ],
+      "title": "Relationship",
+      "type": "object"
+    }
+  },
+  "description": "Squad entity for PM-OS Brain.\n\nRepresents cross-functional squads working on specific products/features.",
+  "examples": [
+    {
+      "$confidence": 0.85,
+      "$created": "2024-01-01T00:00:00Z",
+      "$id": "entity/squad/good-chop",
+      "$schema": "brain://entity/squad/v1",
+      "$source": "jira",
+      "$status": "active",
+      "$type": "squad",
+      "$updated": "2026-01-21T13:20:00Z",
+      "$version": 2,
+      "description": "Squad responsible for Good Chop product",
+      "name": "Good Chop Squad",
+      "parent_team": "entity/team/new-ventures",
+      "product": "entity/project/good-chop",
+      "product_manager": "entity/person/beatrice-example",
+      "slack_channel": "#squad-good-chop",
+      "sprint_cadence": "2 weeks",
+      "tech_lead": "entity/person/tushar-example"
+    }
+  ],
+  "properties": {
+    "$schema": {
+      "description": "Schema URI for this entity type",
+      "examples": [
+        "brain://entity/person/v1",
+        "brain://entity/project/v1"
+      ],
+      "title": "$Schema",
+      "type": "string"
+    },
+    "$id": {
+      "description": "Unique entity identifier",
+      "examples": [
+        "entity/person/nikita-gorshkov",
+        "entity/project/good-chop"
+      ],
+      "title": "$Id",
+      "type": "string"
+    },
+    "$type": {
+      "$ref": "#/$defs/EntityType",
+      "default": "squad"
+    },
+    "$version": {
+      "default": 1,
+      "description": "Entity version number (increments on each update)",
+      "minimum": 1,
+      "title": "$Version",
+      "type": "integer"
+    },
+    "$created": {
+      "description": "When the entity was first created",
+      "format": "date-time",
+      "title": "$Created",
+      "type": "string"
+    },
+    "$updated": {
+      "description": "When the entity was last modified",
+      "format": "date-time",
+      "title": "$Updated",
+      "type": "string"
+    },
+    "$valid_from": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When this entity became valid (e.g., person's start date)",
+      "title": "$Valid From"
+    },
+    "$valid_to": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When this entity ceased to be valid (null = current)",
+      "title": "$Valid To"
+    },
+    "$confidence": {
+      "default": 1.0,
+      "description": "Confidence score (0-1). Formula: completeness(40%) + source_reliability(40%) + freshness(20%)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "$Confidence",
+      "type": "number"
+    },
+    "$source": {
+      "default": "unknown",
+      "description": "Primary data source",
+      "examples": [
+        "hr_system",
+        "manual",
+        "jira",
+        "github",
+        "slack",
+        "auto_generated"
+      ],
+      "title": "$Source",
+      "type": "string"
+    },
+    "$last_verified": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When this entity was last verified accurate",
+      "title": "$Last Verified"
+    },
+    "$status": {
+      "$ref": "#/$defs/EntityStatus",
+      "default": "active",
+      "description": "Entity lifecycle status"
+    },
+    "$relationships": {
+      "description": "Typed relationships to other entities",
+      "items": {
+        "$ref": "#/$defs/Relationship"
+      },
+      "title": "$Relationships",
+      "type": "array"
+    },
+    "$tags": {
+      "description": "Tags for categorization and filtering",
+      "items": {
+        "type": "string"
+      },
+      "title": "$Tags",
+      "type": "array"
+    },
+    "$aliases": {
+      "description": "Alternative names for lookup",
+      "items": {
+        "type": "string"
+      },
+      "title": "$Aliases",
+      "type": "array"
+    },
+    "$events": {
+      "description": "Append-only change log for this entity",
+      "items": {
+        "$ref": "#/$defs/ChangeEvent"
+      },
+      "title": "$Events",
+      "type": "array"
+    },
+    "name": {
+      "description": "Display name of the entity",
+      "title": "Name",
+      "type": "string"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Brief description",
+      "title": "Description"
+    },
+    "links": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Links to external systems (jira, confluence, github, slack)",
+      "title": "Links"
+    },
+    "metadata": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Additional metadata specific to this entity",
+      "title": "Metadata"
+    },
+    "product_manager": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Product manager (entity reference)",
+      "title": "Product Manager"
+    },
+    "tech_lead": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Technical lead (entity reference)",
+      "title": "Tech Lead"
+    },
+    "engineering_manager": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Engineering manager (entity reference)",
+      "title": "Engineering Manager"
+    },
+    "designer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Designer (entity reference)",
+      "title": "Designer"
+    },
+    "members": {
+      "description": "Squad members (entity references)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Members",
+      "type": "array"
+    },
+    "product": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Primary product/project (entity reference)",
+      "examples": [
+        "entity/project/good-chop"
+      ],
+      "title": "Product"
+    },
+    "parent_team": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Parent team (entity reference)",
+      "title": "Parent Team"
+    },
+    "focus_areas": {
+      "description": "Current focus areas",
+      "items": {
+        "type": "string"
+      },
+      "title": "Focus Areas",
+      "type": "array"
+    },
+    "sprint_cadence": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Sprint length",
+      "examples": [
+        "2 weeks",
+        "1 week"
+      ],
+      "title": "Sprint Cadence"
+    },
+    "jira_board": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Jira board URL or key",
+      "title": "Jira Board"
+    },
+    "slack_channel": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Squad Slack channel",
+      "title": "Slack Channel"
+    },
+    "standup_time": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Daily standup time",
+      "examples": [
+        "10:00 CET",
+        "09:30 EST"
+      ],
+      "title": "Standup Time"
+    }
+  },
+  "required": [
+    "$schema",
+    "$id",
+    "$created",
+    "$updated",
+    "name"
+  ],
+  "title": "SquadEntity",
+  "type": "object"
+}

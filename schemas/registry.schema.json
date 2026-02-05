@@ -1,0 +1,220 @@
+{
+  "$defs": {
+    "EntityStatus": {
+      "description": "Entity lifecycle status.",
+      "enum": [
+        "active",
+        "inactive",
+        "archived",
+        "pending"
+      ],
+      "title": "EntityStatus",
+      "type": "string"
+    },
+    "EntityType": {
+      "description": "Supported entity types in PM-OS Brain.",
+      "enum": [
+        "person",
+        "team",
+        "squad",
+        "project",
+        "domain",
+        "experiment",
+        "system",
+        "brand"
+      ],
+      "title": "EntityType",
+      "type": "string"
+    },
+    "RegistryEntry": {
+      "description": "A single entry in the registry with denormalized metadata.\n\nProvides fast lookup without reading the full entity file.",
+      "properties": {
+        "$ref": {
+          "description": "Relative path to entity file",
+          "examples": [
+            "Entities/People/Nikita_Gorshkov.md"
+          ],
+          "title": "$Ref",
+          "type": "string"
+        },
+        "$type": {
+          "$ref": "#/$defs/EntityType",
+          "description": "Entity type"
+        },
+        "$status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active",
+          "description": "Entity status"
+        },
+        "$version": {
+          "default": 1,
+          "description": "Entity version number",
+          "title": "$Version",
+          "type": "integer"
+        },
+        "$updated": {
+          "description": "Last update timestamp",
+          "format": "date-time",
+          "title": "$Updated",
+          "type": "string"
+        },
+        "aliases": {
+          "description": "Alternative names for lookup",
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "For person: job role",
+          "title": "Role"
+        },
+        "team": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Team reference",
+          "title": "Team"
+        },
+        "owner": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "For project: owner reference",
+          "title": "Owner"
+        },
+        "relationships_count": {
+          "default": 0,
+          "description": "Number of relationships",
+          "title": "Relationships Count",
+          "type": "integer"
+        },
+        "confidence": {
+          "default": 1.0,
+          "description": "Entity confidence score",
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "$ref",
+        "$type",
+        "$updated"
+      ],
+      "title": "RegistryEntry",
+      "type": "object"
+    }
+  },
+  "description": "PM-OS Brain Registry v2.\n\nEnhanced registry format with:\n- Schema versioning\n- Denormalized entity metadata for fast lookup\n- Alias-based resolution\n- Statistics and health metrics",
+  "examples": [
+    {
+      "$generated": "2026-01-21T13:20:00Z",
+      "$schema": "brain://registry/v2",
+      "$version": "2.0",
+      "alias_index": {
+        "nikita": "nikita-gorshkov",
+        "nikita.gorshkov": "nikita-gorshkov"
+      },
+      "entities": {
+        "nikita-gorshkov": {
+          "$ref": "Entities/People/Nikita_Gorshkov.md",
+          "$status": "active",
+          "$type": "person",
+          "$updated": "2026-01-21T13:20:00Z",
+          "$version": 12,
+          "aliases": [
+            "nikita",
+            "nikita.gorshkov"
+          ],
+          "confidence": 0.95,
+          "relationships_count": 15,
+          "role": "Director of Product",
+          "team": "new-ventures"
+        }
+      },
+      "stats": {
+        "active_entities": 2800,
+        "people": 150,
+        "projects": 100,
+        "teams": 25,
+        "total_entities": 2945
+      }
+    }
+  ],
+  "properties": {
+    "$schema": {
+      "default": "brain://registry/v2",
+      "description": "Registry schema URI",
+      "title": "$Schema",
+      "type": "string"
+    },
+    "$version": {
+      "default": "2.0",
+      "description": "Registry format version",
+      "title": "$Version",
+      "type": "string"
+    },
+    "$generated": {
+      "description": "When registry was last generated",
+      "format": "date-time",
+      "title": "$Generated",
+      "type": "string"
+    },
+    "entities": {
+      "additionalProperties": {
+        "$ref": "#/$defs/RegistryEntry"
+      },
+      "description": "Entity entries keyed by entity slug",
+      "title": "Entities",
+      "type": "object"
+    },
+    "alias_index": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Maps aliases to entity slugs",
+      "title": "Alias Index",
+      "type": "object"
+    },
+    "stats": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Registry statistics",
+      "title": "Stats"
+    }
+  },
+  "title": "RegistryV2",
+  "type": "object"
+}
