@@ -1,0 +1,73 @@
+# PM-OS Brain Configuration
+# Copy this file to your user directory and customize
+
+# User identification
+user:
+  name: "Your Name"
+  email: "your.email@example.com"
+  slack_id: "U0123456789"
+
+# Brain settings
+brain:
+  # Path to brain data directory (relative to user root)
+  path: "brain"
+  
+  # Entity types to index
+  entity_types:
+    - person
+    - team
+    - project
+    - squad
+    - event
+  
+  # Auto-enrichment settings
+  enrichment:
+    enabled: true
+    sources:
+      - slack
+      - jira
+      - github
+    # How often to run enrichment (hours)
+    interval: 24
+  
+  # Search settings
+  search:
+    # Maximum results to return
+    max_results: 50
+    # Fuzzy matching threshold (0-100)
+    fuzzy_threshold: 80
+
+# Integration credentials (or use .env file)
+integrations:
+  slack:
+    enabled: true
+    # bot_token: "xoxb-..." # Better to use SLACK_BOT_TOKEN env var
+  
+  jira:
+    enabled: true
+    url: "https://your-company.atlassian.net"
+    # username and api_token in .env
+  
+  github:
+    enabled: true
+    org: "your-org"
+    # token in .env
+
+# Quality settings
+quality:
+  # Minimum completeness score for entities (0-100)
+  min_completeness: 60
+  # Warn on stale entities older than (days)
+  stale_threshold: 90
+  # Required fields for each entity type
+  required_fields:
+    person:
+      - name
+      - role
+    project:
+      - name
+      - status
+      - owner
+    team:
+      - name
+      - members
