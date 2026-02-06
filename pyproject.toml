@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmos-brain"
-version = "1.0.0"
-description = "Semantic Knowledge Graph for AI Agents - Part of PM-OS"
+version = "2.0.0"
+description = "Semantic Knowledge Graph with Graph Analytics, Enrichment Pipeline & Quality Scoring"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
@@ -19,6 +19,8 @@ keywords = [
     "pm-os",
     "product-management",
     "llm",
+    "graph-analytics",
+    "enrichment",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -79,9 +81,21 @@ integrations = [
     "google-auth-oauthlib>=1.0",
 ]
 
+# Graph Operations (NEW)
+graph = [
+    "networkx>=3.0",
+    "matplotlib>=3.0",
+]
+
 # Embeddings & Vector Search
 embeddings = [
     "sentence-transformers>=2.0",
+    "numpy>=1.24",
+]
+
+# NLP
+nlp = [
+    "spacy>=3.0",
 ]
 
 # Development
@@ -93,9 +107,14 @@ dev = [
     "mypy>=1.0",
 ]
 
+# Full features (NEW)
+full = [
+    "pmos-brain[llm,integrations,graph,embeddings,nlp,dev]",
+]
+
 # Everything
 all = [
-    "pmos-brain[llm,integrations,embeddings,dev]",
+    "pmos-brain[full]",
 ]
 
 [project.urls]
@@ -106,10 +125,13 @@ Issues = "https://github.com/feamando/brain/issues"
 
 [project.scripts]
 pmos-brain = "pmos_brain.cli:main"
+brain = "pmos_brain.cli:main"
 brain-search = "pmos_brain.cli:search"
 brain-enrich = "pmos_brain.cli:enrich"
 brain-validate = "pmos_brain.cli:validate"
 brain-setup = "pmos_brain.cli:setup"
+brain-graph = "pmos_brain.cli:graph"
+brain-quality = "pmos_brain.cli:quality"
 
 [tool.hatch.build.targets.sdist]
 include = [
