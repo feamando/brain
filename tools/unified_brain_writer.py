@@ -62,46 +62,26 @@ ENTITY_DIRS = {
     "feature": PROJECTS_DIR,
 }
 
-# Known entity aliases
+# Known entity aliases — customize for your organization
 DEFAULT_ALIASES = {
-    # People
-    "nikita": "Nikita_Gorshkov",
-    "nikita gorshkov": "Nikita_Gorshkov",
-    "hamed": "Hamed_Karimian",
-    "hamed karimian": "Hamed_Karimian",
-    "daniel": "Daniel_Arias",
-    "daniel arias": "Daniel_Arias",
-    "jama": "Jama_Musse",
-    "jama musse": "Jama_Musse",
-    "beatrice": "Beatrice_Dimarucut",
-    "maria": "Maria_Chelminska",
-    "prateek": "Prateek_Unknown",
-    "sameer": "Sameer_Doda",
-    "deo": "Deo_Nathaniel",
+    # People (examples)
+    "jane": "Jane_Smith",
+    "jane smith": "Jane_Smith",
+    "john": "John_Director",
+    "john director": "John_Director",
+    "alice": "Alice_Engineer",
+    "bob": "Bob_Designer",
 
-    # Squads/Projects
-    "good chop": "Good_Chop",
-    "goc": "Good_Chop",
-    "goodchop": "Good_Chop",
-    "tpt": "The_Pets_Table",
-    "the pets table": "The_Pets_Table",
-    "pets table": "The_Pets_Table",
-    "factor form": "Factor_Form",
-    "factor": "Factor",
-    "vms": "Factor_Form",
-    "cross-selling": "Cross_Selling",
-    "cross selling": "Cross_Selling",
-    "market integration": "Market_Integration",
-    "market innovation": "Market_Innovation",
-    "otp": "OTP_One_Time_Purchase",
-    "one time purchase": "OTP_One_Time_Purchase",
+    # Projects (examples)
+    "mobile app": "Mobile_App_v2",
+    "mobile": "Mobile_App_v2",
+    "platform": "Platform_Migration",
+    "api": "API_Redesign",
 
-    # Systems
-    "shopify": "Shopify",
-    "statsig": "Statsig",
-    "tableau": "Tableau",
+    # Systems (examples)
     "jira": "Jira",
     "confluence": "Confluence",
+    "slack": "Slack",
 }
 
 # ============================================================================

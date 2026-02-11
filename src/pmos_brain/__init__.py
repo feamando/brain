@@ -34,7 +34,7 @@ Quick Start:
 For more information, see: https://github.com/feamando/brain
 """
 
-__version__ = "2.0.0"
+__version__ = "3.0.0"
 __author__ = "PM-OS Team"
 
 # Core
@@ -66,6 +66,11 @@ from pmos_brain.maintenance.orphan_analyzer import OrphanAnalyzer, OrphanAnalysi
 
 # Storage
 from pmos_brain.storage.event_store import EventStore, Event
+from pmos_brain.storage.event_helpers import EventHelper, EventType
+from pmos_brain.storage.event_query import EventQuery
+
+# Index
+from pmos_brain.core.index_generator import BrainIndexGenerator
 
 __all__ = [
     # Core
@@ -107,6 +112,12 @@ __all__ = [
     # Storage
     "EventStore",
     "Event",
+    "EventHelper",
+    "EventType",
+    "EventQuery",
+
+    # Index
+    "BrainIndexGenerator",
 
     # Meta
     "__version__",

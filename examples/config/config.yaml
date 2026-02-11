@@ -6,6 +6,25 @@ user:
   email: "your.email@example.com"
   slack_id: "U0123456789"
 
+team:
+  manager:
+    id: john-director
+    name: "John Director"
+    role: "VP of Product"
+  reports:
+    - id: jane-smith
+      name: "Jane Smith"
+      role: "Senior PM"
+      squad: "Consumer"
+    - id: alice-engineer
+      name: "Alice Engineer"
+      role: "Staff Engineer"
+      squad: "Platform"
+  stakeholders:
+    - id: bob-designer
+      name: "Bob Designer"
+      role: "Head of Design"
+
 brain:
   path: "brain"
   entity_types: [person, team, project, squad, event]

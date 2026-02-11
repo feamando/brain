@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmos-brain"
-version = "2.0.0"
-description = "Semantic Knowledge Graph with Graph Analytics, Enrichment Pipeline & Quality Scoring"
+version = "3.0.0"
+description = "Semantic Knowledge Graph with Graph Analytics, Event Sourcing, Enrichment Pipeline & Quality Scoring"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
@@ -21,6 +21,8 @@ keywords = [
     "llm",
     "graph-analytics",
     "enrichment",
+    "event-sourcing",
+    "brain-index",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -40,6 +42,7 @@ dependencies = [
     "jsonschema>=4.0",
     "requests>=2.28",
     "python-dotenv>=1.0",
+    "pydantic>=2.0",
 ]
 
 [project.optional-dependencies]
@@ -132,6 +135,8 @@ brain-validate = "pmos_brain.cli:validate"
 brain-setup = "pmos_brain.cli:setup"
 brain-graph = "pmos_brain.cli:graph"
 brain-quality = "pmos_brain.cli:quality"
+brain-events = "pmos_brain.cli:events"
+brain-index = "pmos_brain.cli:index"
 
 [tool.hatch.build.targets.sdist]
 include = [

@@ -77,7 +77,7 @@
         {
           "field": "current_focus",
           "operation": "set",
-          "value": "Leading 4 squads across Good Chop, TPT, Factor Form"
+          "value": "Leading mobile app redesign initiative"
         }
       ],
       "correlation_id": "context-2026-01-21",
@@ -103,9 +103,9 @@
       "description": "Type of change"
     },
     "actor": {
-      "description": "Who/what made the change (e.g., 'user/nikita', 'system/daily_context')",
+      "description": "Who/what made the change (e.g., 'user/jane', 'system/daily_context')",
       "examples": [
-        "user/nikita",
+        "user/jane",
         "system/daily_context",
         "sync/jira",
         "sync/github"

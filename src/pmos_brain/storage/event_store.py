@@ -47,14 +47,22 @@ class Event:
     @classmethod
     def from_dict(cls, data: Dict[str, Any], entity_id: str = "") -> "Event":
         """Create Event from dictionary."""
+        from datetime import timezone
+
         timestamp = data.get("timestamp", "")
         if isinstance(timestamp, str):
             try:
                 timestamp = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
             except (ValueError, TypeError):
-                timestamp = datetime.utcnow()
-        elif not isinstance(timestamp, datetime):
-            timestamp = datetime.utcnow()
+                timestamp = datetime.now(timezone.utc)
+        elif isinstance(timestamp, datetime):
+            pass  # keep as-is
+        else:
+            timestamp = datetime.now(timezone.utc)
+
+        # Normalize to timezone-aware (UTC) for consistent comparisons
+        if timestamp.tzinfo is None:
+            timestamp = timestamp.replace(tzinfo=timezone.utc)
 
         return cls(
             event_id=data.get("event_id", ""),
