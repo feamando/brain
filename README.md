@@ -1,10 +1,35 @@
 # PM-OS Brain
 
+```
+                        ╭────╮
+                   ╭────┤ ●  ├────╮
+                   │    ╰──┬─╯    │
+                ╭──┴─╮    │   ╭──┴─╮
+           ╭────┤ ●  ├────┼───┤ ●  ├────╮
+           │    ╰──┬─╯    │   ╰──┬─╯    │
+        ╭──┴─╮    │   ╭──┴─╮    │   ╭──┴─╮
+        │ ●  ├────┼───┤ ●  ├────┼───┤ ●  │
+        ╰──┬─╯    │   ╰──┬─╯    │   ╰──┬─╯
+           │    ╭──┴─╮    │   ╭──┴─╮    │
+           ╰────┤ ●  ├────┼───┤ ●  ├────╯
+                ╰──┬─╯    │   ╰──┬─╯
+                   │    ╭──┴─╮    │
+                   ╰────┤ ●  ├────╯
+                        ╰────╯
+
+        ██████╗ ██████╗  █████╗ ██╗███╗   ██╗
+        ██╔══██╗██╔══██╗██╔══██╗██║████╗  ██║
+        ██████╔╝██████╔╝███████║██║██╔██╗ ██║
+        ██╔══██╗██╔══██╗██╔══██║██║██║╚██╗██║
+        ██████╔╝██║  ██║██║  ██║██║██║ ╚████║
+        ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+
+         Semantic Knowledge Graph for AI Agents
+```
+
 [![PyPI version](https://badge.fury.io/py/pmos-brain.svg)](https://badge.fury.io/py/pmos-brain)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Semantic Knowledge Graph for AI Agents**
 
 A structured knowledge management system that stores entities (people, projects, teams) as markdown files with YAML frontmatter, connected through typed relationships. Includes event sourcing, a compressed entity index generator, and graph analytics. Part of the [PM-OS](https://github.com/feamando/pm-os) ecosystem.
 
