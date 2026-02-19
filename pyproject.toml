@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmos-brain"
-version = "3.0.0"
-description = "Semantic Knowledge Graph with Graph Analytics, Event Sourcing, Enrichment Pipeline & Quality Scoring"
+version = "3.1.0"
+description = "Semantic Knowledge Graph with Graph Analytics, Event Sourcing, Enrichment Pipeline, Vector Search, MCP Server & Quality Scoring"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
@@ -23,6 +23,9 @@ keywords = [
     "enrichment",
     "event-sourcing",
     "brain-index",
+    "mcp",
+    "vector-search",
+    "embeddings",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -90,10 +93,22 @@ graph = [
     "matplotlib>=3.0",
 ]
 
-# Embeddings & Vector Search
+# Vector Search (NEW in v3.1.0)
+vector = [
+    "chromadb>=0.4",
+    "sentence-transformers>=2.0",
+    "numpy>=1.24",
+]
+
+# Embeddings & Vector Search (legacy alias)
 embeddings = [
     "sentence-transformers>=2.0",
     "numpy>=1.24",
+]
+
+# MCP Server (NEW in v3.1.0)
+mcp = [
+    "mcp>=1.0",
 ]
 
 # NLP
@@ -110,9 +125,9 @@ dev = [
     "mypy>=1.0",
 ]
 
-# Full features (NEW)
+# Full features
 full = [
-    "pmos-brain[llm,integrations,graph,embeddings,nlp,dev]",
+    "pmos-brain[llm,integrations,graph,vector,mcp,nlp,dev]",
 ]
 
 # Everything
@@ -137,12 +152,17 @@ brain-graph = "pmos_brain.cli:graph"
 brain-quality = "pmos_brain.cli:quality"
 brain-events = "pmos_brain.cli:events"
 brain-index = "pmos_brain.cli:index"
+brain-mcp = "pmos_brain.cli:mcp"
+brain-vector = "pmos_brain.cli:vector"
+brain-query = "pmos_brain.cli:query"
+brain-resolve = "pmos_brain.cli:resolve"
 
 [tool.hatch.build.targets.sdist]
 include = [
     "/src",
     "/schemas",
     "/examples",
+    "/frameworks",
 ]
 
 [tool.hatch.build.targets.wheel]

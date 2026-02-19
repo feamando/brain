@@ -4,6 +4,7 @@ Orphan Analyzer - Analyzes and tracks orphan entities.
 Provides:
 - Orphan detection and classification
 - Orphan reason tracking
+- Event-based change auditing
 - Cleanup recommendations
 """
 
@@ -18,12 +19,20 @@ try:
 except ImportError:
     HAS_YAML = False
 
+try:
+    from pmos_brain.storage.event_helpers import EventHelper
+    HAS_EVENT_HELPER = True
+except ImportError:
+    HAS_EVENT_HELPER = False
+
 
 # Entity types that are legitimately standalone (don't need relationships)
 STANDALONE_TYPES = [
     "glossary",      # Reference documents
     "template",      # Templates
     "archive",       # Archived items
+    "framework",     # Reference material
+    "decision",      # Decision records
 ]
 
 # Entity types that definitely should have relationships
@@ -175,7 +184,16 @@ class OrphanAnalyzer:
                     frontmatter["$orphan_reason"] = "pending_enrichment"
 
                     if not dry_run:
-                        frontmatter["$updated"] = datetime.now().isoformat()
+                        if HAS_EVENT_HELPER:
+                            event = EventHelper.create_field_update(
+                                actor="system/orphan_analyzer",
+                                field="$orphan_reason",
+                                new_value="pending_enrichment",
+                                message="Marked orphan as pending enrichment",
+                            )
+                            EventHelper.append_to_frontmatter(frontmatter, event)
+                        else:
+                            frontmatter["$updated"] = datetime.now().isoformat()
                         new_content = self._format_content(frontmatter, body)
                         entity_path.write_text(new_content, encoding="utf-8")
 
@@ -225,7 +243,16 @@ class OrphanAnalyzer:
                     frontmatter["$orphan_reason"] = "standalone"
 
                     if not dry_run:
-                        frontmatter["$updated"] = datetime.now().isoformat()
+                        if HAS_EVENT_HELPER:
+                            event = EventHelper.create_field_update(
+                                actor="system/orphan_analyzer",
+                                field="$orphan_reason",
+                                new_value="standalone",
+                                message="Marked entity as standalone orphan",
+                            )
+                            EventHelper.append_to_frontmatter(frontmatter, event)
+                        else:
+                            frontmatter["$updated"] = datetime.now().isoformat()
                         new_content = self._format_content(frontmatter, body)
                         entity_path.write_text(new_content, encoding="utf-8")
 
@@ -274,7 +301,16 @@ class OrphanAnalyzer:
                     frontmatter["$orphan_reason"] = "no_external_data"
 
                     if not dry_run:
-                        frontmatter["$updated"] = datetime.now().isoformat()
+                        if HAS_EVENT_HELPER:
+                            event = EventHelper.create_field_update(
+                                actor="system/orphan_analyzer",
+                                field="$orphan_reason",
+                                new_value="no_external_data",
+                                message="Enrichers found no external data",
+                            )
+                            EventHelper.append_to_frontmatter(frontmatter, event)
+                        else:
+                            frontmatter["$updated"] = datetime.now().isoformat()
                         new_content = self._format_content(frontmatter, body)
                         entity_path.write_text(new_content, encoding="utf-8")
 
@@ -316,7 +352,17 @@ class OrphanAnalyzer:
                     del frontmatter["$orphan_reason"]
 
                     if not dry_run:
-                        frontmatter["$updated"] = datetime.now().isoformat()
+                        if HAS_EVENT_HELPER:
+                            event = EventHelper.create_field_update(
+                                actor="system/orphan_analyzer",
+                                field="$orphan_reason",
+                                new_value=None,
+                                old_value=orphan_reason,
+                                message="Cleared orphan reason (now connected)",
+                            )
+                            EventHelper.append_to_frontmatter(frontmatter, event)
+                        else:
+                            frontmatter["$updated"] = datetime.now().isoformat()
                         new_content = self._format_content(frontmatter, body)
                         entity_path.write_text(new_content, encoding="utf-8")
 

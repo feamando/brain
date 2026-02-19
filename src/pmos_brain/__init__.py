@@ -34,7 +34,7 @@ Quick Start:
 For more information, see: https://github.com/feamando/brain
 """
 
-__version__ = "3.0.0"
+__version__ = "3.1.0"
 __author__ = "PM-OS Team"
 
 # Core
@@ -68,6 +68,27 @@ from pmos_brain.maintenance.orphan_analyzer import OrphanAnalyzer, OrphanAnalysi
 from pmos_brain.storage.event_store import EventStore, Event
 from pmos_brain.storage.event_helpers import EventHelper, EventType
 from pmos_brain.storage.event_query import EventQuery
+
+# Vector (optional — requires chromadb + sentence-transformers)
+try:
+    from pmos_brain.vector import BrainVectorIndex, VECTOR_AVAILABLE
+except ImportError:
+    BrainVectorIndex = None
+    VECTOR_AVAILABLE = False
+
+try:
+    from pmos_brain.vector.edge_inferrer import EmbeddingEdgeInferrer
+except ImportError:
+    EmbeddingEdgeInferrer = None
+
+# Resolver
+from pmos_brain.resolver.canonical import CanonicalResolver
+
+# Query
+from pmos_brain.core.query import BrainQuery, QueryResult
+
+# Enrichment Orchestrator
+from pmos_brain.enrichers.orchestrator import BrainEnrichmentOrchestrator
 
 # Index
 from pmos_brain.core.index_generator import BrainIndexGenerator
@@ -115,6 +136,21 @@ __all__ = [
     "EventHelper",
     "EventType",
     "EventQuery",
+
+    # Vector
+    "BrainVectorIndex",
+    "VECTOR_AVAILABLE",
+    "EmbeddingEdgeInferrer",
+
+    # Resolver
+    "CanonicalResolver",
+
+    # Query
+    "BrainQuery",
+    "QueryResult",
+
+    # Enrichment Orchestrator
+    "BrainEnrichmentOrchestrator",
 
     # Index
     "BrainIndexGenerator",
