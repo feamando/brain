@@ -10,6 +10,11 @@ Commands:
     pmos-brain setup <path>       Initialize new brain
     pmos-brain events <command>   Query entity events
     pmos-brain index              Generate BRAIN.md index
+    pmos-brain query <query>      Combined BRAIN+GRAPH query
+    pmos-brain mcp                Start MCP server
+    pmos-brain vector <command>   Vector search operations
+    pmos-brain resolve <ref>      Resolve entity reference
+    pmos-brain enrich [--mode]    Run enrichment pipeline
 """
 
 import argparse
@@ -23,7 +28,7 @@ def main():
         prog="pmos-brain",
         description="PM-OS Brain - Semantic Knowledge Graph CLI"
     )
-    parser.add_argument("--version", action="version", version="%(prog)s 3.0.0")
+    parser.add_argument("--version", action="version", version="%(prog)s 3.1.0")
 
     subparsers = parser.add_subparsers(dest="command", help="Commands")
 
@@ -33,6 +38,7 @@ def main():
     search_parser.add_argument("--type", "-t", help="Entity type filter")
     search_parser.add_argument("--limit", "-n", type=int, default=10, help="Max results")
     search_parser.add_argument("--brain", "-b", default="./brain", help="Brain path")
+    search_parser.add_argument("--semantic", action="store_true", help="Use semantic (vector) search")
 
     # List command
     list_parser = subparsers.add_parser("list", help="List entities")
@@ -79,6 +85,46 @@ def main():
     index_parser.add_argument("--output", "-o", type=Path, help="Output file path")
     index_parser.add_argument("--config", "-c", type=Path, help="Team config YAML file")
 
+    # Query command (NEW in v3.1.0)
+    query_parser = subparsers.add_parser("query", help="Combined BRAIN+GRAPH query")
+    query_parser.add_argument("query", help="Query string")
+    query_parser.add_argument("--brain", "-b", default="./brain", help="Brain path")
+    query_parser.add_argument("--limit", "-n", type=int, default=10, help="Max results")
+    query_parser.add_argument("--no-graph", action="store_true", help="Skip graph expansion")
+    query_parser.add_argument("--format", choices=["text", "json"], default="text", help="Output format")
+
+    # MCP command (NEW in v3.1.0)
+    mcp_parser = subparsers.add_parser("mcp", help="Start Brain MCP server")
+    mcp_parser.add_argument("--brain", "-b", default="./brain", help="Brain path")
+
+    # Vector command (NEW in v3.1.0)
+    vector_parser = subparsers.add_parser("vector", help="Vector search operations")
+    vector_sub = vector_parser.add_subparsers(dest="vector_command", help="Vector commands")
+
+    vector_build = vector_sub.add_parser("build", help="Build vector index")
+    vector_build.add_argument("--brain", "-b", default="./brain", help="Brain path")
+
+    vector_query = vector_sub.add_parser("query", help="Semantic search")
+    vector_query.add_argument("query", help="Search query")
+    vector_query.add_argument("--brain", "-b", default="./brain", help="Brain path")
+    vector_query.add_argument("--limit", "-n", type=int, default=10, help="Max results")
+
+    vector_stats = vector_sub.add_parser("stats", help="Show index statistics")
+    vector_stats.add_argument("--brain", "-b", default="./brain", help="Brain path")
+
+    # Resolve command (NEW in v3.1.0)
+    resolve_parser = subparsers.add_parser("resolve", help="Resolve entity reference")
+    resolve_parser.add_argument("reference", help="Entity reference (id, slug, path, or alias)")
+    resolve_parser.add_argument("--brain", "-b", default="./brain", help="Brain path")
+
+    # Enrich command (NEW in v3.1.0)
+    enrich_parser = subparsers.add_parser("enrich", help="Run enrichment pipeline")
+    enrich_parser.add_argument("--brain", "-b", default="./brain", help="Brain path")
+    enrich_parser.add_argument(
+        "--mode", choices=["full", "quick", "report", "boot", "orphan"],
+        default="full", help="Enrichment mode"
+    )
+
     args = parser.parse_args()
 
     if args.command == "search":
@@ -95,26 +141,64 @@ def main():
         cmd_events(args)
     elif args.command == "index":
         cmd_index(args)
+    elif args.command == "query":
+        cmd_query(args)
+    elif args.command == "mcp":
+        cmd_mcp(args)
+    elif args.command == "vector":
+        cmd_vector(args)
+    elif args.command == "resolve":
+        cmd_resolve(args)
+    elif args.command == "enrich":
+        cmd_enrich(args)
     else:
         parser.print_help()
 
 
 def cmd_search(args):
     """Search entities."""
-    from pmos_brain import Brain
-    try:
-        brain = Brain(args.brain)
-        results = brain.search(args.query, entity_type=args.type, limit=args.limit)
-        if results:
-            print(f"Found {len(results)} results:\n")
-            for entity in results:
-                print(f"  [{entity.entity_type}] {entity.name}")
-                print(f"    Path: {entity.path}")
-        else:
-            print("No results found.")
-    except FileNotFoundError as e:
-        print(f"Error: {e}", file=sys.stderr)
-        sys.exit(1)
+    brain_path = Path(args.brain)
+
+    if getattr(args, "semantic", False):
+        # Semantic (vector) search
+        try:
+            from pmos_brain.vector.index import BrainVectorIndex
+        except ImportError:
+            print("Error: Vector search requires: pip install pmos-brain[vector]", file=sys.stderr)
+            sys.exit(1)
+        try:
+            vi = BrainVectorIndex(brain_path)
+            results = vi.query(args.query, n_results=args.limit)
+            if results:
+                print(f"Found {len(results)} results (semantic):\n")
+                for r in results:
+                    score = f"{r.get('distance', 0):.3f}" if "distance" in r else "?"
+                    print(f"  [{r.get('type', '?')}] {r.get('id', '?')}  (score: {score})")
+            else:
+                print("No results found.")
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        # Keyword search
+        from pmos_brain.core.search import BrainSearch
+        try:
+            searcher = BrainSearch(brain_path)
+            results = searcher.search(args.query, limit=args.limit)
+            if results:
+                print(f"Found {len(results)} results:\n")
+                for r in results:
+                    name = getattr(r, "name", None) or getattr(r, "entity_id", str(r))
+                    etype = getattr(r, "entity_type", "?")
+                    path = getattr(r, "path", "")
+                    print(f"  [{etype}] {name}")
+                    if path:
+                        print(f"    Path: {path}")
+            else:
+                print("No results found.")
+        except FileNotFoundError as e:
+            print(f"Error: {e}", file=sys.stderr)
+            sys.exit(1)
 
 
 # Alias for backward compatibility
@@ -314,6 +398,131 @@ def cmd_index(args):
     print(f"Generated {output_path} ({size_kb:.1f}KB)")
 
 
+def cmd_query(args):
+    """Combined BRAIN+GRAPH query."""
+    from pmos_brain.core.query import BrainQuery
+    try:
+        bq = BrainQuery(brain_path=Path(args.brain))
+        result = bq.query(
+            args.query,
+            limit=args.limit,
+            expand_graph=not args.no_graph,
+        )
+        if args.format == "json":
+            import json
+            output = {
+                "query": result.query,
+                "results": [
+                    {"id": r.entity_id, "score": r.score, "type": r.entity_type}
+                    for r in result.results
+                ],
+                "seed_count": result.seed_count,
+                "graph_expanded": result.graph_expanded,
+                "latency_ms": result.latency_ms,
+            }
+            print(json.dumps(output, indent=2))
+        else:
+            print(f"Query: {result.query}")
+            print(f"Results: {len(result.results)} (seeds: {result.seed_count}, "
+                  f"graph: {'yes' if result.graph_expanded else 'no'}, "
+                  f"{result.latency_ms:.0f}ms)\n")
+            for r in result.results:
+                score = f"{r.score:.3f}" if hasattr(r, "score") else "?"
+                print(f"  [{r.entity_type}] {r.entity_id}  (score: {score})")
+            for w in result.warnings:
+                print(f"\n  Warning: {w}")
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_mcp(args):
+    """Start Brain MCP server."""
+    import os
+    os.environ.setdefault("BRAIN_PATH", str(Path(args.brain).resolve()))
+    try:
+        from pmos_brain.mcp.server import mcp as mcp_server
+        mcp_server.run()
+    except ImportError:
+        print("Error: MCP server requires: pip install pmos-brain[mcp]", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_vector(args):
+    """Vector search operations."""
+    try:
+        from pmos_brain.vector.index import BrainVectorIndex
+    except ImportError:
+        print("Error: Vector search requires: pip install pmos-brain[vector]", file=sys.stderr)
+        sys.exit(1)
+
+    brain_path = Path(args.brain)
+
+    if not hasattr(args, "vector_command") or not args.vector_command:
+        print("Usage: pmos-brain vector {build,query,stats}", file=sys.stderr)
+        sys.exit(1)
+
+    if args.vector_command == "build":
+        vi = BrainVectorIndex(brain_path)
+        vi.build()
+        print("Vector index built successfully.")
+    elif args.vector_command == "query":
+        vi = BrainVectorIndex(brain_path)
+        results = vi.query(args.query, n_results=args.limit)
+        if results:
+            print(f"Found {len(results)} results:\n")
+            for r in results:
+                score = f"{r.get('distance', 0):.3f}" if "distance" in r else "?"
+                print(f"  [{r.get('type', '?')}] {r.get('id', '?')}  (score: {score})")
+        else:
+            print("No results found.")
+    elif args.vector_command == "stats":
+        vi = BrainVectorIndex(brain_path)
+        stats = vi.stats()
+        print(f"Vector Index Statistics:")
+        for k, v in stats.items():
+            print(f"  {k}: {v}")
+
+
+def cmd_resolve(args):
+    """Resolve entity reference to canonical path."""
+    from pmos_brain.resolver.canonical import CanonicalResolver
+    try:
+        resolver = CanonicalResolver(brain_path=Path(args.brain))
+        result = resolver.resolve(args.reference)
+        if result:
+            print(f"Resolved: {args.reference}")
+            print(f"  Path: {result}")
+        else:
+            print(f"Could not resolve: {args.reference}")
+            # Show similar
+            similar = resolver.find_similar(args.reference, limit=5)
+            if similar:
+                print(f"\n  Did you mean:")
+                for s in similar:
+                    print(f"    - {s}")
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_enrich(args):
+    """Run enrichment pipeline."""
+    from pmos_brain.enrichers.orchestrator import BrainEnrichmentOrchestrator
+    try:
+        orchestrator = BrainEnrichmentOrchestrator(brain_path=Path(args.brain))
+        result = orchestrator.run(mode=args.mode)
+        print(f"Enrichment complete ({args.mode} mode)")
+        if hasattr(result, "summary"):
+            print(f"  {result.summary}")
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
 # CLI entry points for pyproject.toml scripts
 def events():
     """Entry point for brain-events command."""
@@ -328,11 +537,34 @@ def index():
     main()
 
 
-# Keep existing entry points
+def mcp():
+    """Entry point for brain-mcp command."""
+    sys.argv = ["pmos-brain", "mcp"] + sys.argv[1:]
+    main()
+
+
+def vector():
+    """Entry point for brain-vector command."""
+    sys.argv = ["pmos-brain", "vector"] + sys.argv[1:]
+    main()
+
+
+def query():
+    """Entry point for brain-query command."""
+    sys.argv = ["pmos-brain", "query"] + sys.argv[1:]
+    main()
+
+
+def resolve():
+    """Entry point for brain-resolve command."""
+    sys.argv = ["pmos-brain", "resolve"] + sys.argv[1:]
+    main()
+
+
 def enrich():
-    """Placeholder for brain-enrich command."""
-    print("Use: pmos-brain events recent --days 7", file=sys.stderr)
-    sys.exit(1)
+    """Entry point for brain-enrich command."""
+    sys.argv = ["pmos-brain", "enrich"] + sys.argv[1:]
+    main()
 
 
 def graph():
