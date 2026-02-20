@@ -34,7 +34,7 @@ Quick Start:
 For more information, see: https://github.com/feamando/brain
 """
 
-__version__ = "3.1.0"
+__version__ = "3.2.0"
 __author__ = "PM-OS Team"
 
 # Core
@@ -42,6 +42,7 @@ from pmos_brain.core.brain import Brain
 from pmos_brain.core.entity import Entity
 from pmos_brain.core.loader import BrainLoader
 from pmos_brain.core.search import BrainSearch
+from pmos_brain.core.entity_cache import EntityCache
 
 # LLM
 from pmos_brain.llm.client import LLMClient, get_llm_client
@@ -99,6 +100,7 @@ __all__ = [
     "Entity",
     "BrainLoader",
     "BrainSearch",
+    "EntityCache",
 
     # LLM
     "LLMClient",

@@ -85,14 +85,17 @@ class GraphHealth:
         "default": 2,
     }
 
-    def __init__(self, brain_path: Union[str, Path]):
+    def __init__(self, brain_path: Union[str, Path], cache=None):
         """
         Initialize the health monitor.
 
         Args:
             brain_path: Path to brain directory
+            cache: Optional EntityCache instance. If provided, avoids
+                   re-scanning the filesystem.
         """
         self.brain_path = Path(brain_path)
+        self._cache = cache
 
     def analyze(self) -> GraphHealthReport:
         """
@@ -110,52 +113,38 @@ class GraphHealth:
         relationships_by_entity_type: Dict[str, List[int]] = defaultdict(list)
         inferred_sources: Dict[str, int] = defaultdict(int)
 
-        # Scan all entities
-        entity_files = list(self.brain_path.rglob("*.md"))
-        entity_files = [
-            f for f in entity_files
-            if f.name.lower() not in ("readme.md", "index.md", "_index.md")
-            and ".snapshots" not in str(f)
-            and ".schema" not in str(f)
-        ]
+        # Load entities -- from cache if available, otherwise scan files
+        if self._cache is not None:
+            cached = self._cache.get_all()
+        else:
+            cached = self._scan_entities()
 
-        for entity_path in entity_files:
-            try:
-                content = entity_path.read_text(encoding="utf-8")
-                frontmatter, _ = self._parse_content(content)
+        for entity_id, frontmatter in cached.items():
+            entity_type = frontmatter.get("$type", "unknown")
+            relationships = frontmatter.get("$relationships", [])
 
-                if not frontmatter:
+            entities[entity_id] = frontmatter
+            entity_types[entity_type] += 1
+
+            rel_count = 0
+            for rel in relationships:
+                if not isinstance(rel, dict):
                     continue
 
-                entity_id = frontmatter.get("$id", str(entity_path.relative_to(self.brain_path)))
-                entity_type = frontmatter.get("$type", "unknown")
-                relationships = frontmatter.get("$relationships", [])
+                rel_type = rel.get("type", "unknown")
+                target = rel.get("target", "")
+                source = rel.get("source", "manual")
 
-                entities[entity_id] = frontmatter
-                entity_types[entity_type] += 1
+                relationship_types[rel_type] += 1
+                outgoing[entity_id].append(target)
+                incoming[target].append(entity_id)
+                rel_count += 1
 
-                rel_count = 0
-                for rel in relationships:
-                    if not isinstance(rel, dict):
-                        continue
+                # Track inferred edges
+                if source in ("auto_embedding", "auto_generated", "inferred"):
+                    inferred_sources[source] += 1
 
-                    rel_type = rel.get("type", "unknown")
-                    target = rel.get("target", "")
-                    source = rel.get("source", "manual")
-
-                    relationship_types[rel_type] += 1
-                    outgoing[entity_id].append(target)
-                    incoming[target].append(entity_id)
-                    rel_count += 1
-
-                    # Track inferred edges
-                    if source in ("auto_embedding", "auto_generated", "inferred"):
-                        inferred_sources[source] += 1
-
-                relationships_by_entity_type[entity_type].append(rel_count)
-
-            except Exception:
-                continue
+            relationships_by_entity_type[entity_type].append(rel_count)
 
         # Compute metrics
         total_entities = len(entities)
@@ -257,6 +246,34 @@ class GraphHealth:
         elif report.density_score < 0.8:
             return "MODERATE"
         return "HEALTHY"
+
+    def _scan_entities(self) -> Dict[str, Dict[str, Any]]:
+        """Fallback: scan brain directory when no cache is available."""
+        result: Dict[str, Dict[str, Any]] = {}
+        entity_files = list(self.brain_path.rglob("*.md"))
+        entity_files = [
+            f for f in entity_files
+            if f.name.lower() not in ("readme.md", "index.md", "_index.md")
+            and ".snapshots" not in str(f)
+            and ".schema" not in str(f)
+        ]
+
+        for entity_path in entity_files:
+            try:
+                content = entity_path.read_text(encoding="utf-8")
+                frontmatter, _ = self._parse_content(content)
+
+                if not frontmatter:
+                    continue
+
+                entity_id = frontmatter.get(
+                    "$id", str(entity_path.relative_to(self.brain_path))
+                )
+                result[entity_id] = frontmatter
+            except Exception:
+                continue
+
+        return result
 
     def _parse_content(self, content: str) -> Tuple[Dict[str, Any], str]:
         """Parse YAML frontmatter from content."""

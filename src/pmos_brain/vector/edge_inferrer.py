@@ -22,6 +22,20 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import yaml
 
+# Atomic writes (graceful fallback if unavailable)
+try:
+    from pmos_brain.core.safe_write import atomic_write
+except ImportError:
+    def atomic_write(p, c, **kw):
+        Path(p).write_text(c, encoding=kw.get("encoding", "utf-8"))
+
+# Event sourcing (graceful fallback if unavailable)
+try:
+    from pmos_brain.core.event_helpers import EventHelper
+    _EVENT_SOURCING = True
+except ImportError:
+    _EVENT_SOURCING = False
+
 # Optional: sentence-transformers for embeddings
 try:
     import numpy as np
@@ -30,6 +44,13 @@ try:
     EMBEDDINGS_AVAILABLE = True
 except ImportError:
     EMBEDDINGS_AVAILABLE = False
+
+# Optional: ChromaDB for ANN (Approximate Nearest Neighbor)
+try:
+    import chromadb
+    _ANN_AVAILABLE = True
+except ImportError:
+    _ANN_AVAILABLE = False
 
 
 @dataclass
@@ -53,6 +74,7 @@ class EdgeInferenceReport:
     avg_similarity: float
     edges_by_type_pair: Dict[str, int] = field(default_factory=dict)
     edges: List[InferredEdge] = field(default_factory=list)
+    used_ann: bool = False
 
 
 class EmbeddingEdgeInferrer:
@@ -71,6 +93,7 @@ class EmbeddingEdgeInferrer:
         brain_path: Path,
         model_name: str = DEFAULT_MODEL,
         threshold: float = DEFAULT_THRESHOLD,
+        cache=None,
     ):
         """
         Initialize the edge inferrer.
@@ -79,12 +102,14 @@ class EmbeddingEdgeInferrer:
             brain_path: Path to brain directory
             model_name: sentence-transformers model name
             threshold: Similarity threshold for edge creation
+            cache: Optional EntityCache instance
         """
         self.brain_path = brain_path
         self.model_name = model_name
         self.threshold = threshold
         self._model = None
         self._embeddings_cache: Dict[str, Any] = {}
+        self._entity_cache = cache
 
     def _get_model(self):
         """Lazy-load the embedding model, preferring local cache to avoid network latency."""
@@ -109,6 +134,9 @@ class EmbeddingEdgeInferrer:
         """
         Scan entities and find potential similar_to edges.
 
+        Uses ANN (ChromaDB) when available and PMOS_ENRICH_ANN != "0",
+        otherwise falls back to brute-force O(n^2) comparison.
+
         Args:
             entity_type: Filter by entity type
             limit: Max edges to return
@@ -116,6 +144,13 @@ class EmbeddingEdgeInferrer:
         Returns:
             EdgeInferenceReport with potential edges
         """
+        import os
+        use_ann = (
+            _ANN_AVAILABLE
+            and EMBEDDINGS_AVAILABLE
+            and os.environ.get("PMOS_ENRICH_ANN", "1") != "0"
+        )
+
         # Load entities
         entities = self._load_entities(entity_type)
 
@@ -138,7 +173,135 @@ class EmbeddingEdgeInferrer:
             # Fallback: simple text similarity without ML
             embeddings = None
 
-        # Find similar pairs
+        # Choose scan strategy
+        used_ann = False
+        if use_ann and embeddings is not None and len(entity_ids) >= 20:
+            inferred_edges, edges_by_type_pair, similarity_sum = (
+                self._ann_scan(entities, entity_ids, embeddings, limit)
+            )
+            used_ann = True
+        else:
+            inferred_edges, edges_by_type_pair, similarity_sum = (
+                self._bruteforce_scan(
+                    entities, entity_ids, contents, embeddings, limit
+                )
+            )
+
+        # Sort by similarity
+        inferred_edges.sort(key=lambda e: -e.similarity)
+
+        avg_sim = similarity_sum / len(inferred_edges) if inferred_edges else 0.0
+
+        return EdgeInferenceReport(
+            entities_processed=len(entities),
+            edges_inferred=len(inferred_edges),
+            edges_applied=0,
+            avg_similarity=round(avg_sim, 4),
+            edges_by_type_pair=edges_by_type_pair,
+            edges=inferred_edges,
+            used_ann=used_ann,
+        )
+
+    def _ann_scan(
+        self,
+        entities: Dict[str, Dict[str, Any]],
+        entity_ids: List[str],
+        embeddings: Any,
+        limit: int,
+    ) -> Tuple[List[InferredEdge], Dict[str, int], float]:
+        """ANN scan using ChromaDB ephemeral collection."""
+        inferred_edges: List[InferredEdge] = []
+        edges_by_type_pair: Dict[str, int] = {}
+        similarity_sum = 0.0
+        seen_pairs: set = set()
+
+        # Create ephemeral ChromaDB collection
+        client = chromadb.Client()
+        collection = client.create_collection(
+            name="edge_scan",
+            metadata={"hnsw:space": "cosine"},
+        )
+
+        # Add all embeddings
+        collection.add(
+            ids=entity_ids,
+            embeddings=[e.tolist() for e in embeddings],
+        )
+
+        # Query each entity for nearest neighbors
+        k = min(20, len(entity_ids) - 1)
+        results = collection.query(
+            query_embeddings=[e.tolist() for e in embeddings],
+            n_results=k + 1,  # +1 because self-match
+        )
+
+        for i, eid_i in enumerate(entity_ids):
+            if len(inferred_edges) >= limit:
+                break
+
+            neighbors = results["ids"][i]
+            distances = results["distances"][i]
+
+            for j, (eid_j, dist) in enumerate(zip(neighbors, distances)):
+                if eid_j == eid_i:
+                    continue
+
+                # Cosine distance -> cosine similarity
+                sim = 1.0 - dist
+
+                if sim < self.threshold:
+                    continue
+
+                # Dedup: only count each pair once
+                pair_key = tuple(sorted([eid_i, eid_j]))
+                if pair_key in seen_pairs:
+                    continue
+                seen_pairs.add(pair_key)
+
+                # Skip if already related
+                if eid_i in entities and self._already_related(entities[eid_i], eid_j):
+                    continue
+                if eid_j in entities and self._already_related(entities[eid_j], eid_i):
+                    continue
+
+                type_i = entities.get(eid_i, {}).get("$type", "unknown")
+                type_j = entities.get(eid_j, {}).get("$type", "unknown")
+
+                edge = InferredEdge(
+                    source_id=eid_i,
+                    target_id=eid_j,
+                    similarity=round(sim, 4),
+                    source_type=type_i,
+                    target_type=type_j,
+                )
+                inferred_edges.append(edge)
+                similarity_sum += sim
+
+                type_pair = f"{type_i}-{type_j}"
+                edges_by_type_pair[type_pair] = (
+                    edges_by_type_pair.get(type_pair, 0) + 1
+                )
+
+                if len(inferred_edges) >= limit:
+                    break
+
+        # Cleanup ephemeral collection
+        try:
+            client.delete_collection("edge_scan")
+        except Exception:
+            pass
+
+        return inferred_edges, edges_by_type_pair, similarity_sum
+
+    def _bruteforce_scan(
+        self,
+        entities: Dict[str, Dict[str, Any]],
+        entity_ids: List[str],
+        contents: List[str],
+        embeddings: Any,
+        limit: int,
+    ) -> Tuple[List[InferredEdge], Dict[str, int], float]:
+        """Brute-force O(n^2) pairwise similarity scan."""
         inferred_edges: List[InferredEdge] = []
         edges_by_type_pair: Dict[str, int] = {}
         similarity_sum = 0.0
@@ -186,19 +349,7 @@ class EmbeddingEdgeInferrer:
             if len(inferred_edges) >= limit:
                 break
 
-        # Sort by similarity
-        inferred_edges.sort(key=lambda e: -e.similarity)
-
-        avg_sim = similarity_sum / len(inferred_edges) if inferred_edges else 0.0
-
-        return EdgeInferenceReport(
-            entities_processed=len(entities),
-            edges_inferred=len(inferred_edges),
-            edges_applied=0,
-            avg_similarity=round(avg_sim, 4),
-            edges_by_type_pair=edges_by_type_pair,
-            edges=inferred_edges,
-        )
+        return inferred_edges, edges_by_type_pair, similarity_sum
 
     def apply_edges(
         self,
@@ -252,10 +403,26 @@ class EmbeddingEdgeInferrer:
                 relationships.append(new_rel)
                 frontmatter["$relationships"] = relationships
 
+                # Event sourcing: record the relationship addition
+                if _EVENT_SOURCING:
+                    event = EventHelper.create_relationship_event(
+                        actor="enrichment/embedding",
+                        target=edge.target_id,
+                        rel_type="similar_to",
+                        operation="add",
+                        source="auto_embedding",
+                        message=(
+                            f"Inferred similar_to edge "
+                            f"(similarity={edge.similarity}, "
+                            f"model={self.model_name})"
+                        ),
+                    )
+                    EventHelper.append_to_frontmatter(frontmatter, event)
+
                 if not dry_run:
-                    # Write back
+                    # Write back (atomic for crash safety)
                     new_content = self._format_content(frontmatter, body)
-                    source_path.write_text(new_content, encoding="utf-8")
+                    atomic_write(source_path, new_content)
 
                 applied += 1
 
@@ -269,7 +436,13 @@ class EmbeddingEdgeInferrer:
         self,
         entity_type: Optional[str] = None,
     ) -> Dict[str, Dict[str, Any]]:
-        """Load all entities into memory."""
+        """Load entities -- from cache if available, otherwise scan files."""
+        if self._entity_cache is not None:
+            if entity_type:
+                return dict(self._entity_cache.get_by_type(entity_type))
+            return dict(self._entity_cache.get_all())
+
+        # Fallback: scan files directly
         entities = {}
 
         entity_files = list(self.brain_path.rglob("*.md"))

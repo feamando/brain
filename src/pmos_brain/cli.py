@@ -28,7 +28,7 @@ def main():
         prog="pmos-brain",
         description="PM-OS Brain - Semantic Knowledge Graph CLI"
     )
-    parser.add_argument("--version", action="version", version="%(prog)s 3.1.0")
+    parser.add_argument("--version", action="version", version="%(prog)s 3.2.0")
 
     subparsers = parser.add_subparsers(dest="command", help="Commands")
 
@@ -124,6 +124,8 @@ def main():
         "--mode", choices=["full", "quick", "report", "boot", "orphan"],
         default="full", help="Enrichment mode"
     )
+    enrich_parser.add_argument("--dry-run", action="store_true", help="Preview changes without applying")
+    enrich_parser.add_argument("--verbose", "-v", action="store_true", help="Show detailed progress")
 
     args = parser.parse_args()
 
@@ -513,11 +515,21 @@ def cmd_enrich(args):
     """Run enrichment pipeline."""
     from pmos_brain.enrichers.orchestrator import BrainEnrichmentOrchestrator
     try:
-        orchestrator = BrainEnrichmentOrchestrator(brain_path=Path(args.brain))
-        result = orchestrator.run(mode=args.mode)
+        verbose = getattr(args, "verbose", False)
+        dry_run = getattr(args, "dry_run", False)
+        orchestrator = BrainEnrichmentOrchestrator(
+            brain_path=Path(args.brain),
+            verbose=verbose,
+        )
+        result = orchestrator.run(mode=args.mode, dry_run=dry_run)
         print(f"Enrichment complete ({args.mode} mode)")
-        if hasattr(result, "summary"):
-            print(f"  {result.summary}")
+        if dry_run:
+            print("  (dry run — no changes applied)")
+        print(f"  Entities: {result.baseline_entities}")
+        print(f"  Soft edges added: {result.soft_edges_added}")
+        print(f"  Density: {result.baseline_density:.3f} → {result.final_density:.3f}")
+        if result.orphans_reduced:
+            print(f"  Orphans reduced: {result.orphans_reduced}")
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
