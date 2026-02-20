@@ -33,7 +33,28 @@
 
 A structured knowledge management system that stores entities (people, projects, teams) as markdown files with YAML frontmatter, connected through typed relationships. Includes event sourcing, a compressed entity index generator, vector search, MCP server, and graph analytics. Part of the [PM-OS](https://github.com/feamando/pm-os) ecosystem.
 
-## What's New in v3.1.0
+## What's New in v3.2.0
+
+- **Entity Cache** — Shared in-memory cache (`EntityCache`) with single filesystem scan, O(1) access by ID/type, and SHA-256 content hashing for incremental change detection
+- **Atomic Writes** — `atomic_write()` and `atomic_write_json()` utilities using temp + fsync + rename for crash-safe entity updates
+- **ANN Edge Inference** — ChromaDB-backed approximate nearest neighbor search for O(k·log(n)) edge inference on large entity types, with automatic brute-force fallback
+- **Cache-Integrated Graph Health** — `GraphHealth` accepts optional `EntityCache` to eliminate redundant filesystem scans during enrichment
+- **CLI Improvements** — `pmos-brain enrich --dry-run` to preview changes, `--verbose` for detailed progress, enrichment summary output
+
+```bash
+# Install with vector search (includes ANN support)
+pip install pmos-brain[vector]==3.2.0
+
+# Enrichment with new flags
+pmos-brain enrich --mode full --dry-run --verbose
+
+# Use EntityCache in Python
+from pmos_brain import EntityCache
+cache = EntityCache(brain_path).load()
+persons = cache.get_by_type("person")
+```
+
+### v3.1.0
 
 - **MCP Server** — Expose your knowledge graph to any MCP-compatible AI client (Cursor, Windsurf, Claude Code) with 5 built-in tools
 - **Vector Search** — ChromaDB + sentence-transformers semantic search across all entities with embedding-based edge inference
