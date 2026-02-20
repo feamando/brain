@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmos-brain"
-version = "3.1.0"
+version = "3.2.0"
 description = "Semantic Knowledge Graph with Graph Analytics, Event Sourcing, Enrichment Pipeline, Vector Search, MCP Server & Quality Scoring"
 readme = "README.md"
 license = {text = "MIT"}
