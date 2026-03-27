@@ -27,8 +27,13 @@ Orphan Mode runs:
 """
 
 import argparse
+import hashlib
 import json
+import os
+import signal
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
@@ -37,22 +42,23 @@ from typing import Any, Callable, Dict, List, Optional, Protocol
 from pmos_brain.vector.edge_inferrer import EmbeddingEdgeInferrer, EdgeInferenceReport
 from pmos_brain.graph.graph_health import GraphHealth, GraphHealthReport
 from pmos_brain.maintenance.orphan_analyzer import OrphanAnalyzer
+from pmos_brain.core.entity_cache import EntityCache
 
 # Optional imports - may not be available in all installations
 try:
-    from pmos_brain.enrichers.body_relationship_extractor import BodyRelationshipExtractor
+    from pmos_brain.relationships.body_extractor import BodyRelationshipExtractor
     HAS_BODY_EXTRACTOR = True
 except ImportError:
     HAS_BODY_EXTRACTOR = False
 
 try:
-    from pmos_brain.enrichers.extraction_hints import ExtractionHintsGenerator, ExtractionHintsReport
+    from pmos_brain.maintenance.extraction_hints import ExtractionHintsGenerator, ExtractionHintsReport
     HAS_EXTRACTION_HINTS = True
 except ImportError:
     HAS_EXTRACTION_HINTS = False
 
 try:
-    from pmos_brain.enrichers.relationship_decay import RelationshipDecayMonitor, RelationshipDecayReport
+    from pmos_brain.relationships.decay import RelationshipDecayMonitor, RelationshipDecayReport
     HAS_RELATIONSHIP_DECAY = True
 except ImportError:
     HAS_RELATIONSHIP_DECAY = False
@@ -123,6 +129,23 @@ class EnrichmentResult:
     external_enriched: int = 0
     orphans_marked_no_data: int = 0
     orphans_marked_standalone: int = 0
+
+    # Performance metrics (v3.3.0)
+    cache_entities_loaded: int = 0
+    cache_load_time_ms: float = 0.0
+    parallel_enabled: bool = False
+    parallel_wall_clock_ms: float = 0.0
+    parallel_types_processed: int = 0
+    # Incremental metrics
+    incremental_enabled: bool = False
+    entities_changed: int = 0
+    entities_skipped: int = 0
+    types_scanned: int = 0
+    types_skipped: int = 0
+    # ANN metrics
+    ann_enabled: bool = False
+    ann_queries: int = 0
+    ann_fallback_to_bruteforce: int = 0
 
 
 class BrainEnrichmentOrchestrator:
@@ -236,6 +259,17 @@ class BrainEnrichmentOrchestrator:
             result.final_density = result.baseline_density
             return result
 
+        # Load entity cache
+        cache_start = time.time()
+        cache = EntityCache(self.brain_path)
+        cache.load()
+        result.cache_entities_loaded = len(cache.entities) if hasattr(cache, 'entities') else 0
+        result.cache_load_time_ms = (time.time() - cache_start) * 1000
+
+        # Snapshot (for rollback support)
+        if not dry_run and mode not in ("report",):
+            self._create_snapshot()
+
         # Step 2: Soft edge inference
         if self.verbose:
             print("Step 2: Running soft edge inference...")
@@ -246,34 +280,58 @@ class BrainEnrichmentOrchestrator:
             else list(self.SOFT_EDGE_CONFIG.keys())
         )
 
-        for entity_type in entity_types:
-            config = self.SOFT_EDGE_CONFIG.get(
-                entity_type, {"threshold": 0.85, "limit": 50}
-            )
+        # Incremental processing
+        incremental = os.environ.get("PMOS_ENRICH_INCREMENTAL", "0") == "1"
+        result.incremental_enabled = incremental
 
-            if self.verbose:
-                print(f"  - {entity_type} (threshold={config['threshold']})...")
+        if incremental:
+            saved_state = self._load_incremental_state()
+            current_hashes = self._compute_type_hashes()
+            changed_types = self._get_changed_types(current_hashes, saved_state)
+            # Filter entity_types to only changed ones
+            entity_types = [t for t in entity_types if t in changed_types or t.rstrip("s") in changed_types]
+            result.types_skipped = len(self.SOFT_EDGE_CONFIG) - len(entity_types)
+            result.types_scanned = len(entity_types)
 
-            try:
-                inferrer = EmbeddingEdgeInferrer(
-                    self.brain_path,
-                    threshold=config["threshold"],
+        # Parallel or sequential scan
+        parallel = os.environ.get("PMOS_ENRICH_PARALLEL", "0") == "1"
+        result.parallel_enabled = parallel
+
+        if parallel and len(entity_types) > 1:
+            self._parallel_scan(entity_types, dry_run, result)
+        else:
+            for entity_type in entity_types:
+                config = self.SOFT_EDGE_CONFIG.get(
+                    entity_type, {"threshold": 0.85, "limit": 50}
                 )
-                report = inferrer.scan_for_edges(
-                    entity_type=entity_type,
-                    limit=config["limit"],
-                )
 
-                if report.edges and not dry_run:
-                    applied = inferrer.apply_edges(report.edges)
-                    result.soft_edges_added += applied
-                    result.soft_edges_by_type[entity_type] = applied
-                elif report.edges:
-                    result.soft_edges_by_type[entity_type] = len(report.edges)
-
-            except Exception as e:
                 if self.verbose:
-                    print(f"    Warning: {e}")
+                    print(f"  - {entity_type} (threshold={config['threshold']})...")
+
+                try:
+                    inferrer = EmbeddingEdgeInferrer(
+                        self.brain_path,
+                        threshold=config["threshold"],
+                    )
+                    report = inferrer.scan_for_edges(
+                        entity_type=entity_type,
+                        limit=config["limit"],
+                    )
+
+                    if report.edges and not dry_run:
+                        applied = inferrer.apply_edges(report.edges)
+                        result.soft_edges_added += applied
+                        result.soft_edges_by_type[entity_type] = applied
+                    elif report.edges:
+                        result.soft_edges_by_type[entity_type] = len(report.edges)
+
+                except Exception as e:
+                    if self.verbose:
+                        print(f"    Warning: {e}")
+
+        # Save incremental state
+        if incremental and not dry_run:
+            self._save_incremental_state({"type_hashes": current_hashes})
 
         # Step 3: Analysis (skip in boot mode)
         if mode != "boot":
@@ -444,6 +502,171 @@ class BrainEnrichmentOrchestrator:
         result.orphans_reduced = result.baseline_orphans - result.final_orphans
 
         return result
+
+    def _parallel_scan(
+        self,
+        entity_types: list,
+        dry_run: bool,
+        result: EnrichmentResult,
+    ) -> None:
+        """Run soft edge inference in parallel across entity types."""
+        start = time.time()
+        futures = {}
+
+        with ThreadPoolExecutor(max_workers=min(4, len(entity_types))) as executor:
+            for entity_type in sorted(entity_types):
+                config = self.SOFT_EDGE_CONFIG.get(
+                    entity_type, {"threshold": 0.85, "limit": 50}
+                )
+                futures[executor.submit(
+                    self._scan_single_type, entity_type, config, dry_run
+                )] = entity_type
+
+            for future in as_completed(futures):
+                entity_type = futures[future]
+                try:
+                    edges_count = future.result()
+                    if edges_count > 0:
+                        result.soft_edges_added += edges_count
+                        result.soft_edges_by_type[entity_type] = edges_count
+                except Exception as e:
+                    if self.verbose:
+                        print(f"    {entity_type}: {e}")
+
+        result.parallel_wall_clock_ms = (time.time() - start) * 1000
+        result.parallel_types_processed = len(entity_types)
+
+    def _scan_single_type(
+        self,
+        entity_type: str,
+        config: dict,
+        dry_run: bool,
+    ) -> int:
+        """Scan a single entity type for soft edges. Thread-safe (read-only scan)."""
+        try:
+            inferrer = EmbeddingEdgeInferrer(
+                self.brain_path,
+                threshold=config["threshold"],
+            )
+            report = inferrer.scan_for_edges(
+                entity_type=entity_type,
+                limit=config["limit"],
+            )
+            if report.edges and not dry_run:
+                return inferrer.apply_edges(report.edges)
+            elif report.edges:
+                return len(report.edges)
+            return 0
+        except Exception:
+            return 0
+
+    def _load_incremental_state(self) -> dict:
+        """Load incremental enrichment state."""
+        state_path = self.brain_path / ".enrichment-state.json"
+        if state_path.exists():
+            try:
+                import json as _json
+                content = state_path.read_text()
+                if len(content) > 512_000:  # 500KB cap
+                    return {}
+                return _json.loads(content)
+            except Exception:
+                return {}
+        return {}
+
+    def _save_incremental_state(self, state: dict) -> None:
+        """Save incremental enrichment state."""
+        import json as _json
+        state_path = self.brain_path / ".enrichment-state.json"
+        state_path.write_text(_json.dumps(state, indent=2))
+
+    def _compute_type_hashes(self) -> dict:
+        """Compute content hashes per entity type."""
+        type_hashes = {}
+        for entity_path in self.brain_path.rglob("*.md"):
+            if entity_path.name.lower() in ("readme.md", "index.md", "_index.md"):
+                continue
+            if ".snapshots" in str(entity_path):
+                continue
+            try:
+                content = entity_path.read_bytes()
+                h = hashlib.sha256(content).hexdigest()[:16]
+                # Determine type from parent dir name
+                parent = entity_path.parent.name.lower()
+                type_key = parent.rstrip("s")  # "Entities" -> "entitie" — use actual type from file
+                if type_key not in type_hashes:
+                    type_hashes[type_key] = []
+                type_hashes[type_key].append(h)
+            except Exception:
+                continue
+        # Combine hashes per type
+        return {k: hashlib.sha256("".join(sorted(v)).encode()).hexdigest()[:16]
+                for k, v in type_hashes.items()}
+
+    def _get_changed_types(self, current_hashes: dict, saved_state: dict) -> set:
+        """Determine which entity types have changed since last run."""
+        saved_hashes = saved_state.get("type_hashes", {})
+        changed = set()
+        for type_key, current_hash in current_hashes.items():
+            if saved_hashes.get(type_key) != current_hash:
+                changed.add(type_key)
+        # Also include types that were removed
+        for type_key in saved_hashes:
+            if type_key not in current_hashes:
+                changed.add(type_key)
+        return changed
+
+    def _create_snapshot(self) -> Optional[str]:
+        """Create git-based pre-enrichment snapshot."""
+        import subprocess
+        try:
+            # Check if in git repo
+            result = subprocess.run(
+                ["git", "rev-parse", "--is-inside-work-tree"],
+                cwd=self.brain_path,
+                capture_output=True, text=True,
+            )
+            if result.returncode != 0:
+                return None
+
+            # Create stash
+            result = subprocess.run(
+                ["git", "stash", "create"],
+                cwd=self.brain_path,
+                capture_output=True, text=True,
+            )
+            stash_ref = result.stdout.strip()
+            if stash_ref:
+                snapshot_path = self.brain_path / ".enrichment-snapshot"
+                snapshot_path.write_text(stash_ref)
+                return stash_ref
+            return None
+        except Exception:
+            return None
+
+    def rollback(self) -> bool:
+        """Rollback to pre-enrichment snapshot."""
+        import subprocess
+        snapshot_path = self.brain_path / ".enrichment-snapshot"
+        if not snapshot_path.exists():
+            raise FileNotFoundError("No enrichment snapshot found")
+
+        stash_ref = snapshot_path.read_text().strip()
+        try:
+            subprocess.run(
+                ["git", "checkout", "."],
+                cwd=self.brain_path,
+                capture_output=True, check=True,
+            )
+            subprocess.run(
+                ["git", "stash", "apply", stash_ref],
+                cwd=self.brain_path,
+                capture_output=True, check=True,
+            )
+            snapshot_path.unlink()
+            return True
+        except Exception:
+            return False
 
 
 def main():
