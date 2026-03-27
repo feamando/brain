@@ -9,6 +9,7 @@ Features:
 """
 
 import json
+import json as _json
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
@@ -152,6 +153,9 @@ class EnrichmentPipeline:
 
             self.progress.sources_completed.append(source)
             self._save_checkpoint()
+
+        # Clear checkpoint on successful completion
+        self._clear_checkpoint()
 
         return self._get_summary()
 
@@ -328,6 +332,22 @@ class EnrichmentPipeline:
                     json.dump(self.progress.__dict__, f, indent=2)
             except Exception:
                 pass
+
+    def _clear_checkpoint(self) -> None:
+        """Clear checkpoint after successful completion."""
+        checkpoint_path = self.brain_path / ".enrichment_checkpoint.json"
+        if checkpoint_path.exists():
+            checkpoint_path.unlink()
+
+    def _rate_limit(self, requests_per_minute: int, last_request_time: float) -> float:
+        """Sleep if needed to respect rate limit. Returns current time."""
+        if requests_per_minute <= 0:
+            return time.time()
+        min_interval = 60.0 / requests_per_minute
+        elapsed = time.time() - last_request_time
+        if elapsed < min_interval:
+            time.sleep(min_interval - elapsed)
+        return time.time()
 
     def _get_summary(self) -> Dict[str, Any]:
         """Get pipeline execution summary."""
