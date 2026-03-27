@@ -34,7 +34,7 @@ Quick Start:
 For more information, see: https://github.com/feamando/brain
 """
 
-__version__ = "3.2.0"
+__version__ = "3.3.0"
 __author__ = "PM-OS Team"
 
 # Core
@@ -64,6 +64,18 @@ from pmos_brain.relationships.builder import RelationshipBuilder, RelationshipRe
 
 # Maintenance
 from pmos_brain.maintenance.orphan_analyzer import OrphanAnalyzer, OrphanAnalysis
+
+# Maintenance (v3.3.0)
+from pmos_brain.maintenance.stale_detector import StaleEntityDetector, StaleEntity
+from pmos_brain.maintenance.orphan_cleaner import OrphanCleaner, OrphanTarget, CleanupResult
+from pmos_brain.maintenance.snapshot_manager import SnapshotManager
+from pmos_brain.maintenance.extraction_hints import ExtractionHintsGenerator, ExtractionHintsReport
+
+# Relationships (v3.3.0)
+from pmos_brain.relationships.auditor import RelationshipAuditor, AuditResult
+from pmos_brain.relationships.normalizer import RelationshipNormalizer, NormalizationResult
+from pmos_brain.relationships.decay import RelationshipDecayMonitor, RelationshipDecayReport
+from pmos_brain.relationships.body_extractor import BodyRelationshipExtractor
 
 # Storage
 from pmos_brain.storage.event_store import EventStore, Event
@@ -131,6 +143,17 @@ __all__ = [
     # Maintenance
     "OrphanAnalyzer",
     "OrphanAnalysis",
+
+    # Maintenance (v3.3.0)
+    "StaleEntityDetector", "StaleEntity",
+    "OrphanCleaner", "OrphanTarget", "CleanupResult",
+    "SnapshotManager",
+    "ExtractionHintsGenerator", "ExtractionHintsReport",
+    # Relationships (v3.3.0)
+    "RelationshipAuditor", "AuditResult",
+    "RelationshipNormalizer", "NormalizationResult",
+    "RelationshipDecayMonitor", "RelationshipDecayReport",
+    "BodyRelationshipExtractor",
 
     # Storage
     "EventStore",
