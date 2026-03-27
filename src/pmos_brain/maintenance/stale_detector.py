@@ -1,22 +1,21 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Stale Entity Detector
+Brain Stale Entity Detector
 
 Identifies outdated or potentially stale Brain entities.
 """
 
-import argparse
-import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+
 import yaml
 
 
 @dataclass
 class StaleEntity:
     """Represents a potentially stale entity."""
+
     entity_id: str
     entity_type: str
     entity_path: Path
@@ -40,21 +39,26 @@ class StaleEntityDetector:
 
     # Default staleness thresholds (days)
     THRESHOLDS = {
-        "person": 90,      # People should be updated quarterly
-        "team": 60,        # Teams change frequently
-        "squad": 60,       # Squads change frequently
-        "project": 30,     # Projects need monthly updates
+        "person": 90,  # People should be updated quarterly
+        "team": 60,  # Teams change frequently
+        "squad": 60,  # Squads change frequently
+        "project": 30,  # Projects need monthly updates
         "experiment": 14,  # Experiments are short-lived
-        "domain": 180,     # Domains are stable
-        "system": 90,      # Systems need quarterly review
-        "brand": 180,      # Brands are stable
+        "domain": 180,  # Domains are stable
+        "system": 90,  # Systems need quarterly review
+        "brand": 180,  # Brands are stable
         "default": 90,
     }
 
     # Status values that indicate staleness
     STALE_STATUSES = {
-        "deprecated", "archived", "inactive", "completed",
-        "cancelled", "on-hold", "abandoned"
+        "deprecated",
+        "archived",
+        "inactive",
+        "completed",
+        "cancelled",
+        "on-hold",
+        "abandoned",
     }
 
     def __init__(self, brain_path: Path):
@@ -85,7 +89,8 @@ class StaleEntityDetector:
 
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -128,7 +133,9 @@ class StaleEntityDetector:
 
         for entity in stale_entities:
             by_type[entity.entity_type] = by_type.get(entity.entity_type, 0) + 1
-            by_action[entity.recommended_action] = by_action.get(entity.recommended_action, 0) + 1
+            by_action[entity.recommended_action] = (
+                by_action.get(entity.recommended_action, 0) + 1
+            )
             for reason in entity.staleness_reasons:
                 by_reason[reason] = by_reason.get(reason, 0) + 1
 
@@ -183,7 +190,9 @@ class StaleEntityDetector:
         valid_to = frontmatter.get("$valid_to")
         if valid_to:
             try:
-                valid_to_dt = datetime.fromisoformat(str(valid_to).replace("Z", "+00:00"))
+                valid_to_dt = datetime.fromisoformat(
+                    str(valid_to).replace("Z", "+00:00")
+                )
                 if valid_to_dt < datetime.now(valid_to_dt.tzinfo):
                     reasons.append("Validity period has ended")
                     action = "archive_or_remove"
@@ -203,7 +212,9 @@ class StaleEntityDetector:
 
         # Check for completed projects
         if entity_type in ("project", "experiment"):
-            project_status = frontmatter.get("project_status", frontmatter.get("status", ""))
+            project_status = frontmatter.get(
+                "project_status", frontmatter.get("status", "")
+            )
             if project_status.lower() in ("completed", "done", "finished", "shipped"):
                 if days_stale > 30:
                     reasons.append("Project completed but not archived")
@@ -257,7 +268,9 @@ class StaleEntityDetector:
         if not last_updated:
             return 365  # Assume very stale if unknown
 
-        now = datetime.now(last_updated.tzinfo) if last_updated.tzinfo else datetime.now()
+        now = (
+            datetime.now(last_updated.tzinfo) if last_updated.tzinfo else datetime.now()
+        )
         return (now - last_updated).days
 
     def _check_person_terminated(self, frontmatter: Dict[str, Any]) -> bool:
@@ -271,7 +284,9 @@ class StaleEntityDetector:
         valid_to = frontmatter.get("$valid_to")
         if valid_to:
             try:
-                valid_to_dt = datetime.fromisoformat(str(valid_to).replace("Z", "+00:00"))
+                valid_to_dt = datetime.fromisoformat(
+                    str(valid_to).replace("Z", "+00:00")
+                )
                 if valid_to_dt < datetime.now(valid_to_dt.tzinfo):
                     return True
             except (ValueError, TypeError):
@@ -293,96 +308,3 @@ class StaleEntityDetector:
             return frontmatter, parts[2]
         except yaml.YAMLError:
             return {}, content
-
-
-def main():
-    """CLI entry point."""
-    parser = argparse.ArgumentParser(
-        description="Detect stale Brain entities"
-    )
-    parser.add_argument(
-        "action",
-        choices=["detect", "summary", "list"],
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--type",
-        type=str,
-        help="Filter by entity type",
-    )
-    parser.add_argument(
-        "--threshold",
-        type=int,
-        help="Override staleness threshold (days)",
-    )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=20,
-        help="Limit output (default: 20)",
-    )
-
-    args = parser.parse_args()
-
-    # Default brain path
-    if not args.brain_path:
-        sys.path.insert(0, str(Path(__file__).parent.parent))
-        from path_resolver import get_paths
-        paths = get_paths()
-        args.brain_path = paths.user / "brain"
-
-    detector = StaleEntityDetector(args.brain_path)
-
-    if args.action in ("detect", "list"):
-        stale = detector.detect_stale(
-            threshold_days=args.threshold,
-            entity_type=args.type,
-        )
-
-        print(f"Found {len(stale)} stale entities")
-        print("=" * 60)
-
-        for entity in stale[:args.limit]:
-            print(f"\n{entity.entity_id}")
-            print(f"  Type: {entity.entity_type}")
-            print(f"  Days stale: {entity.days_stale}")
-            print(f"  Reasons: {', '.join(entity.staleness_reasons)}")
-            print(f"  Action: {entity.recommended_action}")
-
-        if len(stale) > args.limit:
-            print(f"\n... and {len(stale) - args.limit} more")
-
-    elif args.action == "summary":
-        stale = detector.detect_stale(
-            threshold_days=args.threshold,
-            entity_type=args.type,
-        )
-        summary = detector.get_summary(stale)
-
-        print("Stale Entity Summary")
-        print("=" * 60)
-        print(f"Total stale: {summary['total_stale']}")
-        print(f"Average days stale: {summary['average_days_stale']}")
-        print()
-        print("By type:")
-        for t, count in summary["by_type"].items():
-            print(f"  {t}: {count}")
-        print()
-        print("Top reasons:")
-        for reason, count in summary["by_reason"][:5]:
-            print(f"  - {reason}: {count}")
-        print()
-        print("Recommended actions:")
-        for action, count in summary["by_action"].items():
-            print(f"  {action}: {count}")
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

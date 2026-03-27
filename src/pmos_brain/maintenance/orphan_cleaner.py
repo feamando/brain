@@ -1,28 +1,25 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Orphan Cleaner
+Brain Orphan Cleaner
 
 Categorizes and cleans up orphan relationship targets.
 """
 
 import re
-import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
+
 import yaml
 
-# Add tools directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-sys.path.insert(0, str(Path(__file__).parent))
-
-from canonical_resolver import CanonicalResolver
+from pmos_brain.resolver.canonical import CanonicalResolver
+from pmos_brain.storage.event_helpers import EventHelper
 
 
 @dataclass
 class OrphanTarget:
     """Represents an orphan relationship target."""
+
     source_entity: str
     source_path: Path
     target: str
@@ -35,6 +32,7 @@ class OrphanTarget:
 @dataclass
 class CleanupResult:
     """Result of orphan cleanup."""
+
     total_orphans: int
     auto_removed: int
     inbox_removed: int
@@ -103,7 +101,8 @@ class OrphanCleaner:
         orphans = []
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -147,15 +146,17 @@ class OrphanCleaner:
             # Categorize the orphan
             category, suggestion, confidence = self._categorize_orphan(target)
 
-            orphans.append(OrphanTarget(
-                source_entity=canonical_id,
-                source_path=entity_path,
-                target=target,
-                relationship_type=rel_type,
-                category=category,
-                suggestion=suggestion,
-                confidence=confidence,
-            ))
+            orphans.append(
+                OrphanTarget(
+                    source_entity=canonical_id,
+                    source_path=entity_path,
+                    target=target,
+                    relationship_type=rel_type,
+                    category=category,
+                    suggestion=suggestion,
+                    confidence=confidence,
+                )
+            )
 
         return orphans
 
@@ -242,7 +243,10 @@ class OrphanCleaner:
                     action = "remove"
                     result.inbox_removed += 1
                 elif orphan.category == "likely_typo" and fix_typos:
-                    if orphan.confidence >= typo_confidence_threshold and orphan.suggestion:
+                    if (
+                        orphan.confidence >= typo_confidence_threshold
+                        and orphan.suggestion
+                    ):
                         action = "fix"
                         result.typos_fixed += 1
                     else:
@@ -251,18 +255,22 @@ class OrphanCleaner:
                     result.manual_review += 1
 
                 if action:
-                    changes_for_entity.append({
-                        "action": action,
-                        "target": orphan.target,
-                        "rel_type": orphan.relationship_type,
-                        "suggestion": orphan.suggestion,
-                    })
-                    result.changes.append({
-                        "entity": orphan.source_entity,
-                        "action": action,
-                        "target": orphan.target,
-                        "suggestion": orphan.suggestion,
-                    })
+                    changes_for_entity.append(
+                        {
+                            "action": action,
+                            "target": orphan.target,
+                            "rel_type": orphan.relationship_type,
+                            "suggestion": orphan.suggestion,
+                        }
+                    )
+                    result.changes.append(
+                        {
+                            "entity": orphan.source_entity,
+                            "action": action,
+                            "target": orphan.target,
+                            "suggestion": orphan.suggestion,
+                        }
+                    )
 
             # Apply changes to entity
             if changes_for_entity and not dry_run:
@@ -315,20 +323,21 @@ class OrphanCleaner:
 
         # Update frontmatter
         frontmatter["$relationships"] = new_relationships
-        frontmatter["$updated"] = datetime.now(timezone.utc).isoformat()
 
-        # Add cleanup event
-        if "$events" not in frontmatter:
-            frontmatter["$events"] = []
-
-        frontmatter["$events"].append({
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "type": "orphan_cleanup",
-            "actor": "system/orphan_cleaner",
-            "changes": [
-                {"field": "$relationships", "operation": "cleanup", "count": len(changes)}
+        # Add cleanup event via EventHelper (handles $version + $updated)
+        event = EventHelper.create_event(
+            event_type="relationship_remove",
+            actor="system/orphan_cleaner",
+            changes=[
+                {
+                    "field": "$relationships",
+                    "operation": "remove",
+                    "value": f"Cleaned {len(changes)} orphan reference(s)",
+                }
             ],
-        })
+            message=f"Removed {len(changes)} orphan relationship(s)",
+        )
+        EventHelper.append_to_frontmatter(frontmatter, event)
 
         # Write back
         new_content = self._rebuild_content(frontmatter, body)
@@ -369,12 +378,14 @@ class OrphanCleaner:
 
         # Auto-remove section
         if by_category["auto_remove"]:
-            lines.extend([
-                "## Auto-Remove (Placeholders)",
-                "",
-                "These are placeholder targets that can be safely removed:",
-                "",
-            ])
+            lines.extend(
+                [
+                    "## Auto-Remove (Placeholders)",
+                    "",
+                    "These are placeholder targets that can be safely removed:",
+                    "",
+                ]
+            )
             for orphan in by_category["auto_remove"][:20]:
                 lines.append(f"- `{orphan.target}` in {orphan.source_entity}")
             if len(by_category["auto_remove"]) > 20:
@@ -383,12 +394,14 @@ class OrphanCleaner:
 
         # Inbox artifacts section
         if by_category["inbox_artifact"]:
-            lines.extend([
-                "## Inbox Artifacts",
-                "",
-                "These reference temporary inbox items:",
-                "",
-            ])
+            lines.extend(
+                [
+                    "## Inbox Artifacts",
+                    "",
+                    "These reference temporary inbox items:",
+                    "",
+                ]
+            )
             for orphan in by_category["inbox_artifact"][:20]:
                 lines.append(f"- `{orphan.target}` in {orphan.source_entity}")
             if len(by_category["inbox_artifact"]) > 20:
@@ -397,31 +410,37 @@ class OrphanCleaner:
 
         # Likely typos section
         if by_category["likely_typo"]:
-            lines.extend([
-                "## Likely Typos",
-                "",
-                "These appear to be typos with suggested corrections:",
-                "",
-                "| Target | Suggestion | Confidence | Source |",
-                "|--------|------------|------------|--------|",
-            ])
+            lines.extend(
+                [
+                    "## Likely Typos",
+                    "",
+                    "These appear to be typos with suggested corrections:",
+                    "",
+                    "| Target | Suggestion | Confidence | Source |",
+                    "|--------|------------|------------|--------|",
+                ]
+            )
             for orphan in by_category["likely_typo"][:30]:
                 lines.append(
                     f"| `{orphan.target}` | `{orphan.suggestion}` | "
                     f"{orphan.confidence:.0%} | {orphan.source_entity} |"
                 )
             if len(by_category["likely_typo"]) > 30:
-                lines.append(f"| ... | | | ({len(by_category['likely_typo']) - 30} more) |")
+                lines.append(
+                    f"| ... | | | ({len(by_category['likely_typo']) - 30} more) |"
+                )
             lines.append("")
 
         # Manual review section
         if by_category["manual_review"]:
-            lines.extend([
-                "## Manual Review Required",
-                "",
-                "These orphans require human review:",
-                "",
-            ])
+            lines.extend(
+                [
+                    "## Manual Review Required",
+                    "",
+                    "These orphans require human review:",
+                    "",
+                ]
+            )
             for orphan in by_category["manual_review"][:50]:
                 lines.append(
                     f"- `{orphan.target}` ({orphan.relationship_type}) "
@@ -471,96 +490,3 @@ class OrphanCleaner:
             sort_keys=False,
         )
         return f"---\n{yaml_content}---{body}"
-
-
-def main():
-    """CLI entry point."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Clean up orphan relationship targets"
-    )
-    parser.add_argument(
-        "action",
-        choices=["analyze", "cleanup", "report"],
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        default=True,
-        help="Preview without making changes (default)",
-    )
-    parser.add_argument(
-        "--apply",
-        action="store_true",
-        help="Apply changes (not dry run)",
-    )
-    parser.add_argument(
-        "--fix-typos",
-        action="store_true",
-        help="Auto-fix likely typos",
-    )
-    parser.add_argument(
-        "--typo-threshold",
-        type=float,
-        default=0.8,
-        help="Minimum confidence for typo fixes (default: 0.8)",
-    )
-
-    args = parser.parse_args()
-
-    # Default brain path
-    if not args.brain_path:
-        from path_resolver import get_paths
-        paths = get_paths()
-        args.brain_path = paths.user / "brain"
-
-    cleaner = OrphanCleaner(args.brain_path)
-    dry_run = not args.apply
-
-    if args.action == "analyze":
-        print("Analyzing orphan targets...")
-        orphans = cleaner.analyze_orphans()
-        print(cleaner.generate_report(orphans))
-
-    elif args.action == "cleanup":
-        print("Analyzing orphan targets...")
-        orphans = cleaner.analyze_orphans()
-
-        print(f"\nFound {len(orphans)} orphans")
-        print("Cleaning up...")
-
-        result = cleaner.cleanup(
-            orphans,
-            auto_remove=True,
-            remove_inbox=True,
-            fix_typos=args.fix_typos,
-            typo_confidence_threshold=args.typo_threshold,
-            dry_run=dry_run,
-        )
-
-        print(f"\nCleanup Results:")
-        print(f"  Auto-removed: {result.auto_removed}")
-        print(f"  Inbox removed: {result.inbox_removed}")
-        print(f"  Typos fixed: {result.typos_fixed}")
-        print(f"  Manual review: {result.manual_review}")
-        print(f"  Entities modified: {result.entities_modified}")
-
-        if dry_run:
-            print("\n(Dry run - no changes written. Use --apply to write changes)")
-
-    elif args.action == "report":
-        orphans = cleaner.analyze_orphans()
-        print(cleaner.generate_report(orphans))
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

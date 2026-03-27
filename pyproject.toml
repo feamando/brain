@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmos-brain"
-version = "3.2.0"
+version = "3.3.0"
 description = "Semantic Knowledge Graph with Graph Analytics, Event Sourcing, Enrichment Pipeline, Vector Search, MCP Server & Quality Scoring"
 readme = "README.md"
 license = {text = "MIT"}
@@ -26,6 +26,10 @@ keywords = [
     "mcp",
     "vector-search",
     "embeddings",
+    "relationship-audit",
+    "incremental-enrichment",
+    "snapshot",
+    "maintenance",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -114,6 +118,11 @@ mcp = [
 # NLP
 nlp = [
     "spacy>=3.0",
+]
+
+# Maintenance tools (optional faster fuzzy matching)
+maintenance = [
+    "rapidfuzz>=3.0",
 ]
 
 # Development

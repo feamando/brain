@@ -1,26 +1,22 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Relationship Auditor
+Brain Relationship Auditor
 
 Audits relationships between Brain entities for consistency and bidirectionality.
 """
 
-import argparse
-import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
+
 import yaml
 
-# Add tools directory for canonical_resolver import
-sys.path.insert(0, str(Path(__file__).parent))
-
-from canonical_resolver import CanonicalResolver
+from pmos_brain.resolver.canonical import CanonicalResolver
 
 
 @dataclass
 class RelationshipIssue:
     """Represents a relationship inconsistency."""
+
     issue_type: str
     source_entity: str
     target_entity: str
@@ -32,6 +28,7 @@ class RelationshipIssue:
 @dataclass
 class AuditResult:
     """Result of relationship audit."""
+
     total_entities: int
     total_relationships: int
     orphan_targets: List[RelationshipIssue]
@@ -42,10 +39,10 @@ class AuditResult:
     @property
     def total_issues(self) -> int:
         return (
-            len(self.orphan_targets) +
-            len(self.missing_inverses) +
-            len(self.duplicate_relationships) +
-            len(self.invalid_types)
+            len(self.orphan_targets)
+            + len(self.missing_inverses)
+            + len(self.duplicate_relationships)
+            + len(self.invalid_types)
         )
 
     @property
@@ -177,7 +174,8 @@ class RelationshipAuditor:
 
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -233,14 +231,16 @@ class RelationshipAuditor:
 
                 # Check if target exists
                 if not self._entity_exists(target):
-                    issues.append(RelationshipIssue(
-                        issue_type="orphan_target",
-                        source_entity=source_id,
-                        target_entity=target,
-                        relationship_type=rel.get("type", "unknown"),
-                        message=f"Target entity '{target}' does not exist",
-                        severity="error",
-                    ))
+                    issues.append(
+                        RelationshipIssue(
+                            issue_type="orphan_target",
+                            source_entity=source_id,
+                            target_entity=target,
+                            relationship_type=rel.get("type", "unknown"),
+                            message=f"Target entity '{target}' does not exist",
+                            severity="error",
+                        )
+                    )
 
         return issues
 
@@ -271,20 +271,22 @@ class RelationshipAuditor:
                 # Check if target has inverse relationship
                 target_rels = self._get_entity_relationships(target)
                 has_inverse = any(
-                    r.get("type") == inverse_type and
-                    self._targets_match(r.get("target", ""), source_id, source_path)
+                    r.get("type") == inverse_type
+                    and self._targets_match(r.get("target", ""), source_id, source_path)
                     for r in target_rels
                 )
 
                 if not has_inverse and self._entity_exists(target):
-                    issues.append(RelationshipIssue(
-                        issue_type="missing_inverse",
-                        source_entity=source_id,
-                        target_entity=target,
-                        relationship_type=rel_type,
-                        message=f"Missing inverse '{inverse_type}' from {target} to {source_id}",
-                        severity="warning",
-                    ))
+                    issues.append(
+                        RelationshipIssue(
+                            issue_type="missing_inverse",
+                            source_entity=source_id,
+                            target_entity=target,
+                            relationship_type=rel_type,
+                            message=f"Missing inverse '{inverse_type}' from {target} to {source_id}",
+                            severity="warning",
+                        )
+                    )
 
         return issues
 
@@ -301,14 +303,16 @@ class RelationshipAuditor:
 
                 key = (rel.get("type", ""), rel.get("target", ""))
                 if key in seen:
-                    issues.append(RelationshipIssue(
-                        issue_type="duplicate",
-                        source_entity=source_id,
-                        target_entity=rel.get("target", ""),
-                        relationship_type=rel.get("type", ""),
-                        message="Duplicate relationship",
-                        severity="warning",
-                    ))
+                    issues.append(
+                        RelationshipIssue(
+                            issue_type="duplicate",
+                            source_entity=source_id,
+                            target_entity=rel.get("target", ""),
+                            relationship_type=rel.get("type", ""),
+                            message="Duplicate relationship",
+                            severity="warning",
+                        )
+                    )
                 seen.add(key)
 
         return issues
@@ -324,14 +328,16 @@ class RelationshipAuditor:
 
                 rel_type = rel.get("type", "")
                 if rel_type and rel_type not in self.VALID_TYPES:
-                    issues.append(RelationshipIssue(
-                        issue_type="invalid_type",
-                        source_entity=source_id,
-                        target_entity=rel.get("target", ""),
-                        relationship_type=rel_type,
-                        message=f"Unknown relationship type: {rel_type}",
-                        severity="warning",
-                    ))
+                    issues.append(
+                        RelationshipIssue(
+                            issue_type="invalid_type",
+                            source_entity=source_id,
+                            target_entity=rel.get("target", ""),
+                            relationship_type=rel_type,
+                            message=f"Unknown relationship type: {rel_type}",
+                            severity="warning",
+                        )
+                    )
 
         return issues
 
@@ -371,7 +377,9 @@ class RelationshipAuditor:
 
         return []
 
-    def _targets_match(self, target: str, expected: str, expected_path: Optional[Path]) -> bool:
+    def _targets_match(
+        self, target: str, expected: str, expected_path: Optional[Path]
+    ) -> bool:
         """Check if a target reference matches an expected entity."""
         if target == expected:
             return True
@@ -411,7 +419,9 @@ class RelationshipAuditor:
             return False
 
         if dry_run:
-            print(f"Would add {inverse_type}: {issue.target_entity} -> {issue.source_entity}")
+            print(
+                f"Would add {inverse_type}: {issue.target_entity} -> {issue.source_entity}"
+            )
             return True
 
         try:
@@ -421,17 +431,24 @@ class RelationshipAuditor:
             if "$relationships" not in frontmatter:
                 frontmatter["$relationships"] = []
 
-            frontmatter["$relationships"].append({
-                "type": inverse_type,
-                "target": issue.source_entity,
-            })
+            frontmatter["$relationships"].append(
+                {
+                    "type": inverse_type,
+                    "target": issue.source_entity,
+                }
+            )
 
-            new_content = "---\n" + yaml.dump(
-                frontmatter,
-                default_flow_style=False,
-                allow_unicode=True,
-                sort_keys=False,
-            ) + "---" + body
+            new_content = (
+                "---\n"
+                + yaml.dump(
+                    frontmatter,
+                    default_flow_style=False,
+                    allow_unicode=True,
+                    sort_keys=False,
+                )
+                + "---"
+                + body
+            )
 
             target_path.write_text(new_content, encoding="utf-8")
             return True
@@ -448,7 +465,9 @@ class RelationshipAuditor:
             return False
 
         if dry_run:
-            print(f"Would remove orphan: {issue.source_entity} -> {issue.target_entity}")
+            print(
+                f"Would remove orphan: {issue.source_entity} -> {issue.target_entity}"
+            )
             return True
 
         try:
@@ -457,17 +476,25 @@ class RelationshipAuditor:
 
             relationships = frontmatter.get("$relationships", [])
             frontmatter["$relationships"] = [
-                r for r in relationships
-                if not (r.get("target") == issue.target_entity and
-                       r.get("type") == issue.relationship_type)
+                r
+                for r in relationships
+                if not (
+                    r.get("target") == issue.target_entity
+                    and r.get("type") == issue.relationship_type
+                )
             ]
 
-            new_content = "---\n" + yaml.dump(
-                frontmatter,
-                default_flow_style=False,
-                allow_unicode=True,
-                sort_keys=False,
-            ) + "---" + body
+            new_content = (
+                "---\n"
+                + yaml.dump(
+                    frontmatter,
+                    default_flow_style=False,
+                    allow_unicode=True,
+                    sort_keys=False,
+                )
+                + "---"
+                + body
+            )
 
             source_path.write_text(new_content, encoding="utf-8")
             return True
@@ -503,86 +530,3 @@ class RelationshipAuditor:
             return frontmatter, parts[2]
         except yaml.YAMLError:
             return {}, content
-
-
-def main():
-    """CLI entry point."""
-    parser = argparse.ArgumentParser(
-        description="Audit Brain entity relationships"
-    )
-    parser.add_argument(
-        "action",
-        choices=["audit", "fix"],
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--fix-inverses",
-        action="store_true",
-        help="Add missing inverse relationships",
-    )
-    parser.add_argument(
-        "--fix-orphans",
-        action="store_true",
-        help="Remove orphan relationships",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Preview without making changes",
-    )
-
-    args = parser.parse_args()
-
-    # Default brain path
-    if not args.brain_path:
-        sys.path.insert(0, str(Path(__file__).parent.parent))
-        from path_resolver import get_paths
-        paths = get_paths()
-        args.brain_path = paths.user / "brain"
-
-    auditor = RelationshipAuditor(args.brain_path)
-    result = auditor.audit()
-
-    print("Relationship Audit Results")
-    print("=" * 60)
-    print(f"Total entities: {result.total_entities}")
-    print(f"Total relationships: {result.total_relationships}")
-    print(f"Total issues: {result.total_issues}")
-    print()
-
-    if result.orphan_targets:
-        print(f"Orphan targets: {len(result.orphan_targets)}")
-        for issue in result.orphan_targets[:5]:
-            print(f"  - {issue.source_entity} -> {issue.target_entity}")
-
-    if result.missing_inverses:
-        print(f"Missing inverses: {len(result.missing_inverses)}")
-        for issue in result.missing_inverses[:5]:
-            print(f"  - {issue.message}")
-
-    if result.duplicate_relationships:
-        print(f"Duplicates: {len(result.duplicate_relationships)}")
-
-    if result.invalid_types:
-        print(f"Invalid types: {len(result.invalid_types)}")
-
-    if args.action == "fix":
-        fixes = auditor.fix_issues(
-            result,
-            fix_inverses=args.fix_inverses,
-            fix_orphans=args.fix_orphans,
-            dry_run=args.dry_run,
-        )
-        print()
-        print(f"Fixes applied: {fixes}")
-
-    return 0 if result.is_healthy else 1
-
-
-if __name__ == "__main__":
-    sys.exit(main())

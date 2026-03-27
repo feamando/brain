@@ -1,34 +1,27 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Body Relationship Extractor
+Brain Body Relationship Extractor
 
 Extracts relationships from entity body content by analyzing mentions
 of other entities using the alias registry.
-
-Part of bd-3771: Brain Orphan Cleanup & Enrichment System
-Story: bd-392b
-
-Usage:
-    python3 body_relationship_extractor.py scan              # Preview relationships
-    python3 body_relationship_extractor.py apply             # Apply relationships
-    python3 body_relationship_extractor.py --type person     # Filter by entity type
-    python3 body_relationship_extractor.py --orphans-only    # Only process orphans
 """
 
-import argparse
-import json
 import re
 import sys
 from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
+
 import yaml
+
+from pmos_brain.core.safe_write import atomic_write
+from pmos_brain.storage.event_helpers import EventHelper
 
 
 @dataclass
 class ExtractedRelationship:
     """A relationship extracted from body text."""
+
     source_id: str
     source_type: str
     target_id: str
@@ -41,6 +34,7 @@ class ExtractedRelationship:
 @dataclass
 class ExtractionReport:
     """Report of body text extraction."""
+
     entities_scanned: int
     entities_with_extractions: int
     relationships_extracted: int
@@ -165,8 +159,7 @@ class BodyRelationshipExtractor:
 
                         # Determine relationship type
                         rel_types = RELATIONSHIP_INFERENCE.get(
-                            (etype, target_type),
-                            DEFAULT_RELATIONSHIP
+                            (etype, target_type), DEFAULT_RELATIONSHIP
                         )
                         forward_rel = rel_types[0]
 
@@ -228,8 +221,7 @@ class BodyRelationshipExtractor:
         for rel in relationships:
             # Get inverse relationship type
             rel_types = RELATIONSHIP_INFERENCE.get(
-                (rel.source_type, rel.target_type),
-                DEFAULT_RELATIONSHIP
+                (rel.source_type, rel.target_type), DEFAULT_RELATIONSHIP
             )
             inverse_rel = rel_types[1]
 
@@ -396,7 +388,7 @@ class BodyRelationshipExtractor:
                 continue
 
             # Search for alias with word boundaries
-            pattern = r'\b' + re.escape(alias) + r'\b'
+            pattern = r"\b" + re.escape(alias) + r"\b"
             match = re.search(pattern, body_lower)
 
             if match:
@@ -423,9 +415,18 @@ class BodyRelationshipExtractor:
 
         # Bonus for relationship keywords
         relationship_keywords = [
-            "works with", "manages", "reports to", "member of",
-            "leads", "owns", "maintains", "collaborates",
-            "team", "squad", "project", "department",
+            "works with",
+            "manages",
+            "reports to",
+            "member of",
+            "leads",
+            "owns",
+            "maintains",
+            "collaborates",
+            "team",
+            "squad",
+            "project",
+            "department",
         ]
 
         context_lower = context.lower()
@@ -435,7 +436,7 @@ class BodyRelationshipExtractor:
                 break
 
         # Bonus for proper noun context (capitalized mentions)
-        if re.search(r'[A-Z][a-z]+', context):
+        if re.search(r"[A-Z][a-z]+", context):
             confidence += 0.05
 
         # Cap at 0.85 (body extraction is never fully reliable)
@@ -479,12 +480,18 @@ class BodyRelationshipExtractor:
             frontmatter["$relationships"] = relationships
 
             if not dry_run:
-                # Update metadata
-                frontmatter["$updated"] = datetime.now().isoformat()
+                # Log event via EventHelper (handles $version + $updated)
+                event = EventHelper.create_relationship_event(
+                    actor="system/body_relationship_extractor",
+                    target=target_id,
+                    rel_type=rel_type,
+                    operation="add",
+                    source="body_extraction",
+                )
+                EventHelper.append_to_frontmatter(frontmatter, event)
 
-                # Write back
                 new_content = self._format_content(frontmatter, body)
-                entity_path.write_text(new_content, encoding="utf-8")
+                atomic_write(entity_path, new_content)
 
             return True
 
@@ -508,7 +515,8 @@ class BodyRelationshipExtractor:
         """Get all entity files in brain."""
         files = list(self.brain_path.rglob("*.md"))
         return [
-            f for f in files
+            f
+            for f in files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -538,146 +546,3 @@ class BodyRelationshipExtractor:
             sort_keys=False,
         )
         return f"---\n{yaml_str}---{body}"
-
-
-def main():
-    """CLI entry point."""
-    parser = argparse.ArgumentParser(
-        description="Extract relationships from entity body content"
-    )
-    parser.add_argument(
-        "action",
-        choices=["scan", "apply"],
-        nargs="?",
-        default="scan",
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--type",
-        type=str,
-        help="Filter by entity type",
-    )
-    parser.add_argument(
-        "--orphans-only",
-        action="store_true",
-        help="Only process orphan entities",
-    )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=500,
-        help="Maximum relationships to process",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Preview without applying changes",
-    )
-    parser.add_argument(
-        "--output",
-        choices=["text", "json"],
-        default="text",
-        help="Output format",
-    )
-
-    args = parser.parse_args()
-
-    # Resolve brain path
-    if not args.brain_path:
-        script_dir = Path(__file__).parent.parent
-        sys.path.insert(0, str(script_dir))
-        try:
-            from path_resolver import get_paths
-            paths = get_paths()
-            args.brain_path = paths.user / "brain"
-        except ImportError:
-            args.brain_path = Path.cwd() / "user" / "brain"
-
-    extractor = BodyRelationshipExtractor(args.brain_path)
-
-    if args.action == "scan":
-        report = extractor.scan(
-            entity_type=args.type,
-            orphans_only=args.orphans_only,
-            limit=args.limit,
-        )
-
-        if args.output == "json":
-            output = {
-                "entities_scanned": report.entities_scanned,
-                "entities_with_extractions": report.entities_with_extractions,
-                "relationships_extracted": report.relationships_extracted,
-                "by_relationship_type": report.by_relationship_type,
-                "by_source_type": report.by_source_type,
-                "relationships": [
-                    {
-                        "source_id": r.source_id,
-                        "target_id": r.target_id,
-                        "type": r.relationship_type,
-                        "confidence": r.confidence,
-                    }
-                    for r in report.relationships[:100]
-                ],
-            }
-            print(json.dumps(output, indent=2))
-        else:
-            print("Body Relationship Extraction Scan")
-            print("=" * 60)
-            print(f"Entities scanned: {report.entities_scanned}")
-            print(f"With extractions: {report.entities_with_extractions}")
-            print(f"Relationships found: {report.relationships_extracted}")
-            print()
-
-            if report.by_relationship_type:
-                print("By relationship type:")
-                for rel_type, count in sorted(report.by_relationship_type.items(), key=lambda x: -x[1]):
-                    print(f"  {rel_type}: {count}")
-                print()
-
-            if report.by_source_type:
-                print("By source entity type:")
-                for etype, count in sorted(report.by_source_type.items(), key=lambda x: -x[1]):
-                    print(f"  {etype}: {count}")
-                print()
-
-            print(f"Top {min(20, len(report.relationships))} extractions:")
-            print("-" * 60)
-            for rel in report.relationships[:20]:
-                print(f"  {rel.confidence:.2f} | {rel.source_id}")
-                print(f"       --[{rel.relationship_type}]--> {rel.target_id}")
-                print(f"       Context: {rel.context[:80]}...")
-                print()
-
-    elif args.action == "apply":
-        # First scan
-        report = extractor.scan(
-            entity_type=args.type,
-            orphans_only=args.orphans_only,
-            limit=args.limit,
-        )
-
-        if not report.relationships:
-            print("No relationships to apply")
-            return 0
-
-        if args.dry_run:
-            print(f"DRY RUN: Would apply {len(report.relationships)} relationships")
-            for rel in report.relationships[:10]:
-                print(f"  {rel.source_id} --[{rel.relationship_type}]--> {rel.target_id}")
-            return 0
-
-        # Apply relationships
-        applied = extractor.apply(report.relationships, dry_run=False)
-        print(f"Applied {applied} bidirectional relationships")
-        print("Relationships marked with source: body_extraction")
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

@@ -126,6 +126,48 @@ def main():
     )
     enrich_parser.add_argument("--dry-run", action="store_true", help="Preview changes without applying")
     enrich_parser.add_argument("--verbose", "-v", action="store_true", help="Show detailed progress")
+    enrich_parser.add_argument("--rollback", action="store_true", help="Rollback last enrichment")
+    enrich_parser.add_argument("--timeout", type=int, help="Timeout in seconds")
+
+    # Maintenance subcommand (v3.3.0)
+    maint_parser = subparsers.add_parser("maintenance", help="Brain maintenance tools")
+    maint_sub = maint_parser.add_subparsers(dest="maint_command")
+
+    stale_p = maint_sub.add_parser("stale", help="Detect stale entities")
+    stale_p.add_argument("--brain", type=str, help="Brain path")
+    stale_p.add_argument("--type", type=str, help="Filter by entity type")
+    stale_p.add_argument("--threshold", type=int, help="Override staleness threshold (days)")
+
+    orphans_p = maint_sub.add_parser("orphans", help="Clean orphan relationships")
+    orphans_p.add_argument("--brain", type=str, help="Brain path")
+    orphans_p.add_argument("--dry-run", action="store_true", default=True)
+    orphans_p.add_argument("--apply", action="store_true")
+
+    snap_p = maint_sub.add_parser("snapshot", help="Manage snapshots")
+    snap_p.add_argument("action", choices=["create", "list", "cleanup"], nargs="?", default="list")
+    snap_p.add_argument("--brain", type=str, help="Brain path")
+
+    hints_p = maint_sub.add_parser("hints", help="Show extraction hints")
+    hints_p.add_argument("--brain", type=str, help="Brain path")
+    hints_p.add_argument("--type", type=str, help="Filter by entity type")
+    hints_p.add_argument("--priority", choices=["high", "medium", "low"])
+
+    # Relationships subcommand (v3.3.0)
+    rel_parser = subparsers.add_parser("relationships", help="Relationship maintenance")
+    rel_sub = rel_parser.add_subparsers(dest="rel_command")
+
+    audit_p = rel_sub.add_parser("audit", help="Audit relationship quality")
+    audit_p.add_argument("--brain", type=str, help="Brain path")
+    audit_p.add_argument("--fix", action="store_true", help="Auto-fix issues")
+
+    norm_p = rel_sub.add_parser("normalize", help="Normalize relationship targets")
+    norm_p.add_argument("--brain", type=str, help="Brain path")
+    norm_p.add_argument("--dry-run", action="store_true", default=True)
+    norm_p.add_argument("--apply", action="store_true")
+
+    decay_p = rel_sub.add_parser("decay", help="Check relationship staleness")
+    decay_p.add_argument("--brain", type=str, help="Brain path")
+    decay_p.add_argument("--threshold", type=int, default=90, help="Days threshold")
 
     args = parser.parse_args()
 
@@ -153,6 +195,10 @@ def main():
         cmd_resolve(args)
     elif args.command == "enrich":
         cmd_enrich(args)
+    elif args.command == "maintenance":
+        _handle_maintenance(args)
+    elif args.command == "relationships":
+        _handle_relationships(args)
     else:
         parser.print_help()
 
@@ -532,6 +578,98 @@ def cmd_enrich(args):
             print(f"  Orphans reduced: {result.orphans_reduced}")
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def _handle_maintenance(args):
+    """Handle maintenance subcommands."""
+    from pathlib import Path
+    brain_path = Path(getattr(args, 'brain', None) or './brain')
+
+    if args.maint_command == "stale":
+        from pmos_brain.maintenance.stale_detector import StaleEntityDetector
+        detector = StaleEntityDetector(brain_path)
+        stale = detector.detect_stale(
+            threshold_days=getattr(args, 'threshold', None),
+            entity_type=getattr(args, 'type', None),
+        )
+        print(f"Found {len(stale)} stale entities")
+        for entity in stale[:20]:
+            print(f"  {entity.entity_id} ({entity.entity_type}) - {entity.days_stale}d stale")
+            print(f"    Reasons: {', '.join(entity.staleness_reasons)}")
+
+    elif args.maint_command == "orphans":
+        from pmos_brain.maintenance.orphan_cleaner import OrphanCleaner
+        cleaner = OrphanCleaner(brain_path)
+        orphans = cleaner.analyze_orphans()
+        print(cleaner.generate_report(orphans))
+
+    elif args.maint_command == "snapshot":
+        from pmos_brain.maintenance.snapshot_manager import SnapshotManager
+        manager = SnapshotManager(brain_path)
+        action = getattr(args, 'action', 'list')
+        if action == "create":
+            path = manager.create_snapshot()
+            print(f"Created snapshot: {path}")
+        elif action == "list":
+            for s in manager.list_snapshots():
+                print(f"  {s['timestamp']} - {s['size_bytes']/1024:.1f}KB")
+        elif action == "cleanup":
+            removed = manager.cleanup_old_snapshots(dry_run=True)
+            print(f"Would remove {len(removed)} old snapshots")
+
+    elif args.maint_command == "hints":
+        from pmos_brain.maintenance.extraction_hints import ExtractionHintsGenerator
+        gen = ExtractionHintsGenerator(brain_path)
+        report = gen.generate_hints(
+            entity_type=getattr(args, 'type', None),
+            priority_filter=getattr(args, 'priority', None),
+        )
+        print(f"Entities with gaps: {report.entities_with_gaps}/{report.total_entities}")
+        print(f"High priority hints: {report.high_priority_hints}")
+        for hint in report.hints[:20]:
+            print(f"  [{hint.priority}] {hint.entity_id}: missing {hint.field}")
+
+    else:
+        print("Usage: pmos-brain maintenance {stale,orphans,snapshot,hints}", file=sys.stderr)
+        sys.exit(1)
+
+
+def _handle_relationships(args):
+    """Handle relationship subcommands."""
+    from pathlib import Path
+    brain_path = Path(getattr(args, 'brain', None) or './brain')
+
+    if args.rel_command == "audit":
+        from pmos_brain.relationships.auditor import RelationshipAuditor
+        auditor = RelationshipAuditor(brain_path)
+        result = auditor.audit()
+        print(f"Entities: {result.total_entities}, Relationships: {result.total_relationships}")
+        print(f"Issues: {result.total_issues}")
+        if result.orphan_targets:
+            print(f"  Orphan targets: {len(result.orphan_targets)}")
+        if result.missing_inverses:
+            print(f"  Missing inverses: {len(result.missing_inverses)}")
+        if result.duplicate_relationships:
+            print(f"  Duplicates: {len(result.duplicate_relationships)}")
+
+    elif args.rel_command == "normalize":
+        from pmos_brain.relationships.normalizer import RelationshipNormalizer
+        normalizer = RelationshipNormalizer(brain_path)
+        dry_run = not getattr(args, 'apply', False)
+        result = normalizer.normalize_all(dry_run=dry_run)
+        print(normalizer.get_normalization_report(result))
+
+    elif args.rel_command == "decay":
+        from pmos_brain.relationships.decay import RelationshipDecayMonitor
+        monitor = RelationshipDecayMonitor(brain_path)
+        report = monitor.scan_relationships(threshold_days=args.threshold)
+        print(f"Stale relationships: {report.stale_relationships}/{report.total_relationships}")
+        for stale in report.stale_list[:10]:
+            print(f"  {stale.entity_id} -> {stale.target}: {stale.days_stale}d stale")
+
+    else:
+        print("Usage: pmos-brain relationships {audit,normalize,decay}", file=sys.stderr)
         sys.exit(1)
 
 

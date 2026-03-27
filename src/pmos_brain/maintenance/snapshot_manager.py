@@ -1,18 +1,16 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Snapshot Manager
+Brain Snapshot Manager
 
 Creates and manages point-in-time snapshots of the Brain registry and entities.
 """
 
-import argparse
 import gzip
 import json
 import shutil
-import sys
-from datetime import datetime, timedelta, date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+
 import yaml
 
 
@@ -138,7 +136,7 @@ class SnapshotManager:
             # Find closest earlier snapshot
             available_dates = sorted(
                 [d.name for d in self.snapshots_dir.iterdir() if d.is_dir()],
-                reverse=True
+                reverse=True,
             )
             for d in available_dates:
                 if d <= date_str:
@@ -154,9 +152,7 @@ class SnapshotManager:
 
         return None
 
-    def get_registry_at(
-        self, point_in_time: datetime
-    ) -> Optional[Dict[str, Any]]:
+    def get_registry_at(self, point_in_time: datetime) -> Optional[Dict[str, Any]]:
         """
         Get registry state at a point in time.
 
@@ -215,13 +211,15 @@ class SnapshotManager:
                         f"{date_dir.name} {time_part}", "%Y-%m-%d %H%M%S"
                     )
 
-                    snapshots.append({
-                        "path": str(snapshot_file),
-                        "date": date_dir.name,
-                        "timestamp": snapshot_time.isoformat(),
-                        "size_bytes": snapshot_file.stat().st_size,
-                        "compressed": snapshot_file.suffix == ".gz",
-                    })
+                    snapshots.append(
+                        {
+                            "path": str(snapshot_file),
+                            "date": date_dir.name,
+                            "timestamp": snapshot_time.isoformat(),
+                            "size_bytes": snapshot_file.stat().st_size,
+                            "compressed": snapshot_file.suffix == ".gz",
+                        }
+                    )
                 except (ValueError, IndexError):
                     continue
 
@@ -284,7 +282,8 @@ class SnapshotManager:
 
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
         ]
@@ -330,112 +329,3 @@ class SnapshotManager:
             return yaml.safe_load(parts[1]) or {}
         except yaml.YAMLError:
             return {}
-
-
-def create_daily_snapshot(brain_path: Optional[Path] = None) -> Path:
-    """
-    Convenience function to create a daily snapshot.
-
-    Args:
-        brain_path: Path to brain directory
-
-    Returns:
-        Path to created snapshot
-    """
-    if brain_path is None:
-        sys.path.insert(0, str(Path(__file__).parent.parent))
-        from path_resolver import get_paths
-        paths = get_paths()
-        brain_path = paths.user / "brain"
-
-    manager = SnapshotManager(brain_path)
-    return manager.create_snapshot(include_entities=False, compress=True)
-
-
-def main():
-    """CLI entry point."""
-    parser = argparse.ArgumentParser(
-        description="Manage Brain snapshots"
-    )
-    parser.add_argument(
-        "action",
-        choices=["create", "list", "cleanup", "get"],
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--include-entities",
-        action="store_true",
-        help="Include full entity snapshots",
-    )
-    parser.add_argument(
-        "--date",
-        type=str,
-        help="Target date (YYYY-MM-DD)",
-    )
-    parser.add_argument(
-        "--retention-days",
-        type=int,
-        default=30,
-        help="Retention period in days",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Preview without making changes",
-    )
-
-    args = parser.parse_args()
-
-    # Default brain path
-    if not args.brain_path:
-        sys.path.insert(0, str(Path(__file__).parent.parent))
-        from path_resolver import get_paths
-        paths = get_paths()
-        args.brain_path = paths.user / "brain"
-
-    manager = SnapshotManager(args.brain_path)
-
-    if args.action == "create":
-        path = manager.create_snapshot(
-            include_entities=args.include_entities,
-            compress=True,
-        )
-        print(f"Created snapshot: {path}")
-
-    elif args.action == "list":
-        snapshots = manager.list_snapshots()
-        for s in snapshots:
-            size_kb = s["size_bytes"] / 1024
-            print(f"{s['timestamp']} - {size_kb:.1f} KB - {s['path']}")
-
-    elif args.action == "cleanup":
-        removed = manager.cleanup_old_snapshots(
-            retention_days=args.retention_days,
-            dry_run=args.dry_run,
-        )
-        if removed:
-            print(f"{'Would remove' if args.dry_run else 'Removed'} {len(removed)} snapshots")
-        else:
-            print("No snapshots to remove")
-
-    elif args.action == "get":
-        if args.date:
-            snapshot = manager.get_snapshot(date_str=args.date)
-        else:
-            snapshot = manager.get_snapshot()
-
-        if snapshot:
-            print(json.dumps(snapshot, indent=2)[:2000])
-        else:
-            print("No snapshot found")
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

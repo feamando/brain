@@ -1,27 +1,23 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Relationship Normalizer
+Brain Relationship Normalizer
 
 Normalizes all relationship targets to canonical $id format and deduplicates.
 """
 
-import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
+
 import yaml
 
-# Add tools directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-sys.path.insert(0, str(Path(__file__).parent))
-
-from canonical_resolver import CanonicalResolver
+from pmos_brain.resolver.canonical import CanonicalResolver
 
 
 @dataclass
 class NormalizationResult:
     """Result of normalizing a single entity."""
+
     entity_path: Path
     canonical_id: str
     original_count: int
@@ -36,13 +32,16 @@ class NormalizationResult:
 @dataclass
 class BatchNormalizationResult:
     """Result of batch normalization."""
+
     total_entities: int
     entities_processed: int
     entities_modified: int
     relationships_normalized: int
     duplicates_removed: int
     orphans_found: int
-    orphan_targets: List[Tuple[str, str]] = field(default_factory=list)  # (source, target)
+    orphan_targets: List[Tuple[str, str]] = field(
+        default_factory=list
+    )  # (source, target)
     errors: List[str] = field(default_factory=list)
 
 
@@ -129,12 +128,14 @@ class RelationshipNormalizer:
 
             if canonical_target:
                 if canonical_target != target:
-                    changes.append({
-                        "type": "normalize",
-                        "relationship_type": rel_type,
-                        "old_target": target,
-                        "new_target": canonical_target,
-                    })
+                    changes.append(
+                        {
+                            "type": "normalize",
+                            "relationship_type": rel_type,
+                            "old_target": target,
+                            "new_target": canonical_target,
+                        }
+                    )
 
                 new_rel = dict(rel)
                 new_rel["target"] = canonical_target
@@ -149,10 +150,12 @@ class RelationshipNormalizer:
         duplicates_removed = len(normalized_relationships) - len(deduplicated)
 
         if duplicates_removed > 0:
-            changes.append({
-                "type": "deduplicate",
-                "removed": duplicates_removed,
-            })
+            changes.append(
+                {
+                    "type": "deduplicate",
+                    "removed": duplicates_removed,
+                }
+            )
 
         result = NormalizationResult(
             entity_path=entity_path,
@@ -173,14 +176,20 @@ class RelationshipNormalizer:
             if "$events" not in frontmatter:
                 frontmatter["$events"] = []
 
-            frontmatter["$events"].append({
-                "timestamp": datetime.now(timezone.utc).isoformat(),
-                "type": "normalization",
-                "actor": "system/relationship_normalizer",
-                "changes": [
-                    {"field": "$relationships", "operation": "normalize", "count": len(changes)}
-                ],
-            })
+            frontmatter["$events"].append(
+                {
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "type": "normalization",
+                    "actor": "system/relationship_normalizer",
+                    "changes": [
+                        {
+                            "field": "$relationships",
+                            "operation": "normalize",
+                            "count": len(changes),
+                        }
+                    ],
+                }
+            )
 
             new_content = self._rebuild_content(frontmatter, body)
             entity_path.write_text(new_content, encoding="utf-8")
@@ -207,7 +216,8 @@ class RelationshipNormalizer:
 
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -231,19 +241,24 @@ class RelationshipNormalizer:
             if entity_result.success:
                 if entity_result.changes_made:
                     result.entities_modified += 1
-                    result.relationships_normalized += len([
-                        c for c in entity_result.changes_made
-                        if c.get("type") == "normalize"
-                    ])
+                    result.relationships_normalized += len(
+                        [
+                            c
+                            for c in entity_result.changes_made
+                            if c.get("type") == "normalize"
+                        ]
+                    )
                     result.duplicates_removed += entity_result.duplicates_removed
 
                 if entity_result.orphans_found:
                     result.orphans_found += len(entity_result.orphans_found)
                     for orphan in entity_result.orphans_found:
-                        result.orphan_targets.append((
-                            entity_result.canonical_id or str(entity_path),
-                            orphan,
-                        ))
+                        result.orphan_targets.append(
+                            (
+                                entity_result.canonical_id or str(entity_path),
+                                orphan,
+                            )
+                        )
             else:
                 result.errors.append(f"{entity_path}: {entity_result.error}")
 
@@ -294,12 +309,14 @@ class RelationshipNormalizer:
         ]
 
         if result.orphan_targets:
-            lines.extend([
-                "## Orphan Targets",
-                "",
-                "| Source Entity | Target Reference |",
-                "|--------------|------------------|",
-            ])
+            lines.extend(
+                [
+                    "## Orphan Targets",
+                    "",
+                    "| Source Entity | Target Reference |",
+                    "|--------------|------------------|",
+                ]
+            )
             for source, target in result.orphan_targets[:50]:  # Limit output
                 lines.append(f"| {source} | {target} |")
 
@@ -308,10 +325,12 @@ class RelationshipNormalizer:
             lines.append("")
 
         if result.errors:
-            lines.extend([
-                "## Errors",
-                "",
-            ])
+            lines.extend(
+                [
+                    "## Errors",
+                    "",
+                ]
+            )
             for error in result.errors[:20]:
                 lines.append(f"- {error}")
             if len(result.errors) > 20:
@@ -344,86 +363,3 @@ class RelationshipNormalizer:
             sort_keys=False,
         )
         return f"---\n{yaml_content}---{body}"
-
-
-def main():
-    """CLI entry point."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Normalize Brain entity relationships"
-    )
-    parser.add_argument(
-        "action",
-        choices=["normalize", "report"],
-        help="Action to perform",
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        default=True,
-        help="Preview without making changes (default)",
-    )
-    parser.add_argument(
-        "--apply",
-        action="store_true",
-        help="Apply changes (not dry run)",
-    )
-    parser.add_argument(
-        "--entity",
-        type=Path,
-        help="Normalize single entity",
-    )
-
-    args = parser.parse_args()
-
-    # Default brain path
-    if not args.brain_path:
-        from path_resolver import get_paths
-        paths = get_paths()
-        args.brain_path = paths.user / "brain"
-
-    normalizer = RelationshipNormalizer(args.brain_path)
-    dry_run = not args.apply
-
-    if args.action == "normalize":
-        if args.entity:
-            # Single entity
-            result = normalizer.normalize_entity(args.entity, dry_run)
-            print(f"Entity: {result.entity_path}")
-            print(f"Original relationships: {result.original_count}")
-            print(f"After normalization: {result.normalized_count}")
-            print(f"Duplicates removed: {result.duplicates_removed}")
-            print(f"Orphans found: {len(result.orphans_found)}")
-            if result.orphans_found:
-                for orphan in result.orphans_found:
-                    print(f"  - {orphan}")
-            print(f"Changes: {len(result.changes_made)}")
-            if dry_run:
-                print("\n(Dry run - no changes written)")
-        else:
-            # Batch normalization
-            def progress(processed, total):
-                if processed % 100 == 0:
-                    print(f"Progress: {processed}/{total}")
-
-            result = normalizer.normalize_all(dry_run, progress)
-            print("\n" + normalizer.get_normalization_report(result))
-            if dry_run:
-                print("(Dry run - no changes written. Use --apply to write changes)")
-
-    elif args.action == "report":
-        # Just generate report without changes
-        result = normalizer.normalize_all(dry_run=True)
-        print(normalizer.get_normalization_report(result))
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

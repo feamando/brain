@@ -8,7 +8,7 @@ Canonical format: entity/{type}/{slug}
 Examples:
   - entity/person/jane-smith
   - entity/project/my-project
-  - entity/team/new-ventures
+  - entity/team/platform-engineering
 """
 
 import json

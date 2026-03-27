@@ -245,6 +245,127 @@ class BaseEnricher(ABC):
         except Exception:
             return False
 
+    def has_existing_event(self, entity_frontmatter: dict, event_type: str, field: str = None) -> bool:
+        """Check if an event of this type already exists for this field."""
+        events = entity_frontmatter.get("$events", [])
+        for event in events:
+            if not isinstance(event, dict):
+                continue
+            if event.get("type") != event_type:
+                continue
+            if field:
+                changes = event.get("changes", [])
+                if any(c.get("field") == field for c in changes if isinstance(c, dict)):
+                    return True
+            else:
+                return True
+        return False
+
+    def has_existing_event_by_correlation(self, entity_frontmatter: dict, correlation_id: str) -> bool:
+        """Check if an event with this correlation ID already exists."""
+        events = entity_frontmatter.get("$events", [])
+        return any(
+            isinstance(e, dict) and e.get("correlation_id") == correlation_id
+            for e in events
+        )
+
+    def deduplicate_events(self, entity_frontmatter: dict) -> int:
+        """Remove duplicate events based on (type, field, timestamp). Returns count removed."""
+        events = entity_frontmatter.get("$events", [])
+        if not events:
+            return 0
+
+        seen = set()
+        deduped = []
+        removed = 0
+
+        for event in events:
+            if not isinstance(event, dict):
+                deduped.append(event)
+                continue
+
+            key_parts = [event.get("type", ""), event.get("timestamp", "")]
+            changes = event.get("changes", [])
+            if changes and isinstance(changes[0], dict):
+                key_parts.append(changes[0].get("field", ""))
+            key = tuple(key_parts)
+
+            if key in seen:
+                removed += 1
+            else:
+                seen.add(key)
+                deduped.append(event)
+
+        if removed > 0:
+            entity_frontmatter["$events"] = deduped
+        return removed
+
+    def calculate_confidence(self, entity_frontmatter: dict) -> float:
+        """Calculate entity confidence: completeness(40%) + source_reliability(40%) + freshness(20%)."""
+        # Completeness: ratio of non-empty fields
+        total_fields = 0
+        filled_fields = 0
+        for key, value in entity_frontmatter.items():
+            if key.startswith("$"):
+                continue
+            total_fields += 1
+            if value is not None and value != "" and value != []:
+                filled_fields += 1
+        completeness = filled_fields / max(total_fields, 1)
+
+        # Source reliability: average confidence of relationships
+        relationships = entity_frontmatter.get("$relationships", [])
+        if relationships:
+            confs = [r.get("confidence", 0.5) for r in relationships if isinstance(r, dict)]
+            reliability = sum(confs) / len(confs) if confs else 0.5
+        else:
+            reliability = 0.5
+
+        # Freshness: based on $updated field
+        freshness = 0.5
+        updated = entity_frontmatter.get("$updated")
+        if updated:
+            try:
+                from datetime import datetime, timezone
+                if isinstance(updated, str):
+                    updated_dt = datetime.fromisoformat(updated.replace("Z", "+00:00"))
+                    days_old = (datetime.now(timezone.utc) - updated_dt).days
+                    freshness = max(0.1, 1.0 - (days_old / 365))
+            except Exception:
+                pass
+
+        return round(completeness * 0.4 + reliability * 0.4 + freshness * 0.2, 3)
+
+    def extract_mentions(self, text: str, alias_index: dict = None) -> list:
+        """Find entity mentions in text using alias index.
+
+        Args:
+            text: Text to scan for mentions
+            alias_index: Dict mapping alias (lowercase) -> entity_id
+
+        Returns:
+            List of entity_id strings found in text
+        """
+        if not alias_index or not text:
+            return []
+
+        import re
+        text_lower = text.lower()
+        found = []
+        seen = set()
+
+        for alias, entity_id in alias_index.items():
+            if len(alias) < 3:
+                continue
+            if entity_id in seen:
+                continue
+            pattern = r"\b" + re.escape(alias) + r"\b"
+            if re.search(pattern, text_lower):
+                found.append(entity_id)
+                seen.add(entity_id)
+
+        return found
+
     def _get_entity_files(self) -> List[Path]:
         """Get all entity files in brain."""
         files = list(self.brain_path.rglob("*.md"))

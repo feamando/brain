@@ -1,25 +1,15 @@
-#!/usr/bin/env python3
 """
-PM-OS Brain Extraction Hints Generator
+Brain Extraction Hints Generator
 
-TKS-derived tool (bd-2361) for generating actionable hints about missing
-entity fields and which MCP sources can provide them.
-
-Usage:
-    python3 extraction_hints.py                    # Hints for all entities
-    python3 extraction_hints.py --type person      # Hints for person entities
-    python3 extraction_hints.py --entity ID        # Hints for specific entity
-    python3 extraction_hints.py --priority high    # Only high-priority gaps
+Generates actionable hints about missing entity fields and which MCP
+sources can provide them.
 """
 
-import argparse
-import json
-import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
-import yaml
 
+import yaml
 
 # Field-to-MCP-source mapping
 # Maps entity types to their fields and potential data sources
@@ -31,7 +21,11 @@ FIELD_SOURCES: Dict[str, Dict[str, List[str]]] = {
         "team": ["hr_system", "jira:project_membership", "confluence:team_pages"],
         "expertise": ["jira:assigned_issues", "github:prs", "confluence:authored_docs"],
         "role": ["hr_system", "gdocs:org_chart", "confluence:team_pages"],
-        "$relationships": ["jira:project_membership", "github:pr_reviewers", "slack:channel_members"],
+        "$relationships": [
+            "jira:project_membership",
+            "github:pr_reviewers",
+            "slack:channel_members",
+        ],
     },
     "team": {
         "owner": ["hr_system", "confluence:team_pages", "jira:project_lead"],
@@ -54,7 +48,11 @@ FIELD_SOURCES: Dict[str, Dict[str, List[str]]] = {
         "status": ["jira:project_status", "confluence:project_page"],
         "start_date": ["jira:project_created", "confluence:project_page"],
         "target_date": ["jira:versions", "confluence:roadmap"],
-        "description": ["confluence:project_page", "gdocs:prds", "jira:project_description"],
+        "description": [
+            "confluence:project_page",
+            "gdocs:prds",
+            "jira:project_description",
+        ],
         "$relationships": ["jira:linked_projects", "confluence:related_pages"],
     },
     "domain": {
@@ -66,18 +64,25 @@ FIELD_SOURCES: Dict[str, Dict[str, List[str]]] = {
     "experiment": {
         "owner": ["jira:issue_assignee", "confluence:experiment_docs"],
         "hypothesis": ["confluence:experiment_docs", "gdocs:experiment_plans"],
-        "status": ["jira:issue_status", "statsig:experiment_status"],
-        "start_date": ["jira:issue_created", "statsig:experiment_start"],
-        "end_date": ["statsig:experiment_end", "jira:resolution_date"],
-        "results": ["statsig:experiment_results", "confluence:experiment_results"],
+        "status": ["jira:issue_status", "experiment_platform:experiment_status"],
+        "start_date": ["jira:issue_created", "experiment_platform:experiment_start"],
+        "end_date": ["experiment_platform:experiment_end", "jira:resolution_date"],
+        "results": ["experiment_platform:experiment_results", "confluence:experiment_results"],
         "$relationships": ["jira:linked_issues", "confluence:related_experiments"],
     },
     "system": {
         "owner": ["github:repo_owner", "confluence:system_docs"],
         "description": ["github:repo_readme", "confluence:system_docs"],
         "tech_stack": ["github:repo_languages", "confluence:architecture_docs"],
-        "dependencies": ["github:package_json", "github:requirements_txt", "confluence:architecture_docs"],
-        "$relationships": ["github:repo_dependencies", "confluence:system_integrations"],
+        "dependencies": [
+            "github:package_json",
+            "github:requirements_txt",
+            "confluence:architecture_docs",
+        ],
+        "$relationships": [
+            "github:repo_dependencies",
+            "confluence:system_integrations",
+        ],
     },
     "brand": {
         "owner": ["confluence:brand_pages", "gdocs:brand_strategy"],
@@ -158,6 +163,7 @@ FIELD_PRIORITY: Dict[str, Dict[str, str]] = {
 @dataclass
 class ExtractionHint:
     """A hint for extracting missing data."""
+
     entity_id: str
     entity_type: str
     field: str
@@ -169,6 +175,7 @@ class ExtractionHint:
 @dataclass
 class ExtractionHintsReport:
     """Report of extraction hints for entities."""
+
     total_entities: int
     entities_with_gaps: int
     total_hints: int
@@ -216,7 +223,8 @@ class ExtractionHintsGenerator:
         # Scan entities
         entity_files = list(self.brain_path.rglob("*.md"))
         entity_files = [
-            f for f in entity_files
+            f
+            for f in entity_files
             if f.name.lower() not in ("readme.md", "index.md", "_index.md")
             and ".snapshots" not in str(f)
             and ".schema" not in str(f)
@@ -230,7 +238,9 @@ class ExtractionHintsGenerator:
                 if not frontmatter:
                     continue
 
-                eid = frontmatter.get("$id", str(entity_path.relative_to(self.brain_path)))
+                eid = frontmatter.get(
+                    "$id", str(entity_path.relative_to(self.brain_path))
+                )
                 etype = frontmatter.get("$type", "unknown")
 
                 # Apply filters
@@ -249,7 +259,9 @@ class ExtractionHintsGenerator:
                 for field_name, sources in field_sources.items():
                     # Check if field is missing or empty
                     value = frontmatter.get(field_name)
-                    is_missing = value is None or (isinstance(value, (list, dict, str)) and not value)
+                    is_missing = value is None or (
+                        isinstance(value, (list, dict, str)) and not value
+                    )
 
                     if is_missing:
                         priority = field_priorities.get(field_name, "medium")
@@ -270,11 +282,17 @@ class ExtractionHintsGenerator:
 
                         # Track by source
                         for source in sources:
-                            source_key = source.split(":")[0]  # e.g., "jira" from "jira:project_lead"
-                            hints_by_source[source_key] = hints_by_source.get(source_key, 0) + 1
+                            source_key = source.split(":")[
+                                0
+                            ]  # e.g., "jira" from "jira:project_lead"
+                            hints_by_source[source_key] = (
+                                hints_by_source.get(source_key, 0) + 1
+                            )
 
                         # Track by field
-                        hints_by_field[field_name] = hints_by_field.get(field_name, 0) + 1
+                        hints_by_field[field_name] = (
+                            hints_by_field.get(field_name, 0) + 1
+                        )
 
                 if entity_hints:
                     entities_with_gaps += 1
@@ -285,7 +303,9 @@ class ExtractionHintsGenerator:
 
         # Sort hints by priority
         priority_order = {"high": 0, "medium": 1, "low": 2}
-        hints.sort(key=lambda h: (priority_order.get(h.priority, 1), h.entity_type, h.field))
+        hints.sort(
+            key=lambda h: (priority_order.get(h.priority, 1), h.entity_type, h.field)
+        )
 
         high_priority = sum(1 for h in hints if h.priority == "high")
 
@@ -345,153 +365,3 @@ class ExtractionHintsGenerator:
             return frontmatter, parts[2]
         except yaml.YAMLError:
             return {}, content
-
-
-def main():
-    """CLI entry point."""
-    parser = argparse.ArgumentParser(
-        description="Generate extraction hints for missing Brain entity fields"
-    )
-    parser.add_argument(
-        "--brain-path",
-        type=Path,
-        help="Path to brain directory",
-    )
-    parser.add_argument(
-        "--type",
-        type=str,
-        help="Filter by entity type",
-    )
-    parser.add_argument(
-        "--entity",
-        type=str,
-        help="Filter by specific entity ID",
-    )
-    parser.add_argument(
-        "--priority",
-        choices=["high", "medium", "low"],
-        help="Filter by priority level",
-    )
-    parser.add_argument(
-        "--source",
-        type=str,
-        help="Filter hints by MCP source (jira, slack, github, etc.)",
-    )
-    parser.add_argument(
-        "--output",
-        choices=["text", "json"],
-        default="text",
-        help="Output format",
-    )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=50,
-        help="Max hints to display",
-    )
-
-    args = parser.parse_args()
-
-    # Resolve brain path
-    if not args.brain_path:
-        script_dir = Path(__file__).parent.parent
-        sys.path.insert(0, str(script_dir))
-        try:
-            from path_resolver import get_paths
-            paths = get_paths()
-            args.brain_path = paths.user / "brain"
-        except ImportError:
-            args.brain_path = Path.cwd() / "user" / "brain"
-
-    generator = ExtractionHintsGenerator(args.brain_path)
-
-    if args.source:
-        # Source-specific hints
-        hints = generator.get_hints_for_enricher(args.source, limit=args.limit)
-
-        if args.output == "json":
-            output = [
-                {
-                    "entity_id": h.entity_id,
-                    "entity_type": h.entity_type,
-                    "field": h.field,
-                    "priority": h.priority,
-                    "sources": h.sources,
-                }
-                for h in hints
-            ]
-            print(json.dumps(output, indent=2))
-        else:
-            print(f"Extraction Hints for '{args.source}' ({len(hints)} hints)")
-            print("=" * 60)
-            for hint in hints:
-                print(f"[{hint.priority:6}] {hint.entity_type:10} | {hint.entity_id}")
-                print(f"         Missing: {hint.field}")
-                print(f"         Sources: {', '.join(hint.sources)}")
-                print()
-        return 0
-
-    # General hints
-    report = generator.generate_hints(
-        entity_type=args.type,
-        priority_filter=args.priority,
-        entity_id=args.entity,
-    )
-
-    if args.output == "json":
-        output = {
-            "total_entities": report.total_entities,
-            "entities_with_gaps": report.entities_with_gaps,
-            "total_hints": report.total_hints,
-            "high_priority_hints": report.high_priority_hints,
-            "hints_by_source": report.hints_by_source,
-            "hints_by_field": report.hints_by_field,
-            "hints": [
-                {
-                    "entity_id": h.entity_id,
-                    "entity_type": h.entity_type,
-                    "field": h.field,
-                    "priority": h.priority,
-                    "sources": h.sources,
-                }
-                for h in report.hints[:args.limit]
-            ],
-        }
-        print(json.dumps(output, indent=2))
-        return 0
-
-    # Text output
-    print("Extraction Hints Report")
-    print("=" * 60)
-    print(f"Entities scanned: {report.total_entities}")
-    print(f"Entities with gaps: {report.entities_with_gaps}")
-    print(f"Total hints: {report.total_hints}")
-    print(f"High priority: {report.high_priority_hints}")
-    print()
-
-    if report.hints_by_source:
-        print("Hints by MCP source:")
-        for source, count in sorted(report.hints_by_source.items(), key=lambda x: -x[1]):
-            print(f"  {source}: {count}")
-        print()
-
-    if report.hints_by_field:
-        print("Most common missing fields:")
-        for field_name, count in sorted(report.hints_by_field.items(), key=lambda x: -x[1])[:10]:
-            print(f"  {field_name}: {count}")
-        print()
-
-    print(f"Top {min(args.limit, len(report.hints))} hints:")
-    print("-" * 60)
-    for hint in report.hints[:args.limit]:
-        priority_marker = "!" if hint.priority == "high" else " "
-        print(f"{priority_marker}[{hint.priority:6}] {hint.entity_type:10} | {hint.entity_id}")
-        print(f"          Field: {hint.field}")
-        print(f"          Try: {', '.join(hint.sources[:3])}")
-        print()
-
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

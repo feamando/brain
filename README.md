@@ -33,6 +33,45 @@
 
 A structured knowledge management system that stores entities (people, projects, teams) as markdown files with YAML frontmatter, connected through typed relationships. Includes event sourcing, a compressed entity index generator, vector search, MCP server, and graph analytics. Part of the [PM-OS](https://github.com/feamando/pm-os) ecosystem.
 
+## What's New in v3.3.0
+
+- **Parallel Enrichment** -- ThreadPoolExecutor-based parallel entity scanning with deterministic output ordering (`PMOS_ENRICH_PARALLEL=1`)
+- **Incremental Processing** -- Content hash tracking skips unchanged entity types between runs (`PMOS_ENRICH_INCREMENTAL=1`)
+- **Snapshot & Rollback** -- Git-based pre-enrichment snapshots with one-command rollback
+- **Relationship Auditor** -- Detect orphan targets, missing inverse relationships, duplicates, and invalid types
+- **Relationship Normalizer** -- Canonicalize relationship targets and deduplicate
+- **Relationship Decay** -- Temporal decay monitoring with configurable staleness thresholds per relationship type
+- **Body Relationship Extractor** -- Extract entity mentions from markdown body text and infer relationship types (44 inference rules)
+- **Stale Entity Detector** -- Type-aware staleness detection (person: 90d, project: 30d, system: 90d)
+- **Orphan Cleaner** -- Categorized orphan cleanup (auto-remove, inbox artifacts, likely typos, manual review)
+- **Snapshot Manager** -- Point-in-time gzip snapshots for entity state tracking
+- **Extraction Hints** -- Gap analysis identifying missing entity fields with source recommendations
+- **Checkpoint Resumability** -- Enrichment pipeline saves progress, resumes from last checkpoint on restart
+- **Enrichment Timeout** -- `pmos-brain enrich --timeout 120` prevents runaway enrichment
+- **Comprehensive Metrics** -- Cache load time, parallel wall-clock, incremental skip counts, ANN usage tracking
+
+```bash
+# Parallel enrichment
+PMOS_ENRICH_PARALLEL=1 pmos-brain enrich --mode full
+
+# Incremental (only process changed entities)
+PMOS_ENRICH_INCREMENTAL=1 pmos-brain enrich --mode full
+
+# Rollback last enrichment
+pmos-brain enrich --rollback
+
+# Relationship audit
+pmos-brain relationships audit
+pmos-brain relationships normalize --dry-run
+pmos-brain relationships decay --threshold 30
+
+# Maintenance
+pmos-brain maintenance stale --type person
+pmos-brain maintenance orphans --dry-run
+pmos-brain maintenance hints --priority high
+pmos-brain maintenance snapshot list
+```
+
 ## What's New in v3.2.0
 
 - **Entity Cache** — Shared in-memory cache (`EntityCache`) with single filesystem scan, O(1) access by ID/type, and SHA-256 content hashing for incremental change detection
@@ -43,7 +82,7 @@ A structured knowledge management system that stores entities (people, projects,
 
 ```bash
 # Install with vector search (includes ANN support)
-pip install pmos-brain[vector]==3.2.0
+pip install pmos-brain[vector]==3.3.0
 
 # Enrichment with new flags
 pmos-brain enrich --mode full --dry-run --verbose
@@ -455,6 +494,84 @@ class MySlackEnricher:
 orchestrator = BrainEnrichmentOrchestrator(brain_path=Path("./my-brain"))
 orchestrator.register_enricher(MySlackEnricher())
 result = orchestrator.run(mode="full")
+```
+
+## Relationship Maintenance
+
+Tools for keeping your knowledge graph relationships clean and accurate.
+
+### Auditor
+
+```python
+from pmos_brain import RelationshipAuditor
+from pathlib import Path
+
+auditor = RelationshipAuditor(brain_path=Path("./my-brain"))
+result = auditor.audit()
+
+print(f"Orphan targets: {len(result.orphan_targets)}")
+print(f"Missing inverses: {len(result.missing_inverses)}")
+print(f"Duplicates: {len(result.duplicate_relationships)}")
+
+# Auto-fix missing inverses
+fixes = auditor.fix_issues(result, fix_inverses=True, dry_run=False)
+```
+
+### Decay Monitor
+
+```python
+from pmos_brain import RelationshipDecayMonitor
+from pathlib import Path
+
+monitor = RelationshipDecayMonitor(brain_path=Path("./my-brain"))
+report = monitor.scan_relationships()
+
+for stale in report.stale_list[:10]:
+    print(f"{stale.entity_id} -> {stale.target}: {stale.days_stale}d stale")
+```
+
+### Body Extractor
+
+```python
+from pmos_brain import BodyRelationshipExtractor
+from pathlib import Path
+
+extractor = BodyRelationshipExtractor(brain_path=Path("./my-brain"))
+report = extractor.scan()
+
+for rel in report.relationships[:10]:
+    print(f"{rel.source_id} --[{rel.relationship_type}]--> {rel.target_id}")
+
+# Apply extracted relationships
+extractor.apply(report.relationships, dry_run=False)
+```
+
+## Entity Maintenance
+
+### Stale Entity Detection
+
+```python
+from pmos_brain import StaleEntityDetector
+from pathlib import Path
+
+detector = StaleEntityDetector(brain_path=Path("./my-brain"))
+stale = detector.detect_stale()
+
+for entity in stale[:10]:
+    print(f"{entity.entity_id}: {entity.recommended_action} ({entity.days_stale}d stale)")
+```
+
+### Extraction Hints
+
+```python
+from pmos_brain import ExtractionHintsGenerator
+from pathlib import Path
+
+hints = ExtractionHintsGenerator(brain_path=Path("./my-brain"))
+report = hints.generate_hints(priority_filter="high")
+
+for hint in report.hints[:10]:
+    print(f"{hint.entity_id}: missing '{hint.field}' -- try {', '.join(hint.sources[:2])}")
 ```
 
 ## PM Frameworks
