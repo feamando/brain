@@ -64,10 +64,10 @@ FIELD_SOURCES: Dict[str, Dict[str, List[str]]] = {
     "experiment": {
         "owner": ["jira:issue_assignee", "confluence:experiment_docs"],
         "hypothesis": ["confluence:experiment_docs", "gdocs:experiment_plans"],
-        "status": ["jira:issue_status", "statsig:experiment_status"],
-        "start_date": ["jira:issue_created", "statsig:experiment_start"],
-        "end_date": ["statsig:experiment_end", "jira:resolution_date"],
-        "results": ["statsig:experiment_results", "confluence:experiment_results"],
+        "status": ["jira:issue_status", "experiment_platform:experiment_status"],
+        "start_date": ["jira:issue_created", "experiment_platform:experiment_start"],
+        "end_date": ["experiment_platform:experiment_end", "jira:resolution_date"],
+        "results": ["experiment_platform:experiment_results", "confluence:experiment_results"],
         "$relationships": ["jira:linked_issues", "confluence:related_experiments"],
     },
     "system": {

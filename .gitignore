@@ -64,3 +64,6 @@ registry.yaml
 *.json
 !schemas/*.json
 !.schema/*.json
+
+# Internal tools
+tools/
