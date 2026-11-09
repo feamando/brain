@@ -34,7 +34,7 @@ Quick Start:
 For more information, see: https://github.com/feamando/brain
 """
 
-__version__ = "3.3.0"
+__version__ = "3.4.0"
 __author__ = "PM-OS Team"
 
 # Core
@@ -82,7 +82,7 @@ from pmos_brain.storage.event_store import EventStore, Event
 from pmos_brain.storage.event_helpers import EventHelper, EventType
 from pmos_brain.storage.event_query import EventQuery
 
-# Vector (optional — requires chromadb + sentence-transformers)
+# Vector (optional — requires numpy + sentence-transformers)
 try:
     from pmos_brain.vector import BrainVectorIndex, VECTOR_AVAILABLE
 except ImportError:

@@ -45,12 +45,8 @@ try:
 except ImportError:
     EMBEDDINGS_AVAILABLE = False
 
-# Optional: ChromaDB for ANN (Approximate Nearest Neighbor)
-try:
-    import chromadb
-    _ANN_AVAILABLE = True
-except ImportError:
-    _ANN_AVAILABLE = False
+# k-NN scan needs only numpy (ChromaDB removed 2026-11-09, CVE-2026-45829)
+_ANN_AVAILABLE = EMBEDDINGS_AVAILABLE
 
 
 @dataclass
@@ -134,7 +130,8 @@ class EmbeddingEdgeInferrer:
         """
         Scan entities and find potential similar_to edges.
 
-        Uses ANN (ChromaDB) when available and PMOS_ENRICH_ANN != "0",
+        Uses a numpy k-NN scan when embeddings are available and
+        PMOS_ENRICH_ANN != "0",
         otherwise falls back to brute-force O(n^2) comparison.
 
         Args:
@@ -209,89 +206,76 @@ class EmbeddingEdgeInferrer:
         embeddings: Any,
         limit: int,
     ) -> Tuple[List[InferredEdge], Dict[str, int], float]:
-        """ANN scan using ChromaDB ephemeral collection."""
-        inferred_edges: List[InferredEdge] = []
-        edges_by_type_pair: Dict[str, int] = {}
-        similarity_sum = 0.0
+        """k-NN scan: each entity's 20 nearest neighbours by exact cosine.
+
+        Embeddings are normalized, so a chunked matrix product gives cosine
+        similarity. Collects ALL candidate edges from the k-NN lists, then
+        returns the top-N by similarity to avoid positional bias.
+        """
+        all_edges: List[InferredEdge] = []
         seen_pairs: set = set()
 
-        # Create ephemeral ChromaDB collection
-        client = chromadb.Client()
-        collection = client.create_collection(
-            name="edge_scan",
-            metadata={"hnsw:space": "cosine"},
-        )
+        emb = np.asarray(embeddings, dtype=np.float32)
+        n = len(entity_ids)
+        k = min(20, n - 1)
+        chunk = 1024
 
-        # Add all embeddings
-        collection.add(
-            ids=entity_ids,
-            embeddings=[e.tolist() for e in embeddings],
-        )
+        for start in range(0, n, chunk):
+            sims = emb[start : start + chunk] @ emb.T
+            rows = np.arange(sims.shape[0])
+            sims[rows, rows + start] = -np.inf  # drop self-match
+            nbrs = np.argpartition(-sims, k - 1, axis=1)[:, :k]
 
-        # Query each entity for nearest neighbors
-        k = min(20, len(entity_ids) - 1)
-        results = collection.query(
-            query_embeddings=[e.tolist() for e in embeddings],
-            n_results=k + 1,  # +1 because self-match
-        )
+            for r in range(sims.shape[0]):
+                i = start + r
+                eid_i = entity_ids[i]
+                order = nbrs[r][np.argsort(-sims[r, nbrs[r]], kind="stable")]
 
-        for i, eid_i in enumerate(entity_ids):
-            if len(inferred_edges) >= limit:
-                break
+                for j in order:
+                    sim = float(sims[r, j])
+                    if sim < self.threshold:
+                        continue
+                    eid_j = entity_ids[j]
 
-            neighbors = results["ids"][i]
-            distances = results["distances"][i]
+                    # Dedup: only count each pair once
+                    pair_key = tuple(sorted([eid_i, eid_j]))
+                    if pair_key in seen_pairs:
+                        continue
+                    seen_pairs.add(pair_key)
 
-            for j, (eid_j, dist) in enumerate(zip(neighbors, distances)):
-                if eid_j == eid_i:
-                    continue
+                    # Skip if already related
+                    if eid_i in entities and self._already_related(entities[eid_i], eid_j):
+                        continue
+                    if eid_j in entities and self._already_related(entities[eid_j], eid_i):
+                        continue
 
-                # Cosine distance -> cosine similarity
-                sim = 1.0 - dist
+                    type_i = entities.get(eid_i, {}).get("$type", "unknown")
+                    type_j = entities.get(eid_j, {}).get("$type", "unknown")
 
-                if sim < self.threshold:
-                    continue
+                    all_edges.append(InferredEdge(
+                        source_id=eid_i,
+                        target_id=eid_j,
+                        similarity=round(sim, 4),
+                        source_type=type_i,
+                        target_type=type_j,
+                    ))
 
-                # Dedup: only count each pair once
-                pair_key = tuple(sorted([eid_i, eid_j]))
-                if pair_key in seen_pairs:
-                    continue
-                seen_pairs.add(pair_key)
+        # Sort by similarity descending, take top-N
+        all_edges.sort(key=lambda e: -e.similarity)
+        inferred_edges = all_edges[:limit]
 
-                # Skip if already related
-                if eid_i in entities and self._already_related(entities[eid_i], eid_j):
-                    continue
-                if eid_j in entities and self._already_related(entities[eid_j], eid_i):
-                    continue
-
-                type_i = entities.get(eid_i, {}).get("$type", "unknown")
-                type_j = entities.get(eid_j, {}).get("$type", "unknown")
-
-                edge = InferredEdge(
-                    source_id=eid_i,
-                    target_id=eid_j,
-                    similarity=round(sim, 4),
-                    source_type=type_i,
-                    target_type=type_j,
-                )
-                inferred_edges.append(edge)
-                similarity_sum += sim
-
-                type_pair = f"{type_i}-{type_j}"
-                edges_by_type_pair[type_pair] = (
-                    edges_by_type_pair.get(type_pair, 0) + 1
-                )
-
-                if len(inferred_edges) >= limit:
-                    break
-
-        # Cleanup ephemeral collection
-        try:
-            client.delete_collection("edge_scan")
-        except Exception:
-            pass
+        # Build summary stats from the returned edges
+        edges_by_type_pair: Dict[str, int] = {}
+        similarity_sum = 0.0
+        for edge in inferred_edges:
+            similarity_sum += edge.similarity
+            type_pair = f"{edge.source_type}-{edge.target_type}"
+            edges_by_type_pair[type_pair] = (
+                edges_by_type_pair.get(type_pair, 0) + 1
+            )
 
         return inferred_edges, edges_by_type_pair, similarity_sum
+
 
     def _bruteforce_scan(
         self,

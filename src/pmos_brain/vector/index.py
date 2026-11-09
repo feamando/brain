@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-Brain Vector Index -- ChromaDB-based semantic search for Brain entities.
+Brain Vector Index -- numpy-based semantic search for Brain entities.
 
 Provides embedding-powered fuzzy search across Brain entities using
-sentence-transformers for encoding and ChromaDB for vector storage.
+sentence-transformers for encoding and a flat numpy matrix for storage.
+Exact cosine search; at Brain scale (thousands of entities, 384 dims) a
+brute-force matrix product is a few milliseconds, so no ANN index or vector
+database is needed. ChromaDB was removed 2026-11-09 (CVE-2026-45829).
 
 Usage:
     python3 index.py build              # Build/rebuild full index
@@ -13,7 +16,10 @@ Usage:
 
 import argparse
 import json
+import os
+import shutil
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -21,12 +27,11 @@ import yaml
 
 # Optional dependencies -- graceful degradation if not installed
 try:
-    import chromadb
-    from chromadb.config import Settings
+    import numpy as np
 
-    HAS_CHROMADB = True
+    HAS_NUMPY = True
 except ImportError:
-    HAS_CHROMADB = False
+    HAS_NUMPY = False
 
 try:
     from sentence_transformers import SentenceTransformer
@@ -36,21 +41,26 @@ except ImportError:
     HAS_SENTENCE_TRANSFORMERS = False
 
 
-VECTOR_AVAILABLE = HAS_CHROMADB and HAS_SENTENCE_TRANSFORMERS
+VECTOR_AVAILABLE = HAS_NUMPY and HAS_SENTENCE_TRANSFORMERS
 
 
 class BrainVectorIndex:
     """
-    ChromaDB-backed vector index for semantic search across Brain entities.
+    Numpy-backed vector index for semantic search across Brain entities.
 
-    Embeds entity content (name + body text) using sentence-transformers
-    and stores in a persistent ChromaDB collection for fast similarity search.
+    Embeds entity content (name + body text) using sentence-transformers.
+    Normalized embeddings live in <brain>/.vector_index/embeddings.npy, with
+    ids, documents and metadata in meta.json. Both files are written to a temp
+    file and renamed, so readers never see a half-written index.
     """
 
     DEFAULT_MODEL = "all-MiniLM-L6-v2"
-    COLLECTION_NAME = "brain_entities"
     INDEX_DIR_NAME = ".vector_index"
-    SCHEMA_VERSION = "4.0"
+    EMBEDDINGS_FILE = "embeddings.npy"
+    META_FILE = "meta.json"
+    # 6.0 = numpy storage. A meta.json with any other version is ignored and
+    # the index rebuilds on first query.
+    SCHEMA_VERSION = "6.0"
 
     # Directories to exclude from indexing
     EXCLUDE_DIRS = {"Inbox", "Archive", "__pycache__", ".snapshots", ".schema"}
@@ -70,8 +80,8 @@ class BrainVectorIndex:
         """
         if not VECTOR_AVAILABLE:
             missing = []
-            if not HAS_CHROMADB:
-                missing.append("chromadb")
+            if not HAS_NUMPY:
+                missing.append("numpy")
             if not HAS_SENTENCE_TRANSFORMERS:
                 missing.append("sentence-transformers")
             raise ImportError(
@@ -82,8 +92,11 @@ class BrainVectorIndex:
         self.brain_path = Path(brain_path)
         self.model_name = model_name
         self._model = None
-        self._client = None
-        self._collection = None
+        self._ids: List[str] = []
+        self._documents: List[str] = []
+        self._metadatas: List[Dict[str, Any]] = []
+        self._embeddings = None
+        self._loaded_mtime: Optional[float] = None
 
         # Index location
         self.index_path = self.brain_path / self.INDEX_DIR_NAME
@@ -99,41 +112,99 @@ class BrainVectorIndex:
                 self._model = SentenceTransformer(self.model_name)
         return self._model
 
-    @property
-    def client(self) -> "chromadb.ClientAPI":
-        """Lazy-load the ChromaDB client with persistent storage."""
-        if self._client is None:
-            self.index_path.mkdir(parents=True, exist_ok=True)
-            self._client = chromadb.PersistentClient(
-                path=str(self.index_path),
-                settings=Settings(anonymized_telemetry=False),
-            )
-        return self._client
+    # -----------------------------------------------------------------------
+    # Storage
+    # -----------------------------------------------------------------------
 
     @property
-    def collection(self) -> "chromadb.Collection":
-        """Get or create the brain entities collection, auto-migrating old indexes."""
-        if self._collection is None:
-            coll = self.client.get_or_create_collection(
-                name=self.COLLECTION_NAME,
-                metadata={"hnsw:space": "cosine", "schema_version": self.SCHEMA_VERSION},
-            )
-            # Auto-migrate: if existing collection lacks v4 schema marker, rebuild
-            if coll.count() > 0 and coll.metadata.get("schema_version") != self.SCHEMA_VERSION:
+    def _meta_path(self) -> Path:
+        return self.index_path / self.META_FILE
+
+    @property
+    def _embeddings_path(self) -> Path:
+        return self.index_path / self.EMBEDDINGS_FILE
+
+    def _ensure_loaded(self) -> None:
+        """Load the index from disk, reloading if another process rewrote it."""
+        try:
+            mtime = self._meta_path.stat().st_mtime
+        except FileNotFoundError:
+            self._reset_memory()
+            self._loaded_mtime = None
+            return
+        if mtime == self._loaded_mtime:
+            return
+        try:
+            meta = json.loads(self._meta_path.read_text(encoding="utf-8"))
+            if meta.get("schema_version") != self.SCHEMA_VERSION:
                 print(
-                    f"Vector index schema outdated (upgrading to v{self.SCHEMA_VERSION}), rebuilding...",
+                    f"Vector index schema outdated (upgrading to v{self.SCHEMA_VERSION}), will rebuild",
                     file=sys.stderr,
                 )
-                try:
-                    self.client.delete_collection(self.COLLECTION_NAME)
-                except Exception:
-                    pass
-                coll = self.client.get_or_create_collection(
-                    name=self.COLLECTION_NAME,
-                    metadata={"hnsw:space": "cosine", "schema_version": self.SCHEMA_VERSION},
-                )
-            self._collection = coll
-        return self._collection
+                self._reset_memory()
+            else:
+                embeddings = np.load(self._embeddings_path)
+                if len(embeddings) != len(meta["ids"]):
+                    raise ValueError("embeddings and meta.json row counts differ")
+                self._ids = list(meta["ids"])
+                self._documents = list(meta["documents"])
+                self._metadatas = list(meta["metadatas"])
+                self._embeddings = embeddings
+        except Exception as e:
+            print(f"Vector index unreadable ({e}), will rebuild", file=sys.stderr)
+            self._reset_memory()
+        self._loaded_mtime = mtime
+
+    def _reset_memory(self) -> None:
+        self._ids, self._documents, self._metadatas = [], [], []
+        self._embeddings = None
+
+    def _save(self) -> None:
+        """Write embeddings then meta.json atomically. meta.json is the commit marker."""
+        self.index_path.mkdir(parents=True, exist_ok=True)
+        embeddings = (
+            self._embeddings
+            if self._embeddings is not None
+            else np.zeros((0, 0), dtype=np.float32)
+        )
+        fd, tmp = tempfile.mkstemp(dir=self.index_path, suffix=".npy.tmp")
+        with os.fdopen(fd, "wb") as f:
+            np.save(f, embeddings)
+        os.replace(tmp, self._embeddings_path)
+
+        meta = {
+            "schema_version": self.SCHEMA_VERSION,
+            "model": self.model_name,
+            "ids": self._ids,
+            "documents": self._documents,
+            "metadatas": self._metadatas,
+        }
+        fd, tmp = tempfile.mkstemp(dir=self.index_path, suffix=".json.tmp")
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(meta, f)
+        os.replace(tmp, self._meta_path)
+        self._loaded_mtime = self._meta_path.stat().st_mtime
+
+    def _remove_legacy_chroma(self) -> None:
+        """Delete files left by the pre-6.0 ChromaDB index (chroma.sqlite3 + segment dirs)."""
+        if not self.index_path.exists():
+            return
+        legacy = self.index_path / "chroma.sqlite3"
+        if legacy.exists():
+            legacy.unlink()
+        for child in self.index_path.iterdir():
+            if child.is_dir() and (child / "header.bin").exists():
+                shutil.rmtree(child, ignore_errors=True)
+
+    def count(self) -> int:
+        """Number of entities in the index."""
+        self._ensure_loaded()
+        return len(self._ids)
+
+    def _encode(self, texts: List[str]) -> "np.ndarray":
+        return np.asarray(
+            self.model.encode(texts, normalize_embeddings=True), dtype=np.float32
+        )
 
     def build_index(self) -> Dict[str, Any]:
         """
@@ -141,7 +212,7 @@ class BrainVectorIndex:
 
         Scans all markdown files in the brain directory, extracts
         frontmatter metadata and body text, generates embeddings,
-        and stores in ChromaDB.
+        and writes them to disk.
 
         Returns:
             Dict with build statistics: entities_indexed, errors, duration
@@ -150,13 +221,6 @@ class BrainVectorIndex:
 
         if not entities:
             return {"entities_indexed": 0, "errors": 0, "message": "No entities found"}
-
-        # Clear existing collection and recreate
-        try:
-            self.client.delete_collection(self.COLLECTION_NAME)
-        except Exception:
-            pass
-        self._collection = None  # Force recreation
 
         # Prepare data for batch insert
         ids = []
@@ -172,32 +236,32 @@ class BrainVectorIndex:
             documents.append(doc_text)
             metadatas.append(self._sanitize_metadata(entity_id, entity_data))
 
-        # Batch embed and insert (ChromaDB handles embedding internally
-        # but we use our own model for consistency with edge inferrer)
+        # Batch embed; a failed batch is skipped, not fatal
         errors = 0
         batch_size = 100
+        kept_ids: List[str] = []
+        kept_docs: List[str] = []
+        kept_meta: List[Dict[str, Any]] = []
+        chunks = []
         for i in range(0, len(ids), batch_size):
-            batch_ids = ids[i : i + batch_size]
             batch_docs = documents[i : i + batch_size]
-            batch_meta = metadatas[i : i + batch_size]
-
             try:
-                embeddings = self.model.encode(
-                    batch_docs, normalize_embeddings=True
-                ).tolist()
-
-                self.collection.add(
-                    ids=batch_ids,
-                    documents=batch_docs,
-                    embeddings=embeddings,
-                    metadatas=batch_meta,
-                )
+                chunks.append(self._encode(batch_docs))
             except Exception as e:
                 errors += 1
                 print(f"Error indexing batch {i // batch_size}: {e}", file=sys.stderr)
+                continue
+            kept_ids.extend(ids[i : i + batch_size])
+            kept_docs.extend(batch_docs)
+            kept_meta.extend(metadatas[i : i + batch_size])
+
+        self._ids, self._documents, self._metadatas = kept_ids, kept_docs, kept_meta
+        self._embeddings = np.vstack(chunks) if chunks else None
+        self._save()
+        self._remove_legacy_chroma()
 
         return {
-            "entities_indexed": self.collection.count(),
+            "entities_indexed": len(self._ids),
             "total_scanned": len(entities),
             "errors": errors,
         }
@@ -222,55 +286,59 @@ class BrainVectorIndex:
             List of result dicts with keys:
                 entity_id, entity_path, score, snippet, metadata
         """
-        if self.collection.count() == 0:
+        if self.count() == 0:
             # Auto-rebuild if index is empty
             print("Vector index empty, rebuilding...", file=sys.stderr)
             self.build_index()
-            if self.collection.count() == 0:
+            if self.count() == 0:
                 return []
 
-        # Build where filter
-        where_filter = None
+        # Rows eligible for this query (type filter applies before top-k)
         if entity_type:
-            where_filter = {"entity_type": entity_type}
+            candidates = np.array(
+                [
+                    i
+                    for i, m in enumerate(self._metadatas)
+                    if m.get("entity_type") == entity_type
+                ],
+                dtype=np.int64,
+            )
+        else:
+            candidates = np.arange(len(self._ids))
+        if candidates.size == 0:
+            return []
 
-        # Encode query
-        query_embedding = self.model.encode(
-            [text], normalize_embeddings=True
-        ).tolist()
+        # Embeddings are normalized, so the dot product is cosine similarity
+        query_embedding = self._encode([text])[0]
+        sims = self._embeddings[candidates] @ query_embedding
+        k = min(top_k, candidates.size)
+        top = np.argpartition(-sims, k - 1)[:k]
+        top = top[np.argsort(-sims[top], kind="stable")]
 
-        # Query ChromaDB
-        results = self.collection.query(
-            query_embeddings=query_embedding,
-            n_results=min(top_k, self.collection.count()),
-            where=where_filter,
-            include=["documents", "metadatas", "distances"],
-        )
-
-        # Convert to output format
         output = []
-        if results and results["ids"] and results["ids"][0]:
-            for i, entity_id in enumerate(results["ids"][0]):
-                distance = results["distances"][0][i] if results["distances"] else 0.0
-                # ChromaDB cosine distance: 0 = identical, 2 = opposite
-                # Convert to similarity score: 1 - (distance / 2)
-                score = 1.0 - (distance / 2.0)
+        for t in top:
+            row = int(candidates[t])
+            metadata = self._metadatas[row]
+            document = self._documents[row]
 
-                metadata = results["metadatas"][0][i] if results["metadatas"] else {}
-                document = results["documents"][0][i] if results["documents"] else ""
+            # Apply post-query confidence filter
+            if min_confidence is not None:
+                if metadata.get("confidence", 0.0) < min_confidence:
+                    continue
 
-                # Apply post-query confidence filter
-                if min_confidence is not None:
-                    if metadata.get("confidence", 0.0) < min_confidence:
-                        continue
+            # Same scale as the pre-6.0 ChromaDB index: cosine distance d = 1 - cos,
+            # score = 1 - d/2, so 1 = identical and 0 = opposite.
+            score = 1.0 - (1.0 - float(sims[t])) / 2.0
 
-                output.append({
-                    "entity_id": entity_id,
+            output.append(
+                {
+                    "entity_id": self._ids[row],
                     "entity_path": metadata.get("file_path", ""),
                     "score": round(score, 4),
                     "snippet": document[:200] if document else "",
                     "metadata": metadata,
-                })
+                }
+            )
 
         return output
 
@@ -297,19 +365,27 @@ class BrainVectorIndex:
             if not doc_text.strip():
                 return False
 
-            embedding = self.model.encode(
-                [doc_text], normalize_embeddings=True
-            ).tolist()
+            embedding = self._encode([doc_text])
 
             metadata = self._sanitize_metadata(entity_id, entity_data)
             metadata["file_path"] = str(entity_path)
 
-            self.collection.upsert(
-                ids=[entity_id],
-                documents=[doc_text],
-                embeddings=embedding,
-                metadatas=[metadata],
-            )
+            self._ensure_loaded()
+            if entity_id in self._ids:
+                row = self._ids.index(entity_id)
+                self._documents[row] = doc_text
+                self._metadatas[row] = metadata
+                self._embeddings[row] = embedding[0]
+            else:
+                self._ids.append(entity_id)
+                self._documents.append(doc_text)
+                self._metadatas.append(metadata)
+                self._embeddings = (
+                    embedding
+                    if self._embeddings is None
+                    else np.vstack([self._embeddings, embedding])
+                )
+            self._save()
             return True
 
         except Exception as e:
@@ -327,7 +403,12 @@ class BrainVectorIndex:
             True if successfully removed
         """
         try:
-            self.collection.delete(ids=[entity_id])
+            self._ensure_loaded()
+            if entity_id in self._ids:
+                row = self._ids.index(entity_id)
+                del self._ids[row], self._documents[row], self._metadatas[row]
+                self._embeddings = np.delete(self._embeddings, row, axis=0)
+                self._save()
             return True
         except Exception as e:
             print(f"Error removing entity {entity_id}: {e}", file=sys.stderr)
@@ -350,7 +431,7 @@ class BrainVectorIndex:
             Dict with entity_count and index_path
         """
         return {
-            "entity_count": self.collection.count(),
+            "entity_count": self.count(),
             "index_path": str(self.index_path),
         }
 
@@ -361,7 +442,7 @@ class BrainVectorIndex:
     def _sanitize_metadata(
         self, entity_id: str, entity_data: Dict[str, Any]
     ) -> Dict[str, Any]:
-        """Sanitize metadata for ChromaDB (only str, int, float, bool allowed; no $ in keys)."""
+        """Flatten entity metadata to JSON scalars (str, float); no $ in keys."""
         raw_conf = entity_data.get("$confidence")
         try:
             confidence = float(raw_conf) if raw_conf is not None else 0.0
@@ -460,7 +541,7 @@ class BrainVectorIndex:
 def main():
     """CLI entry point."""
     parser = argparse.ArgumentParser(
-        description="Brain Vector Index (ChromaDB)"
+        description="Brain Vector Index (numpy)"
     )
     parser.add_argument(
         "action",
@@ -505,8 +586,8 @@ def main():
 
     if not VECTOR_AVAILABLE:
         missing = []
-        if not HAS_CHROMADB:
-            missing.append("chromadb")
+        if not HAS_NUMPY:
+            missing.append("numpy")
         if not HAS_SENTENCE_TRANSFORMERS:
             missing.append("sentence-transformers")
         print(
