@@ -67,7 +67,6 @@ litellm>=1.0
 sentence-transformers>=2.0
 
 # Vector stores
-# chromadb>=0.4          # Local vector DB
 # pinecone-client>=3.0   # Cloud vector DB
 # qdrant-client>=1.0     # Cloud/local vector DB
 

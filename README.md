@@ -76,7 +76,7 @@ pmos-brain maintenance snapshot list
 
 - **Entity Cache** — Shared in-memory cache (`EntityCache`) with single filesystem scan, O(1) access by ID/type, and SHA-256 content hashing for incremental change detection
 - **Atomic Writes** — `atomic_write()` and `atomic_write_json()` utilities using temp + fsync + rename for crash-safe entity updates
-- **ANN Edge Inference** — ChromaDB-backed approximate nearest neighbor search for O(k·log(n)) edge inference on large entity types, with automatic brute-force fallback
+- **k-NN Edge Inference** — exact nearest-neighbour search via a chunked numpy matrix product for fast edge inference on large entity types, with automatic brute-force fallback
 - **Cache-Integrated Graph Health** — `GraphHealth` accepts optional `EntityCache` to eliminate redundant filesystem scans during enrichment
 - **CLI Improvements** — `pmos-brain enrich --dry-run` to preview changes, `--verbose` for detailed progress, enrichment summary output
 
@@ -96,7 +96,7 @@ persons = cache.get_by_type("person")
 ### v3.1.0
 
 - **MCP Server** — Expose your knowledge graph to any MCP-compatible AI client (Cursor, Windsurf, Claude Code) with 5 built-in tools
-- **Vector Search** — ChromaDB + sentence-transformers semantic search across all entities with embedding-based edge inference
+- **Vector Search** — numpy + sentence-transformers semantic search across all entities with embedding-based edge inference
 - **Canonical Resolver** — Multi-format entity resolution (`$id`, slug, path, alias) with fuzzy matching
 - **Enhanced Search** — Inverted index with Porter stemming, O(1) alias lookup, query expansion, and optional semantic fallback
 - **Brain Query** — Combined BRAIN (keyword) + GRAPH (traversal) query interface with relevance scoring
@@ -127,7 +127,7 @@ pip install pmos-brain[ollama]       # Local models
 # With all LLM providers
 pip install pmos-brain[llm]
 
-# With vector search (ChromaDB + sentence-transformers)
+# With vector search (numpy + sentence-transformers)
 pip install pmos-brain[vector]
 
 # With MCP server
@@ -406,7 +406,7 @@ Add to your MCP client config (e.g., Cursor `mcp.json`):
 
 ## Vector Search
 
-ChromaDB-powered semantic search using sentence-transformers embeddings. Enables fuzzy, meaning-based entity discovery.
+Semantic search using sentence-transformers embeddings stored as a flat numpy matrix (exact cosine; ChromaDB was removed in 3.4.0 for CVE-2026-45829). Enables fuzzy, meaning-based entity discovery.
 
 ```python
 from pmos_brain.vector import BrainVectorIndex, VECTOR_AVAILABLE

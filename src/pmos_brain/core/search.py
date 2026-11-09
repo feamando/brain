@@ -232,7 +232,7 @@ class BrainSearch:
         """
         Semantic search using vector embeddings via BrainVectorIndex.
 
-        Falls back gracefully if chromadb/sentence-transformers not installed.
+        Falls back gracefully if numpy/sentence-transformers not installed.
 
         Args:
             query: Natural language search query
